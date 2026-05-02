@@ -38,11 +38,13 @@ export const metadata: Metadata = {
     siteName: 'KPSS Coğrafya',
     locale: 'tr_TR',
     type: 'website',
+    images: [{ url: '/og-default.jpg', width: 1200, height: 630, alt: 'KPSS Coğrafya' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "KPSS Coğrafya - Harita Destekli Eğitim Platformu",
     description: "Türkiye'nin en kapsamlı, harita destekli KPSS coğrafya hazırlık platformu.",
+    images: ['/og-default.jpg'],
   },
   verification: {
     google: '[KOD]',

@@ -14,7 +14,7 @@ export function middleware(request: NextRequest) {
     const subPath = parts.slice(2).join('/');
 
     // İlgili ili bul
-    const il = (iller as any[]).find(i => i.slug === slug);
+    const il = (iller as unknown as { slug: string; bolge_slug: string }[]).find(i => i.slug === slug);
 
     if (il) {
       const bolgeSlug = `${il.bolge_slug}bolgesi`;

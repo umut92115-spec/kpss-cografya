@@ -5,6 +5,9 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'İnteraktif KPSS Coğrafya Haritası | kpsscografya.com',
   description: 'Türkiye coğrafyasını harita üzerinde keşfet. Madenler, tarım, ulaşım, sanayi ve daha fazlası il bazlı görselleştirme ile.',
+  alternates: {
+    canonical: 'https://kpsscografya.com/harita',
+  },
 };
 
 export default function HaritaPage() {
@@ -28,7 +31,7 @@ export default function HaritaPage() {
             İnteraktif <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-400">Coğrafya Atlası</span>
           </h1>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto leading-relaxed">
-            Türkiye'nin zenginliğini harita üzerinde keşfedin. Hangi ilde ne var? Hangi maden nerede çıkar? Her şey tek bir tık uzağınızda.
+            Türkiye&apos;nin zenginliğini harita üzerinde keşfedin. Hangi ilde ne var? Hangi maden nerede çıkar? Her şey tek bir tık uzağınızda.
           </p>
         </div>
 

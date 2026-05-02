@@ -5,6 +5,9 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'KPSS Coğrafya Quiz Modu — Kendini Test Et | kpsscografya.com',
   description: 'KPSS coğrafya konularına göre hazırlanmış interaktif testler. Süreli sınavlar, doğru-yanlış analizleri ve skor tablosu.',
+  alternates: {
+    canonical: 'https://kpsscografya.com/quiz',
+  },
 };
 
 export default function QuizPage() {

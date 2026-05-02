@@ -35,21 +35,34 @@ export async function generateMetadata({
   const data = getIlKonuData(il.slug, konu.slug);
   const superDetay = data?.super_detay;
 
-  if (superDetay) {
-    return {
-      title: superDetay.title,
-      description: superDetay.meta,
-      alternates: {
-        canonical: `https://kpsscografya.com/${params.bolge}/il/${il.slug}/${konu.slug}`,
-      },
-    };
-  }
+  const title = superDetay?.title || `${il.ad} ${konu.baslik} — KPSS Coğrafya`;
+  const description = superDetay?.meta || `${il.ad} ilinde ${konu.baslik.toLowerCase()} konusuna dair KPSS notları.`;
 
   return {
-    title: `${il.ad} ${konu.baslik} — KPSS Coğrafya`,
-    description: `${il.ad} ili ${konu.baslik.toLowerCase()} hakkında KPSS notları ve detaylı bilgiler.`,
+    title,
+    description,
     alternates: {
       canonical: `https://kpsscografya.com/${params.bolge}/il/${il.slug}/${konu.slug}`,
+    },
+    openGraph: {
+      title,
+      description,
+      url: `https://kpsscografya.com/${params.bolge}/il/${il.slug}/${konu.slug}`,
+      siteName: 'kpsscografya.com',
+      locale: 'tr_TR',
+      type: 'article',
+      images: ['/og-default.jpg'],
+    },
+    twitter: { 
+      card: 'summary_large_image', 
+      title,
+      images: ['/og-default.jpg'],
+    },
+    other: {
+      'geo.region': `TR-${String(il.plaka).padStart(2, '0')}`,
+      'geo.placename': `${il.ad}, Türkiye`,
+      'geo.position': `${il.lat};${il.lng}`,
+      'ICBM': `${il.lat}, ${il.lng}`,
     },
   };
 }

@@ -19,7 +19,7 @@ export default function KonularPage() {
             Tüm KPSS Coğrafya <span className="text-harita-mavi">Konuları</span>
           </h1>
           <p className="text-gray-500 text-lg max-w-2xl mx-auto leading-relaxed">
-            Sınavda çıkan tüm başlıklar, "Süper Detay" formatında, güncel veriler ve sınav odaklı özetlerle hazırlandı.
+            Sınavda çıkan tüm başlıklar, &quot;Süper Detay&quot; formatında, güncel veriler ve sınav odaklı özetlerle hazırlandı.
           </p>
         </div>
 

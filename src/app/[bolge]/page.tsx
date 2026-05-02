@@ -27,6 +27,17 @@ export async function generateMetadata({ params }: { params: { bolge: string } }
       siteName: 'kpsscografya.com',
       locale: 'tr_TR',
       type: 'website',
+      images: ['/og-default.jpg'],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${bolge.ad} Bölgesi — KPSS Coğrafya`,
+      images: ['/og-default.jpg'],
+    },
+    other: {
+      'geo.region': 'TR',
+      'geo.placename': `${bolge.ad} Bölgesi, Türkiye`,
+      'language': 'Turkish',
     },
   };
 }
@@ -93,7 +104,7 @@ export default function BolgePage({ params }: { params: { bolge: string } }) {
         <JsonLd
           tip="FAQPage"
           veri={{
-            mainEntity: veriler.faqs.map((f: any) => ({
+            mainEntity: veriler.faqs.map((f: { soru: string; cevap: string }) => ({
               "@type": "Question",
               name: f.soru,
               acceptedAnswer: {

@@ -33,8 +33,8 @@ export function getKonuMatris(konuSlug: string): Record<string, IlKonuData> | nu
     const fileContents = fs.readFileSync(filePath, 'utf8');
     const data: MatrisData = JSON.parse(fileContents);
     return data.iller;
-  } catch (error) {
-    console.error(`Matris verisi okunamadı: ${konuSlug}`, error);
+  } catch (err) {
+    console.error(`Matris verisi okunamadı: ${konuSlug}`, err);
     return null;
   }
 }
@@ -52,7 +52,7 @@ export function getIlOzet(slug: string): string[] | null {
     const fileContents = fs.readFileSync(filePath, 'utf8');
     const data = JSON.parse(fileContents);
     return data[slug] || null;
-  } catch (error) {
+  } catch {
     return null;
   }
 }
@@ -73,7 +73,7 @@ export function getBolgeVerileri(bolgeSlug: string) {
     const fileContents = fs.readFileSync(filePath, 'utf8');
     const data = JSON.parse(fileContents);
     return data[bolgeSlug] || null;
-  } catch (error) {
+  } catch {
     return null;
   }
 }

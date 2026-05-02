@@ -45,10 +45,12 @@ export async function generateMetadata({
       siteName: 'kpsscografya.com',
       locale: 'tr_TR',
       type: 'website',
+      images: ['/og-default.jpg'],
     },
     twitter: {
       card: 'summary_large_image',
       title: `${il.ad} — KPSS Coğrafya`,
+      images: ['/og-default.jpg'],
     },
     other: {
       'geo.region': `TR-${plakaKod}`,

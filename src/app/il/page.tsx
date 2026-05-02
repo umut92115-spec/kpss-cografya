@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   title: "Türkiye İlleri KPSS Coğrafya — 81 İl | kpsscografya.com",
   description:
     "Türkiye'nin tüm 81 iline ait KPSS coğrafya bilgileri: madenler, tarım, iklim, nüfus ve sanayi verileri. Bölgeye göre gruplanmış kapsamlı rehber.",
+  alternates: {
+    canonical: 'https://kpsscografya.com/il',
+  },
 };
 
 // Bölge renk ve ikon eşleştirmesi

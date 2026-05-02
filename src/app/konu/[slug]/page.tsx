@@ -26,7 +26,7 @@ const mdxComponents = {
     const id = String(props.children).toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
     return <h3 id={id} {...props} className="text-xl font-semibold text-gray-800 mt-8 mb-4 scroll-mt-24 flex items-center gap-2" />;
   },
-  img: (props: any) => (
+  img: (props: React.ImgHTMLAttributes<HTMLImageElement>) => (
     <span className="block my-10 group">
       <img 
         {...props} 
@@ -106,10 +106,12 @@ export async function generateMetadata({ params }: { params: { slug: string } })
       siteName: 'kpsscografya.com',
       locale: 'tr_TR',
       type: 'article',
+      images: ['/og-default.jpg'],
     },
     twitter: {
       card: 'summary_large_image',
       title: mdx?.frontmatter?.title || `${konu.baslik} — KPSS Coğrafya`,
+      images: ['/og-default.jpg'],
     },
   };
 }
@@ -208,7 +210,7 @@ export default async function KonuPage({ params }: { params: { slug: string } })
             <div className="relative z-10">
               <h3 className="text-2xl md:text-3xl font-black mb-4">Bölgelere Göre {konu.baslik}</h3>
               <p className="text-blue-100 mb-10 max-w-2xl">
-                {konu.baslik} konusunu Türkiye'nin 7 coğrafi bölgesi bazında, KPSS'de en çok çıkan kritik notlar ve harita analizleriyle incele.
+                {konu.baslik} konusunu Türkiye&apos;nin 7 coğrafi bölgesi bazında, KPSS&apos;de en çok çıkan kritik notlar ve harita analizleriyle incele.
               </p>
               
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
