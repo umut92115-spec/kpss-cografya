@@ -1,0 +1,168 @@
+{
+  "konu": "sanayi",
+  "sorular": [
+    {
+      "id": "gen-118",
+      "soru": "Aşağıdaki sanayi kollarından hangisi 'Ham maddeye Yakınlık' nedeniyle kurulmuştur?",
+      "siklar": ["İstanbul'daki dokuma fabrikaları", "Karabük Demir-Çelik Fabrikası", "Kocaeli Petrol Rafinerisi", "Bursa Otomotiv Fabrikası"],
+      "dogru": "Karabük Demir-Çelik Fabrikası",
+      "aciklama": "Karabük, Zonguldak'taki taş kömürüne (enerji kaynağına) yakınlığı nedeniyle seçilmiştir (Maden de yakındır).",
+      "harita_il": "karabuk",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-119",
+      "soru": "Türkiye'nin en büyük petrol rafinerisi hangisidir?",
+      "siklar": ["İpraş (İzmit)", "Aliağa (İzmir)", "Ataş (Mersin)", "Batman Rafinerisi"],
+      "dogru": "İpraş (İzmit)",
+      "aciklama": "İzmit'teki TÜPRAŞ rafinerisi en büyük kapasiteye sahiptir.",
+      "harita_il": "kocaeli",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-120",
+      "soru": "Samsun'da Bakır İşletmeleri'nin kurulmasının temel nedeni nedir?",
+      "siklar": ["Madenin orada çıkarılması", "Ulaşım (Liman) ve Hinterland genişliği", "Enerji kaynaklarına yakınlık", "İş gücü ucuzluğu"],
+      "dogru": "Ulaşım (Liman) ve Hinterland genişliği",
+      "aciklama": "Samsun'da bakır çıkarılmaz. Kastamonu-Küre'den gelen maden liman ulaşımı için burada işlenir.",
+      "harita_il": "samsun",
+      "zorluk": "zor"
+    },
+    {
+      "id": "gen-158",
+      "soru": "Aşağıdaki sanayi dallarından hangisi Türkiye'nin dış ticaretinde 'En Fazla Gelir' getirendir?",
+      "siklar": ["Gıda", "Otomotiv", "Dokuma", "Madencilik"],
+      "dogru": "Otomotiv",
+      "aciklama": "Otomotiv sektörü yıllardır Türkiye'nin ihracat lideridir.",
+      "harita_il": "bursa",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-160",
+      "soru": "Şeker fabrikalarının genellikle tarım alanlarına yakın kurulmasının nedeni nedir?",
+      "siklar": ["Şeker pancarının çok ağır olması", "Şeker pancarının çabuk bozulması (hasattan sonra hemen işlenmesi gereği)", "İşçi ihtiyacı", "Pazarlama kolaylığı"],
+      "dogru": "Şeker pancarının çabuk bozulması (hasattan sonra hemen işlenmesi gereği)",
+      "aciklama": "Şeker pancarı tarladan söküldükten sonra kısa sürede işlenmelidir, yoksa şeker oranı düşer.",
+      "harita_il": null,
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-167",
+      "soru": "Hangi ilimizde 'Demir-Çelik' fabrikası BULUNMAZ?",
+      "siklar": ["Karabük", "Zonguldak (Ereğli)", "İskenderun", "Antalya"],
+      "dogru": "Antalya",
+      "aciklama": "Büyük fabrikalar Karabük, Ereğli ve İskenderun'dadır.",
+      "harita_il": "antalya",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-168",
+      "soru": "Türkiye'de 'Kağıt Fabrikaları'nın genellikle kıyı illerinde (Giresun, Zonguldak, Muğla) olmasının nedeni nedir?",
+      "siklar": ["Pazara yakınlık", "Su ve Orman varlığı", "İş gücü bolluğu", "Maden varlığı"],
+      "dogru": "Su ve Orman varlığı",
+      "aciklama": "Kağıt üretimi için hem bol odun (orman) hem de çok miktarda su gereklidir.",
+      "harita_il": "giresun",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-198",
+      "soru": "Hangi ilimizde 'Otomotiv' fabrikası BULUNMAZ?",
+      "siklar": ["Bursa", "Kocaeli", "Sakarya", "Hakkari"],
+      "dogru": "Hakkari",
+      "aciklama": "Otomotiv sanayii Marmara ve İç Anadolu'da (Bursa, Kocaeli, Sakarya, Aksaray) yoğunlaşmıştır.",
+      "harita_il": "hakkari",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-361",
+      "soru": "Aşağıdaki sanayi kollarından hangisinin ham maddesi büyük oranda 'Tarım'a dayalı değildir?",
+      "siklar": ["Dokuma", "Gıda", "Seramik", "İçki"],
+      "dogru": "Seramik",
+      "aciklama": "Seramik sanayinin ham maddesi toprak ve mineraldir. Dokuma (Pamuk/Yün), Gıda ve İçki (Tahıl/Meyve) tarıma dayalıdır.",
+      "harita_il": null,
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-362",
+      "soru": "Türkiye'de 'Gemi Yapımı' (Tersane) sanayinin en çok geliştiği kıyı şeridi neresidir?",
+      "siklar": ["Doğu Karadeniz", "Batı Karadeniz", "İzmit Körfezi - Tuzla (Marmara)", "İskenderun Körfezi"],
+      "dogru": "İzmit Körfezi - Tuzla (Marmara)",
+      "aciklama": "Tuzla, Yalova ve Gölcük hatları Türkiye'nin gemi inşa sanayinin kalbidir.",
+      "harita_il": "istanbul",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-363",
+      "soru": "Kırıkkale'de 'Silah ve Mühimmat' sanayinin gelişmesinin temel nedeni nedir?",
+      "siklar": ["Ham maddenin yakın olması", "Güvenlikli iç bölgede olması ve stratejik konum", "Nüfusun fazla olması", "Liman bağlantısı"],
+      "dogru": "Güvenlikli iç bölgede olması ve stratejik konum",
+      "aciklama": "Savunma sanayisi kuruluş yerleri seçilirken genelde saldırılara karşı daha korunaklı olan iç bölgeler tercih edilmiştir.",
+      "harita_il": "kirikkale",
+      "zorluk": "zor"
+    },
+    {
+      "id": "gen-364",
+      "soru": "Aşağıdaki illerden hangisinde 'Şeker Fabrikası' bulunması iklim veya ham madde engeline takılmaz?",
+      "siklar": ["Rize", "Artvin", "Uşak", "Muğla"],
+      "dogru": "Uşak",
+      "aciklama": "Uşak, Türkiye'nin ilk şeker fabrikasının kurulduğu yerdir. Rize ve Artvin gibi aşırı yağışlı yerlerde şeker pancarı verimi düşüktür.",
+      "harita_il": "usak",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-365",
+      "soru": "Kütahya ve Bilecik illeri aşağıdaki sanayi dallarından hangisinde markalaşmıştır?",
+      "siklar": ["Tekstil", "Porselen ve Seramik", "Otomotiv", "Kağıt"],
+      "dogru": "Porselen ve Seramik",
+      "aciklama": "Kütahya ve Bilecik (Bozüyük) porselen ve yer karosu üretiminde dünya çapında merkezlerdir.",
+      "harita_il": "kutahya",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-366",
+      "soru": "Türkiye'de 'Kağıt' sanayinin hammadde yakınlığı nedeniyle en çok hangi bölgemizde yoğunlaşması beklenir?",
+      "siklar": ["İç Anadolu", "Güneydoğu Anadolu", "Karadeniz", "Marmara"],
+      "dogru": "Karadeniz",
+      "aciklama": "Kağıdın ham maddesi ağaçtır, bu nedenle orman zengini Karadeniz (Giresun-Aksu, Zonguldak-Çaycuma vb.) idealdir.",
+      "harita_il": "zonguldak",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-367",
+      "soru": "Petrol rafinerilerinin çoğunun kıyıda (İzmit, İzmir, Mersin) kurulmasının temel nedeni nedir?",
+      "siklar": ["Petrolün denizden çıkarılması", "Ulaşım kolaylığı (İthal petrolün gemilerle gelmesi)", "İklimin uygun olması", "İş gücünün fazlalığı"],
+      "dogru": "Ulaşım kolaylığı (İthal petrolün gemilerle gelmesi)",
+      "aciklama": "Türkiye ihtiyacı olan petrolün büyük kısmını dışarıdan aldığı için rafineriler liman şehirlerine kurulmuştur (Batman istisnadır).",
+      "harita_il": "izmir",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-368",
+      "soru": "Türkiye'de 'Otomotiv' sanayinin ilk fabrikalarının kurulduğu ve günümüzde de devleştiği ilimiz hangisidir?",
+      "siklar": ["İstanbul", "Bursa", "Ankara", "Konya"],
+      "dogru": "Bursa",
+      "aciklama": "Bursa, yan sanayisi ve ana fabrikalarıyla Türkiye'nin otomotiv başkentidir.",
+      "harita_il": "bursa",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-369",
+      "soru": "Hangi sanayi kolu, ürünün bozulabilir olması nedeniyle 'Ham Maddeye Yakınlık' kuralına en sıkı şekilde uyar?",
+      "siklar": ["Dokuma", "Çimento", "Konserve ve Şeker", "Otomotiv"],
+      "dogru": "Konserve ve Şeker",
+      "aciklama": "Şeker pancarı ve sebze-meyve hasattan sonra hızla işlenmelidir, aksi halde bozulur veya verim kaybı yaşanır.",
+      "harita_il": null,
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-370",
+      "soru": "Aşağıdaki illerden hangisi 'Sanayi' şehri olarak nitelendirilemez?",
+      "siklar": ["Denizli", "Gaziantep", "Kayseri", "Muğla"],
+      "dogru": "Muğla",
+      "aciklama": "Muğla bir turizm ve tarım şehridir. Diğerleri gelişmiş sanayi altyapısına sahiptir.",
+      "harita_il": "mugla",
+      "zorluk": "orta"
+    }
+  ]
+}
+

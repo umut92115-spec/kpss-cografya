@@ -1,0 +1,267 @@
+{
+  "konu": "beseri-cografya",
+  "sorular": [
+    {
+      "id": "gen-051",
+      "soru": "Aşağıdaki illerden hangisinin nüfus yoğunluğu diğerlerine göre daha düşüktür?",
+      "siklar": ["İstanbul", "İzmir", "Kocaeli", "Tunceli"],
+      "dogru": "Tunceli",
+      "aciklama": "Tunceli, engebeli yapısı ve iklimi nedeniyle nüfusun çok seyrek olduğu illerden biridir.",
+      "harita_il": "tunceli",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-052",
+      "soru": "Türkiye'de 'Aritmetik Nüfus Yoğunluğu' en yüksek olan bölge hangisidir?",
+      "siklar": ["Ege", "İç Anadolu", "Marmara", "Akdeniz"],
+      "dogru": "Marmara",
+      "aciklama": "Nüfusu en fazla, yüz ölçümü ise küçük olan Marmara bölgesi yoğunlukta birincidir.",
+      "harita_il": "istanbul",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-053",
+      "soru": "Trakya'da yer alan 'Yıldız Dağları' bölümünün seyrek nüfuslu olmasının temel nedeni nedir?",
+      "siklar": ["Sanayinin çok gelişmiş olması", "Ana yollara sapa kalması ve engebe", "İklimin çok soğuk olması", "Su kaynaklarının yetersizliği"],
+      "dogru": "Ana yollara sapa kalması ve engebe",
+      "aciklama": "Yıldız Dağları, Marmara'nın genelinin aksine ulaşım yollarından uzak ve engebeli olduğu için tenhadır.",
+      "harita_il": "kirklareli",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-054",
+      "soru": "Genellikle Akdeniz ve Ege'de görülen, hayvancılık yapan göçebelerin çadırlardan oluşan geçici yerleşmesine ne ad verilir?",
+      "siklar": ["Kom", "Mezra", "Oba", "Divan"],
+      "dogru": "Oba",
+      "aciklama": "Oba, özellikle Yörük kültüründe yaygın olan göçebe hayvancılık yerleşmesidir.",
+      "harita_il": null,
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-055",
+      "soru": "Batı Karadeniz'de (Bolu, Kastamonu) yaygın olan, birkaç mahallenin birleşmesiyle oluşan köy altı yerleşmesi hangisidir?",
+      "siklar": ["Divan", "Dalyan", "Ağıl", "Dam"],
+      "dogru": "Divan",
+      "aciklama": "Divan yerleşmeleri Batı Karadeniz'e özgüdür.",
+      "harita_il": "bolu",
+      "zorluk": "zor"
+    },
+    {
+      "id": "gen-115",
+      "soru": "Türkiye'de 'Fizyolojik Nüfus Yoğunluğu' (Toplam Nüfus / Tarım Alanı) hangi ilde en yüksektir?",
+      "siklar": ["Konya", "Şanlıurfa", "İstanbul", "Sivas"],
+      "dogru": "İstanbul",
+      "aciklama": "İstanbul'da nüfus devasa, tarım alanı ise çok kısıtlıdır. Bu yüzden fizyolojik yoğunluk çok yüksektir.",
+      "harita_il": "istanbul",
+      "zorluk": "zor"
+    },
+    {
+      "id": "gen-116",
+      "soru": "Aşağıdakilerden hangisi Türkiye'nin 'Genç ve Dinamik' bir nüfusa sahip olduğunun kanıtıdır?",
+      "siklar": ["Nüfus miktarının fazla olması", "Kentsel nüfus oranının yüksek olması", "Nüfus piramidinin tabanının geniş olması", "Okuryazar oranının artması"],
+      "dogru": "Nüfus piramidinin tabanının geniş olması",
+      "aciklama": "Piramidin tabanının genişliği çocuk ve genç nüfusun fazla olduğunu gösterir.",
+      "harita_il": null,
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-117",
+      "soru": "Genellikle Güneydoğu Anadolu'da görülen, tarım ve hayvancılık yapılan köye bağlı kalıcı mahallelere ne ad verilir?",
+      "siklar": ["Mezra", "Kom", "Oba", "Ağıl"],
+      "dogru": "Mezra",
+      "aciklama": "Mezralar genellikle tarım ağırlıklı, kalıcı köy altı yerleşmeleridir.",
+      "harita_il": "diyarbakir",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-146",
+      "soru": "Aşağıdakilerden hangisi bir 'Mevsimlik Göç' türü değildir?",
+      "siklar": ["Yaylacılık", "Turizm amaçlı kıyıya gidiş", "Fındık toplamak için Karadeniz'e gidiş", "Beyin göçü"],
+      "dogru": "Beyin göçü",
+      "aciklama": "Beyin göçü dış göçtür ve genellikle kalıcıdır.",
+      "harita_il": null,
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-147",
+      "soru": "Türkiye'de 'Kentsel Nüfus' oranı yaklaşık yüzde kaçtır?",
+      "siklar": ["%50", "%75", "%93", "%99"],
+      "dogru": "%93",
+      "aciklama": "Türkiye nüfusunun büyük çoğunluğu artık il ve ilçe merkezlerinde yaşamaktadır.",
+      "harita_il": null,
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-179",
+      "soru": "Türkiye'de 'Nüfus Artış Hızı'nın son yıllarda düşmesinin temel nedeni nedir?",
+      "siklar": ["Ölüm oranlarının artması", "Dış göçlerin azalması", "Eğitim seviyesinin artması ve kadının iş hayatına girmesi", "Savaşlar"],
+      "dogru": "Eğitim seviyesinin artması ve kadının iş hayatına girmesi",
+      "aciklama": "Sosyo-ekonomik gelişim doğum oranlarını düşürmüştür.",
+      "harita_il": null,
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-180",
+      "soru": "Aşağıdaki şehirlerden hangisi 'Büyükşehir' statüsünde değildir?",
+      "siklar": ["Gaziantep", "Kayseri", "Bilecik", "Ordu"],
+      "dogru": "Bilecik",
+      "aciklama": "Bilecik nüfusu 750 binin altında olduğu için büyükşehir değildir.",
+      "harita_il": "bilecik",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-181",
+      "soru": "Türkiye'de 'Tarımsal Nüfus Yoğunluğu'nun (Çiftçi / Tarım Alanı) en yüksek olduğu yer neresidir?",
+      "siklar": ["İç Anadolu", "Güneydoğu Anadolu", "Doğu Karadeniz", "Marmara"],
+      "dogru": "Doğu Karadeniz",
+      "aciklama": "Tarım alanı çok dar, ancak çiftçi sayısı fazladır (dağlık arazi).",
+      "harita_il": "rize",
+      "zorluk": "zor"
+    },
+    {
+      "id": "gen-200",
+      "soru": "Türkiye'de 'Aritmetik Nüfus Yoğunluğu' en düşük olan ilimiz hangisidir?",
+      "siklar": ["Bayburt", "Tunceli", "Artvin", "Ardahan"],
+      "dogru": "Tunceli",
+      "aciklama": "Tunceli, km2 başına düşen insan sayısı bakımından Türkiye'nin en tenha ilidir.",
+      "harita_il": "tunceli",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-291",
+      "soru": "Türkiye'de 'Nüfus Piramidi'nin tabanının son yıllarda daralmaya başlaması neyin kanıtıdır?",
+      "siklar": ["Ölüm oranlarının arttığının", "Doğum oranlarının azaldığının", "Ortalama ömrün kısaldığının", "Dış göçlerin arttığının"],
+      "dogru": "Doğum oranlarının azaldığının",
+      "aciklama": "Piramidin tabanı çocuk nüfusu temsil eder. Tabanın daralması yeni doğan çocuk sayısının azaldığını gösterir.",
+      "harita_il": null,
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-292",
+      "soru": "Aşağıdaki bölgelerden hangisi 'Nüfus Miktarı' bakımından son sırada yer alır?",
+      "siklar": ["Karadeniz", "İç Anadolu", "Güneydoğu Anadolu", "Doğu Anadolu"],
+      "dogru": "Doğu Anadolu",
+      "aciklama": "Yüz ölçümü en büyük olmasına rağmen, iklim ve yer şekilleri nedeniyle Doğu Anadolu en az nüfuslu bölgemizdir.",
+      "harita_il": null,
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-293",
+      "soru": "Marmara Bölgesi'nde nüfusun en seyrek olduğu yer neresidir?",
+      "siklar": ["Kocaeli Platosu", "Yıldız Dağları Bölümü", "Ergene Ovası", "Güney Marmara"],
+      "dogru": "Yıldız Dağları Bölümü",
+      "aciklama": "Yıldız Dağları (Kırklareli), engebeli yapısı ve ana yollara uzak olması nedeniyle Marmara'nın en tenha yeridir.",
+      "harita_il": "kirklareli",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-294",
+      "soru": "Hakkari ve çevresinin seyrek nüfuslu olmasında aşağıdakilerden hangisi etkili DEĞİLDİR?",
+      "siklar": ["Yer şekillerinin dağlık olması", "Ulaşım imkanlarının kısıtlı olması", "İklimin sert karasal olması", "Toprakların tuzlu ve verimsiz olması"],
+      "dogru": "Toprakların tuzlu ve verimsiz olması",
+      "aciklama": "Hakkari'de temel sorun yer şekilleri ve iklimdir. Toprak yapısı (tuzluluk) İç Anadolu'nun sorunudur.",
+      "harita_il": "hakkari",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-295",
+      "soru": "Türkiye'de 'Beyin Göçü' en çok hangi ülkelere doğru gerçekleşmektedir?",
+      "siklar": ["Orta Doğu ülkeleri", "Orta Asya ülkeleri", "Avrupa ve Kuzey Amerika", "Afrika ülkeleri"],
+      "dogru": "Avrupa ve Kuzey Amerika",
+      "aciklama": "Eğitimli nüfus daha iyi çalışma şartları için gelişmiş batı ülkelerine göç etmektedir.",
+      "harita_il": null,
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-296",
+      "soru": "Aşağıdaki şehirlerden hangisi 'Sanayi' fonksiyonuna bağlı olarak göç almaz?",
+      "siklar": ["Kocaeli", "Bursa", "Artvin", "Manisa"],
+      "dogru": "Artvin",
+      "aciklama": "Artvin bir sanayi şehri değildir, daha çok madencilik ve enerji (baraj) şehri özelliğindedir.",
+      "harita_il": "artvin",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-297",
+      "soru": "Türkiye'de 'Okuryazarlık' oranının en yüksek olduğu bölge hangisidir?",
+      "siklar": ["İç Anadolu", "Ege", "Marmara", "Akdeniz"],
+      "dogru": "Marmara",
+      "aciklama": "Eğitim imkanlarının en gelişmiş olduğu Marmara bölgesi okuryazarlıkta liderdir.",
+      "harita_il": null,
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-298",
+      "soru": "Genellikle Karadeniz yaylalarında görülen ve yazın hayvancılık için çıkılan yerleşmelere ne ad verilir?",
+      "siklar": ["Mezra", "Kom", "Yayla", "Ağıl"],
+      "dogru": "Yayla",
+      "aciklama": "Yaylacılık Türkiye'nin hemen her dağlık bölgesinde (Karadeniz, Akdeniz, Doğu Anadolu) yaygındır.",
+      "harita_il": "trabzon",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-299",
+      "soru": "Ege Bölgesi'nde kıyıdaki şehirlerin (İzmir, Aydın) iç kesimdeki şehirlere (Afyon, Uşak) göre daha kalabalık olmasının sebebi nedir?",
+      "siklar": ["Daha çok yağış alması", "Ticaret, sanayi ve turizm imkanlarının fazlalığı", "Toprakların daha geniş olması", "Yerel saatin daha ileri olması"],
+      "dogru": "Ticaret, sanayi ve turizm imkanlarının fazlalığı",
+      "aciklama": "Liman şehri olmaları ve iklimin yumuşaklığı ekonomik faaliyetleri, dolayısıyla nüfusu artırmıştır.",
+      "harita_il": "izmir",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-300",
+      "soru": "Türkiye'de 'Nüfus Sayımları' günümüzde hangi yöntemle yapılmaktadır?",
+      "siklar": ["Sokağa çıkma yasağı uygulanarak", "Adrese Dayalı Nüfus Kayıt Sistemi (ADNKS)", "Muhtarların beyanıyla", "Uydudan izlenerek"],
+      "dogru": "Adrese Dayalı Nüfus Kayıt Sistemi (ADNKS)",
+      "aciklama": "Artık dijital sistem üzerinden anlık ve sürekli kayıt tutulmaktadır.",
+      "harita_il": null,
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-301",
+      "soru": "Aşağıdaki yerleşmelerden hangisi 'Geçici' bir yerleşmedir?",
+      "siklar": ["Köy", "Mahalle", "Divan", "Ağıl"],
+      "dogru": "Ağıl",
+      "aciklama": "Ağıl, Kom, Oba, Dam, Yayla geçicidir. Köy, Mahalle, Mezra, Divan kalıcıdır.",
+      "harita_il": null,
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-302",
+      "soru": "Kırsal kesimde evlerin birbirine uzak ve dağınık olduğu 'Dağınık Yerleşme' tipi en çok hangi bölgede görülür?",
+      "siklar": ["İç Anadolu", "Güneydoğu Anadolu", "Karadeniz", "Ege"],
+      "dogru": "Karadeniz",
+      "aciklama": "Su kaynaklarının bolluğu ve yer şekillerinin engebeli olması evlerin birbirinden uzak yapılmasına neden olmuştur.",
+      "harita_il": "rize",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-303",
+      "soru": "İç Anadolu ve Güneydoğu Anadolu'da 'Toplu Yerleşme' (evlerin bir arada olması) görülmesinin temel nedeni nedir?",
+      "siklar": ["Güvenlik ihtiyacı", "Su kaynaklarının kısıtlı olması", "Tarım alanlarının çok geniş olması", "İklimin çok sıcak olması"],
+      "dogru": "Su kaynaklarının kısıtlı olması",
+      "aciklama": "İnsanlar su kuyularının veya çeşmelerin etrafında toplanmak zorunda kaldığı için toplu yerleşme gelişmiştir.",
+      "harita_il": "konya",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-304",
+      "soru": "Genellikle İç Anadolu'da ev yapımında 'Kerpiç' (kurutulmuş çamur) kullanılmasının nedeni nedir?",
+      "siklar": ["Modern yapı malzemelerinin bulunmaması", "İklimin kurak ve ağaç varlığının az olması", "Kerpicin depreme çok dayanıklı olması", "Kerpicin çok ucuz olması"],
+      "dogru": "İklimin kurak ve ağaç varlığının az olması",
+      "aciklama": "Doğal çevrede en çok hangi malzeme bulunuyorsa o kullanılır (Karadeniz-Ahşap, İç Anadolu-Kerpiç, Akdeniz-Taş).",
+      "harita_il": "sanliurfa",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-305",
+      "soru": "Muğla çevresinde yer alan 'Dam' yerleşmelerinin temel ekonomik faaliyeti nedir?",
+      "siklar": ["Tarım", "Hayvancılık", "Balıkçılık", "Madencilik"],
+      "dogru": "Hayvancılık",
+      "aciklama": "Dam yerleşmeleri Ege ve Göller Yöresinde küçükbaş hayvancılık için kullanılan geçici yerleşmelerdir.",
+      "harita_il": "mugla",
+      "zorluk": "zor"
+    }
+  ]
+}
+

@@ -1,0 +1,41 @@
+{
+  "konu": "ticaret",
+  "sorular": [
+    {
+      "id": "gen-094",
+      "soru": "Aşağıdakilerden hangisi Türkiye'nin ihraç ettiği (sattığı) ürünlerden biri değildir?",
+      "siklar": ["Beyaz eşya", "Tekstil", "Petrol", "Bor"],
+      "dogru": "Petrol",
+      "aciklama": "Türkiye petrol ihtiyacının %90'ından fazlasını ithal eder.",
+      "harita_il": null,
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-145",
+      "soru": "Mermer ihracatında Türkiye'nin en önemli merkezi hangisidir?",
+      "siklar": ["Afyonkarahisar", "Antalya", "Samsun", "Erzurum"],
+      "dogru": "Afyonkarahisar",
+      "aciklama": "Afyon mermeri kalitesiyle dünya markasıdır.",
+      "harita_il": "afyonkarahisar",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-156",
+      "soru": "Aşağıdakilerden hangisi bir 'Göl' değil, 'Liman' ismidir?",
+      "siklar": ["Mogarı", "Sapanca", "Ambarlı", "Terkos"],
+      "dogru": "Ambarlı",
+      "aciklama": "Ambarlı (İstanbul) Türkiye'nin en büyük konteyner limanlarından biridir.",
+      "harita_il": "istanbul",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-196",
+      "soru": "Türkiye'nin en çok ithal ettiği (aldığı) maden ürünü hangisidir?",
+      "siklar": ["Demir", "Mermer", "Petrol ve Doğal Gaz", "Bor"],
+      "dogru": "Petrol ve Doğal Gaz",
+      "aciklama": "Enerji ithalatı Türkiye'nin en büyük ithalat kalemidir.",
+      "harita_il": null,
+      "zorluk": "kolay"
+    }
+  ]
+}

@@ -1,0 +1,441 @@
+{
+  "meta": {
+    "konu": "Türkiye'nin Dağları",
+    "aciklama": "Türkiye dağları oluşum şekillerine göre üç gruba ayrılır: kıvrım, kırıklık ve volkanik dağlar.",
+    "kpss_notu": "Volkanik dağların dışındaki tüm dağlar kırılma ve kıvrılma ile oluşmuştur."
+  },
+  "kivirim": {
+    "aciklama": "Levhaların yatay baskısıyla esnek arazi katmanlarının kıvrılmasıyla oluşur. Türkiye'deki dağların büyük çoğunluğu kıvrım dağıdır.",
+    "ozellikler": [
+      "Kıyıya paralel sıradağlar şeklinde uzanır",
+      "Yükseltileri fazladır",
+      "Karadeniz ve Akdeniz kıyılarında egemendir",
+      "Kıta sahanlığı dardır, falez oluşumu fazla",
+      "Lagün ve delta oluşumu zordur",
+      "Buzul şekillerine rastlanır",
+      "Yaylacılık faaliyetleri yaygındır"
+    ],
+    "gruplar": [
+      {
+        "grup": "Kuzey Anadolu (Karadeniz) Dağları",
+        "bolge": "Karadeniz",
+        "daglar": [
+          {
+            "ad": "Karçal Dağları",
+            "il": [
+              "Artvin"
+            ],
+            "ozellik": "Doğu Karadeniz, en yüksek zirvesi Karçal",
+            "lat": 41.1,
+            "lng": 42.15
+          },
+          {
+            "ad": "Kaçkar Dağları",
+            "il": [
+              "Rize",
+              "Artvin"
+            ],
+            "yukseklik": 3937,
+            "ozellik": "En yüksek kıvrım dağı, buzullar var, rafting",
+            "lat": 40.85,
+            "lng": 41.1
+          },
+          {
+            "ad": "Kop Dağları",
+            "il": [
+              "Bayburt",
+              "Erzurum"
+            ],
+            "ozellik": "Doğu Karadeniz geçidi"
+          },
+          {
+            "ad": "Mescit Dağları",
+            "il": [
+              "Gümüşhane"
+            ],
+            "ozellik": "Doğu Karadeniz"
+          },
+          {
+            "ad": "Canik (Ganik) Dağları",
+            "il": [
+              "Samsun",
+              "Ordu"
+            ],
+            "ozellik": "Orta Karadeniz, yükseltisi 2000m'nin altında, kıyıya uzak"
+          },
+          {
+            "ad": "Köroğlu Dağları",
+            "il": [
+              "Bolu",
+              "Ankara"
+            ],
+            "yukseklik": 2399,
+            "ozellik": "Batı Karadeniz",
+            "lat": 40.52,
+            "lng": 31.85
+          },
+          {
+            "ad": "Küre Dağları",
+            "il": [
+              "Kastamonu",
+              "Bartın"
+            ],
+            "ozellik": "Batı Karadeniz"
+          },
+          {
+            "ad": "Ilgaz Dağları",
+            "il": [
+              "Kastamonu",
+              "Çankırı"
+            ],
+            "yukseklik": 2587,
+            "ozellik": "Batı Karadeniz",
+            "lat": 41.07,
+            "lng": 33.72
+          },
+          {
+            "ad": "Bolu Dağları",
+            "il": [
+              "Bolu"
+            ],
+            "ozellik": "Batı Karadeniz",
+            "lat": 40.65,
+            "lng": 31.9
+          },
+          {
+            "ad": "Yıldız Dağları",
+            "il": [
+              "Kırklareli"
+            ],
+            "yukseklik": 1031,
+            "ozellik": "Trakya bölümü, Balkanlara bağlanır",
+            "lat": 41.8,
+            "lng": 27.3
+          }
+        ]
+      },
+      {
+        "grup": "Güney Anadolu (Toros) Dağları",
+        "bolge": "Akdeniz",
+        "daglar": [
+          {
+            "ad": "Tahtalı Dağı",
+            "il": [
+              "Antalya"
+            ],
+            "yukseklik": 2366,
+            "ozellik": "Batı Toroslar",
+            "lat": 36.48,
+            "lng": 30.48
+          },
+          {
+            "ad": "Bey Dağları",
+            "il": [
+              "Antalya"
+            ],
+            "yukseklik": 3086,
+            "ozellik": "Batı Toroslar",
+            "lat": 36.65,
+            "lng": 30.38
+          },
+          {
+            "ad": "Geyik Dağları",
+            "il": [
+              "Antalya"
+            ],
+            "ozellik": "Batı Toroslar"
+          },
+          {
+            "ad": "Bolkar Dağları",
+            "il": [
+              "Mersin",
+              "Niğde"
+            ],
+            "yukseklik": 3524,
+            "ozellik": "Orta Toroslar",
+            "lat": 37.4,
+            "lng": 34.55
+          },
+          {
+            "ad": "Aladağlar",
+            "il": [
+              "Adana",
+              "Kayseri",
+              "Niğde"
+            ],
+            "yukseklik": 3756,
+            "ozellik": "Orta Toroslar, buzul gölleri",
+            "lat": 38,
+            "lng": 35.15
+          },
+          {
+            "ad": "Binboğa Dağları",
+            "il": [
+              "Kahramanmaraş",
+              "Adıyaman"
+            ],
+            "yukseklik": 2254,
+            "ozellik": "Güneydoğu Toroslar"
+          },
+          {
+            "ad": "Cilo Dağları",
+            "il": [
+              "Hakkari"
+            ],
+            "yukseklik": 4135,
+            "ozellik": "En yüksek kıvrım dağı grubumuz",
+            "lat": 37.47,
+            "lng": 44.02
+          },
+          {
+            "ad": "Sat Dağları",
+            "il": [
+              "Hakkari"
+            ],
+            "ozellik": "Güneydoğu Toroslar"
+          },
+          {
+            "ad": "Sultan Dağları",
+            "il": [
+              "Afyon",
+              "Konya"
+            ],
+            "ozellik": "İç Batı Anadolu",
+            "lat": 38.28,
+            "lng": 31.45
+          },
+          {
+            "ad": "Dedegöl Dağları",
+            "il": [
+              "Isparta"
+            ],
+            "yukseklik": 2992,
+            "ozellik": "",
+            "lat": 37.68,
+            "lng": 31.25
+          }
+        ]
+      },
+      {
+        "grup": "İç Anadolu ve Doğu Anadolu",
+        "bolge": "Çeşitli",
+        "daglar": [
+          {
+            "ad": "Karçal Dağları",
+            "il": [
+              "Artvin"
+            ],
+            "ozellik": "",
+            "lat": 41.1,
+            "lng": 42.15
+          }
+        ]
+      }
+    ]
+  },
+  "kiriklik": {
+    "aciklama": "Levhaların yatay baskısıyla sert arazilerin kırılıp çökmesiyle oluşur. Çöken kısım graben (ova), yüksekte kalan kısım horst (dağ) olur.",
+    "ezber_kodu": "KAZ MADRA YUNT BOZ AYIM (MENTEŞE) AMANOS",
+    "ozellikler": [
+      "Ege'de kıyıya DİK uzanır (Menteşe hariç)",
+      "Yükseltileri azdır",
+      "Koy, körfez, ada fazladır",
+      "Kıta sahanlığı geniştir",
+      "Delta ve lagün oluşumu kolaydır",
+      "Falez azdır",
+      "Hinterlant güçlüdür, iç kesimlere ulaşım kolaydır",
+      "Yaylacılık faaliyetleri gelişmemiştir"
+    ],
+    "daglar": [
+      {
+        "ad": "Kaz Dağları (Ida)",
+        "il": [
+          "Balıkesir",
+          "Çanakkale"
+        ],
+        "yukseklik": 1774,
+        "ozellik": "Milli Park, kıyıya dik",
+        "lat": 39.72,
+        "lng": 26.52
+      },
+      {
+        "ad": "Madra Dağı",
+        "il": [
+          "Balıkesir",
+          "İzmir"
+        ],
+        "yukseklik": 1339,
+        "ozellik": "Kıyıya dik",
+        "lat": 39.4,
+        "lng": 27.22
+      },
+      {
+        "ad": "Yunt Dağı",
+        "il": [
+          "Manisa"
+        ],
+        "yukseklik": 1072,
+        "ozellik": "Kıyıya dik",
+        "lat": 38.95,
+        "lng": 27.52
+      },
+      {
+        "ad": "Bozdağlar",
+        "il": [
+          "İzmir",
+          "Manisa"
+        ],
+        "yukseklik": 2159,
+        "ozellik": "Kıyıya dik",
+        "lat": 38.32,
+        "lng": 28.35
+      },
+      {
+        "ad": "Aydın Dağları",
+        "il": [
+          "Aydın",
+          "İzmir"
+        ],
+        "yukseklik": 1702,
+        "ozellik": "Kıyıya dik",
+        "lat": 37.85,
+        "lng": 28.05
+      },
+      {
+        "ad": "Menteşe Dağları",
+        "il": [
+          "Muğla"
+        ],
+        "ozellik": "Kıyıya PARALEL uzanır, diğerlerinden farklı",
+        "lat": 37.1,
+        "lng": 28.5
+      },
+      {
+        "ad": "Amanos Dağları (Nur Dağları)",
+        "il": [
+          "Hatay",
+          "Osmaniye"
+        ],
+        "yukseklik": 2240,
+        "ozellik": "Kıyıya dik, Hatay'da"
+      }
+    ]
+  },
+  "volkanik": {
+    "aciklama": "Magmanın yüzeye çıkarak (volkanik patlama) veya katılaşarak oluşturduğu dağlardır.",
+    "ozellikler": [
+      "Zirveleri krater şeklindedir",
+      "Bazı zirvelerinde krater gölü bulunur",
+      "Lav akışı geniş alana yayıldığında (Karacadağ) alçak ama geniş arazi oluşur"
+    ],
+    "gruplar": [
+      {
+        "grup": "Doğu Anadolu Volkanik Dağları",
+        "ezber": "Ağrı Tendürek Süphan Nemrut — Van Gölü'nün batısında KD-GB hattında",
+        "daglar": [
+          {
+            "ad": "Ağrı Dağı",
+            "il": [
+              "Ağrı",
+              "Iğdır"
+            ],
+            "yukseklik": 5137,
+            "ozellik": "Türkiye'nin EN yüksek noktası, iki zirveli",
+            "lat": 39.7,
+            "lng": 44.3
+          },
+          {
+            "ad": "Tendürek Dağı",
+            "il": [
+              "Ağrı",
+              "Van"
+            ],
+            "yukseklik": 3542,
+            "ozellik": "",
+            "lat": 38.95,
+            "lng": 43.82
+          },
+          {
+            "ad": "Süphan Dağı",
+            "il": [
+              "Bitlis",
+              "Van"
+            ],
+            "yukseklik": 4058,
+            "ozellik": "Türkiye'nin 3. yüksek dağı",
+            "lat": 38.92,
+            "lng": 42.82
+          },
+          {
+            "ad": "Nemrut Dağı (Van)",
+            "il": [
+              "Bitlis"
+            ],
+            "yukseklik": 2935,
+            "ozellik": "Zirvesinde Nemrut Krater Gölü var — Adıyaman Nemrut ile karıştırma!",
+            "lat": 38.65,
+            "lng": 42.22
+          }
+        ]
+      },
+      {
+        "grup": "İç Anadolu Volkanik Dağları",
+        "ezber": "Erciyes Hasan Melendiz Karacadağ Karadağ",
+        "daglar": [
+          {
+            "ad": "Erciyes Dağı",
+            "il": [
+              "Kayseri"
+            ],
+            "yukseklik": 3917,
+            "ozellik": "Kayseri'nin simgesi, kayak merkezi",
+            "lat": 38.53,
+            "lng": 35.45
+          },
+          {
+            "ad": "Hasan Dağı",
+            "il": [
+              "Aksaray",
+              "Niğde"
+            ],
+            "yukseklik": 3268,
+            "ozellik": "",
+            "lat": 38.13,
+            "lng": 34.17
+          },
+          {
+            "ad": "Melendiz Dağı",
+            "il": [
+              "Niğde"
+            ],
+            "yukseklik": 2963,
+            "ozellik": "",
+            "lat": 38.05,
+            "lng": 34.52
+          },
+          {
+            "ad": "Karacadağ",
+            "il": [
+              "Diyarbakır",
+              "Şanlıurfa"
+            ],
+            "yukseklik": 1957,
+            "ozellik": "Lavlar akışkan → yükseltisi az ama kapladığı alan geniş",
+            "lat": 37.68,
+            "lng": 39.82
+          },
+          {
+            "ad": "Karadağ",
+            "il": [
+              "Konya"
+            ],
+            "yukseklik": 2271,
+            "ozellik": "",
+            "lat": 37.88,
+            "lng": 33.3
+          }
+        ]
+      }
+    ]
+  }
+}

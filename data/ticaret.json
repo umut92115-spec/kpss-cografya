@@ -1,0 +1,25 @@
+{
+  "meta": {
+    "konu": "Türkiye'de Ticaret",
+    "aciklama": "Türkiye'nin dış ticaret merkezleri, limanları ve ticaret ortakları."
+  },
+  "ticaret_merkezleri": [
+    { "ad": "İstanbul", "ozellik": "Türkiye'nin ticaret merkezi. Ambarlı Limanı ile en büyük konteyner hacmi.", "lat": 41.01, "lng": 28.97, "tip": "İhracat/İthalat" },
+    { "ad": "Kocaeli", "ozellik": "Sanayi ve transit ticaret merkezi. Liman şehri.", "lat": 40.76, "lng": 29.92, "tip": "Sanayi İhracat" },
+    { "ad": "Bursa", "ozellik": "Otomotiv ve tekstil ihracatının kalbi.", "lat": 40.18, "lng": 29.06, "tip": "Sanayi İhracat" },
+    { "ad": "İzmir", "ozellik": "Ege'nin ihracat kapısı. Alsancak Limanı.", "lat": 38.42, "lng": 27.14, "tip": "Tarım/Sanayi" },
+    { "ad": "Mersin", "ozellik": "En büyük ticaret limanlarından biri. Serbest bölge merkezi.", "lat": 36.81, "lng": 34.64, "tip": "Liman/Transit" },
+    { "ad": "Gaziantep", "ozellik": "Güneydoğu'nun ihracat devi. Halı ve gıda ihracatı.", "lat": 37.06, "lng": 37.38, "tip": "Sanayi" }
+  ],
+  "serbest_bolgeler": [
+    { "ad": "Mersin Serbest Bölge", "ozellik": "Türkiye'nin ilk serbest bölgesi.", "lat": 36.78, "lng": 34.68 },
+    { "ad": "Antalya Serbest Bölge", "ozellik": "Yat yapımı ve lüks üretim merkezi.", "lat": 36.85, "lng": 30.60 },
+    { "ad": "Ege Serbest Bölge (ESBAŞ)", "ozellik": "İzmir'deki yüksek teknoloji odaklı bölge.", "lat": 38.33, "lng": 27.12 }
+  ],
+  "dis_ticaret_verileri": {
+    "en_cok_ihracat": ["Almanya", "ABD", "Irak", "İngiltere", "İtalya"],
+    "en_cok_ithalat": ["Rusya", "Çin", "Almanya", "İsviçre", "İtalya"],
+    "en_fazla_ihracat_kalemi": "Motorlu Kara Taşıtları (Otomotiv)",
+    "en_fazla_ithalat_kalemi": "Mineral Yakıtlar ve Yağlar (Enerji)"
+  }
+}

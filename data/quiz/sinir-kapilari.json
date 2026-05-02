@@ -1,0 +1,168 @@
+{
+  "konu": "sinir-kapilari",
+  "sorular": [
+    {
+      "id": "gen-056",
+      "soru": "Türkiye'nin en uzun kara sınırı hangi ülke iledir?",
+      "siklar": ["İran", "Irak", "Suriye", "Yunanistan"],
+      "dogru": "Suriye",
+      "aciklama": "Suriye sınırı yaklaşık 911 km ile en uzun sınırımızdır.",
+      "harita_il": "hatay",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-057",
+      "soru": "Türkiye'nin en eski (değişmeyen) kara sınırı hangi ülke iledir?",
+      "siklar": ["İran", "Bulgaristan", "Gürcistan", "Ermenistan"],
+      "dogru": "İran",
+      "aciklama": "1639 Kasr-ı Şirin Antlaşması ile çizilen İran sınırı o günden beri hemen hemen hiç değişmemiştir.",
+      "harita_il": "van",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-058",
+      "soru": "Avrupa'ya açılan en önemli kara sınır kapımız olan 'Kapıkule' hangi ilimizdedir?",
+      "siklar": ["Kırklareli", "Tekirdağ", "Edirne", "Çanakkale"],
+      "dogru": "Edirne",
+      "aciklama": "Kapıkule (Bulgaristan sınırı) Edirne ilindedir.",
+      "harita_il": "edirne",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-084",
+      "soru": "Aşağıdakilerden hangisi Türkiye'nin sınır kapısı paylaştığı ülkelerden biri değildir?",
+      "siklar": ["Suriye", "Rusya", "İran", "Bulgaristan"],
+      "dogru": "Rusya",
+      "aciklama": "Türkiye'nin Rusya ile kara sınırı yoktur.",
+      "harita_il": null,
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-085",
+      "soru": "Irak ile ticaretimizde en önemli paya sahip olan sınır kapımız hangisidir?",
+      "siklar": ["Cilvegözü", "Habur", "Gürbulak", "Sarp"],
+      "dogru": "Habur",
+      "aciklama": "Habur (Şırnak) Irak'a açılan can damarıdır.",
+      "harita_il": "sirnak",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-143",
+      "soru": "Türkiye'nin en uzun sınır kapısı hangisidir (Suriye sınırı)?",
+      "siklar": ["Cilvegözü", "Öncüpınar", "Akçakale", "Nusaybin"],
+      "dogru": "Cilvegözü",
+      "aciklama": "Cilvegözü (Hatay) Suriye ile olan en yoğun geçiş noktalarından biridir.",
+      "harita_il": "hatay",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-151",
+      "soru": "Aşağıdakilerden hangisi Türkiye'nin komşularından biri olan 'Nahçivan' ile sınırımız olan ildir?",
+      "siklar": ["Ağrı", "Iğdır", "Van", "Hakkari"],
+      "dogru": "Iğdır",
+      "aciklama": "Iğdır-Dilucu sınır kapısı Nahçivan'a açılır.",
+      "harita_il": "igdir",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-199",
+      "soru": "Türkiye'nin 'En Doğusu'ndaki sınır kapımız hangisidir?",
+      "siklar": ["Kapıkule", "İpsala", "Gürbulak", "Sarp"],
+      "dogru": "Gürbulak",
+      "aciklama": "Gürbulak (Ağrı) İran sınırındadır ve en doğudaki büyük kapılarımızdandır.",
+      "harita_il": "agri",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-371",
+      "soru": "Gürcistan ile bağlantımızı sağlayan ve Doğu Karadeniz ticaretinde hayati öneme sahip sınır kapısı hangisidir?",
+      "siklar": ["Sarp", "Türkgözü", "Çıldır-Aktaş", "Dilucu"],
+      "dogru": "Sarp",
+      "aciklama": "Artvin-Hopa üzerinden Gürcistan'a açılan Sarp Sınır Kapısı, Kafkasya ticaretinin can damarıdır.",
+      "harita_il": "artvin",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-372",
+      "soru": "Türkiye'nin en uzun sınır hattına sahip olduğu ülke hangisidir?",
+      "siklar": ["Yunanistan", "Irak", "İran", "Suriye"],
+      "dogru": "Suriye",
+      "aciklama": "Suriye sınırı yaklaşık 911 km ile en uzun kara sınırımızdır.",
+      "harita_il": "hatay",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-373",
+      "soru": "Irak ile ticaretimizde en yüksek işlem hacmine sahip olan sınır kapısı hangisidir?",
+      "siklar": ["Habur", "Üzümlü", "Derecik", "Karkamış"],
+      "dogru": "Habur",
+      "aciklama": "Şırnak-Silopi'de yer alan Habur Sınır Kapısı, Türkiye'nin en işlek ve stratejik kapılarından biridir.",
+      "harita_il": "sirnak",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-374",
+      "soru": "Bulgaristan ile demir yolu bağlantımızı sağlayan sınır kapısı hangisidir?",
+      "siklar": ["Kapıkule", "Hamzabeyli", "Dereköy", "İpsala"],
+      "dogru": "Kapıkule",
+      "aciklama": "Kapıkule (Edirne) hem kara yolu hem de demir yolu geçişine imkan veren Avrupa'ya açılan en büyük kapımızdır.",
+      "harita_il": "edirne",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-375",
+      "soru": "Nahçıvan (Azerbaycan) ile tek bağlantı noktamız olan sınır kapısı hangisidir?",
+      "siklar": ["Dilucu", "Türkgözü", "Sarp", "Esendere"],
+      "dogru": "Dilucu",
+      "aciklama": "Iğdır'da yer alan Dilucu Sınır Kapısı, 'Umut Köprüsü' olarak da bilinen Aras Nehri üzerindeki köprü ile Nahçıvan'a bağlanır.",
+      "harita_il": "igdir",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-376",
+      "soru": "İran ile demir yolu bağlantımızın bulunduğu sınır kapısı hangisidir?",
+      "siklar": ["Gürbulak", "Kapıköy", "Esendere", "Borualan"],
+      "dogru": "Kapıköy",
+      "aciklama": "Van'daki Kapıköy Sınır Kapısı üzerinden İran'a demir yolu seferleri yapılmaktadır.",
+      "harita_il": "van",
+      "zorluk": "zor"
+    },
+    {
+      "id": "gen-377",
+      "soru": "Yunanistan ile sınırımızı büyük oranda belirleyen doğal engel hangisidir?",
+      "siklar": ["Meriç Nehri", "Arpaçay", "Dicle Nehri", "Toros Dağları"],
+      "dogru": "Meriç Nehri",
+      "aciklama": "Meriç Nehri, Lozan Antlaşması'ndan beri Türkiye-Yunanistan sınırının büyük kısmını oluşturur.",
+      "harita_il": "edirne",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-378",
+      "soru": "Ermenistan ile olan sınır kapılarımızın (Akyaka, Alican) kapalı olmasının temel nedeni nedir?",
+      "siklar": ["Coğrafi engeller", "Siyasi sorunlar", "Ulaşım yetersizliği", "Nüfusun az olması"],
+      "dogru": "Siyasi sorunlar",
+      "aciklama": "Ermenistan ile yaşanan siyasi gerilimler ve Karabağ sorunu nedeniyle kara sınır kapıları uzun süredir kapalıdır.",
+      "harita_il": "kars",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-379",
+      "soru": "Aşağıdaki sınır kapılarından hangisi Kırklareli ilinde bulunur?",
+      "siklar": ["Dereköy (Aziziye)", "İpsala", "Pazarkule", "Uzunköprü"],
+      "dogru": "Dereköy (Aziziye)",
+      "aciklama": "Dereköy Sınır Kapısı Yıldız Dağları üzerinden Bulgaristan'a açılır.",
+      "harita_il": "kirklareli",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-380",
+      "soru": "Türkiye'nin kara sınırlarının en kısa olduğu ülke hangisidir?",
+      "siklar": ["Nahçıvan (Azerbaycan)", "Bulgaristan", "Gürcistan", "Yunanistan"],
+      "dogru": "Nahçıvan (Azerbaycan)",
+      "aciklama": "Nahçıvan ile olan sınırımız yaklaşık 13-18 km ile en kısa kara sınırımızdır.",
+      "harita_il": "igdir",
+      "zorluk": "orta"
+    }
+  ]
+}
+

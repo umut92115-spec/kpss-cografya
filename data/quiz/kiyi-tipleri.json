@@ -1,0 +1,141 @@
+{
+  "konu": "kiyi-tipleri",
+  "sorular": [
+    {
+      "id": "gen-079",
+      "soru": "Karadeniz ve Akdeniz kıyılarında dağların kıyıya paralel uzanması sonucu oluşan kıyı tipi hangisidir?",
+      "siklar": ["Enine", "Boyuna", "Ria", "Dalmaçya"],
+      "dogru": "Boyuna",
+      "aciklama": "Dağlar kıyıya paralel ise boyuna kıyı tipi oluşur. Girinti-çıkıntı azdır.",
+      "harita_il": null,
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-080",
+      "soru": "Eski akarsu vadilerinin deniz suları altında kalmasıyla oluşan 'Ria' tipi kıyıya Türkiye'de en iyi örnek neresidir?",
+      "siklar": ["Antalya kıyıları", "Muğla kıyıları", "İstanbul Boğazı ve Haliç", "Fethiye-Kaş arası"],
+      "dogru": "İstanbul Boğazı ve Haliç",
+      "aciklama": "İstanbul Boğazı, Haliç ve Çanakkale Boğazı ria tipi kıyılardır.",
+      "harita_il": "istanbul",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-081",
+      "soru": "Kıvrım dağlarının deniz altında kalmasıyla oluşan, kıyıya paralel dizilmiş adaların bulunduğu 'Dalmaçya' kıyı tipi nerede görülür?",
+      "siklar": ["Antalya-Kaş kıyıları", "İzmir kıyıları", "Sinop kıyıları", "Zonguldak kıyıları"],
+      "dogru": "Antalya-Kaş kıyıları",
+      "aciklama": "Türkiye'de tek örneği Kaş-Finike (Antalya) arasındadır.",
+      "harita_il": "antalya",
+      "zorluk": "zor"
+    },
+    {
+      "id": "gen-152",
+      "soru": "Ege bölgesinde dağların kıyıya dik uzanması aşağıdakilerden hangisine neden OLMAZ?",
+      "siklar": ["Kıta sahanlığının geniş olmasına", "Limanların hinterlandının geniş olmasına", "Deniz etkisinin iç kesimlere girebilmesine", "Kıyı şeridinin kısa olmasına"],
+      "dogru": "Kıyı şeridinin kısa olmasına",
+      "aciklama": "Ege kıyıları girintili çıkıntılı (Enine kıyı) olduğu için gerçek kıyı uzunluğu en fazla olan bölgemizdir.",
+      "harita_il": "izmir",
+      "zorluk": "zor"
+    },
+    {
+      "id": "gen-174",
+      "soru": "Türkiye'nin en uzun kıyı şeridine sahip bölgesi hangisidir?",
+      "siklar": ["Karadeniz", "Akdeniz", "Ege", "Marmara"],
+      "dogru": "Ege",
+      "aciklama": "Ege kıyıları girintili çıkıntılı olduğu için gerçek uzunlukta birincidir.",
+      "harita_il": "izmir",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-391",
+      "soru": "Antalya-Kaş kıyılarında görülen ve çok sayıda adacığın kıyıya paralel uzandığı kıyı tipi hangisidir?",
+      "siklar": ["Ria kıyı tipi", "Dalmaçya kıyı tipi", "Limanlı kıyı tipi", "Skyer kıyı tipi"],
+      "dogru": "Dalmaçya kıyı tipi",
+      "aciklama": "Deniz ilerlemesi sonucu dağların zirvelerinin adacıklar şeklinde kaldığı Dalmaçya tipi kıyılar Kaş-Finike arasında görülür.",
+      "harita_il": "antalya",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-392",
+      "soru": "Eski akarsu vadilerinin deniz istilasına uğramasıyla oluşan, İstanbul ve Çanakkale Boğazları'nda görülen kıyı tipi hangisidir?",
+      "siklar": ["Ria kıyı tipi", "Boyuna kıyı tipi", "Enine kıyı tipi", "Haliçli kıyı tipi"],
+      "dogru": "Ria kıyı tipi",
+      "aciklama": "Ria tipi kıyılar İstanbul Boğazı, Çanakkale Boğazı ve Güneybatı Ege (Muğla-Menteşe) kıyılarında yaygındır.",
+      "harita_il": "istanbul",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-393",
+      "soru": "Dağların kıyıya 'Dik' uzandığı Ege kıyılarında (Edremit-Kuşadası arası) görülen kıyı tipi hangisidir?",
+      "siklar": ["Boyuna kıyı tipi", "Enine kıyı tipi", "Ria kıyı tipi", "Dalmaçya kıyı tipi"],
+      "dogru": "Enine kıyı tipi",
+      "aciklama": "Enine kıyılarda girinti, çıkıntı, koy, körfez ve doğal liman sayısı çok fazladır.",
+      "harita_il": "izmir",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-394",
+      "soru": "Karadeniz ve Akdeniz'in genelinde görülen, dağların kıyıya paralel uzandığı kıyı tipi hangisidir?",
+      "siklar": ["Boyuna kıyı tipi", "Enine kıyı tipi", "Limanlı kıyı tipi", "Fiyort tipi"],
+      "dogru": "Boyuna kıyı tipi",
+      "aciklama": "Boyuna kıyılarda kıyı çizgisi düzdür, falez oluşumu yaygındır ve iç kesimlere ulaşım zordur.",
+      "harita_il": "rize",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-395",
+      "soru": "Büyük ve Küçükçekmece göllerinin bulunduğu Marmara kıyılarında görülen kıyı tipi hangisidir?",
+      "siklar": ["Ria kıyı tipi", "Limanlı kıyı tipi", "Dalmaçya kıyı tipi", "Haliçli kıyı tipi"],
+      "dogru": "Limanlı kıyı tipi",
+      "aciklama": "Geniş tabanlı vadilerin veya koyların önünün kıyı oklarıyla kapatılmasıyla oluşan kıyılardır.",
+      "harita_il": "istanbul",
+      "zorluk": "zor"
+    },
+    {
+      "id": "gen-396",
+      "soru": "Buzul vadilerinin deniz suları altında kalmasıyla oluşan 'Fiyort' ve 'Skyer' tipi kıyıların Türkiye'de görülmemesinin nedeni nedir?",
+      "siklar": ["Yer şekillerinin dağlık olması", "Matematik konum (Orta kuşak/Enlem)", "Etrafının denizlerle çevrili olması", "Gelgit genliğinin az olması"],
+      "dogru": "Matematik konum (Orta kuşak/Enlem)",
+      "aciklama": "Fiyortlar kutuplara yakın yerlerde görülür. Türkiye bir orta kuşak ülkesi olduğu için buzullar deniz seviyesine inememiştir.",
+      "harita_il": null,
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-397",
+      "soru": "Okyanus kıyılarında gelgit (med-cezir) etkisiyle oluşan 'Haliçli' (Estuar) kıyıların Türkiye'de görülmemesinin nedeni nedir?",
+      "siklar": ["Denizlerin sığ olması", "Özel konum (İç denizlere kıyısı olması)", "Akarsu debilerinin düşük olması", "Enlem etkisi"],
+      "dogru": "Özel konum (İç denizlere kıyısı olması)",
+      "aciklama": "Türkiye'nin kıyısı olan denizler iç denizdir ve gelgit genliği çok düşüktür, bu yüzden haliç oluşmaz.",
+      "harita_il": null,
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-398",
+      "soru": "Muğla-Menteşe kıyılarında 'Ria' tipi kıyıların görülmesi aşağıdakilerden hangisinin sonucudur?",
+      "siklar": ["Egeid karasının çökmesi ve vadi ağızlarının suyla dolması", "Volkanik patlamalar", "Buzul aşındırması", "Rüzgar biriktirmesi"],
+      "dogru": "Egeid karasının çökmesi ve vadi ağızlarının suyla dolması",
+      "aciklama": "Deniz seviyesindeki değişimler ve çökme olayları ria kıyılarını oluşturmuştur.",
+      "harita_il": "mugla",
+      "zorluk": "zor"
+    },
+    {
+      "id": "gen-399",
+      "soru": "Aşağıdakilerden hangisi 'Boyuna' kıyı tipinin sonuçlarından biri değildir?",
+      "siklar": ["Kıta sahanlığının dar olması", "Kıyı ile iç kesim arasında iklim farkının az olması", "Doğal liman sayısının az olması", "Falez (Yalıyar) oluşumunun yaygın olması"],
+      "dogru": "Kıyı ile iç kesim arasında iklim farkının az olması",
+      "aciklama": "Boyuna kıyılarda dağlar deniz etkisinin içeri girmesini engellediği için iklim farkı ÇOK FAZLADIR.",
+      "harita_il": null,
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-400",
+      "soru": "Türkiye'nin en uzun kıyı şeridine sahip olan bölgemiz hangisidir?",
+      "siklar": ["Karadeniz", "Akdeniz", "Ege", "Marmara"],
+      "dogru": "Ege",
+      "aciklama": "Dağların dik uzanması nedeniyle oluşan aşırı girinti ve çıkıntılar (Enine kıyı), Ege'nin gerçek kıyı uzunluğunu Türkiye'de birinci yapar.",
+      "harita_il": "izmir",
+      "zorluk": "kolay"
+    }
+  ]
+}
+

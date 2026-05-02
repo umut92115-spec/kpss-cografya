@@ -1,0 +1,68 @@
+{
+  "konu": "toprak-cevre",
+  "sorular": [
+    {
+      "id": "gen-028",
+      "soru": "Akdeniz ikliminin etkisiyle oluşan ve kireçtaşı üzerinde gelişen kırmızı renkli toprak türü hangisidir?",
+      "siklar": ["Çernozyom", "Terra Rossa", "Podzol", "Laterit"],
+      "dogru": "Terra Rossa",
+      "aciklama": "Terra Rossa (Kırmızı toprak), Akdeniz iklim kuşağında kalkerli arazilerde görülür. Demir oksitlenmesi nedeniyle rengi kırmızıdır.",
+      "harita_il": "antalya",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-029",
+      "soru": "Türkiye'nin en verimli toprağı kabul edilen, 'kara toprak' olarak da bilinen ve Erzurum-Kars çevresinde görülen toprak türü hangisidir?",
+      "siklar": ["Alüvyal", "Çernozyom", "Kestane renkli bozkır", "Vertisol"],
+      "dogru": "Çernozyom",
+      "aciklama": "Çernozyomlar dünyanın en verimli zonal topraklarıdır. Gür çayırlar altında oluşur.",
+      "harita_il": "kars",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-030",
+      "soru": "Toprağın su, rüzgar ve yer çekimi etkisiyle taşınması olayı olan 'Erozyon' Türkiye'de en çok hangi bölgede görülür?",
+      "siklar": ["Karadeniz", "Marmara", "İç Anadolu", "Ege"],
+      "dogru": "İç Anadolu",
+      "aciklama": "Bitki örtüsünün cılız olduğu, kuraklığın fazla olduğu İç Anadolu ve Güneydoğu Anadolu bölgelerinde erozyon şiddetlidir.",
+      "harita_il": "konya",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-076",
+      "soru": "Aşağıdakilerden hangisi bir 'Zonal (Yerli)' toprak türü değildir?",
+      "siklar": ["Terra Rossa", "Çernozyom", "Alüvyal", "Podzol"],
+      "dogru": "Alüvyal",
+      "aciklama": "Alüvyal topraklar akarsuların taşıdığı 'Azonal' (taşınmış) topraklardır.",
+      "harita_il": null,
+      "zorluk": "zor"
+    },
+    {
+      "id": "gen-077",
+      "soru": "Kireçli ve killi yapıda olan, kuruduğunda çatlayan ve 'Taş doğuran' olarak bilinen toprak türü hangisidir?",
+      "siklar": ["Vertisol", "Rendzina", "Kalsimorfik", "Regosol"],
+      "dogru": "Vertisol",
+      "aciklama": "Vertisoller (Dönen topraklar), Trakya ve Muş gibi yerlerde görülür.",
+      "harita_il": "tekirdag",
+      "zorluk": "zor"
+    },
+    {
+      "id": "gen-104",
+      "soru": "Yerleşimin en üst sınırını (yerleşme üst sınırı) belirleyen temel faktör nedir?",
+      "siklar": ["Yağış", "Sıcaklık", "Rüzgar", "Toprak"],
+      "dogru": "Sıcaklık",
+      "aciklama": "Sıcaklığın azaldığı yüksek yerlerde yaşam zorlaşır. Türkiye'de güneyden kuzeye gidildikçe yerleşme üst sınırı azalır.",
+      "harita_il": null,
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-194",
+      "soru": "Türkiye'de 'Orman Yangınları' riskinin en yüksek olduğu bölge hangisidir?",
+      "siklar": ["Karadeniz", "Doğu Anadolu", "Akdeniz ve Ege", "İç Anadolu"],
+      "dogru": "Akdeniz ve Ege",
+      "aciklama": "Yaz kuraklığı ve yüksek sıcaklık orman yangınlarını tetikler.",
+      "harita_il": "antalya",
+      "zorluk": "kolay"
+    }
+  ]
+}

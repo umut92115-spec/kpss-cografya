@@ -1,0 +1,249 @@
+{
+  "konu": "ulasim",
+  "sorular": [
+    {
+      "id": "gen-059",
+      "soru": "Demir yolu bağlantısı OLMAYAN ilimiz aşağıdakilerden hangisidir?",
+      "siklar": ["Kayseri", "Sivas", "Antalya", "Gaziantep"],
+      "dogru": "Antalya",
+      "aciklama": "Antalya, Muğla, Artvin gibi illere demir yolu henüz ulaşmamıştır.",
+      "harita_il": "antalya",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-060",
+      "soru": "Türkiye'nin en büyük konteyner limanı aşağıdakilerden hangisidir?",
+      "siklar": ["İstanbul-Haydarpaşa", "İzmir-Alsancak", "Mersin Limanı", "Trabzon Limanı"],
+      "dogru": "Mersin Limanı",
+      "aciklama": "Mersin Limanı, kapasite ve işlem hacmi bakımından Türkiye'nin en büyüklerinden biridir.",
+      "harita_il": "mersin",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-064",
+      "soru": "Toros Dağları'nı İç Anadolu'ya bağlayan ve 'Kilikya Kapıları' olarak bilinen stratejik geçit hangisidir?",
+      "siklar": ["Zigana", "Sertavul", "Gülek", "Belen"],
+      "dogru": "Gülek",
+      "aciklama": "Gülek Geçidi, Adana'yı İç Anadolu'ya bağlayan en önemli noktadır.",
+      "harita_il": "mersin",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-071",
+      "soru": "Türkiye'nin en uzun tüneli (karayolu) olan ve Rize ile Erzurum'u birbirine bağlayan tünel hangisidir?",
+      "siklar": ["Bolu Tüneli", "Ovit Dağı Tüneli", "Zigana Tüneli", "Sertavul Tüneli"],
+      "dogru": "Zigana Tüneli",
+      "aciklama": "Yeni Zigana Tüneli (14.5 km) açıldıktan sonra Türkiye'nin en uzun karayolu tüneli olmuştur. (Ovit 14.3 km ile ikinci sıradadır).",
+      "harita_il": "gumushane",
+      "zorluk": "zor"
+    },
+    {
+      "id": "gen-095",
+      "soru": "Türkiye'de ipek yolu güzergahını canlandırmayı hedefleyen ve 'Demir İpek Yolu' olarak bilinen hat hangisidir?",
+      "siklar": ["Hicaz Demir Yolu", "BTK (Bakü-Tiflis-Kars) Hattı", "Ankara-İstanbul YHT", "Eskişehir-Konya YHT"],
+      "dogru": "BTK (Bakü-Tiflis-Kars) Hattı",
+      "aciklama": "Bu hat ile Londra'dan Pekin'e kesintisiz demir yolu ulaşımı hedeflenmektedir.",
+      "harita_il": "kars",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-096",
+      "soru": "Türkiye'nin en uzun asma köprüsü hangisidir?",
+      "siklar": ["15 Temmuz Şehitler Köprüsü", "Fatih Sultan Mehmet Köprüsü", "Yavuz Sultan Selim Köprüsü", "1915 Çanakkale Köprüsü"],
+      "dogru": "1915 Çanakkale Köprüsü",
+      "aciklama": "2023 metrelik orta açıklığı ile dünyanın da en uzun orta açıklıklı asma köprüsüdür.",
+      "harita_il": "canakkale",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-133",
+      "soru": "Kışın kar yağışı ve buzlanmanın ulaşımı en çok etkilediği geçit hangisidir?",
+      "siklar": ["Belen Geçidi", "Gülek Geçidi", "Kop Geçidi", "Sertavul Geçidi"],
+      "dogru": "Kop Geçidi",
+      "aciklama": "Kop Geçidi (Bayburt-Erzurum) yüksek rakımı nedeniyle kışın çok zorlu bir noktadır.",
+      "harita_il": "bayburt",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-169",
+      "soru": "Aşağıdakilerden hangisi Türkiye'nin 'Liman Şehri' değildir?",
+      "siklar": ["Mersin", "Samsun", "Afyonkarahisar", "Tekirdağ"],
+      "dogru": "Afyonkarahisar",
+      "aciklama": "Afyonkarahisar bir iç ilimizdir, denize kıyısı yoktur.",
+      "harita_il": "afyonkarahisar",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-170",
+      "soru": "Türkiye'nin en büyük havalimanı hangisidir?",
+      "siklar": ["Sabiha Gökçen Havalimanı", "Ankara Esenboğa Havalimanı", "İstanbul Havalimanı", "Antalya Havalimanı"],
+      "dogru": "İstanbul Havalimanı",
+      "aciklama": "Yeni İstanbul Havalimanı kapasite bakımından dünyanın da sayılı büyük havalimanları arasındadır.",
+      "harita_il": "istanbul",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-171",
+      "soru": "Deniz doldurularak inşa edilen Türkiye'nin ilk havalimanı hangisidir?",
+      "siklar": ["İstanbul Havalimanı", "Ordu-Giresun Havalimanı", "Rize-Artvin Havalimanı", "Trabzon Havalimanı"],
+      "dogru": "Ordu-Giresun Havalimanı",
+      "aciklama": "Ordu-Giresun Havalimanı deniz üzerine dolgu yapılarak inşa edilmiştir.",
+      "harita_il": "ordu",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-182",
+      "soru": "Aşağıdaki sınır kapılarından hangisi 'Demir Yolu' bağlantısına sahiptir?",
+      "siklar": ["Sarp", "Kapıkule", "Habur", "Cilvegözü"],
+      "dogru": "Kapıkule",
+      "aciklama": "Kapıkule üzerinden Avrupa'ya demir yolu hattı vardır.",
+      "harita_il": "edirne",
+      "zorluk": "zor"
+    },
+    {
+      "id": "gen-195",
+      "soru": "Aşağıdaki tünellerden hangisi 'İstanbul'dadır?",
+      "siklar": ["Zigana Tüneli", "Ovit Tüneli", "Avrasya Tüneli", "Bolu Tüneli"],
+      "dogru": "Avrasya Tüneli",
+      "aciklama": "Avrasya Tüneli İstanbul Boğazı'nın altından geçen karayolu tünelidir.",
+      "harita_il": "istanbul",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-276",
+      "soru": "Türkiye'de 'Hızlı Tren' (YHT) hattının ilk açıldığı güzergah hangisidir?",
+      "siklar": ["Ankara - İstanbul", "Ankara - Eskişehir", "Ankara - Konya", "Konya - İstanbul"],
+      "dogru": "Ankara - Eskişehir",
+      "aciklama": "Türkiye'nin ilk YHT hattı 2009 yılında Ankara-Eskişehir arasında hizmete girmiştir.",
+      "harita_il": "eskisehir",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-277",
+      "soru": "Aşağıdaki limanlardan hangisinin demir yolu bağlantısı VARDIR?",
+      "siklar": ["Antalya Limanı", "Trabzon Limanı", "Samsun Limanı", "Sinop Limanı"],
+      "dogru": "Samsun Limanı",
+      "aciklama": "Samsun, Karadeniz'de demir yolu bağlantısı olan nadir ve önemli limanlardan biridir.",
+      "harita_il": "samsun",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-278",
+      "soru": "Zonguldak Limanı'nın gelişmesinde temel etken aşağıdakilerden hangisidir?",
+      "siklar": ["Turizm potansiyeli", "Tarım ürünleri ihracatı", "Maden (Kömür) ve ağır sanayi", "Transit ticaret"],
+      "dogru": "Maden (Kömür) ve ağır sanayi",
+      "aciklama": "Zonguldak Limanı, bölgedeki taş kömürü ve demir-çelik sanayinin lojistik ihtiyacı için gelişmiştir.",
+      "harita_il": "zonguldak",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-279",
+      "soru": "İzmir ile Aydın'ı birbirine bağlayan, Türkiye'nin en uzun otoyol tünellerinden biri olan tünel hangisidir?",
+      "siklar": ["75. Yıl Selatin Tüneli", "Sertavul Tüneli", "Bolu Tüneli", "Ecevit Tüneli"],
+      "dogru": "75. Yıl Selatin Tüneli",
+      "aciklama": "Selatin Tüneli, İzmir-Aydın otoyolu üzerinde ulaşımı büyük ölçüde kolaylaştıran bir tüneldir.",
+      "harita_il": "aydin",
+      "zorluk": "zor"
+    },
+    {
+      "id": "gen-280",
+      "soru": "Hopa (Artvin) ile Borçka arasında yer alan ve Karadeniz'i Doğu Anadolu'ya bağlayan önemli geçit hangisidir?",
+      "siklar": ["Zigana", "Kop", "Cankurtaran", "Ovit"],
+      "dogru": "Cankurtaran",
+      "aciklama": "Cankurtaran Geçidi (ve tüneli) Hopa ile Borçka arasındaki zorlu dağları aşmayı sağlar.",
+      "harita_il": "artvin",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-281",
+      "soru": "Türkiye'de 'Boru Hattı' taşımacılığının en çok geliştiği bölgemiz hangisidir?",
+      "siklar": ["Ege", "Marmara", "Güneydoğu Anadolu ve Doğu Anadolu", "Karadeniz"],
+      "dogru": "Güneydoğu Anadolu ve Doğu Anadolu",
+      "aciklama": "Petrol ve doğal gazın Irak ve Azerbaycan'dan gelmesi nedeniyle boru hatları bu bölgelerde yoğundur (BTC, Kerkük-Yumurtalık vb.).",
+      "harita_il": null,
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-282",
+      "soru": "Bakü-Tiflis-Ceyhan (BTC) boru hattının Türkiye'deki son durağı olan liman hangisidir?",
+      "siklar": ["Mersin", "İskenderun", "Yumurtalık (Ceyhan)", "Antalya"],
+      "dogru": "Yumurtalık (Ceyhan)",
+      "aciklama": "Azerbaycan petrolü Adana-Ceyhan'daki Haydar Aliyev Deniz Terminali'nden dünyaya pazarlanır.",
+      "harita_il": "adana",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-283",
+      "soru": "Türkiye'nin en işlek sınır kapısı olan 'Gürbulak' hangi ülke ile bağlantımızı sağlar?",
+      "siklar": ["Irak", "İran", "Suriye", "Gürcistan"],
+      "dogru": "İran",
+      "aciklama": "Gürbulak (Ağrı), İran ile yapılan transit ticaretin en önemli kapısıdır.",
+      "harita_il": "agri",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-284",
+      "soru": "Karadeniz Sahil Yolu'nun tamamlanmasıyla ulaşımın en çok rahatladığı bölge hangisidir?",
+      "siklar": ["Batı Karadeniz", "Orta Karadeniz", "Doğu Karadeniz", "Marmara"],
+      "dogru": "Doğu Karadeniz",
+      "aciklama": "Sarp sınır kapısına kadar uzanan sahil yolu, Doğu Karadeniz'in sarp kıyılarında ulaşımı devrim niteliğinde değiştirmiştir.",
+      "harita_il": "trabzon",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-285",
+      "soru": "Kastamonu ile Çankırı'yı birbirine bağlayan ve Ilgaz Dağları'nı aşan tünelin adı nedir?",
+      "siklar": ["Ilgaz 15 Temmuz İstiklal Tüneli", "Ecevit Tüneli", "Kop Tüneli", "Bolu Tüneli"],
+      "dogru": "Ilgaz 15 Temmuz İstiklal Tüneli",
+      "aciklama": "Ilgaz Dağları'ndaki kar ve buzlanma sorununu çözen bu tünel İç Anadolu'yu Batı Karadeniz'e bağlar.",
+      "harita_il": "kastamonu",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-286",
+      "soru": "Demir yolu ulaşımının engebeli yapı nedeniyle en zor olduğu bölgemiz hangisidir?",
+      "siklar": ["İç Anadolu", "Marmara", "Doğu Karadeniz", "Ege"],
+      "dogru": "Doğu Karadeniz",
+      "aciklama": "Doğu Karadeniz'in sarp dağları nedeniyle bölgenin hiçbir iline (Rize, Trabzon, Artvin) demir yolu ulaşamamıştır.",
+      "harita_il": "trabzon",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-287",
+      "soru": "Türkiye'de 'Hava Yolu' ulaşımının son yıllarda hızla gelişmesinin en önemli nedeni nedir?",
+      "siklar": ["Uçak üretiminin artması", "Bilet fiyatlarının düşmesi ve havalimanı sayısının artması", "Kara yollarının bozulması", "Demir yolunun yavaş olması"],
+      "dogru": "Bilet fiyatlarının düşmesi ve havalimanı sayısının artması",
+      "aciklama": "Hava yolunun halkın ulaşabileceği maliyetlere inmesi ve her ile havalimanı yapılması sektörü büyütmüştür.",
+      "harita_il": null,
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-288",
+      "soru": "İzmit Körfezi'ni geçen ve İstanbul-İzmir arasını 3.5 saate düşüren köprü hangisidir?",
+      "siklar": ["Yavuz Sultan Selim Köprüsü", "Osmangazi Köprüsü", "1915 Çanakkale Köprüsü", "Fatih Sultan Mehmet Köprüsü"],
+      "dogru": "Osmangazi Köprüsü",
+      "aciklama": "Osmangazi Köprüsü, otoyol projesinin en kritik geçiş noktasıdır.",
+      "harita_il": "kocaeli",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-289",
+      "soru": "Antalya ile Mersin arasını birbirine bağlayan 'Akdeniz Sahil Yolu' projesindeki en büyük zorluk nedir?",
+      "siklar": ["Bataklık alanlar", "Çok sayıda tünel ve viyadük gerektiren sarp yer şekilleri", "Nüfus azlığı", "İklimin çok soğuk olması"],
+      "dogru": "Çok sayıda tünel ve viyadük gerektiren sarp yer şekilleri",
+      "aciklama": "Torosların kıyıya paralel ve dik uzandığı bu hat tünellerle aşılmaya çalışılmaktadır.",
+      "harita_il": "mersin",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-290",
+      "soru": "Aşağıdaki limanlardan hangisi bir 'Doğal Liman' olmasına rağmen hinterlandı dar olduğu için gelişememiştir?",
+      "siklar": ["İstanbul", "İzmir", "Sinop", "Mersin"],
+      "dogru": "Sinop",
+      "aciklama": "Sinop Karadeniz'in tek doğal limanıdır ancak arkasındaki Küre Dağları ulaşımı engellediği için küçük kalmıştır.",
+      "harita_il": "sinop",
+      "zorluk": "orta"
+    }
+  ]
+}
+

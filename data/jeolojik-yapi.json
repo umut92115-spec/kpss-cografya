@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "konu": "Jeolojik Yapı ve İç Kuvvetler",
+    "aciklama": "Türkiye'nin jeolojik geçmişi, fay hatları, masif araziler ve volkanizma."
+  },
+  "fay_hatlari": [
+    {
+      "ad": "Kuzey Anadolu Fay Hattı (KAF)",
+      "ozellik": "Saros Körfezi'nden Van Gölü kuzeyine kadar uzanan, Türkiye'nin en aktif ve tehlikeli fay hattı.",
+      "iller": ["Kocaeli", "Sakarya", "Bolu", "Düzce", "Erzincan"],
+      "lat": 40.75,
+      "lng": 30.40
+    },
+    {
+      "ad": "Doğu Anadolu Fay Hattı (DAF)",
+      "ozellik": "Hatay'dan Van Gölü güneyine uzanan, 2023 Kahramanmaraş depremlerinin gerçekleştiği hat.",
+      "iller": ["Hatay", "Kahramanmaraş", "Malatya", "Elazığ", "Bingöl"],
+      "lat": 37.58,
+      "lng": 36.93
+    },
+    {
+      "ad": "Batı Anadolu Fay Hattı (BAF)",
+      "ozellik": "Ege Graben Sistemi'ni oluşturan, horst-graben yapısıyla bilinen fay sistemi.",
+      "iller": ["İzmir", "Manisa", "Aydın", "Denizli"],
+      "lat": 38.42,
+      "lng": 27.14
+    }
+  ],
+  "masifler": [
+    { "ad": "Yıldız Dağları Masifi", "ozellik": "1. Zaman'da oluşmuş sert ve yaşlı arazi.", "lat": 41.80, "lng": 27.50 },
+    { "ad": "Zonguldak Masifi", "ozellik": "Taş kömürü yataklarını barındıran yaşlı kütle.", "lat": 41.45, "lng": 31.80 },
+    { "ad": "Menteşe Masifi", "ozellik": "Güneybatı Anadolu'nun sert ve yaşlı arazisi.", "lat": 37.20, "lng": 28.35 },
+    { "ad": "Mardin Masifi", "ozellik": "Güneydoğu Anadolu'nun en kararlı ve deprem riski en düşük alanı.", "lat": 37.31, "lng": 40.73 },
+    { "ad": "Bitlis Masifi", "ozellik": "Doğu Anadolu'nun yaşlı kristalin kütlesi.", "lat": 38.40, "lng": 42.10 }
+  ],
+  "jeolojik_zamanlar": {
+    "birinci_zaman": "Zonguldak taş kömürü oluşumu, masif araziler.",
+    "ikinci_zaman": "Tetis Denizi'nde tortulanma, dinozorlar dönemi.",
+    "ucuncu_zaman": "Alp-Himalaya kıvrım sistemi (Toroslar, Kuzey Anadolu Dağları), linyit, petrol, bor yatakları.",
+    "dorduncu_zaman": "Ege Denizi, İstanbul ve Çanakkale Boğazları, delta ovaları ve insanın ortaya çıkışı."
+  }
+}

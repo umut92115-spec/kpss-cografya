@@ -1,0 +1,294 @@
+{
+  "konu": "tarim",
+  "sorular": [
+    {
+      "id": "gen-041",
+      "soru": "Dünya fındık üretiminin yaklaşık %70'ini karşılayan Türkiye'de, fındık üretimi en çok hangi bölgede yapılır?",
+      "siklar": ["Batı Karadeniz", "Orta Karadeniz", "Doğu Karadeniz", "Marmara"],
+      "dogru": "Doğu Karadeniz",
+      "aciklama": "Ordu ve Giresun başta olmak üzere Doğu Karadeniz fındığın ana vatanıdır.",
+      "harita_il": "ordu",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-042",
+      "soru": "GAP projesiyle birlikte Türkiye'nin pamuk üretiminde birinci sıraya yükselen ili hangisidir?",
+      "siklar": ["Adana", "Aydın", "Şanlıurfa", "Diyarbakır"],
+      "dogru": "Şanlıurfa",
+      "aciklama": "Şanlıurfa, sulama imkanlarının artmasıyla Çukurova ve Ege'yi geride bırakarak pamuk üretiminde lider olmuştur.",
+      "harita_il": "sanliurfa",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-043",
+      "soru": "Türkiye'nin en geniş tarım alanına sahip olan ve 'Tahıl Ambarı' olarak bilinen ili hangisidir?",
+      "siklar": ["Ankara", "Konya", "Adana", "Eskişehir"],
+      "dogru": "Konya",
+      "aciklama": "Konya Ovası, Türkiye'nin en büyük tarım alanıdır ve buğday üretiminde birincidir.",
+      "harita_il": "konya",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-044",
+      "soru": "Çay tarımının Türkiye'de sadece Doğu Karadeniz'de (Rize çevresi) yapılabilmesinin temel nedeni nedir?",
+      "siklar": ["Toprak yapısı", "Sıcaklık değerleri", "Her mevsim yağış ve nem ihtiyacı", "Yer şekilleri"],
+      "dogru": "Her mevsim yağış ve nem ihtiyacı",
+      "aciklama": "Çay, yıkanmış asitli toprak ve sürekli nem/bulutluluk ister. Bu koşullar sadece Doğu Karadeniz kıyısında vardır.",
+      "harita_il": "rize",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-045",
+      "soru": "Türkiye'de sığır yetiştiriciliğinin (mera hayvancılığı) en yoğun olduğu yer hangisidir?",
+      "siklar": ["Ege", "Marmara", "Erzurum-Kars Platosu", "İç Anadolu"],
+      "dogru": "Erzurum-Kars Platosu",
+      "aciklama": "Yaz yağışlarıyla yeşeren gür çayırlar büyükbaş mera hayvancılığı için idealdir.",
+      "harita_il": "erzurum",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-046",
+      "soru": "Kümes hayvancılığının Bolu, Balıkesir ve Sakarya gibi illerde yoğunlaşmasının temel nedeni nedir?",
+      "siklar": ["İklimin uygun olması", "Pazarlama (Tüketim merkezlerine yakınlık)", "Ham madde bolluğu", "Yer şekillerinin uygunluğu"],
+      "dogru": "Pazarlama (Tüketim merkezlerine yakınlık)",
+      "aciklama": "İstanbul, Ankara gibi büyük tüketim merkezlerine yakınlık nakliye maliyetini düşürür.",
+      "harita_il": "bolu",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-047",
+      "soru": "Türkiye'de ipek böcekçiliği denilince akla gelen ilk il hangisidir?",
+      "siklar": ["Bursa", "Diyarbakır", "Antalya", "Muğla"],
+      "dogru": "Bursa",
+      "aciklama": "Bursa geleneksel ipek böcekçiliği merkezidir (Dut ağaçları yaygındır).",
+      "harita_il": "bursa",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-072",
+      "soru": "Aşağıdaki meyvelerden hangisinin üretiminde Türkiye dünya birincisidir?",
+      "siklar": ["Elma", "Muz", "İncir", "Kivi"],
+      "dogru": "İncir",
+      "aciklama": "Türkiye incir, fındık, kayısı ve kiraz üretiminde dünya lideridir.",
+      "harita_il": "aydin",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-073",
+      "soru": "Türkiye'de pirinç (çeltik) tarımı neden genellikle akarsu boylarında yapılır?",
+      "siklar": ["Toprak yapısı", "Pirinç bitkisinin suyun içinde yetişmesi", "Akarsuların ulaşımda kullanılması", "İklimin sadece orada uygun olması"],
+      "dogru": "Pirinç bitkisinin suyun içinde yetişmesi",
+      "aciklama": "Çeltik tarlaları suyla dolu olmalıdır, bu yüzden Meriç, Ergene, Kızılırmak gibi nehir boyları tercih edilir.",
+      "harita_il": "edirne",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-074",
+      "soru": "Kış ılıklığı isteyen ve Akdeniz iklimine uyumlu olan 'Zeytin' en çok hangi bölgemizde üretilir?",
+      "siklar": ["Akdeniz", "Ege", "Marmara", "Güneydoğu Anadolu"],
+      "dogru": "Ege",
+      "aciklama": "Ege bölgesi zeytin üretiminde miktarca birincidir (özellikle yağlık zeytin).",
+      "harita_il": "aydin",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-075",
+      "soru": "Türkiye'de mısır üretiminin son yıllarda Akdeniz ve İç Anadolu'da artmasının temel nedeni nedir?",
+      "siklar": ["İklimin değişmesi", "Sulama imkanlarının artması", "Toprakların verimleşmesi", "İşçi gücünün artması"],
+      "dogru": "Sulama imkanlarının artması",
+      "aciklama": "Mısır su isteyen bir bitkidir. Sulama (GAP, KOP) ile doğal yetişme alanı dışına çıkmıştır.",
+      "harita_il": "adana",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-123",
+      "soru": "Antalya'da kışın seracılığın gelişmiş olmasının temel nedeni nedir?",
+      "siklar": ["Toprağın çok verimli olması", "Kış ılıklığı ve don olaylarının az görülmesi", "Su kaynaklarının bolluğu", "Pazarlama imkanları"],
+      "dogru": "Kış ılıklığı ve don olaylarının az görülmesi",
+      "aciklama": "Seracılık kışın ısıtma maliyeti düşük olduğu için Akdeniz kıyısında gelişmiştir.",
+      "harita_il": "antalya",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-126",
+      "soru": "Arıcılık faaliyetlerinin Muğla, Erzurum ve Hakkari gibi illerde gelişmiş olmasının nedeni nedir?",
+      "siklar": ["İklimin çok yağışlı olması", "Bitki örtüsü çeşitliliğinin (Flora) zengin olması", "Sanayinin gelişmemiş olması", "Ulaşımın zor olması"],
+      "dogru": "Bitki örtüsü çeşitliliğinin (Flora) zengin olması",
+      "aciklama": "Çiçek çeşitliliği bal kalitesini ve miktarını artırır.",
+      "harita_il": "mugla",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-159",
+      "soru": "Türkiye'de 'En Çok Yetiştirilen' tarım ürünü hangisidir?",
+      "siklar": ["Mısır", "Şeker pancarı", "Buğday", "Arpa"],
+      "dogru": "Buğday",
+      "aciklama": "Buğday temel besin maddesidir ve hemen her bölgede (Karadeniz kıyısı hariç) yetiştirilir.",
+      "harita_il": "konya",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-161",
+      "soru": "Aşağıdaki illerden hangisi 'Zeytin' üretiminde önemli bir paya sahip değildir?",
+      "siklar": ["Aydın", "Balıkesir", "Erzurum", "Hatay"],
+      "dogru": "Erzurum",
+      "aciklama": "Zeytin Akdeniz iklimi ürünüdür, Erzurum'un sert karasal ikliminde yetişmez.",
+      "harita_il": "erzurum",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-162",
+      "soru": "Muz tarımı Türkiye'de sadece hangi dar kıyı şeridinde yapılır?",
+      "siklar": ["Antalya-Mersin arası (Alanya-Anamur)", "Muğla-Aydın arası", "İzmir çevresi", "Rize çevresi"],
+      "dogru": "Antalya-Mersin arası (Alanya-Anamur)",
+      "aciklama": "Muz tropikal bir bitkidir ve Türkiye'de sadece kışın hiç donmayan mikroklima alanlarda yetişir.",
+      "harita_il": "mersin",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-163",
+      "soru": "Türkiye'nin en büyük 'Besi ve Ahır Hayvancılığı' merkezi neresidir?",
+      "siklar": ["Doğu Anadolu", "Marmara ve Ege (Büyük şehirler çevresi)", "Karadeniz yaylaları", "Güneydoğu Anadolu"],
+      "dogru": "Marmara ve Ege (Büyük şehirler çevresi)",
+      "aciklama": "Modern hayvancılık tüketim merkezlerine yakın yerlerde (Bursa, Balıkesir, Konya) yoğunlaşmıştır.",
+      "harita_il": "balikesir",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-261",
+      "soru": "Türkiye'de yetiştirilen aşağıdaki ürünlerden hangisi 'Devlet Kontrolü'nde (ekim alanı sınırlı) değildir?",
+      "siklar": ["Haşhaş", "Kenevir", "Pirinç", "Ayçiçeği"],
+      "dogru": "Ayçiçeği",
+      "aciklama": "Haşhaş (Uyuşturucu), Kenevir (Uyuşturucu), Pirinç (Hastalık/Sıtma) ve Tütün (Kalite) devlet kontrolündedir. Ayçiçeği serbesttir.",
+      "harita_il": "edirne",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-262",
+      "soru": "Türkiye'de 'Tütün' üretiminde kaliteyi korumak amacıyla devlet hangi uygulamayı yapar?",
+      "siklar": ["Sadece devlet çiftliklerinde üretilir", "Ekim alanlarını sınırlandırır", "Sadece Ege'de üretilmesine izin verir", "Yurt dışına satışını yasaklar"],
+      "dogru": "Ekim alanlarını sınırlandırır",
+      "aciklama": "Tütünün kalitesiz topraklarda üretilip marka değerinin düşmesini engellemek için sadece uygun görülen alanlarda ekimine izin verilir.",
+      "harita_il": "manisa",
+      "zorluk": "zor"
+    },
+    {
+      "id": "gen-263",
+      "soru": "Haşhaş üretiminin en yoğun olduğu ilimiz aşağıdakilerden hangisidir?",
+      "siklar": ["Isparta", "Burdur", "Afyonkarahisar", "Denizli"],
+      "dogru": "Afyonkarahisar",
+      "aciklama": "Afyonkarahisar (adından da anlaşılacağı üzere) haşhaş üretiminin merkezidir.",
+      "harita_il": "afyonkarahisar",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-264",
+      "soru": "Türkiye'de 'Muz' üretiminin neredeyse tamamı hangi iki ilimizdedir?",
+      "siklar": ["Antalya - Muğla", "Antalya - Mersin", "İzmir - Aydın", "Adana - Hatay"],
+      "dogru": "Antalya - Mersin",
+      "aciklama": "Alanya (Antalya) ve Anamur (Mersin) mikroklimaları muz için tek uygun yerlerdir.",
+      "harita_il": "mersin",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-265",
+      "soru": "Yağ sanayinde kullanılan 'Kanola' (Kolza) üretimi son yıllarda hangi bölgemizde artmıştır?",
+      "siklar": ["Güneydoğu Anadolu", "Trakya (Marmara)", "İç Anadolu", "Ege"],
+      "dogru": "Trakya (Marmara)",
+      "aciklama": "Kanola üretimi özellikle Tekirdağ ve Edirne çevresinde alternatif bir yağ bitkisi olarak yaygınlaşmıştır.",
+      "harita_il": "tekirdag",
+      "zorluk": "zor"
+    },
+    {
+      "id": "gen-266",
+      "soru": "Türkiye'de 'Tiftik Keçisi' (Ankara Keçisi) yetiştiriciliğinin merkezi neresidir?",
+      "siklar": ["Siirt", "Muğla", "Ankara", "Antalya"],
+      "dogru": "Ankara",
+      "aciklama": "Tiftik keçisi Ankara ve çevresine özgü, yünü çok değerli bir hayvandır.",
+      "harita_il": "ankara",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-267",
+      "soru": "Kıl keçisi yetiştiriciliğinin ormanlara zarar verdiği gerekçesiyle sınırlandırıldığı engebeli bölgemiz hangisidir?",
+      "siklar": ["Marmara", "Güneydoğu Anadolu", "Tekke ve Taşeli Platoları (Akdeniz)", "İç Anadolu"],
+      "dogru": "Tekke ve Taşeli Platoları (Akdeniz)",
+      "aciklama": "Toroslar'daki kıl keçileri ağaç filizlerini yediği için bazı bölgelerde yasaklanmış veya sınırlandırılmıştır.",
+      "harita_il": "antalya",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-268",
+      "soru": "Türkiye'nin 'Balıkçılık' üretiminin yaklaşık %70'i hangi denizimizden karşılanır?",
+      "siklar": ["Ege Denizi", "Marmara Denizi", "Akdeniz", "Karadeniz"],
+      "dogru": "Karadeniz",
+      "aciklama": "Sularının daha soğuk, oksijenin daha bol olması ve plankton zenginliği nedeniyle Karadeniz balıkçılıkta liderdir.",
+      "harita_il": null,
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-269",
+      "soru": "Kültür balıkçılığının (Dalyan) en çok geliştiği ilimiz hangisidir?",
+      "siklar": ["Samsun", "İstanbul", "Muğla", "Adana"],
+      "dogru": "Muğla",
+      "aciklama": "Ege kıyılarındaki (Muğla-Milas-Bodrum) koylar kültür balıkçılığı (çipura, levrek) için çok elverişlidir.",
+      "harita_il": "mugla",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-270",
+      "soru": "Türkiye'de 'Nadas' uygulamasının (Toprağın bir yıl dinlendirilmesi) en az olduğu bölgemiz hangisidir?",
+      "siklar": ["Güneydoğu Anadolu", "İç Anadolu", "Doğu Karadeniz", "Doğu Anadolu"],
+      "dogru": "Doğu Karadeniz",
+      "aciklama": "Nadas su eksikliğinden yapılır. Her mevsim yağışlı olan Karadeniz'de toprağı dinlendirmeye (nadasa) gerek duyulmaz.",
+      "harita_il": null,
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-271",
+      "soru": "Toprak işlemeden yapılan, doğal yapıyı bozmayan ve erozyonu önleyen modern tarım yöntemine ne ad verilir?",
+      "siklar": ["Nadas", "Anıza ekim (Koruyucu tarım)", "İntansif tarım", "Ekstansif tarım"],
+      "dogru": "Anıza ekim (Koruyucu tarım)",
+      "aciklama": "Toprağın sürülmeden, anızların (sapların) korunarak ekilmesi erozyonu %90 oranında azaltır.",
+      "harita_il": null,
+      "zorluk": "zor"
+    },
+    {
+      "id": "gen-272",
+      "soru": "Türkiye'de 'Kayısı' üretiminde dünya birincisi olan ilimiz hangisidir?",
+      "siklar": ["Isparta", "Malatya", "Elazığ", "Iğdır"],
+      "dogru": "Malatya",
+      "aciklama": "Malatya kayısısı hem miktar hem kalite bakımından dünyaca ünlüdür.",
+      "harita_il": "malatya",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-273",
+      "soru": "Soya fasulyesi üretiminin en yoğun olduğu yöremiz neresidir?",
+      "siklar": ["Güneydoğu Anadolu", "Çukurova (Adana)", "Doğu Karadeniz", "Güney Marmara"],
+      "dogru": "Çukurova (Adana)",
+      "aciklama": "Soya fasulyesi sulama imkanları sayesinde Akdeniz bölgesinde (Adana) ikinci ürün olarak çok ekilir.",
+      "harita_il": "adana",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-274",
+      "soru": "Türkiye'de 'Gül' ve 'Lavanta' üretimi denilince akla gelen ilimiz hangisidir?",
+      "siklar": ["Antalya", "Muğla", "Isparta", "Denizli"],
+      "dogru": "Isparta",
+      "aciklama": "Isparta gül ve son yıllarda lavanta turizmiyle/üretimiyle öne çıkmaktadır.",
+      "harita_il": "isparta",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-275",
+      "soru": "Mercimek (Kırmızı mercimek) üretiminde Türkiye'nin lider bölgesi hangisidir?",
+      "siklar": ["İç Anadolu", "Güneydoğu Anadolu", "Ege", "Marmara"],
+      "dogru": "Güneydoğu Anadolu",
+      "aciklama": "Kırmızı mercimek kuraklığa dayanıklıdır ve en çok Şanlıurfa-Diyarbakır çevresinde üretilir.",
+      "harita_il": "sanliurfa",
+      "zorluk": "orta"
+    }
+  ]
+}
+

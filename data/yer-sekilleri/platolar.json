@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "konu": "Türkiye'nin Platoları",
+    "aciklama": "Akarsular tarafından parçalanmış, çevresine göre yüksekte kalan düzlüklerdir. Türkiye'de plato sayısı fazladır çünkü Anadolu 3. zamanın sonu - 4. zamanın başında epiğenez ile toptan yükselmiştir."
+  },
+  "genel_ozellikler": [
+    "Oluşumunda iç kuvvetlerden epirojenez, dış kuvvetlerden akarsular etkili olmuştur",
+    "Türkiye'deki plato sayısı fazladır",
+    "Kenar kısımları akarsular tarafından derin vadilerle parçalanmıştır"
+  ],
+  "platolar": [
+    {
+      "ad": "Çatalca-Kocaeli Platosu",
+      "bolge": "Marmara",
+      "il": ["İstanbul", "Kocaeli"],
+      "ortalama_yukseklik_m": 500,
+      "ozellik": "Türkiye'nin en alçak platosu. Tarıma uygun olmasına karşın sanayi faaliyetleri daha yoğun.",
+      "kpss_notu": "En alçak plato"
+    },
+    {
+      "ad": "Teke Platosu",
+      "bolge": "Akdeniz",
+      "il": ["Antalya"],
+      "ozellik": "İklim şartları uygun olmasına rağmen arazi engebeliliği nedeniyle tarım, hayvancılık ve sanayiye uygun değil. Nüfusu azdır.",
+      "kpss_notu": "Nüfusu en az platolar arasında"
+    },
+    {
+      "ad": "Taşeli Platosu",
+      "bolge": "Akdeniz",
+      "il": ["Mersin", "Antalya"],
+      "ozellik": "Karstik yapı, derin kanyon vadiler. İklim iyi ancak engebeli arazi ekonomik faaliyete engel. Nüfusu azdır.",
+      "kpss_notu": "Derin kanyon vadiler yaygın"
+    },
+    {
+      "ad": "Haymana Platosu",
+      "bolge": "İç Anadolu",
+      "il": ["Ankara"],
+      "ozellik": "Hem sanayi (Ankara) hem de tarımsal faaliyetlerin yoğun olduğu plato.",
+      "kpss_notu": "Hem sanayi hem tarım"
+    },
+    {
+      "ad": "Cihanbeyli Platosu",
+      "bolge": "İç Anadolu",
+      "il": ["Konya"],
+      "ozellik": "Konya çevresinde, step iklimi ve bozkır bitki örtüsü."
+    },
+    {
+      "ad": "Obruk Platosu",
+      "bolge": "İç Anadolu",
+      "il": ["Konya"],
+      "ozellik": "Karstik yapı, obruk (göçme çukuru) şekilleri yaygın."
+    },
+    {
+      "ad": "Bozok Platosu",
+      "bolge": "İç Anadolu",
+      "il": ["Yozgat"],
+      "ozellik": ""
+    },
+    {
+      "ad": "Uzunyayla",
+      "bolge": "İç Anadolu - Doğu",
+      "il": ["Sivas", "Kayseri"],
+      "ozellik": "Doğu Anadolu'ya geçiş platosu."
+    },
+    {
+      "ad": "Kapadokya (Peribacaları)",
+      "bolge": "İç Anadolu",
+      "il": ["Nevşehir", "Niğde", "Aksaray"],
+      "ozellik": "Volkanik tüf arazisinde aşınma ile oluşan peribacaları. UNESCO Dünya Mirası.",
+      "kpss_notu": "Turizm açısından önemli"
+    },
+    {
+      "ad": "Antep Platosu",
+      "bolge": "Güneydoğu Anadolu",
+      "il": ["Gaziantep"],
+      "ozellik": "Fıstık üretimi yaygın."
+    },
+    {
+      "ad": "Urfa Platosu",
+      "bolge": "Güneydoğu Anadolu",
+      "il": ["Şanlıurfa"],
+      "ozellik": "GAP projesinin yoğun olduğu alan."
+    },
+    {
+      "ad": "Erzurum-Kars Platosu",
+      "bolge": "Doğu Anadolu",
+      "il": ["Erzurum", "Kars", "Ardahan"],
+      "ortalama_yukseklik_m": 1800,
+      "ozellik": "Volkanik arazi, topraklar verimli ancak iklim çok sert (en soğuk yer). Tarıma uygun değil, hayvancılık yaygın.",
+      "kpss_notu": "Volkanik plato — toprak verimli ama iklim sert"
+    },
+    {
+      "ad": "Yazılıkaya Platosu",
+      "bolge": "İç Anadolu",
+      "il": ["Eskişehir"],
+      "ozellik": ""
+    }
+  ]
+}

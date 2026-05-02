@@ -1,0 +1,242 @@
+[
+  {
+    "ulke": "Suriye",
+    "sinir_km": 911,
+    "bolge": "Güney",
+    "sinir_illeri": [
+      "Hatay",
+      "Gaziantep",
+      "Kilis",
+      "Şanlıurfa",
+      "Mardin"
+    ],
+    "sinir_kapilari": [
+      {
+        "ad": "Cilvegözü",
+        "il": "Hatay",
+        "tur": "Kara",
+        "ozellik": "Hatay'ın kapısı",
+        "lat": 36.23,
+        "lng": 36.68
+      },
+      {
+        "ad": "Karkamış",
+        "il": "Gaziantep",
+        "tur": "Kara",
+        "lat": 36.83,
+        "lng": 38.01
+      },
+      {
+        "ad": "Öncüpınar",
+        "il": "Kilis",
+        "tur": "Kara",
+        "ozellik": "Kilis'in Suriye'ye 10 km mesafedeki kapısı",
+        "lat": 36.64,
+        "lng": 37.09
+      },
+      {
+        "ad": "Mürşitpınar",
+        "il": "Şanlıurfa",
+        "tur": "Kara",
+        "lat": 36.89,
+        "lng": 38.35
+      },
+      {
+        "ad": "Nusaybin",
+        "il": "Mardin",
+        "tur": "Kara",
+        "lat": 37.07,
+        "lng": 41.21
+      }
+    ],
+    "kpss_notu": "Türkiye'nin en uzun kara sınırı",
+    "ozellik": "Güneyde yer alır. Sınır önemli ölçüde Fırat Nehri ve karasal hatla belirlenir."
+  },
+  {
+    "ulke": "Irak",
+    "sinir_km": 384,
+    "bolge": "Güneydoğu",
+    "sinir_illeri": [
+      "Şırnak",
+      "Hakkari",
+      "Mardin"
+    ],
+    "sinir_kapilari": [
+      {
+        "ad": "Habur (İbrahim Halil)",
+        "il": "Şırnak",
+        "tur": "Kara",
+        "ozellik": "Türkiye'nin Orta Doğu'ya açılan en önemli ve en yoğun ticaret kapısı. İhracat merkezi.",
+        "lat": 37.14,
+        "lng": 42.56
+      }
+    ],
+    "kpss_notu": "Habur kapısı dış ticarette kritik öneme sahip",
+    "ozellik": "Dağlık ve sarp arazi nedeniyle sınır boyunca ulaşım güçtür."
+  },
+  {
+    "ulke": "İran",
+    "sinir_km": 560,
+    "bolge": "Doğu",
+    "sinir_illeri": [
+      "Hakkari",
+      "Van",
+      "Ağrı",
+      "Iğdır"
+    ],
+    "sinir_kapilari": [
+      {
+        "ad": "Gürbulak",
+        "il": "Ağrı",
+        "tur": "Kara",
+        "ozellik": "En işlek İran sınır kapısı",
+        "lat": 39.4,
+        "lng": 44.35
+      },
+      {
+        "ad": "Kapıköy",
+        "il": "Van",
+        "tur": "Kara",
+        "lat": 38.56,
+        "lng": 44.02
+      },
+      {
+        "ad": "Esendere",
+        "il": "Hakkari",
+        "tur": "Kara",
+        "lat": 37.72,
+        "lng": 44.62
+      }
+    ],
+    "kpss_notu": "İran sınırı — dağlık arazi",
+    "ozellik": "Büyük bölümü Ağrı Dağı etekleri ve Van Gölü çevresidir."
+  },
+  {
+    "ulke": "Ermenistan",
+    "sinir_km": 311,
+    "bolge": "Kuzeydoğu",
+    "sinir_illeri": [
+      "Kars",
+      "Ağrı",
+      "Iğdır"
+    ],
+    "sinir_kapilari": [],
+    "kpss_notu": "Sınır kapalı — diplomatik ilişkiler askıya alındığından kapı yoktur",
+    "ozellik": "Ağrı Dağı'nın güneyinde yer alır. Arpaçay nehri doğal sınırı oluşturur."
+  },
+  {
+    "ulke": "Azerbaycan (Nahçıvan)",
+    "sinir_km": 18,
+    "bolge": "Kuzeydoğu",
+    "sinir_illeri": [
+      "Iğdır"
+    ],
+    "sinir_kapilari": [
+      {
+        "ad": "Dilucu",
+        "il": "Iğdır",
+        "tur": "Kara",
+        "lat": 39.82,
+        "lng": 44.82
+      }
+    ],
+    "kpss_notu": "Türkiye'nin en kısa kara sınırı — Nahçıvan özerk bölgesiyle",
+    "ozellik": "Aras Nehri doğal sınırı oluşturur. Azerbaycan anakarasıyla değil, Nahçıvan özerk cumhuriyetiyle sınır."
+  },
+  {
+    "ulke": "Gürcistan",
+    "sinir_km": 276,
+    "bolge": "Kuzey",
+    "sinir_illeri": [
+      "Artvin",
+      "Ardahan"
+    ],
+    "sinir_kapilari": [
+      {
+        "ad": "Sarp",
+        "il": "Artvin",
+        "tur": "Kara",
+        "ozellik": "Karadeniz kıyısında, en önemli Gürcistan kapısı",
+        "lat": 41.52,
+        "lng": 41.55
+      },
+      {
+        "ad": "Türkgözü",
+        "il": "Ardahan",
+        "tur": "Kara",
+        "lat": 41.55,
+        "lng": 42.82
+      },
+      {
+        "ad": "Aktaş",
+        "il": "Ardahan",
+        "tur": "Kara",
+        "lat": 41.22,
+        "lng": 43.18
+      }
+    ],
+    "kpss_notu": "Sarp kapısı Karadeniz kıyısındadır",
+    "ozellik": "Çoruh Nehri vadisi boyunca uzanır. Batı bölümünde Karadeniz kıyısına dayanır."
+  },
+  {
+    "ulke": "Bulgaristan",
+    "sinir_km": 269,
+    "bolge": "Batı Trakya",
+    "sinir_illeri": [
+      "Edirne",
+      "Kırklareli"
+    ],
+    "sinir_kapilari": [
+      {
+        "ad": "Kapıkule",
+        "il": "Edirne",
+        "tur": "Kara",
+        "ozellik": "Türkiye'nin Avrupa'ya açılan en işlek ve en önemli kapısı. TIR ve yolcu trafiği yoğun.",
+        "lat": 41.71,
+        "lng": 26.35
+      },
+      {
+        "ad": "Hamzabeyli",
+        "il": "Edirne",
+        "tur": "Kara",
+        "lat": 41.95,
+        "lng": 26.6
+      },
+      {
+        "ad": "Dereköy",
+        "il": "Kırklareli",
+        "tur": "Kara",
+        "lat": 41.92,
+        "lng": 27.35
+      }
+    ],
+    "kpss_notu": "Kapıkule — Avrupa'ya açılan en işlek kapı",
+    "ozellik": "Istranca Dağları boyunca uzanır. Meriç Nehri bazı bölümlerde doğal sınır oluşturur."
+  },
+  {
+    "ulke": "Yunanistan",
+    "sinir_km": 212,
+    "bolge": "Batı Trakya",
+    "sinir_illeri": [
+      "Edirne"
+    ],
+    "sinir_kapilari": [
+      {
+        "ad": "İpsala",
+        "il": "Edirne",
+        "tur": "Kara",
+        "lat": 40.92,
+        "lng": 26.32
+      },
+      {
+        "ad": "Pazarkule",
+        "il": "Edirne",
+        "tur": "Kara",
+        "lat": 41.65,
+        "lng": 26.51
+      }
+    ],
+    "kpss_notu": "Türkiye'nin Avrupa ile en kısa kara sınırı — Meriç Nehri sınır oluşturur",
+    "ozellik": "Büyük bölümü Meriç Nehri boyunca uzanır."
+  }
+]

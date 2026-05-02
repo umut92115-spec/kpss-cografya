@@ -1,0 +1,205 @@
+{
+  "akdeniz": {
+    "konum": "Türkiye'nin en güneyindedir. Matematik konumu gereği güneş ışınlarını en büyük açıyla alır. Jeopolitik olarak Doğu Akdeniz ticaret yollarının kontrolünde kritiktir.",
+    "yer_sekilleri": "Toros Dağları (kıvrım) kıyıya paralel uzanır. Batı Akdeniz engebeliyken, Doğu Akdeniz'de geniş düzlükler (Çukurova) bulunur.",
+    "jeoloji": "Kalkerli (kireçtaşı) yapı hakimdir. Karstik yer şekilleri (obruk, mağara, lapyalar) en fazla bu bölgededir.",
+    "su_ortusu": "Seyhan, Ceyhan, Göksu ve Manavgat nehirleri; Beyşehir, Eğirdir (Göller Yöresi) gibi önemli gölleri mevcuttur.",
+    "iklim_bitki": "Tipik Akdeniz iklimi. Kışlar ılık, yazlar sıcak. Bitki örtüsü maki ve yükseklerde kızılçam/sedir ormanlarıdır.",
+    "toprak_cevre": "Kalkerin çözünmesiyle oluşan Terra-Rossa (Kırmızı Toprak) yaygındır. Orman yangını riski en yüksek bölgedir.",
+    "nufus": "Kıyılarda nüfus yoğun, Teke ve Taşeli gibi karstik platolarda ise seyrektir. Yazın turizm/tarım göçü alır.",
+    "tarim_hayvancilik": "Muz, turunçgil, narenciye ve seracılıkta rakipsizdir. Dağlık alanlarda kıl keçisi hayvancılığı yapılır.",
+    "maden_enerji": "Boksit (Seydişehir), Krom (Fethiye), Demir (Adana-Feke). Akkuyu Nükleer Santrali bölgededir.",
+    "sanayi_ticaret": "Adana ve Mersin sanayi merkezleridir. Mersin Limanı Türkiye'nin en büyük konteyner limanlarından biridir.",
+    "ulasim_sinir": "Ulaşım geçitlerle (Belen, Gülek, Sertavul, Çubuk) sağlanır. Suriye ile Cilvegözü ve Yayladağı kapıları mevcuttur.",
+    "turizm": "Deniz turizmi (Antalya), golf turizmi (Belek), kış turizmi (Saklıkent) ve antik kent turizmi gelişmiştir.",
+    "kalkinma": "Bölgesel olarak sulama ve tarımsal verimlilik odaklı projeler yürütülmektedir.",
+    "faqs": [
+      {
+        "q": "Akdeniz Bölgesi'nde neden seracılık çok gelişmiştir?",
+        "a": "Kış ılıklığının fazla olması ve don olaylarının nadir görülmesi nedeniyle maliyet düşüktür."
+      },
+      {
+        "q": "Teke ve Taşeli platolarında nüfus neden seyrektir?",
+        "a": "Karstik arazi yapısının tarıma elverişsiz olması ve engebeli yer şekilleri temel sebeptir."
+      },
+      {
+        "q": "Akdeniz'de dağların kıyıya paralel uzanmasının sonuçları nelerdir?",
+        "a": "Boyuna kıyı tipi görülür, deniz etkisi iç kesimlere giremez, kıyı ile iç kesim ulaşımı geçitlerle sağlanır."
+      }
+    ]
+  },
+  "ege": {
+    "konum": "Türkiye'nin batısındadır. Güneş ışınlarını büyük açıyla alır. Avrupa ile deniz ticareti için en önemli çıkış kapısıdır.",
+    "yer_sekilleri": "Dağlar kıyıya dik uzanır. Horst-Graben yapısı (Madra, Yunt, Bozdağlar / Bakırçay, Gediz, Menderes) hakimdir.",
+    "jeoloji": "Tektonik olarak aktif, kırıklı yapı fazladır. Deprem riski yüksek, fay hatları yaygındır.",
+    "su_ortusu": "Büyük Menderes, Küçük Menderes, Gediz ve Bakırçay nehirleri menderesler çizerek akar. Bafa (Çamiçi) Gölü bulunur.",
+    "iklim_bitki": "Akdeniz iklimi dağların dik uzanması sayesinde iç kesimlere kadar (Afyon eşiğine kadar) sokulur.",
+    "toprak_cevre": "Graben ovalarında verimli alüvyal topraklar bulunur. Kıyı kirliliği ve sanayi atıkları çevre sorunudur.",
+    "nufus": "Nüfus kıyı ovalarında ve sanayi şehirlerinde (İzmir, Manisa) yoğundur. Menteşe yöresi dağlık olduğu için seyrektir.",
+    "tarim_hayvancilik": "ZÜHTİ (Zeytin, Üzüm, Haşhaş, Tütün, İncir) üretimi meşhurdur. Kültür balıkçılığı (Muğla) gelişmiştir.",
+    "maden_enerji": "Linyit (Soma, Yatağan), Mermer (Afyon), Jeotermal (Denizli-Sarayköy), Rüzgar (İzmir-Çeşme) birincidir.",
+    "sanayi_ticaret": "Gıda, dokuma, otomotiv (İzmir) ve petrol rafinerisi (Aliağa) sanayisi güçlüdür. İzmir Limanı ihracat merkezidir.",
+    "ulasim_sinir": "Kıyı ile iç kesim arası ulaşım en kolay olan bölgedir. Yunanistan ile deniz ve kara (İpsala - Meriç üzerinden) bağlantısı vardır.",
+    "turizm": "Deniz turizmi (Bodrum, Çeşme, Kuşadası), termal turizm (Pamukkale) ve antik kentler (Efes, Milet) ana odaklardır.",
+    "kalkinma": "Afyon-Uşak-Kütahya-Eskişehir bölgesini kapsayan yerel turizm ve sanayi projeleri mevcuttur.",
+    "faqs": [
+      {
+        "q": "Ege'de dağların kıyıya dik uzanmasının sonuçları nelerdir?",
+        "a": "Deniz etkisi iç kesimlere sokulur, kıyı girintili çıkıntılıdır (enine kıyı), limanların hinterlandı geniştir."
+      },
+      {
+        "q": "Ege Bölgesi'nde neden deprem riski yüksektir?",
+        "a": "Bölge geneli horst-grabenli kırıklı yapıya sahip olduğu için fay hatları oldukça yaygındır."
+      },
+      {
+        "q": "Menteşe Yöresi neden Ege'nin diğer yerlerinden farklıdır?",
+        "a": "Dağlar kıyıya paralel uzandığı için bol yağış alır ancak ulaşım zordur ve nüfus seyrektir."
+      }
+    ]
+  },
+  "marmara": {
+    "konum": "Üç denize (Marmara, Ege, Karadeniz) kıyısı olan, Asya ve Avrupa'yı birleştiren jeopolitik merkezdir.",
+    "yer_sekilleri": "Yükseltisi en az bölgedir. Çatalca-Kocaeli platosu, Yıldız dağları ve Ergene ovası önemli yer şekilleridir.",
+    "jeoloji": "Kuzey Anadolu Fay Hattı (KAF) bölgeden geçer. Genç ve hareketli bir yapıya sahiptir.",
+    "su_ortusu": "Meriç ve Ergene nehirleri, Sapanca, İznik, Manyas ve Ulubat gölleri önemli su kaynaklarıdır.",
+    "iklim_bitki": "Geçiş iklimi hakimdir. Karadeniz, Akdeniz ve Karasal etkiler bir arada görülür. Maki, orman ve bozkır karışımıdır.",
+    "toprak_cevre": "Ergene'de vertisol (dönen toprak), Yıldız'da podzol, Güney Marmara'da kahverengi orman toprakları görülür.",
+    "nufus": "Türkiye'nin en yoğun nüfuslu bölgesidir. İstanbul tek başına devasa bir merkezdir. Yoğun göç alır.",
+    "tarim_hayvancilik": "Ayçiçeği, pirinç ve şeftali üretimi fazladır. Modern besi ve kümes hayvancılığı ile ipek böcekçiliği (Bursa) yapılır.",
+    "maden_enerji": "Bor (Balıkesir), Linyit, Doğalgaz (Hamitabat) kaynakları bulunur. Enerji tüketimi en yüksek bölgedir.",
+    "sanayi_ticaret": "Sanayi ve ticaretin merkezidir (İstanbul, Bursa, Kocaeli). Türkiye dış ticaretinin yarısından fazlasını karşılar.",
+    "ulasim_sinir": "Ulaşım ağları (otoyol, demiryolu, deniz) en gelişmiştir. Bulgaristan (Kapıkule) ve Yunanistan sınır kapıları buradadır.",
+    "turizm": "Kültür turizmi (İstanbul), kış turizmi (Uludağ) ve doğa turizmi (Abant çevresi) gelişmiştir.",
+    "kalkinma": "Zonguldak-Bartın-Karabük (ZBK) projesi ile sınır komşusudur ve sanayi entegrasyonu yüksektir.",
+    "faqs": [
+      {
+        "q": "Marmara Bölgesi'nde neden nüfus yoğunluğu en fazladır?",
+        "a": "Sanayi, ticaret, ulaşım imkanlarının gelişmiş olması ve verimli tarım arazilerinin bulunması temel sebeptir."
+      },
+      {
+        "q": "Marmara Bölgesi'nde hangi iklimler görülür?",
+        "a": "Karadeniz, Akdeniz ve Karasal iklimlerin bir arada görüldüğü 'Geçiş İklimi' hakimdir."
+      },
+      {
+        "q": "Kümes hayvancılığı neden Marmara'da yoğundur?",
+        "a": "Tüketici nüfusun (pazarın) fazla olması nedeniyle modern tesisler bu bölgede toplanmıştır."
+      }
+    ]
+  },
+  "karadeniz": {
+    "konum": "Türkiye'nin kuzeyindedir. Rusya ve Kafkasya ile deniz komşusudur. Karadeniz havzasının stratejik kontrolündedir.",
+    "yer_sekilleri": "Kuzey Anadolu Dağları kıyıya paralel, sarp uzanır. Kıyı ile iç kesim arasında iklim ve ulaşım farkı büyüktür.",
+    "jeoloji": "Dağlık ve dik yamaçlı yapı heyelan riskini artırır. KAF hattı bölgenin güneyinden geçer.",
+    "su_ortusu": "Kızılırmak, Yeşilırmak, Çoruh nehirleri ve Tortum, Sera gibi heyelan set gölleri mevcuttur.",
+    "iklim_bitki": "Her mevsim yağışlı Karadeniz iklimi. Türkiye'nin en gür ormanları (iğne ve yayvan yapraklı) buradadır.",
+    "toprak_cevre": "Batı Karadeniz'de podzol, Doğu Karadeniz'de asitli kahverengi orman toprakları yaygındır. Heyelan en büyük sorundur.",
+    "nufus": "Nüfus kıyı şeridinde yoğundur. İç kesimlerde ve yükseklerde seyrektir. Dağınık yerleşme tipi hakimdir.",
+    "tarim_hayvancilik": "Fındık, çay, kivi ve mısır ana ürünlerdir. Balıkçılıkta liderdir. Yaylacılık ve arıcılık yaygındır.",
+    "maden_enerji": "Taşkömürü (Zonguldak), Bakır (Artvin-Murgul, Kastamonu-Küre) ve hidroelektrik (Çoruh) potansiyeli yüksektir.",
+    "sanayi_ticaret": "Demir-çelik (Ereğli, Karabük) ve çay/fındık işleme sanayisi gelişmiştir. Samsun en büyük ticaret limanıdır.",
+    "ulasim_sinir": "Geçitler (Zigana, Kop) ve tüneller (Ovit) ulaşıma can verir. Gürcistan ile Sarp sınır kapısı en işlek kapıdır.",
+    "turizm": "Yayla turizmi (Ayder, Uzungöl), rafting ve doğa sporları merkezidir. Sümela Manastırı önemli bir duraktır.",
+    "kalkinma": "DOKAP (Doğu Karadeniz Projesi) bölgenin kalkınması için yürütülen devasa bir projedir.",
+    "faqs": [
+      {
+        "q": "Karadeniz'de neden dağınık yerleşme görülür?",
+        "a": "Yer şekillerinin engebeli, su kaynaklarının bol ve tarım arazilerinin parçalı olması nedeniyle evler birbirinden uzaktır."
+      },
+      {
+        "q": "Karadeniz'de kıyı ile iç kesim arası ulaşım nasıl sağlanır?",
+        "a": "Dağlar kıyıya paralel olduğu için ulaşım Zigana, Kop, Sertavul gibi geçitler ve tünellerle sağlanır."
+      },
+      {
+        "q": "Karadeniz'de balıkçılık neden en çok Doğu Karadeniz'dedir?",
+        "a": "Tarımsal arazinin azlığı nedeniyle insanların temel geçim kaynağı olarak denize yönelmesi ve suların serin olması etkidir."
+      }
+    ]
+  },
+  "ic-anadolu": {
+    "konum": "Türkiye'nin merkezindedir. Tüm bölgelerle komşudur. Stratejik olarak ülkenin savunma ve yönetim kalbidir.",
+    "yer_sekilleri": "Geniş düzlükler, platolar (Haymana, Cihanbeyli) ve volkanik dağlar (Erciyes, Hasan Dağı) ile kaplıdır.",
+    "jeoloji": "Eski kütleler (masifler) bulunur. Volkanik arazi yaygındır ancak deprem riski (Konya çevresi) nispeten düşüktür.",
+    "su_ortusu": "Kızılırmak bölgeyi dolanır. Tuz Gölü Türkiye'nin ikinci büyük gölüdür ve kapalı havza özelliği taşır.",
+    "iklim_bitki": "Ilıman Karasal (Step) iklim. Yağış en az ilkbaharda düşer. Bitki örtüsü ilkbaharda yeşeren bozkırdır.",
+    "toprak_cevre": "Kestane ve kahverengi bozkır toprakları yaygındır. Erozyon ve kuraklık en büyük çevre sorunudur.",
+    "nufus": "Ankara, Konya, Kayseri gibi merkezlerde nüfus yoğun, Tuz Gölü çevresinde ise çok seyrektir. Toplu yerleşme hakimdir.",
+    "tarim_hayvancilik": "Tahıl ambarıdır. Buğday, arpa, şeker pancarı birincidir. Küçükbaş hayvancılık (koyun, tiftik keçisi) yaygındır.",
+    "maden_enerji": "Linyit, Bor (Eskişehir), Lüle Taşı ve Tuz ana kaynaklardır. Konya-Karapınar'da güneş enerjisi yatırımı büyüktür.",
+    "sanayi_ticaret": "Savunma sanayisi (Ankara), şeker ve unlu mamul sanayisi gelişmiştir. Kayseri ticaret merkezidir.",
+    "ulasim_sinir": "Düzlükler sayesinde ulaşım maliyeti düşüktür. Yüksek Hızlı Tren'in merkezidir. Sınır komşusu yoktur.",
+    "turizm": "Kapadokya (Peri Bacaları), inanç turizmi (Mevlana) ve Ankara'daki Cumhuriyet dönemi eserleri turist çeker.",
+    "kalkinma": "KOP (Konya Ovası Projesi) sulama ve tarımsal kalkınma için hayati önem taşır.",
+    "faqs": [
+      {
+        "q": "İç Anadolu'da nadas tarımı neden yaygındır?",
+        "a": "Yıllık yağış miktarının az ve sulama imkanlarının kısıtlı olması nedeniyle toprak dinlenmeye bırakılır."
+      },
+      {
+        "q": "Bölgede küçükbaş hayvancılık neden birincidir?",
+        "a": "Yarı kurak iklim nedeniyle yetişen bozkır (step) bitki örtüsü küçükbaş hayvanların beslenmesi için uygundur."
+      },
+      {
+        "q": "İç Anadolu'da erozyon riski neden yüksektir?",
+        "a": "Bitki örtüsünün cılız olması ve arazinin düz/açık olması rüzgar erozyonunu artırır."
+      }
+    ]
+  },
+  "dogu-anadolu": {
+    "konum": "Türkiye'nin en doğusundadır. En yüksek ve en dağlık bölgemizdir. Kafkasya ve İran ile komşudur.",
+    "yer_sekilleri": "Ortalama yükseltisi 2000m üzerindedir. Volkanik dağlar (Ağrı, Nemrut) ve Erzurum-Kars gibi yüksek platolar hakimdir.",
+    "jeoloji": "Genç kıvrım dağları ve volkanik arazi geniş yer tutar. Doğu Anadolu Fay Hattı (DAF) bölgeden geçer.",
+    "su_ortusu": "Fırat ve Dicle nehirleri buradan doğar. Van Gölü (sodalı) Türkiye'nin en büyük gölüdür.",
+    "iklim_bitki": "Sert Karasal iklim. Kışlar -40 derecelere kadar düşer. Bitki örtüsü yüksek yerlerde çayır, alçaklarda bozkırdır.",
+    "toprak_cevre": "Erzurum-Kars'ta dünyanın en verimli toprağı Çernozyom (Kara Toprak) bulunur ancak iklim tarıma izin vermez.",
+    "nufus": "Nüfus yoğunluğu en düşük bölgemizdir. Engebeli arazi ve iklim nedeniyle nüfus düzlüklerde (Iğdır, Malatya) toplanmıştır.",
+    "tarim_hayvancilik": "Büyükbaş mera hayvancılığı (Erzurum-Kars) ve kayısı (Malatya) üretimi temel geçim kaynağıdır.",
+    "maden_enerji": "Maden çeşitliliğinin en fazla olduğu (Elazığ) bölgedir. Hidroelektrik enerji üretimi (Barajlar) birincidir.",
+    "sanayi_ticaret": "Sanayi en az gelişen bölgedir. Et ve süt ürünleri işleme ile Malatya'daki kayısı sanayisi mevcuttur.",
+    "ulasim_sinir": "Yer şekilleri ve kış şartları ulaşımı kısıtlar. Gürbulak (İran) ve Dilucu (Nahçıvan) önemli kapılardır.",
+    "turizm": "Nemrut Dağı (Adıyaman), İshak Paşa Sarayı (Ağrı), Akdamar Kilisesi ve Palandöken kış turizmi önemlidir.",
+    "kalkinma": "DAP (Doğu Anadolu Projesi) hayvancılık, eğitim ve ulaşım odaklı büyük bir dönüşüm hedeflemektedir.",
+    "faqs": [
+      {
+        "q": "Doğu Anadolu'da tarım ürünlerinin olgunlaşma süresi neden uzundur?",
+        "a": "Yükseltinin fazla olması sıcaklığı düşürdüğü için bitkilerin olgunlaşma süresi diğer bölgelere göre daha geçtir."
+      },
+      {
+        "q": "Bölgede büyükbaş mera hayvancılığı neden yaygındır?",
+        "a": "Yaz yağışlarıyla yeşeren gür çayırların (Erzurum-Kars) bulunması büyükbaş hayvancılığı destekler."
+      },
+      {
+        "q": "Doğu Anadolu'da hidroelektrik potansiyel neden en yüksektir?",
+        "a": "Nehirlerin debisinin yüksek ve yatak eğimlerinin fazla olması enerji potansiyelini artırır."
+      }
+    ]
+  },
+  "guneydogu-anadolu": {
+    "konum": "Türkiye'nin güneybatısındadır. Mezopotamya'nın kuzey ucudur. Ortadoğu ticaretinin kilit noktasındadır.",
+    "yer_sekilleri": "En sade yer şekillerine sahip bölgedir. Geniş platolar ve Mezopotamya ovaları (Ceylanpınar, Suruç) yaygındır.",
+    "jeoloji": "Kuzeyinde Toroslar yükselirken bölge geneli düzlüklerden oluşur. Petrol yatakları (Batman) buradadır.",
+    "su_ortusu": "Fırat ve Dicle nehirleri bölgeye hayat verir. Atatürk Barajı Türkiye'nin en büyük baraj gölüdür.",
+    "iklim_bitki": "Karasal iklim hakimdir ancak yazları aşırı buharlaşma nedeniyle Türkiye'nin en sıcak bölgesidir. Bozkır yaygındır.",
+    "toprak_cevre": "Kahverengi bozkır toprakları yaygındır. Buharlaşma nedeniyle toprakta tuzlanma riski vardır.",
+    "nufus": "Nüfus GAP ile birlikte artmıştır. Gaziantep, Şanlıurfa ve Diyarbakır büyük nüfus merkezleridir.",
+    "tarim_hayvancilik": "GAP öncesi kırmızı mercimek ve antep fıstığı; GAP sonrası pamuk ve mısır üretiminde birincidir.",
+    "maden_enerji": "Petrol (Batman-Raman), fosfat (Mardin-Mazıdağı) ve hidroelektrik enerji ana kaynaklardır.",
+    "sanayi_ticaret": "Gaziantep sanayisi bölgenin lokomotifidir. Ortadoğu ülkelerine ihracat çok yüksektir.",
+    "ulasim_sinir": "Düz arazi sayesinde karayolu ulaşımı kolaydır. Suriye (Habur - dolaylı Irak bağlantısı) en işlek kapı yönüdür.",
+    "turizm": "Göbeklitepe (Şanlıurfa), Zeugma (Gaziantep), Nemrut (Mardin sınırında paylaşımlı) ve inanç turizmi merkezidir.",
+    "kalkinma": "GAP (Güneydoğu Anadolu Projesi) Cumhuriyet tarihinin en büyük entegre kalkınma projesidir.",
+    "faqs": [
+      {
+        "q": "Güneydoğu Anadolu neden Türkiye'nin en kurak bölgesidir?",
+        "a": "Yağışın azlığı değil, şiddetli buharlaşma nedeniyle su kaybının çok fazla olması kuraklığı artırır."
+      },
+      {
+        "q": "GAP sonrası bölge tarımında ne değişmiştir?",
+        "a": "Sulama imkanlarıyla birlikte pamuk, mısır ve sebze üretimi artmış; nadas alanları azalmıştır."
+      },
+      {
+        "q": "Gaziantep sanayisi neden bölgenin lokomotifidir?",
+        "a": "Ulaşım yolları üzerinde olması, sermaye birikimi ve gelişmiş ticaret ağları nedeniyle sanayi devleşmiştir."
+      }
+    ]
+  }
+}

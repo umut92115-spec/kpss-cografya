@@ -1,0 +1,222 @@
+[
+  {
+    "slug": "cografi-konum",
+    "baslik": "Türkiye'nin Coğrafi Konumu",
+    "kisa_baslik": "Coğrafi Konum",
+    "kpss_soru_sayisi_ort": 2,
+    "agirlik": "yüksek",
+    "icon": "🌍",
+    "renk": "#2563EB",
+    "harita_renk": "#60A5FA",
+    "aciklama": "Türkiye'nin matematik (mutlak) ve özel (göreceli) konumu, sınır komşuları, jeopolitik önemi."
+  },
+  {
+    "slug": "yer-sekilleri",
+    "baslik": "Yer Şekilleri ve Su Örtüsü",
+    "kisa_baslik": "Yer Şekilleri",
+    "kpss_soru_sayisi_ort": 3,
+    "agirlik": "yüksek",
+    "icon": "⛰️",
+    "renk": "#4B5563",
+    "harita_renk": "#9CA3AF",
+    "aciklama": "Türkiye'nin dağları, ovaları, platoları, akarsuları ve gölleri."
+  },
+  {
+    "slug": "daglar",
+    "baslik": "Türkiye'nin Dağları",
+    "kisa_baslik": "Dağlar",
+    "kpss_soru_sayisi_ort": 1,
+    "agirlik": "yüksek",
+    "icon": "🌋",
+    "renk": "#7C2D12",
+    "harita_renk": "#B45309",
+    "aciklama": "Türkiye'deki kıvrım, kırıklık ve volkanik dağların dağılışı."
+  },
+  {
+    "slug": "goller",
+    "baslik": "Türkiye'nin Gölleri",
+    "kisa_baslik": "Göller",
+    "kpss_soru_sayisi_ort": 1,
+    "agirlik": "orta",
+    "icon": "🌊",
+    "renk": "#0369A1",
+    "harita_renk": "#38BDF8",
+    "aciklama": "Türkiye'deki tatlı, tuzlu, acı su gölleri ve oluşum türleri."
+  },
+  {
+    "slug": "sinir-kapilari",
+    "baslik": "Sınır Komşuları ve Kapıları",
+    "kisa_baslik": "Sınır Kapıları",
+    "kpss_soru_sayisi_ort": 1,
+    "agirlik": "düşük",
+    "icon": "🚩",
+    "renk": "#000000",
+    "harita_renk": "#4B5563",
+    "aciklama": "Türkiye'nin sınır komşuları ve bu komşulara açılan sınır kapıları."
+  },
+  {
+    "slug": "iklim-bitki",
+    "baslik": "İklim ve Bitki Örtüsü",
+    "kisa_baslik": "İklim",
+    "kpss_soru_sayisi_ort": 2,
+    "agirlik": "yüksek",
+    "icon": "☀️",
+    "renk": "#EAB308",
+    "harita_renk": "#FDE047",
+    "aciklama": "Türkiye'de görülen iklim tipleri, sıcaklık ve yağış dağılışı, doğal bitki örtüsü."
+  },
+  {
+    "slug": "toprak-cevre",
+    "baslik": "Toprak ve Doğal Çevre",
+    "kisa_baslik": "Toprak",
+    "kpss_soru_sayisi_ort": 1,
+    "agirlik": "orta",
+    "icon": "🌱",
+    "renk": "#16A34A",
+    "harita_renk": "#4ADE80",
+    "aciklama": "Türkiye'deki toprak türleri, erozyon, heyelan ve çevre sorunları."
+  },
+  {
+    "slug": "beseri-cografya",
+    "baslik": "Beşeri Coğrafya",
+    "kisa_baslik": "Nüfus",
+    "kpss_soru_sayisi_ort": 3,
+    "agirlik": "yüksek",
+    "icon": "👥",
+    "renk": "#DC2626",
+    "harita_renk": "#F87171",
+    "aciklama": "Nüfusun dağılışı, göçler, yerleşme tipleri ve nüfus piramitleri."
+  },
+  {
+    "slug": "tarim",
+    "baslik": "Tarım ve Hayvancılık",
+    "kisa_baslik": "Tarım & Hayvancılık",
+    "kpss_soru_sayisi_ort": 2,
+    "agirlik": "yüksek",
+    "icon": "🌾",
+    "renk": "#65A30D",
+    "harita_renk": "#A3E635",
+    "aciklama": "Türkiye'de yetiştirilen tarım ürünleri, hayvancılık faaliyetleri ve bölgesel dağılışları."
+  },
+  {
+    "slug": "madenler-enerji",
+    "baslik": "Madenler ve Enerji Kaynakları",
+    "kisa_baslik": "Madenler",
+    "kpss_soru_sayisi_ort": 2,
+    "agirlik": "yüksek",
+    "icon": "⛏️",
+    "renk": "#854F0B",
+    "harita_renk": "#FAC775",
+    "aciklama": "Türkiye'deki maden yatakları, enerji kaynakları ve santraller."
+  },
+  {
+    "slug": "sanayi",
+    "baslik": "Sanayi",
+    "kisa_baslik": "Sanayi",
+    "kpss_soru_sayisi_ort": 1,
+    "agirlik": "orta",
+    "icon": "🏭",
+    "renk": "#475569",
+    "harita_renk": "#94A3B8",
+    "aciklama": "Sanayi tesislerinin dağılışı ve sanayi kolları."
+  },
+  {
+    "slug": "ulasim",
+    "baslik": "Ulaşım",
+    "kisa_baslik": "Ulaşım",
+    "kpss_soru_sayisi_ort": 1,
+    "agirlik": "orta",
+    "icon": "🛤️",
+    "renk": "#0284C7",
+    "harita_renk": "#38BDF8",
+    "aciklama": "Karayolu, demiryolu, denizyolu ve havayolu ulaşımı ile önemli geçitler."
+  },
+  {
+    "slug": "turizm",
+    "baslik": "Turizm",
+    "kisa_baslik": "Turizm",
+    "kpss_soru_sayisi_ort": 1,
+    "agirlik": "düşük",
+    "icon": "🏖️",
+    "renk": "#D946EF",
+    "harita_renk": "#F0ABFC",
+    "aciklama": "Türkiye'nin turizm potansiyeli ve turizm merkezleri."
+  },
+  {
+    "slug": "ticaret",
+    "baslik": "Ticaret",
+    "kisa_baslik": "Ticaret",
+    "kpss_soru_sayisi_ort": 1,
+    "agirlik": "orta",
+    "icon": "💰",
+    "renk": "#059669",
+    "harita_renk": "#34D399",
+    "aciklama": "Türkiye'nin dış ticareti, ihracat ve ithalat kalemleri, ticaret ortakları ve gümrük kapıları."
+  },
+  {
+    "slug": "jeolojik-yapi",
+    "baslik": "Jeolojik Yapı ve İç Kuvvetler",
+    "kisa_baslik": "Jeolojik Yapı",
+    "kpss_soru_sayisi_ort": 1,
+    "agirlik": "orta",
+    "icon": "🧬",
+    "renk": "#78350F",
+    "harita_renk": "#D97706",
+    "aciklama": "Türkiye'nin jeolojik geçmişi, jeolojik zamanlar ve iç kuvvetler (orojenez, epirojenez, volkanizma, deprem)."
+  },
+  {
+    "slug": "bolge-jeopolitik",
+    "baslik": "Bölge Kavramı ve Jeopolitik",
+    "kisa_baslik": "Jeopolitik",
+    "kpss_soru_sayisi_ort": 1,
+    "agirlik": "orta",
+    "icon": "🏛️",
+    "renk": "#4338CA",
+    "harita_renk": "#818CF8",
+    "aciklama": "Bölge türleri, Türkiye'nin jeopolitik konumu ve stratejik önemi."
+  },
+  {
+    "slug": "kalkinma-projeleri",
+    "baslik": "Bölgesel Kalkınma Projeleri",
+    "kisa_baslik": "Kalkınma Projeleri",
+    "kpss_soru_sayisi_ort": 1,
+    "agirlik": "orta",
+    "icon": "🏗️",
+    "renk": "#B91C1C",
+    "harita_renk": "#F87171",
+    "aciklama": "GAP, KOP, DAP, DOKAP ve ZBK gibi bölgesel kalkınma projeleri ve hedefleri."
+  },
+  {
+    "slug": "akarsular",
+    "baslik": "Türkiye'nin Akarsuları",
+    "kisa_baslik": "Akarsular",
+    "kpss_soru_sayisi_ort": 1,
+    "agirlik": "orta",
+    "icon": "🗾",
+    "renk": "#0EA5E9",
+    "harita_renk": "#7DD3FC",
+    "aciklama": "Türkiye'nin akarsu havzaları, rejimleri ve akarsuların genel özellikleri."
+  },
+  {
+    "slug": "kiyi-tipleri",
+    "baslik": "Kıyı Tipleri ve Denizler",
+    "kisa_baslik": "Kıyı Tipleri",
+    "kpss_soru_sayisi_ort": 1,
+    "agirlik": "düşük",
+    "icon": "🌊",
+    "renk": "#0891B2",
+    "harita_renk": "#22D3EE",
+    "aciklama": "Boyuna, enine, ria, dalmaçya ve kalanklı kıyı tipleri ile Türkiye denizleri."
+  },
+  {
+    "slug": "sozluk",
+    "baslik": "Coğrafya Terimleri Sözlüğü",
+    "kisa_baslik": "Sözlük",
+    "kpss_soru_sayisi_ort": 1,
+    "agirlik": "düşük",
+    "icon": "📖",
+    "renk": "#4B5563",
+    "harita_renk": "#9CA3AF",
+    "aciklama": "A'dan Z'ye temel coğrafya terimleri, tanımları ve kısa açıklamaları."
+  }
+]

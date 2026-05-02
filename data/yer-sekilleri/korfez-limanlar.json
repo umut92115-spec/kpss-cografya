@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "konu": "Türkiye'nin Körfezleri, Koyları ve Limanları",
+    "aciklama": "Türkiye üç tarafı denizle çevrili bir yarımadadır. Kıyı şeklinin oluşmasında dağların uzanış yönü belirleyicidir."
+  },
+  "korfezler": {
+    "aciklama": "Denizin karaya girdiği geniş girintilerdir. Ege'de körfez sayısı fazla (dağlar kıyıya dik), Karadeniz ve Akdeniz'de azdır (dağlar kıyıya paralel).",
+    "ezber": "BANDlRMA GEMLİK ERDEK İZMİT — EDREMİT ÇANDARLI İZMİR SAROZ KUŞADAsl GÜLLÜK GÖKOVA FETHİYE ANTALYA MERSİN İSKENDERUN",
+    "liste": [
+      { "ad": "İzmit (Kocaeli) Körfezi", "deniz": "Marmara", "ozellik": "İzmit sanayi bölgesi" },
+      { "ad": "Bandırma Körfezi", "deniz": "Marmara", "ozellik": "" },
+      { "ad": "Gemlik Körfezi", "deniz": "Marmara", "ozellik": "Gemlik limanı" },
+      { "ad": "Erdek Körfezi", "deniz": "Marmara", "ozellik": "" },
+      { "ad": "Saros Körfezi", "deniz": "Ege", "ozellik": "Trakya kıyısı" },
+      { "ad": "Edremit Körfezi", "deniz": "Ege", "ozellik": "Zeytin üretimi" },
+      { "ad": "Çandarlı Körfezi", "deniz": "Ege", "ozellik": "" },
+      { "ad": "İzmir Körfezi", "deniz": "Ege", "ozellik": "Türkiye'nin en önemli ticaret limanlarından biri" },
+      { "ad": "Kuşadası Körfezi", "deniz": "Ege", "ozellik": "Kruvaziyer turizm" },
+      { "ad": "Güllük Körfezi", "deniz": "Ege", "ozellik": "" },
+      { "ad": "Gökova Körfezi", "deniz": "Ege - Akdeniz", "ozellik": "" },
+      { "ad": "Fethiye Körfezi", "deniz": "Akdeniz", "ozellik": "" },
+      { "ad": "Antalya Körfezi", "deniz": "Akdeniz", "ozellik": "Turizm merkezi" },
+      { "ad": "Mersin Körfezi", "deniz": "Akdeniz", "ozellik": "" },
+      { "ad": "İskenderun Körfezi", "deniz": "Akdeniz", "ozellik": "Demir çelik ihracatı" }
+    ]
+  },
+  "limanlar": {
+    "aciklama": "Türkiye dış ticaretinin büyük bölümü deniz yoluyla yapılmaktadır.",
+    "kpss_notu": "Sinop limanı hinterlantı zayıf olduğu için gelişememiştir. Demir yolu bağlantısı olan limanlar daha çok gelişir.",
+    "liste": [
+      { "ad": "İstanbul (Haydarpaşa / Ambarlı)", "il": "İstanbul", "deniz": "Marmara", "ozellik": "Türkiye'nin en büyük limanı, dış ticaret merkezi" },
+      { "ad": "İzmir (Alsancak)", "il": "İzmir", "deniz": "Ege", "ozellik": "Batı Türkiye ihracat kapısı; incir, üzüm, tütün" },
+      { "ad": "Mersin", "il": "Mersin", "deniz": "Akdeniz", "ozellik": "Akdeniz'in en büyük limanı; konteyner" },
+      { "ad": "İskenderun", "il": "Hatay", "deniz": "Akdeniz", "ozellik": "Demir çelik ihracatı sebebiyle önemli" },
+      { "ad": "Samsun", "il": "Samsun", "deniz": "Karadeniz", "ozellik": "Karadeniz'in en büyük limanı" },
+      { "ad": "Trabzon", "il": "Trabzon", "deniz": "Karadeniz", "ozellik": "İran'a açılan kapı, transit ticaret" },
+      { "ad": "Sinop", "il": "Sinop", "deniz": "Karadeniz", "ozellik": "Hinterlantı zayıf, gelişememiş" },
+      { "ad": "Bandırma", "il": "Balıkesir", "deniz": "Marmara", "ozellik": "" },
+      { "ad": "Gemlik", "il": "Bursa", "deniz": "Marmara", "ozellik": "Otomotiv ihracatı" },
+      { "ad": "Kuşadası", "il": "Aydın", "deniz": "Ege", "ozellik": "Kruvaziyer turizm limanı" },
+      { "ad": "Antalya", "il": "Antalya", "deniz": "Akdeniz", "ozellik": "Kruvaziyer turizm" },
+      { "ad": "Derince (İzmit)", "il": "Kocaeli", "deniz": "Marmara", "ozellik": "Sanayi limanı" }
+    ]
+  }
+}

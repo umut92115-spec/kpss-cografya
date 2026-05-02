@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "konu": "Türkiye'nin Toprakları",
+    "aciklama": "Türkiye'deki toprak türleri üç ana başlık altında toplanır: Zonal (Yerli), Azonal (Taşınmış) ve İntrazonal."
+  },
+  "zonal": {
+    "aciklama": "Bulunduğu bölgenin iklim ve bitki örtüsü şartlarına göre oluşan yerli topraklardır.",
+    "tipler": [
+      {
+        "ad": "Kahverenkli Orman ve Podzol",
+        "iklim_bitki": "Orman örtüsü",
+        "bolge": "Kuzey Anadolu (Karadeniz) denize bakan yamaçları",
+        "ozellik": "Kahverengi orman toprakları organik madde (humus) bakımından zengindir. Podzoller ise aşırı yıkanmadan dolayı verimsizdir."
+      },
+      {
+        "ad": "Terra Rossa (Kırmızı Toprak)",
+        "iklim_bitki": "Akdeniz iklimi (Maki)",
+        "bolge": "Akdeniz, Ege ve Güney Marmara",
+        "ozellik": "Kalker (kireçtaşı) üzerinde oluşur. Kırmızı rengini demir oksitten alır. Turunçgil, bağcılık ve zeytin tarımı yapılır. Humus bakımından fakir olup gübre ister."
+      },
+      {
+        "ad": "Kahverenkli Bozkır Toprağı",
+        "iklim_bitki": "Karasal iklim (Bozkır/Step)",
+        "bolge": "İç Anadolu, Doğu Anadolu, Güneydoğu Anadolu",
+        "ozellik": "Yıllık yağışın 400 mm'nin altında olduğu yerlerde oluşur. Tahıl tarımı ve küçükbaş hayvancılık yapılır. Bitki örtüsü zayıf olduğu için humus fakiridir."
+      },
+      {
+        "ad": "Çernozyom (Kara Toprak)",
+        "iklim_bitki": "Sert Karasal (Çayır)",
+        "bolge": "Erzurum-Kars Yöresi",
+        "ozellik": "Dünyanın ve Türkiye'nin en verimli zonal toprağıdır (humus çok zengin). Ancak Erzurum-Kars'ta iklim çok sert olduğu için tarımda yeterince yararlanılamaz (daha çok büyükbaş hayvancılık yapılır)."
+      }
+    ]
+  },
+  "azonal": {
+    "aciklama": "Dış kuvvetler (akarsu, rüzgar, buzul) tarafından taşınarak biriktirilen topraklardır. Horizonları (katmanları) yoktur. Mineralce zengin ve verimlidirler.",
+    "tipler": [
+      {
+        "ad": "Alüvyal Topraklar",
+        "olusturan_kuvvet": "Akarsular",
+        "bolge": "Delta ovaları (Çukurova, Bafra, Çarşamba vb.)",
+        "ozellik": "Akarsuların taşıdığı minerallerin birikmesiyle oluşur. Çok verimlidir, yoğun tarım yapılır."
+      },
+      {
+        "ad": "Kolüvyal Topraklar",
+        "olusturan_kuvvet": "Yerçekimi ve Sel suları",
+        "bolge": "Dağ etekleri",
+        "ozellik": "Dağların eğimli yamaçlarından kopan parçaların eteklerde birikmesiyle oluşur. Bağ ve bahçe tarımına (meyvecilik) uygundur."
+      }
+    ]
+  },
+  "intrazonal": {
+    "aciklama": "Ana kaya ve topografyanın etkili olduğu, tam olgunlaşmamış topraklardır.",
+    "tipler": [
+      {
+        "ad": "Vertisol (Dönen Toprak)",
+        "alt_tur": "Kalsimorfik",
+        "bolge": "Trakya, Güney Marmara, Van Gölü batısı",
+        "ozellik": "Killi topraktır. Kuruyunca çatlar, ıslanınca şişer. Anadolu'da 'taş doğuran' veya 'kepir' olarak adlandırılır. Ayçiçeği tarımı için idealdir."
+      },
+      {
+        "ad": "Rendzina",
+        "alt_tur": "Kalsimorfik",
+        "bolge": "İç Anadolu, Ege, Doğu Anadolu çöküntü sahaları",
+        "ozellik": "Yumuşak kireçtaşı veya killi-kireçli göl depoları üzerinde oluşur. Koyu renkli ve kireçlidir."
+      },
+      {
+        "ad": "Halomorfik (Solancak)",
+        "bolge": "Tuz Gölü çevresi ve kapalı havzalar",
+        "ozellik": "Suda çözünmüş tuz ve karbonatların buharlaşma ile yüzeyde birikmesiyle oluşur. Tuzlu topraktır, tarımsal verimi çok düşüktür."
+      },
+      {
+        "ad": "Hidromorfik",
+        "bolge": "Bataklıklar, sazlıklar",
+        "ozellik": "Drenajı iyi olmayan, sürekli su altında kalan (taban suyu seviyesi yüksek) topraklardır."
+      }
+    ]
+  }
+}

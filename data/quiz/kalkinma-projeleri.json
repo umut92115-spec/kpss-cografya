@@ -1,0 +1,23 @@
+{
+  "konu": "kalkinma-projeleri",
+  "sorular": [
+    {
+      "id": "gen-066",
+      "soru": "Güneydoğu Anadolu Projesi (GAP) kapsamında inşa edilen ve Türkiye'nin en büyük barajı olan yapı hangisidir?",
+      "siklar": ["Keban", "Karakaya", "Atatürk", "Ilısu"],
+      "dogru": "Atatürk",
+      "aciklama": "Fırat Nehri üzerindeki Atatürk Barajı hem elektrik üretimi hem sulama kapasitesiyle en büyüğüdür.",
+      "harita_il": "sanliurfa",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-197",
+      "soru": "Aşağıdaki projelerden hangisi 'Doğu Karadeniz'in kalkınmasını hedefler?",
+      "siklar": ["GAP", "DOKAP", "DAP", "ZBK"],
+      "dogru": "DOKAP",
+      "aciklama": "DOKAP (Doğu Karadeniz Projesi) bölgedeki yaylacılık ve tarımı geliştirmeyi hedefler.",
+      "harita_il": "trabzon",
+      "zorluk": "kolay"
+    }
+  ]
+}

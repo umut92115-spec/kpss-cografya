@@ -1,0 +1,339 @@
+{
+  "konu": "madenler-enerji",
+  "sorular": [
+    {
+      "id": "mad-001",
+      "soru": "Türkiye'nin tek taş kömürü havzası hangi ilde yer alır?",
+      "siklar": ["Zonguldak", "Karabük", "Bartın", "Kastamonu"],
+      "dogru": "Zonguldak",
+      "aciklama": "Zonguldak Havzası, Türkiye'nin tek taş kömürü rezervidir. Kozlu, Ereğli ve Armutçuk alt havzalarından oluşur. Bu bilgi KPSS'de her yıl neredeyse kesin çıkar.",
+      "harita_il": "zonguldak",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "mad-002",
+      "soru": "Türkiye, dünya bor rezervlerinin yaklaşık kaçta kaçına sahiptir?",
+      "siklar": ["%30", "%50", "%72", "%90"],
+      "dogru": "%72",
+      "aciklama": "Türkiye, dünya bor rezervlerinin yaklaşık %72'sine sahiptir ve bu alanda dünya lideridir. Başlıca bor yatakları Kütahya (Emet, Hisarcık), Eskişehir (Kırka) ve Balıkesir'dedir (Bigadiç).",
+      "harita_il": "kutahya",
+      "zorluk": "orta"
+    },
+    {
+      "id": "mad-003",
+      "soru": "Divriği demir yatakları hangi ilin sınırları içindedir?",
+      "siklar": ["Malatya", "Sivas", "Elazığ", "Erzincan"],
+      "dogru": "Sivas",
+      "aciklama": "Divriği, Türkiye'nin en büyük demir yataklarına ev sahipliği yapar ve Sivas iline bağlıdır. 'Divriği demiri, Sivas'ın' cümlesi bu ilişkiyi pekiştirir.",
+      "harita_il": "sivas",
+      "zorluk": "orta"
+    },
+    {
+      "id": "mad-004",
+      "soru": "Türkiye'de krom madeni bakımından en zengin il hangisidir?",
+      "siklar": ["Bursa", "Adana", "Elazığ", "Muğla"],
+      "dogru": "Elazığ",
+      "aciklama": "Elazığ'ın Guleman ilçesi, Türkiye'nin en büyük krom yataklarına sahiptir. Türkiye, dünya krom rezervleri bakımından ilk iki ülke arasındadır.",
+      "harita_il": "elazig",
+      "zorluk": "orta"
+    },
+    {
+      "id": "mad-005",
+      "soru": "Türkiye'nin en büyük bakır işletmesi hangi ilde bulunmaktadır?",
+      "siklar": ["Kastamonu", "Siirt", "Elazığ", "Artvin"],
+      "dogru": "Artvin",
+      "aciklama": "Artvin'in Murgul ilçesindeki bakır tesisi, Türkiye'nin en büyük bakır işletmesidir. Ayrıca Elazığ-Ergani (Maden) ve Kastamonu-Küre'de de bakır üretimi yapılmaktadır.",
+      "harita_il": "artvin",
+      "zorluk": "zor"
+    },
+    {
+      "id": "mad-006",
+      "soru": "Aşağıdaki madenlerden hangisi Türkiye'de çıkarılmaz?",
+      "siklar": ["Bor", "Krom", "Elmas", "Linyit"],
+      "dogru": "Elmas",
+      "aciklama": "Elmas, Türkiye'de çıkarılan bir maden değildir. Bor, krom ve linyit ise Türkiye'nin stratejik öneme sahip yerli maden kaynaklarıdır.",
+      "harita_il": null,
+      "zorluk": "kolay"
+    },
+    {
+      "id": "mad-007",
+      "soru": "Türkiye'de linyit üretiminin en yoğun olduğu il hangisidir?",
+      "siklar": ["Soma-Manisa", "Zonguldak", "Çayırhan-Ankara", "Batman"],
+      "dogru": "Soma-Manisa",
+      "aciklama": "Manisa'nın Soma ilçesi, Türkiye'nin en büyük linyit havzasıdır. Yatağan (Muğla), Tunçbilek-Seyitömer (Kütahya) ve Çayırhan (Ankara) diğer önemli linyit merkezleridir.",
+      "harita_il": "manisa",
+      "zorluk": "orta"
+    },
+    {
+      "id": "mad-008",
+      "soru": "Türkiye'nin en büyük barajı (hacim bakımından) hangisidir?",
+      "siklar": ["Keban", "Karakaya", "Atatürk", "Ilısu"],
+      "dogru": "Atatürk",
+      "aciklama": "Fırat Nehri üzerindeki Atatürk Barajı, Türkiye'nin hacim bakımından en büyük barajıdır ve GAP projesinin en önemli bileşenidir. Adıyaman-Şanlıurfa sınırında yer alır.",
+      "harita_il": "sanliurfa",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "mad-009",
+      "soru": "Türkiye'nin ilk nükleer santrali hangi ilde kurulmaktadır?",
+      "siklar": ["Sinop", "Kırklareli", "Mersin", "İzmir"],
+      "dogru": "Mersin",
+      "aciklama": "Türkiye'nin ilk nükleer santrali olan Akkuyu NPP, Mersin iline bağlı Akkuyu'da inşa edilmektedir. Rusya ile ortak proje kapsamında hayata geçirilmektedir.",
+      "harita_il": "mersin",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "mad-010",
+      "soru": "Jeotermal enerji bakımından Türkiye dünyada kaçıncı sıradadır?",
+      "siklar": ["1.", "2.", "4.", "7."],
+      "dogru": "4.",
+      "aciklama": "Türkiye jeotermal enerji kurulu gücü bakımından dünya 4. sırasındadır. Ancak Avrupa kıtasında 1. sıradadır. En yoğun jeotermal bölgeler İzmir, Aydın, Denizli ve Manisa'dır.",
+      "harita_il": "izmir",
+      "zorluk": "zor"
+    },
+    {
+      "id": "mad-011",
+      "soru": "Türkiye'de petrol çıkarımının en yoğun olduğu bölge hangisidir?",
+      "siklar": ["Marmara", "Güneydoğu Anadolu", "Ege", "Karadeniz"],
+      "dogru": "Güneydoğu Anadolu",
+      "aciklama": "Türkiye'de yerli petrol üretimi Batman, Adıyaman ve Diyarbakır çevresinde yoğunlaşır. Güneydoğu Anadolu, Türkiye'nin en önemli petrol çıkarım bölgesidir.",
+      "harita_il": "batman",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "mad-012",
+      "soru": "Aşağıdaki termik santrallerden hangisi taş kömürü ile çalışır?",
+      "siklar": ["Soma", "Yatağan", "Çayırhan", "Zonguldak"],
+      "dogru": "Zonguldak",
+      "aciklama": "Soma, Yatağan ve Çayırhan santralleri linyitle çalışır. Zonguldak ise Türkiye'de taş kömürü yakıtlı tek termik santraldir.",
+      "harita_il": "zonguldak",
+      "zorluk": "zor"
+    },
+    {
+      "id": "mad-013",
+      "soru": "Keban Barajı hangi nehir üzerinde kurulmuştur?",
+      "siklar": ["Dicle", "Sakarya", "Fırat", "Kızılırmak"],
+      "dogru": "Fırat",
+      "aciklama": "Keban Barajı, Fırat Nehri üzerinde Elazığ iline bağlı olarak inşa edilmiştir. Tamamlandığında döneminin Avrupa'nın en büyüğü unvanını taşımıştır.",
+      "harita_il": "elazig",
+      "zorluk": "orta"
+    },
+    {
+      "id": "mad-014",
+      "soru": "Türkiye mermer ihracatında dünya sıralamasında kaçıncı sıradadır?",
+      "siklar": ["1.", "3.", "5.", "8."],
+      "dogru": "1.",
+      "aciklama": "Türkiye, mermer ihracatında dünya birincisidir. Başlıca mermer yatakları Muğla (Milas), Afyonkarahisar ve Denizli'de bulunmaktadır.",
+      "harita_il": "mugla",
+      "zorluk": "orta"
+    },
+    {
+      "id": "mad-015",
+      "soru": "Tuz Gölü'nün büyük çoğunluğu hangi iki ilin sınırları arasında yer alır?",
+      "siklar": ["Konya-Niğde", "Ankara-Konya", "Konya-Aksaray", "Ankara-Aksaray"],
+      "dogru": "Konya-Aksaray",
+      "aciklama": "Tuz Gölü'nün büyük bölümü Konya ve Aksaray illeri arasında yer alır. Türkiye'nin en büyük tuz kaynağıdır ve iç göl olma özelliği taşır.",
+      "harita_il": "konya",
+      "zorluk": "zor"
+    },
+    {
+      "id": "mad-016",
+      "soru": "Türkiye'nin Karadeniz'de keşfettiği büyük doğal gaz sahası hangisidir?",
+      "siklar": ["Kıbrıs Sahası", "Sakarya Gaz Sahası", "Trakya Gaz Sahası", "Ereğli Sahası"],
+      "dogru": "Sakarya Gaz Sahası",
+      "aciklama": "2020 yılında duyurulan Sakarya Gaz Sahası, Türkiye'nin Karadeniz'de keşfettiği en büyük doğal gaz rezervidir. 405 milyar m³ olarak açıklanan rezerv, Türkiye için stratejik öneme sahiptir.",
+      "harita_il": null,
+      "zorluk": "orta"
+    },
+    {
+      "id": "mad-017",
+      "soru": "Bor madeni çıkarımında Türkiye ile birlikte dünyada önemli paya sahip diğer ülke hangisidir?",
+      "siklar": ["Rusya", "Çin", "ABD", "Kazakistan"],
+      "dogru": "ABD",
+      "aciklama": "Dünya bor rezervlerinin yaklaşık %72'si Türkiye'de, geriye kalanının büyük kısmı ise ABD (Mojave Çölü) ve Rusya'dadır. Türkiye bu stratejik madende tartışmasız dünya lideridir.",
+      "harita_il": "eskisehir",
+      "zorluk": "zor"
+    },
+    {
+      "id": "mad-018",
+      "soru": "Aşağıdaki illerden hangisinde linyit yatağı BULUNMAZ?",
+      "siklar": ["Kütahya", "Manisa", "Artvin", "Ankara"],
+      "dogru": "Artvin",
+      "aciklama": "Artvin'de linyit değil bakır çıkarılmaktadır (Murgul). Kütahya (Tunçbilek, Seyitömer), Manisa (Soma) ve Ankara (Çayırhan) önemli linyit havzalarıdır.",
+      "harita_il": "artvin",
+      "zorluk": "orta"
+    },
+    {
+      "id": "mad-019",
+      "soru": "Türkiye'nin hidroelektrik potansiyeli bakımından Avrupa'daki sırası nedir?",
+      "siklar": ["1.", "2.", "4.", "6."],
+      "dogru": "1.",
+      "aciklama": "Türkiye, değerlendirilebilir hidroelektrik enerji potansiyeli bakımından Avrupa'da 1. sıradadır. Bu potansiyelin büyük bölümü Fırat, Dicle ve Çoruh nehirleri havzalarından kaynaklanmaktadır.",
+      "harita_il": null,
+      "zorluk": "orta"
+    },
+    {
+      "id": "mad-020",
+      "soru": "Rüzgâr enerjisi üretiminde Türkiye'nin en fazla kurulu güce sahip bölgesi hangisidir?",
+      "siklar": ["Karadeniz", "Akdeniz", "Ege ve Marmara kıyıları", "İç Anadolu"],
+      "dogru": "Ege ve Marmara kıyıları",
+      "aciklama": "Türkiye'deki rüzgâr santrallerinin büyük çoğunluğu Ege ve Marmara kıyılarında (İzmir, Çanakkale, Balıkesir, Muğla) toplanmıştır. Bu bölgeler yıl boyu uygun rüzgâr koşullarına sahiptir.",
+      "harita_il": "izmir",
+      "zorluk": "orta"
+    },
+    {
+      "id": "mad-021",
+      "soru": "Aşağıdaki hangi il, maden çeşitliliği bakımından Türkiye'de en zengin illerden biridir?",
+      "siklar": ["Konya", "Elazığ", "Samsun", "Trabzon"],
+      "dogru": "Elazığ",
+      "aciklama": "Elazığ; krom (Guleman), bakır (Ergani-Maden), kurşun-çinko ve demir gibi birden fazla maden türüne sahip olması nedeniyle Türkiye'nin en çeşitli maden iline sahip ilidir.",
+      "harita_il": "elazig",
+      "zorluk": "orta"
+    },
+    {
+      "id": "mad-022",
+      "soru": "Şırnak iline özgü olup diğer illerde çıkarılmayan maden türü hangisidir?",
+      "siklar": ["Turba", "Asfaltit", "Antrasit", "Kömür tozu"],
+      "dogru": "Asfaltit",
+      "aciklama": "Asfaltit (doğal asfalt), Türkiye'de yalnızca Şırnak'ın Silopi ilçesinde çıkarılmaktadır. Isıl değeri düşük, kükürt oranı yüksek bir kömür çeşididir.",
+      "harita_il": "sirnak",
+      "zorluk": "zor"
+    },
+    {
+      "id": "gen-306",
+      "soru": "Türkiye'nin en büyük 'Doğal Gaz' depolama tesisi nerededir?",
+      "siklar": ["İstanbul-Silivri", "Ankara-Tuz Gölü", "Kocaeli-Gebze", "İzmir-Aliağa"],
+      "dogru": "Ankara-Tuz Gölü",
+      "aciklama": "Tuz Gölü yer altı doğal gaz depolama tesisi, Türkiye'nin enerji arz güvenliği için kritik öneme sahiptir.",
+      "harita_il": "aksaray",
+      "zorluk": "zor"
+    },
+    {
+      "id": "gen-307",
+      "soru": "Güneş enerjisi potansiyelinin en düşük olduğu bölge hangisidir?",
+      "siklar": ["Akdeniz", "Güneydoğu Anadolu", "Karadeniz", "İç Anadolu"],
+      "dogru": "Karadeniz",
+      "aciklama": "Bulutluluk oranının fazla olması güneşlenme süresini, dolayısıyla güneş enerjisi potansiyelini düşürür.",
+      "harita_il": "rize",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-308",
+      "soru": "Aşağıdaki illerden hangisinde 'Jeotermal Enerji' (Sıcak su) santrali bulunur?",
+      "siklar": ["Aydın-Germencik", "Zonguldak-Çatalağzı", "Manisa-Soma", "Ankara-Çayırhan"],
+      "dogru": "Aydın-Germencik",
+      "aciklama": "Türkiye'nin ilk ve en büyük jeotermal santralleri Denizli-Sarayköy ve Aydın-Germencik'tedir.",
+      "harita_il": "aydin",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-309",
+      "soru": "Hangi madenimiz uçak ve uzay sanayinde, yüksek ısıya dayanıklılığı nedeniyle kullanılır?",
+      "siklar": ["Demir", "Wolfram (Tungsten)", "Bakır", "Linyit"],
+      "dogru": "Wolfram (Tungsten)",
+      "aciklama": "Wolfram, çok yüksek erime noktasına sahip olduğu için savunma ve uzay sanayinde vazgeçilmezdir (Uludağ'da yatakları vardır).",
+      "harita_il": "bursa",
+      "zorluk": "zor"
+    },
+    {
+      "id": "gen-310",
+      "soru": "Türkiye'nin 'Bor' madenini işleyerek uç ürün (Bor Karbür) ürettiği tesis hangi ilimizdedir?",
+      "siklar": ["Eskişehir", "Balıkesir (Bandırma)", "Kütahya", "Bursa"],
+      "dogru": "Balıkesir (Bandırma)",
+      "aciklama": "Bandırma'daki tesislerde bor madeni işlenerek katma değeri yüksek ürünlere dönüştürülmektedir.",
+      "harita_il": "balikesir",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-311",
+      "soru": "Hangi madenimiz gübre yapımında ham madde olarak kullanılır ve büyük oranda ithal edilir?",
+      "siklar": ["Bor", "Fosfat", "Mermer", "Krom"],
+      "dogru": "Fosfat",
+      "aciklama": "Fosfat yatakları sınırlıdır (Mardin-Mazıdağı). Tarımda gübre ihtiyacı için büyük oranda ithalat yapılır.",
+      "harita_il": "mardin",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-312",
+      "soru": "Alüminyumun ham maddesi olan ve Konya-Seydişehir'de işlenen maden hangisidir?",
+      "siklar": ["Boksit", "Barit", "Antimon", "Asbest"],
+      "dogru": "Boksit",
+      "aciklama": "Seydişehir, Türkiye'nin tek entegre alüminyum tesisine ev sahipliği yapar.",
+      "harita_il": "konya",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-313",
+      "soru": "Petrol sondajlarında, derin kuyularda çamurun yoğunluğunu artırmak için kullanılan maden hangisidir?",
+      "siklar": ["Mermer", "Barit", "Lületaşı", "Oltu taşı"],
+      "dogru": "Barit",
+      "aciklama": "Barit, ağırlığı nedeniyle sondaj sektöründe ve boya sanayinde yaygın kullanılır (Antalya-Alanya).",
+      "harita_il": "antalya",
+      "zorluk": "zor"
+    },
+    {
+      "id": "gen-314",
+      "soru": "Eskişehir denilince akla gelen, süs eşyası ve takı yapımında kullanılan beyaz renkli maden hangisidir?",
+      "siklar": ["Oltu taşı", "Lületaşı", "Mermer", "Krom"],
+      "dogru": "Lületaşı",
+      "aciklama": "Lületaşı (Deniz köpüğü) sadece Eskişehir ve çevresinde çıkarılır.",
+      "harita_il": "eskisehir",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-315",
+      "soru": "Erzurum'un Oltu ilçesinde çıkarılan ve 'Siyah Kehribar' olarak bilinen süs taşı hangisidir?",
+      "siklar": ["Lületaşı", "Oltu taşı", "Zümrüt", "Mermer"],
+      "dogru": "Oltu taşı",
+      "aciklama": "Oltu taşı tespih ve takı yapımında dünyaca ünlüdür.",
+      "harita_il": "erzurum",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-316",
+      "soru": "Türkiye'de 'Doğal Gaz' ile çalışan santrallere ne ad verilir?",
+      "siklar": ["Hidroelektrik", "Termik (Gaz türbinli)", "Jeotermal", "Rüzgar"],
+      "dogru": "Termik (Gaz türbinli)",
+      "aciklama": "Ovaakça (Bursa), Hamitabat (Kırklareli) ve Ambarlı (İstanbul) önemli doğal gaz çevrim santralleridir.",
+      "harita_il": "bursa",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-317",
+      "soru": "Aşağıdakilerden hangisi bir 'Yenilenebilir' (Temiz) enerji kaynağı değildir?",
+      "siklar": ["Rüzgar", "Güneş", "Linyit", "Biyokütle"],
+      "dogru": "Linyit",
+      "aciklama": "Linyit bir fosil yakıttır ve yanması sonucu çevreye zarar verir. Rüzgar, güneş, biyokütle ve hidroelektrik ise yenilenebilir kaynaklardır.",
+      "harita_il": null,
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-318",
+      "soru": "Türkiye'nin en büyük rüzgar enerjisi santrali (RES) hangi ilimizdedir?",
+      "siklar": ["İzmir", "Balıkesir", "Çanakkale", "Manisa"],
+      "dogru": "Balıkesir",
+      "aciklama": "Balıkesir, kurulu rüzgar gücü bakımından genellikle Türkiye'de birinci sırada yer almaktadır.",
+      "harita_il": "balikesir",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-319",
+      "soru": "Karadeniz'in derinliklerinde bulunan ve gelecekte enerji kaynağı olması beklenen 'Donmuş Gaz' kristallerine ne ad verilir?",
+      "siklar": ["Linyit", "Antrasit", "Gaz Hidrat", "Şeyl Gazı"],
+      "dogru": "Gaz Hidrat",
+      "aciklama": "Gaz hidratlar, yüksek basınç ve düşük sıcaklıkta su ve doğal gazın birleşmesiyle oluşan devasa bir potansiyel enerji kaynağıdır.",
+      "harita_il": null,
+      "zorluk": "zor"
+    },
+    {
+      "id": "gen-320",
+      "soru": "Hangi madenimiz cam ve seramik sanayinde parlatıcı/beyazlatıcı olarak kullanılır ve Türkiye rezerv bakımından zengindir?",
+      "siklar": ["Bor", "Feldspat", "Demir", "Krom"],
+      "dogru": "Feldspat",
+      "aciklama": "Feldspat Türkiye'nin önemli ihraç madenlerinden biridir (Muğla, Aydın, Manisa).",
+      "harita_il": "mugla",
+      "zorluk": "zor"
+    }
+  ]
+}
+

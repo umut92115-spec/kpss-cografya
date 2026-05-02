@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "konu": "Türkiye'nin Akarsular",
+    "aciklama": "Türkiye'nin akarsuları döküldükleri denizlere/alıcılara göre 6 gruba ayrılır."
+  },
+  "genel_ozellikler": [
+    "Boyları kısadır — iki yarımadadan oluşan ülke",
+    "Debileri azdır — genel yağış miktarı düşük",
+    "Rejimleri düzensizdir — yağış rejimi düzensiz",
+    "Denge profiline uzaktır — genç arazi"
+  ],
+  "dokulduklari_havzalar": {
+    "karadeniz": {
+      "akarsular": [
+        { "ad": "Kızılırmak", "ozellik": "Sınırlarımız içinde en uzun nehir (1355 km). Bafra deltasını oluşturur.", "lat": 41.35, "lng": 36.03 },
+        { "ad": "Yeşilırmak", "ozellik": "Çarşamba Ovasını oluşturur. Canik Dağlarını aşar.", "lat": 41.10, "lng": 36.55 },
+        { "ad": "Sakarya", "ozellik": "Türkiye'nin en kirli ve en çok bölgeden geçen nehri. Adapazarı ovasını sular.", "lat": 41.10, "lng": 30.65 },
+        { "ad": "Filyos (Yenice)", "ozellik": "Batı Karadeniz'in önemli akarsuyu. Karabük-Zonguldak sanayi bölgesinden geçer.", "lat": 41.55, "lng": 32.00 },
+        { "ad": "Bartın Çayı", "ozellik": "Üzerinde ulaşım yapılan TEK nehrimiz (denize yakın kısımda).", "lat": 41.65, "lng": 32.30 },
+        { "ad": "Çoruh", "ozellik": "Akış hızı ve HES potansiyeli en fazla olan nehrimiz. Rafting için ideal.", "lat": 41.25, "lng": 40.50 }
+      ]
+    },
+    "ege": {
+      "akarsular": [
+        { "ad": "Meriç", "ozellik": "Yunanistan sınırını oluşturur. Pirinç tarımı için kritiktir. Taşkın riski yüksektir.", "lat": 40.72, "lng": 26.05 },
+        { "ad": "Gediz", "ozellik": "Menemen ovasını oluşturur. İzmir Limanı'nı doldurmasın diye yatağı değiştirilmiştir.", "lat": 38.90, "lng": 27.15 },
+        { "ad": "Büyük Menderes", "ozellik": "Balat deltasını oluşturur. 'Menderes' kavramına adını veren nehir.", "lat": 37.52, "lng": 27.08 },
+        { "ad": "Küçük Menderes", "ozellik": "Selçuk ovasını oluşturur. Efes limanını dolduran akarsudur.", "lat": 37.90, "lng": 27.55 },
+        { "ad": "Bakırçay", "ozellik": "Bergama (Dikili) deltasını oluşturur.", "lat": 38.95, "lng": 26.85 }
+      ]
+    },
+    "akdeniz": {
+      "akarsular": [
+        { "ad": "Seyhan", "ozellik": "Çukurova (en büyük delta) oluşumunda ana koldur.", "lat": 37.00, "lng": 35.38 },
+        { "ad": "Ceyhan", "ozellik": "Çukurova deltasının doğu kısmını oluşturur.", "lat": 36.82, "lng": 35.75 },
+        { "ad": "Göksu", "ozellik": "Silifke deltasını oluşturur. Mavi Tünel ile Konya Ovası'na su taşır.", "lat": 36.38, "lng": 33.93 },
+        { "ad": "Manavgat", "ozellik": "Karstik sularla beslendiği için rejimi en düzenli nehrimizdir.", "lat": 36.78, "lng": 31.47 },
+        { "ad": "Asi", "ozellik": "Suriye'den doğup ters yöne (güneyden kuzeye) akarak Akdeniz'e dökülür.", "lat": 36.10, "lng": 36.00 },
+        { "ad": "Dalaman", "ozellik": "Muğla'nın rafting ve turizm açısından değerli akarsuyu.", "lat": 36.77, "lng": 28.63 }
+      ]
+    },
+    "basra": {
+      "akarsular": [
+        { "ad": "Fırat", "ozellik": "Karasu ve Murat kollarının birleşmesiyle oluşur. En büyük barajlarımız (Atatürk) üzerindedir.", "lat": 37.15, "lng": 38.32 },
+        { "ad": "Dicle", "ozellik": "Hazar Gölü'nden doğar. Ilısu ve Batman barajlarını besler.", "lat": 38.00, "lng": 40.05 }
+      ]
+    },
+    "hazar": {
+      "akarsular": [
+        { "ad": "Aras", "ozellik": "Ermenistan sınırını oluşturur. Iğdır ovasında pamuk tarımına imkan sağlar.", "lat": 39.95, "lng": 44.05 },
+        { "ad": "Kura", "ozellik": "Doğu Anadolu'dan doğup Hazar'a dökülen dış akışlı nehir.", "lat": 41.38, "lng": 43.48 }
+      ]
+    }
+  },
+  "onemli_ozellikler": {
+    "en_uzun": "Fırat (sınırlarımız dışından başladığında)",
+    "sinirlar_icinde_en_uzun": "Kızılırmak",
+    "en_hizli": "Çoruh",
+    "en_kirli": "Sakarya",
+    "en_temiz": "Zap Suyu",
+    "ulasim_yapilan_tek": "Bartın Çayı",
+    "rejimi_duzensiz_istisna": "Manavgat (karstik kaynaklı)",
+    "yonu_degistirilen": "Gediz (İzmir limanı dolmasın diye)"
+  }
+}
