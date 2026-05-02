@@ -15,19 +15,30 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
   const konu = getKonu(params.slug);
   if (!konu) return {};
+  
+  const title = `KPSS ${konu.baslik} Quiz — Çıkmış Sorular & Hızlı Test (2024-2025)`;
+  const description = `${konu.baslik} konusunu test et! Çıkmış KPSS sorularıyla hazırlanmış ${konu.kpss_soru_sayisi_ort * 10}+ soruluk interaktif quiz. Süreli deneme sınavı ve detaylı analiz.`;
+
   return {
-    title: `${konu.baslik} Quiz — KPSS Coğrafya Testi | kpsscografya.com`,
-    description: `${konu.baslik} konusunu test et! Çıkmış KPSS sorularıyla hazırlanmış ${konu.kpss_soru_sayisi_ort * 10}+ soruluk interaktif quiz.`,
+    title,
+    description,
     robots: { index: true, follow: true },
     alternates: {
       canonical: `https://kpsscografya.com/quiz/${konu.slug}`,
     },
     openGraph: {
-      title: `${konu.baslik} Quiz — KPSS Coğrafya Testi`,
+      title,
+      description,
       url: `https://kpsscografya.com/quiz/${konu.slug}`,
       siteName: 'kpsscografya.com',
       locale: 'tr_TR',
-      type: 'website',
+      type: 'article',
+      images: ['/og-default.jpg'],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      images: ['/og-default.jpg'],
     },
   };
 }

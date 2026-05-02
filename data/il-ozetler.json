@@ -96,10 +96,13 @@
     "Yüzölçümü: 7.175 km²."
   ],
   "bursa": [
-    "Bursa ili Marmara Bölgesi'nde yer alır.",
-    "Plaka kodu: 16.",
-    "Nüfusu: 3.214.571 (2023 verisi).",
-    "Yüzölçümü: 10.813 km²."
+    "Marmara Bölgesi'nin Güney Marmara bölümünde yer alır.",
+    "Türkiye'nin otomotiv ve makine sanayisinin kalbidir.",
+    "Uludağ ile kış turizminin Türkiye'deki en önemli merkezlerinden biridir.",
+    "İpek böcekçiliği ve dokuma (havlu/kumaş) sanayisi tarihsel olarak çok gelişmiştir.",
+    "Verimli ovalarında şeftali, armut ve zeytin üretimi yapılmaktadır.",
+    "Osmanlı'nın ilk başkentlerinden olması nedeniyle UNESCO dünya mirası listesindedir.",
+    "Marmara Denizi'ne kıyısı olması ulaşım ve ticaretini kolaylaştırmıştır."
   ],
   "canakkale": [
     "Çanakkale ili Marmara Bölgesi'nde yer alır.",
@@ -120,10 +123,13 @@
     "Yüzölçümü: 12.797 km²."
   ],
   "denizli": [
-    "Denizli ili Ege Bölgesi'nde yer alır.",
-    "Plaka kodu: 20.",
-    "Nüfusu: 1.059.082 (2023 verisi).",
-    "Yüzölçümü: 12.134 km²."
+    "Ege Bölgesi'nin İç Batı Anadolu bölümünde yer alan sanayi ve turizm merkezidir.",
+    "Pamukkale Travertenleri ve Hierapolis ile UNESCO Dünya Mirası listesinde yer alır.",
+    "Sarayköy'de Türkiye'nin ilk jeotermal enerji santrali bulunur (KPSS'de çok kritiktir).",
+    "Tekstil ve havlu ihracatında Türkiye'nin dünya çapındaki en önemli üretim üssüdür.",
+    "Mermer ve traverten yatakları ile bu madenlerin işlenmesinde lider konumdadır.",
+    "Karakutu ve Buldan dokumaları gibi geleneksel el sanatlarını sanayiye taşımıştır.",
+    "Horozu ile meşhur olan il, tarım ve hayvancılıkta da oldukça gelişmiştir."
   ],
   "diyarbakir": [
     "Diyarbakır ili Güneydoğu Anadolu Bölgesi'nde yer alır.",
@@ -157,16 +163,22 @@
     "Tortum Şelalesi ve Narman Peribacaları görülmesi gereken yerlerdir."
   ],
   "eskisehir": [
-    "Eskişehir ili İç Anadolu Bölgesi'nde yer alır.",
-    "Plaka kodu: 26.",
-    "Nüfusu: 915.418 (2023 verisi).",
-    "Yüzölçümü: 13.960 km²."
+    "İç Anadolu Bölgesi'nin Yukarı Sakarya bölümünde yer alan önemli bir eğitim ve sanayi kentidir.",
+    "Türkiye'nin ve dünyanın en önemli Lületaşı yatakları buradadır.",
+    "Kırka'da bulunan Bor madeni yatakları ve işletmeleri stratejik öneme sahiptir.",
+    "Havacılık sanayisi ve raylı sistemler (TÜLOMSAŞ) üretiminde Türkiye'nin öncüsüdür.",
+    "Şeker pancarı, buğday ve arpa üretiminde İç Anadolu'nun verimli alanlarındandır.",
+    "YHT (Yüksek Hızlı Tren) hatlarının kavşak noktası olması ulaşımını çok geliştirmiştir.",
+    "Porsuk Çayı ve modern şehircilik anlayışıyla iç turizmde büyük ilgi görmektedir."
   ],
   "gaziantep": [
-    "Gaziantep ili Güneydoğu Anadolu Bölgesi'nde yer alır.",
-    "Plaka kodu: 27.",
-    "Nüfusu: 2.154.051 (2023 verisi).",
-    "Yüzölçümü: 6.803 km²."
+    "Güneydoğu Anadolu Bölgesi'nin Orta Fırat bölümünde yer alır.",
+    "Bölgenin en gelişmiş sanayi, ticaret ve gastronomi merkezidir.",
+    "Antep fıstığı üretiminde Şanlıurfa ile birlikte Türkiye'nin lideridir.",
+    "Zeugma Mozaik Müzesi ve tarihi kalesiyle turizmde ön plandadır.",
+    "Dokuma (halı) ve gıda sanayisinde Türkiye'nin lokomotif şehirlerinden biridir.",
+    "Karasal iklim hakimdir ancak batısında Akdeniz iklimi etkileri görülür.",
+    "Ulaşım ağlarının kavşak noktasında yer alması ticaretini geliştirmiştir."
   ],
   "giresun": [
     "Giresun ili Karadeniz Bölgesi'nde yer alır.",
@@ -206,17 +218,23 @@
     "Yüzölçümü: 15.620 km²."
   ],
   "istanbul": [
-    "İstanbul ili Marmara Bölgesi'nde yer alır.",
-    "Plaka kodu: 34.",
-    "Nüfusu: 15.655.924 (2023 verisi).",
-    "Yüzölçümü: 5.461 km²."
+    "Marmara Bölgesi'nin Çatalca-Kocaeli bölümünde yer alır.",
+    "Türkiye'nin en kalabalık ve nüfus yoğunluğu en fazla olan ilidir.",
+    "Sanayi, ticaret, finans ve turizm faaliyetlerinin tartışmasız merkezidir.",
+    "Karma iklim tipi görülür (Akdeniz ve Karadeniz iklimleri arasında geçiş).",
+    "Tüketici nüfusun fazlalığı nedeniyle kümes hayvancılığı ve besi hayvancılığı gelişmiştir.",
+    "Jeopolitik önemi en yüksek ilimizdir (İstanbul Boğazı).",
+    "Ayasofya, Sultanahmet ve Topkapı Sarayı gibi paha biçilemez turistik değerlere sahiptir.",
+    "Türkiye ekonomisine (GSYH) en büyük katkıyı sağlayan ilimizdir."
   ],
   "izmir": [
-    "Ege'nin incisidir, Türkiye'nin 3. büyük şehridir.",
-    "Aliağa Petrol Rafinerisi ve büyük limanıyla ticaret merkezidir.",
-    "Üzüm, incir ve tütün üretiminde öncüdür.",
-    "Efes ve Meryem Ana gibi dünya mirası turistik yerlere sahiptir.",
-    "Kıta sahanlığı geniş, kıyıları girintili çıkıntılıdır."
+    "Ege Bölgesi'nin en büyük, Türkiye'nin 3. büyük şehridir.",
+    "Aliağa Petrol Rafinerisi ve Türkiye'nin en büyük dış ticaret limanlarından birine sahiptir.",
+    "İncir, üzüm (çekirdeksiz) ve tütün üretiminde Türkiye liderleri arasındadır.",
+    "Efes ve Meryem Ana Evi gibi dünya mirası turistik değerlere ev sahipliği yapar.",
+    "Kıta sahanlığının geniş olması nedeniyle kıyıları oldukça girintili ve çıkıntılıdır.",
+    "Jeotermal enerji potansiyeli yüksektir (Balçova).",
+    "Gıda, kimya ve otomotiv yan sanayisi oldukça gelişmiştir."
   ],
   "kars": [
     "Kars ili Doğu Anadolu Bölgesi'nde yer alır.",
@@ -231,10 +249,13 @@
     "Yüzölçümü: 13.064 km²."
   ],
   "kayseri": [
-    "Kayseri ili İç Anadolu Bölgesi'nde yer alır.",
-    "Plaka kodu: 38.",
-    "Nüfusu: 1.446.101 (2023 verisi).",
-    "Yüzölçümü: 16.970 km²."
+    "İç Anadolu Bölgesi'nin Orta Kızılırmak bölümünde yer alan ticaret ve sanayi devidir.",
+    "Mobilya sanayisi ve gıda (pastırma, sucuk, mantı) üretiminde Türkiye'nin lideridir.",
+    "Erciyes Dağı ile Türkiye'nin en modern kış turizmi merkezlerinden birine sahiptir.",
+    "Kültepe Kaniş/Karum höyüğü ile Anadolu'daki ilk ticaret merkezlerine ev sahipliği yapar.",
+    "Volkanik arazi yapısı sayesinde çinko, kurşun ve demir yatakları bakımından zengindir.",
+    "Kayseri Serbest Bölgesi ile dış ticarette çok önemli bir hacme sahiptir.",
+    "Kapuzbaşı Şelaleleri, dünyanın en yüksekten dökülen şelalelerinden biri olarak buradadır."
   ],
   "kirklareli": [
     "Kırklareli ili Marmara Bölgesi'nde yer alır.",
@@ -286,10 +307,13 @@
     "Yüzölçümü: 14.520 km²."
   ],
   "mardin": [
-    "Mardin ili Güneydoğu Anadolu Bölgesi'nde yer alır.",
-    "Plaka kodu: 47.",
-    "Nüfusu: 888.874 (2023 verisi).",
-    "Yüzölçümü: 8.780 km²."
+    "Güneydoğu Anadolu Bölgesi'nin Dicle bölümünde yer alır.",
+    "Mezopotamya ovasına hakim konumuyla kadim bir yerleşim merkezidir.",
+    "Mazıdağı'nda Türkiye'nin en önemli fosfat yatakları bulunur (KPSS'de sıkça sorulur).",
+    "Eşsiz taş mimarisi, Deyrulzafaran Manastırı ve Kasımiye Medresesi ile turizmde markadır.",
+    "İpek Yolu üzerinde yer alması tarih boyunca ticari önemini korumasını sağlamıştır.",
+    "Sert karasal iklim görülür, yazları oldukça sıcak ve kuraktır.",
+    "GAP kapsamında sulama projeleriyle tarımsal potansiyeli yükselmektedir."
   ],
   "mugla": [
     "Muğla ili Ege Bölgesi'nde yer alır.",
@@ -335,11 +359,13 @@
     "Yüzölçümü: 4.824 km²."
   ],
   "samsun": [
-    "Karadeniz'in en gelişmiş sanayi, ticaret ve ulaşım merkezidir.",
-    "Kızılırmak ve Yeşilırmak'ın oluşturduğu Bafra ve Çarşamba deltalarına sahiptir.",
-    "Bakır işletmelerine (ulaşım nedeniyle) ev sahipliği yapar.",
-    "Limanı ve demiryolu hinterlandı çok geniştir.",
-    "Tütün ve pirinç üretiminde önemlidir."
+    "Orta Karadeniz bölümünde yer alan, Karadeniz'in en gelişmiş sanayi, ticaret ve ulaşım merkezidir.",
+    "Canik Dağları'nın yükseltisinin az olması sayesinde hinterlandı çok geniş bir limana sahiptir.",
+    "Kızılırmak ve Yeşilırmak'ın oluşturduğu Bafra ve Çarşamba deltaları Türkiye'nin tarım ambarlarındandır.",
+    "Limanı ve demiryolu bağlantısı sayesinde bakır işletmelerine (ulaşım faktörüyle) ev sahipliği yapar.",
+    "Tütün, pirinç ve mısır üretiminde Türkiye'de çok önemli bir paya sahiptir.",
+    "Kurtuluş Savaşı'nın başlangıç noktası olmasıyla büyük bir tarihi ve simgesel öneme sahiptir.",
+    "Bölgenin tek demiryolu hattına sahip liman kenti olması ticaretini domine etmesini sağlar."
   ],
   "siirt": [
     "Siirt ili Güneydoğu Anadolu Bölgesi'nde yer alır.",
@@ -372,10 +398,13 @@
     "Yüzölçümü: 10.042 km²."
   ],
   "trabzon": [
-    "Trabzon ili Karadeniz Bölgesi'nde yer alır.",
-    "Plaka kodu: 61.",
-    "Nüfusu: 824.352 (2023 verisi).",
-    "Yüzölçümü: 4.628 km²."
+    "Doğu Karadeniz bölümünün en gelişmiş sanayi, ticaret ve liman kentidir.",
+    "Fındık ve mısır tarımı ile çay üretiminde (mikroklima alanlarında) önemli paya sahiptir.",
+    "Sümela Manastırı ve Uzungöl gibi doğa ve inanç turizmi merkezlerine ev sahipliği yapar.",
+    "Balıkçılık faaliyetlerinin Türkiye'deki en önemli merkezlerinden biridir.",
+    "Zigana Geçidi ve yeni açılan tünellerle iç bölgelere (İpek Yolu) bağlantısı güçlüdür.",
+    "Engebeli arazi yapısı nedeniyle dağınık yerleşme tipinin en yaygın olduğu illerimizdendir.",
+    "Havalimanı ve üniversiteleriyle bölgenin eğitim ve ulaşım üssüdür."
   ],
   "tunceli": [
     "Tunceli ili Doğu Anadolu Bölgesi'nde yer alır.",

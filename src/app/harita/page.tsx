@@ -3,10 +3,24 @@ import { getAllKonular } from '@/lib/getKonuData';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'İnteraktif KPSS Coğrafya Haritası | kpsscografya.com',
-  description: 'Türkiye coğrafyasını harita üzerinde keşfet. Madenler, tarım, ulaşım, sanayi ve daha fazlası il bazlı görselleştirme ile.',
+  title: '10 İnteraktif KPSS Coğrafya Haritası — Madenler, Tarım, Sanayi, Turizm',
+  description: 'Türkiye coğrafyasını harita üzerinde keşfet. Madenler, tarım ürünleri, sanayi tesisleri ve ulaşım ağları için interaktif KPSS görselleştirme araçları.',
   alternates: {
     canonical: 'https://kpsscografya.com/harita',
+  },
+  openGraph: {
+    title: '10 İnteraktif KPSS Coğrafya Haritası — Madenler, Tarım, Sanayi, Turizm',
+    description: 'Türkiye coğrafyasını harita üzerinde keşfet. Madenler, tarım ürünleri, sanayi tesisleri ve ulaşım ağları için interaktif KPSS görselleştirme araçları.',
+    url: 'https://kpsscografya.com/harita',
+    siteName: 'kpsscografya.com',
+    locale: 'tr_TR',
+    type: 'website',
+    images: ['/og-default.jpg'],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: '10 İnteraktif KPSS Coğrafya Haritası — Madenler, Tarım, Sanayi, Turizm',
+    images: ['/og-default.jpg'],
   },
 };
 
@@ -59,7 +73,7 @@ export default function HaritaPage() {
               </p>
 
               <div className="text-[10px] uppercase tracking-widest font-bold text-gray-500 group-hover:text-blue-300 transition-colors">
-                Haritayı Keşfet
+                Haritayı Aç
               </div>
             </Link>
           ))}

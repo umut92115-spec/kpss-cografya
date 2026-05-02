@@ -3,8 +3,8 @@ import { getAllKonular } from '@/lib/getKonuData';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'KPSS Coğrafya Quiz Modu — Kendini Test Et | kpsscografya.com',
-  description: 'KPSS coğrafya konularına göre hazırlanmış interaktif testler. Süreli sınavlar, doğru-yanlış analizleri ve skor tablosu.',
+  title: 'KPSS Coğrafya Quiz Modu — 2000+ Soru & Güncel Deneme Sınavları',
+  description: 'KPSS coğrafya konularına göre hazırlanmış interaktif testler. Çıkmış sorular, süreli sınavlar, doğru-yanlış analizleri ve skor tablosu. Hemen kendini test et!',
   alternates: {
     canonical: 'https://kpsscografya.com/quiz',
   },
@@ -49,8 +49,19 @@ export default function QuizPage() {
                 {k.kpss_soru_sayisi_ort} Soru Beklentisi
               </p>
 
-              <div className="mt-auto w-full pt-6 border-t border-gray-50 text-kpss-turuncu font-bold text-sm flex items-center justify-center gap-2 opacity-0 group-hover:opacity-100 transition-opacity">
-                Teste Başla <span>→</span>
+              <div className="mt-auto w-full pt-6 border-t border-gray-50 flex gap-2">
+                <Link
+                  href={`/quiz/${k.slug}`}
+                  className="flex-1 bg-gray-50 text-gray-700 hover:bg-kpss-koyu hover:text-white transition-all py-2.5 rounded-xl text-xs font-bold"
+                >
+                  Tam Quiz
+                </Link>
+                <Link
+                  href={`/quiz/${k.slug}?mode=quick`}
+                  className="flex-1 bg-kpss-turuncu/10 text-kpss-turuncu hover:bg-kpss-turuncu hover:text-white transition-all py-2.5 rounded-xl text-xs font-bold"
+                >
+                  Hızlı Çöz (10)
+                </Link>
               </div>
             </Link>
           ))}

@@ -53,6 +53,7 @@ type CevapDurumu = 'bekleniyor' | 'dogru' | 'yanlis';
 // ─── Bileşen ─────────────────────────────────────────────────────────────────
 export default function QuizModu({ konuSlug, konuMeta, sorular }: QuizModuProps) {
   const [faz, setFaz] = useState<FazTip>('hazir');
+  const [aktifSorular, setAktifSorular] = useState<QuizSoru[]>([]);
   const [soruIndex, setSoruIndex] = useState(0);
   const [secilenSik, setSecilenSik] = useState<string | null>(null);
   const [cevapDurumu, setCevapDurumu] = useState<CevapDurumu>('bekleniyor');
@@ -62,9 +63,21 @@ export default function QuizModu({ konuSlug, konuMeta, sorular }: QuizModuProps)
   const [sonSonuclar, setSonSonuclar] = useState<QuizSonuc[]>([]);
   const [enYuksekSkor, setEnYuksekSkor] = useState<number | null>(null);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
+  const hasAutoStarted = useRef(false);
 
-  const mevcutSoru = sorular[soruIndex];
-  const toplamSoru = sorular.length;
+  const mevcutSoru = aktifSorular[soruIndex];
+  const toplamSoru = aktifSorular.length;
+
+  // Auto-start for quick mode if URL param exists
+  useEffect(() => {
+    if (typeof window !== 'undefined' && !hasAutoStarted.current) {
+      const params = new URLSearchParams(window.location.search);
+      if (params.get('mode') === 'quick' && sorular.length > 0) {
+        hasAutoStarted.current = true;
+        quizBaslat(true);
+      }
+    }
+  }, [sorular, quizBaslat]);
 
   // Timer
   useEffect(() => {
@@ -82,7 +95,14 @@ export default function QuizModu({ konuSlug, konuMeta, sorular }: QuizModuProps)
     return `${dk}:${String(s).padStart(2, '0')}`;
   };
 
-  const quizBaslat = useCallback(() => {
+  const quizBaslat = useCallback((hizli = false) => {
+    let secilecekSorular = [...sorular];
+    if (hizli) {
+      secilecekSorular = secilecekSorular
+        .sort(() => Math.random() - 0.5)
+        .slice(0, 10);
+    }
+    setAktifSorular(secilecekSorular);
     setSoruIndex(0);
     setSecilenSik(null);
     setCevapDurumu('bekleniyor');
@@ -90,7 +110,7 @@ export default function QuizModu({ konuSlug, konuMeta, sorular }: QuizModuProps)
     setBaslangicZamani(Date.now());
     setGecenSure(0);
     setFaz('quiz');
-  }, []);
+  }, [sorular]);
 
   const sikasTikla = (sik: string) => {
     if (cevapDurumu !== 'bekleniyor') return;
@@ -142,7 +162,7 @@ export default function QuizModu({ konuSlug, konuMeta, sorular }: QuizModuProps)
       <div className="max-w-xl mx-auto text-center py-10 px-4">
         <div className="text-6xl mb-4">{konuMeta.icon}</div>
         <h2 className="text-3xl font-bold text-gray-900 mb-2">{konuMeta.baslik}</h2>
-        <p className="text-gray-500 mb-2">Quiz Modu — {toplamSoru} soru</p>
+        <p className="text-gray-500 mb-2">Quiz Modu — Sınava Hazırlık</p>
 
         {topSkor !== null && (
           <div className="inline-block bg-yellow-50 border border-yellow-300 rounded-lg px-4 py-2 mb-4 text-yellow-800 text-sm font-semibold">
@@ -150,12 +170,21 @@ export default function QuizModu({ konuSlug, konuMeta, sorular }: QuizModuProps)
           </div>
         )}
 
-        <button
-          onClick={quizBaslat}
-          className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-2xl text-lg transition-colors shadow-lg mb-6"
-        >
-          Quiz&apos;i Başlat 🚀
-        </button>
+        <div className="flex flex-col gap-3 mb-6">
+          <button
+            onClick={() => quizBaslat(false)}
+            className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-2xl text-lg transition-colors shadow-lg"
+          >
+            Tam Quiz&apos;i Başlat ({sorular.length} Soru) 🚀
+          </button>
+          
+          <button
+            onClick={() => quizBaslat(true)}
+            className="w-full bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 px-8 rounded-2xl text-lg transition-colors shadow-lg"
+          >
+            Hızlı Test (10 Karışık Soru) ⏱️
+          </button>
+        </div>
 
         {gecmisler.length > 0 && (
           <div className="text-left bg-gray-50 rounded-xl p-4 border border-gray-200">

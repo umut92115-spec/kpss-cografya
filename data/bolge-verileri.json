@@ -25,6 +25,14 @@
       {
         "q": "Akdeniz'de dağların kıyıya paralel uzanmasının sonuçları nelerdir?",
         "a": "Boyuna kıyı tipi görülür, deniz etkisi iç kesimlere giremez, kıyı ile iç kesim ulaşımı geçitlerle sağlanır."
+      },
+      {
+        "q": "Akdeniz'de hangi tarım ürünleri birinci sıradadır?",
+        "a": "Muz, gül, yer fıstığı ve mısır üretiminde bölge Türkiye'de ilk sıralarda yer alır."
+      },
+      {
+        "q": "Akdeniz Bölgesi'nin en önemli ulaşım geçitleri nelerdir?",
+        "a": "Çubuk, Sertavul, Gülek ve Belen geçitleri kıyı ile iç kesim arasındaki bağlantıyı sağlar."
       }
     ]
   },
@@ -54,6 +62,10 @@
       {
         "q": "Menteşe Yöresi neden Ege'nin diğer yerlerinden farklıdır?",
         "a": "Dağlar kıyıya paralel uzandığı için bol yağış alır ancak ulaşım zordur ve nüfus seyrektir."
+      },
+      {
+        "q": "Ege Bölgesi'nde hangi maden birinci sıradadır?",
+        "a": "Linyit madeni üretimi ve rezervinde bölge Türkiye'de ilk sırada yer alır."
       }
     ]
   },
@@ -66,7 +78,7 @@
     "toprak_cevre": "Ergene'de vertisol (dönen toprak), Yıldız'da podzol, Güney Marmara'da kahverengi orman toprakları görülür.",
     "nufus": "Türkiye'nin en yoğun nüfuslu bölgesidir. İstanbul tek başına devasa bir merkezdir. Yoğun göç alır.",
     "tarim_hayvancilik": "Ayçiçeği, pirinç ve şeftali üretimi fazladır. Modern besi ve kümes hayvancılığı ile ipek böcekçiliği (Bursa) yapılır.",
-    "maden_enerji": "Bor (Balıkesir), Linyit, Doğalgaz (Hamitabat) kaynakları bulunur. Enerji tüketimi en yüksek bölgedir.",
+    "maden_enerji": "Bor (Balıkesir), Linyit, Doğalgaz (Hamitabat) kaynakları bulunur. Enerji tüketimi en high bölgedir.",
     "sanayi_ticaret": "Sanayi ve ticaretin merkezidir (İstanbul, Bursa, Kocaeli). Türkiye dış ticaretinin yarısından fazlasını karşılar.",
     "ulasim_sinir": "Ulaşım ağları (otoyol, demiryolu, deniz) en gelişmiştir. Bulgaristan (Kapıkule) ve Yunanistan sınır kapıları buradadır.",
     "turizm": "Kültür turizmi (İstanbul), kış turizmi (Uludağ) ve doğa turizmi (Abant çevresi) gelişmiştir.",
@@ -83,6 +95,10 @@
       {
         "q": "Kümes hayvancılığı neden Marmara'da yoğundur?",
         "a": "Tüketici nüfusun (pazarın) fazla olması nedeniyle modern tesisler bu bölgede toplanmıştır."
+      },
+      {
+        "q": "Marmara Bölgesi'nin en yüksek dağı hangisidir?",
+        "a": "Uludağ (2543 m) bölgenin en yüksek noktasıdır ve kış turizminin merkezidir."
       }
     ]
   },
@@ -107,11 +123,15 @@
       },
       {
         "q": "Karadeniz'de kıyı ile iç kesim arası ulaşım nasıl sağlanır?",
-        "a": "Dağlar kıyıya paralel olduğu için ulaşım Zigana, Kop, Sertavul gibi geçitler ve tünellerle sağlanır."
+        "a": "Dağlar kıyıya paralel olduğu için ulaşım Zigana, Kop ve tünellerle sağlanır."
       },
       {
         "q": "Karadeniz'de balıkçılık neden en çok Doğu Karadeniz'dedir?",
-        "a": "Tarımsal arazinin azlığı nedeniyle insanların temel geçim kaynağı olarak denize yönelmesi ve suların serin olması etkidir."
+        "a": "Tarımsal arazinin azlığı nedeniyle insanların temel geçim kaynağı olarak denize yönelmesi ve suların serin olması etkilidir."
+      },
+      {
+        "q": "Karadeniz Bölgesi'nde heyelan riski neden yüksektir?",
+        "a": "Bol yağış, eğimli yamaçlar ve killi toprak yapısı heyelanların başlıca sebebidir."
       }
     ]
   },
@@ -136,11 +156,15 @@
       },
       {
         "q": "Bölgede küçükbaş hayvancılık neden birincidir?",
-        "a": "Yarı kurak iklim nedeniyle yetişen bozkır (step) bitki örtüsü küçükbaş hayvanların beslenmesi için uygundur."
+        "a": "Yarı kurak iklim nedeniyle yetişen bozkır bitki örtüsü küçükbaş hayvanların beslenmesi için uygundur."
       },
       {
         "q": "İç Anadolu'da erozyon riski neden yüksektir?",
         "a": "Bitki örtüsünün cılız olması ve arazinin düz/açık olması rüzgar erozyonunu artırır."
+      },
+      {
+        "q": "İç Anadolu'nun en yüksek volkanik dağı hangisidir?",
+        "a": "Erciyes Dağı (3917 m) bölgenin en yüksek noktasıdır."
       }
     ]
   },
@@ -150,13 +174,13 @@
     "jeoloji": "Genç kıvrım dağları ve volkanik arazi geniş yer tutar. Doğu Anadolu Fay Hattı (DAF) bölgeden geçer.",
     "su_ortusu": "Fırat ve Dicle nehirleri buradan doğar. Van Gölü (sodalı) Türkiye'nin en büyük gölüdür.",
     "iklim_bitki": "Sert Karasal iklim. Kışlar -40 derecelere kadar düşer. Bitki örtüsü yüksek yerlerde çayır, alçaklarda bozkırdır.",
-    "toprak_cevre": "Erzurum-Kars'ta dünyanın en verimli toprağı Çernozyom (Kara Toprak) bulunur ancak iklim tarıma izin vermez.",
-    "nufus": "Nüfus yoğunluğu en düşük bölgemizdir. Engebeli arazi ve iklim nedeniyle nüfus düzlüklerde (Iğdır, Malatya) toplanmıştır.",
+    "toprak_cevre": "Erzurum-Kars'ta dünyanın en verimli toprağı Çernozyom bulunur ancak iklim tarıma izin vermez.",
+    "nufus": "Nüfus yoğunluğu en düşük bölgemizdir. Engebeli arazi ve iklim nedeniyle nüfus düzlüklerde toplanmıştır.",
     "tarim_hayvancilik": "Büyükbaş mera hayvancılığı (Erzurum-Kars) ve kayısı (Malatya) üretimi temel geçim kaynağıdır.",
-    "maden_enerji": "Maden çeşitliliğinin en fazla olduğu (Elazığ) bölgedir. Hidroelektrik enerji üretimi (Barajlar) birincidir.",
+    "maden_enerji": "Maden çeşitliliğinin en fazla olduğu Elazığ bölgededir. Hidroelektrik enerji üretimi birincidir.",
     "sanayi_ticaret": "Sanayi en az gelişen bölgedir. Et ve süt ürünleri işleme ile Malatya'daki kayısı sanayisi mevcuttur.",
-    "ulasim_sinir": "Yer şekilleri ve kış şartları ulaşımı kısıtlar. Gürbulak (İran) ve Dilucu (Nahçıvan) önemli kapılardır.",
-    "turizm": "Nemrut Dağı (Adıyaman), İshak Paşa Sarayı (Ağrı), Akdamar Kilisesi ve Palandöken kış turizmi önemlidir.",
+    "ulasim_sinir": "Yer şekilleri ve kış şartları ulaşımı kısıtlar. Gürbulak ve Dilucu önemli kapılardır.",
+    "turizm": "Nemrut Dağı, İshak Paşa Sarayı, Akdamar Kilisesi ve Palandöken kış turizmi önemlidir.",
     "kalkinma": "DAP (Doğu Anadolu Projesi) hayvancılık, eğitim ve ulaşım odaklı büyük bir dönüşüm hedeflemektedir.",
     "faqs": [
       {
@@ -165,27 +189,31 @@
       },
       {
         "q": "Bölgede büyükbaş mera hayvancılığı neden yaygındır?",
-        "a": "Yaz yağışlarıyla yeşeren gür çayırların (Erzurum-Kars) bulunması büyükbaş hayvancılığı destekler."
+        "a": "Yaz yağışlarıyla yeşeren gür çayırların bulunması büyükbaş hayvancılığı destekler."
       },
       {
         "q": "Doğu Anadolu'da hidroelektrik potansiyel neden en yüksektir?",
         "a": "Nehirlerin debisinin yüksek ve yatak eğimlerinin fazla olması enerji potansiyelini artırır."
+      },
+      {
+        "q": "Türkiye'nin en büyük gölü hangisidir?",
+        "a": "Van Gölü (3713 km²) Türkiye'nin en büyük gölüdür ve Doğu Anadolu Bölgesi'ndedir."
       }
     ]
   },
   "guneydogu-anadolu": {
     "konum": "Türkiye'nin güneybatısındadır. Mezopotamya'nın kuzey ucudur. Ortadoğu ticaretinin kilit noktasındadır.",
-    "yer_sekilleri": "En sade yer şekillerine sahip bölgedir. Geniş platolar ve Mezopotamya ovaları (Ceylanpınar, Suruç) yaygındır.",
-    "jeoloji": "Kuzeyinde Toroslar yükselirken bölge geneli düzlüklerden oluşur. Petrol yatakları (Batman) buradadır.",
+    "yer_sekilleri": "En sade yer şekillerine sahip bölgedir. Geniş platolar ve Mezopotamya ovaları yaygındır.",
+    "jeoloji": "Kuzeyinde Toroslar yükselirken bölge geneli düzlüklerden oluşur. Petrol yatakları Batman'dadır.",
     "su_ortusu": "Fırat ve Dicle nehirleri bölgeye hayat verir. Atatürk Barajı Türkiye'nin en büyük baraj gölüdür.",
-    "iklim_bitki": "Karasal iklim hakimdir ancak yazları aşırı buharlaşma nedeniyle Türkiye'nin en sıcak bölgesidir. Bozkır yaygındır.",
+    "iklim_bitki": "Karasal iklim hakimdir ancak yazları aşırı buharlaşma nedeniyle Türkiye'nin en sıcak bölgesidir.",
     "toprak_cevre": "Kahverengi bozkır toprakları yaygındır. Buharlaşma nedeniyle toprakta tuzlanma riski vardır.",
     "nufus": "Nüfus GAP ile birlikte artmıştır. Gaziantep, Şanlıurfa ve Diyarbakır büyük nüfus merkezleridir.",
-    "tarim_hayvancilik": "GAP öncesi kırmızı mercimek ve antep fıstığı; GAP sonrası pamuk ve mısır üretiminde birincidir.",
+    "tarim_hayvancilik": "GAP sonrası pamuk ve mısır üretiminde birincidir. Antep fıstığı ve kırmızı mercimek meşhurdur.",
     "maden_enerji": "Petrol (Batman-Raman), fosfat (Mardin-Mazıdağı) ve hidroelektrik enerji ana kaynaklardır.",
     "sanayi_ticaret": "Gaziantep sanayisi bölgenin lokomotifidir. Ortadoğu ülkelerine ihracat çok yüksektir.",
-    "ulasim_sinir": "Düz arazi sayesinde karayolu ulaşımı kolaydır. Suriye (Habur - dolaylı Irak bağlantısı) en işlek kapı yönüdür.",
-    "turizm": "Göbeklitepe (Şanlıurfa), Zeugma (Gaziantep), Nemrut (Mardin sınırında paylaşımlı) ve inanç turizmi merkezidir.",
+    "ulasim_sinir": "Düz arazi sayesinde karayolu ulaşımı kolaydır. Suriye ve Irak bağlantıları ekonomiktir.",
+    "turizm": "Göbeklitepe, Zeugma ve Mardin taş mimarisi inanç turizmi merkezidir.",
     "kalkinma": "GAP (Güneydoğu Anadolu Projesi) Cumhuriyet tarihinin en büyük entegre kalkınma projesidir.",
     "faqs": [
       {
@@ -199,6 +227,10 @@
       {
         "q": "Gaziantep sanayisi neden bölgenin lokomotifidir?",
         "a": "Ulaşım yolları üzerinde olması, sermaye birikimi ve gelişmiş ticaret ağları nedeniyle sanayi devleşmiştir."
+      },
+      {
+        "q": "Türkiye'de petrol nerede çıkarılır?",
+        "a": "Türkiye'de petrolün büyük çoğunluğu Güneydoğu Anadolu Bölgesi'nde, özellikle Batman (Raman) çevresinde çıkarılır."
       }
     ]
   }
