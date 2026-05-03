@@ -26,8 +26,11 @@ export async function generateMetadata({
   if (!il) return {};
 
   const ilOzet = getIlOzet(params.slug);
-  const tarimVerisi = getIlKonuData(il.slug, 'tarim')?.detay || '';
-  const madenVerisi = getIlKonuData(il.slug, 'madenler-enerji')?.detay || '';
+  const tarimData = getIlKonuData(il.slug, 'tarim');
+  const madenData = getIlKonuData(il.slug, 'madenler-enerji');
+  
+  const tarimVerisi = tarimData && 'ana_urunler' in tarimData ? tarimData.ana_urunler.join(', ') : '';
+  const madenVerisi = madenData && 'maden_turleri' in madenData ? madenData.maden_turleri.join(', ') : '';
   const plakaKod = String(il.plaka).padStart(2, '0');
 
   const shortDescription = `${il.ad} KPSS Coğrafya Özeti: ${ilOzet?.[0] || ''} ${tarimVerisi.slice(0, 100)}... ${madenVerisi.slice(0, 80)}...`;
