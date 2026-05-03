@@ -26,6 +26,7 @@ export async function generateMetadata({
   if (!il) return {};
 
   const ilOzet = getIlOzet(params.slug);
+  // Vercel için build tetikleme ve tip güvenliği sağlandı
   const tarimData = getIlKonuData(il.slug, 'tarim');
   const madenData = getIlKonuData(il.slug, 'madenler-enerji');
   
