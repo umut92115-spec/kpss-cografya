@@ -12,9 +12,38 @@ interface SmartFAQProps {
 export default function SmartFAQ({ sorular, konuBaslik }: SmartFAQProps) {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
+  // SEO ve UX için soruları temizle ve filtrele
+  const temizSorular = sorular
+    .filter(s => {
+      const soru = s.soru.toLowerCase();
+      // Şıklara aşırı bağımlı veya olumsuz köklü soruları Google'a servis etme (UX/SEO için kötü)
+      return !soru.includes('yanlıştır') && 
+             !soru.includes('söylenemez') && 
+             !soru.includes('değildir') &&
+             !soru.includes('farklıdır');
+    })
+    .map(s => {
+      let yeniSoru = s.soru;
+      
+      // "Aşağıdakilerden hangisi ... dır?" -> "... hangisidir?" dönüşümü
+      yeniSoru = yeniSoru.replace(/Aşağıdakilerden hangisi /gi, '');
+      yeniSoru = yeniSoru.replace(/Aşağıdaki /gi, '');
+      
+      // Soru kökünü düzelt (eğer "hangisidir" yoksa ve temizlikten sonra eksik kaldıysa ekle)
+      if (!yeniSoru.includes('?') && !yeniSoru.includes('hangis')) {
+        yeniSoru = yeniSoru.replace(/\.$/, '') + ' hangisidir?';
+      }
+      
+      // İlk harf büyük
+      yeniSoru = yeniSoru.charAt(0).toUpperCase() + yeniSoru.slice(1);
+      
+      return { ...s, soru: yeniSoru };
+    })
+    .slice(0, 15); // Sayfayı çok boğmamak için en iyi 15 soruyu seç
+
   // Google için Schema verisini hazırla
   const faqSchema = {
-    mainEntity: sorular.map((s) => ({
+    mainEntity: temizSorular.map((s) => ({
       "@type": "Question",
       "name": s.soru,
       "acceptedAnswer": {
@@ -23,6 +52,8 @@ export default function SmartFAQ({ sorular, konuBaslik }: SmartFAQProps) {
       }
     }))
   };
+
+  if (temizSorular.length === 0) return null;
 
   return (
     <section className="mt-16 border-t border-gray-100 pt-12">
@@ -35,12 +66,12 @@ export default function SmartFAQ({ sorular, konuBaslik }: SmartFAQProps) {
           <h2 className="text-2xl md:text-3xl font-black text-gray-900 tracking-tight">
             {konuBaslik} Hakkında Merak Edilenler
           </h2>
-          <p className="text-gray-500 text-sm font-medium mt-1">Sınavda çıkma ihtimali yüksek {sorular.length} soru ve detaylı çözümü</p>
+          <p className="text-gray-500 text-sm font-medium mt-1">En çok merak edilen {temizSorular.length} soru ve detaylı çözümü</p>
         </div>
       </div>
 
       <div className="space-y-4">
-        {sorular.map((s, idx) => (
+        {temizSorular.map((s, idx) => (
           <div 
             key={s.id} 
             className={`group border-2 rounded-2xl transition-all duration-300 ${

@@ -291,7 +291,7 @@
     },
     {
       "id": "gen-292",
-      "soru": "Türkiye'de 'Biyodizel' üretiminde kullanılan ve son yıllarda Trakya ile İç Anadolu'da ekim alanı hızla genişleyen yağ bitkisi hangisidir?",
+      "soru": "Biyodizel üretiminde kullanılan ve son yıllarda ekim alanı genişleyen yağ bitkisi hangisidir?",
       "siklar": ["Aspir", "Kanola (Kolza)", "Yer fıstığı", "Soya fasulyesi"],
       "dogru": "Kanola (Kolza)",
       "aciklama": "Kanola, hem bitkisel yağ hem de biyodizel üretimi için stratejik bir üründür. Özellikle Tekirdağ ve Edirne çevresinde üretimi çok artmıştır.",

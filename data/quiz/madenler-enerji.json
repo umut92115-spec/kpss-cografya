@@ -336,7 +336,7 @@
     },
     {
       "id": "mad-023",
-      "soru": "Samsun'da bakır madeni çıkarılmamasına rağmen Türkiye'nin en büyük bakır işletmelerinden birinin burada olmasının temel nedeni nedir?",
+      "soru": "Samsun'da bakır madeni çıkarılmamasına rağmen neden büyük bir bakır işletme tesisi bulunmaktadır?",
       "siklar": ["Hammadde yakınlığı", "Ulaşım ve Hinterland", "Enerji kaynağına yakınlık", "İş gücü maliyeti"],
       "dogru": "Ulaşım ve Hinterland",
       "aciklama": "Samsun, Karadeniz'in en gelişmiş liman ve demiryolu bağlantısına sahip olduğu için hammadde dışarıdan getirilip burada kolayca işlenir. Bu, sanayide 'Ulaşım' faktörüne en net örnektir.",
@@ -345,7 +345,7 @@
     },
     {
       "id": "mad-024",
-      "soru": "Dünya rezervlerinin büyük bir kısmı Ankara'nın Beypazarı ve Kahramankazan ilçelerinde bulunan, cam ve deterjan sanayinde kullanılan maden hangisidir?",
+      "soru": "Dünya rezervlerinin büyük bir kısmı Ankara'da bulunan ve cam sanayinde kullanılan maden hangisidir?",
       "siklar": ["Bor", "Trona (Doğal Soda)", "Linyit", "Kaya Tuzu"],
       "dogru": "Trona (Doğal Soda)",
       "aciklama": "Trona (Doğal Soda Külü) yatakları bakımından Ankara dünyaca ünlüdür. Türkiye bu alanda ABD'den sonra dünya ikincisidir.",
