@@ -8,7 +8,8 @@ interface JsonLdProps {
     | 'BreadcrumbList'
     | 'LearningResource'
     | 'Quiz'
-    | 'EducationalOrganization';
+    | 'EducationalOrganization'
+    | 'AdministrativeArea';
   veri: Record<string, unknown>;
 }
 
