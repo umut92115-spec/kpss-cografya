@@ -1,6 +1,8 @@
 import { SuperDetay } from '@/types';
 import JsonLd from '@/components/JsonLd';
 import FaqAccordion from './FaqAccordion';
+import { linkKeywords } from '@/lib/linkUtils';
+import Link from 'next/link';
 
 interface SuperDetayRenderProps {
   data: SuperDetay;
@@ -96,8 +98,11 @@ export default function SuperDetayRender({ data, ilAd, konuBaslik }: SuperDetayR
       </section>
 
       {/* Footer Info */}
-      <div className="flex justify-between items-center text-xs text-gray-400 pt-4 border-t border-gray-100">
-        <span>© kpsscografya.com.tr — Tüm Hakları Saklıdır.</span>
+      <div className="flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-gray-400 pt-6 border-t border-gray-100">
+        <div className="flex items-center gap-4">
+           <span>© kpsscografya.com.tr</span>
+           <Link href="/konu/sozluk" className="hover:text-blue-500 underline underline-offset-2">Coğrafya Sözlüğü</Link>
+        </div>
         <span>Son Güncelleme: {data.last_updated} | 2026 KPSS Müfredatı</span>
       </div>
     </article>

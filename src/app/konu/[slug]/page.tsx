@@ -11,6 +11,8 @@ import path from 'path';
 import matter from 'gray-matter';
 import JsonLd from '@/components/JsonLd';
 import IlgiliBaglantilar from '@/components/IlgiliBaglantilar';
+import GorselHafizaKarti from '@/components/GorselHafizaKarti';
+import { linkKeywords, getNextPrevKonu } from '@/lib/linkUtils';
 
 import remarkGfm from 'remark-gfm';
 
@@ -123,7 +125,12 @@ export default async function KonuPage({ params }: { params: { slug: string } })
   if (!konu) notFound();
 
   const tumKonular = getAllKonular();
+  const { prev, next } = getNextPrevKonu(params.slug);
   const tocItems = mdx ? parseToc(mdx.content) : [];
+  
+  // İçerik içindeki anahtar kelimeleri otomatik linkle
+  const linkedContent = mdx ? linkKeywords(mdx.content, params.slug) : '';
+  
   const metaDesc = mdx?.frontmatter?.description || konu.aciklama;
 
   return (
@@ -180,7 +187,31 @@ export default async function KonuPage({ params }: { params: { slug: string } })
       {/* Konu Özet Kartı */}
       <KonuOzetKarti konu={konu} />
 
-      <div className="flex gap-10 relative">
+      {/* Görsel Vurgu / İnfografik Alanı (Eğer MDX içinde resim varsa ilkini buraya çekebiliriz veya genel bir stil verebiliriz) */}
+      <div className="mb-12 bg-white rounded-3xl border border-gray-200 shadow-sm overflow-hidden p-2">
+        <div className="bg-gray-50 rounded-2xl p-6 md:p-10 border border-gray-100 flex flex-col md:flex-row items-center gap-10">
+          <div className="flex-1">
+            <div className="inline-flex items-center gap-2 bg-emerald-100 text-emerald-700 px-3 py-1 rounded-full text-xs font-bold mb-4">
+              ✨ Görsel Hafıza Kartı
+            </div>
+            <h2 className="text-3xl font-black text-gray-900 mb-4">{konu.baslik} Konu Özeti</h2>
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Bu konuyla ilgili en kritik verileri, sınavda çıkma ihtimali yüksek noktaları ve görsel haritaları aşağıda detaylıca inceleyebilirsin.
+            </p>
+            <div className="flex flex-wrap gap-3">
+              <Link href={`/harita/${konu.slug}`} className="bg-blue-600 text-white font-bold py-3 px-6 rounded-xl hover:bg-blue-700 transition-colors shadow-lg shadow-blue-200">
+                🗺️ Haritada İncele
+              </Link>
+              <Link href={`/quiz/${konu.slug}`} className="bg-gray-900 text-white font-bold py-3 px-6 rounded-xl hover:bg-gray-800 transition-colors">
+                📝 Hemen Test Çöz
+              </Link>
+            </div>
+          </div>
+          <GorselHafizaKarti konu={konu} />
+        </div>
+      </div>
+
+      <div className="flex gap-10 relative" id="mdx-content">
         {/* Sol: İçindekiler Tablosu (sticky) */}
         {tocItems.length > 0 && <IcindekilerTablosu items={tocItems} />}
 
@@ -188,7 +219,7 @@ export default async function KonuPage({ params }: { params: { slug: string } })
         <article className="flex-1 min-w-0 prose prose-gray max-w-none prose-headings:scroll-mt-24">
           {mdx ? (
             <MDXRemote 
-              source={mdx.content} 
+              source={linkedContent} 
               components={mdxComponents as Parameters<typeof MDXRemote>[0]['components']}
               options={{
                 mdxOptions: {
@@ -203,6 +234,32 @@ export default async function KonuPage({ params }: { params: { slug: string } })
             </div>
           )}
           <IlgiliBaglantilar tip="konu" slug={konu.slug} />
+
+          {/* Sonraki/Önceki Konu Navigasyonu */}
+          <div className="mt-12 flex flex-col sm:flex-row gap-4 border-t border-gray-100 pt-8">
+            {prev && (
+              <Link 
+                href={`/konu/${prev.slug}`}
+                className="flex-1 p-4 bg-gray-50 rounded-2xl border border-gray-100 hover:border-blue-200 hover:bg-blue-50 transition-all group"
+              >
+                <span className="text-[10px] text-gray-400 font-bold uppercase tracking-wider block mb-1">Önceki Konu</span>
+                <span className="text-gray-900 font-bold flex items-center gap-2 group-hover:text-blue-700 transition-colors">
+                  ← {prev.baslik}
+                </span>
+              </Link>
+            )}
+            {next && (
+              <Link 
+                href={`/konu/${next.slug}`}
+                className="flex-1 p-4 bg-gray-50 rounded-2xl border border-gray-100 hover:border-blue-200 hover:bg-blue-50 transition-all group text-right"
+              >
+                <span className="text-[10px] text-gray-400 font-bold uppercase tracking-wider block mb-1">Sıradaki Konu</span>
+                <span className="text-gray-900 font-bold flex items-center gap-2 justify-end group-hover:text-blue-700 transition-colors">
+                  {next.baslik} →
+                </span>
+              </Link>
+            )}
+          </div>
 
           {/* Bölgesel Analiz Linkleri */}
           <section className="mt-16 bg-gradient-to-br from-gray-900 to-blue-900 rounded-3xl p-8 md:p-12 text-white overflow-hidden relative">

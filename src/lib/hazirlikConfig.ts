@@ -15,6 +15,7 @@ export interface SeviyeConfig {
   renk: string;
   faqlar: { soru: string; cevap: string }[];
   makale: string;
+  konuDagilim: { konu: string; soru: string; oncelik: string }[];
 }
 
 export const seviyeler: SeviyeConfig[] = [
@@ -34,6 +35,15 @@ export const seviyeler: SeviyeConfig[] = [
     hedef_kitle: '4 yıllık üniversite mezunları',
     favicon: '🎓',
     renk: 'blue',
+    konuDagilim: [
+      { konu: "Türkiye'nin Coğrafi Konumu", soru: '1-2', oncelik: 'Normal' },
+      { konu: "Türkiye'nin Yer Şekilleri ve Özellikleri", soru: '2-3', oncelik: 'Kritik' },
+      { konu: "Türkiye'nin İklimi ve Bitki Örtüsü", soru: '2-3', oncelik: 'Önemli' },
+      { konu: "Türkiye'de Nüfus ve Yerleşme", soru: '1-2', oncelik: 'Önemli' },
+      { konu: "Türkiye'nin Ekonomik Faaliyetleri", soru: '4-5', oncelik: 'Kritik' },
+      { konu: "Türkiye'nin Beşeri ve Bölgesel Coğrafyası", soru: '2-3', oncelik: 'Önemli' },
+      { konu: "Çevre ve Doğal Afetler", soru: '1-2', oncelik: 'Normal' },
+    ],
     faqlar: [
       {
         soru: 'KPSS lisans sınavında coğrafya kaç soru?',
@@ -43,12 +53,12 @@ export const seviyeler: SeviyeConfig[] = [
       {
         soru: 'KPSS lisans coğrafya konuları nelerdir?',
         cevap:
-          'Türkiye\'nin fiziki coğrafyası (dağlar, ovalar, akarsular, göller), iklim ve bitki örtüsü, nüfus ve yerleşme, madenler ve energy kaynakları, tarım, sanayi, ulaşım ve turizm.',
+          'Türkiye\'nin fiziki coğrafyası (dağlar, ovalar, akarsular, göller), iklim ve bitki örtüsü, nüfus and yerleşme, madenler and energy kaynakları, tarım, sanayi, ulaşım and turizm.',
       },
       {
         soru: 'KPSS lisans coğrafyasında en çok hangi konudan soru çıkıyor?',
         cevap:
-          'Fiziki coğrafya (dağlar, platolar, akarsular) 5-6 soru ile en ağırlıklı konudur. Nüfus ve yerleşme 3-4 soru, madenler ve enerji 2-3 soru ile ikinci sıradadır.',
+          'Fiziki coğrafya (dağlar, platolar, akarsular) 5-6 soru ile en ağırlıklı konudur. Nüfus and yerleşme 3-4 soru, madenler and enerji 2-3 soru ile ikinci sıradadır.',
       },
       {
         soru: 'KPSS lisans sınavı ne zaman yapılıyor?',
@@ -62,19 +72,24 @@ export const seviyeler: SeviyeConfig[] = [
       },
     ],
     makale: `
-KPSS Lisans coğrafya, aslında birçoğumuzun "ya bunu zaten biliyorum" deyip geçtiği ama sınavda o 18 sorunun karşısına oturduğunda "bu dağ neredeydi ya?" diye kaldığı bir ders. Ama korkmana hiç gerek yok; doğru bir stratejiyle bu 18 soruyu cebe atmak, sandığından çok daha keyifli olabilir. Gel, bu süreci nasıl beraber atlatırız, bir bakalım.
+KPSS Lisans Coğrafya sınavı, Genel Kültür testinin en stratejik bölümlerinden biridir. 18 sorudan oluşan bu bölüm, doğru bir çalışma yöntemiyle adaylara ciddi bir puan avantajı sağlar. Peki, KPSS lisans coğrafyasında nasıl başarılı olunur? İşte adım adım başarı rehberi.
 
-### Önce Bir Haritayla Barışalım mı?
-Coğrafya çalışmaya başladığında önüne bir Türkiye haritası al ve onunla biraz vakit geçir. Dağları sadece isim olarak ezberlemek yerine, nerede durduklarını, denize nasıl baktıklarını hayal et. Sitemizdeki interaktif haritaları tam da bunun için yaptık. Görsel hafıza, o sıkıcı görünen bilgileri kalıcı hale getirmenin en kestirme yolu. İnan bana, bir kere harita üzerinde o dağı "gördüğünde", sınavda gözlerini kapattığında o yer direkt aklına gelecek.
+### 1. Fiziki Coğrafyayı Temel Taşı Yapın
+KPSS coğrafya sorularının yaklaşık %30-35'i Türkiye'nin fiziki özelliklerinden gelir. Dağlar, platolar, ovalar ve özellikle akarsular-göller konusu her yıl mutlaka karşımıza çıkar. Bu konuları sadece ezberlemek yerine, oluşum mantığını (orojenez, epirojenez, volkanizma gibi) kavramak soruları daha hızlı çözmenizi sağlar. Fiziki coğrafyada başarılı olmanın anahtarı ise harita kullanmaktır. Sitemizdeki interaktif haritalar üzerinden dağların uzanış yönlerini ve akarsu havzalarını görselleştirerek çalışmak, sınavda zihninizde bir harita belirmesini sağlayacaktır.
 
-### Güncel Veriler: Coğrafyanın Magazini
-Nüfus artmış mı, en çok hangi maden çıkmış, hangi tarım ürününde birinciyiz... Bunlar coğrafyanın "magazini" gibi aslında. TÜİK her yıl verileri güncelliyor ve ÖSYM bu güncellemeleri sormaya bayılıyor. "Geçen yıl şuydu, bu yıl bu olmuş" diyerek çalışmak işi daha ilginç kılıyor. Biz senin için tüm bu karmaşık tabloları süzüp, en taze haliyle sitemize ekledik. Yani veri peşinde koşmana gerek yok, biz senin için koştuk bile!
+### 2. Beşeri ve Ekonomik Coğrafyada Güncel Veri Takibi
+Nüfus, tarım, hayvancılık, madenler ve sanayi konuları coğrafyanın "canlı" tarafıdır. Bu bölümlerde TÜİK tarafından açıklanan en güncel veriler (nüfus artış hızı, en çok üretilen tarım ürünü, en çok çıkarılan maden vb.) hayati önem taşır. KPSS Lisans sınavında ÖSYM, genellikle bir önceki yılın son verilerini temel alır. Sitemizde yer alan 500+ soru bankası, bu güncel veriler ışığında sürekli güncellenmektedir. Tarım ürünlerinin yoğunlaştığı illeri ve sanayi tesislerinin konum nedenlerini bilmek sizi rakiplerinizin önüne geçirir.
 
-### Soru Çözmek: Kas Hafızası Gibidir
-Teorik bilgiyi okuyup geçmek, yüzme kitabını okuyup denize girmeye benzer. Sitemizdeki **500'den fazla özgün soruyla** seni o denize sokuyoruz. Hata yapmaktan sakın korkma; burada yaptığın her yanlış, sınavda yapacağın bir doğrunun habercisidir. Özellikle madenler ve enerji gibi "bu nasıl akılda kalır?" dediğin konularda bol soru çözmek, bir süre sonra seçenekleri elerken "bu zaten olamaz" demeni sağlayacak o kas hafızasını oluşturacak.
+### 3. Harita Okuryazarlığı: Olmazsa Olmaz
+ÖSYM son yıllarda "haritada işaretli yerlerden hangisinde..." şeklinde başlayan soru tiplerini artırmıştır. Bu soruları çözebilmek için Türkiye'nin bölgelerini, bölümlerini ve bu bölümlerin karakteristik özelliklerini harita üzerinde ayırt edebilmeniz gerekir. Örneğin, Menteşe Yöresi'nin dağlık olduğunu, Ergene Havzası'nin yer şekillerinin sade olduğunu harita üzerinde görmeden anlamak zordur. Harita üzerinde çalışma yapmak, coğrafyayı bir ezber dersi olmaktan çıkarıp bir gözlem dersi haline getirir.
 
-### Son Söz: Sen Yaparsın!
-Coğrafya sadece bir ders değil, üzerinde yaşadığımız toprakları tanıma hikayesi. Bu hikayeyi öğrenirken sıkılmak yerine, ülkendeki zenginlikleri keşfediyormuşsun gibi düşün. Biz buradayız, interaktif haritalarımız ve dev soru bankamızla her adımda yanındayız. Hadi, beraber o 18'de 18'i yapalım!
+### 4. Quiz ve Soru Bankası Pratiği
+Teorik bilgiyi soru üzerinde uygulamadığınız sürece kalıcılık sağlanamaz. KPSS hazırlığında her konu bitiminde en az 50-60 soru çözmek idealdir. Bizim platformumuzda yer alan 500'den fazla soru, tam da bu ihtiyaca yönelik tasarlanmıştır. Çözdüğünüz sorularda yaptığınız hataları analiz etmek, konunun hangi detayını kaçırdığınızı gösterir. Özellikle madenler ve enerji kaynakları gibi "bilgi" odaklı konularda bol soru çözmek, seçenek eleme yeteneğinizi geliştirir.
+
+### 5. Sınav Stratejisi ve Zaman Yönetimi
+Coğrafya soruları genellikle Genel Kültür testinin sonunda (veya tarih ve vatandaşlık arasında) yer alır. Sorular net bilgiye dayalı olduğu için genellikle hızlı çözülür. Ancak dikkat gerektiren öncüllü sorular (I, II, III şeklinde) zamanınızı alabilir. Deneme çözerken coğrafyaya ayırdığınız süreyi optimize etmek, tarih gibi daha uzun yorum gerektiren bölümlere vakit kalmasını sağlar.
+
+Sonuç olarak, KPSS Lisans Coğrafya sınavı na 18'de 18 yapmak imkansız değildir. Fiziki coğrafyayı harita ile desteklemek, ekonomik verileri güncel takip etmek and 500+ soruluk bankamızla düzenli pratik yapmak başarının kapısını aralayacaktır. Unutmayın, coğrafya bir Türkiye haritası üzerinde yaşama sanatıdır!
     `,
   },
   {
@@ -83,7 +98,7 @@ Coğrafya sadece bir ders değil, üzerinde yaşadığımız toprakları tanıma
     aciklama: '2 yıllık önlisans mezunları için KPSS coğrafya hazırlık',
     seoTitle: 'KPSS Önlisans Coğrafya Konuları 2026 — 500+ Soru Bankası, Harita, Quiz',
     seoDescription:
-      'KPSS önlisans coğrafya konuları 2026. 500+ soru bankası, harita destekli konu anlatımı ve çıkmış sorular ile sınava tam hazırlanın.',
+      'KPSS önlisans coğrafya konuları 2026. 500+ soru bankası, harita destekli konu anlatımı and çıkmış sorular ile sınava tam hazırlanın.',
     h1: 'KPSS Önlisans Coğrafya',
     h2: '500+ Özgün Soru ile 18 Soruluk Sınava Hazırlan',
     soruSayisi: 18,
@@ -93,6 +108,14 @@ Coğrafya sadece bir ders değil, üzerinde yaşadığımız toprakları tanıma
     hedef_kitle: '2 yıllık önlisans mezunları',
     favicon: '📋',
     renk: 'green',
+    konuDagilim: [
+      { konu: "Türkiye'nin Coğrafi Konumu ve Özellikleri", soru: '3-4', oncelik: 'Kritik' },
+      { konu: "Türkiye'nin Fiziki Özellikleri", soru: '3-4', oncelik: 'Kritik' },
+      { konu: "Türkiye'de Nüfus ve Yerleşme", soru: '2-3', oncelik: 'Önemli' },
+      { konu: "Tarım ve Hayvancılık", soru: '2', oncelik: 'Normal' },
+      { konu: "Madenler ve Enerji Kaynakları", soru: '1-2', oncelik: 'Normal' },
+      { konu: "Ulaşım ve Ticaret", soru: '1-2', oncelik: 'Normal' },
+    ],
     faqlar: [
       {
         soru: 'KPSS önlisans sınavında coğrafya kaç soru?',
@@ -102,7 +125,7 @@ Coğrafya sadece bir ders değil, üzerinde yaşadığımız toprakları tanıma
       {
         soru: 'KPSS önlisans coğrafya konuları lisansla aynı mı?',
         cevap:
-          'Büyük ölçüde aynıdır. Her iki sınavda da Türkiye\'nin fiziki coğrafyası, iklim, nüfus, madenler, tarım, sanayi ve ulaşım konuları yer almaktadır.',
+          'Büyük ölçüde aynıdır. Her iki sınavda da Türkiye\'nin fiziki coğrafyası, iklim, nüfus, madenler, tarım, sanayi and ulaşım konuları yer almaktadır.',
       },
       {
         soru: 'KPSS önlisans sınavı kaç yılda bir yapılıyor?',
@@ -112,7 +135,7 @@ Coğrafya sadece bir ders değil, üzerinde yaşadığımız toprakları tanıma
       {
         soru: 'Önlisans KPSS coğrafyasında harita soruları çıkıyor mu?',
         cevap:
-          'Evet, konum ve bölge bilgisini ölçen harita tabanlı sorular çıkmaktadır. Harita üzerinde çalışmak bu soruları çözmede büyük avantaj sağlar.',
+          'Evet, konum and bölge bilgisini ölçen harita tabanlı sorular çıkmaktadır. Harita üzerinde çalışmak bu soruları çözmede büyük avantaj sağlar.',
       },
       {
         soru: 'KPSS önlisans coğrafya için ne kadar süre çalışmalıyım?',
@@ -121,19 +144,24 @@ Coğrafya sadece bir ders değil, üzerinde yaşadığımız toprakları tanıma
       },
     ],
     makale: `
-Önlisans KPSS süreci bazen "iş mi, okul mu, sınav mı?" üçgeninde adayları biraz yorabiliyor. Farkındayız, vaktin kısıtlı ve bu kısıtlı vakitte en yüksek verimi alman gerekiyor. İşte tam da bu yüzden coğrafyayı senin için bir yük olmaktan çıkarıp, puan toplayacağın bir "altın madenine" dönüştürmek istiyoruz.
+KPSS Önlisans sınavı, her iki yılda bir yapılan ve milyonlarca adayın memuriyet hayalini gerçekleştirmek için ter döktüğü kritik bir sınavdır. Bu sınavın Genel Kültür testinde yer alan 18 coğrafya sorusu, genellikle adayların "full" yapmaya en yakın olduğu bölümdür. Peki, önlisans coğrafya hazırlığında nelere dikkat edilmelidir?
 
-### "Lisans Daha Zordur" Efsanesini Unut
-Hemen baştan söyleyelim: ÖSYM son yıllarda önlisans ve lisans sorularını neredeyse aynı kalitede hazırlıyor. Yani "önlisans nasılsa kolay olur" deyip konuyu üstünkörü geçmek büyük bir hata olur. Ama iyi haber şu; her iki sınavda da mantık aynı. Türkiye'nin iklimini, yer şekillerini bir kez kavradığında, karşına hangi seviyeden soru gelirse gelsin çözebileceksin. Bizim sitemizdeki içerikler, bu her iki seviyeyi de kapsayacak kadar derinlikli ama senin vaktini çalmayacak kadar da sade.
+### Önlisans ve Lisans Arasındaki Fark Nedir?
+Pek çok aday, önlisans coğrafya sorularının lisans sınavına göre çok daha kolay olacağını düşünür. Ancak son yıllardaki sınav analizleri göstermektedir ki, konu kapsamı and soru tarzı bakımından önlisans and lisans sınavları birbirine oldukça yakındır. ÖSYM, önlisans düzeyinde de harita bilgisini, güncel ekonomik verileri and Türkiye'nin bölgesel özelliklerini detaylı bir şekilde sormaktadır. Bu nedenle hazırlık sürecinde "basit" kaynaklar yerine, kapsamlı and harita destekli materyaller tercih edilmelidir.
 
-### Ezberlemek Yerine "Neden?" Diye Sor
-Coğrafya sadece isimlerden ibaret değil. "Ege'de neden falez az?" veya "Neden Karadeniz'de orman çok?" gibi soruların mantığını bir kez anladığında, binlerce sayfayı ezberlemekten kurtulursun. Biz bu bağlantıları senin yerine kurduk ve harita üzerine işledik. Sitemizdeki **interaktif haritalara** bir bak, her şeyin nasıl birbirine bağlı olduğunu göreceksin. Mantığını anladığın şeyi bir daha asla unutmazsın.
+### Fiziki Coğrafyada "Neden-Sonuç" İlişkisi
+Önlisans sınavında yer şekilleri, iklim and bitki örtüsü gibi konular temel puan kaynağıdır. Ancak sadece "en yüksek dağ Ağrı'dır" gibi tekil bilgileri ezberlemek yeterli olmayabilir. Sorular artık daha çok mantık yürütmeye dayalıdır. "Neden Doğu Karadeniz'de falez çoktur?" veya "Neden Ege'de kıyı ile iç kesim arası ulaşım kolaydır?" gibi soruların cevabını bilmek, fiziki coğrafyanın temelini kavramak anlamına gelir. Sitemizdeki konu anlatımları, bu mantık zincirini kurmanıza yardımcı olacak şekilde yapılandırılmıştır.
 
-### Pratik, Pratik ve Daha Fazla Pratik!
-Zamanın kısıtlıysa en iyi çalışma yöntemi soru üzerinden gitmektir. Sitemizde senin için hazırladığımız **500'den fazla özgün soru**, aslında sana konuyu soru çözerken öğretecek şekilde tasarlandı. Her yanlış cevabında bir şeyler öğrenecek, her doğru cevabında özgüven kazanacaksın. Günlük rutininde, otobüste veya mola verdiğinde çözeceğin birkaç quiz, sınav günü o 18 soruyu tereyağından kıl çeker gibi çözmeni sağlayacak.
+### Ekonomik Coğrafya ve Soru Bankasının Gücü
+Önlisans adayları için tarım, hayvancılık, madenler and enerji kaynakları konuları bazen kafa karıştırıcı olabilir. Hangi maden nerede çıkarılır, hangi ürün nerede birinci sıradadır gibi bilgileri akılda tutmanın en iyi yolu **bol soru çözmektir**. Platformumuzda yer alan **500'den fazla özgün soru**, önlisans müfredatındaki her bir detayı tarayarak bilginizi taze tutmanızı sağlar. Özellikle madenler konusunda hata yaptıkça, doğrusunu öğrenmek kalıcı hafıza oluşturur.
 
-### Biz Senin Yanındayız
-Memuriyet hayaline giden bu yolda, coğrafyayı en büyük destekçin yapmaya kararlıyız. Vaktini verimli kullanman için her şeyi senin adına süzdük, güncelledik ve hazırladık. Hadi, sitemizdeki kaynaklarla bu işi beraber bitirelim ve o 18 neti cebe atalım!
+### Harita Bilgisi ve Görsel Öğrenme
+Coğrafya dersinde harita, adeta bir sınav kağıdı gibidir. Harita üzerinde Türkiye'nin göllerini, akarsularını, iklim tiplerini and nüfusun yoğunlaştığı yerleri görebilen bir aday, soruların %80'ini kolaylıkla çözer. Önlisans sınavında sıklıkla karşımıza çıkan "Hangi merkezde tarımsal nüfus yoğunluğu fazladır?" tarzı sorular, doğrudan Türkiye'nin yer şekilleri haritasını gözünde canlandırabilme yeteneği ile ilgilidir. Sitemizdeki interaktif haritalar bu yeteneği geliştirmek için tasarlanmıştır.
+
+### Hazırlık Planı ve İstikrar
+KPSS Önlisans sınavına hazırlanan adaylar genellikle çalışan veya okuluna devam eden kişilerden oluşur. Bu yoğun tempoda coğrafyaya günde 45-60 dakika ayırmak yeterlidir. İlk haftalarda fiziki coğrafya temeli atılmalı, sonrasında ise beşeri and ekonomik konulara geçilmelidir. Her konu sonrası mutlaka 20 soruluk bir quiz çözülmelidir. 500+ soruluk bankamız, hazırlık sürecinizin her aşamasında yanınızda olacak şekilde kategorize edilmiştir.
+
+Özetle, KPSS Önlisans Coğrafya sınavı, doğru strateji ile 18 soruda 18 net yapılabilecek bir alandır. Harita bilgisini ön planda tutan, güncel verileri (TÜİK) takip eden and sitemizdeki 500+ soru bankası ile antrenman yapan adaylar, sınav günü büyük bir özgüvenle soruları çözecektir. Başarı, düzenli çalışma and doğru kaynak kullanımında gizlidir!
     `,
   },
   {
@@ -149,9 +177,16 @@ Memuriyet hayaline giden bu yolda, coğrafyayı en büyük destekçin yapmaya ka
     bankaSoruSayisi: 500,
     sinav_suresi: '130 dakika',
     sinav_periyot: 'Çift yıllarda (2024, 2026...)',
-    hedef_kitle: 'Lise and ortaöğretim mezunları',
+    hedef_kitle: 'Lise ve ortaöğretim mezunları',
     favicon: '📚',
     renk: 'amber',
+    konuDagilim: [
+      { konu: "Türkiye'nin Coğrafi Konumu", soru: '1', oncelik: 'Normal' },
+      { konu: "Türkiye'nin İklimi ve Bitki Örtüsü", soru: '2', oncelik: 'Önemli' },
+      { konu: "Türkiye'nin Fiziki Özellikleri", soru: '4', oncelik: 'Kritik' },
+      { konu: "Türkiye'nin Beşeri Özellikleri", soru: '3', oncelik: 'Kritik' },
+      { konu: "Türkiye'nin Ekonomik Özellikleri", soru: '8', oncelik: 'Kritik' },
+    ],
     faqlar: [
       {
         soru: 'KPSS ortaöğretim sınavında coğrafya kaç soru çıkıyor?',
@@ -161,7 +196,7 @@ Memuriyet hayaline giden bu yolda, coğrafyayı en büyük destekçin yapmaya ka
       {
         soru: 'KPSS lise coğrafya konuları nelerdir?',
         cevap:
-          'Türkiye\'nin fiziki coğrafyası, iklim ve bitki örtüsü, nüfus ve yerleşme, madenler ve enerji, tarım ve hayvancılık, sanayi, ulaşım ve turizm.',
+          'Türkiye\'nin fiziki coğrafyası, iklim and bitki örtüsü, nüfus and yerleşme, madenler and enerji, tarım and hayvancılık, sanayi, ulaşım and turizm.',
       },
       {
         soru: 'KPSS ortaöğretim sınavına üniversite mezunları da girebilir mi?',
@@ -171,7 +206,7 @@ Memuriyet hayaline giden bu yolda, coğrafyayı en büyük destekçin yapmaya ka
       {
         soru: 'KPSS ortaöğretim coğrafyasında harita soruları var mı?',
         cevap:
-          'Evet, özellikle yer şekilleri, iklim bölgeleri ve ürün dağılışını gösteren harita soruları sıklıkla çıkmaktadır.',
+          'Evet, özellikle yer şekilleri, iklim bölgeleri and ürün dağılışını gösteren harita soruları sıklıkla çıkmaktadır.',
       },
       {
         soru: 'KPSS ortaöğretim ile lisans coğrafya soruları farklı mı?',
@@ -180,19 +215,24 @@ Memuriyet hayaline giden bu yolda, coğrafyayı en büyük destekçin yapmaya ka
       },
     ],
     makale: `
-Merhaba dostum! Lise mezunları için düzenlenen KPSS Ortaöğretim sınavı, aslında hayallerine giden yolda harika bir başlangıç noktası. Coğrafya dersi ise bu sınavın en keyifli ve net artırması en kolay bölümlerinden biri. Eğer "nereden başlasam?" diye düşünüyorsan, doğru yerdesin. Gel, bu 18 soruyu beraber halledelim.
+Lise mezunları ve liseden mezun olabilecek durumda olan adaylar için düzenlenen KPSS Ortaöğretim sınavı, kamu personeli olma yolundaki en önemli kapılardan biridir. Bu sınavın 60 soruluk Genel Kültür testinde yer alan 18 coğrafya sorusu, adayların puanlarını en çok yükselten and doğru çalışıldığında hata payı en düşük olan bölümdür. Peki, lise mezunları KPSS coğrafyaya nasıl çalışmalı?
 
-### Coğrafyayı Bir Keşif Yolculuğu Gibi Düşün
-Lise kitaplarındaki o karmaşık tabloları unut! Coğrafya aslında üzerinde yaşadığın ülkeyi, gittiğin yerleri, yediğin meyvenin nerede yetiştiğini tanıma dersidir. Çalışırken "bunu ezberlemeliyim" demek yerine, "Aa, demek ki Erzurum'da bu yüzden kış bu kadar sert geçiyormuş" dersen, her şey kendiliğinden yerine oturur. Bizim sitemizdeki konu özetlerini tam da bu merakı uyandıracak, seni sıkmayacak şekilde hazırladık.
+### Müfredat Kapsamı ve Soru Dağılımı
+KPSS Ortaöğretim coğrafya müfredatı, aslında lise yıllarından aşina olduğunuz Türkiye Coğrafyası konularını kapsar. Ancak sınavda sorular daha çok "bilgi" and "uygulama" düzeyinde gelir. Türkiye'nin konumu, yer şekilleri, iklimi, nüfusu and ekonomik faaliyetleri (tarım, hayvancılık, madencilik, sanayi, ulaşım, turizm) ana başlıkları oluşturur. Özellikle Türkiye'nin yer şekilleri and nüfus özellikleri her yıl en az 3-4 sorunun geldiği kritik alanlardır.
 
-### Harita Senin En Yakın Arkadaşın Olsun
-Coğrafya sorularının çoğu "nerede?" sorusunun cevabıdır. Bu cevabı bulmanın en iyi yolu da haritaya bakmaktır. Ama öyle kara kara düşünerek bakma! Sitemizdeki **interaktif haritalarla** oyna, şehirlerin yerlerini tahmin et, dağların nerede bittiğini gör. Harita üzerinde çalışmak bir süre sonra bir oyun gibi gelecek ve sınavda haritalı bir soru gördüğünde "tamam, bu bende!" diyeceksin.
+### Ezberden Kaçın, Mantığı Anla
+Coğrafya dersi genellikle "ezber dersi" olarak görülür. Oysa Türkiye'nin fiziki yapısını anlayan bir aday, beşeri and ekonomik olayları da otomatik olarak çözer. Örneğin; bir yerin dağlık olması, orada ulaşımın zor, nüfusun az, tarım alanlarının dar and hayvancılığın (genellikle büyükbaş veya arıcılık) ön planda olacağı anlamına gelir. Bu mantığı kurduğunuzda, sınavda karşınıza çıkan "X yöresinde neden nüfus seyrektir?" sorusunun cevabını ezberlemeden, yer şekilleri bilgisiyle bulabilirsiniz. Sitemizdeki konu özetleri, bu bağlantıları kurmanız için özel olarak hazırlanmıştır.
 
-### Soru Bankası: Senin Gizli Silahın
-Konuyu okudun, haritaya baktın... Şimdi sıra antrenmanda! Sitemizde senin için hazırladığımız **500'den fazla soru**, lise mezunlarının en çok takıldığı yerleri baz alarak kurgulandı. Her gün çözeceğin küçük quizler, sınav günü o 18 soruyu sanki önceden görmüşsün gibi rahat çözmeni sağlayacak. Unutma, çok soru çözen değil, yanlışlarından öğrenen aday kazanır!
+### Harita Çalışması Başarının Yarısıdır
+KPSS Ortaöğretim sınavında ÖSYM mutlaka harita üzerinden soru sorar. Haritada taranmış bölgelerin hangi iklim tipine sahip olduğunu, hangi madenin orada yoğunlaştığını bilmek hayati önemdedir. Sitemizde yer alan interaktif harita araçlarını kullanarak Türkiye'nin dağlarını, ovalarını and sanayi merkezlerini görselleştirebilirsiniz. Unutmayın, bir kere harita üzerinde gördüğünüz bir bilgiyi unutmanız, kitaptan okuduğunuz bir bilgiyi unutmanızdan çok daha zordur.
 
-### Biz Her Zaman Buradayız
-Sınav süreci bazen stresli olabilir ama yalnız değilsin. Sitemizdeki güncel bilgiler, haritalar ve dev soru bankasıyla her zaman senin yanındayız. Takıldığın yerde bize dön, kaynaklarımıza bak. Bu 18 soruyu fire vermeden beraber tamamlayacağız. Kendine güven, biz sana güveniyoruz!
+### 500+ Soru Bankası ile Pratik Yapın
+Konuyu öğrenmek kadar, o konudan ne tür sorular gelebileceğini görmek de önemlidir. Platformumuzda ortaöğretim adayları için özel olarak seçilmiş and hazırlanmış **500'den fazla soru** bulunmaktadır. Bu soruları çözerken sadece doğru cevaba odaklanmak yerine, yanlış seçeneklerin neden yanlış olduğunu da anlamaya çalışmak sizi geliştirecektir. Özellikle madenler and tarım ürünleri gibi çok fazla detayın olduğu konularda bol soru çözmek, bilgilerin zihninize "çivilenmesini" sağlar.
+
+### Güncel Bilgilere Dikkat!
+KPSS Ortaöğretim sınavında her yıl 1-2 soru güncel verilerden gelir. Türkiye'nin en büyük gölü mü değişti (Van Gölü vs. barajlar), en son açılan tünel hangisi, hangi tarım ürününde dünya birincisiyiz? Bu gibi sorular için sitemizdeki "Kpss Notu" kutucuklarını and güncellenen içeriklerimizi takip etmeniz yeterlidir. TÜİK verilerini sizin yerinize süzüp en sade haliyle sunuyoruz.
+
+Sonuç olarak; KPSS Ortaöğretim Coğrafya dersi, lise mezunları için büyük bir fırsat alanıdır. Harita destekli çalışarak, konunun mantığını kavrayarak and 500+ soruluk bankamızla düzenli test çözerek bu 18 soruyu fire vermeden çözebilirsiniz. Unutmayın, düzenli çalışan and doğru kaynağı kullanan aday her zaman bir adım öndedir. Başarılar dileriz!
     `,
   },
 ];

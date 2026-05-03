@@ -68,6 +68,23 @@ export default function QuizModu({ konuSlug, konuMeta, sorular }: QuizModuProps)
   const mevcutSoru = aktifSorular[soruIndex];
   const toplamSoru = aktifSorular.length;
 
+  const quizBaslat = useCallback((hizli = false) => {
+    let secilecekSorular = [...sorular];
+    if (hizli) {
+      secilecekSorular = secilecekSorular
+        .sort(() => Math.random() - 0.5)
+        .slice(0, 10);
+    }
+    setAktifSorular(secilecekSorular);
+    setSoruIndex(0);
+    setSecilenSik(null);
+    setCevapDurumu('bekleniyor');
+    setDogruSayisi(0);
+    setBaslangicZamani(Date.now());
+    setGecenSure(0);
+    setFaz('quiz');
+  }, [sorular]);
+
   // Auto-start for quick mode if URL param exists
   useEffect(() => {
     if (typeof window !== 'undefined' && !hasAutoStarted.current) {
@@ -94,23 +111,6 @@ export default function QuizModu({ konuSlug, konuMeta, sorular }: QuizModuProps)
     const s = sn % 60;
     return `${dk}:${String(s).padStart(2, '0')}`;
   };
-
-  const quizBaslat = useCallback((hizli = false) => {
-    let secilecekSorular = [...sorular];
-    if (hizli) {
-      secilecekSorular = secilecekSorular
-        .sort(() => Math.random() - 0.5)
-        .slice(0, 10);
-    }
-    setAktifSorular(secilecekSorular);
-    setSoruIndex(0);
-    setSecilenSik(null);
-    setCevapDurumu('bekleniyor');
-    setDogruSayisi(0);
-    setBaslangicZamani(Date.now());
-    setGecenSure(0);
-    setFaz('quiz');
-  }, [sorular]);
 
   const sikasTikla = (sik: string) => {
     if (cevapDurumu !== 'bekleniyor') return;

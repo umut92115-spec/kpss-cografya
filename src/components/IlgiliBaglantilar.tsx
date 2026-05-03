@@ -49,6 +49,11 @@ export default function IlgiliBaglantilar({ tip, slug }: IlgiliBaglantilarProps)
             </Link>
           ))}
         </div>
+        <div className="mt-8 text-center">
+          <Link href="/konu" className="text-blue-600 hover:underline font-bold text-sm">
+            ← Tüm Konulara Göz At
+          </Link>
+        </div>
       </div>
     );
   }

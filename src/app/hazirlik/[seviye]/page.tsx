@@ -154,7 +154,7 @@ export default function SeviyePage({ params }: { params: { seviye: string } }) {
                 </tr>
               </thead>
               <tbody>
-                {konuDagilim.map((row, i) => (
+                {s.konuDagilim.map((row, i) => (
                   <tr key={i} className="border-t border-gray-100 hover:bg-gray-50">
                     <td className="p-4 text-gray-800">{row.konu}</td>
                     <td className="p-4 text-center font-bold text-gray-900">{row.soru}</td>

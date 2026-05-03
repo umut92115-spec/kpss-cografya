@@ -26,23 +26,25 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between gap-6">
 
         {/* ─── Sol: Logo ─────────────────────────────────────── */}
-        <Link 
-          href="/" 
-          title="KPSS Coğrafya - Ana Sayfa"
-          aria-label="KPSS Coğrafya Ana Sayfa"
-          className="flex items-center gap-2 shrink-0 group"
-        >
-          <span className="text-2xl select-none">🗺️</span>
-          <div className="leading-tight">
-            <span className="font-black text-kpss-koyu text-lg tracking-tight group-hover:text-harita-mavi transition-colors">
-              kpss<span className="text-harita-mavi">coğrafya</span>
-            </span>
-            <span className="text-[10px] text-gray-400 block -mt-0.5 font-medium uppercase tracking-widest">.com</span>
-          </div>
-        </Link>
+        <div className="flex md:flex-1">
+          <Link 
+            href="/" 
+            title="KPSS Coğrafya - Ana Sayfa"
+            aria-label="KPSS Coğrafya Ana Sayfa"
+            className="flex items-center gap-2 shrink-0 group"
+          >
+            <span className="text-2xl select-none">🗺️</span>
+            <div className="leading-tight">
+              <span className="font-black text-kpss-koyu text-lg tracking-tight group-hover:text-harita-mavi transition-colors">
+                kpss<span className="text-harita-mavi">coğrafya</span>
+              </span>
+              <span className="text-[10px] text-gray-400 block -mt-0.5 font-medium uppercase tracking-widest">.com</span>
+            </div>
+          </Link>
+        </div>
 
         {/* ─── Orta: Masaüstü Nav ────────────────────────────── */}
-        <nav className="hidden md:flex items-center gap-1">
+        <nav className="hidden md:flex items-center justify-center gap-1">
           {navLinks.map(({ href, label, icon }) => (
             <Link
               key={href}
@@ -64,8 +66,7 @@ export default function Navbar() {
         </nav>
 
         {/* ─── Sağ: Badge + Mobil Toggle ──────────────────────── */}
-        <div className="flex items-center gap-3">
-
+        <div className="flex md:flex-1 items-center justify-end gap-3">
           {/* Mobil hamburger */}
           <button
             onClick={() => setMenuAcik(!menuAcik)}
