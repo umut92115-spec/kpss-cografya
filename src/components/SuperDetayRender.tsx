@@ -46,12 +46,12 @@ export default function SuperDetayRender({ data, ilAd, konuBaslik }: SuperDetayR
               {section.content}
             </div>
 
-            {section.type === 'table' && section.data && (
+            {section.type === 'table' && section.data && Array.isArray(section.data) && section.data.length > 0 && (
               <div className="overflow-x-auto">
                 <table className="w-full text-sm text-left text-gray-500 border-collapse">
                   <thead className="text-xs text-gray-700 uppercase bg-gray-50">
                     <tr>
-                      {Object.keys(section.data[0]).map(key => (
+                      {Object.keys(section.data[0] || {}).map(key => (
                         <th key={key} className="px-4 py-3 border">{key}</th>
                       ))}
                     </tr>
@@ -59,7 +59,7 @@ export default function SuperDetayRender({ data, ilAd, konuBaslik }: SuperDetayR
                   <tbody>
                     {section.data.map((row: Record<string, string | number>, i: number) => (
                       <tr key={i} className="bg-white border-b hover:bg-gray-50 transition-colors">
-                        {Object.values(row).map((val: string | number, j: number) => (
+                        {Object.values(row || {}).map((val: string | number, j: number) => (
                           <td key={j} className="px-4 py-3 border font-medium text-gray-900">{val}</td>
                         ))}
                       </tr>
