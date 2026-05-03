@@ -162,7 +162,7 @@ export default async function KonuPage({ params }: { params: { slug: string } })
           ]
         }}
       />
-      {mdx.content.includes('## Sık Sorulan Sorular') && (
+      {mdx && mdx.content.includes('## Sık Sorulan Sorular') && (
         <JsonLd
           tip="FAQPage"
           veri={{
