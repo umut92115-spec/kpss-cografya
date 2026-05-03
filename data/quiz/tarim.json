@@ -288,6 +288,33 @@
       "aciklama": "Kırmızı mercimek kuraklığa dayanıklıdır ve en çok Şanlıurfa-Diyarbakır çevresinde üretilir.",
       "harita_il": "sanliurfa",
       "zorluk": "orta"
+    },
+    {
+      "id": "gen-292",
+      "soru": "Türkiye'de 'Biyodizel' üretiminde kullanılan ve son yıllarda Trakya ile İç Anadolu'da ekim alanı hızla genişleyen yağ bitkisi hangisidir?",
+      "siklar": ["Aspir", "Kanola (Kolza)", "Yer fıstığı", "Soya fasulyesi"],
+      "dogru": "Kanola (Kolza)",
+      "aciklama": "Kanola, hem bitkisel yağ hem de biyodizel üretimi için stratejik bir üründür. Özellikle Tekirdağ ve Edirne çevresinde üretimi çok artmıştır.",
+      "harita_il": "tekirdag",
+      "zorluk": "zor"
+    },
+    {
+      "id": "gen-293",
+      "soru": "Doğa koşullarına (iklim ve yağışa) bağımlılığın en yüksek olduğu hayvancılık türü hangisidir?",
+      "siklar": ["Besi ve Ahır Hayvancılığı", "Kümes Hayvancılığı", "Mera Hayvancılığı", "İpek Böcekçiliği"],
+      "dogru": "Mera Hayvancılığı",
+      "aciklama": "Mera hayvancılığı doğrudan doğal çayırlara bağlı olduğu için yağışlı yıllarda verim artar, kurak yıllarda düşer. Besi ve kümes hayvancılığı ise kapalı tesislerde yapıldığı için doğadan bağımsızdır.",
+      "harita_il": "erzurum",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-294",
+      "soru": "Türkiye'de 'Alkaloid' fabrikasının bulunduğu ve tıbbi amaçlı haşhaş işleme tesislerine sahip olan ilimiz hangisidir?",
+      "siklar": ["Isparta", "Afyonkarahisar", "Konya", "Burdur"],
+      "dogru": "Afyonkarahisar",
+      "aciklama": "Afyonkarahisar (Bolvadin) Alkaloid Fabrikası, haşhaştan tıbbi amaçlı hammadde üreten dünyanın sayılı tesislerinden biridir.",
+      "harita_il": "afyonkarahisar",
+      "zorluk": "zor"
     }
   ]
 }

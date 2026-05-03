@@ -333,6 +333,51 @@
       "aciklama": "Feldspat Türkiye'nin önemli ihraç madenlerinden biridir (Muğla, Aydın, Manisa).",
       "harita_il": "mugla",
       "zorluk": "zor"
+    },
+    {
+      "id": "mad-023",
+      "soru": "Samsun'da bakır madeni çıkarılmamasına rağmen Türkiye'nin en büyük bakır işletmelerinden birinin burada olmasının temel nedeni nedir?",
+      "siklar": ["Hammadde yakınlığı", "Ulaşım ve Hinterland", "Enerji kaynağına yakınlık", "İş gücü maliyeti"],
+      "dogru": "Ulaşım ve Hinterland",
+      "aciklama": "Samsun, Karadeniz'in en gelişmiş liman ve demiryolu bağlantısına sahip olduğu için hammadde dışarıdan getirilip burada kolayca işlenir. Bu, sanayide 'Ulaşım' faktörüne en net örnektir.",
+      "harita_il": "samsun",
+      "zorluk": "orta"
+    },
+    {
+      "id": "mad-024",
+      "soru": "Dünya rezervlerinin büyük bir kısmı Ankara'nın Beypazarı ve Kahramankazan ilçelerinde bulunan, cam ve deterjan sanayinde kullanılan maden hangisidir?",
+      "siklar": ["Bor", "Trona (Doğal Soda)", "Linyit", "Kaya Tuzu"],
+      "dogru": "Trona (Doğal Soda)",
+      "aciklama": "Trona (Doğal Soda Külü) yatakları bakımından Ankara dünyaca ünlüdür. Türkiye bu alanda ABD'den sonra dünya ikincisidir.",
+      "harita_il": "ankara",
+      "zorluk": "orta"
+    },
+    {
+      "id": "mad-025",
+      "soru": "Demir-çelik sanayisinde demirin sertleştirilmesi ve paslanmaz çelik üretimi için kullanılan stratejik maden hangisidir?",
+      "siklar": ["Bor", "Manganez", "Boksit", "Barit"],
+      "dogru": "Manganez",
+      "aciklama": "Manganez, demir-çelik sanayisinin vazgeçilmezidir; çeliğe sertlik ve dayanıklılık kazandırır. Denizli (Tavas) ve Artvin (Borçka) önemli yataklardır.",
+      "harita_il": "denizli",
+      "zorluk": "zor"
+    },
+    {
+      "id": "mad-026",
+      "soru": "Şırnak-Silopi çevresinde çıkarılan, ısıl değeri düşük ancak enerji üretiminde kullanılan asfaltit yatakları için hangi ifade doğrudur?",
+      "siklar": ["Bir linyit türüdür", "Katılaşmış petroldür", "Taş kömürüdür", "Volkanik bir madendir"],
+      "dogru": "Katılaşmış petroldür",
+      "aciklama": "Asfaltit, yer altındaki petrolün zamanla katılaşmasıyla oluşan bir yakıttır. Türkiye'de sadece Şırnak çevresinde bulunur.",
+      "harita_il": "sirnak",
+      "zorluk": "zor"
+    },
+    {
+      "id": "mad-027",
+      "soru": "Türkiye'nin son yıllarda üretimini en çok artırdığı ve Erzincan-İliç, Uşak-Eşme gibi merkezlerde çıkarılan maden hangisidir?",
+      "siklar": ["Gümüş", "Altın", "Platin", "Bakır"],
+      "dogru": "Altın",
+      "aciklama": "Türkiye son 20 yılda altın madenciliğinde büyük atak yapmıştır. Erzincan, Uşak, İzmir ve Artvin önemli üretim merkezleridir.",
+      "harita_il": "erzincan",
+      "zorluk": "orta"
     }
   ]
 }

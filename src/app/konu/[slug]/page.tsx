@@ -13,6 +13,8 @@ import JsonLd from '@/components/JsonLd';
 import IlgiliBaglantilar from '@/components/IlgiliBaglantilar';
 import GorselHafizaKarti from '@/components/GorselHafizaKarti';
 import { linkKeywords, getNextPrevKonu } from '@/lib/linkUtils';
+import { getQuizData } from '@/lib/getQuizData';
+import SmartFAQ from '@/components/SmartFAQ';
 
 import remarkGfm from 'remark-gfm';
 
@@ -122,6 +124,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
 export default async function KonuPage({ params }: { params: { slug: string } }) {
   const konu = getKonu(params.slug);
   const mdx = await getMdxContent(params.slug);
+  const quizData = getQuizData(params.slug);
 
   if (!konu) notFound();
 
@@ -261,6 +264,14 @@ export default async function KonuPage({ params }: { params: { slug: string } })
               </Link>
             )}
           </div>
+
+          {/* AKILLI SENTEZ: Quiz Verilerinden FAQ Oluşturma */}
+          {quizData && quizData.sorular && (
+            <SmartFAQ 
+              sorular={quizData.sorular} 
+              konuBaslik={konu.baslik} 
+            />
+          )}
 
           {/* Bölgesel Analiz Linkleri */}
           <section className="mt-16 bg-gradient-to-br from-gray-900 to-blue-900 rounded-3xl p-8 md:p-12 text-white overflow-hidden relative">

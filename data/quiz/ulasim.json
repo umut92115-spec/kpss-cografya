@@ -243,6 +243,33 @@
       "aciklama": "Sinop Karadeniz'in tek doğal limanıdır ancak arkasındaki Küre Dağları ulaşımı engellediği için küçük kalmıştır.",
       "harita_il": "sinop",
       "zorluk": "orta"
+    },
+    {
+      "id": "gen-321",
+      "soru": "Karayolu araçlarının (TIR, kamyon) gemilerle taşınmasına dayanan ve Türkiye'nin Avrupa ile ticaretinde çok önemli yer tutan taşımacılık türü hangisidir?",
+      "siklar": ["Konteyner", "Ro-Ro", "Dökme yük", "Kombine"],
+      "dogru": "Ro-Ro",
+      "aciklama": "Ro-Ro (Roll-on/roll-off) taşımacılığı, tekerlekli araçların gemilerle taşınmasıdır. Türkiye'den Avrupa'ya giden TIR'ların çoğu bu yolu kullanır.",
+      "harita_il": null,
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-322",
+      "soru": "Karadeniz sahil yolu üzerinden Gürcistan'a açılan ve Türkiye'nin Kafkasya ticaretinde en işlek olan sınır kapımız hangisidir?",
+      "siklar": ["Gürbulak", "Sarp", "Dereköy", "İpsala"],
+      "dogru": "Sarp",
+      "aciklama": "Sarp Sınır Kapısı (Artvin-Hopa), hem turizm hem de ticaret açısından Doğu Karadeniz'in dünyaya açılan kapısıdır.",
+      "harita_il": "artvin",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-323",
+      "soru": "Bir limanın kara yolu ve demir yolu ile olan bağlantısının gücüne ve ticari etkileşimde olduğu alana ne ad verilir?",
+      "siklar": ["Liman ağzı", "Hinterland (Ard bölge)", "Kıta sahanlığı", "Münhasır ekonomik bölge"],
+      "dogru": "Hinterland (Ard bölge)",
+      "aciklama": "Hinterlandı geniş olan limanlar (İstanbul, Mersin, İzmir) hızla gelişirken, hinterlandı dar olanlar (Sinop) küçük kalır.",
+      "harita_il": null,
+      "zorluk": "orta"
     }
   ]
 }
