@@ -1,0 +1,140 @@
+{
+  "konu": "bolge-jeopolitik",
+  "sorular": [
+    {
+      "id": "gen-446",
+      "soru": "Türkiye'nin Asya, Avrupa ve Afrika kıtalarının birbirine en çok yaklaştığı noktada bulunması, aşağıdaki özelliklerinden hangisini en çok etkilemiştir?",
+      "siklar": ["Yer altı kaynaklarının zenginliğini", "Jeopolitik önemini", "Akarsu rejimlerini", "Toprak türlerini"],
+      "dogru": "Jeopolitik önemini",
+      "aciklama": "Üç kıta arasındaki köprü konumu Türkiye'yi dünya siyasetinde ve ticaretinde kilit bir noktaya taşır.",
+      "harita_il": null,
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-447",
+      "soru": "Karadeniz'e kıyısı olan ülkelerin açık denizlere ulaşmak için İstanbul ve Çanakkale Boğazlarını kullanmak zorunda olması hangi 'Jeopolitik' değerle ilgilidir?",
+      "siklar": ["Matematik Konum", "Stratejik Su Yolları", "Yüzölçümü", "Ortalama Yükselti"],
+      "dogru": "Stratejik Su Yolları",
+      "aciklama": "Boğazlar, Karadeniz ülkeleri için dünyaya açılan tek doğal kapı olması nedeniyle Türkiye'ye büyük bir stratejik koz sağlar.",
+      "harita_il": "istanbul",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-448",
+      "soru": "Hazar havzası ve Ortadoğu petrol ve doğal gazının Avrupa'ya taşınmasında Türkiye'nin oynadığı rol aşağıdakilerden hangisiyle ifade edilir?",
+      "siklar": ["Tarım ambarı", "Enerji koridoru", "Turizm cenneti", "Sanayi üssü"],
+      "dogru": "Enerji koridoru",
+      "aciklama": "TANAP ve TürkAkım gibi projeler Türkiye'yi küresel bir enerji terminali ve dağıtım merkezi haline getirmiştir.",
+      "harita_il": null,
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-449",
+      "soru": "Türkiye'nin NATO üyeliği ve Avrupa Birliği adaylığı gibi uluslararası örgütlerdeki konumu hangi jeopolitik unsurun sonucudur?",
+      "siklar": ["Değişmeyen unsurlar (Konum)", "Değişen unsurlar (Siyasi-Askeri)", "Ekonomik değerler", "Kültürel değerler"],
+      "dogru": "Değişen unsurlar (Siyasi-Askeri)",
+      "aciklama": "Siyasi rejimler, askeri güç ve uluslararası ittifaklar jeopolitiğin 'değişen' ve dinamik unsurlarındandır.",
+      "harita_il": "ankara",
+      "zorluk": "zor"
+    },
+    {
+      "id": "gen-450",
+      "soru": "Aşağıdakilerden hangisi bir 'Beşeri Bölge' sınıflandırmasına girer?",
+      "siklar": ["Dağlık Bölgeler", "Akdeniz İklim Bölgesi", "Organize Sanayi Bölgeleri", "Deprem Bölgeleri"],
+      "dogru": "Organize Sanayi Bölgeleri",
+      "aciklama": "Sanayi, tarım, nüfus ve yerleşme gibi insan eliyle şekillenen bölgelere beşeri bölge denir.",
+      "harita_il": null,
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-451",
+      "soru": "Aşağıdaki bölge türlerinden hangisinin sınırları zamanla diğerlerine göre daha 'Hızlı' değişebilir?",
+      "siklar": ["İklim bölgeleri", "Dağlık bölgeler", "Ekonomik (Turizm/Tarım) bölgeler", "Jeolojik (Deprem) bölgeler"],
+      "dogru": "Ekonomik (Turizm/Tarım) bölgeler",
+      "aciklama": "Beşeri ve ekonomik bölgelerin sınırları (örneğin bir yerin turizm bölgesi ilan edilmesi) doğal bölgelere göre çok daha hızlı değişebilir.",
+      "harita_il": null,
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-452",
+      "soru": "Türkiye'de istatistiki verilerin daha sağlıklı toplanması için oluşturulan İBBS (İstatistiki Bölge Birimleri Sınıflandırması) kaç düzeyden oluşur?",
+      "siklar": ["2", "3", "5", "7"],
+      "dogru": "3",
+      "aciklama": "İBBS; Düzey-1 (12 bölge), Düzey-2 (26 bölge) ve Düzey-3 (81 il) olmak üzere 3 kademeden oluşur.",
+      "harita_il": null,
+      "zorluk": "zor"
+    },
+    {
+      "id": "gen-453",
+      "soru": "Türkiye'nin 'Mavi Vatan' doktrini ile savunmaya ve hak iddia etmeye çalıştığı temel alan hangisidir?",
+      "siklar": ["Hava sahası", "Kıta sahanlığı ve deniz yetki alanları", "Sınır kapıları", "Yüksek platolar"],
+      "dogru": "Kıta sahanlığı ve deniz yetki alanları",
+      "aciklama": "Mavi Vatan, Türkiye'nin denizlerdeki ekonomik ve askeri haklarını kapsayan jeopolitik bir kavramdır.",
+      "harita_il": "antalya",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-454",
+      "soru": "İstanbul'un 'Küresel Şehir' olma yolundaki en büyük avantajı aşağıdakilerden hangisidir?",
+      "siklar": ["Çok yağış alması", "Geniş tarım alanları", "Tarihi mirası, finansal merkezi ve ulaşım ağlarının merkezi olması", "Yeraltı kaynakları"],
+      "dogru": "Tarihi mirası, finansal merkezi ve ulaşım ağlarının merkezi olması",
+      "aciklama": "İstanbul, dünya üzerindeki konumu ve sunduğu imkanlarla küresel bir çekim merkezidir.",
+      "harita_il": "istanbul",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-455",
+      "soru": "Aşağıdaki uluslararası örgütlerden hangisinin merkezi İstanbul'dadır ve Türkiye'nin girişimiyle kurulmuştur?",
+      "siklar": ["NATO", "Birleşmiş Milletler", "Karadeniz Ekonomik İşbirliği (KEİ)", "OPEC"],
+      "dogru": "Karadeniz Ekonomik İşbirliği (KEİ)",
+      "aciklama": "KEİ, 1992'de İstanbul'da kurulan ve bölge ülkeleri arasındaki ticareti hedefleyen bir örgüttür.",
+      "harita_il": "istanbul",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-456",
+      "soru": "Türkiye'nin jeopolitiğinde 'Değişmeyen Unsur' olarak kabul edilen özellik hangisidir?",
+      "siklar": ["Nüfus yapısı", "Askeri güç", "Coğrafi konum (Ada, Yarımada, Kıta konumu)", "Ekonomik gelişmişlik"],
+      "dogru": "Coğrafi konum (Ada, Yarımada, Kıta konumu)",
+      "aciklama": "Bir ülkenin coğrafi konumu, yer şekilleri ve iklimi jeopolitiğin durağan (değişmeyen) unsurlarıdır.",
+      "harita_il": null,
+      "zorluk": "zor"
+    },
+    {
+      "id": "gen-457",
+      "soru": "Sınır komşularımız arasında en eski kara sınırımız (Kasr-ı Şirin) hangi ülke iledir?",
+      "siklar": ["Yunanistan", "Irak", "İran", "Suriye"],
+      "dogru": "İran",
+      "aciklama": "1639 Kasr-ı Şirin Antlaşması ile belirlenen Türkiye-İran sınırı, Türkiye'nin en eski ve en az değişen sınırıdır.",
+      "harita_il": "agri",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-458",
+      "soru": "Aşağıdakilerden hangisi 'Doğal (Fiziki) Bölge' sınıflandırmasına girmez?",
+      "siklar": ["Alp-Himalaya Kıvrım Bölgesi", "Step İklim Bölgesi", "Serbest Ticaret Bölgesi", "Kuzey Anadolu Orman Bölgesi"],
+      "dogru": "Serbest Ticaret Bölgesi",
+      "aciklama": "Serbest ticaret bölgeleri ekonomik amaçlarla insanlar tarafından belirlenmiş 'İşlevsel Bölgeler'dir.",
+      "harita_il": "mersin",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-459",
+      "soru": "Türkiye'nin Türk Cumhuriyetleri (Azerbaycan, Kazakistan vb.) ile olan kültürel ve ekonomik bağları hangi coğrafi kavramla ifade edilir?",
+      "siklar": ["Gönül coğrafyası / Türk Dünyası jeopolitiği", "Avrupa Birliği vizyonu", "Okyanus stratejisi", "Kuzey Kutbu politikası"],
+      "dogru": "Gönül coğrafyası / Türk Dünyası jeopolitiği",
+      "aciklama": "Tarihi ve kültürel bağlar, Türkiye'nin Orta Asya ve Kafkasya politikasındaki temel dayanak noktasıdır.",
+      "harita_il": null,
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-460",
+      "soru": "Kuzey Anadolu Dağları ve Torosların varlığı, Türkiye'nin kuzey-güney ulaşımını zorlaştırarak hangi bölge türünün oluşmasına neden olmuştur?",
+      "siklar": ["Hizmet bölgeleri", "Geçit ve tünel odaklı ulaşım bölgeleri", "Düzlük bölgeler", "Liman bölgeleri"],
+      "dogru": "Geçit ve tünel odaklı ulaşım bölgeleri",
+      "aciklama": "Yer şekillerinin engebeli olması ulaşımı 'geçitlere' bağımlı kılarak özel bir ulaşım coğrafyası oluşturmuştur.",
+      "harita_il": null,
+      "zorluk": "orta"
+    }
+  ]
+}

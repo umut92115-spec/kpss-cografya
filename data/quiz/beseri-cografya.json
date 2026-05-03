@@ -261,7 +261,98 @@
       "aciklama": "Dam yerleşmeleri Ege ve Göller Yöresinde küçükbaş hayvancılık için kullanılan geçici yerleşmelerdir.",
       "harita_il": "mugla",
       "zorluk": "zor"
+    },
+    {
+      "id": "gen-461",
+      "soru": "Türkiye'de nüfusun dağılışını etkileyen 'Fiziki' faktörlerden en önemlisi aşağıdakilerden hangisidir?",
+      "siklar": ["Sanayileşme", "Ulaşım", "Yer şekilleri ve İklim", "Turizm"],
+      "dogru": "Yer şekilleri ve İklim",
+      "aciklama": "Doğal koşullar (dağlık arazi, aşırı soğuk veya kuraklık) nüfusun nerelere yerleşeceğini belirleyen temel unsurlardır.",
+      "harita_il": null,
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-462",
+      "soru": "Aşağıdaki platolarımızdan hangisi nüfus yoğunluğu bakımından diğerlerine göre daha tenhadır?",
+      "siklar": ["Çatalca-Kocaeli Platosu", "Teke ve Taşeli Platoları", "Obruk Platosu", "Haymana Platosu"],
+      "dogru": "Teke ve Taşeli Platoları",
+      "aciklama": "Karstik yapı ve engebeli arazi nedeniyle Teke ve Taşeli yöreleri Akdeniz'in en az nüfuslu yerleridir.",
+      "harita_il": "antalya",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-463",
+      "soru": "Türkiye'de 'Aktif Nüfus' (Çalışan Nüfus) içinde en büyük paya sahip olan ekonomik sektör hangisidir?",
+      "siklar": ["Tarım", "Sanayi", "Hizmet", "İnşaat"],
+      "dogru": "Hizmet",
+      "aciklama": "Gelişmekte olan ülkelerde olduğu gibi Türkiye'de de çalışanların yarısından fazlası hizmet (ticaret, eğitim, sağlık vb.) sektöründedir.",
+      "harita_il": null,
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-464",
+      "soru": "Köy altı yerleşmelerinden olan 'Kom' yerleşmeleri, genellikle hangi bölgemizde hayvancılık amacıyla kurulur?",
+      "siklar": ["Ege", "Marmara", "Doğu Anadolu", "Güneydoğu Anadolu"],
+      "dogru": "Doğu Anadolu",
+      "aciklama": "Komlar, Doğu Anadolu'da ailelerin hayvancılık yapmak için köyden uzakta kurdukları geçici yerleşmelerdir.",
+      "harita_il": "erzurum",
+      "zorluk": "zor"
+    },
+    {
+      "id": "gen-465",
+      "soru": "Aşağıdaki şehirlerden hangisi 'Madencilik' fonksiyonuna bağlı olarak hızla büyümüş ve nüfuslanmıştır?",
+      "siklar": ["Batman", "Antalya", "Kuşadası", "Edirne"],
+      "dogru": "Batman",
+      "aciklama": "Batman, petrolün bulunmasıyla küçük bir köyden büyük bir sanayi ve nüfus merkezine dönüşmüştür.",
+      "harita_il": "batman",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-466",
+      "soru": "Türkiye'de kentsel nüfus oranının en düşük olduğu bölge (kırsal nüfusun oransal olarak en fazla olduğu) hangisidir?",
+      "siklar": ["Marmara", "Ege", "Karadeniz", "Doğu Anadolu"],
+      "dogru": "Karadeniz",
+      "aciklama": "Karadeniz'de yer şekilleri nedeniyle dağınık köy yerleşmeleri yaygın olduğundan kırsal nüfus oranı diğer bölgelere göre daha yüksektir.",
+      "harita_il": null,
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-467",
+      "soru": "Nüfus piramitlerinde 65 yaş ve üzeri grubun payının artması o ülke hakkında neyin göstergesidir?",
+      "siklar": ["Doğum oranlarının çok yüksek olduğunun", "Yaşam standardının ve sağlık hizmetlerinin geliştiğinin", "Bebek ölümlerinin arttığının", "Nüfusun hızla gençleştiğinin"],
+      "dogru": "Yaşam standardının ve sağlık hizmetlerinin geliştiğinin",
+      "aciklama": "Yaşlı nüfusun artması, ortalama ömrün uzadığını ve ülkenin gelişmişlik seviyesinin yükseldiğini gösterir.",
+      "harita_il": null,
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-468",
+      "soru": "Türkiye'de iç göçlerin yönü genellikle nereden nereye doğrudur?",
+      "siklar": ["Batıdan Doğuya", "Büyük şehirlerden köylere", "Doğu ve İç bölgelerden Batıdaki sanayileşmiş şehirlere", "Güneyden Kuzeye"],
+      "dogru": "Doğu ve İç bölgelerden Batıdaki sanayileşmiş şehirlere",
+      "aciklama": "Ekonomik imkanların (iş sahası) fazlalığı göçün temel belirleyicisidir.",
+      "harita_il": null,
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-469",
+      "soru": "Aşağıdaki illerden hangisi, yaz mevsiminde turizm ve tarım nedeniyle nüfusu en çok katlanan illerimizdendir?",
+      "siklar": ["Muğla", "Sivas", "Kırşehir", "Gümüşhane"],
+      "dogru": "Muğla",
+      "aciklama": "Muğla (Bodrum, Marmaris vb.) yaz aylarında turizm etkisiyle yerleşik nüfusunun kat kat üzerine çıkar.",
+      "harita_il": "mugla",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-470",
+      "soru": "Kıyı kesimlerde nemli iklim bölgelerinde ev yapımında ahşap malzemenin yaygın olmasının nedeni nedir?",
+      "siklar": ["Ahşabın daha ucuz olması", "Doğal çevrede orman varlığının bol olması", "Ahşabın sıcağa karşı koruması", "Taş ve kerpiç kullanımının yasak olması"],
+      "dogru": "Doğal çevrede orman varlığının bol olması",
+      "aciklama": "Geleneksel kırsal mimaride yapı malzemesini doğrudan iklim ve bitki örtüsü belirler.",
+      "harita_il": "rize",
+      "zorluk": "kolay"
     }
   ]
 }
+
 

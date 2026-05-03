@@ -63,6 +63,142 @@
       "aciklama": "Yaz kuraklığı ve yüksek sıcaklık orman yangınlarını tetikler.",
       "harita_il": "antalya",
       "zorluk": "kolay"
+    },
+    {
+      "id": "gen-401",
+      "soru": "Batı Karadeniz'in yüksek kesimlerinde, iğne yapraklı ormanlar altında görülen soğuk ve nemli bölge toprağı hangisidir?",
+      "siklar": ["Terra Rossa", "Podzol", "Çernozyom", "Laterit"],
+      "dogru": "Podzol",
+      "aciklama": "Podzol topraklar soğuk ve nemli bölgelerin, özellikle Batı Karadeniz'deki iğne yapraklı ormanların altındaki toprağıdır.",
+      "harita_il": "zonguldak",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-402",
+      "soru": "Volkanik tüfler üzerinde oluşan, kumlu ve su geçirgenliği yüksek olan 'Regosol' topraklar aşağıdaki hangi ilimizde yaygın görülür?",
+      "siklar": ["Nevşehir", "Rize", "Edirne", "Muğla"],
+      "dogru": "Nevşehir",
+      "aciklama": "Nevşehir çevresindeki volkanik kumlu depolar üzerinde Regosol topraklar gelişmiştir. Bağcılık ve patates tarımı için uygundur.",
+      "harita_il": "nevsehir",
+      "zorluk": "zor"
+    },
+    {
+      "id": "gen-403",
+      "soru": "Doğu Karadeniz'de aşırı yağışlar nedeniyle yıkanmış, kireç ve mineral bakımından fakirleşmiş 'Lateritleşmiş' topraklar en çok hangi ürünün tarımına uygundur?",
+      "siklar": ["Buğday", "Çay", "Pamuk", "Mercimek"],
+      "dogru": "Çay",
+      "aciklama": "Çay bitkisi bol yağış ve asitli (yıkanmış) toprakları sever. Rize çevresindeki topraklar bu karakterdedir.",
+      "harita_il": "rize",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-404",
+      "soru": "Türkiye'de 'Heyelan' (Kütle Hareketleri) olaylarının %65'inden fazlasının Karadeniz Bölgesi'nde görülmesinin temel nedeni nedir?",
+      "siklar": ["Nüfus yoğunluğu", "Bol yağış, eğimli arazi ve killi yapı", "Sıcaklık farkı", "Rüzgar erozyonu"],
+      "dogru": "Bol yağış, eğimli arazi ve killi yapı",
+      "aciklama": "Eğimin fazla olması, killi tabakanın suyu emince kayganlaşması ve bol yağış heyelanları tetikler.",
+      "harita_il": "trabzon",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-405",
+      "soru": "Kış aylarında kar yağışının ve eğimin fazla olduğu yerlerde görülen 'Çığ' riski, aşağıdaki illerden hangisinde en yüksektir?",
+      "siklar": ["Hakkari", "Konya", "İzmir", "Şanlıurfa"],
+      "dogru": "Hakkari",
+      "aciklama": "Hakkari, Van ve Bitlis gibi yüksek ve çok engebeli illerimizde çığ felaketi riski oldukça fazladır.",
+      "harita_il": "hakkari",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-406",
+      "soru": "Tuz Gölü ve çevresinde, buharlaşmanın fazla olması nedeniyle toprak yüzeyinde tuz birikmesiyle oluşan toprak türü hangisidir?",
+      "siklar": ["Halomorfik", "Hidromorfik", "Kalsimorfik", "Regosol"],
+      "dogru": "Halomorfik",
+      "aciklama": "Tuzlu topraklar (Halomorfik), kapalı havzalarda ve kurak bölgelerde tuzun yüzeyde kristalleşmesiyle oluşur.",
+      "harita_il": "aksaray",
+      "zorluk": "zor"
+    },
+    {
+      "id": "gen-407",
+      "soru": "Aşağıdakilerden hangisi erozyonla mücadelede alınabilecek bir önlem değildir?",
+      "siklar": ["Eğime dik sürme", "Teraslama yapmak", "Anız yakmak", "Bitki örtüsünü korumak"],
+      "dogru": "Anız yakmak",
+      "aciklama": "Anız yakmak toprağın üst tabakasındaki canlıları öldürür ve toprağı korumasız bırakarak erozyonu hızlandırır.",
+      "harita_il": null,
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-408",
+      "soru": "Geniş yapraklı ormanlar altında oluşan, humus bakımından zengin ve Karadeniz kıyı kuşağında yaygın olan toprak türü hangisidir?",
+      "siklar": ["Kahverengi orman toprağı", "Podzol", "Terra Rossa", "Bozkır toprağı"],
+      "dogru": "Kahverengi orman toprağı",
+      "aciklama": "Karadeniz'in nemli ve ılıman ikliminde geniş yapraklı ormanlar altında verimli kahverengi orman toprakları gelişir.",
+      "harita_il": "ordu",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-409",
+      "soru": "Türkiye'nin iç kesimlerinde (İç Anadolu, Doğu Anadolu'nun alçak yerleri) yaygın olan ve tahıl tarımına uygun olan toprak hangisidir?",
+      "siklar": ["Kahverengi bozkır toprağı", "Çernozyom", "Laterit", "Alüvyal"],
+      "dogru": "Kahverengi bozkır toprağı",
+      "aciklama": "Yarı kurak bölgelerin bitki örtüsü olan bozkır (step) altında kahverengi veya kestane renkli bozkır toprakları oluşur.",
+      "harita_il": "konya",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-410",
+      "soru": "Delta ovalarında (Çukurova, Bafra, Çarşamba) görülen ve akarsu biriktirmesiyle oluşan çok verimli topraklar hangi gruptadır?",
+      "siklar": ["Azonal", "Zonal", "İntrazonal", "Masif"],
+      "dogru": "Azonal",
+      "aciklama": "Taşınmış topraklar (Azonal), horizonları gelişmemiş ancak mineral bakımından zengin topraklardır.",
+      "harita_il": "adana",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-411",
+      "soru": "Aşağıdaki illerden hangisinde 'Orman Alanlarının Oranı' en yüksektir?",
+      "siklar": ["Karabük", "Şanlıurfa", "Iğdır", "Nevşehir"],
+      "dogru": "Karabük",
+      "aciklama": "Türkiye'de orman oranı bakımından %70'e yaklaşan değeriyle Karabük ilk sıralarda yer alır.",
+      "harita_il": "karabuk",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-412",
+      "soru": "Deprem sonrası oluşan toprak kaymaları veya fay hatları üzerindeki göl oluşumları hangi 'Afet' türüne girer?",
+      "siklar": ["Jeolojik Afet", "Meteorolojik Afet", "Klimatolojik Afet", "Hidrolojik Afet"],
+      "dogru": "Jeolojik Afet",
+      "aciklama": "Kaynağını yer kabuğundan veya derinlerinden alan afetlere (deprem, volkanizma) jeolojik afet denir.",
+      "harita_il": null,
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-413",
+      "soru": "Toprağın su altında kalarak bataklıklaştığı veya drenajın bozuk olduğu alanlarda görülen toprak tipi hangisidir?",
+      "siklar": ["Hidromorfik", "Halomorfik", "Kalsimorfik", "Vertisol"],
+      "dogru": "Hidromorfik",
+      "aciklama": "Sulu/Bataklık topraklar (Hidromorfik), taban suyu seviyesinin yüksek olduğu yerlerde görülür.",
+      "harita_il": null,
+      "zorluk": "zor"
+    },
+    {
+      "id": "gen-414",
+      "soru": "Türkiye'de 'Rüzgar Erozyonu'nun en etkili olduğu yer aşağıdakilerden hangisidir?",
+      "siklar": ["Konya - Karapınar çevresi", "Rize kıyıları", "Yıldız Dağları", "Menteşe Yöresi"],
+      "dogru": "Konya - Karapınar çevresi",
+      "aciklama": "Bitki örtüsünün yokluğu ve düz arazi yapısı nedeniyle Karapınar Türkiye'de rüzgar erozyonunun merkezidir.",
+      "harita_il": "konya",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-415",
+      "soru": "Kalkersiz kum taşları üzerinde oluşan ve drenajı çok iyi olan topraklar aşağıdaki hangi meyvenin tarımı için çok uygundur?",
+      "siklar": ["Patates ve Yumru bitkiler", "Çay", "Muz", "Fındık"],
+      "dogru": "Patates ve Yumru bitkiler",
+      "aciklama": "Gevşek yapılı, kumlu topraklar patates gibi toprak altında büyüyen ürünler için idealdir (Niğde, Nevşehir).",
+      "harita_il": "nigde",
+      "zorluk": "orta"
     }
   ]
 }
+

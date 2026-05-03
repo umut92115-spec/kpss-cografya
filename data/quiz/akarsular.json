@@ -153,7 +153,98 @@
       "aciklama": "Ilısu Barajı Dicle Nehri üzerindeki en büyük baraj projelerinden biridir.",
       "harita_il": "batman",
       "zorluk": "orta"
+    },
+    {
+      "id": "gen-471",
+      "soru": "Akarsuların biriktirme yapabilmesi için gerekli olan temel şart aşağıdakilerden hangisidir?",
+      "siklar": ["Debinin artması", "Yatak eğiminin ve akış hızının azalması", "Akarsu boyunun uzaması", "Kirliliğin artması"],
+      "dogru": "Yatak eğiminin ve akış hızının azalması",
+      "aciklama": "Hızı azalan akarsu taşıdığı yükü taşıyamaz hale gelir ve çökelme başlar.",
+      "harita_il": null,
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-472",
+      "soru": "Antalya'da yer alan Düden, Kurşunlu ve Manavgat şelalelerinin oluşmasında hangi jeolojik özellik etkilidir?",
+      "siklar": ["Volkanik arazi", "Karstik arazi yapısı ve fay hatları", "Buzul aşındırması", "Rüzgar biriktirmesi"],
+      "dogru": "Karstik arazi yapısı ve fay hatları",
+      "aciklama": "Karstik arazilerdeki kırılmalar ve tabaka farkları bu muhteşem şelalelerin oluşumuna zemin hazırlamıştır.",
+      "harita_il": "antalya",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-473",
+      "soru": "Türkiye'de akarsuların yataklarını derine doğru kazmalarının ve dar-derin vadiler oluşturmalarının nedeni nedir?",
+      "siklar": ["Türkiye'nin genç ve yüksek bir ülke olması", "Yağışın çok olması", "Akarsuların boyunun kısa olması", "Tebirlerin düşük olması"],
+      "dogru": "Türkiye'nin genç ve yüksek bir ülke olması",
+      "aciklama": "Toptan yükselme (epirojenez) sonucu akarsular deniz seviyesine ulaşmak için yataklarını hızla kazarlar.",
+      "harita_il": null,
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-474",
+      "soru": "Susurluk Çayı'nın sularını boşalttığı deniz aşağıdakilerden hangisidir?",
+      "siklar": ["Karadeniz", "Marmara Denizi", "Ege Denizi", "Akdeniz"],
+      "dogru": "Marmara Denizi",
+      "aciklama": "Güney Marmara'nın en önemli akarsuyu olan Susurluk, sularını Marmara Denizi'ne boşaltır.",
+      "harita_il": "balikesir",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-475",
+      "soru": "Fırat Nehri'nin en büyük kolu olan ve üzerinde Keban Barajı'nın bulunduğu akarsu hangisidir?",
+      "siklar": ["Murat Nehri", "Karasu", "Zapsuyu", "Botan Çayı"],
+      "dogru": "Murat Nehri",
+      "aciklama": "Murat Nehri, Fırat sisteminin ana kollarından biri olup Doğu Anadolu'da geniş bir havzayı sular.",
+      "harita_il": "elazig",
+      "zorluk": "zor"
+    },
+    {
+      "id": "gen-476",
+      "soru": "Bir akarsuyun yıl içindeki akım değişimine ne ad verilir?",
+      "siklar": ["Debi", "Rejim", "Havza", "Drenaj"],
+      "dogru": "Rejim",
+      "aciklama": "Akarsu akımının mevsimlere göre dağılımı rejimdir. Türkiye'de Karadeniz hariç rejimler genelde düzensizdir.",
+      "harita_il": null,
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-477",
+      "soru": "Akarsu havzalarını birbirinden ayıran dağların doruk noktalarından geçen çizgiye ne denir?",
+      "siklar": ["Sınır çizgisi", "Su bölümü çizgisi", "Talveg çizgisi", "Kıyı çizgisi"],
+      "dogru": "Su bölümü çizgisi",
+      "aciklama": "Dağların zirveleri suların farklı havzalara dağılmasına neden olur.",
+      "harita_il": null,
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-478",
+      "soru": "İç Anadolu'nun en önemli akarsuyu olan ve üzerinde Hirfanlı Barajı bulunan nehir hangisidir?",
+      "siklar": ["Sakarya", "Kızılırmak", "Yeşilırmak", "Fırat"],
+      "dogru": "Kızılırmak",
+      "aciklama": "Kızılırmak, İç Anadolu'da dev bir yay çizerek bölge tarımına ve enerjisine hayat verir.",
+      "harita_il": "kirsehir",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-479",
+      "soru": "Aşağıdaki akarsulardan hangisi 'Karma Rejimli' (farklı iklim bölgelerinden geçtiği için) bir özelliğe sahiptir?",
+      "siklar": ["Fırat", "Kısa boylu Karadeniz dereleri", "Batı Anadolu nehirleri", "Küçük Menderes"],
+      "dogru": "Fırat",
+      "aciklama": "Fırat ve Dicle gibi uzun boylu nehirler farklı iklimlerden geçtikleri için birden fazla kaynaktan beslenir ve karma rejim gösterirler.",
+      "harita_il": null,
+      "zorluk": "zor"
+    },
+    {
+      "id": "gen-480",
+      "soru": "Gediz ve Küçük Menderes nehirlerinin oluşturduğu deltalar hangi denizde yer alır?",
+      "siklar": ["Marmara", "Karadeniz", "Ege", "Akdeniz"],
+      "dogru": "Ege",
+      "aciklama": "Ege kıyılarında akarsu biriktirmesiyle Menemen ve Selçuk deltaları gibi verimli alanlar oluşmuştur.",
+      "harita_il": "izmir",
+      "zorluk": "kolay"
     }
   ]
 }
+
 

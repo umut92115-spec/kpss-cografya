@@ -36,6 +36,142 @@
       "aciklama": "Enerji ithalatı Türkiye'nin en büyük ithalat kalemidir.",
       "harita_il": null,
       "zorluk": "kolay"
+    },
+    {
+      "id": "gen-416",
+      "soru": "Türkiye'nin dış ticaretinde, ihracatında (satışında) en büyük paya sahip olan sektör hangisidir?",
+      "siklar": ["Tarım", "Hayvancılık", "Sanayi", "Madencilik"],
+      "dogru": "Sanayi",
+      "aciklama": "Türkiye'nin ihracat gelirlerinin %90'ından fazlası sanayi mamullerinden (otomotiv, tekstil, beyaz eşya vb.) gelir.",
+      "harita_il": null,
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-417",
+      "soru": "Türkiye'nin en çok ihracat yaptığı (ürün sattığı) ülke aşağıdakilerden hangisidir?",
+      "siklar": ["Almanya", "Rusya", "Çin", "ABD"],
+      "dogru": "Almanya",
+      "aciklama": "Almanya, uzun yıllardır Türkiye'nin en önemli ticaret ortağı ve bir numaralı ihracat pazarıdır.",
+      "harita_il": null,
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-418",
+      "soru": "Türkiye'nin dış ticaret hacminin (ithalat + ihracat) en yüksek olduğu ilimiz hangisidir?",
+      "siklar": ["Ankara", "İzmir", "İstanbul", "Kocaeli"],
+      "dogru": "İstanbul",
+      "aciklama": "İstanbul, Türkiye'nin finans, ticaret ve sanayi kalbi olup dış ticaretin yarıya yakınını tek başına gerçekleştirir.",
+      "harita_il": "istanbul",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-419",
+      "soru": "Aşağıdaki ürünlerden hangisi Türkiye'nin dış satımında (ihracatında) geleneksel tarım ürünleri arasında yer almaz?",
+      "siklar": ["Fındık", "Üzüm", "İncir", "Kahve"],
+      "dogru": "Kahve",
+      "aciklama": "Kahve Türkiye'de yetiştirilmez, tamamen ithal edilen bir üründür. Fındık, kuru üzüm ve incirde ise dünya lideriyiz.",
+      "harita_il": null,
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-420",
+      "soru": "Gümrük mevzuatı uygulanmayan, ticari faaliyetlerin teşviki için kurulan 'Serbest Ticaret Bölgeleri'nden ilki hangisidir?",
+      "siklar": ["İstanbul", "İzmir", "Mersin", "Antalya"],
+      "dogru": "Mersin",
+      "aciklama": "Türkiye'nin ilk serbest bölgesi 1985 yılında Mersin'de kurulmuştur.",
+      "harita_il": "mersin",
+      "zorluk": "zor"
+    },
+    {
+      "id": "gen-421",
+      "soru": "Türkiye'nin en büyük ithalat (alım) kalemi olan 'Enerji' ihtiyacını karşılamak için en çok hangi ülkeye bağımlıdır?",
+      "siklar": ["Almanya", "Rusya", "İngiltere", "Fransa"],
+      "dogru": "Rusya",
+      "aciklama": "Doğal gaz ve petrol ithalatında Rusya, Türkiye'nin en büyük tedarikçilerinden biridir.",
+      "harita_il": null,
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-422",
+      "soru": "Dış ticaret açığını kapatmakta en önemli rolü üstlenen ve 'Görünmeyen İhracat' olarak adlandırılan sektör hangisidir?",
+      "siklar": ["Turizm", "Ulaşım", "Bankacılık", "Eğitim"],
+      "dogru": "Turizm",
+      "aciklama": "Turizm gelirleri, dış ticaret açığının finansmanında ve döviz girdisi sağlamada hayati öneme sahiptir.",
+      "harita_il": null,
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-423",
+      "soru": "Aşağıdaki sanayi kollarından hangisinde Türkiye'nin dünya pazarlarındaki rekabet gücü ve ihracat payı en yüksektir?",
+      "siklar": ["Otomotiv", "Elektronik", "İlaç", "Havacılık"],
+      "dogru": "Otomotiv",
+      "aciklama": "Otomotiv sektörü, Türkiye'nin ihracat şampiyonu olan ve en çok döviz getiren lokomotif sektörüdür.",
+      "harita_il": "bursa",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-424",
+      "soru": "İç ticaretin Türkiye'de çok canlı olmasının 'Temel' nedeni aşağıdakilerden hangisidir?",
+      "siklar": ["Nüfusun her yerde fazla olması", "Ulaşımın çok gelişmiş olması", "Bölgeler arası üretim ve ürün çeşitliliği farkı", "Reklamcılık faaliyetleri"],
+      "dogru": "Bölgeler arası üretim ve ürün çeşitliliği farkı",
+      "aciklama": "Her bölgenin farklı iklim ve yer şekillerine bağlı olarak farklı ürünler (çay, pamuk, buğday vb.) üretmesi iç ticareti zorunlu kılar.",
+      "harita_il": null,
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-425",
+      "soru": "Türkiye'nin ihraç ettiği (sattığı) madenler içinde miktar ve gelir bakımından ilk sırada hangisi yer alır?",
+      "siklar": ["Bor", "Mermer ve Doğal Taşlar", "Krom", "Bakır"],
+      "dogru": "Mermer ve Doğal Taşlar",
+      "aciklama": "Maden ihracat gelirlerimizin yaklaşık yarısını işlenmiş ve blok mermer-doğal taş satışları oluşturur.",
+      "harita_il": "afyonkarahisar",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-426",
+      "soru": "Aşağıdaki limanlardan hangisi 'Hinterlandı' (Art Bölgesi) dar olduğu için ticari gelişimi diğerlerine göre daha yavaştır?",
+      "siklar": ["Mersin", "İzmir", "Samsun", "Sinop"],
+      "dogru": "Sinop",
+      "aciklama": "Sinop limanı doğal bir liman olmasına rağmen, Küre Dağları'nın ulaşımı engellemesi (dar hinterland) nedeniyle ticari olarak gelişememiştir.",
+      "harita_il": "sinop",
+      "zorluk": "zor"
+    },
+    {
+      "id": "gen-427",
+      "soru": "Dış alım (ithalat) giderlerinin, dış satım (ihracat) gelirlerinden fazla olması durumuna ne denir?",
+      "siklar": ["Dış ticaret fazlası", "Dış ticaret açığı", "Dış ticaret dengesi", "Cari fazla"],
+      "dogru": "Dış ticaret açığı",
+      "aciklama": "Türkiye, enerji ve ara malı ithalatı nedeniyle genellikle dış ticaret açığı veren bir ülkedir.",
+      "harita_il": null,
+      "zorluk": "kolay"
+    },
+    {
+      "id": "gen-428",
+      "soru": "Transit ticaretin gelişmesinde Türkiye'nin hangi özelliği en etkilidir?",
+      "siklar": ["Yüzölçümünün büyük olması", "Nüfusunun genç olması", "Kıtalar arası köprü konumundaki jeopolitik yeri", "Yeraltı kaynaklarının zenginliği"],
+      "dogru": "Kıtalar arası köprü konumundaki jeopolitik yeri",
+      "aciklama": "Asya ve Avrupa arasındaki stratejik konum, Türkiye'yi transit taşımacılık ve ticaret için vazgeçilmez kılar.",
+      "harita_il": null,
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-429",
+      "soru": "Aşağıdakilerden hangisi Türkiye'nin 'İthal' ettiği ürünlerden biri değildir?",
+      "siklar": ["Optik aletler", "Eczacılık ürünleri", "Bor minerali", "Tropikal meyveler"],
+      "dogru": "Bor minerali",
+      "aciklama": "Bor, Türkiye'nin dünya rezervlerinin %70'inden fazlasına sahip olduğu ve dünyaya ihraç ettiği stratejik bir madendir.",
+      "harita_il": "balikesir",
+      "zorluk": "orta"
+    },
+    {
+      "id": "gen-430",
+      "soru": "Ege Bölgesi'nin en önemli ticaret limanı olan ve ihraç ürünlerimizin (üzüm, incir, pamuk) çıkış noktası olan liman hangisidir?",
+      "siklar": ["İzmir Limanı", "Antalya Limanı", "Bandırma Limanı", "Bodrum Limanı"],
+      "dogru": "İzmir Limanı",
+      "aciklama": "İzmir Limanı, geniş hinterlandı ve köklü ticaret geçmişiyle Türkiye'nin en büyük ihracat limanlarından biridir.",
+      "harita_il": "izmir",
+      "zorluk": "kolay"
     }
   ]
 }
+

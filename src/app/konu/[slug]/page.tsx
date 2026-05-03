@@ -108,12 +108,12 @@ export async function generateMetadata({ params }: { params: { slug: string } })
       siteName: 'kpsscografya.com.tr',
       locale: 'tr_TR',
       type: 'article',
-      images: ['/og-default.jpg'],
+      images: [`/images/konu/${params.slug}.png`],
     },
     twitter: {
       card: 'summary_large_image',
       title: mdx?.frontmatter?.title || `${konu.baslik} — KPSS Coğrafya`,
-      images: ['/og-default.jpg'],
+      images: [`/images/konu/${params.slug}.png`],
     },
   };
 }
