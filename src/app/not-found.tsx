@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Sayfa Bulunamadı — 404 | kpsscografya.com',
+  title: 'Sayfa Bulunamadı — 404 | kpsscografya.com.tr',
   robots: { index: false, follow: false },
 };
 

@@ -97,13 +97,13 @@ export async function generateMetadata({ params }: { params: { slug: string } })
     description: mdx?.frontmatter?.description || konu.aciklama,
     keywords: mdx?.frontmatter?.keywords || [],
     alternates: {
-      canonical: `https://kpsscografya.com/konu/${konu.slug}`,
+      canonical: `https://kpsscografya.com.tr/konu/${konu.slug}`,
     },
     openGraph: {
       title: mdx?.frontmatter?.title || `${konu.baslik} — KPSS Coğrafya`,
       description: mdx?.frontmatter?.description || konu.aciklama,
-      url: `https://kpsscografya.com/konu/${konu.slug}`,
-      siteName: 'kpsscografya.com',
+      url: `https://kpsscografya.com.tr/konu/${konu.slug}`,
+      siteName: 'kpsscografya.com.tr',
       locale: 'tr_TR',
       type: 'article',
       images: ['/og-default.jpg'],
@@ -139,8 +139,8 @@ export default async function KonuPage({ params }: { params: { slug: string } })
           isAccessibleForFree: true,
           provider: {
             "@type": "EducationalOrganization",
-            name: "kpsscografya.com",
-            url: "https://kpsscografya.com"
+            name: "kpsscografya.com.tr",
+            url: "https://kpsscografya.com.tr"
           }
         }}
       />
@@ -148,9 +148,9 @@ export default async function KonuPage({ params }: { params: { slug: string } })
         tip="BreadcrumbList"
         veri={{
           itemListElement: [
-            { "@type": "ListItem", position: 1, name: "Ana Sayfa", item: "https://kpsscografya.com" },
-            { "@type": "ListItem", position: 2, name: "Konular", item: "https://kpsscografya.com/konu" },
-            { "@type": "ListItem", position: 3, name: konu.baslik, item: `https://kpsscografya.com/konu/${konu.slug}` },
+            { "@type": "ListItem", position: 1, name: "Ana Sayfa", item: "https://kpsscografya.com.tr" },
+            { "@type": "ListItem", position: 2, name: "Konular", item: "https://kpsscografya.com.tr/konu" },
+            { "@type": "ListItem", position: 3, name: konu.baslik, item: `https://kpsscografya.com.tr/konu/${konu.slug}` },
           ]
         }}
       />

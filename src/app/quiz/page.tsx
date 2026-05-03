@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'KPSS Coğrafya Quiz Modu — 2000+ Soru & Güncel Deneme Sınavları',
   description: 'KPSS coğrafya konularına göre hazırlanmış interaktif testler. Çıkmış sorular, süreli sınavlar, doğru-yanlış analizleri ve skor tablosu. Hemen kendini test et!',
   alternates: {
-    canonical: 'https://kpsscografya.com/quiz',
+    canonical: 'https://kpsscografya.com.tr/quiz',
   },
 };
 

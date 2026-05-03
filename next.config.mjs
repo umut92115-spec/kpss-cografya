@@ -12,10 +12,10 @@ const nextConfig = {
         has: [
           {
             type: 'host',
-            value: 'www.kpsscografya.com',
+            value: 'www.kpsscografya.com.tr.tr',
           },
         ],
-        destination: 'https://kpsscografya.com/:path*',
+        destination: 'https://kpsscografya.com.tr.tr/:path*',
         permanent: true,
       },
     ];

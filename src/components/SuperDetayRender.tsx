@@ -97,7 +97,7 @@ export default function SuperDetayRender({ data, ilAd, konuBaslik }: SuperDetayR
 
       {/* Footer Info */}
       <div className="flex justify-between items-center text-xs text-gray-400 pt-4 border-t border-gray-100">
-        <span>© kpsscografya.com — Tüm Hakları Saklıdır.</span>
+        <span>© kpsscografya.com.tr — Tüm Hakları Saklıdır.</span>
         <span>Son Güncelleme: {data.last_updated} | 2026 KPSS Müfredatı</span>
       </div>
     </article>

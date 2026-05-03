@@ -33,16 +33,16 @@ export async function generateMetadata({
   const shortDescription = `${il.ad} KPSS Coğrafya Özeti: ${ilOzet?.[0] || ''} ${tarimVerisi.slice(0, 100)}... ${madenVerisi.slice(0, 80)}...`;
 
   return {
-    title: `${il.ad} KPSS Coğrafya — Madenler, Tarım, İklim | kpsscografya.com`,
+    title: `${il.ad} KPSS Coğrafya — Madenler, Tarım, İklim | kpsscografya.com.tr`,
     description: shortDescription,
     alternates: {
-      canonical: `https://kpsscografya.com/${params.bolge}/il/${il.slug}`,
+      canonical: `https://kpsscografya.com.tr/${params.bolge}/il/${il.slug}`,
     },
     openGraph: {
       title: `${il.ad} — KPSS Coğrafya`,
       description: `${il.ad} ili KPSS coğrafya özeti ve tarım-maden bilgileri.`,
-      url: `https://kpsscografya.com/${params.bolge}/il/${il.slug}`,
-      siteName: 'kpsscografya.com',
+      url: `https://kpsscografya.com.tr/${params.bolge}/il/${il.slug}`,
+      siteName: 'kpsscografya.com.tr',
       locale: 'tr_TR',
       type: 'website',
       images: ['/og-default.jpg'],
@@ -102,9 +102,9 @@ export default function IlPage({ params }: { params: { bolge: string; slug: stri
         tip="BreadcrumbList"
         veri={{
           itemListElement: [
-            { "@type": "ListItem", position: 1, name: "Ana Sayfa", item: "https://kpsscografya.com" },
-            { "@type": "ListItem", position: 2, name: il.bolge, item: `https://kpsscografya.com/${params.bolge}` },
-            { "@type": "ListItem", position: 3, name: il.ad, item: `https://kpsscografya.com/${params.bolge}/il/${il.slug}` },
+            { "@type": "ListItem", position: 1, name: "Ana Sayfa", item: "https://kpsscografya.com.tr" },
+            { "@type": "ListItem", position: 2, name: il.bolge, item: `https://kpsscografya.com.tr/${params.bolge}` },
+            { "@type": "ListItem", position: 3, name: il.ad, item: `https://kpsscografya.com.tr/${params.bolge}/il/${il.slug}` },
           ]
         }}
       />

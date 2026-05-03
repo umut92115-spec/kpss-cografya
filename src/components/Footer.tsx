@@ -92,7 +92,7 @@ export default function Footer() {
 
         {/* ─── Alt Bar ─── */}
         <div className="mt-12 pt-6 border-t border-white/10 flex flex-col sm:flex-row justify-between items-center gap-3 text-xs text-gray-600">
-          <span>© 2025 kpsscografya.com — Tüm hakları saklıdır.</span>
+          <span>© 2025 kpsscografya.com.tr — Tüm hakları saklıdır.</span>
           <span>KPSS Genel Kültür · Coğrafya · Türkiye</span>
         </div>
       </div>

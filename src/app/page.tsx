@@ -4,14 +4,14 @@ import { getAllKonular } from '@/lib/getKonuData';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'KPSS Coğrafya — Harita Üzerinden Öğren | kpsscografya.com',
+  title: 'KPSS Coğrafya — Harita Üzerinden Öğren | kpsscografya.com.tr',
   description: 'KPSS coğrafya sınavına harita ile hazırlan. 10 konu, 81 il, interaktif harita ve quiz modu. Madenler, tarım, iklim, ulaşım ve daha fazlası.',
-  alternates: { canonical: 'https://kpsscografya.com' },
+  alternates: { canonical: 'https://kpsscografya.com.tr' },
   openGraph: {
     title: 'KPSS Coğrafya — Harita Üzerinden Öğren',
     description: 'KPSS coğrafya sınavına harita ile hazırlan. 10 konu, 81 il, interaktif harita ve quiz modu.',
-    url: 'https://kpsscografya.com',
-    siteName: 'kpsscografya.com',
+    url: 'https://kpsscografya.com.tr',
+    siteName: 'kpsscografya.com.tr',
     locale: 'tr_TR',
     type: 'website',
   },
@@ -60,8 +60,8 @@ export default function Home() {
         tip="EducationalOrganization"
         veri={{
           name: 'KPSS Coğrafya',
-          alternateName: 'kpsscografya.com',
-          url: 'https://kpsscografya.com',
+          alternateName: 'kpsscografya.com.tr',
+          url: 'https://kpsscografya.com.tr',
           description: 'KPSS coğrafya sınavına hazırlanan adaylar için interaktif harita ve wiki platformu.',
           inLanguage: 'tr',
           areaServed: { '@type': 'Country', name: 'Türkiye' },

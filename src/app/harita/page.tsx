@@ -6,13 +6,13 @@ export const metadata: Metadata = {
   title: '10 İnteraktif KPSS Coğrafya Haritası — Madenler, Tarım, Sanayi, Turizm',
   description: 'Türkiye coğrafyasını harita üzerinde keşfet. Madenler, tarım ürünleri, sanayi tesisleri ve ulaşım ağları için interaktif KPSS görselleştirme araçları.',
   alternates: {
-    canonical: 'https://kpsscografya.com/harita',
+    canonical: 'https://kpsscografya.com.tr/harita',
   },
   openGraph: {
     title: '10 İnteraktif KPSS Coğrafya Haritası — Madenler, Tarım, Sanayi, Turizm',
     description: 'Türkiye coğrafyasını harita üzerinde keşfet. Madenler, tarım ürünleri, sanayi tesisleri ve ulaşım ağları için interaktif KPSS görselleştirme araçları.',
-    url: 'https://kpsscografya.com/harita',
-    siteName: 'kpsscografya.com',
+    url: 'https://kpsscografya.com.tr/harita',
+    siteName: 'kpsscografya.com.tr',
     locale: 'tr_TR',
     type: 'website',
     images: ['/og-default.jpg'],

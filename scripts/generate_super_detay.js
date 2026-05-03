@@ -7,7 +7,7 @@ const matrisDir = path.join(dataDir, 'matris');
 const additionalData = {
   "bursa": {
     "tarim": {
-      title: "Bursa Tarım ve Hayvancılık — KPSS Coğrafya | kpsscografya.com",
+      title: "Bursa Tarım ve Hayvancılık — KPSS Coğrafya | kpsscografya.com.tr",
       meta: "Bursa'da şeftali, zeytin ve ipekböcekçiliği başta olmak üzere tarım faaliyetleri. KPSS için Bursa tarım özeti.",
       h1: "Bilecik'te Hangi Tarım Ürünleri Yetişir? — KPSS Özet",
       snippet: "Bursa, verimli ovaları ve elverişli iklimiyle Türkiye'nin en önemli tarım merkezlerinden biridir. Şeftali üretiminde Türkiye lideri olan il, aynı zamanda Gemlik tipi sofralık zeytin üretiminde de dünya çapında bir markadır. İpekböcekçiliği ve dondurulmuş gıda sanayisi ile tarım-sanayi entegrasyonu en yüksek illerimizden biridir.",
@@ -31,7 +31,7 @@ const additionalData = {
   },
   "istanbul": {
     "sanayi": {
-      title: "İstanbul Sanayi Faaliyetleri — KPSS Coğrafya | kpsscografya.com",
+      title: "İstanbul Sanayi Faaliyetleri — KPSS Coğrafya | kpsscografya.com.tr",
       meta: "İstanbul'un sanayi kapasitesi, OSB'ler ve üretim kolları. KPSS için İstanbul sanayi özeti.",
       h1: "İstanbul'da Sanayi Hangi Kollarda Gelişmiştir?",
       snippet: "İstanbul, Türkiye'nin sanayi üretiminin yaklaşık üçte birini tek başına gerçekleştiren devasa bir üretim merkezidir. Otomotivden tekstile, kimyadan gıdaya kadar hemen hemen her sanayi kolunda liderdir. Şehir içindeki sanayi tesisleri zamanla şehir dışına ve Kocaeli-Sakarya hattına doğru kaymaktadır.",

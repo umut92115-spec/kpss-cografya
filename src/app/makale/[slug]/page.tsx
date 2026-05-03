@@ -17,13 +17,13 @@ export async function generateMetadata({ params }: { params: { slug: string } })
     title: `${makale.baslik} — KPSS Coğrafya`,
     description: makale.aciklama,
     alternates: {
-      canonical: `https://kpsscografya.com/makale/${makale.slug}`,
+      canonical: `https://kpsscografya.com.tr/makale/${makale.slug}`,
     },
     openGraph: {
       title: makale.baslik,
       description: makale.aciklama,
-      url: `https://kpsscografya.com/makale/${makale.slug}`,
-      siteName: 'kpsscografya.com',
+      url: `https://kpsscografya.com.tr/makale/${makale.slug}`,
+      siteName: 'kpsscografya.com.tr',
       locale: 'tr_TR',
       type: 'article',
       publishedTime: makale.guncelleme,
@@ -48,12 +48,12 @@ export default function MakalePage({ params }: { params: { slug: string } }) {
           dateModified: makale.guncelleme,
           author: {
             "@type": "Organization",
-            name: "kpsscografya.com"
+            name: "kpsscografya.com.tr"
           },
           publisher: {
             "@type": "EducationalOrganization",
-            name: "kpsscografya.com",
-            url: "https://kpsscografya.com"
+            name: "kpsscografya.com.tr",
+            url: "https://kpsscografya.com.tr"
           },
           inLanguage: "tr",
           isAccessibleForFree: true

@@ -17,15 +17,15 @@ export async function generateMetadata({ params }: { params: { konu: string } })
   if (!konu) return {};
   
   return {
-    title: `Türkiye ${konu.baslik} Haritası — KPSS | kpsscografya.com`,
+    title: `Türkiye ${konu.baslik} Haritası — KPSS | kpsscografya.com.tr`,
     description: `KPSS coğrafya ${konu.kisa_baslik.toLowerCase()} konusu: Türkiye'nin il bazlı interaktif haritası. Her ile tıkla, sınava hazırlan.`,
     alternates: {
-      canonical: `https://kpsscografya.com/harita/${konu.slug}`,
+      canonical: `https://kpsscografya.com.tr/harita/${konu.slug}`,
     },
     openGraph: {
       title: `Türkiye ${konu.baslik} Haritası — KPSS`,
-      url: `https://kpsscografya.com/harita/${konu.slug}`,
-      siteName: 'kpsscografya.com',
+      url: `https://kpsscografya.com.tr/harita/${konu.slug}`,
+      siteName: 'kpsscografya.com.tr',
       locale: 'tr_TR',
       type: 'website',
     },
@@ -50,9 +50,9 @@ export default function HaritaPage({ params }: { params: { konu: string } }) {
         tip="BreadcrumbList"
         veri={{
           itemListElement: [
-            { "@type": "ListItem", position: 1, name: "Ana Sayfa", item: "https://kpsscografya.com" },
-            { "@type": "ListItem", position: 2, name: "Haritalar", item: "https://kpsscografya.com/harita" },
-            { "@type": "ListItem", position: 3, name: konuMeta.baslik, item: `https://kpsscografya.com/harita/${konuMeta.slug}` },
+            { "@type": "ListItem", position: 1, name: "Ana Sayfa", item: "https://kpsscografya.com.tr" },
+            { "@type": "ListItem", position: 2, name: "Haritalar", item: "https://kpsscografya.com.tr/harita" },
+            { "@type": "ListItem", position: 3, name: konuMeta.baslik, item: `https://kpsscografya.com.tr/harita/${konuMeta.slug}` },
           ]
         }}
       />

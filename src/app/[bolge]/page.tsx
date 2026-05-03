@@ -18,13 +18,13 @@ export async function generateMetadata({ params }: { params: { bolge: string } }
     title: `${bolge.ad} Bölgesi KPSS Coğrafya Notları ve Analizleri`,
     description: `${bolge.ad} Bölgesi'nin iklimi, yer şekilleri, tarım ürünleri ve sanayisi hakkında detaylı KPSS coğrafya bilgileri. ${iller.length} ilin kapsamlı analizi.`,
     alternates: {
-      canonical: `https://kpsscografya.com/${params.bolge}`,
+      canonical: `https://kpsscografya.com.tr/${params.bolge}`,
     },
     openGraph: {
       title: `${bolge.ad} Bölgesi — KPSS Coğrafya`,
       description: `${bolge.ad} Bölgesi hakkında kapsamlı coğrafi bilgiler ve il detayları.`,
-      url: `https://kpsscografya.com/${params.bolge}`,
-      siteName: 'kpsscografya.com',
+      url: `https://kpsscografya.com.tr/${params.bolge}`,
+      siteName: 'kpsscografya.com.tr',
       locale: 'tr_TR',
       type: 'website',
       images: ['/og-default.jpg'],
@@ -94,8 +94,8 @@ export default function BolgePage({ params }: { params: { bolge: string } }) {
         tip="BreadcrumbList"
         veri={{
           itemListElement: [
-            { "@type": "ListItem", position: 1, name: "Ana Sayfa", item: "https://kpsscografya.com" },
-            { "@type": "ListItem", position: 2, name: bolge.ad, item: `https://kpsscografya.com/${params.bolge}` },
+            { "@type": "ListItem", position: 1, name: "Ana Sayfa", item: "https://kpsscografya.com.tr" },
+            { "@type": "ListItem", position: 2, name: bolge.ad, item: `https://kpsscografya.com.tr/${params.bolge}` },
           ]
         }}
       />

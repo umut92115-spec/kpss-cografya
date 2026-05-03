@@ -10,7 +10,7 @@ import { SpeedInsights } from '@vercel/speed-insights/next';
 const inter = Inter({ subsets: ["latin"], display: 'swap', variable: "--font-inter" });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://kpsscografya.com'),
+  metadataBase: new URL('https://kpsscografya.com.tr'),
   title: {
     default: "KPSS Coğrafya - Harita Destekli Eğitim Platformu",
     template: "%s | KPSS Coğrafya"
@@ -26,15 +26,15 @@ export const metadata: Metadata = {
     telephone: false,
   },
   alternates: {
-    canonical: 'https://kpsscografya.com',
+    canonical: 'https://kpsscografya.com.tr',
     languages: {
-      'tr-TR': 'https://kpsscografya.com',
+      'tr-TR': 'https://kpsscografya.com.tr',
     },
   },
   openGraph: {
     title: "KPSS Coğrafya - Harita Destekli Eğitim Platformu",
     description: "Türkiye'nin en kapsamlı, harita destekli KPSS coğrafya hazırlık platformu.",
-    url: 'https://kpsscografya.com',
+    url: 'https://kpsscografya.com.tr',
     siteName: 'KPSS Coğrafya',
     locale: 'tr_TR',
     type: 'website',

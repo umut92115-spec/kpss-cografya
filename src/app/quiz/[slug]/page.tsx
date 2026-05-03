@@ -24,13 +24,13 @@ export async function generateMetadata({ params }: { params: { slug: string } })
     description,
     robots: { index: true, follow: true },
     alternates: {
-      canonical: `https://kpsscografya.com/quiz/${konu.slug}`,
+      canonical: `https://kpsscografya.com.tr/quiz/${konu.slug}`,
     },
     openGraph: {
       title,
       description,
-      url: `https://kpsscografya.com/quiz/${konu.slug}`,
-      siteName: 'kpsscografya.com',
+      url: `https://kpsscografya.com.tr/quiz/${konu.slug}`,
+      siteName: 'kpsscografya.com.tr',
       locale: 'tr_TR',
       type: 'article',
       images: ['/og-default.jpg'],

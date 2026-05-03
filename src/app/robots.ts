@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/api/', '/_next/', '/static/'],
     },
-    sitemap: 'https://kpsscografya.com/sitemap.xml',
+    sitemap: 'https://kpsscografya.com.tr/sitemap.xml',
   }
 }

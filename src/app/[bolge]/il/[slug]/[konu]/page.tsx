@@ -42,13 +42,13 @@ export async function generateMetadata({
     title,
     description,
     alternates: {
-      canonical: `https://kpsscografya.com/${params.bolge}/il/${il.slug}/${konu.slug}`,
+      canonical: `https://kpsscografya.com.tr/${params.bolge}/il/${il.slug}/${konu.slug}`,
     },
     openGraph: {
       title,
       description,
-      url: `https://kpsscografya.com/${params.bolge}/il/${il.slug}/${konu.slug}`,
-      siteName: 'kpsscografya.com',
+      url: `https://kpsscografya.com.tr/${params.bolge}/il/${il.slug}/${konu.slug}`,
+      siteName: 'kpsscografya.com.tr',
       locale: 'tr_TR',
       type: 'article',
       images: ['/og-default.jpg'],
@@ -108,10 +108,10 @@ export default function IlKonuDetayPage({
         tip="BreadcrumbList"
         veri={{
           itemListElement: [
-            { "@type": "ListItem", position: 1, name: "Ana Sayfa", item: "https://kpsscografya.com" },
-            { "@type": "ListItem", position: 2, name: il.bolge, item: `https://kpsscografya.com/${params.bolge}` },
-            { "@type": "ListItem", position: 3, name: il.ad, item: `https://kpsscografya.com/${params.bolge}/il/${il.slug}` },
-            { "@type": "ListItem", position: 4, name: konu.kisa_baslik, item: `https://kpsscografya.com/${params.bolge}/il/${il.slug}/${konu.slug}` },
+            { "@type": "ListItem", position: 1, name: "Ana Sayfa", item: "https://kpsscografya.com.tr" },
+            { "@type": "ListItem", position: 2, name: il.bolge, item: `https://kpsscografya.com.tr/${params.bolge}` },
+            { "@type": "ListItem", position: 3, name: il.ad, item: `https://kpsscografya.com.tr/${params.bolge}/il/${il.slug}` },
+            { "@type": "ListItem", position: 4, name: konu.kisa_baslik, item: `https://kpsscografya.com.tr/${params.bolge}/il/${il.slug}/${konu.slug}` },
           ]
         }}
       />

@@ -3,7 +3,7 @@ import { getAllKonular } from '@/lib/getKonuData';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'KPSS Coğrafya Konuları — Süper Detay Anlatım | kpsscografya.com',
+  title: 'KPSS Coğrafya Konuları — Süper Detay Anlatım | kpsscografya.com.tr',
   description: 'KPSS coğrafya tüm konuları: Yer şekilleri, iklim, nüfus, tarım, madenler, ticaret ve daha fazlası. Görsel ve detaylı konu anlatımları.',
 };
 

@@ -3,7 +3,7 @@ import { getAllIller, bolgeler } from '@/lib/getIlData'
 import { getAllKonular } from '@/lib/getKonuData'
  
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://kpsscografya.com'
+  const baseUrl = 'https://kpsscografya.com.tr'
   
   const iller = getAllIller()
   const konular = getAllKonular()

@@ -4,11 +4,11 @@ import { getAllIller, bolgeler } from '@/lib/getIlData';
 import { Il } from '@/types';
 
 export const metadata: Metadata = {
-  title: "Türkiye İlleri KPSS Coğrafya — 81 İl | kpsscografya.com",
+  title: "Türkiye İlleri KPSS Coğrafya — 81 İl | kpsscografya.com.tr",
   description:
     "Türkiye'nin tüm 81 iline ait KPSS coğrafya bilgileri: madenler, tarım, iklim, nüfus ve sanayi verileri. Bölgeye göre gruplanmış kapsamlı rehber.",
   alternates: {
-    canonical: 'https://kpsscografya.com/il',
+    canonical: 'https://kpsscografya.com.tr/il',
   },
 };
 
