@@ -121,7 +121,7 @@ export default function SeviyePage({ params }: { params: { seviye: string } }) {
           {/* Hızlı bilgi badge'leri */}
           <div className="flex flex-wrap gap-3">
             <span className="bg-white/10 px-4 py-2 rounded-full text-sm">
-              📝 {s.soruSayisi} Coğrafya Sorusu
+              📝 {s.bankaSoruSayisi}+ Özgün Soru
             </span>
             <span className="bg-white/10 px-4 py-2 rounded-full text-sm">
               ⏱️ {s.sinav_suresi}
@@ -250,7 +250,7 @@ export default function SeviyePage({ params }: { params: { seviye: string } }) {
               {s.baslik} Sınavına Hazır mısın?
             </h2>
             <p className="text-orange-100 mb-6">
-              18 soruluk hızlı test ile hazırlık düzeyini ölç.
+              {s.bankaSoruSayisi}+ soruluk dev soru bankası ile hazırlık düzeyini ölç.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link

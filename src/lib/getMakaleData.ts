@@ -25,12 +25,12 @@ export function getAllMakaleler(): Makale[] {
     {
       slug: 'kpss-lisans-cografya-konulari-2026',
       baslik: 'KPSS Lisans Coğrafya Konuları 2026 — Soru Dağılımı ve Çalışma Planı',
-      aciklama: 'KPSS lisans sınavındaki 18 coğrafya sorusu için güncel konu listesi, soru dağılımı tablosu ve 30 günlük hazırlık planı.',
+      aciklama: 'KPSS lisans sınavındaki 18 coğrafya sorusu için güncel konu listesi, soru dağılımı tablosu ve 500+ soruluk hazırlık planı.',
       guncelleme: new Date().toISOString(),
       icerik: `
 ### KPSS Lisans Coğrafya Konuları 2026
 
-KPSS lisans sınavında Genel Kültür bölümünde 18 coğrafya sorusu çıkmaktadır. Bu sorular Türkiye coğrafyasını merkeze alır ve doğru hazırlıkla tamamı çözülebilir seviyededir.
+KPSS lisans sınavında Genel Kültür bölümünde 18 coğrafya sorusu çıkmaktadır. Bu sorular Türkiye coğrafyasını merkeze alır ve doğru hazırlıkla tamamı çözülebilir seviyededir. Sitemizdeki **500+ özgün soru** ile tüm bu konuları en detaylı şekilde test edebilirsiniz.
 
 #### 2026 KPSS Lisans Coğrafya Konu Listesi:
 - **Türkiye'nin Coğrafi Konumu:** (2 soru)
@@ -46,18 +46,18 @@ KPSS lisans sınavında Genel Kültür bölümünde 18 coğrafya sorusu çıkmak
 Fiziki coğrafya (dağlar, akarsular) ve nüfus soruları toplam 18 sorunun yarısından fazlasını oluşturmaktadır. Harita üzerinde çalışmak bu konularda %40 daha fazla doğru yapılmasını sağlamaktadır.
 
 #### Hazırlık Önerisi:
-Harita üzerinde görsel çalışma yapın. Her il için temel bilgileri (ana tarım ürünü, madeni, nüfus yoğunluğu) ezberleyin. Günde 10-15 quiz sorusu çözün, hatalı olanları tekrar edin.
+Harita üzerinde görsel çalışma yapın. Her il için temel bilgileri (ana tarım ürünü, madeni, nüfus yoğunluğu) ezberleyin. Sitemizdeki **500+ soruluk dev bankayı** kullanarak her gün 15-20 soru çözün, hatalı olanları tekrar edin.
       `
     },
     {
       slug: 'kpss-onlisans-cografya-konulari-2026',
       baslik: 'KPSS Önlisans Coğrafya Konuları 2026 — Konu Listesi ve Hazırlık',
-      aciklama: 'KPSS önlisans coğrafya konu dağılımı, en çok çıkan konular ve harita üzerinde etkili çalışma yöntemleri.',
+      aciklama: 'KPSS önlisans coğrafya konu dağılımı, en çok çıkan konular ve 500+ soru ile etkili çalışma yöntemleri.',
       guncelleme: new Date().toISOString(),
       icerik: `
 ### KPSS Önlisans Coğrafya Konuları 2026
 
-KPSS önlisans sınavı iki yılda bir, çift yıllarda yapılmaktadır. Genel Kültür bölümündeki 18 coğrafya sorusu için doğru hazırlık şarttır.
+KPSS önlisans sınavı iki yılda bir, çift yıllarda yapılmaktadır. Genel Kültür bölümündeki 18 coğrafya sorusu için doğru hazırlık şarttır. Sitemizde yer alan **500'den fazla coğrafya sorusu**, önlisans adaylarının tüm ihtiyacını karşılayacak seviyededir.
 
 **Önlisans adaylarına özel not:** Soru zorluk düzeyi lisans sınavıyla benzerdir. Aynı kaynaklarla, aynı yoğunlukta çalışılmalıdır.
 
@@ -65,18 +65,18 @@ KPSS önlisans sınavı iki yılda bir, çift yıllarda yapılmaktadır. Genel K
 Lisans müfredatı ile paralel bir dağılım izlenmektedir. Türkiye'nin fiziki yapısı, iklimi ve beşeri ekonomik özellikleri ana başlıklardır.
 
 #### Harita Üzerinde Çalışmanın Önemi:
-Önlisans sınavında son yıllarda harita tabanlı sorular artış göstermiştir. Özellikle iklim bölgeleri, maden yatakları ve tarım ürünlerinin dağılışını harita üzerinde bilmek kritiktir.
+Önlisans sınavında son yıllarda harita tabanlı sorular artış göstermiştir. Sitemizdeki haritalı quizler ve **500+ soruluk banka** ile özellikle iklim bölgeleri, maden yatakları ve tarım ürünlerinin dağılışını görsel olarak öğrenebilirsiniz.
       `
     },
     {
       slug: 'kpss-ortaogretim-cografya-konulari-2026',
       baslik: 'KPSS Ortaöğretim Coğrafya Konuları 2026 — Lise Hazırlık Rehberi',
-      aciklama: 'KPSS ortaöğretim (lise) coğrafya konuları, soru dağılımı ve harita destekli hazırlık stratejisi.',
+      aciklama: 'KPSS ortaöğretim (lise) coğrafya konuları, soru dağılımı ve 500+ soruluk soru bankası desteği.',
       guncelleme: new Date().toISOString(),
       icerik: `
 ### KPSS Ortaöğretim Coğrafya Konuları 2026
 
-KPSS ortaöğretim (lise) sınavı, ortaöğretim ve ön lisans mezunlarının birlikte girdiği bir sınavdır. Coğrafyadan 18 soru çıkmakta olup hazırlık süreci lisansla aynı kapsamı gerektirmektedir.
+KPSS ortaöğretim (lise) sınavı, ortaöğretim ve ön lisans mezunlarının birlikte girdiği bir sınavdır. Coğrafyadan 18 soru çıkmakta olup hazırlık süreci lisansla aynı kapsamı gerektirmektedir. Sitemizdeki **500+ soru**, lise mezunları için en güncel ve kapsamlı kaynaktır.
 
 #### Kimler Girebilir?
 - Lise (ortaöğretim) mezunları
@@ -84,10 +84,10 @@ KPSS ortaöğretim (lise) sınavı, ortaöğretim ve ön lisans mezunlarının b
 - Üniversite mezunları da bu sınava girebilmektedir
 
 #### Konu Listesi ve Soru Dağılımı:
-Türkiye'nin fiziki, beşeri ve ekonomik coğrafyası dengeli bir şekilde dağılmaktadır.
+Türkiye'nin fiziki, beşeri ve ekonomik coğrafyası dengeli bir şekilde dağılmaktadır. Tüm bu konulara ait **500+ soru bankamız** aktiftir.
 
 #### Lise Mezunları için Strateji:
-Coğrafya konuları lise müfredatının büyük kısmıyla örtüşür. Ancak KPSS'de Türkiye coğrafyası çok daha ağırlıklıdır. Harita üzerinde il bazlı çalışma yapılması önerilir.
+Coğrafya konuları lise müfredatının büyük kısmıyla örtüşür. Ancak KPSS'de Türkiye coğrafyası çok daha ağırlıklıdır. Harita üzerinde il bazlı çalışma yapılması ve sitemizdeki **500+ soru ile bol pratik yapılması** önerilir.
       `
     },
   ];

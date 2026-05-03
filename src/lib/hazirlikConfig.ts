@@ -7,6 +7,7 @@ export interface SeviyeConfig {
   h1: string;
   h2: string;
   soruSayisi: number;
+  bankaSoruSayisi: number;
   sinav_suresi: string;
   sinav_periyot: string;
   hedef_kitle: string;
@@ -22,10 +23,11 @@ export const seviyeler: SeviyeConfig[] = [
     aciklama: '4 yıllık lisans mezunları için KPSS coğrafya hazırlık',
     seoTitle: 'KPSS Lisans Coğrafya Konuları 2026 — Konu Anlatımı, Quiz ve Harita',
     seoDescription:
-      'KPSS lisans coğrafya konuları ve soru dağılımı 2026. 18 soruyu tam yapmak için harita destekli konu anlatımı, çıkmış sorular ve interaktif quiz.',
+      'KPSS lisans coğrafya konuları ve soru dağılımı 2026. 500+ soru bankası ve harita destekli konu anlatımı ile 18 soruyu tam yapın.',
     h1: 'KPSS Lisans Coğrafya',
-    h2: '18 Soruda Tam Net — Harita ile Öğren, Quiz ile Test Et',
+    h2: '500+ Soru Bankası — 18 Soruda Tam Net Hedefi',
     soruSayisi: 18,
+    bankaSoruSayisi: 500,
     sinav_suresi: '130 dakika',
     sinav_periyot: 'Her yıl',
     hedef_kitle: '4 yıllık üniversite mezunları',
@@ -35,7 +37,7 @@ export const seviyeler: SeviyeConfig[] = [
       {
         soru: 'KPSS lisans sınavında coğrafya kaç soru?',
         cevap:
-          'KPSS lisans sınavının Genel Kültür bölümünde 18 coğrafya sorusu yer almaktadır. Her 4 yanlış 1 doğruyu götürdüğünden net hesabı iyi yapılmalıdır.',
+          'KPSS lisans sınavının Genel Kültür bölümünde 18 coğrafya sorusu yer almaktadır. Sitemizdeki 500+ özgün soru ile bu 18 soruyu tam yapmanız hedeflenir.',
       },
       {
         soru: 'KPSS lisans coğrafya konuları nelerdir?',
@@ -63,12 +65,13 @@ export const seviyeler: SeviyeConfig[] = [
     slug: 'onlisans',
     baslik: 'KPSS Önlisans',
     aciklama: '2 yıllık önlisans mezunları için KPSS coğrafya hazırlık',
-    seoTitle: 'KPSS Önlisans Coğrafya Konuları 2026 — 18 Soru, Harita, Quiz',
+    seoTitle: 'KPSS Önlisans Coğrafya Konuları 2026 — 500+ Soru Bankası, Harita, Quiz',
     seoDescription:
-      'KPSS önlisans coğrafya konuları ve soru dağılımı 2026. Önlisans adayları için harita destekli konu anlatımı, çıkmış sorular ve interaktif testler.',
+      'KPSS önlisans coğrafya konuları 2026. 500+ soru bankası, harita destekli konu anlatımı ve çıkmış sorular ile sınava tam hazırlanın.',
     h1: 'KPSS Önlisans Coğrafya',
-    h2: '18 Soruyu Harita Üzerinde Çalış, Quiz ile Puan Al',
+    h2: '500+ Özgün Soru ile 18 Soruluk Sınava Hazırlan',
     soruSayisi: 18,
+    bankaSoruSayisi: 500,
     sinav_suresi: '130 dakika',
     sinav_periyot: 'Çift yıllarda (2024, 2026...)',
     hedef_kitle: '2 yıllık önlisans mezunları',
@@ -98,7 +101,7 @@ export const seviyeler: SeviyeConfig[] = [
       {
         soru: 'KPSS önlisans coğrafya için ne kadar süre çalışmalıyım?',
         cevap:
-          'Günde 1 saat, 3-4 haftalık düzenli çalışma ile 18 sorudan 14-16 net yapılabilir. Harita üzerinde görsel çalışma ve quiz pratiği bu süreyi kısaltır.',
+          'Günde 1 saat, 3-4 haftalık düzenli çalışma ile 18 sorudan 14-16 net yapılabilir. Sitemizdeki 500+ soru ile pratik yapmak bu süreyi kısaltır.',
       },
     ],
   },
@@ -106,12 +109,13 @@ export const seviyeler: SeviyeConfig[] = [
     slug: 'ortaogretim',
     baslik: 'KPSS Ortaöğretim',
     aciklama: 'Lise ve ortaöğretim mezunları için KPSS coğrafya hazırlık',
-    seoTitle: 'KPSS Ortaöğretim Coğrafya Konuları 2026 — Lise, Konu Anlatımı, Quiz',
+    seoTitle: 'KPSS Ortaöğretim Coğrafya Konuları 2026 — 500+ Soru, Konu Anlatımı',
     seoDescription:
-      'KPSS ortaöğretim (lise) coğrafya konuları ve soru dağılımı 2026. Harita destekli konu anlatımı, çıkmış sorular çözümü ve interaktif testler.',
+      'KPSS ortaöğretim coğrafya konuları 2026. 500+ soru bankası, harita destekli anlatım ve lise mezunları için özel hazırlık rehberi.',
     h1: 'KPSS Ortaöğretim Coğrafya',
-    h2: 'Lise Mezunları için 18 Soruda Tam Net Rehberi',
+    h2: 'Lise Mezunları için 500+ Soru ile Tam Hazırlık',
     soruSayisi: 18,
+    bankaSoruSayisi: 500,
     sinav_suresi: '130 dakika',
     sinav_periyot: 'Çift yıllarda (2024, 2026...)',
     hedef_kitle: 'Lise ve ortaöğretim mezunları',
@@ -121,7 +125,7 @@ export const seviyeler: SeviyeConfig[] = [
       {
         soru: 'KPSS ortaöğretim sınavında coğrafya kaç soru çıkıyor?',
         cevap:
-          'KPSS ortaöğretim Genel Kültür bölümünde 18 coğrafya sorusu yer almaktadır. Lise mezunları da üniversite mezunları ile aynı coğrafya müfredatından sorumludur.',
+          'KPSS ortaöğretim Genel Kültür bölümünde 18 coğrafya sorusu yer almaktadır. Sitemizdeki 500+ soru bankası tüm müfredatı kapsamaktadır.',
       },
       {
         soru: 'KPSS lise coğrafya konuları nelerdir?',
@@ -136,6 +140,17 @@ export const seviyeler: SeviyeConfig[] = [
       {
         soru: 'KPSS ortaöğretim coğrafyasında harita soruları var mı?',
         cevap:
+          'Evet, özellikle yer şekilleri, iklim bölgeleri ve ürün dağılışını gösteren harita soruları sıklıkla çıkmaktadır.',
+      },
+      {
+        soru: 'KPSS ortaöğretim ile lisans coğrafya soruları farklı mı?',
+        cevap:
+          'Konu dağılımı büyük ölçüde aynıdır. Her iki sınavda da Türkiye coğrafyası ağırlıklı olarak sorulmaktadır. Soru zorluk düzeyi benzerdir.',
+      },
+    ],
+  },
+];
+:
           'Evet, özellikle yer şekilleri, iklim bölgeleri ve ürün dağılışını gösteren harita soruları sıklıkla çıkmaktadır.',
       },
       {

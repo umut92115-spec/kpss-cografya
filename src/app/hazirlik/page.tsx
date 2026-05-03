@@ -51,7 +51,7 @@ export default function HazirlikPage() {
               <h2 className="text-xl font-black mb-2">{s.baslik}</h2>
               <p className="text-sm opacity-80 mb-4">{s.aciklama}</p>
               <div className="text-sm font-bold">
-                {s.soruSayisi} Coğrafya Sorusu →
+                {s.bankaSoruSayisi}+ Soru Bankası →
               </div>
             </Link>
           ))}
