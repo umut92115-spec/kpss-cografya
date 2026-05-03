@@ -211,27 +211,6 @@ Sonuç olarak; KPSS Ortaöğretim Coğrafya dersi, lise mezunları için büyük
     `,
   },
 ];
-e yer şekilleri, iklim bölgeleri ve ürün dağılışını gösteren harita soruları sıklıkla çıkmaktadır.',
-      },
-      {
-        soru: 'KPSS ortaöğretim ile lisans coğrafya soruları farklı mı?',
-        cevap:
-          'Konu dağılımı büyük ölçüde aynıdır. Her iki sınavda da Türkiye coğrafyası ağırlıklı olarak sorulmaktadır. Soru zorluk düzeyi benzerdir.',
-      },
-    ],
-  },
-];
-:
-          'Evet, özellikle yer şekilleri, iklim bölgeleri ve ürün dağılışını gösteren harita soruları sıklıkla çıkmaktadır.',
-      },
-      {
-        soru: 'KPSS ortaöğretim ile lisans coğrafya soruları farklı mı?',
-        cevap:
-          'Konu dağılımı büyük ölçüde aynıdır. Her iki sınavda da Türkiye coğrafyası ağırlıklı olarak sorulmaktadır. Soru zorluk düzeyi benzerdir.',
-      },
-    ],
-  },
-];
 
 export function getSeviye(slug: string): SeviyeConfig | undefined {
   return seviyeler.find((s) => s.slug === slug);
