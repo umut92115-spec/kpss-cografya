@@ -28,16 +28,17 @@ const mdxComponents = {
     const id = String(props.children).toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
     return <h3 id={id} {...props} className="text-xl font-semibold text-gray-800 mt-8 mb-4 scroll-mt-24 flex items-center gap-2" />;
   },
-  img: (props: React.ImgHTMLAttributes<HTMLImageElement>) => (
+  img: ({ alt, ...props }: React.ImgHTMLAttributes<HTMLImageElement>) => (
     <span className="block my-10 group">
       <img 
         {...props} 
+        alt={alt || ''}
         className="rounded-2xl border border-gray-200 shadow-xl w-full hover:shadow-2xl transition-shadow duration-300" 
         loading="lazy" 
       />
-      {props.alt && (
+      {alt && (
         <span className="block text-center text-sm text-gray-400 mt-3 italic font-medium">
-          📸 {props.alt}
+          📸 {alt}
         </span>
       )}
     </span>

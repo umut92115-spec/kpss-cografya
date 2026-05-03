@@ -45,7 +45,7 @@ export default function HaritaPage() {
             KPSS <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-indigo-400 to-purple-400">İnteraktif Harita</span> Atlası
           </h1>
           <p className="text-gray-400 text-lg md:text-xl max-w-3xl mx-auto leading-relaxed font-medium">
-            Sınavda sorulan yerleri "görmeden" öğrenme! Türkiye&apos;nin madenlerini, tarım alanlarını ve sanayi tesislerini tek tıkla haritaya dök, görsel hafızanı güçlendir.
+            Sınavda sorulan yerleri &quot;görmeden&quot; öğrenme! Türkiye&apos;nin madenlerini, tarım alanlarını ve sanayi tesislerini tek tıkla haritaya dök, görsel hafızanı güçlendir.
           </p>
         </div>
 
@@ -117,7 +117,7 @@ export default function HaritaPage() {
           <div className="relative z-10 max-w-2xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-black mb-6">Detaylı İl Analizlerini Gördün mü?</h2>
             <p className="text-blue-100 text-lg mb-10 opacity-90 leading-relaxed">
-              81 ilin kendine has coğrafi verilerini, madenlerini ve tarım potansiyelini "İl Kimlik Kartları" ile tek tek inceleyebilirsin.
+              81 ilin kendine has coğrafi verilerini, madenlerini ve tarım potansiyelini &quot;İl Kimlik Kartları&quot; ile tek tek inceleyebilirsin.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link 

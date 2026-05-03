@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState, useMemo } from 'react';
+import { useEffect, useState } from 'react';
 import { MapContainer, TileLayer, GeoJSON, LayersControl, LayerGroup, Marker, Tooltip, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
@@ -121,14 +121,10 @@ export default function HaritaGoruntule({
   matrisData,
   temaRenk,
 }: HaritaGoruntuleProps) {
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const [geoData, setGeoData] = useState<any>(null);
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const [tumDaglar, setTumDaglar] = useState<any[]>([]);
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const [tumKapilar, setTumKapilar] = useState<any[]>([]);
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const [tumAkarsular, setTumAkarsular] = useState<any[]>([]);
+  const [geoData, setGeoData] = useState<unknown>(null);
+  const [tumDaglar, setTumDaglar] = useState<Record<string, unknown>[]>([]);
+  const [tumKapilar, setTumKapilar] = useState<Record<string, unknown>[]>([]);
+  const [tumAkarsular, setTumAkarsular] = useState<Record<string, unknown>[]>([]);
 
   useEffect(() => {
     fetch('/maps/turkey-iller.geojson')
@@ -140,20 +136,23 @@ export default function HaritaGoruntule({
       });
 
     // Verileri Düzleştir
-    const daglarArr: any[] = [];
-    ['kivirim', 'kiriklik', 'volkanik'].forEach(tur => {
-      // @ts-ignore
+    const daglarArr: Record<string, unknown>[] = [];
+    ['kivrim', 'kiriklik', 'volkanik'].forEach(tur => {
+      // @ts-expect-error data structure
       const turData = daglarData[tur];
       if (!turData) return;
       const gruplar = turData.gruplar || (turData.daglar ? [{ daglar: turData.daglar }] : []);
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
       gruplar.forEach((grup: any) => {
         if (grup.daglar) {
+          // eslint-disable-next-line @typescript-eslint/no-explicit-any
           grup.daglar.forEach((dag: any) => {
             if (dag.lat) daglarArr.push({...dag, tur, grup: grup.grup || ''});
           });
         }
       });
       if (turData.daglar && !turData.gruplar) {
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
         turData.daglar.forEach((dag: any) => {
           if (dag.lat && !daglarArr.find(d => d.ad === dag.ad)) daglarArr.push({...dag, tur});
         });
@@ -161,9 +160,11 @@ export default function HaritaGoruntule({
     });
     setTumDaglar(daglarArr);
 
-    const kapiArr: any[] = [];
+    const kapiArr: Record<string, unknown>[] = [];
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     komsularData.forEach((komsu: any) => {
       if (komsu.sinir_kapilari) {
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
         komsu.sinir_kapilari.forEach((kapi: any) => {
           if (kapi.lat) kapiArr.push({...kapi, ulke: komsu.ulke});
         });
@@ -171,11 +172,12 @@ export default function HaritaGoruntule({
     });
     setTumKapilar(kapiArr);
 
-    const akarsuArr: any[] = [];
+    const akarsuArr: Record<string, unknown>[] = [];
     Object.keys(akarsuData.dokulduklari_havzalar).forEach(havza => {
-      // @ts-ignore
+      // @ts-expect-error data structure
       const hData = akarsuData.dokulduklari_havzalar[havza];
       if (hData.akarsular) {
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
         hData.akarsular.forEach((ak: any) => {
           if (ak.lat) akarsuArr.push({...ak, havza});
         });
@@ -195,6 +197,7 @@ export default function HaritaGoruntule({
     return '#f1f5f9';
   };
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const styleFeature = (feature: any) => {
     const adHam: string = feature?.properties?.name ?? feature?.properties?.il_adi ?? '';
     const ilSlug = slugify(adHam);
@@ -209,6 +212,7 @@ export default function HaritaGoruntule({
     };
   };
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const onEachFeature = (feature: any, layer: L.Layer) => {
     const adHam: string = feature?.properties?.name ?? feature?.properties?.il_adi ?? '';
     const ilSlug = slugify(adHam);
@@ -313,7 +317,7 @@ export default function HaritaGoruntule({
                       <div className="space-y-1 text-sm border-t pt-2 mt-2">
                         <p><span className="text-gray-500">Tür:</span> <span className="font-medium">{dag.tur}</span></p>
                         {dag.yukseklik && <p><span className="text-gray-500">Yükseklik:</span> <span className="font-medium text-blue-600">{dag.yukseklik} m</span></p>}
-                        {dag.ozellik && <p className="text-xs text-gray-600 italic bg-gray-50 p-2 rounded mt-2">"{dag.ozellik}"</p>}
+                        {dag.ozellik && <p className="text-xs text-gray-600 italic bg-gray-50 p-2 rounded mt-2">&quot;{dag.ozellik}&quot;</p>}
                       </div>
                     </div>
                   </Popup>

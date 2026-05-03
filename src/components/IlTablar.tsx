@@ -110,7 +110,8 @@ export default function IlTablar({ params_slug, bolge_slug, tumKonular, konuVeri
               </div>
 
               {/* Sık Sorulan Sorular (SSS) - Bölüm 3'teki FAQ */}
-              {((aktifVeri as any).faqs && (aktifVeri as any).faqs.length > 0) || (aktifVeri.super_detay?.faqs && aktifVeri.super_detay.faqs.length > 0) ? (
+              {/* @ts-expect-error checking for faqs property on union type */}
+              {(aktifVeri?.faqs && aktifVeri.faqs.length > 0) || (aktifVeri.super_detay?.faqs && aktifVeri.super_detay.faqs.length > 0) ? (
                 <div className="mt-8 pt-8 border-t border-gray-100">
                   <div className="flex items-center justify-between mb-6">
                     <h3 className="text-sm font-bold text-gray-800 flex items-center gap-2">
@@ -119,7 +120,8 @@ export default function IlTablar({ params_slug, bolge_slug, tumKonular, konuVeri
                     </h3>
                     <span className="text-[10px] bg-gray-100 text-gray-500 px-2 py-1 rounded font-bold">FAQ / SSS</span>
                   </div>
-                  <FaqAccordion faqs={aktifVeri.super_detay?.faqs || (aktifVeri as any).faqs || []} />
+                  {/* @ts-expect-error faqs access */}
+                  <FaqAccordion faqs={aktifVeri.super_detay?.faqs || aktifVeri.faqs || []} />
                 </div>
               ) : null}
             </>

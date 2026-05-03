@@ -32,7 +32,7 @@ export interface Section {
   h2: string;
   content: string;
   type: 'text' | 'table' | 'map' | 'list' | 'vurgu';
-  data?: any;
+  data?: Record<string, string | number>[];
 }
 
 export interface SuperDetay {

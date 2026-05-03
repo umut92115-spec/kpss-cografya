@@ -1,7 +1,6 @@
 import { SuperDetay } from '@/types';
 import JsonLd from '@/components/JsonLd';
 import FaqAccordion from './FaqAccordion';
-import { linkKeywords } from '@/lib/linkUtils';
 import Link from 'next/link';
 
 interface SuperDetayRenderProps {
@@ -58,9 +57,9 @@ export default function SuperDetayRender({ data, ilAd, konuBaslik }: SuperDetayR
                     </tr>
                   </thead>
                   <tbody>
-                    {section.data.map((row: any, i: number) => (
+                    {section.data.map((row: Record<string, string | number>, i: number) => (
                       <tr key={i} className="bg-white border-b hover:bg-gray-50 transition-colors">
-                        {Object.values(row).map((val: any, j: number) => (
+                        {Object.values(row).map((val: string | number, j: number) => (
                           <td key={j} className="px-4 py-3 border font-medium text-gray-900">{val}</td>
                         ))}
                       </tr>

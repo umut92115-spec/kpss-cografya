@@ -105,7 +105,7 @@ export default function IlPaneli({ il, konuData }: IlPaneliProps) {
                 <h4 className="font-black text-sm mb-2 flex items-center gap-2 uppercase tracking-tighter">
                   Soru Potansiyeli
                 </h4>
-                <p className="text-sm font-medium leading-relaxed italic drop-shadow-sm">"{konuData.sik_soru}"</p>
+                <p className="text-sm font-medium leading-relaxed italic drop-shadow-sm">&quot;{konuData.sik_soru}&quot;</p>
               </div>
             )}
           </div>

@@ -44,15 +44,7 @@ export async function generateMetadata({
   };
 }
 
-// Soru dağılım tablosu verisi
-const konuDagilim = [
-  { konu: 'Fiziki Coğrafya (Dağlar, Ovalar, Akarsular)', soru: '5-6', oncelik: 'Kritik' },
-  { konu: 'Nüfus ve Yerleşme', soru: '3-4', oncelik: 'Kritik' },
-  { konu: 'Madenler ve Enerji Kaynakları', soru: '2-3', oncelik: 'Önemli' },
-  { konu: 'İklim ve Bitki Örtüsü', soru: '2-3', oncelik: 'Önemli' },
-  { konu: 'Tarım ve Hayvancılık', soru: '1-2', oncelik: 'Normal' },
-  { konu: 'Sanayi, Ulaşım, Turizm', soru: '2-3', oncelik: 'Normal' },
-];
+// Soru dağılımı seviye verisinden dinamik olarak çekilir
 
 const oncelikRenk: Record<string, string> = {
   Kritik: 'bg-red-100 text-red-700',
