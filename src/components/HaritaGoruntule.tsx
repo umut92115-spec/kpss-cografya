@@ -188,7 +188,8 @@ export default function HaritaGoruntule({
 
   const getFillColor = (ilSlug: string): string => {
     if (!matrisData || !matrisData[ilSlug]) return '#f1f5f9';
-    const durum = matrisData[ilSlug].harita_renk;
+    const data = matrisData[ilSlug];
+    const durum = data && 'harita_renk' in data ? data.harita_renk : 'yok';
     
     // Daha doygun ve premium renk paleti
     if (durum === 'koyu') return temaRenk;
