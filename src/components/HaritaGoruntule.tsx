@@ -121,7 +121,8 @@ export default function HaritaGoruntule({
   matrisData,
   temaRenk,
 }: HaritaGoruntuleProps) {
-  const [geoData, setGeoData] = useState<unknown>(null);
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const [geoData, setGeoData] = useState<any>(null);
   const [tumDaglar, setTumDaglar] = useState<Record<string, unknown>[]>([]);
   const [tumKapilar, setTumKapilar] = useState<Record<string, unknown>[]>([]);
   const [tumAkarsular, setTumAkarsular] = useState<Record<string, unknown>[]>([]);
@@ -285,12 +286,14 @@ export default function HaritaGoruntule({
           {/* İller Katmanı */}
           <LayersControl.Overlay checked name="📍 Şehir Dağılımı">
             <LayerGroup>
-              <GeoJSON
-                key={`${konuSlug}-${secilenIl}`}
-                data={geoData}
-                style={styleFeature}
-                onEachFeature={onEachFeature}
-              />
+              {geoData && (
+                <GeoJSON
+                  key={`${konuSlug}-${secilenIl}`}
+                  data={geoData}
+                  style={styleFeature}
+                  onEachFeature={onEachFeature}
+                />
+              )}
             </LayerGroup>
           </LayersControl.Overlay>
 
