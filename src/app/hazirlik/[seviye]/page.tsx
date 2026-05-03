@@ -138,17 +138,6 @@ export default function SeviyePage({ params }: { params: { seviye: string } }) {
 
       <div className="max-w-4xl mx-auto px-4 py-16">
 
-        {/* REHBER MAKALE */}
-        <section className="mb-16">
-          <div className="prose prose-lg max-w-none bg-blue-50/50 p-8 md:p-12 rounded-3xl border border-blue-100">
-            <h2 className="text-3xl font-black text-gray-900 mb-8 border-b border-blue-200 pb-4">
-              {s.baslik} Coğrafya Başarı Rehberi
-            </h2>
-            <div className="whitespace-pre-wrap text-gray-700 leading-relaxed space-y-6">
-              {s.makale}
-            </div>
-          </div>
-        </section>
 
         {/* SORU DAĞILIM TABLOSU */}
         <section className="mb-16">
@@ -277,6 +266,18 @@ export default function SeviyePage({ params }: { params: { seviye: string } }) {
               >
                 Haritada Çalış →
               </Link>
+            </div>
+          </div>
+        </section>
+
+        {/* REHBER MAKALE */}
+        <section className="mb-16">
+          <div className="prose prose-lg max-w-none bg-blue-50/50 p-8 md:p-12 rounded-3xl border border-blue-100">
+            <h2 className="text-3xl font-black text-gray-900 mb-8 border-b border-blue-200 pb-4">
+              {s.baslik} Coğrafya Başarı Rehberi
+            </h2>
+            <div className="whitespace-pre-wrap text-gray-700 leading-relaxed space-y-6">
+              {s.makale}
             </div>
           </div>
         </section>
