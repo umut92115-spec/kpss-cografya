@@ -349,7 +349,7 @@ export default function QuizModu({ konuSlug, konuMeta, sorular }: QuizModuProps)
 
       <div className="flex gap-3">
         <button
-          onClick={quizBaslat}
+          onClick={() => quizBaslat()}
           className="flex-1 bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 rounded-xl transition-colors"
         >
           🔄 Tekrar Dene
