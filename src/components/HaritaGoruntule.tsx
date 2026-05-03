@@ -123,9 +123,12 @@ export default function HaritaGoruntule({
 }: HaritaGoruntuleProps) {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [geoData, setGeoData] = useState<any>(null);
-  const [tumDaglar, setTumDaglar] = useState<Record<string, unknown>[]>([]);
-  const [tumKapilar, setTumKapilar] = useState<Record<string, unknown>[]>([]);
-  const [tumAkarsular, setTumAkarsular] = useState<Record<string, unknown>[]>([]);
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const [tumDaglar, setTumDaglar] = useState<any[]>([]);
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const [tumKapilar, setTumKapilar] = useState<any[]>([]);
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const [tumAkarsular, setTumAkarsular] = useState<any[]>([]);
 
   useEffect(() => {
     fetch('/maps/turkey-iller.geojson')
@@ -137,7 +140,8 @@ export default function HaritaGoruntule({
       });
 
     // Verileri Düzleştir
-    const daglarArr: Record<string, unknown>[] = [];
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const daglarArr: any[] = [];
     ['kivrim', 'kiriklik', 'volkanik'].forEach(tur => {
       // @ts-expect-error data structure
       const turData = daglarData[tur];
@@ -161,7 +165,8 @@ export default function HaritaGoruntule({
     });
     setTumDaglar(daglarArr);
 
-    const kapiArr: Record<string, unknown>[] = [];
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const kapiArr: any[] = [];
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     komsularData.forEach((komsu: any) => {
       if (komsu.sinir_kapilari) {
@@ -173,7 +178,8 @@ export default function HaritaGoruntule({
     });
     setTumKapilar(kapiArr);
 
-    const akarsuArr: Record<string, unknown>[] = [];
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const akarsuArr: any[] = [];
     Object.keys(akarsuData.dokulduklari_havzalar).forEach(havza => {
       // @ts-expect-error data structure
       const hData = akarsuData.dokulduklari_havzalar[havza];
