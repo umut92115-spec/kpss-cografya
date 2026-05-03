@@ -64,9 +64,16 @@ export default function MakalePage({ params }: { params: { slug: string } }) {
         <p className="text-gray-500 mb-8">Son Güncelleme: {new Date(makale.guncelleme).toLocaleDateString('tr-TR')}</p>
         
         <p className="lead">{makale.aciklama}</p>
-        <p>Buraya gerçek makale içeriği (MDX üzerinden) gelecek.</p>
         
-        <IlgiliBaglantilar tip="makale" slug={makale.slug} />
+        {makale.icerik && (
+          <div className="mt-8 whitespace-pre-wrap text-gray-800">
+            {makale.icerik}
+          </div>
+        )}
+        
+        <div className="mt-12">
+          <IlgiliBaglantilar tip="makale" slug={makale.slug} />
+        </div>
       </article>
     </div>
   );

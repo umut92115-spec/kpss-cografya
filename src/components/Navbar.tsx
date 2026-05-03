@@ -8,6 +8,7 @@ const navLinks = [
   { href: '/harita', label: 'Harita',   icon: '🗺️' },
   { href: '/konu',   label: 'Konular',  icon: '📖' },
   { href: '/il',     label: 'İller',    icon: '📍' },
+  { href: '/hazirlik', label: 'Hazırlık', icon: '🎓' },
   { href: '/quiz',   label: 'Quiz',     icon: '✍️' },
 ];
 

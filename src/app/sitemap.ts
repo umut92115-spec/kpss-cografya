@@ -44,6 +44,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }))
  
+  const hazirlikUrls = [
+    { url: `${baseUrl}/hazirlik`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.8 },
+    { url: `${baseUrl}/hazirlik/lisans`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.9 },
+    { url: `${baseUrl}/hazirlik/onlisans`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.9 },
+    { url: `${baseUrl}/hazirlik/ortaogretim`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.9 },
+  ]
+
+  const makaleUrls = [
+    { url: `${baseUrl}/makale/kpss-lisans-cografya-konulari-2026`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.8 },
+    { url: `${baseUrl}/makale/kpss-onlisans-cografya-konulari-2026`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.8 },
+    { url: `${baseUrl}/makale/kpss-ortaogretim-cografya-konulari-2026`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.8 },
+  ]
+ 
   return [
     {
       url: baseUrl,
@@ -55,5 +68,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...konuUrls,
     ...ilUrls,
     ...haritaUrls,
+    ...hazirlikUrls,
+    ...makaleUrls,
   ]
 }
