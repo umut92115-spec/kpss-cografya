@@ -80,7 +80,7 @@ export default function SeviyePage({ params }: { params: { seviye: string } }) {
           description: s.seoDescription,
           url: `https://kpsscografya.com.tr/hazirlik/${s.slug}`,
           educationalLevel: s.baslik,
-          teaches: 'KPSS Coğrafya',
+          teaches: s.slug.includes('yt') ? 'YKS Coğrafya' : 'KPSS Coğrafya',
           inLanguage: 'tr',
           provider: {
             '@type': 'Organization',
@@ -292,7 +292,7 @@ export default function SeviyePage({ params }: { params: { seviye: string } }) {
         {/* DİĞER SEVİYELER */}
         <section>
           <h2 className="text-xl font-black text-gray-900 mb-4">
-            Diğer KPSS Seviyeleri
+            Diğer KPSS ve YKS Hazırlık Seviyeleri
           </h2>
           <div className="grid md:grid-cols-2 gap-4">
             {seviyeler

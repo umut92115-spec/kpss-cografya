@@ -235,6 +235,104 @@ KPSS Ortaöğretim sınavında her yıl 1-2 soru güncel verilerden gelir. Türk
 Sonuç olarak; KPSS Ortaöğretim Coğrafya dersi, lise mezunları için büyük bir fırsat alanıdır. Harita destekli çalışarak, konunun mantığını kavrayarak and 500+ soruluk bankamızla düzenli test çözerek bu 18 soruyu fire vermeden çözebilirsiniz. Unutmayın, düzenli çalışan and doğru kaynağı kullanan aday her zaman bir adım öndedir. Başarılar dileriz!
     `,
   },
+  {
+    slug: 'tyt',
+    baslik: 'YKS TYT Coğrafya',
+    aciklama: 'Tüm YKS adayları için temel coğrafya konuları ve harita bilgisi',
+    seoTitle: 'TYT Coğrafya Konuları 2026 — Konu Özetleri, PDF ve Soru Bankası',
+    seoDescription:
+      'TYT coğrafya konuları ve soru dağılımı 2026. 300+ soru bankası, harita becerileri ve temel kavramlar ile 5 soruda 5 net yapın.',
+    h1: 'YKS TYT Coğrafya Hazırlık',
+    h2: 'Temel Bilgi ve Yorum Gücüyle 5\'te 5 Hedefi',
+    soruSayisi: 5,
+    bankaSoruSayisi: 300,
+    sinav_suresi: '165 dakika',
+    sinav_periyot: 'Her yıl (Haziran)',
+    hedef_kitle: 'Tüm üniversite adayları',
+    favicon: '🗺️',
+    renk: 'indigo',
+    konuDagilim: [
+      { konu: 'Doğa ve İnsan / Coğrafya Bilimi', soru: '1', oncelik: 'Normal' },
+      { konu: 'Harita Bilgisi ve Uygulamaları', soru: '1', oncelik: 'Kritik' },
+      { konu: 'İklim Bilgisi (Sıcaklık, Basınç, Nem)', soru: '1', oncelik: 'Kritik' },
+      { konu: 'Yer Şekilleri (İç ve Dış Kuvvetler)', soru: '1', oncelik: 'Önemli' },
+      { konu: 'Nüfus, Yerleşme ve Göç', soru: '1', oncelik: 'Kritik' },
+      { konu: 'Bölgeler ve Doğal Afetler', soru: '1', oncelik: 'Önemli' },
+    ],
+    faqlar: [
+      {
+        soru: 'TYT coğrafya sınavda kaç soru?',
+        cevap: 'TYT sınavında Sosyal Bilimler testi içerisinde 5 adet coğrafya sorusu yer almaktadır.',
+      },
+      {
+        soru: 'TYT coğrafya için harita bilgisi ne kadar önemli?',
+        cevap: 'Çok önemli. Soruların neredeyse tamamı harita okuma veya dünya üzerindeki yerleri tanıma becerisi gerektirir.',
+      },
+      {
+        soru: 'TYT coğrafya konuları zor mu?',
+        cevap: 'Daha çok temel kavramlar ve yorumlama üzerine kuruludur. Mantığını kavradığınızda 5\'te 5 yapmak oldukça kolaydır.',
+      },
+    ],
+    makale: `
+TYT Coğrafya, üniversiteye giriş sınavının ilk aşamasında karşımıza çıkan 5 soruluk kritik bir bölümdür. Her puanın altın değerinde olduğu YKS'de, coğrafya netleri rakiplerinizin önüne geçmenizi sağlar.
+
+### TYT Coğrafya'nın Şifresi: Harita ve Yorum
+TYT coğrafya soruları sadece bilgi ölçmez, aynı zamanda harita okuma becerinizi test eder. Dünya üzerindeki iklim bölgelerini, yoğun nüfuslu alanları ve fay hatlarını harita üzerinde tanımak, soruların yarısını çözmek demektir. Platformumuzdaki harita araçları tam da bu beceriyi kazandırmak için hazırlandı.
+
+### En Çok Çıkan Konular
+İstatistikler gösteriyor ki; **İklim Bilgisi**, **Nüfus ve Yerleşme** ve **Harita Bilgisi** TYT'nin vazgeçilmezleridir. Özellikle iklim grafiklerini yorumlayabilmek ve nüfus piramitlerinden sonuç çıkarabilmek size doğrudan net kazandırır.
+
+### Nasıl Çalışılmalı?
+TYT coğrafya için saatlerce ezber yapmanıza gerek yok. Konunun mantığını anlayıp bol bol interaktif harita çalışması yapmalısınız. Sitemizde yer alan 300'den fazla TYT odaklı soru ile kendinizi test edebilir, eksiklerinizi anında görebilirsiniz.
+    `,
+  },
+  {
+    slug: 'ayt',
+    baslik: 'YKS AYT Coğrafya',
+    aciklama: 'Sözel ve Eşit Ağırlık adayları için derinlemesine coğrafya hazırlık',
+    seoTitle: 'AYT Coğrafya Konuları 2026 — Detaylı Konu Anlatımı ve Soru Bankası',
+    seoDescription:
+      'AYT coğrafya konuları ve soru dağılımı 2026. 400+ soru bankası, Türkiye ekonomisi ve küresel ortam konularında tam uzmanlık.',
+    h1: 'YKS AYT Coğrafya Hazırlık',
+    h2: 'Bilgi Odaklı Sorularda 17 Netlik Başarı Rehberi',
+    soruSayisi: 17,
+    bankaSoruSayisi: 400,
+    sinav_suresi: '180 dakika',
+    sinav_periyot: 'Her yıl (Haziran)',
+    hedef_kitle: 'Sözel ve Eşit Ağırlık öğrencileri',
+    favicon: '🌍',
+    renk: 'rose',
+    konuDagilim: [
+      { konu: 'Ekosistem ve Madde Döngüleri', soru: '2-3', oncelik: 'Önemli' },
+      { konu: 'Türkiye Ekonomisi (Tarım, Sanayi, Enerji)', soru: '4-5', oncelik: 'Kritik' },
+      { konu: 'Bölgesel Kalkınma Projeleri', soru: '1-2', oncelik: 'Kritik' },
+      { konu: 'Küresel Ortam: Ülkeler ve Şehirler', soru: '2-3', oncelik: 'Önemli' },
+      { konu: 'Uluslararası Örgütler ve Çatışma Alanları', soru: '1-2', oncelik: 'Normal' },
+      { konu: 'Çevre ve Toplum: Sürdürülebilirlik', soru: '2-3', oncelik: 'Önemli' },
+    ],
+    faqlar: [
+      {
+        soru: 'AYT coğrafya kaç sorudan oluşur?',
+        cevap: 'AYT\'de Sosyal-1 testinde 6, Sosyal-2 testinde 11 soru olmak üzere toplam 17 coğrafya sorusu vardır.',
+      },
+      {
+        soru: 'AYT coğrafya KPSS ile benzer mi?',
+        cevap: 'Özellikle Türkiye Ekonomisi ve Beşeri Coğrafya kısımları KPSS ile %90 oranında benzerlik gösterir.',
+      },
+    ],
+    makale: `
+AYT Coğrafya, bilgi birikiminin ve derinlemesine analiz yeteneğinin ölçüldüğü bir alandır. Sözel ve Eşit Ağırlık öğrencileri için sınavın en belirleyici derslerinden biridir.
+
+### Bilgi Her Şeydir
+TYT'nin aksine AYT'de doğrudan bilgi sorularıyla karşılaşırsınız. Madde döngüleri, biyomlar, Türkiye'deki kalkınma projeleri ve küresel örgütler gibi konuları detaylıca bilmeniz gerekir.
+
+### Türkiye'nin Ekonomik Gücü
+AYT coğrafya sorularının büyük bir kısmı Türkiye'nin ekonomik faaliyetlerine odaklanır. Tarım ürünleri, maden yatakları ve sanayi kollarının dağılımı her yıl mutlaka sorulur. Bu kısımlar sitemizdeki KPSS modülleriyle de büyük ölçüde örtüşmektedir.
+
+### Başarı İçin İpucu
+Konuları öğrendikten sonra mutlaka branş denemeleri ve konu bazlı quizler çözmelisiniz. 400+ AYT soruluk bankamız, sınav formatındaki sorularla sizi en zorlu başlıklara bile hazırlar.
+    `,
+  },
 ];
 
 export function getSeviye(slug: string): SeviyeConfig | undefined {

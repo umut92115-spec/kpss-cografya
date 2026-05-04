@@ -3,15 +3,15 @@ import { Metadata } from 'next';
 import { seviyeler } from '@/lib/hazirlikConfig';
 
 export const metadata: Metadata = {
-  title: 'KPSS Coğrafya Hazırlık — Lisans, Önlisans, Ortaöğretim',
+  title: 'KPSS & YKS Coğrafya Hazırlık — Lisans, TYT, AYT, Önlisans',
   description:
-    'Hangi KPSS seviyesine hazırlanıyorsun? Lisans, önlisans ve ortaöğretim için ayrı hazırlık rehberleri, konu anlatımları ve interaktif quizler.',
+    'Hangi sınava hazırlanıyorsun? KPSS (Lisans, Önlisans, Ortaöğretim) ve YKS (TYT, AYT) için ayrı hazırlık rehberleri, konu anlatımları ve interaktif quizler.',
   alternates: {
     canonical: 'https://kpsscografya.com.tr/hazirlik',
   },
   openGraph: {
-    title: 'KPSS Coğrafya Hazırlık — Lisans, Önlisans, Ortaöğretim',
-    description: 'Seviyene göre KPSS coğrafya hazırlık rehberi.',
+    title: 'KPSS & YKS Coğrafya Hazırlık — Seviyene Özel Rehber',
+    description: 'KPSS ve YKS (TYT/AYT) coğrafya hazırlık konuları, soru dağılımı ve quiz.',
     url: 'https://kpsscografya.com.tr/hazirlik',
     siteName: 'kpsscografya.com.tr',
     locale: 'tr_TR',
@@ -24,6 +24,8 @@ const renkler: Record<string, string> = {
   blue: 'bg-blue-50 border-blue-200 hover:border-blue-500 text-blue-700',
   green: 'bg-green-50 border-green-200 hover:border-green-500 text-green-700',
   amber: 'bg-amber-50 border-amber-200 hover:border-amber-500 text-amber-700',
+  indigo: 'bg-indigo-50 border-indigo-200 hover:border-indigo-500 text-indigo-700',
+  rose: 'bg-rose-50 border-rose-200 hover:border-rose-500 text-rose-700',
 };
 
 export default function HazirlikPage() {
@@ -35,12 +37,12 @@ export default function HazirlikPage() {
             Hangi Seviyeden Hazırlanıyorsun?
           </h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            KPSS coğrafya hazırlığı için seviyene özel konu anlatımı, soru dağılımı
-            ve interaktif quiz.
+            KPSS ve YKS (TYT/AYT) coğrafya hazırlığı için seviyene özel konu anlatımı,
+            soru dağılımı ve interaktif quiz.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {seviyeler.map((s) => (
             <Link
               key={s.slug}
