@@ -6,20 +6,19 @@ async function run() {
     const key = process.env.GEMINI_API_KEY;
     const BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
     const CHAT_ID = process.env.TELEGRAM_CHAT_ID;
-    const SITE_URL = "https://kpsscografya.com.tr";
 
-    console.log("🚀 Bot başlatıldı (Saf API Modu)...");
+    console.log("🚀 Bot başlatıldı (V1 API Modu)...");
 
-    // --- 1. KONU VE İÇERİK ---
     const rotationPath = "data/rotation.json";
     const rotation = JSON.parse(fs.readFileSync(rotationPath, "utf-8"));
     const topicSlug = rotation.topics[rotation.last_index];
     const content = fs.readFileSync(`content/konu/${topicSlug}.mdx`, "utf-8");
 
-    // --- 2. GEMINI SAF API İSTEĞİ ---
-    console.log(`🧠 Gemini'ye direkt istek atılıyor: ${topicSlug}`);
+    // --- GEMINI V1 API İSTEĞİ ---
+    console.log(`🧠 Gemini V1'e istek atılıyor: ${topicSlug}`);
     
-    const geminiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${key}`;
+    // Sürümü v1beta'dan v1'e çektik
+    const geminiUrl = `https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key=${key}`;
     
     const geminiResponse = await fetch(geminiUrl, {
       method: "POST",
@@ -28,7 +27,7 @@ async function run() {
         contents: [{
           parts: [{
             text: `Sen bir KPSS Coğrafya uzmanısın. Şu içerikten ÖSYM tarzı 4 şıklı bir anket sorusu üret. 
-            Cevabı SADECE şu JSON formatında ver, başka yazı yazma:
+            JSON FORMATINDA CEVAP VER:
             { "question": "", "options": ["A","B","C","D"], "correct_index": 0, "explanation": "" }
             
             İÇERİK: ${content}`
@@ -39,17 +38,15 @@ async function run() {
 
     const geminiData = await geminiResponse.json();
     
-    if (!geminiData.candidates) {
-      console.error("❌ Gemini Cevabı:", JSON.stringify(geminiData));
-      throw new Error("Gemini içerik üretemedi.");
+    if (geminiData.error) {
+      console.error("❌ Google Hatası:", JSON.stringify(geminiData.error));
+      throw new Error(geminiData.error.message);
     }
 
     const rawText = geminiData.candidates[0].content.parts[0].text;
     const questionData = JSON.parse(rawText.replace(/```json|```/g, "").trim());
 
-    // --- 3. TELEGRAM GÖNDERİMİ ---
-    console.log("📤 Telegram'a gönderiliyor...");
-    
+    // --- TELEGRAM ---
     const pollRes = await fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendPoll`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -64,11 +61,8 @@ async function run() {
       }),
     });
 
-    const pollResult = await pollRes.json();
-    if (pollResult.ok) {
+    if ((await pollRes.json()).ok) {
       console.log("✅ Başarıyla tamamlandı!");
-      
-      // Kaydet ve Rotasyonu ilerlet
       rotation.last_index = (rotation.last_index + 1) % rotation.topics.length;
       fs.writeFileSync(rotationPath, JSON.stringify(rotation, null, 2));
       
@@ -77,8 +71,6 @@ async function run() {
       let quizData = fs.existsSync(quizPath) ? JSON.parse(fs.readFileSync(quizPath, "utf-8")) : [];
       quizData.push({ ...questionData, created_at: new Date().toISOString() });
       fs.writeFileSync(quizPath, JSON.stringify(quizData, null, 2));
-    } else {
-      console.error("❌ Telegram Hatası:", JSON.stringify(pollResult));
     }
 
   } catch (error) {
