@@ -8,6 +8,14 @@ async function run() {
   try {
     console.log("🚀 Bot başlatıldı...");
     
+    // 0. MEVCUT MODELLERİ KONTROL ET (Debug için)
+    try {
+      const modelList = await genAI.getGenerativeModel({ model: "gemini-1.5-flash" }); // Sadece kontrol
+      console.log("📡 API Bağlantısı kuruldu.");
+    } catch (e) {
+      console.log("⚠️ Model listesi alınırken bir durum oluştu, devam ediliyor...");
+    }
+
     // 1. Konu Seçimi (Rotation)
     const rotationPath = "data/rotation.json";
     const rotation = JSON.parse(fs.readFileSync(rotationPath, "utf-8"));
@@ -29,8 +37,10 @@ async function run() {
 
     // 4. Gemini ile Soru Üret
     console.log(`🧠 Gemini soru üretiyor (${topicSlug})...`);
-    // En güncel model: 'gemini-1.5-flash'
-    const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+    
+    // BU SEFER 'gemini-1.5-pro' DENİYORUZ
+    const model = genAI.getGenerativeModel({ model: "gemini-1.5-pro" });
+    
     const prompt = `Sen bir KPSS Coğrafya uzmanısın. Aşağıdaki içeriğe dayanarak interaktif bir soru üret.
     
     İÇERİĞİ: ${content}
@@ -47,7 +57,8 @@ async function run() {
     }`;
 
     const result = await model.generateContent(prompt);
-    const questionData = JSON.parse(result.response.text().replace(/```json|```/g, "").trim());
+    const questionText = result.response.text().replace(/```json|```/g, "").trim();
+    const questionData = JSON.parse(questionText);
 
     // 5. Telegram'a Gönder
     console.log("📤 Telegram'a gönderiliyor...");
@@ -88,7 +99,7 @@ async function run() {
 
     console.log("✅ Başarıyla tamamlandı.");
   } catch (error) {
-    console.error("❌ Hata:", error.message);
+    console.error("❌ Hata Detayı:", error);
     process.exit(1);
   }
 }
