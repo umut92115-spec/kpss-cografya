@@ -6,7 +6,6 @@ async function run() {
     const key = process.env.GEMINI_API_KEY;
     const BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
     const CHAT_ID = process.env.TELEGRAM_CHAT_ID?.trim();
-    const SITE_URL = "https://kpsscografya.com.tr";
 
     console.log("🚀 Bot başlatıldı...");
 
@@ -27,7 +26,6 @@ async function run() {
       const mdxPath = `content/konu/${topicSlug}.mdx`;
       if (fs.existsSync(mdxPath)) {
         content = fs.readFileSync(mdxPath, "utf-8");
-        console.log(`✅ Konu bulundu: ${topicSlug}`);
         break;
       } else {
         rotation.last_index = (rotation.last_index + 1) % rotation.topics.length;
@@ -35,39 +33,31 @@ async function run() {
       }
     }
 
-    // 3. GEMINI ÜRETİMİ (ŞIK SINIRIYLA)
-    console.log(`🧠 Soru üretiliyor: ${topicSlug}`);
+    // 3. GEMINI ÜRETİMİ
     const geminiUrl = `https://generativelanguage.googleapis.com/v1/${workingModel.name}:generateContent?key=${key}`;
     const geminiResponse = await fetch(geminiUrl, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
-        contents: [{ parts: [{ text: `Sen bir KPSS uzmanısın. ÖSYM tarzı 4 şıklı bir quiz üret. 
-        ÖNEMLİ: Her bir şık (option) MAX 90 karakter olmalı. 
-        JSON: { "question": "", "options": ["A","B","C","D"], "correct_index": 0, "explanation": "" } \n İÇERİK: ${content}` }] }]
+        contents: [{ parts: [{ text: `Sen bir KPSS uzmanısın. ÖSYM tarzı 4 şıklı bir quiz üret. JSON: { "question": "", "options": ["A","B","C","D"], "correct_index": 0, "explanation": "" } \n İÇERİK: ${content}` }] }]
       })
     });
     const geminiData = await geminiResponse.json();
     const questionData = JSON.parse(geminiData.candidates[0].content.parts[0].text.replace(/```json|```/g, "").trim());
 
-    // --- ŞIKLARI VE AÇIKLAMAYI ZORLA KIRP ---
-    const safeOptions = questionData.options.map(opt => opt.substring(0, 95));
-    const safeExplanation = questionData.explanation.substring(0, 195);
-    const safeQuestion = questionData.question.substring(0, 295);
-
-    // 4. TELEGRAM GÖNDERİMİ
+    // 4. TELEGRAM GÖNDERİMİ (ANONİM MOD)
     console.log("📤 Telegram'a gönderiliyor...");
     const pollRes = await fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendPoll`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
         chat_id: CHAT_ID,
-        question: safeQuestion,
-        options: safeOptions,
+        question: questionData.question.substring(0, 295),
+        options: questionData.options.map(o => o.substring(0, 95)),
         type: "quiz",
         correct_option_id: questionData.correct_index,
-        explanation: safeExplanation,
-        is_anonymous: false
+        explanation: questionData.explanation.substring(0, 195),
+        is_anonymous: true // KANAL İÇİN ZORUNLU
       }),
     });
 
