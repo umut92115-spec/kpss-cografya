@@ -39,7 +39,12 @@ export async function generateMetadata({
     },
     other: {
       'geo.region': 'TR',
-      language: 'Turkish',
+      'geo.placename': 'Türkiye',
+      'geo.position': '38.9637;35.2433',
+      'ICBM': '38.9637, 35.2433',
+      'revisit-after': '7 days',
+      'distribution': 'global',
+      'language': 'Turkish',
     },
   };
 }
@@ -268,8 +273,17 @@ export default function SeviyePage({ params }: { params: { seviye: string } }) {
             <h2 className="text-3xl font-black text-gray-900 mb-8 border-b border-blue-200 pb-4">
               {s.baslik} Coğrafya Başarı Rehberi
             </h2>
-            <div className="whitespace-pre-wrap text-gray-700 leading-relaxed space-y-6">
-              {s.makale}
+            <div className="text-gray-700 leading-relaxed space-y-6">
+              {s.makale.trim().split('\n\n').map((paragraph, idx) => {
+                if (paragraph.startsWith('### ')) {
+                  return (
+                    <h3 key={idx} className="text-xl font-black text-gray-900 mt-8 mb-4">
+                      {paragraph.replace('### ', '')}
+                    </h3>
+                  );
+                }
+                return <p key={idx}>{paragraph}</p>;
+              })}
             </div>
           </div>
         </section>

@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     template: "%s | KPSS Coğrafya"
   },
   description: "Türkiye'nin en kapsamlı, harita destekli KPSS coğrafya hazırlık platformu. 81 ilin coğrafi özellikleri, madenler, tarım, iklim ve ulaşım konuları.",
-  keywords: ["kpss coğrafya", "kpss hazırlık", "türkiye haritası", "kpss madenler", "kpss tarım", "kpss özet"],
+  keywords: ["kpss coğrafya", "yks coğrafya", "tyt coğrafya", "ayt coğrafya", "kpss hazırlık", "yks hazırlık", "türkiye haritası", "kpss madenler", "kpss tarım", "kpss özet"],
   authors: [{ name: "KPSS Coğrafya Ekibi" }],
   creator: "KPSS Coğrafya",
   publisher: "KPSS Coğrafya",
