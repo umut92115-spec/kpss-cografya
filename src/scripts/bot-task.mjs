@@ -1,6 +1,5 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import fs from "fs";
-import path from "path";
 import 'dotenv/config';
 
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
@@ -30,8 +29,8 @@ async function run() {
 
     // 4. Gemini ile Soru Üret
     console.log(`🧠 Gemini soru üretiyor (${topicSlug})...`);
-    // En geniş uyumluluğa sahip 'gemini-pro' modelini kullanıyoruz.
-    const model = genAI.getGenerativeModel({ model: "gemini-pro" });
+    // En güncel model: 'gemini-1.5-flash'
+    const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
     const prompt = `Sen bir KPSS Coğrafya uzmanısın. Aşağıdaki içeriğe dayanarak interaktif bir soru üret.
     
     İÇERİĞİ: ${content}

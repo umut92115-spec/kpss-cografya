@@ -18,7 +18,7 @@ jobs:
           node-version: '20'
 
       - name: Install Dependencies
-        run: npm install @google/generative-ai dotenv
+        run: npm install @google/generative-ai@latest dotenv
 
       - name: Run Bot Task
         env:
