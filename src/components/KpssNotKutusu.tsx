@@ -1,6 +1,6 @@
 import { ReactNode } from 'react';
 
-type KpssNotTip = 'onemli' | 'ezber' | 'soru' | 'dikkat';
+type KpssNotTip = 'onemli' | 'ezber' | 'soru' | 'dikkat' | 'uyari';
 
 interface KpssNotProps {
   tip: KpssNotTip;
@@ -41,10 +41,20 @@ const tipAyarlar: Record<KpssNotTip, { bg: string; border: string; icon: string;
     titleColor: 'text-red-800',
     textColor: 'text-red-700',
   },
+  uyari: {
+    bg: 'bg-amber-50',
+    border: 'border-amber-500',
+    icon: '🚨',
+    defaultBaslik: 'Kritik Uyarı',
+    titleColor: 'text-amber-800',
+    textColor: 'text-amber-700',
+  },
 };
 
 export default function KpssNotKutusu({ tip, children, baslik }: KpssNotProps) {
-  const ayar = tipAyarlar[tip];
+  // Bilinmeyen bir tip gelirse (MDX'ten kaynaklı) hata vermemesi için fallback ekliyoruz
+  const ayar = tipAyarlar[tip] || tipAyarlar.onemli;
+  
   return (
     <div className={`my-6 rounded-lg border-l-4 ${ayar.border} ${ayar.bg} p-4`}>
       <p className={`font-bold text-sm mb-2 flex items-center gap-2 ${ayar.titleColor}`}>
