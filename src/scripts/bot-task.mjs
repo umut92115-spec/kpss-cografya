@@ -7,6 +7,7 @@ async function run() {
     const key = process.env.GEMINI_API_KEY;
     const BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
     const CHAT_ID = process.env.TELEGRAM_CHAT_ID;
+    const SITE_URL = "https://kpsscografya.com.tr";
 
     console.log("🚀 Bot başlatıldı...");
 
@@ -27,31 +28,59 @@ async function run() {
     
     const content = fs.readFileSync(`content/konu/${topicSlug}.mdx`, "utf-8");
 
-    // --- GEMINI SORU ÜRETİMİ ---
-    console.log(`🧠 Soru üretiliyor (${cleanModelName}): ${topicSlug}`);
-    const prompt = `Sen bir KPSS Coğrafya uzmanısın. Aşağıdaki içerikten 4 şıklı bir quiz sorusu üret. 
-    ÖNEMLİ: Cevap sadece JSON olsun. Soru max 250, açıklama max 180 karakter olsun.
-    JSON: { "question": "", "options": ["A","B","C","D"], "correct_index": 0, "explanation": "" } 
-    İÇERİK: ${content}`;
+    // --- GÖRSEL HARİTASI ---
+    const imageMap = JSON.parse(fs.readFileSync("data/image-map.json", "utf-8"));
+    const availableImages = Object.values(imageMap).flatMap((v) => 
+      typeof v === 'object' ? Object.values(v).flat() : v
+    );
+
+    // --- GEMINI SORU ÜRETİMİ (ÖSYM TARZI) ---
+    console.log(`🧠 ÖSYM tarzı soru üretiliyor (${topicSlug})...`);
+    const prompt = `Sen bir ÖSYM Coğrafya soru hazırlama uzmanısın. 
+    Aşağıdaki içeriği %60 temel alarak, %40 kendi genel kültür ve uzmanlık bilgilerini katarak ÖSYM FORMATINDA bir soru üret.
+    
+    ÖNEMLİ KURALLAR:
+    - Soru net ve akademik olsun.
+    - Sadece JSON formatında cevap ver.
+    - Soru max 250, açıklama (explanation) max 180 karakter olsun.
+    - Şıklar 4 adet olsun.
+    
+    İÇERİK: ${content}
+    GÖRSEL HAVUZU: ${availableImages.join(", ")}
+    
+    JSON: { "question": "", "options": ["A","B","C","D"], "correct_index": 0, "explanation": "", "suggested_image": "image.png veya null" }`;
     
     const result = await model.generateContent(prompt);
     const questionData = JSON.parse(result.response.text().replace(/```json|```/g, "").trim());
 
-    // --- TELEGRAM GÜVENLİK SINIRLARI ---
-    const cleanExplanation = questionData.explanation.substring(0, 195);
-    const cleanQuestion = questionData.question.substring(0, 295);
+    // --- TELEGRAM GÖNDERİMİ ---
+    
+    // 1. Varsa Görseli Gönder
+    if (questionData.suggested_image && questionData.suggested_image !== "null") {
+      const imageUrl = `${SITE_URL}/images/konu/${questionData.suggested_image}`;
+      console.log(`🖼️ Görsel gönderiliyor: ${questionData.suggested_image}`);
+      await fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendPhoto`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ 
+          chat_id: CHAT_ID, 
+          photo: imageUrl, 
+          caption: "🧭 KPSS COĞRAFYA - Görsel Destekli Soru" 
+        }),
+      });
+    }
 
-    // --- TELEGRAM ANKET GÖNDERİMİ ---
+    // 2. Anketi Gönder
     const pollRes = await fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendPoll`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
         chat_id: CHAT_ID,
-        question: cleanQuestion,
+        question: questionData.question.substring(0, 295),
         options: questionData.options,
         type: "quiz",
         correct_option_id: questionData.correct_index,
-        explanation: cleanExplanation,
+        explanation: questionData.explanation.substring(0, 195),
         is_anonymous: false
       }),
     });
@@ -60,29 +89,16 @@ async function run() {
     if (pollResult.ok) {
       console.log("✅ Anket başarıyla gönderildi!");
     } else {
-      throw new Error(`Telegram Hatası: ${JSON.stringify(pollResult)}`);
+      console.error("❌ Telegram Hatası:", JSON.stringify(pollResult));
     }
 
-    // --- KAYIT İŞLEMİ ---
+    // --- KAYIT ---
     const quizPath = `data/quiz/${topicSlug}.json`;
     if (!fs.existsSync("data/quiz")) fs.mkdirSync("data/quiz", { recursive: true });
-    
-    let quizData = [];
-    try {
-      if (fs.existsSync(quizPath)) {
-        const fileContent = fs.readFileSync(quizPath, "utf-8");
-        quizData = JSON.parse(fileContent);
-        if (!Array.isArray(quizData)) quizData = []; // Liste değilse sıfırla
-      }
-    } catch (e) {
-      quizData = []; // Bozuksa sıfırla
-    }
-
+    let quizData = fs.existsSync(quizPath) ? JSON.parse(fs.readFileSync(quizPath, "utf-8")) : [];
     quizData.push({ ...questionData, created_at: new Date().toISOString() });
     fs.writeFileSync(quizPath, JSON.stringify(quizData, null, 2));
     fs.writeFileSync(rotationPath, JSON.stringify(rotation, null, 2));
-
-    console.log("🏁 Her şey başarıyla tamamlandı.");
 
   } catch (error) {
     console.error("❌ Hata:", error.message);
