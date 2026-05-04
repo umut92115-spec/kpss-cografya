@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Inter } from "next/font/google";
 import "./globals.css";
 // İleride eklenecek bileşenler (Navbar vb) için importlar
@@ -47,7 +48,7 @@ export const metadata: Metadata = {
     images: ['/og-default.jpg'],
   },
   verification: {
-    google: '[KOD]',
+    google: 'googleedf2a85a89d149c4.html',
   },
 };
 
@@ -76,6 +77,17 @@ export default function RootLayout({
         <Footer />
         <Analytics />
         <SpeedInsights />
+        {/* Google Analytics */}
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-SGTYB5MD7V" strategy="afterInteractive" />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-SGTYB5MD7V');
+          `}
+        </Script>
       </body>
     </html>
   );
