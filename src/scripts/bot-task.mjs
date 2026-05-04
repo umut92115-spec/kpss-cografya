@@ -30,8 +30,8 @@ async function run() {
 
     // 4. Gemini ile Soru Üret
     console.log(`🧠 Gemini soru üretiyor (${topicSlug})...`);
-    // En kararlı model olan 'gemini-1.5-flash' kullanıyoruz.
-    const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+    // En geniş uyumluluğa sahip 'gemini-pro' modelini kullanıyoruz.
+    const model = genAI.getGenerativeModel({ model: "gemini-pro" });
     const prompt = `Sen bir KPSS Coğrafya uzmanısın. Aşağıdaki içeriğe dayanarak interaktif bir soru üret.
     
     İÇERİĞİ: ${content}
