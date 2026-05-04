@@ -20,7 +20,7 @@ export default function Footer() {
             <Link href="/" className="flex items-center gap-2 mb-4 group w-fit">
               <span className="text-2xl">🗺️</span>
               <span className="font-black text-white text-lg tracking-tight">
-                kpss<span className="text-harita-mavi-light">coğrafya</span>.com
+                kpss<span className="text-harita-mavi-light">coğrafya</span>.com.tr
               </span>
             </Link>
             <p className="text-sm text-gray-400 leading-relaxed">

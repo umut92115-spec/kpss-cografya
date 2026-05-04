@@ -38,7 +38,7 @@ export default function Navbar() {
               <span className="font-black text-kpss-koyu text-lg tracking-tight group-hover:text-harita-mavi transition-colors">
                 kpss<span className="text-harita-mavi">coğrafya</span>
               </span>
-              <span className="text-[10px] text-gray-400 block -mt-0.5 font-medium uppercase tracking-widest">.com</span>
+              <span className="text-[10px] text-gray-400 block -mt-0.5 font-medium uppercase tracking-widest">.com.tr</span>
             </div>
           </Link>
         </div>
