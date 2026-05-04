@@ -6,56 +6,37 @@ async function run() {
     const key = process.env.GEMINI_API_KEY;
     const BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
     const CHAT_ID = process.env.TELEGRAM_CHAT_ID;
-    const SITE_URL = "https://kpsscografya.com.tr";
 
     console.log("🚀 Bot başlatıldı...");
+    // Güvenlik için sadece son 4 haneyi yazdırıp kontrol edelim
+    console.log(`📍 Hedef Chat ID (Son 4 hane): ...${CHAT_ID ? CHAT_ID.slice(-4) : "YOK!"}`);
 
     // 1. MODEL KEŞFİ
     const listRes = await fetch(`https://generativelanguage.googleapis.com/v1/models?key=${key}`);
     const listData = await listRes.json();
     const workingModel = listData.models.find(m => m.supportedGenerationMethods.includes("generateContent") && (m.name.includes("flash") || m.name.includes("pro")));
-    if (!workingModel) throw new Error("Çalışan model yok.");
 
     // 2. KONU SEÇİMİ
     const rotationPath = "data/rotation.json";
     const rotation = JSON.parse(fs.readFileSync(rotationPath, "utf-8"));
     const topicSlug = rotation.topics[rotation.last_index];
     const content = fs.readFileSync(`content/konu/${topicSlug}.mdx`, "utf-8");
-    const imageMap = JSON.parse(fs.readFileSync("data/image-map.json", "utf-8"));
 
-    // 3. REKLAM VE EĞİTİM SAATLERİ
-    const trHour = (new Date().getUTCHours() + 3) % 24;
-
-    if ([9, 14, 21].includes(trHour)) {
-      const ad = `🌟 *KPSS Coğrafya'yı Haritalarla Keşfedin!*\n\n🔗 [kpsscografya.com.tr](https://kpsscografya.com.tr)`;
-      await fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ chat_id: CHAT_ID, text: ad, parse_mode: "Markdown" }) });
-    }
-
-    // 4. ÖSYM TARZI SORU ÜRETİMİ
-    console.log(`🧠 Soru üretiliyor: ${topicSlug}`);
+    // 3. GEMINI ÜRETİMİ
     const geminiUrl = `https://generativelanguage.googleapis.com/v1/${workingModel.name}:generateContent?key=${key}`;
     const geminiResponse = await fetch(geminiUrl, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
-        contents: [{ parts: [{ text: `Sen bir KPSS uzmanısın. İçerikten %60, uzmanlığından %40 katarak ÖSYM tarzı 4 şıklı bir quiz üret. JSON: { "question": "", "options": ["A","B","C","D"], "correct_index": 0, "explanation": "", "suggested_image": "" } \n İÇERİK: ${content}` }] }]
+        contents: [{ parts: [{ text: `Sen bir KPSS uzmanısın. Şu içerikten ÖSYM tarzı 4 şıklı bir quiz üret. JSON: { "question": "", "options": ["A","B","C","D"], "correct_index": 0, "explanation": "" } \n İÇERİK: ${content}` }] }]
       })
     });
-
     const geminiData = await geminiResponse.json();
-    const rawText = geminiData.candidates[0].content.parts[0].text;
-    const questionData = JSON.parse(rawText.replace(/```json|```/g, "").trim());
+    const questionData = JSON.parse(geminiData.candidates[0].content.parts[0].text.replace(/```json|```/g, "").trim());
 
-    // 5. TELEGRAM GÖNDERİMİ (Görsel + Anket)
-    const topicImages = imageMap[topicSlug];
-    const selectedImage = questionData.suggested_image || (Array.isArray(topicImages) ? topicImages[0] : topicImages);
-
-    if (selectedImage && selectedImage !== "null") {
-      const imageUrl = `${SITE_URL}/images/konu/${selectedImage}`;
-      await fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendPhoto`, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ chat_id: CHAT_ID, photo: imageUrl, caption: "🧭 KPSS COĞRAFYA" }) });
-    }
-
-    await fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendPoll`, {
+    // 4. TELEGRAM GÖNDERİMİ (DETAYLI LOGLU)
+    console.log("📤 Telegram'a anket gönderiliyor...");
+    const pollRes = await fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendPoll`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -69,26 +50,14 @@ async function run() {
       }),
     });
 
-    // 6. GÜVENLİ KAYIT VE ROTASYON
-    rotation.last_index = (rotation.last_index + 1) % rotation.topics.length;
-    fs.writeFileSync(rotationPath, JSON.stringify(rotation, null, 2));
+    const pollResult = await pollRes.json();
+    if (pollResult.ok) {
+      console.log(`✅ BAŞARILI! Mesaj ID: ${pollResult.result.message_id}`);
+      console.log(`📡 Gönderilen Chat: ${pollResult.result.chat.title} (@${pollResult.result.chat.username})`);
+    } else {
+      console.error("❌ Telegram Hatası:", JSON.stringify(pollResult));
+    }
 
-    const quizPath = `data/quiz/${topicSlug}.json`;
-    if (!fs.existsSync("data/quiz")) fs.mkdirSync("data/quiz", { recursive: true });
-    
-    let quizData = [];
-    try {
-      if (fs.existsSync(quizPath)) {
-        const fileContent = fs.readFileSync(quizPath, "utf-8").trim();
-        if (fileContent) quizData = JSON.parse(fileContent);
-      }
-    } catch (e) { quizData = []; }
-    
-    if (!Array.isArray(quizData)) quizData = [];
-    quizData.push({ ...questionData, created_at: new Date().toISOString() });
-    fs.writeFileSync(quizPath, JSON.stringify(quizData, null, 2));
-
-    console.log("✅ Her şey tamam!");
   } catch (error) {
     console.error("❌ Hata:", error.message);
     process.exit(1);
