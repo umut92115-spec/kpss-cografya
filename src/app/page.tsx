@@ -4,11 +4,11 @@ import { getAllKonular } from '@/lib/getKonuData';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'KPSS Coğrafya — Harita Üzerinden Öğren | kpsscografya.com.tr',
+  title: 'KPSS Coğrafya - Ücretsiz Notlar, Harita ve Soru Bankası',
   description: 'KPSS coğrafya sınavına harita ile hazırlan. 10 konu, 81 il, interaktif harita ve quiz modu. Madenler, tarım, iklim, ulaşım ve daha fazlası.',
   alternates: { canonical: 'https://kpsscografya.com.tr' },
   openGraph: {
-    title: 'KPSS Coğrafya — Harita Üzerinden Öğren',
+    title: 'KPSS Coğrafya - Ücretsiz Notlar, Harita ve Soru Bankası',
     description: 'KPSS coğrafya sınavına harita ile hazırlan. 10 konu, 81 il, interaktif harita ve quiz modu.',
     url: 'https://kpsscografya.com.tr',
     siteName: 'kpsscografya.com.tr',
