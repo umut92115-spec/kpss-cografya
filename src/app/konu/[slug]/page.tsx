@@ -169,22 +169,29 @@ export default async function KonuPage({ params }: { params: { slug: string } })
         <JsonLd
           tip="FAQPage"
           veri={{
-            mainEntity: mdx.content
-              .split('## Sık Sorulan Sorular')[1]
-              ?.split('---')[0]
-              ?.split('\n**')
-              .filter(q => q.includes('?**'))
+            mainEntity: (mdx.content.split('## Sık Sorulan Sorular')[1] || '')
+              .split('---')[0]
+              .split(/\n\s*\n/) // Paragraflara böl
+              .filter(p => p.includes('**') && p.includes('?')) // Soru içeren paragrafları seç
               .map(block => {
-                const [q, ...a] = block.split('**');
+                // Yıldızları temizle ve soru/cevap ayrımı yap
+                const cleanBlock = block.trim().replace(/^\*\*/, '');
+                const parts = cleanBlock.split('**');
+                const question = parts[0]?.replace(/\?$/, '') + '?';
+                const answer = parts.slice(1).join(' ').trim();
+                
+                if (!question || !answer) return null;
+
                 return {
                   "@type": "Question",
-                  name: q.replace(/\*\*/g, '').trim(),
+                  name: question.trim(),
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: a.join(' ').trim()
+                    text: answer
                   }
                 };
-              }) || []
+              })
+              .filter((item): item is NonNullable<typeof item> => item !== null)
           }}
         />
       )}
