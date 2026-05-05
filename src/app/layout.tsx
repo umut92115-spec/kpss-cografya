@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
 import Script from "next/script";
-import { Inter } from "next/font/google";
+import { Inter, Outfit } from "next/font/google";
 import "./globals.css";
-// İleride eklenecek bileşenler (Navbar vb) için importlar
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 
 const inter = Inter({ subsets: ["latin"], display: 'swap', variable: "--font-inter" });
+const outfit = Outfit({ subsets: ["latin"], display: 'swap', variable: "--font-outfit" });
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://kpsscografya.com.tr'),
@@ -69,7 +69,7 @@ export default function RootLayout({
         <meta name="ICBM" content="38.963745, 35.243322" />
         <meta name="DC.title" content="KPSS Coğrafya Eğitim Platformu" />
       </head>
-      <body className={`${inter.variable} font-sans antialiased bg-gray-50 text-gray-900`}>
+      <body className={`${inter.variable} ${outfit.variable} font-sans antialiased bg-white text-surface-900 selection:bg-brand-100 selection:text-brand-700`}>
         <Navbar />
         <main className="min-h-screen">
           {children}

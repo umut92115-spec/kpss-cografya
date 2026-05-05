@@ -5,31 +5,38 @@ interface KonuOzetKartiProps {
 }
 
 const agirlikRenk: Record<string, string> = {
-  'yüksek': 'bg-red-100 text-red-800 border-red-300',
-  'orta':   'bg-yellow-100 text-yellow-800 border-yellow-300',
-  'düşük':  'bg-green-100 text-green-800 border-green-300',
+  'yüksek': 'bg-rose-50 text-rose-700 border-rose-100',
+  'orta':   'bg-amber-50 text-amber-700 border-amber-100',
+  'düşük':  'bg-emerald-50 text-emerald-700 border-emerald-100',
 };
 
 export default function KonuOzetKarti({ konu }: KonuOzetKartiProps) {
   return (
-    <div className="flex flex-wrap items-center gap-4 p-4 rounded-xl border border-gray-200 bg-white shadow-sm mb-8">
-      <div className="flex items-center gap-3 flex-1 min-w-[200px]">
-        <span className="text-4xl">{konu.icon}</span>
+    <div className="flex flex-wrap items-center justify-between gap-6 p-6 rounded-3xl border border-surface-100 bg-white shadow-premium mb-10 overflow-hidden relative group">
+      <div className="absolute top-0 right-0 w-32 h-32 bg-brand-50 rounded-full blur-3xl opacity-0 group-hover:opacity-100 transition-opacity" />
+      
+      <div className="flex items-center gap-5 relative z-10">
+        <div className="w-16 h-16 rounded-2xl bg-surface-50 flex items-center justify-center text-4xl group-hover:scale-110 transition-transform">
+          {konu.icon}
+        </div>
         <div>
-          <h2 className="font-bold text-gray-900 text-lg leading-tight">{konu.baslik}</h2>
-          <p className="text-sm text-gray-500 mt-0.5">Konu özet kartı</p>
+          <h2 className="font-bold text-surface-900 text-2xl tracking-tight">{konu.baslik}</h2>
+          <p className="text-sm font-medium text-surface-400 mt-1 uppercase tracking-widest">Kapsamlı Konu Özeti</p>
         </div>
       </div>
 
-      <div className="flex flex-wrap gap-3">
-        <div className="text-center px-4 py-2 rounded-lg bg-blue-50 border border-blue-200">
-          <p className="text-2xl font-bold text-blue-700">{konu.kpss_soru_sayisi_ort}</p>
-          <p className="text-xs text-blue-600 whitespace-nowrap">Ort. Soru/Yıl</p>
+      <div className="flex flex-wrap gap-4 relative z-10">
+        <div className="flex items-center gap-4 px-6 py-3 rounded-2xl bg-brand-50 border border-brand-100">
+          <span className="text-3xl font-bold text-brand-600 leading-none">{konu.kpss_soru_sayisi_ort}</span>
+          <div className="flex flex-col">
+            <span className="text-[10px] font-bold text-brand-400 uppercase tracking-widest leading-none mb-1">Ortalama</span>
+            <span className="text-xs font-bold text-brand-700 leading-none">Soru / Yıl</span>
+          </div>
         </div>
 
-        <div className={`text-center px-4 py-2 rounded-lg border ${agirlikRenk[konu.agirlik] || 'bg-gray-100 text-gray-700 border-gray-200'}`}>
-          <p className="text-sm font-bold uppercase tracking-wider">{konu.agirlik}</p>
-          <p className="text-xs opacity-80">Sınav Ağırlığı</p>
+        <div className={`flex flex-col justify-center px-6 py-3 rounded-2xl border ${agirlikRenk[konu.agirlik] || 'bg-surface-50 text-surface-700 border-surface-100'}`}>
+          <span className="text-[10px] font-bold uppercase tracking-widest leading-none mb-1 opacity-70">Sınav Ağırlığı</span>
+          <span className="text-sm font-bold uppercase tracking-wider leading-none">{konu.agirlik}</span>
         </div>
       </div>
     </div>

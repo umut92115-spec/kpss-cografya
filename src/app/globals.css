@@ -4,24 +4,39 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #020617;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  html {
+    scroll-behavior: smooth;
   }
-}
+  
+  body {
+    @apply antialiased text-surface-900 bg-white;
+    font-feature-settings: "cv11", "ss01";
+  }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  /* Premium Scrollbar */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-surface-50;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-surface-200 border-4 border-surface-50 rounded-full hover:bg-surface-300 transition-colors;
+  }
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+  
+  .glass {
+    @apply bg-white/70 backdrop-blur-xl border border-white/20;
   }
 }

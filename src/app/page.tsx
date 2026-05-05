@@ -28,26 +28,29 @@ const araclar = [
   {
     icon: '🗺️',
     baslik: 'İnteraktif Harita',
-    aciklama: 'İl bazlı veri görselleştirme. Her konuyu harita üzerinde keşfet.',
+    aciklama: 'İl bazlı veri görselleştirme. Her konuyu Türkiye haritası üzerinde interaktif olarak keşfet.',
     href: '/harita',
-    renk: 'from-harita-mavi/10 to-blue-50 border-harita-mavi/20 hover:border-harita-mavi/50',
-    etiket: '81 il',
+    renk: 'from-brand-50 to-white border-brand-100 hover:border-brand-300 shadow-sm',
+    etiket: '81 İl',
+    accent: 'text-brand-600 bg-brand-50'
   },
   {
     icon: '✍️',
     baslik: 'Quiz Modu',
-    aciklama: 'Çıkmış KPSS soruları ile kendin test et. Süre, skor ve analiz.',
+    aciklama: 'Çıkmış KPSS soruları ile kendini test et. Detaylı analiz ve skor takibi ile ilerlemeni gör.',
     href: '/quiz',
-    renk: 'from-kpss-turuncu/10 to-orange-50 border-kpss-turuncu/20 hover:border-kpss-turuncu/50',
-    etiket: '200+ soru',
+    renk: 'from-kpss-turuncu-light/30 to-white border-kpss-turuncu-light hover:border-kpss-turuncu shadow-sm',
+    etiket: '200+ Soru',
+    accent: 'text-kpss-turuncu bg-kpss-turuncu-light'
   },
   {
     icon: '📍',
     baslik: 'İl Rehberi',
-    aciklama: 'Her ilin coğrafi özelliklerini, verilerini ve KPSS notlarını gör.',
+    aciklama: 'Her ilin coğrafi özelliklerini, güncel verilerini ve KPSS spesifik notlarını tek tıkla gör.',
     href: '/il',
-    renk: 'from-green-500/10 to-green-50 border-green-500/20 hover:border-green-500/50',
-    etiket: '81 il',
+    renk: 'from-emerald-50 to-white border-emerald-100 hover:border-emerald-300 shadow-sm',
+    etiket: '81 İl',
+    accent: 'text-emerald-600 bg-emerald-50'
   },
 ];
 
@@ -55,7 +58,7 @@ export default function Home() {
   const konular = getAllKonular();
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen selection:bg-brand-100 selection:text-brand-700">
       <JsonLd
         tip="EducationalOrganization"
         veri={{
@@ -72,71 +75,64 @@ export default function Home() {
       {/* ════════════════════════════════════════
           BÖLÜM 1 — HERO
           ════════════════════════════════════════ */}
-      <section className="relative overflow-hidden bg-kpss-koyu text-white">
-        {/* Türkiye SVG silueti — dekoratif arka plan */}
-        <div className="absolute inset-0 opacity-[0.04] pointer-events-none select-none flex items-center justify-center">
-          <svg viewBox="0 0 600 300" className="w-full max-w-3xl" fill="white" aria-hidden="true">
-            <path d="M30,150 Q60,80 120,90 L180,70 Q240,50 300,75 L380,60 Q440,55 500,90 L560,110 Q590,130 570,160 L540,190 Q510,210 480,195 L420,200 Q390,215 360,200 L300,210 Q260,225 220,205 L170,215 Q130,225 100,200 L60,185 Q20,175 30,150Z"/>
-          </svg>
+      <section className="relative pt-20 pb-32 overflow-hidden bg-white">
+        {/* Dekoratif Arka Plan Elemanları */}
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-full pointer-events-none">
+          <div className="absolute top-[-10%] right-[-10%] w-[500px] h-[500px] bg-brand-50 rounded-full blur-[120px] opacity-60 animate-pulse-soft" />
+          <div className="absolute bottom-[-10%] left-[-10%] w-[500px] h-[500px] bg-accent-50 rounded-full blur-[120px] opacity-40" />
         </div>
 
-        {/* Izgara deseni */}
-        <div
-          className="absolute inset-0 opacity-[0.03]"
-          style={{
-            backgroundImage: 'linear-gradient(#ffffff 1px,transparent 1px),linear-gradient(90deg,#ffffff 1px,transparent 1px)',
-            backgroundSize: '48px 48px',
-          }}
-        />
-
-        <div className="relative max-w-5xl mx-auto px-4 py-24 md:py-32 text-center">
-          {/* Üst badge */}
-          <div className="inline-flex items-center gap-2 bg-harita-mavi/20 border border-harita-mavi/30 text-harita-mavi-light rounded-full px-4 py-1.5 text-xs font-semibold mb-8 animate-fade-in">
-            <span className="w-1.5 h-1.5 rounded-full bg-harita-mavi-light animate-ping inline-block" />
-            KPSS 2026 hazırlığı başladı
+        <div className="relative max-w-7xl mx-auto px-6 text-center">
+          {/* Üst Rozet */}
+          <div className="inline-flex items-center gap-2 px-3 py-1 mb-10 rounded-full bg-surface-50 border border-surface-100 text-surface-600 text-sm font-medium animate-fade-in">
+            <span className="relative flex h-2 w-2">
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-400 opacity-75"></span>
+              <span className="relative inline-flex rounded-full h-2 w-2 bg-brand-500"></span>
+            </span>
+            KPSS 2026 Hazırlık Platformu
           </div>
 
-          <h1 className="text-4xl md:text-6xl font-black leading-tight tracking-tight mb-6 animate-fade-in">
-            KPSS Coğrafya&apos;yı{' '}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-harita-mavi-light to-blue-300">
-              Harita Üzerinden
-            </span>{' '}
-            Öğren
+          <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-surface-900 mb-8 animate-fade-in">
+            Coğrafya&apos;yı{' '}
+            <span className="relative">
+              <span className="relative z-10 text-brand-600">Görselleştirin</span>
+              <svg className="absolute -bottom-2 left-0 w-full h-3 text-brand-100 -z-0" viewBox="0 0 100 10" preserveAspectRatio="none">
+                <path d="M0 5 Q 25 0 50 5 Q 75 10 100 5" stroke="currentColor" strokeWidth="8" fill="none" />
+              </svg>
+            </span>
           </h1>
 
-          <p className="text-gray-400 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed animate-fade-in">
-            10 konu · 81 il · interaktif harita
-            <br className="hidden sm:block" />
-            Tıkla, öğren, sınava hazırlan.
+          <p className="text-xl md:text-2xl text-surface-500 max-w-3xl mx-auto mb-12 leading-relaxed animate-fade-in" style={{ animationDelay: '0.1s' }}>
+            Türkiye&apos;nin en interaktif KPSS Coğrafya platformu. Haritalar, güncel veriler ve çıkmış sorularla sınavda fark yaratın.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in">
+          <div className="flex flex-col sm:flex-row gap-5 justify-center items-center animate-fade-in" style={{ animationDelay: '0.2s' }}>
             <Link
               href="/harita"
-              className="inline-flex items-center justify-center gap-2 bg-harita-mavi hover:bg-harita-mavi-dark text-white font-bold py-4 px-8 rounded-2xl text-lg transition-all hover:scale-105 shadow-lg shadow-harita-mavi/30"
+              className="group relative inline-flex items-center justify-center gap-2 px-8 py-4 bg-surface-900 text-white rounded-2xl font-bold text-lg transition-all hover:bg-surface-800 hover:scale-[1.02] active:scale-[0.98] shadow-xl shadow-surface-900/10"
             >
-              🗺️ Haritayı Aç
-              <span className="text-blue-200">→</span>
+              <span>🗺️ Haritayı Keşfet</span>
+              <span className="transition-transform group-hover:translate-x-1">→</span>
             </Link>
             <Link
               href="/quiz"
-              className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 border border-white/20 text-white font-bold py-4 px-8 rounded-2xl text-lg transition-all backdrop-blur-sm"
+              className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-surface-900 border-2 border-surface-100 rounded-2xl font-bold text-lg transition-all hover:border-surface-200 hover:bg-surface-50"
             >
-              ✍️ Quiz&apos;i Dene
+              ✍️ Quiz&apos;e Başla
             </Link>
           </div>
 
-          {/* İstatistik çipleri */}
-          <div className="mt-14 flex flex-wrap justify-center gap-6 text-center">
+          {/* İstatistikler */}
+          <div className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto animate-fade-in" style={{ animationDelay: '0.3s' }}>
             {[
-              { sayi: '10', etiket: 'KPSS Konusu' },
-              { sayi: '81', etiket: 'İnteraktif İl' },
-              { sayi: '200+', etiket: 'Quiz Sorusu' },
-              { sayi: '100%', etiket: 'Ücretsiz' },
-            ].map(({ sayi, etiket }) => (
-              <div key={etiket} className="flex flex-col">
-                <span className="text-3xl font-black text-white">{sayi}</span>
-                <span className="text-xs text-gray-500 font-medium mt-0.5">{etiket}</span>
+              { val: '10', lab: 'Temel Konu' },
+              { val: '81', lab: 'İnteraktif İl' },
+              { val: '200+', lab: 'Özgün Soru' },
+              { val: '100%', lab: 'Ücretsiz' },
+            ].map((stat, i) => (
+              <div key={i} className="flex flex-col items-center">
+                <span className="text-4xl font-bold text-surface-900 mb-1">{stat.val}</span>
+                <span className="text-sm font-medium text-surface-400 uppercase tracking-wider">{stat.lab}</span>
               </div>
             ))}
           </div>
@@ -144,34 +140,43 @@ export default function Home() {
       </section>
 
       {/* ════════════════════════════════════════
-          BÖLÜM 2 — ÖNE ÇIKAN ARAÇLAR (TAŞINDI)
+          BÖLÜM 2 — ARAÇLAR
           ════════════════════════════════════════ */}
-      <section className="bg-gray-100 py-20">
-        <div className="max-w-5xl mx-auto px-4">
-          <div className="text-center mb-12">
-            <p className="text-xs font-bold uppercase tracking-widest text-kpss-turuncu mb-3">Platform Araçları</p>
-            <h2 className="text-3xl md:text-4xl font-black text-kpss-koyu">
-              KPSS&apos;ye Hazırlanmanın Üç Yolu
-            </h2>
+      <section className="py-24 bg-surface-50/50 border-y border-surface-100">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+            <div className="max-w-2xl">
+              <h2 className="text-3xl md:text-4xl font-bold text-surface-900 mb-4">
+                Öğrenme Deneyimini<br />Yeniden Tanımlayın
+              </h2>
+              <p className="text-lg text-surface-500">
+                Geleneksel notlardan sıkıldınız mı? Biz coğrafyayı sayfalardan çıkarıp haritalara taşıyoruz.
+              </p>
+            </div>
+            <Link href="/harita" className="text-brand-600 font-bold flex items-center gap-2 hover:underline">
+              Tüm araçları gör <span className="text-xl">→</span>
+            </Link>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {araclar.map(({ icon, baslik, aciklama, href, renk, etiket }) => (
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {araclar.map((arac, i) => (
               <Link
-                key={href}
-                href={href}
-                className={`group bg-gradient-to-br ${renk} border rounded-2xl p-7 transition-all duration-200 hover:shadow-lg hover:-translate-y-0.5 flex flex-col`}
+                key={i}
+                href={arac.href}
+                className={`group p-8 rounded-3xl border bg-gradient-to-br ${arac.renk} transition-all duration-300 hover:-translate-y-2 hover:shadow-premium`}
               >
-                <div className="text-5xl mb-5">{icon}</div>
-                <div className="flex items-center gap-2 mb-2">
-                  <h3 className="font-black text-kpss-koyu text-xl">{baslik}</h3>
-                  <span className="text-xs bg-white/70 border border-gray-200 text-gray-600 px-2 py-0.5 rounded-full font-medium">
-                    {etiket}
+                <div className="text-6xl mb-8 group-hover:scale-110 transition-transform duration-300">{arac.icon}</div>
+                <div className="flex items-center justify-between mb-4">
+                  <h3 className="text-2xl font-bold text-surface-900">{arac.baslik}</h3>
+                  <span className={`text-xs font-bold px-2.5 py-1 rounded-full ${arac.accent}`}>
+                    {arac.etiket}
                   </span>
                 </div>
-                <p className="text-gray-600 text-sm leading-relaxed flex-1">{aciklama}</p>
-                <div className="mt-5 text-sm font-bold text-harita-mavi group-hover:gap-2 flex items-center gap-1 transition-all">
-                  Keşfet <span>→</span>
+                <p className="text-surface-500 leading-relaxed">
+                  {arac.aciklama}
+                </p>
+                <div className="mt-8 flex items-center gap-2 text-surface-900 font-bold group-hover:gap-3 transition-all">
+                  Hemen Dene <span className="text-xl">→</span>
                 </div>
               </Link>
             ))}
@@ -180,141 +185,136 @@ export default function Home() {
       </section>
 
       {/* ════════════════════════════════════════
-          BÖLÜM 3 — KONULAR IZGARASI
+          BÖLÜM 3 — KONULAR
           ════════════════════════════════════════ */}
-      <section className="max-w-6xl mx-auto px-4 py-20">
-        <div className="text-center mb-12">
-          <p className="text-xs font-bold uppercase tracking-widest text-harita-mavi mb-3">10 KPSS Konusu</p>
-          <h2 className="text-3xl md:text-4xl font-black text-kpss-koyu">
-            Hangi Konudan Başlamak İstersin?
-          </h2>
-          <p className="text-gray-500 mt-3 max-w-xl mx-auto">
-            Her konu: wiki anlatım, il bazlı harita ve soru bankası ile eksiksiz.
-          </p>
-        </div>
+      <section className="py-32 bg-white">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="text-center mb-20">
+            <h2 className="text-4xl md:text-5xl font-bold text-surface-900 mb-6">Müfredatın Tamamı</h2>
+            <p className="text-xl text-surface-500 max-w-2xl mx-auto">
+              KPSS Coğrafya müfredatındaki 10 temel konuyu en ince detayına kadar inceleyin.
+            </p>
+          </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-          {konular.map((k) => (
-            <div
-              key={k.slug}
-              className="group bg-white rounded-2xl border border-gray-200 p-5 hover:border-harita-mavi/40 hover:shadow-lg transition-all duration-200 flex flex-col"
-            >
-              {/* Üst satır: ikon + zorluk */}
-              <div className="flex items-start justify-between mb-4">
-                <span className="text-4xl">{k.icon}</span>
-                <span
-                  className={`text-xs font-semibold px-2 py-1 rounded-full border ${
-                    k.agirlik === 'yüksek'
-                      ? 'bg-red-50 text-red-600 border-red-200'
-                      : k.agirlik === 'orta'
-                      ? 'bg-yellow-50 text-yellow-700 border-yellow-200'
-                      : 'bg-green-50 text-green-700 border-green-200'
-                  }`}
-                >
-                  {k.agirlik}
-                </span>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            {konular.map((k) => (
+              <div
+                key={k.slug}
+                className="group relative p-1 rounded-[2.5rem] bg-surface-50 hover:bg-gradient-to-br hover:from-brand-100 hover:to-accent-100 transition-all duration-500"
+              >
+                <div className="bg-white rounded-[2.2rem] p-8 h-full flex flex-col shadow-sm group-hover:shadow-none transition-shadow">
+                  <div className="flex items-start justify-between mb-6">
+                    <div className="w-16 h-16 rounded-2xl bg-surface-50 flex items-center justify-center text-4xl group-hover:scale-110 transition-transform">
+                      {k.icon}
+                    </div>
+                    <span className={`text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded-full border ${
+                      k.agirlik === 'yüksek' ? 'text-rose-600 border-rose-100 bg-rose-50' :
+                      k.agirlik === 'orta' ? 'text-amber-600 border-amber-100 bg-amber-50' :
+                      'text-emerald-600 border-emerald-100 bg-emerald-50'
+                    }`}>
+                      {k.agirlik} Önem
+                    </span>
+                  </div>
+
+                  <h3 className="text-2xl font-bold text-surface-900 mb-2">{k.baslik}</h3>
+                  <p className="text-surface-500 text-sm mb-6 flex-1 line-clamp-3 leading-relaxed">
+                    {k.aciklama}
+                  </p>
+
+                  <div className="flex items-center gap-4 pt-6 border-t border-surface-50">
+                    <Link
+                      href={`/konu/${k.slug}`}
+                      className="flex-1 px-4 py-2.5 rounded-xl bg-surface-900 text-white text-center text-sm font-bold hover:bg-surface-800 transition-colors"
+                    >
+                      📖 Çalış
+                    </Link>
+                    <Link
+                      href={`/harita/${k.slug}`}
+                      className="flex-1 px-4 py-2.5 rounded-xl bg-surface-50 text-surface-900 text-center text-sm font-bold hover:bg-surface-100 transition-colors"
+                    >
+                      🗺️ Harita
+                    </Link>
+                  </div>
+                </div>
               </div>
-
-              {/* İsim */}
-              <h3 className="font-bold text-kpss-koyu text-lg leading-snug mb-1">
-                {k.baslik}
-              </h3>
-              <p className="text-sm text-gray-500 mb-1">
-                Ortalama <span className="font-bold text-kpss-turuncu">{k.kpss_soru_sayisi_ort} soru</span>
-              </p>
-              <p className="text-sm text-gray-400 leading-relaxed line-clamp-2 flex-1">
-                {k.aciklama}
-              </p>
-
-              {/* Alt linkler */}
-              <div className="mt-5 pt-4 border-t border-gray-100 flex gap-3">
-                <Link
-                  href={`/harita/${k.slug}`}
-                  className="flex-1 text-center text-xs font-semibold text-white bg-harita-mavi hover:bg-harita-mavi-dark py-2 rounded-lg transition-colors"
-                >
-                  🗺️ Haritada Gör →
-                </Link>
-                <Link
-                  href={`/konu/${k.slug}`}
-                  className="flex-1 text-center text-xs font-semibold text-gray-700 bg-gray-100 hover:bg-gray-200 py-2 rounded-lg transition-colors"
-                >
-                  📖 Anlat →
-                </Link>
-              </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </section>
 
       {/* ════════════════════════════════════════
-          BÖLÜM 4 — KPSS SORU DAĞILIMI
+          BÖLÜM 4 — SORU DAĞILIMI (Görselleştirme)
           ════════════════════════════════════════ */}
-      <section className="max-w-5xl mx-auto px-4 py-20">
-        <div className="text-center mb-12">
-          <p className="text-xs font-bold uppercase tracking-widest text-gray-400 mb-3">Veri Destekli Hazırlık</p>
-          <h2 className="text-3xl font-black text-kpss-koyu">
-            KPSS&apos;de Coğrafya Soru Dağılımı
-          </h2>
-          <p className="text-gray-500 mt-3">Son 5 yıl ortalamasına göre</p>
+      <section className="py-24 bg-surface-900 text-white overflow-hidden relative">
+        <div className="absolute top-0 left-0 w-full h-full opacity-10 pointer-events-none">
+          <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(#ffffff_1px,transparent_1px)] [background-size:40px_40px]" />
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-          {konular
-            .slice()
-            .sort((a, b) => b.kpss_soru_sayisi_ort - a.kpss_soru_sayisi_ort)
-            .map((k) => {
-              const maxSoru = 4;
-              const oran = (k.kpss_soru_sayisi_ort / maxSoru) * 100;
-              return (
-                <div key={k.slug} className="flex items-center gap-3 bg-white rounded-xl border border-gray-200 p-4">
-                  <span className="text-2xl w-8 text-center shrink-0">{k.icon}</span>
-                  <div className="flex-1 min-w-0">
-                    <div className="flex justify-between items-center mb-1">
-                      <span className="text-sm font-semibold text-gray-800 truncate">{k.kisa_baslik}</span>
-                      <span className="text-sm font-black text-kpss-turuncu ml-2 shrink-0">
-                        ~{k.kpss_soru_sayisi_ort} soru
-                      </span>
+        <div className="max-w-5xl mx-auto px-6 relative z-10">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">Sınav Analizi</h2>
+            <p className="text-surface-400">Son 5 yılın KPSS soru dağılımına göre konu ağırlıkları</p>
+          </div>
+
+          <div className="space-y-6">
+            {konular
+              .slice()
+              .sort((a, b) => b.kpss_soru_sayisi_ort - a.kpss_soru_sayisi_ort)
+              .map((k, i) => {
+                const maxSoru = 4;
+                const oran = (k.kpss_soru_sayisi_ort / maxSoru) * 100;
+                return (
+                  <div key={k.slug} className="group flex flex-col md:flex-row md:items-center gap-4 bg-white/5 backdrop-blur-md p-6 rounded-3xl border border-white/10 transition-colors hover:bg-white/10">
+                    <div className="flex items-center gap-4 md:w-64">
+                      <span className="text-3xl">{k.icon}</span>
+                      <span className="font-bold text-white truncate">{k.kisa_baslik}</span>
                     </div>
-                    <div className="h-2 bg-gray-100 rounded-full overflow-hidden">
-                      <div
-                        className="h-full bg-gradient-to-r from-harita-mavi to-blue-400 rounded-full transition-all duration-700"
-                        style={{ width: `${oran}%` }}
-                      />
+                    <div className="flex-1">
+                      <div className="h-3 bg-white/10 rounded-full overflow-hidden">
+                        <div
+                          className="h-full bg-gradient-to-r from-brand-400 to-accent-400 rounded-full transition-all duration-1000"
+                          style={{ width: `${oran}%` }}
+                        />
+                      </div>
+                    </div>
+                    <div className="flex items-center justify-between md:w-32">
+                      <span className="text-brand-400 font-bold">~{k.kpss_soru_sayisi_ort} Soru</span>
+                      <Link href={`/konu/${k.slug}`} className="md:hidden text-sm font-bold text-surface-400">Detay →</Link>
                     </div>
                   </div>
-                  <Link
-                    href={`/konu/${k.slug}`}
-                    className="shrink-0 text-xs font-bold text-harita-mavi hover:underline"
-                  >
-                    Çalış →
-                  </Link>
-                </div>
-              );
-            })}
+                );
+              })}
+          </div>
         </div>
       </section>
 
       {/* ════════════════════════════════════════
-          BÖLÜM 5 — CTA BANNER
+          BÖLÜM 5 — CTA
           ════════════════════════════════════════ */}
-      <section className="mx-4 mb-20">
-        <div className="max-w-5xl mx-auto bg-gradient-to-r from-kpss-koyu-soft to-kpss-koyu rounded-3xl p-10 md:p-16 text-center text-white overflow-hidden relative">
-          <div className="absolute -top-10 -right-10 w-48 h-48 bg-harita-mavi/20 rounded-full blur-3xl pointer-events-none" />
-          <div className="absolute -bottom-10 -left-10 w-48 h-48 bg-kpss-turuncu/20 rounded-full blur-3xl pointer-events-none" />
-          <div className="relative">
-            <p className="text-xs font-bold uppercase tracking-widest text-gray-400 mb-4">Hemen Başla</p>
-            <h2 className="text-3xl md:text-4xl font-black mb-4">
-              Türkiye haritasını tıkla,<br />KPSS&apos;yi fethet.
-            </h2>
-            <p className="text-gray-400 mb-8 max-w-lg mx-auto">
-              Ücretsiz, reklamsız ve sınırsız. Hemen haritayı aç, ilini seç, konunu öğren.
+      <section className="py-32 px-6">
+        <div className="max-w-6xl mx-auto rounded-[3rem] p-12 md:p-24 bg-gradient-to-br from-brand-600 to-brand-800 text-white text-center relative overflow-hidden shadow-2xl shadow-brand-500/20">
+          <div className="absolute top-0 right-0 w-96 h-96 bg-white/10 rounded-full blur-[100px] -mr-48 -mt-48" />
+          <div className="absolute bottom-0 left-0 w-96 h-96 bg-black/10 rounded-full blur-[100px] -ml-48 -mb-48" />
+
+          <div className="relative z-10">
+            <h2 className="text-4xl md:text-6xl font-bold mb-8">Hayalindeki Memuriyet İçin<br />Coğrafyayı Fulleyin</h2>
+            <p className="text-xl text-brand-100 mb-12 max-w-2xl mx-auto leading-relaxed">
+              Binlerce aday harita üzerinden öğrenerek başarıya ulaştı. Siz de bugün başlayın, sınavda hiçbir soruyu kaçırmayın.
             </p>
-            <Link
-              href="/harita"
-              className="inline-flex items-center gap-2 bg-harita-mavi hover:bg-harita-mavi-dark text-white font-bold py-4 px-10 rounded-2xl text-lg transition-all hover:scale-105 shadow-xl shadow-harita-mavi/30"
-            >
-              🗺️ Haritayı Aç →
-            </Link>
+            <div className="flex flex-col sm:flex-row gap-6 justify-center">
+              <Link
+                href="/harita"
+                className="px-10 py-5 bg-white text-brand-700 rounded-2xl font-bold text-xl hover:bg-brand-50 transition-all hover:scale-105 active:scale-95 shadow-lg shadow-black/10"
+              >
+                Haritayı Aç →
+              </Link>
+              <Link
+                href="/quiz"
+                className="px-10 py-5 bg-brand-700/50 text-white border border-white/20 backdrop-blur-sm rounded-2xl font-bold text-xl hover:bg-brand-700 transition-all"
+              >
+                Kendini Test Et
+              </Link>
+            </div>
           </div>
         </div>
       </section>
