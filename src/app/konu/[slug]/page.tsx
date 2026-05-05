@@ -265,13 +265,7 @@ export default async function KonuPage({ params }: { params: { slug: string } })
             )}
           </div>
 
-          {/* AKILLI SENTEZ: Quiz Verilerinden FAQ Oluşturma */}
-          {quizData && quizData.sorular && (
-            <SmartFAQ 
-              sorular={quizData.sorular} 
-              konuBaslik={konu.baslik} 
-            />
-          )}
+
 
           {/* Bölgesel Analiz Linkleri */}
           <section className="mt-16 bg-gradient-to-br from-gray-900 to-blue-900 rounded-3xl p-8 md:p-12 text-white overflow-hidden relative">
