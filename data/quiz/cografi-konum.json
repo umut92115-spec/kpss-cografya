@@ -10,5 +10,18 @@
     "correct_index": 0,
     "explanation": "5G Kuralı'nın 4. maddesine göre, Türkiye Yengeç Dönencesi'nin kuzeyinde olduğu için öğle vakti gölge yönü her zaman kuzeyi gösterir. Diğer seçenekler BACADA Kuralı veya özel konumla ilgilidir.",
     "created_at": "2026-05-04T14:27:44.702Z"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, Türkiye'nin Yengeç Dönencesi'nin kuzeyinde yer almasının (5G Kuralı) doğrudan bir sonucu değildir?",
+    "options": [
+      "Güneş ışınlarının hiçbir zaman dik açıyla gelmemesi",
+      "Öğle vakti gölge yönünün her zaman kuzeyi göstermesi",
+      "Batı rüzgarları kuşağında yer alması",
+      "Gölge boyunun hiçbir zaman sıfır olmaması"
+    ],
+    "correct_index": 2,
+    "explanation": "Türkiye'nin Yengeç Dönencesi'nin kuzeyinde yer almasının sonuçları (5G Kuralı) arasında Güneş ışınlarının hiçbir zaman dik açıyla gelmemesi, gölge boyunun hiçbir zaman sıfır olmaması, Güneşi her zaman güneyden alması ve öğle vakti gölge yönünün her zaman kuzeyi göstermesi yer alır. 'Batı rüzgarları kuşağında yer alması' ise Türkiye'nin Orta Kuşak'ta bulunmasının bir sonucudur ve BACADA Kuralı içerisinde değerlendirilir.",
+    "suggested_image": "/images/konu/cografi-konum.png",
+    "created_at": "2026-05-06T03:25:16.035Z"
   }
 ]
