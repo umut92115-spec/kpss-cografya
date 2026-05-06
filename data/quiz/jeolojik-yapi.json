@@ -11,5 +11,18 @@
     "explanation": "Türkiye'nin jeolojik yapısının büyük ölçüde 3. ve 4. jeolojik zamanlarda şekillenmesi, onu genç oluşumlu bir ülke yapar. Bu durumun başlıca sonuçları şunlardır:\n<ul>\n<li><b>Sıcak su kaynaklarının yaygınlığı:</b> Genç volkanik faaliyetler ve aktif fay hatları, termal suların yüzeye çıkmasını sağlar. (A seçeneği doğrudur.)</li>\n<li><b>Yüksek ve engebeli arazi:</b> 3. jeolojik zamandaki Alp-Himalaya kıvrım hareketleri ve 4. jeolojik zamandaki epirojenik yükselmeler, Türkiye'nin yüksek ve engebeli bir topografyaya sahip olmasına yol açmıştır. (B seçeneği doğrudur.)</li>\n<li><b>Deprem riskinin yüksekliği:</b> Alp-Himalaya kıvrım sisteminde yer alması ve levha sınırlarında bulunması nedeniyle deprem riski yüksektir. (D seçeneği doğrudur.)</li>\n</ul>\nAncak, <b>taş kömürü yatakları</b> (örneğin Zonguldak çevresi), 1. jeolojik zamanda (Paleozoik) oluşmuş masif arazilerle ilişkilidir. Bu dönem, Türkiye'nin genel 'genç oluşumlu' yapısının aksine çok eski bir dönemdir. Genç oluşumlu arazilerde ise linyit yatakları yaygındır. Bu nedenle, taş kömürü yataklarının zenginliği Türkiye'nin genç jeolojik yapısıyla değil, eski jeolojik yapısıyla ilgili bir özelliktir.",
     "suggested_image": "/images/konu/jeolojik-yapi.png",
     "created_at": "2026-05-04T15:13:14.581Z"
+  },
+  {
+    "question": "Türkiye'nin jeolojik geçmişi incelendiğinde, farklı jeolojik zamanlarda meydana gelen olaylar ve bu olayların ülkemizdeki yansımaları önemli yer tutmaktadır. Aşağıdakilerden hangisi, bir jeolojik zaman ve o zamana ait Türkiye'deki önemli bir özellik ya da oluşum eşleştirmesi bakımından **yanlıştır**?",
+    "options": [
+      "A) 1. Jeolojik Zaman (Paleozoik): Zonguldak Taş Kömürü yataklarının oluşumu",
+      "B) 3. Jeolojik Zaman (Tersiyer): Alp-Himalaya kıvrım sistemine bağlı Toroslar ve Kuzey Anadolu Dağları'nın oluşumu",
+      "C) 4. Jeolojik Zaman (Kuaterner): İstanbul ve Çanakkale Boğazları'nın oluşumu ile Ege Denizi'nin çökmesi",
+      "D) 2. Jeolojik Zaman (Mezozoik): Anadolu'nun toptan yükselmesiyle yüksek platoların ve kıyı taraçalarının meydana gelmesi"
+    ],
+    "correct_index": 3,
+    "explanation": "Verilen bilgiler incelendiğinde, Anadolu'nun toptan yükselmesi (epirojenez) ile yüksek platoların ve kıyı taraçalarının oluşumu 4. Jeolojik Zaman (Kuaterner) içerisinde gerçekleşmiştir. 2. Jeolojik Zaman (Mezozoik) ise Tetis Denizi'nde tortulanmanın ve Türkiye'nin temelinin su altında birikmesinin yaşandığı, dinozorlar çağı olarak bilinen dönemdir. Diğer seçeneklerde verilen eşleştirmeler (1. Zaman-Taş kömürü, 3. Zaman-Alp-Himalaya, 4. Zaman-Boğazlar) doğrudur.",
+    "suggested_image": "/images/konu/jeolojik-yapi.png",
+    "created_at": "2026-05-06T14:21:04.560Z"
   }
 ]
