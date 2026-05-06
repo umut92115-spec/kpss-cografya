@@ -14,10 +14,7 @@ import IlgiliBaglantilar from '@/components/IlgiliBaglantilar';
 import GorselHafizaKarti from '@/components/GorselHafizaKarti';
 import { linkKeywords, getNextPrevKonu } from '@/lib/linkUtils';
 import { getQuizData } from '@/lib/getQuizData';
-import SmartFAQ from '@/components/SmartFAQ';
-
 import remarkGfm from 'remark-gfm';
-
 // MDX içinde kullanılabilecek özel bileşenler
 const mdxComponents = {
   KpssNot: KpssNotKutusu,
@@ -45,6 +42,43 @@ const mdxComponents = {
       )}
     </span>
   ),
+  blockquote: (props: any) => {
+    // Çocukları (children) düz metne çevirerek kontrol et
+    const children = props.children;
+    const textContent = Array.isArray(children) 
+      ? children.map(c => (typeof c === 'string' ? c : c?.props?.children)).join('')
+      : (typeof children === 'string' ? children : children?.props?.children || '');
+
+    const match = String(textContent).match(/\[!(IMPORTANT|TIP|NOTE|WARNING|CAUTION|onemli|dikkat|ezber|soru|uyari)\]/i);
+    
+    if (match) {
+      const type = match[1].toLowerCase();
+      const typeMap: Record<string, string> = {
+        important: 'onemli', note: 'onemli', tip: 'onemli',
+        warning: 'uyari', caution: 'dikkat',
+        onemli: 'onemli', dikkat: 'dikkat', ezber: 'ezber', soru: 'soru', uyari: 'uyari'
+      };
+      
+      const kpssType = typeMap[type] || 'onemli';
+      
+      // İçerikten tag'i temizle
+      const renderChildren = Array.isArray(children) ? children : [children];
+      const cleanedChildren = renderChildren.map((child: any, idx: number) => {
+        if (typeof child === 'string') {
+          return child.replace(/\[!.*?\]/, '').trim();
+        }
+        if (child?.props?.children && typeof child.props.children === 'string') {
+          const newText = child.props.children.replace(/\[!.*?\]/, '').trim();
+          return <span key={idx}>{newText}</span>;
+        }
+        return child;
+      });
+
+      return <KpssNotKutusu tip={kpssType as any}>{cleanedChildren}</KpssNotKutusu>;
+    }
+    
+    return <blockquote {...props} className="border-l-4 border-gray-200 pl-4 italic my-6 text-gray-700" />;
+  },
   table: (props: React.HTMLAttributes<HTMLTableElement>) => (
     <div className="overflow-x-auto my-8 rounded-xl border border-gray-200 shadow-sm">
       <table {...props} className="min-w-full border-collapse text-sm bg-white" />
@@ -271,7 +305,6 @@ export default async function KonuPage({ params }: { params: { slug: string } })
               </Link>
             )}
           </div>
-
 
 
           {/* Bölgesel Analiz Linkleri */}

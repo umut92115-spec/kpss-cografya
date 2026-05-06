@@ -69,6 +69,13 @@
       "lng": 41.12,
       "tur": "Petrol",
       "ozellik": "Türkiye'nin ilk ve en önemli petrol çıkarma alanı."
+    },
+    {
+      "ad": "Afyon Mermer",
+      "lat": 38.75,
+      "lng": 30.54,
+      "tur": "Mermer",
+      "ozellik": "Türkiye'nin en önemli ihraç madeni."
     }
   ],
   "Enerji Santralleri": [
@@ -120,6 +127,13 @@
       "lng": 26.39,
       "tur": "Rüzgar",
       "ozellik": "İzmir. İlk rüzgar enerji santrallerinden."
+    },
+    {
+      "ad": "Karapınar GES",
+      "lat": 37.71,
+      "lng": 33.55,
+      "tur": "Güneş",
+      "ozellik": "Türkiye'nin en büyük güneş enerji santrali."
     }
   ]
 }

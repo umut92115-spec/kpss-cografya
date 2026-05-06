@@ -1,0 +1,102 @@
+{
+  "tarim_urunleri": [
+    {
+      "urun": "Buğday",
+      "lider_il": "Konya",
+      "bolge": "İç Anadolu",
+      "not": "Tahıl Ambarı"
+    },
+    {
+      "urun": "Arpa",
+      "lider_il": "Konya",
+      "bolge": "İç Anadolu",
+      "not": "Yem sanayisi"
+    },
+    {
+      "urun": "Pamuk",
+      "lider_il": "Şanlıurfa",
+      "bolge": "Güneydoğu Anadolu",
+      "not": "GAP ile 1. sıraya yükseldi"
+    },
+    {
+      "urun": "Fındık",
+      "lider_il": "Ordu",
+      "bolge": "Karadeniz",
+      "not": "Dünya lideri"
+    },
+    {
+      "urun": "Çay",
+      "lider_il": "Rize",
+      "bolge": "Karadeniz",
+      "not": "Tek yetişme alanı"
+    },
+    {
+      "urun": "İncir",
+      "lider_il": "Aydın",
+      "bolge": "Ege",
+      "not": "İhracat şampiyonu"
+    },
+    {
+      "urun": "Zeytin",
+      "lider_il": "Aydın",
+      "bolge": "Ege",
+      "not": "Yağlık ve sofralık"
+    },
+    {
+      "urun": "Kayısı",
+      "lider_il": "Malatya",
+      "bolge": "Doğu Anadolu",
+      "not": "Dünya lideri"
+    },
+    {
+      "urun": "Ayçiçeği",
+      "lider_il": "Tekirdağ",
+      "bolge": "Marmara",
+      "not": "Ergene Bölümü"
+    },
+    {
+      "urun": "Mısır",
+      "lider_il": "Konya",
+      "bolge": "İç Anadolu",
+      "not": "Sulama ile üretimi arttı"
+    }
+  ],
+  "hayvancilik": [
+    {
+      "tur": "Koyun",
+      "lider_il": "Van",
+      "bolge": "Doğu Anadolu",
+      "not": "En fazla sayı"
+    },
+    {
+      "tur": "Kıl Keçisi",
+      "lider_il": "Mersin",
+      "bolge": "Akdeniz",
+      "not": "Dağlık alanlar"
+    },
+    {
+      "tur": "Sığır (Mera)",
+      "lider_il": "Erzurum",
+      "bolge": "Doğu Anadolu",
+      "not": "Yaz yağışları"
+    },
+    {
+      "tur": "Sığır (Besi)",
+      "lider_il": "Konya",
+      "bolge": "İç Anadolu",
+      "not": "Modern tesisler"
+    },
+    {
+      "tur": "Arıcılık",
+      "lider_il": "Ordu",
+      "bolge": "Karadeniz",
+      "not": "Bal üretimi"
+    },
+    {
+      "tur": "Kümes Hayvancılığı",
+      "lider_il": "Balıkesir",
+      "bolge": "Marmara",
+      "not": "Pazar yakınlığı"
+    }
+  ]
+}

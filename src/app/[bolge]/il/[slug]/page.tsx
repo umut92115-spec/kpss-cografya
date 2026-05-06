@@ -6,6 +6,7 @@ import { getAllKonular } from '@/lib/getKonuData';
 import IlTablar from '@/components/IlTablar';
 import JsonLd from '@/components/JsonLd';
 import IlgiliBaglantilar from '@/components/IlgiliBaglantilar';
+import { getIlJsonLd } from '@/lib/geoMeta';
 
 // ─── Statik Param Üretimi ──────────────────────────────────────────────────
 export async function generateStaticParams() {
@@ -87,6 +88,10 @@ export default function IlPage({ params }: { params: { bolge: string; slug: stri
 
   return (
     <>
+      <JsonLd
+        tip="AdministrativeArea"
+        veri={getIlJsonLd(il)}
+      />
       <JsonLd
         tip="Place"
         veri={{

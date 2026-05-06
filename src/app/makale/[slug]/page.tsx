@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
       locale: 'tr_TR',
       type: 'article',
       publishedTime: makale.guncelleme,
-      modifiedTime: makale.guncelleme,
+      authors: ['KPSS Coğrafya'],
     },
   };
 }
@@ -43,20 +43,20 @@ export default function MakalePage({ params }: { params: { slug: string } }) {
         tip="Article"
         veri={{
           headline: makale.baslik,
-          description: makale.aciklama,
           datePublished: makale.guncelleme,
-          dateModified: makale.guncelleme,
           author: {
             "@type": "Organization",
-            name: "kpsscografya.com.tr"
+            "name": "KPSS Coğrafya"
           },
           publisher: {
-            "@type": "EducationalOrganization",
-            name: "kpsscografya.com.tr",
-            url: "https://kpsscografya.com.tr"
+            "@type": "Organization",
+            "name": "KPSS Coğrafya",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://kpsscografya.com.tr/icon-512.png"
+            }
           },
-          inLanguage: "tr",
-          isAccessibleForFree: true
+          inLanguage: "tr-TR"
         }}
       />
       <article className="prose prose-lg max-w-none">

@@ -1,0 +1,78 @@
+{
+  "gecitler": [
+    {
+      "ad": "Zigana",
+      "bolge": "Karadeniz",
+      "bagladigi_yerler": "Trabzon - Gümüşhane",
+      "not": "Yeni tünel ile mesafe kısaldı"
+    },
+    {
+      "ad": "Ovit",
+      "bolge": "Karadeniz",
+      "bagladigi_yerler": "Rize - Erzurum",
+      "not": "Türkiye'nin en uzun tünellerinden"
+    },
+    {
+      "ad": "Kop",
+      "bolge": "Karadeniz",
+      "bagladigi_yerler": "Bayburt - Erzurum",
+      "not": "Transit ticaret yolu"
+    },
+    {
+      "ad": "Çubuk",
+      "bolge": "Akdeniz",
+      "bagladigi_yerler": "Antalya - Burdur",
+      "not": "Göller yöresine açılır"
+    },
+    {
+      "ad": "Sertavul",
+      "bolge": "Akdeniz",
+      "bagladigi_yerler": "Mersin - Karaman",
+      "not": "İç Anadolu bağlantısı"
+    },
+    {
+      "ad": "Gülek",
+      "bolge": "Akdeniz",
+      "bagladigi_yerler": "Adana - Niğde",
+      "not": "En işlek boğaz"
+    },
+    {
+      "ad": "Belen",
+      "bolge": "Akdeniz",
+      "bagladigi_yerler": "Hatay - Suriye",
+      "not": "Amanos dağlarını aşar"
+    }
+  ],
+  "limanlar": [
+    {
+      "ad": "Mersin",
+      "ozellik": "Konteyner limanı",
+      "hinterland": "Çok Geniş"
+    },
+    {
+      "ad": "İstanbul (Ambarlı)",
+      "ozellik": "Ticaret hacmi en yüksek",
+      "hinterland": "Çok Geniş"
+    },
+    {
+      "ad": "İzmir",
+      "ozellik": "Tarımsal ihracat",
+      "hinterland": "Geniş"
+    },
+    {
+      "ad": "Samsun",
+      "ozellik": "Karadeniz'in en büyüğü",
+      "hinterland": "Geniş"
+    },
+    {
+      "ad": "İskenderun",
+      "ozellik": "Sanayi limanı",
+      "hinterland": "Geniş"
+    },
+    {
+      "ad": "Sinop",
+      "ozellik": "Doğal liman",
+      "hinterland": "Dar"
+    }
+  ]
+}

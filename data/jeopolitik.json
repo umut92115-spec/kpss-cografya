@@ -12,8 +12,10 @@
     { "ad": "Gürbulak Sınır Kapısı", "ozellik": "İran ile en büyük ticaret bağlantı noktası.", "lat": 39.42, "lng": 44.40 }
   ],
   "enerji_koridoru": [
-    { "ad": "TANAP (Trans Anadolu Doğal Gaz Boru Hattı)", "ozellik": "Azerbaycan gazını Türkiye üzerinden Avrupa'ya taşır.", "lat": 39.75, "lng": 34.00 },
-    { "ad": "BTC (Bakü-Tiflis-Ceyhan Petrol Hattı)", "ozellik": "Hazar petrolünü Ceyhan Terminali üzerinden dünyaya ulaştırır.", "lat": 37.00, "lng": 35.80 }
+    { "ad": "TANAP", "ozellik": "Azerbaycan doğal gazını Türkiye üzerinden Avrupa'ya taşır.", "lat": 39.75, "lng": 34.00 },
+    { "ad": "BTC", "ozellik": "Bakü (Azerbaycan) petrolünü Ceyhan Terminali üzerinden dünyaya ulaştırır.", "lat": 37.00, "lng": 35.80 },
+    { "ad": "TürkAkım", "ozellik": "Rus doğal gazını Karadeniz altından Türkiye ve Avrupa'ya taşır.", "lat": 41.50, "lng": 28.10 },
+    { "ad": "Mavi Akım", "ozellik": "Rus doğal gazını Karadeniz altından doğrudan Samsun'a ulaştırır.", "lat": 41.30, "lng": 36.33 }
   ],
   "jeopolitik_unsurlar": {
     "degismeyen": ["Coğrafi konum", "İklim", "Yer şekilleri", "Su örtüsü"],

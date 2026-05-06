@@ -1,16 +1,25 @@
 import { Metadata } from 'next';
 import { Il } from '@/types';
 
-export function getIlGeoMeta(il: Il): Metadata {
+export function getIlJsonLd(il: Il) {
   return {
-    other: {
-      'geo.region': `TR-${String(il.plaka).padStart(2, '0')}`,
-      'geo.placename': `${il.ad}, Türkiye`,
-      'geo.position': `${il.lat};${il.lng}`,
-      'ICBM': `${il.lat}, ${il.lng}`,
-    }
+    '@type': 'AdministrativeArea',
+    '@context': 'https://schema.org',
+    name: il.ad,
+    geo: {
+      '@type': 'GeoCoordinates',
+      latitude: il.lat,
+      longitude: il.lng,
+    },
+    containedInPlace: {
+      '@type': 'Country',
+      name: 'Türkiye',
+      sameAs: 'https://www.wikidata.org/wiki/Q43',
+    },
+    identifier: `TR-${String(il.plaka).padStart(2, '0')}`,
   };
 }
+
 
 export function getSiteGeoMeta(): Metadata {
   return {
