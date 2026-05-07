@@ -48,15 +48,18 @@ const mdxComponents = {
     </span>
   ),
   blockquote: (props: React.BlockquoteHTMLAttributes<HTMLQuoteElement>) => {
+    interface PropsWithChildren {
+      children?: React.ReactNode;
+    }
     // Çocukları (children) düz metne çevirerek kontrol et
     const children = props.children;
     const textContent = Array.isArray(children) 
       ? children.map(c => {
           if (typeof c === 'string') return c;
-          if (React.isValidElement(c) && (c.props as any).children) return String((c.props as any).children);
+          if (React.isValidElement(c) && (c.props as PropsWithChildren).children) return String((c.props as PropsWithChildren).children);
           return '';
         }).join('')
-      : (typeof children === 'string' ? children : (React.isValidElement(children) && (children.props as any).children ? String((children.props as any).children) : ''));
+      : (typeof children === 'string' ? children : (React.isValidElement(children) && (children.props as PropsWithChildren).children ? String((children.props as PropsWithChildren).children) : ''));
 
     const match = String(textContent).match(/\[!(IMPORTANT|TIP|NOTE|WARNING|CAUTION|onemli|dikkat|ezber|soru|uyari)\]/i);
     
@@ -76,8 +79,8 @@ const mdxComponents = {
         if (typeof child === 'string') {
           return child.replace(/\[!.*?\]/, '').trim();
         }
-        if (React.isValidElement(child) && (child.props as any).children && typeof (child.props as any).children === 'string') {
-          const newText = (child.props as any).children.replace(/\[!.*?\]/, '').trim();
+        if (React.isValidElement(child) && (child.props as PropsWithChildren).children && typeof (child.props as PropsWithChildren).children === 'string') {
+          const newText = String((child.props as PropsWithChildren).children).replace(/\[!.*?\]/, '').trim();
           return <span key={idx}>{newText}</span>;
         }
         return child;
