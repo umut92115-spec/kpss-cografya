@@ -11,7 +11,7 @@ interface SmartFAQProps {
   items: FaqItem[];
 }
 
-export default function SmartFAQ({ items }: SmartFAQProps) {
+export default function SmartFAQ({ items = [] }: SmartFAQProps) {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-10">
       {items.map((item, idx) => (

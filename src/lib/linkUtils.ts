@@ -14,50 +14,50 @@ const GLOSSARY_TERMS = [
 
 export function linkKeywords(content: string, currentSlug: string): string {
   const konular = getAllKonular();
-  let linkedContent = content;
+  
+  // Önce içeriği tagler ve düz metin olarak parçalara ayırıyoruz
+  // Bu sayede <Component items={...}> içindeki metinlerin linklenmesini önlüyoruz
+  const parts = content.split(/(<[^>]+>)/g);
+  
+  const linkedParts = parts.map(part => {
+    // Eğer bu bir tag ise (veya boş ise) olduğu gibi bırak
+    if (part.startsWith('<') || !part.trim()) return part;
 
-  // Sıralama önemli: Uzun kelimeler önce gelsin ki "Madenler" varken "Maden" linklenmesin.
-  const sortedKonular = [...konular].sort((a, b) => b.kisa_baslik.length - a.kisa_baslik.length);
+    let linkedPart = part;
+    const sortedKonular = [...konular].sort((a, b) => b.kisa_baslik.length - a.kisa_baslik.length);
 
-  sortedKonular.forEach((konu) => {
-    if (konu.slug === currentSlug) return;
-
-    // Sadece düz metindeki kelimeleri hedefle. 
-    // Linklerin içindekileri, başlıkları veya resim alt metinlerini bozmamaya çalışalım.
-    // Bu basit bir regex, daha karmaşığını MDX seviyesinde yapmak gerekir ama bu da iş görür.
-    const keyword = konu.kisa_baslik;
-    
-    // Kelimenin başına ve sonuna boşluk veya noktalama işareti gelmesini kontrol eden regex
-    // Ayrıca zaten link olanları pas geçmek için (?) kullanıyoruz (basit seviyede).
-    // NOT: MDX içeriğinde [Kelime](/link) yapısı varsa onu bozmamalıyız.
-    
-    const regex = new RegExp(`(?<!\\[)${keyword}(?![\\w\\s]*\\]\\()`, 'gi');
-    
-    // Her kelimeyi sadece ilk geçtiği yerde linklemek SEO için daha iyidir (spam algısını önler)
-    let found = false;
-    linkedContent = linkedContent.replace(regex, (match) => {
-      if (!found) {
-        found = true;
-        return `[${match}](/konu/${konu.slug})`;
-      }
-      return match;
+    sortedKonular.forEach((konu) => {
+      if (konu.slug === currentSlug) return;
+      const keyword = konu.kisa_baslik;
+      const regex = new RegExp(`(?<!\\[)${keyword}(?![\\w\\s]*\\]\\()`, 'gi');
+      
+      let found = false;
+      linkedPart = linkedPart.replace(regex, (match) => {
+        if (!found) {
+          found = true;
+          return `[${match}](/konu/${konu.slug})`;
+        }
+        return match;
+      });
     });
+
+    // Sözlük terimlerini linkle
+    GLOSSARY_TERMS.forEach((item) => {
+      const regex = new RegExp(`(?<!\\[)${item.term}(?![\\w\\s]*\\]\\()`, 'gi');
+      let found = false;
+      linkedPart = linkedPart.replace(regex, (match) => {
+        if (!found) {
+          found = true;
+          return `[${match}](/konu/${item.slug})`;
+        }
+        return match;
+      });
+    });
+
+    return linkedPart;
   });
 
-  // Sözlük terimlerini linkle
-  GLOSSARY_TERMS.forEach((item) => {
-    const regex = new RegExp(`(?<!\\[)${item.term}(?![\\w\\s]*\\]\\()`, 'gi');
-    let found = false;
-    linkedContent = linkedContent.replace(regex, (match) => {
-      if (!found) {
-        found = true;
-        return `[${match}](/konu/${item.slug})`;
-      }
-      return match;
-    });
-  });
-
-  return linkedContent;
+  return linkedParts.join('');
 }
 
 export function getNextPrevKonu(currentSlug: string) {

@@ -11,7 +11,7 @@ interface StatCardsProps {
   stats: StatItem[];
 }
 
-export default function StatCards({ stats }: StatCardsProps) {
+export default function StatCards({ stats = [] }: StatCardsProps) {
   const colorMap = {
     blue: 'bg-blue-50 text-blue-700 border-blue-100',
     orange: 'bg-orange-50 text-orange-700 border-orange-100',

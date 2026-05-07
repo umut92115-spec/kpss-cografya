@@ -51,7 +51,7 @@ type FazTip = 'hazir' | 'quiz' | 'sonuc';
 type CevapDurumu = 'bekleniyor' | 'dogru' | 'yanlis';
 
 // ─── Bileşen ─────────────────────────────────────────────────────────────────
-export default function QuizModu({ konuSlug, konuMeta, sorular }: QuizModuProps) {
+export default function QuizModu({ konuSlug, konuMeta, sorular = [] }: QuizModuProps) {
   const [faz, setFaz] = useState<FazTip>('hazir');
   const [aktifSorular, setAktifSorular] = useState<QuizSoru[]>([]);
   const [soruIndex, setSoruIndex] = useState(0);
@@ -206,7 +206,7 @@ export default function QuizModu({ konuSlug, konuMeta, sorular }: QuizModuProps)
 
   // ─── FAZ: QUIZ ──────────────────────────────────────────────────────────────
   if (faz === 'quiz') {
-    const ilerleme = ((soruIndex) / toplamSoru) * 100;
+    const ilerleme = toplamSoru > 0 ? (soruIndex / toplamSoru) * 100 : 0;
 
     return (
       <div className="max-w-2xl mx-auto px-4 py-8">
