@@ -38,14 +38,20 @@ export default function IlgiliBaglantilar({ tip, slug }: IlgiliBaglantilarProps)
   }
 
   if (tip === 'konu') {
-    // Konu sayfası -> İlgili 81 il listesi
+    // Konu sayfası -> İlgili 81 il listesi (o konu bazında)
     return (
       <div className="mt-12">
-        <h3 className="font-bold text-gray-800 text-xl mb-4 border-b pb-2">İl Bazlı İncele</h3>
+        <h3 className="font-bold text-gray-800 text-xl mb-4 border-b pb-2">İllere Göre {slug.replace(/-/g, ' ')}</h3>
+        <p className="text-gray-500 text-sm mb-6">Bu konuyu Türkiye&apos;nin 81 ilinde özel notlar ve haritalarla incele:</p>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
           {iller.map(il => (
-            <Link key={il.slug} href={`/${il.bolge_slug}bolgesi/il/${il.slug}`} className="text-sm text-gray-600 hover:text-blue-600 truncate border border-gray-100 rounded px-2 py-1 hover:border-blue-200 transition-colors">
-              {il.ad}
+            <Link 
+              key={il.slug} 
+              href={`/${il.bolge_slug}bolgesi/il/${il.slug}/${slug}`} 
+              className="text-sm text-gray-600 hover:text-blue-600 hover:bg-blue-50 border border-gray-100 rounded-lg px-3 py-2 transition-all flex items-center justify-between group"
+            >
+              <span>{il.ad}</span>
+              <span className="text-[10px] opacity-0 group-hover:opacity-100 transition-opacity">→</span>
             </Link>
           ))}
         </div>

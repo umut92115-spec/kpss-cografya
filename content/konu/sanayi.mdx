@@ -3,7 +3,7 @@ title: "Sanayi ve Üretim — KPSS Coğrafya"
 description: "Türkiye'de sanayi tesislerinin yer seçimi faktörleri, başlıca sanayi kolları ve dış ticaret verileri."
 keywords: ["kpss sanayi tesisleri", "dış ticaret verileri kpss", "en çok ihraç edilen ürünler", "türkiye ticaret ortakları", "şeker fabrikaları kuruluşu", "sanayi kpss notları"]
 kpss_soru_sayisi: 2
-guncelleme: "2026-05-06"
+guncelleme: "2026-05-07"
 tags: [kpss, sanayi, üretim, fabrikalar, ekonomi]
 ---
 
@@ -11,90 +11,86 @@ tags: [kpss, sanayi, üretim, fabrikalar, ekonomi]
 
 Türkiye'de sanayi sektörü, ekonominin lokomotifidir. KPSS'de genellikle **bir fabrikanın kuruluş yeri seçimi** (neden orada?) ve **sanayi kollarının dağılımı** sorulur.
 
-![Türkiye Ana Sanayi Sektörleri](/images/konu/sanayi.png)
-
 ---
 
 ## 1. Temel Kavramlar
-- **OSB (Organize Sanayi Bölgesi):** Sanayinin uygun görülen alanlarda yapılanmasını sağlamak amacıyla kurulan mal ve hizmet üretim bölgeleridir.
-- **Serbest Bölge:** Gümrük mevzuatının uygulanmadığı veya kısmen uygulandığı, ihracata yönelik üretim alanlarıdır (Mersin, Antalya, İzmir vb.).
-- **Hinterland (Ard Bölge):** Bir limanın ticaret yaptığı, mal toplayıp dağıttığı iç bölgedir.
-- **Hammaddeye Yakınlık:** Çabuk bozulan ürünlerin (çay, şeker pancarı, süt) fabrikalarının hemen üretim alanına kurulmasıdır.
+
+| Kavram | Tanım | Önemli Not | Ikon |
+| :--- | :--- | :--- | :---: |
+| **Hammadde** | İşlenmemiş temel madde. | Çabuk bozulanlar fabrikaya yakın olmalı. | 🏗️ |
+| **Pazar** | Tüketici nüfusun bulunduğu alan. | Mobilya, Gıda pazar odaklıdır. | 🏙️ |
+| **Enerji** | Üretim için gereken güç. | Demir-Çelik (Taş Kömürü) enerji odaklıdır. | ⚡ |
+| **Ulaşım** | Malın liman veya kara yoluyla sevki. | İskenderun, Samsun ulaşım odaklıdır. | 🛳️ |
 
 ---
 
-## 2. Sanayi Tesislerinin Yer Seçimi Faktörleri
+## 2. Sanayi Tesislerinin Yer Seçimi
 
-Bir fabrikanın nereye kurulacağını belirleyen temel unsurlar şunlardır:
-
-| Faktör | Açıklama | Örnek |
+| Faktör | Açıklama | Örnek Tesisler |
 | :--- | :--- | :--- |
-| **Ham Madde** | Ürünün işlendiği yere yakın olması. | Çay (Rize), Şeker (Konya), Kağıt (Giresun, Muğla). |
-| **Ulaşım** | Liman veya demiryolu bağlantısı. | Bakır İşleme (Samsun), İskenderun Demir-Çelik. |
-| **Enerji** | Yüksek ısı gerektiren tesislerin yakıt kaynağına yakınlığı. | Karabük-Ereğli Demir Çelik (Taş Kömürü). |
-| **Pazar** | Tüketici nüfusa yakınlık. | Mobilya, Kümes Hayvancılığı, Gıda (Marmara Bölgesi). |
-| **Sermaye** | Sanayi için gerekli olan en temel kaynaktır. | İstanbul, Kocaeli, Bursa çevresi. |
+| **Ham Madde** | Ürünün işlendiği yere yakınlık. | Çay (Rize), Şeker (Konya), Kağıt (Giresun). |
+| **Ulaşım** | Liman veya demiryolu bağlantısı. | Bakır (Samsun), İskenderun Demir-Çelik. |
+| **Enerji** | Isı/Güç kaynağına yakınlık. | Karabük-Ereğli Demir Çelik (Taş Kömürü). |
+| **Pazar** | Tüketici nüfusa yakınlık. | Mobilya, Kümes Hayvancılığı (Marmara). |
+| **Sermaye** | Yatırım gücü. | İstanbul, Kocaeli, Bursa (En gelişmiş). |
 
 ---
 
-## 3. Başlıca Sanayi Kolları
+## 3. İstatistikler ve Veriler: İhracat Liderleri
 
-1. **Gıda Sanayisi:** Türkiye'de en yaygın sanayi koludur.
-    - **Şeker:** İç Anadolu'da yoğundur.
-    - **Çay:** Sadece Doğu Karadeniz (Rize).
-    - **Et-Süt:** Erzurum, Kars ve büyük şehirlerin çevresi.
-2. **Dokuma, Tekstil ve Deri:** İstanbul, Bursa, Denizli, İzmir, Gaziantep.
-3. **Otomotiv ve Yan Sanayi:** Türkiye'nin ihracat lideridir. Bursa, Kocaeli, Sakarya, İzmir, Aksaray.
-4. **Kimya Sanayisi:** Rafineriler (İzmit, İzmir, Mersin, Kırıkkale, Batman).
-5. **Toprağa Dayalı Sanayi:** Çimento (en yaygın), Seramik (Kütahya, Bilecik).
-6. **Orman Ürünleri:** Batı Karadeniz (Kastamonu, Bolu) ve Muğla.
+<StatCards 
+  stats={[
+    { label: "İhracat Lideri", value: "Otomotiv Sektörü", icon: "🚗", color: "blue" },
+    { label: "En Yaygın Sanayi", value: "Gıda / Çimento", icon: "🏭", color: "green" },
+    { label: "Sanayi Merkezi", value: "Marmara Bölgesi", icon: "🏙️", color: "red" },
+    { label: "Serbest Bölgeler", value: "İzmir, Mersin vb.", icon: "⚓", color: "orange" }
+  ]}
+/>
 
----
-
-## 4. İstatistikler ve Veriler
-
-| Sektör | İhracattaki Payı (Yaklaşık) | Önemli Merkezler |
+| Sanayi Kolu | Önemli Merkezler | Kuruluş Faktörü |
 | :--- | :--- | :--- |
-| **Otomotiv** | %15-18 | Bursa, Kocaeli |
-| **Kimyevi Maddeler** | %12-15 | Kocaeli, İstanbul |
-| **Hazır Giyim** | %10-12 | İstanbul, Denizli |
-| **Çelik** | %8-10 | İskenderun, Ereğli |
+| **Otomotiv** | Bursa, Kocaeli, Sakarya | Ulaşım / Pazar / Sermaye |
+| **Dokuma / Tekstil** | Denizli, İstanbul, Bursa | Pazar / Hammadde |
+| **Kimya / Rafineri** | İzmit, İzmir, Mersin, Kırıkkale | Ulaşım / Stratejik Konum |
+| **Demir-Çelik** | Ereğli, Karabük, İskenderun | Enerji / Ulaşım |
 
 ---
 
-## 5. KPSS Soru Odakları
+## 4. KPSS Soru Odakları
 
-- **Savunma Sanayi:** Ankara ve Kırıkkale'de yoğunlaşmasının ana sebebi **güvenlik** ve ulaşım merkezi olmasıdır.
-- **Şeker Fabrikaları:** Kıyılarda şeker fabrikası bulunmaz. Bunun nedeni iklim değil, kıyıların ekonomik değeri yüksek ürünlere (turunçgil, pamuk vb.) ayrılmasıdır.
-- **Hammadde mi, Ulaşım mı?**
-    - **Samsun Bakır:** Ulaşım (Liman).
-    - **Murgul Bakır:** Hammadde.
-    - **Ereğli Demir-Çelik:** Enerji kaynağı (Taş Kömürü).
-    - **İskenderun Demir-Çelik:** Ulaşım (Liman).
+<KpssNot tip="onemli" baslik="Şeker Fabrikaları Kuruluşu">
+  Şeker pancarı çabuk bozulduğu için fabrikalar **hammaddeye yakın** kurulur. Ancak kıyı bölgelerinde şeker fabrikası bulunmaz. Bunun nedeni iklim değil, kıyı topraklarının daha yüksek gelir getiren ürünlere (Turunçgil vb.) ayrılmasıdır.
+</KpssNot>
 
----
+<KpssNot tip="dikkat" baslik="Savunma Sanayisi ve Güvenlik">
+  Savunma sanayi kuruluşlarının (Kırıkkale, Ankara) İç Anadolu'da yoğunlaşmasının ana sebebi **stratejik güvenlik** ve ulaşım yollarının merkezinde olmasıdır.
+</KpssNot>
 
-## 6. Özet ve Hatırlatma
-
-> [!IMPORTANT]
-> Marmara Bölgesi, sanayi tesislerinin en yoğun olduğu ve sanayi gelirinin en yüksek olduğu bölgedir.
-
-> [!TIP]
-> Çimento fabrikaları hammadde (kalker) her yerde bulunduğu için Türkiye'de **en yaygın** dağılan sanayi koludur.
-
-> [!NOTE]
-> Kağıt fabrikaları genellikle su ihtiyacı ve hammadde nedeniyle kıyı bölgelerinde (Giresun-Aksu, Muğla-Dalaman vb.) yoğunlaşmıştır.
+<KpssNot tip="ipucu" baslik="Çimento: En Yaygın Sanayi">
+  Çimento sanayisinin hammaddesi (kireçtaşı/kalker) her yerde bolca bulunduğu ve taşıma maliyeti yüksek olduğu için Türkiye'de **en yaygın** dağılan sanayi koludur.
+</KpssNot>
 
 ---
 
 ## Sık Sorulan Sorular (FAQ)
 
-**Hangi sanayi kolu her ilde bulunabilir?**
-Hammaddeye ulaşımı kolay olan **Unlu Mamuller** ve her ilde hammadde kaynağı bulunan **Çimento** sanayisi çok yaygındır.
-
-**İskenderun'da demir çıkarılmamasına rağmen neden demir-çelik fabrikası vardır?**
-İskenderun, gelişmiş bir **liman ve ulaşım** ağına sahip olduğu için hammadde ve enerji kaynağı kolayca getirilebilir.
-
-**Savunma sanayisi neden İç Anadolu'dadır?**
-Stratejik olarak kıyı kesimlerden uzak, güvenli bir bölge olması ve ulaşım yollarının kavşağında yer alması nedeniyle.
-
+<SmartFAQ 
+  items={[
+    { 
+      q: "Neden her yerde gıda sanayisi var?", 
+      a: "Tüketici nüfusa yakın olma (Pazar) zorunluluğu ve bazı hammaddelerin çabuk bozulması nedeniyle gıda sanayisi en yaygın koldur." 
+    },
+    { 
+      q: "Samsun'da bakır işletmesi neden var?", 
+      a: "Bölgede bakır çıkarılmaz. Samsun bir liman şehri olduğu ve iç kesimlerle ulaşımı kolay (hinterland geniş) olduğu için buraya kurulmuştur." 
+    },
+    { 
+      q: "Kağıt fabrikaları neden genellikle kıyılardadır?", 
+      a: "Kağıt üretimi için bol su ve hammadde (orman) gerektiği için Giresun, Muğla, Kastamonu gibi kıyı illerinde yoğunlaşmıştır." 
+    },
+    { 
+      q: "Serbest bölgelerin amacı nedir?", 
+      a: "İhracata yönelik yatırımları artırmak, döviz girişini sağlamak ve ticareti canlandırmak için gümrük kolaylıkları sağlanan özel alanlardır." 
+    }
+  ]}
+/>

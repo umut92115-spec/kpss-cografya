@@ -1,6 +1,6 @@
 import { ReactNode } from 'react';
 
-type KpssNotTip = 'onemli' | 'ezber' | 'soru' | 'dikkat' | 'uyari';
+type KpssNotTip = 'onemli' | 'ezber' | 'soru' | 'dikkat' | 'uyari' | 'ipucu' | 'hatirlatma';
 
 interface KpssNotProps {
   tip: KpssNotTip;
@@ -10,12 +10,44 @@ interface KpssNotProps {
 
 const tipAyarlar: Record<KpssNotTip, { bg: string; border: string; icon: string; defaultBaslik: string; titleColor: string; textColor: string }> = {
   onemli: {
-    bg: 'bg-orange-50',
-    border: 'border-orange-500',
+    bg: 'bg-kpss-yesil-bg',
+    border: 'border-kpss-yesil-border',
+    icon: '✅',
+    defaultBaslik: 'Önemli Bilgi',
+    titleColor: 'text-green-800',
+    textColor: 'text-green-700',
+  },
+  ipucu: {
+    bg: 'bg-kpss-turuncu-box-bg',
+    border: 'border-kpss-turuncu-box-border',
     icon: '💡',
-    defaultBaslik: 'KPSS Notu',
+    defaultBaslik: 'İpucu / Mnemonic',
     titleColor: 'text-orange-800',
     textColor: 'text-orange-700',
+  },
+  hatirlatma: {
+    bg: 'bg-kpss-mavi-bg',
+    border: 'border-kpss-mavi-border',
+    icon: '📌',
+    defaultBaslik: 'Hatırlatma',
+    titleColor: 'text-blue-800',
+    textColor: 'text-blue-700',
+  },
+  dikkat: {
+    bg: 'bg-kpss-kirmizi-bg',
+    border: 'border-kpss-kirmizi-border',
+    icon: '⚠️',
+    defaultBaslik: 'Dikkat / Yanlış',
+    titleColor: 'text-red-800',
+    textColor: 'text-red-700',
+  },
+  uyari: {
+    bg: 'bg-kpss-kirmizi-bg',
+    border: 'border-kpss-kirmizi-border',
+    icon: '🚨',
+    defaultBaslik: 'Kritik Uyarı',
+    titleColor: 'text-red-800',
+    textColor: 'text-red-700',
   },
   ezber: {
     bg: 'bg-purple-50',
@@ -32,22 +64,6 @@ const tipAyarlar: Record<KpssNotTip, { bg: string; border: string; icon: string;
     defaultBaslik: 'Çıkmış Soru Biçimi',
     titleColor: 'text-yellow-800',
     textColor: 'text-yellow-700',
-  },
-  dikkat: {
-    bg: 'bg-red-50',
-    border: 'border-red-500',
-    icon: '⚠️',
-    defaultBaslik: 'Dikkat Et!',
-    titleColor: 'text-red-800',
-    textColor: 'text-red-700',
-  },
-  uyari: {
-    bg: 'bg-amber-50',
-    border: 'border-amber-500',
-    icon: '🚨',
-    defaultBaslik: 'Kritik Uyarı',
-    titleColor: 'text-amber-800',
-    textColor: 'text-amber-700',
   },
 };
 

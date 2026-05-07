@@ -3,7 +3,7 @@ title: "Kıyı Tipleri ve Denizler — KPSS Coğrafya"
 description: "Türkiye'nin denizleri, kıyı oluşum şekilleri, özel kıyı tipleri ve denizlerin karşılaştırmalı özellikleri."
 keywords: ["kpss kıyı tipleri", "boyuna kıyı nerede", "ria kıyı tipi istanbul", "dalmaçya kıyı kaş", "falez ve delta farkı", "türkiye denizleri karşılaştırma"]
 kpss_soru_sayisi: 1
-guncelleme: "2026-05-06"
+guncelleme: "2026-05-07"
 tags: [kpss, kıyı tipleri, denizler, hinterland, kıta sahanlığı]
 ---
 
@@ -11,76 +11,91 @@ tags: [kpss, kıyı tipleri, denizler, hinterland, kıta sahanlığı]
 
 Türkiye'nin üç tarafının denizlerle çevrili olması ve dağların kıyıya uzanış biçimleri, ülkemizde çok çeşitli kıyı tiplerinin oluşmasını sağlamıştır.
 
-![Türkiye Kıyı Tipleri Diyagramı](/images/konu/kiyi-tipleri.png)
+![Türkiye Kıyı Tipleri Haritası](/images/konu/kiyi-tipleri.png)
+📸 Türkiye'nin ana kıyı tipleri ve bölgesel dağılımı.
 
 ---
 
 ## 1. Temel Kavramlar
-- **Kıta Sahanlığı (Şelf):** Deniz seviyesinden -200 metre derinliğe kadar olan alandır.
-- **Hinterland (Ard Bölge):** Bir limanın ulaşım ağları ile bağlı olduğu, beslendiği iç bölgedir.
-- **Falez (Yalıyar):** Dağların kıyıya paralel olduğu yerlerde oluşan dik kıyı uçurumlarıdır.
-- **Lagün (Deniz Kulağı):** Kıyı set gölleridir (Örn: Terkos, Büyükçekmece).
-- **Tombolo (Saplı Ada):** Bir adanın kıyı kordonu ile karaya bağlanmasıdır (Örn: Kapıdağ Yarımadası).
+
+| Kavram | Tanım | Önemli Not | Ikon |
+| :--- | :--- | :--- | :---: |
+| **Kıta Sahanlığı** | 0-200 m arası derinlikteki deniz alanı. | Ege'de geniş, Karadeniz'de dardır. | 🏖️ |
+| **Hinterland** | Limanın iç kısımlarla olan ulaşım bağlantısı. | İstanbul ve İzmir'de çok geniştir. | 🚛 |
+| **Falez** | Dalga aşındırmasıyla oluşan dik kıyı uçurumu. | Doğu Karadeniz ve Antalya'da yaygındır. | 🏔️ |
+| **Tombolo** | Adanın karaya bağlanması (Saplı ada). | Kapıdağ Yarımadası ve Sinop İnceburun. | 🏝️ |
 
 ---
 
 ## 2. Türkiye'de Görülen Kıyı Tipleri
 
-| Kıyı Tipi | Görüldüğü Yer | Özellikleri |
-| :--- | :--- | :--- |
-| **Boyuna** | Karadeniz, Akdeniz | Girinti-çıkıntı az, falez çok, hinterland dar. |
-| **Enine** | Ege (Edremit-Kuşadası) | Girinti-çıkıntı çok, kıta sahanlığı geniş. |
-| **Ria** | İst. ve Çan. Boğazları | Eski akarsu vadilerinin sular altında kalması. |
-| **Dalmaçya** | Finike-Kaş arası | Dağların kıyıya paralel olduğu adalı kıyılar. |
-| **Kalanklı** | Mersin-Silifke arası | Karstik kanyonların sular altında kalması. |
-| **Limanlı** | Büyük ve Küçük Çekmece | Kıyı set göllerinin (Lagün) olduğu kıyılar. |
+| Kıyı Tipi | Görüldüğü Yer | Temel Özellik | Ikon |
+| :--- | :--- | :--- | :---: |
+| **Boyuna** | Karadeniz, Akdeniz | Dağlar denize paraleldir. Girinti azdır. | 📏 |
+| **Enine** | Ege (Edremit-Kuşadası) | Dağlar denize diktir. Girinti çoktur. | 🧩 |
+| **Ria** | İst. ve Çan. Boğazları | Eski akarsu vadilerinin sular altında kalması. | ⛴️ |
+| **Dalmaçya** | Finike-Kaş arası | Kıyıya paralel adacıklar topluluğu. | 🏝️ |
+| **Kalanklı** | Mersin-Silifke arası | Karstik kanyonların sular altında kalması. | 🕳️ |
+| **Limanlı** | B. ve K. Çekmece | Kıyı set göllerinin (Lagün) olduğu alanlar. | ⚓ |
 
 ---
 
-## 3. Türkiye'nin Denizleri Karşılaştırması
+## 3. İstatistikler ve Veriler
 
-| Özellik | Karadeniz | Akdeniz |
-| :--- | :--- | :--- |
-| **Tuzluluk** | En Az (%18) | **En Fazla** (%38) |
-| **Sıcaklık** | En Düşük | **En Yüksek** |
-| **Balık Miktarı** | **En Fazla** | En Az |
-| **Buharlaşma** | En Az | **En Fazla** |
+<StatCards 
+  stats={[
+    { label: "En Tuzlu Deniz", value: "Akdeniz (%38)", icon: "🧂", color: "red" },
+    { label: "En Az Tuzlu Deniz", value: "Karadeniz (%18)", icon: "💧", color: "blue" },
+    { label: "En Geniş Şelf", value: "Ege Denizi", icon: "📏", color: "green" },
+    { label: "Balık Potansiyeli", value: "Karadeniz (Lider)", icon: "🐟", color: "blue" }
+  ]}
+/>
 
----
-
-## 4. Türkiye'de Görülmeyen Kıyı Tipleri
-
-- **Fiyort ve Skayer:** Matematik konum (enlem) nedeniyle görülmez. (Buzul etkisi deniz seviyesine inememiştir).
-- **Haliç (Estuar) ve Watt:** Özel konum (Okyanus kıyısı olmaması) nedeniyle görülmez. (Gel-git genliği azdır).
-
----
-
-## 5. KPSS Soru Odakları
-
-- **Kıta Sahanlığı:** Karadeniz ve Akdeniz'de dağlar paralel olduğu için şelf **dardır**. Ege'de dağlar dik olduğu için şelf **geniştir**.
-- **Hinterland:** Ege limanlarının hinterlandı geniş, Doğu Karadeniz (Trabzon hariç) ve Antalya limanlarının hinterlandı dardır.
-- **Ria Tipi:** Sadece boğazlarda değil, Gökova Körfezi'nde de Ria tipi kıyı görülür.
-- **Balıkçılık:** Karadeniz'de balık miktarı (sayıca) fazladır ancak Akdeniz'de balık çeşitliliği (tür sayısı) daha fazladır.
+| Deniz Karşılaştırması | Sıcaklık | Buharlaşma | Balık Çeşitliliği |
+| :--- | :--- | :--- | :--- |
+| **Akdeniz** | En Yüksek | En Fazla | En Fazla (Tür sayısı) |
+| **Karadeniz** | En Düşük | En Az | En Az (Tür sayısı) |
+| **Ege** | Orta | Orta | Orta |
 
 ---
 
-## 6. Özet ve Hatırlatma
+## 4. KPSS Soru Odakları
 
-> [!IMPORTANT]
-> İstanbul ve Çanakkale Boğazları coğrafi olarak **Ria** tipi kıyıdır. Türkiye'de gerçek **Haliç** tipi kıyı yoktur.
+<KpssNot tip="onemli" baslik="Türkiye'de Görülmeyen Kıyı Tipleri">
+  Bazı kıyı tipleri Türkiye'de **asla** görülmez:
+  - **Fiyort ve Skayer:** Matematik konum (enlem) nedeniyle görülmez. (Buzul etkisi kıyıya inememiştir).
+  - **Haliç ve Watt:** Okyanusa kıyımız olmadığı için (Gel-git genliği az) görülmez.
+</KpssNot>
 
-> [!TIP]
-> **Falezlerin** olduğu yerde delta ovası oluşamaz, **Deltaların** olduğu yerde falez oluşamaz. (Birinde aşınma, birinde birikme hakimdir).
+<KpssNot tip="dikkat" baslik="Falez ve Delta İlişkisi">
+  Bir kıyıda falez varsa orada delta ovası **oluşamaz**. Çünkü falez aşınmayı, delta ise birikmeyi temsil eder. Doğu Karadeniz'de falez çok, delta yoktur; Çukurova'da delta var, falez yoktur.
+</KpssNot>
+
+<KpssNot tip="ipucu" baslik="Hinterland ve Dağlar">
+  Dağların kıyıya paralel olduğu yerlerde (Boyuna kıyı), iç kesimlere ulaşım zor olduğu için limanların **hinterlandı dardır**. (Örn: Sinop, Trabzon). Dağların dik olduğu Ege'de ise hinterland çok geniştir.
+</KpssNot>
 
 ---
 
 ## Sık Sorulan Sorular (FAQ)
 
-**Gel-git etkisi Türkiye'de neden azdır?**
-Türkiye'nin okyanuslara doğrudan kıyısı olmadığı, iç denizlere sahip olduğu için gel-git genliği çok düşüktür (yaklaşık 10-20 cm).
-
-**Hinterlandı en geniş limanımız hangisidir?**
-İstanbul Limanı hinterlandı en geniş olanıdır. Onu İzmir ve Mersin limanları takip eder.
-
-**Dağların uzanışının iklime etkisi nedir?**
-Karadeniz ve Akdeniz'de deniz etkisi iç kısımlara giremezken, Ege'de dağlar dik olduğu için deniz etkisi yaklaşık 200 km içeriye kadar girebilir.
+<SmartFAQ 
+  items={[
+    { 
+      q: "Gel-git etkisi Türkiye'de neden azdır?", 
+      a: "Türkiye'nin okyanuslara doğrudan kıyısı olmadığı, iç denizlere sahip olduğu için gel-git genliği çok düşüktür (10-20 cm). Bu yüzden kıyılarımızda Haliç oluşmaz." 
+    },
+    { 
+      q: "Hangi limanımız doğal bir limandır ancak gelişmemiştir?", 
+      a: "Sinop Limanı harika bir doğal limandır ancak arkasındaki Küre Dağları ulaşımı engellediği için (hinterland dar) gelişememiştir." 
+    },
+    { 
+      q: "Ria tipi kıyı nasıl oluşur?", 
+      a: "Buzul sonrası dönemde deniz seviyesinin yükselmesiyle, eski akarsu vadilerinin sular altında kalması sonucu oluşur. İstanbul Boğazı bunun en güzel örneğidir." 
+    },
+    { 
+      q: "Karadeniz'in 200 metreden derininde neden canlı yaşamaz?", 
+      a: "200 metre derinliğin altında hidrojen sülfür (H₂S) gazı birikimi olduğu için oksijen yoktur ve canlı yaşamına izin vermez." 
+    }
+  ]}
+/>

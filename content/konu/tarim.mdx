@@ -11,96 +11,90 @@ tags: [kpss, tarım ürünleri, hayvancılık, balıkçılık, tüik verileri]
 
 Türkiye, iklim çeşitliliği sayesinde çok zengin bir tarımsal potansiyele sahiptir. KPSS'de **ürün-il eşleşmeleri**, **üretim yöntemleri** ve **hayvancılık türleri** her yıl sorulur.
 
-![Türkiye Tarım Ürünleri Haritası](/images/konu/tarim.png)
+![Türkiye Tarım Ürünleri Haritası](/images/konu/tarim-harita.png)
+📸 Türkiye'nin ana tarım ürünleri ve bölgesel dağılımı.
+
+![Türkiye Hayvancılık Haritası](/images/konu/hayvancilik-harita.png)
+📸 Hayvancılık türlerinin (Küçükbaş, Büyükbaş, Arıcılık vb.) dağılışı.
 
 ---
 
 ## 1. Temel Kavramlar
-- **Ekstansif (Geleneksel) Tarım:** İklime bağımlılığın fazla, verimin düşük olduğu yöntemdir.
-- **İntansif (Modern) Tarım:** Sulama, gübreleme ve makineleşmenin ön planda olduğu verimli yöntemdir.
-- **Nadas:** Toprağın nem ve mineral kazanması için bir yıl boş bırakılmasıdır. Erozyonu artırır.
-- **Mera Hayvancılığı:** Doğal otlaklarda yapılan, iklime bağımlı hayvancılıktır.
-- **Besi ve Ahır Hayvancılığı:** Kapalı alanlarda yapılan modern hayvancılıktır; pazarlama imkanlarından dolayı büyük şehirlere yakın kurulur.
+
+| Kavram | Tanım | Örnek | Ikon |
+| :--- | :--- | :--- | :---: |
+| **İntansif Tarım** | Modern, yüksek verimli tarım yöntemidir. | Sera Tarımı | 🚜 |
+| **Ekstansif Tarım** | İklime bağlı, geleneksel tarımdır. | Mera Hayvancılığı | 🌾 |
+| **Nadas** | Toprağın dinlendirilmesi için boş bırakılmasıdır. | İç Anadolu | 🏜️ |
+| **Nöbetleşe Ekim** | Her yıl farklı bir ürünün ekilmesidir. | Baklagil Ekimi | 🔄 |
 
 ---
 
-## 2. Ayrıntılı Konu Anlatımı
+## 2. Başlıca Tarım Ürünleri
 
-### Başlıca Tarım Ürünleri ve Yetişme Koşulları
-| Ürün | Bölge / İl | Özellik |
-| :--- | :--- | :--- |
-| **Buğday** | İç Anadolu (Konya) | Yaz kuraklığı ister. Karadeniz kıyıları ve Erzurum-Kars hariç her yerde yetişir. |
-| **Pamuk** | Güneydoğu (Şanlıurfa) | Alüvyal toprak ve yaz kuraklığı ister. GAP ile üretim artmıştır. |
-| **Fındık** | Karadeniz (Ordu) | Nemli ve ılık iklim ister. Dünya lideriyiz. |
-| **Zeytin** | Ege (Aydın) | Kış ılıklığı ister (Akdeniz İklimi). |
-| **Çay** | Doğu Karadeniz (Rize) | Bol yağış ve asitli toprak ister. Sadece bu bölgede yetişir. |
-| **Şeker Pancarı** | İç Anadolu | Fabrikalara yakın ekilmelidir (Çabuk bozulur). Küspesi yem olur. |
-
-### Hayvancılık Türleri
-- **Koyun:** Bozkır bitki örtüsünün olduğu İç Anadolu ve Doğu Anadolu'da yaygındır.
-- **Kıl Keçisi:** Dağlık ve engebeli olan Akdeniz (Teke-Taşeli) ve Doğu Anadolu'da yaygındır.
-- **Sığır (Büyükbaş):** Yaz yağışlarıyla yeşeren gür çayırların olduğu Erzurum-Kars'ta (Mera) ve büyük şehirlerin çevresinde (Besi) yaygındır.
-- **Kümes Hayvancılığı:** Tüketici nüfusun fazla olduğu Marmara ve Ege bölgelerinde yoğunlaşmıştır.
-- **Arıcılık:** Bitki çeşitliliğinin fazla olduğu Muğla, Ordu, Rize ve Hakkari'de gelişmiştir.
+| Ürün | Lider Bölge / İl | Yetişme Koşulu | Önemli Not |
+| :--- | :--- | :--- | :--- |
+| **Buğday** | İç Anadolu (Konya) | Yaz kuraklığı ister. | Temel gıdadır. |
+| **Pamuk** | Güneydoğu (Şanlıurfa) | Sulama ve sıcaklık ister. | GAP ile artmıştır. |
+| **Fındık** | Karadeniz (Ordu) | Nemli ve ılık iklim. | Dünya lideriyiz. |
+| **Zeytin** | Ege (Aydın) | Kış ılıklığı ister. | Akdeniz iklimi ürünü. |
+| **Çay** | Doğu Karadeniz (Rize) | Bol yağış ve asitli toprak. | Sadece Doğu Karadeniz. |
 
 ---
 
 ## 3. İstatistikler ve Veriler
 
-| Konu | Detay | Önem Derecesi |
-| :--- | :--- | :--- |
-| **Pamuk Üretimi Lideri** | Şanlıurfa | KPSS'de Çıktı |
-| **Fındık Üretimi Lideri** | Ordu | Çok Önemli |
-| **Küçükbaş Sayısı Lideri** | Van | Bilgi |
-| **Büyükbaş Sayısı Lideri** | Erzurum / Konya | Karşılaştırmalı |
-| **Balıkçılık Verimi** | Karadeniz (%75) | Önemli |
+<StatCards 
+  stats={[
+    { label: "Dünya Lideri Olduğumuz", value: "Fındık, Kayısı, İncir", icon: "🌍", color: "blue" },
+    { label: "Pamuk Şampiyonu", value: "Şanlıurfa", icon: "☁️", color: "orange" },
+    { label: "Küçükbaş Lideri", value: "Van", icon: "🐑", color: "green" },
+    { label: "Büyükbaş Lideri", value: "Konya / Erzurum", icon: "🐄", color: "red" }
+  ]}
+/>
 
 ---
 
-## 4. Bölgesel Dağılım
+## 4. KPSS Soru Odakları
 
-Türkiye'nin 7 bölgesi farklı iklim ve toprak yapıları nedeniyle birbirinden çok farklı tarımsal profiller sergiler. **Karadeniz**'de fındık ve çay, **Ege**'de zeytin ve incir, **Akdeniz**'de turunçgiller ve sera tarımı, **İç Anadolu**'da tahıllar ve şeker pancarı, **Güneydoğu**'da pamuk ve antep fıstığı, **Marmara**'da ise ayçiçeği ve kümes hayvancılığı ön plandadır.
+<KpssNot tip="onemli" baslik="Devlet Kontrolündeki Ürünler">
+  Bazı ürünler belirli nedenlerle devlet kontrolünde ekilir:
+  - **Kenevir & Haşhaş:** Uyuşturucu riski.
+  - **Pirinç (Çeltik):** Sıtma hastalığı riski (Yerleşim yerinden uzak).
+  - **Tütün & Çay:** Kaliteyi korumak için.
+  - **Şeker Pancarı:** Kotaya bağlıdır.
+</KpssNot>
 
----
+<KpssNot tip="dikkat" baslik="Besi vs Mera Hayvancılığı">
+  - **Besi (Ahır):** İklimden etkilenmez, verim yüksektir. Büyük şehirlere yakındır.
+  - **Mera:** İklime ve yağışa bağlıdır, verim yıllara göre değişir.
+</KpssNot>
 
-## 5. KPSS Soru Odakları
-
-- **Devlet Kontrolündeki Ürünler:**
-    - **Tütün & Çay:** Kalite kontrolü için.
-    - **Pirinç (Çeltik):** Sıtma hastalığı riski nedeniyle.
-    - **Haşhaş & Kenevir:** Uyuşturucu yapımı riski nedeniyle.
-- **Nöbetleşe Ekim:** Nadasa alternatif olarak toprağı boş bırakmak yerine her yıl farklı bir ürün (genelde baklagil) ekilmesidir.
-- **Besi vs Mera:** Besi hayvancılığında verim yüksektir ve iklimden etkilenmez. Mera hayvancılığında ise üretimde yıllara göre dalgalanmalar görülür.
-
----
-
-## 6. Özet ve Hatırlatma
-
-> [!IMPORTANT]
-> Karadeniz Bölgesi'nde yaz yağışlarından dolayı Buğday, Arpa, Pamuk ve Mercimek gibi **yaz kuraklığı** isteyen ürünlerin yetişmesi zordur.
-
-> [!TIP]
-> Türkiye'nin dünya üretiminde 1. sırada olduğu ürünler: **Fındık, İncir, Kayısı, Kiraz, Vişne, Ayva, Nar.**
+<KpssNot tip="ipucu" baslik="Yaz Kuraklığı Sorunu">
+  Karadeniz Bölgesi'nde her mevsim yağışlı olduğu için **Buğday, Arpa, Pamuk, Mercimek** gibi yaz kuraklığı isteyen ürünlerin yetişmesi çok zordur.
+</KpssNot>
 
 ---
 
 ## Sık Sorulan Sorular (FAQ)
 
-**İklimden en çok ve en az etkilenen hayvancılık hangisidir?**
-En çok etkilenen: Arıcılık. En az etkilenen: Kümes ve besi (ahır) hayvancılığı.
-
-**Neden Doğu Karadeniz'de Büyükbaş, İç Anadolu'da Küçükbaş hayvancılık yapılır?**
-Doğu Karadeniz'de yaz yağışlarıyla yeşeren gür çayırlar sığır için, İç Anadolu'daki kısa boylu bozkırlar ise koyun için uygundur.
-
-**Hangi sulama yöntemi en verimlidir?**
-**Damla sulama** en az su kullanan ve en verimli yöntemdir.
-lıurfa](/guneydogu-anadolubolgesi/il/sanliurfa) pamuk üretiminde 1. sıraya yükselmiştir.
-
-**İklimden en çok ve en az etkilenen hayvancılık hangisidir?**
-En çok etkilenen: Arıcılık (çiçek-bitki bağımlılığı). En az etkilenen: Kümes ve besi (ahır) hayvancılığı (kapalı ortamda yapıldığı için).
-
-**Neden Doğu [Karadeniz](/karadenizbolgesi)'de Büyükbaş, İç Anadolu'da Küçükbaş hayvancılık yapılır?**
-Tamamen bitki örtüsü ile ilgilidir. Doğu [Karadeniz](/karadenizbolgesi)'de yazlar yağışlı geçtiği için gür çayırlar oluşur (sığır için uygundur). İç Anadolu'da yazlar kurak olduğu için otlar sararır ve **[Bozkır (Step)](/konu/iklim-bitki)** oluşur (koyun için uygundur).
-
-**Hangi sulama yöntemi en az su tüketir?**
-**Damla sulama** en az su kullanan ve en verimli yöntemdir. Bitki köklerine doğrudan ulaştırıldığı için buharlaşma kaybı minimumdur. Türkiye, damla sulamaya geçiş oranını artırmak için çeşitli destekler vermektedir.
+<SmartFAQ 
+  items={[
+    { 
+      q: "İklimden en çok ve en az etkilenen hayvancılık hangisidir?", 
+      a: "En çok etkilenen: Arıcılık (bitki çeşitliliğine bağlı). En az etkilenen: Kümes ve besi (ahır) hayvancılığı (kapalı ortam)." 
+    },
+    { 
+      q: "Neden Doğu Karadeniz'de Büyükbaş, İç Anadolu'da Küçükbaş yapılır?", 
+      a: "Doğu Karadeniz'de yaz yağışlarıyla yeşeren gür çayırlar büyükbaş için, İç Anadolu'daki kısa boylu bozkırlar ise küçükbaş için uygundur." 
+    },
+    { 
+      q: "Hangi sulama yöntemi en verimlidir?", 
+      a: "Damla sulama en az su kullanan ve bitki köküne doğrudan ulaştığı için en verimli yöntemdir." 
+    },
+    { 
+      q: "GAP'ın tarıma en büyük etkisi nedir?", 
+      a: "Şanlıurfa başta olmak üzere Güneydoğu Anadolu'da sulama imkanlarını artırarak pamuk ve mısır gibi ürünlerin üretimini rekor seviyeye çıkarmıştır." 
+    }
+  ]}
+/>

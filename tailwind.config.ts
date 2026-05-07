@@ -60,6 +60,31 @@ const config: Config = {
           light:   '#dbeafe',
           dark:    '#1e3a8a',
         },
+        // Akademik Rehber Renkleri
+        academic: {
+          mavi: '#4B7BA7',
+          turuncu: '#E8823C',
+          yesil: '#2D8659',
+          kirmizi: '#C84C42',
+          gri: '#F5F5F5',
+          koyu: '#2C2C2C',
+        },
+        'kpss-kirmizi': {
+          bg: '#FFE5E5',
+          border: '#C84C42',
+        },
+        'kpss-turuncu-box': {
+          bg: '#FFF3E5',
+          border: '#E8823C',
+        },
+        'kpss-yesil': {
+          bg: '#E5F5E5',
+          border: '#2D8659',
+        },
+        'kpss-mavi': {
+          bg: '#E5F0FF',
+          border: '#4B7BA7',
+        },
       },
       fontFamily: {
         sans: ['var(--font-outfit)', 'var(--font-inter)', 'ui-sans-serif', 'system-ui'],

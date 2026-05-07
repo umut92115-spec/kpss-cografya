@@ -12,12 +12,17 @@ import matter from 'gray-matter';
 import JsonLd from '@/components/JsonLd';
 import IlgiliBaglantilar from '@/components/IlgiliBaglantilar';
 import GorselHafizaKarti from '@/components/GorselHafizaKarti';
+import SmartFAQ from '@/components/SmartFAQ';
+import StatCards from '@/components/StatCards';
+
 import { linkKeywords, getNextPrevKonu } from '@/lib/linkUtils';
 import { getQuizData } from '@/lib/getQuizData';
 import remarkGfm from 'remark-gfm';
 // MDX içinde kullanılabilecek özel bileşenler
 const mdxComponents = {
   KpssNot: KpssNotKutusu,
+  SmartFAQ: SmartFAQ,
+  StatCards: StatCards,
   // Başlıklara otomatik id ekle
   h2: (props: React.HTMLAttributes<HTMLHeadingElement>) => {
     const id = String(props.children).toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
@@ -80,19 +85,21 @@ const mdxComponents = {
     return <blockquote {...props} className="border-l-4 border-gray-200 pl-4 italic my-6 text-gray-700" />;
   },
   table: (props: React.HTMLAttributes<HTMLTableElement>) => (
-    <div className="overflow-x-auto my-8 rounded-xl border border-gray-200 shadow-sm">
-      <table {...props} className="min-w-full border-collapse text-sm bg-white" />
+    <div className="overflow-x-auto my-10 rounded-2xl border border-gray-200 shadow-premium bg-white">
+      <table {...props} className="min-w-full border-collapse text-sm" />
     </div>
   ),
-  thead: (props: React.HTMLAttributes<HTMLTableSectionElement>) => <thead {...props} className="bg-gray-50 border-b border-gray-200" />,
+  thead: (props: React.HTMLAttributes<HTMLTableSectionElement>) => (
+    <thead {...props} className="bg-gradient-to-r from-[#4B7BA7] to-[#3b6082] text-white" />
+  ),
   th: (props: React.HTMLAttributes<HTMLTableCellElement>) => (
-    <th {...props} className="px-4 py-3 font-bold text-left text-gray-700 uppercase tracking-wider bg-gray-50/50" />
+    <th {...props} className="px-6 py-4 font-bold text-left uppercase tracking-wider text-[11px]" />
   ),
   tr: (props: React.HTMLAttributes<HTMLTableRowElement>) => (
-    <tr {...props} className="border-b border-gray-100 last:border-0 hover:bg-blue-50/30 transition-colors" />
+    <tr {...props} className="border-b border-gray-50 last:border-0 hover:bg-academic-gri/50 transition-colors group" />
   ),
   td: (props: React.HTMLAttributes<HTMLTableCellElement>) => (
-    <td {...props} className="px-4 py-3 text-gray-600 leading-relaxed" />
+    <td {...props} className="px-6 py-4 text-gray-700 leading-relaxed first:border-l-4 first:border-[#4B7BA7] group-hover:bg-gray-50/80 transition-colors" />
   ),
 };
 
@@ -199,26 +206,29 @@ export default async function KonuPage({ params }: { params: { slug: string } })
           ]
         }}
       />
-      {mdx && mdx.content.includes('## Sık Sorulan Sorular') && (
+      {mdx && (mdx.content.includes('## Sık Sorulan Sorular') || mdx.content.includes('## SSS')) && (
         <JsonLd
           tip="FAQPage"
           veri={{
-            mainEntity: (mdx.content.split('## Sık Sorulan Sorular')[1] || '')
-              .split('---')[0]
-              .split(/\n\s*\n/) // Paragraflara böl
-              .filter(p => p.includes('**') && p.includes('?')) // Soru içeren paragrafları seç
+            mainEntity: (mdx.content.split(/## Sık Sorulan Sorular|## SSS/)[1] || '')
+              .split('\n---')[0]
+              .split(/\n\s*\n/)
               .map(block => {
-                // Yıldızları temizle ve soru/cevap ayrımı yap
-                const cleanBlock = block.trim().replace(/^\*\*/, '');
-                const parts = cleanBlock.split('**');
-                const question = parts[0]?.replace(/\?$/, '') + '?';
-                const answer = parts.slice(1).join(' ').trim();
+                const lines = block.trim().split('\n');
+                if (lines.length < 2) return null;
+                
+                // İlk satır soru olmalı (genelde ** ile başlar ve ? ile biter)
+                const questionLine = lines[0].trim();
+                if (!questionLine.includes('?') || !questionLine.startsWith('**')) return null;
+                
+                const question = questionLine.replace(/\*\*/g, '').trim();
+                const answer = lines.slice(1).join(' ').trim();
                 
                 if (!question || !answer) return null;
 
                 return {
                   "@type": "Question",
-                  name: question.trim(),
+                  name: question,
                   acceptedAnswer: {
                     "@type": "Answer",
                     text: answer

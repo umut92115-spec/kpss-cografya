@@ -28,7 +28,6 @@ export const metadata: Metadata = {
     telephone: false,
   },
   alternates: {
-    canonical: 'https://kpsscografya.com.tr',
     languages: {
       'tr-TR': 'https://kpsscografya.com.tr',
     },
