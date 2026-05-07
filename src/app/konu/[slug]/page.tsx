@@ -1,3 +1,4 @@
+import React from 'react';
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
@@ -50,8 +51,12 @@ const mdxComponents = {
     // Çocukları (children) düz metne çevirerek kontrol et
     const children = props.children;
     const textContent = Array.isArray(children) 
-      ? children.map(c => (typeof c === 'string' ? c : c?.props?.children)).join('')
-      : (typeof children === 'string' ? children : children?.props?.children || '');
+      ? children.map(c => {
+          if (typeof c === 'string') return c;
+          if (React.isValidElement(c) && (c.props as any).children) return String((c.props as any).children);
+          return '';
+        }).join('')
+      : (typeof children === 'string' ? children : (React.isValidElement(children) && (children.props as any).children ? String((children.props as any).children) : ''));
 
     const match = String(textContent).match(/\[!(IMPORTANT|TIP|NOTE|WARNING|CAUTION|onemli|dikkat|ezber|soru|uyari)\]/i);
     
@@ -71,8 +76,8 @@ const mdxComponents = {
         if (typeof child === 'string') {
           return child.replace(/\[!.*?\]/, '').trim();
         }
-        if (child?.props?.children && typeof child.props.children === 'string') {
-          const newText = child.props.children.replace(/\[!.*?\]/, '').trim();
+        if (React.isValidElement(child) && (child.props as any).children && typeof (child.props as any).children === 'string') {
+          const newText = (child.props as any).children.replace(/\[!.*?\]/, '').trim();
           return <span key={idx}>{newText}</span>;
         }
         return child;
