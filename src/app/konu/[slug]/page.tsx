@@ -16,7 +16,6 @@ import SmartFAQ from '@/components/SmartFAQ';
 import StatCards from '@/components/StatCards';
 
 import { linkKeywords, getNextPrevKonu } from '@/lib/linkUtils';
-import { getQuizData } from '@/lib/getQuizData';
 import remarkGfm from 'remark-gfm';
 // MDX içinde kullanılabilecek özel bileşenler
 const mdxComponents = {
