@@ -260,7 +260,7 @@ export default function Home() {
             {konular
               .slice()
               .sort((a, b) => b.kpss_soru_sayisi_ort - a.kpss_soru_sayisi_ort)
-              .map((k, i) => {
+              .map((k) => {
                 const maxSoru = 4;
                 const oran = (k.kpss_soru_sayisi_ort / maxSoru) * 100;
                 return (

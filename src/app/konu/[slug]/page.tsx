@@ -47,7 +47,7 @@ const mdxComponents = {
       )}
     </span>
   ),
-  blockquote: (props: any) => {
+  blockquote: (props: React.BlockquoteHTMLAttributes<HTMLQuoteElement>) => {
     // Çocukları (children) düz metne çevirerek kontrol et
     const children = props.children;
     const textContent = Array.isArray(children) 
@@ -68,7 +68,7 @@ const mdxComponents = {
       
       // İçerikten tag'i temizle
       const renderChildren = Array.isArray(children) ? children : [children];
-      const cleanedChildren = renderChildren.map((child: any, idx: number) => {
+      const cleanedChildren = renderChildren.map((child, idx: number) => {
         if (typeof child === 'string') {
           return child.replace(/\[!.*?\]/, '').trim();
         }
@@ -79,7 +79,7 @@ const mdxComponents = {
         return child;
       });
 
-      return <KpssNotKutusu tip={kpssType as any}>{cleanedChildren}</KpssNotKutusu>;
+      return <KpssNotKutusu tip={kpssType as 'onemli'}>{cleanedChildren}</KpssNotKutusu>;
     }
     
     return <blockquote {...props} className="border-l-4 border-gray-200 pl-4 italic my-6 text-gray-700" />;
@@ -165,7 +165,6 @@ export async function generateMetadata({ params }: { params: { slug: string } })
 export default async function KonuPage({ params }: { params: { slug: string } }) {
   const konu = getKonu(params.slug);
   const mdx = await getMdxContent(params.slug);
-  const quizData = getQuizData(params.slug);
 
   if (!konu) notFound();
 
