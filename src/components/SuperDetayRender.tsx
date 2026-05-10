@@ -13,19 +13,23 @@ export default function SuperDetayRender({ data, ilAd, konuBaslik }: SuperDetayR
   return (
     <article className="space-y-8">
       {/* Schema Markup */}
-      <JsonLd
-        tip="FAQPage"
-        veri={{
-          mainEntity: data.faqs.map(faq => ({
-            "@type": "Question",
-            name: faq.q,
-            acceptedAnswer: {
-              "@type": "Answer",
-              text: faq.a
-            }
-          }))
-        }}
-      />
+      {data?.faqs && (
+        <JsonLd
+          tip="FAQPage"
+          veri={{
+            mainEntity: (data.faqs || [])
+              .filter(faq => faq.q && faq.a)
+              .map(faq => ({
+                "@type": "Question",
+                name: faq.q,
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: faq.a
+                }
+              }))
+          }}
+        />
+      )}
 
       {/* Hero / Snippet Section */}
       <section className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-xl">
@@ -36,7 +40,7 @@ export default function SuperDetayRender({ data, ilAd, konuBaslik }: SuperDetayR
       </section>
 
       {/* Dynamic Sections */}
-      {data.sections.map((section, idx) => (
+      {data?.sections?.map((section, idx) => (
         <section key={idx} className="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
           <div className="px-6 py-4 border-b border-gray-50 bg-gray-50/50">
             <h2 className="text-xl font-bold text-gray-800">{section.h2}</h2>
@@ -47,21 +51,31 @@ export default function SuperDetayRender({ data, ilAd, konuBaslik }: SuperDetayR
             </div>
 
             {section.type === 'table' && section.data && Array.isArray(section.data) && section.data.length > 0 && (
-              <div className="overflow-x-auto">
-                <table className="w-full text-sm text-left text-gray-500 border-collapse">
-                  <thead className="text-xs text-gray-700 uppercase bg-gray-50">
+              <div className="overflow-x-auto my-4">
+                <table className="w-full text-sm text-left text-gray-500 border border-gray-200 rounded-lg overflow-hidden">
+                  <thead className="text-xs text-gray-700 uppercase bg-gray-100 font-bold">
                     <tr>
-                      {Object.keys(section.data[0] || {}).map(key => (
-                        <th key={key} className="px-4 py-3 border">{key}</th>
-                      ))}
+                      {Array.isArray(section.data[0]) 
+                        ? section.data[0].map((header, hIdx) => (
+                            <th key={hIdx} className="px-4 py-3 border-b border-r last:border-r-0">{header}</th>
+                          ))
+                        : Object.keys(section.data[0] || {}).map(key => (
+                            <th key={key} className="px-4 py-3 border-b border-r last:border-r-0">{key}</th>
+                          ))
+                      }
                     </tr>
                   </thead>
                   <tbody>
-                    {section.data.map((row: Record<string, string | number>, i: number) => (
+                    {(Array.isArray(section.data[0]) ? section.data.slice(1) : section.data).map((row: any, i: number) => (
                       <tr key={i} className="bg-white border-b hover:bg-gray-50 transition-colors">
-                        {Object.values(row || {}).map((val: string | number, j: number) => (
-                          <td key={j} className="px-4 py-3 border font-medium text-gray-900">{val}</td>
-                        ))}
+                        {Array.isArray(row)
+                          ? row.map((val, j) => (
+                              <td key={j} className="px-4 py-3 border-r last:border-r-0 font-medium text-gray-900">{val}</td>
+                            ))
+                          : Object.values(row || {}).map((val: any, j: number) => (
+                              <td key={j} className="px-4 py-3 border-r last:border-r-0 font-medium text-gray-900">{val}</td>
+                            ))
+                        }
                       </tr>
                     ))}
                   </tbody>
@@ -89,18 +103,20 @@ export default function SuperDetayRender({ data, ilAd, konuBaslik }: SuperDetayR
       ))}
 
       {/* FAQ Section */}
-      <section className="bg-gray-50 rounded-2xl p-6 md:p-8 border border-gray-100">
-        <h2 className="text-2xl font-bold mb-6 flex items-center gap-2 text-gray-900">
-          <span className="text-blue-600">❓</span> Sıkça Sorulan Sorular (SSS)
-        </h2>
-        <FaqAccordion faqs={data.faqs} />
-      </section>
+      {data?.faqs && data.faqs.length > 0 && (
+        <section className="bg-gray-50 rounded-2xl p-6 md:p-8 border border-gray-100">
+          <h2 className="text-2xl font-bold mb-6 flex items-center gap-2 text-gray-900">
+            <span className="text-blue-600">❓</span> Sıkça Sorulan Sorular (SSS)
+          </h2>
+          <FaqAccordion faqs={data.faqs} />
+        </section>
+      )}
 
       {/* Footer Info */}
       <div className="flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-gray-400 pt-6 border-t border-gray-100">
         <div className="flex items-center gap-4">
-           <span>© kpsscografya.com.tr</span>
-           <Link href="/konu/sozluk" className="hover:text-blue-500 underline underline-offset-2">Coğrafya Sözlüğü</Link>
+          <span>© kpsscografya.com.tr</span>
+          <Link href="/konu/sozluk" className="hover:text-blue-500 underline underline-offset-2">Coğrafya Sözlüğü</Link>
         </div>
         <span>Son Güncelleme: {data.last_updated} | 2026 KPSS Müfredatı</span>
       </div>

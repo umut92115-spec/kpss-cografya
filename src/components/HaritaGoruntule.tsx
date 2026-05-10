@@ -7,18 +7,7 @@ import L from 'leaflet';
 import { IlKonuData } from '@/types';
 import { slugify } from '@/lib/slugify';
 
-import daglarData from '../../data/yer-sekilleri/daglar.json';
-import gollerData from '../../data/goller.json';
-import komsularData from '../../data/sinir-komsulari.json';
-import beseriData from '../../data/beseri-cografya.json';
-import madenEnerjiData from '../../data/madenler-enerji.json';
-import ulasimTurizmData from '../../data/ulasim-turizm.json';
-import akarsuData from '../../data/akarsular.json';
-import ticaretData from '../../data/ticaret.json';
-import jeolojikData from '../../data/jeolojik-yapi.json';
-import jeopolitikData from '../../data/jeopolitik.json';
-import kalkinmaData from '../../data/kalkinma-projeleri.json';
-import kiyiData from '../../data/kiyi-tipleri.json';
+// JSON verileri artık dinamik olarak (import()) yüklenecek.
 
 // Leaflet Default Icon Düzeltmesi
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -114,6 +103,32 @@ interface HaritaGoruntuleProps {
   temaRenk: string;
 }
 
+interface Dag {
+  ad: string;
+  lat: number;
+  lng: number;
+  tur: 'kivrim' | 'kiriklik' | 'volkanik';
+  yukseklik?: number;
+  ozellik?: string;
+  grup?: string;
+}
+
+interface Kapi {
+  ad: string;
+  lat: number;
+  lng: number;
+  ulke: string;
+  ozellik?: string;
+}
+
+interface Akarsu {
+  ad: string;
+  lat: number;
+  lng: number;
+  havza: string;
+  ozellik?: string;
+}
+
 export default function HaritaGoruntule({
   konuSlug,
   secilenIl,
@@ -121,76 +136,115 @@ export default function HaritaGoruntule({
   matrisData,
   temaRenk,
 }: HaritaGoruntuleProps) {
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const [geoData, setGeoData] = useState<any>(null);
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const [tumDaglar, setTumDaglar] = useState<any[]>([]);
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const [tumKapilar, setTumKapilar] = useState<any[]>([]);
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const [tumAkarsular, setTumAkarsular] = useState<any[]>([]);
+  const [geoData, setGeoData] = useState<GeoJSON.FeatureCollection | null>(null);
+  const [tumDaglar, setTumDaglar] = useState<Dag[]>([]);
+  const [tumKapilar, setTumKapilar] = useState<Kapi[]>([]);
+  const [tumAkarsular, setTumAkarsular] = useState<Akarsu[]>([]);
+  const [layersData, setLayersData] = useState<any>({});
 
   useEffect(() => {
-    fetch('/maps/turkey-iller.geojson')
-      .then((res) => res.json())
-      .then(setGeoData)
-      .catch((err) => {
-        console.error('Harita yüklenirken hata oluştu:', err);
-        setGeoData({ type: 'FeatureCollection', features: [] });
-      });
+    const loadMapData = async () => {
+      try {
+        const geoRes = await fetch('/maps/turkey-iller.geojson');
+        const geoJson = await geoRes.json();
+        setGeoData(geoJson);
 
-    // Verileri Düzleştir
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    const daglarArr: any[] = [];
-    ['kivrim', 'kiriklik', 'volkanik'].forEach(tur => {
-      // @ts-expect-error data structure
-      const turData = daglarData[tur];
-      if (!turData) return;
-      const gruplar = turData.gruplar || (turData.daglar ? [{ daglar: turData.daglar }] : []);
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
-      gruplar.forEach((grup: any) => {
-        if (grup.daglar) {
-          // eslint-disable-next-line @typescript-eslint/no-explicit-any
-          grup.daglar.forEach((dag: any) => {
-            if (dag.lat) daglarArr.push({...dag, tur, grup: grup.grup || ''});
+        // Dinamik Importlar (Bundle optimizasyonu için)
+        const [
+          daglarData,
+          komsularData,
+          akarsuData,
+          gollerData,
+          beseriData,
+          madenEnerjiData,
+          ulasimTurizmData,
+          ticaretData,
+          jeolojikData,
+          jeopolitikData,
+          kalkinmaData,
+          kiyiData
+        ] = await Promise.all([
+          import('../../data/yer-sekilleri/daglar.json').then(m => m.default),
+          import('../../data/sinir-komsulari.json').then(m => m.default),
+          import('../../data/akarsular.json').then(m => m.default),
+          import('../../data/goller.json').then(m => m.default),
+          import('../../data/beseri-cografya.json').then(m => m.default),
+          import('../../data/madenler-enerji.json').then(m => m.default),
+          import('../../data/ulasim-turizm.json').then(m => m.default),
+          import('../../data/ticaret.json').then(m => m.default),
+          import('../../data/jeolojik-yapi.json').then(m => m.default),
+          import('../../data/jeopolitik.json').then(m => m.default),
+          import('../../data/kalkinma-projeleri.json').then(m => m.default),
+          import('../../data/kiyi-tipleri.json').then(m => m.default)
+        ]);
+
+        setLayersData({
+          gollerData,
+          beseriData,
+          madenEnerjiData,
+          ulasimTurizmData,
+          ticaretData,
+          jeolojikData,
+          jeopolitikData,
+          kalkinmaData,
+          kiyiData
+        });
+
+        // Verileri Düzleştir
+        const daglarArr: Dag[] = [];
+        const seenDags = new Set<string>();
+
+        (['kivrim', 'kiriklik', 'volkanik'] as const).forEach(tur => {
+          const turData = (daglarData as any)[tur];
+          if (!turData) return;
+          const gruplar = turData.gruplar || (turData.daglar ? [{ daglar: turData.daglar }] : []);
+          gruplar.forEach((grup: any) => {
+            if (grup.daglar) {
+              grup.daglar.forEach((dag: any) => {
+                if (dag.lat) {
+                  daglarArr.push({...dag, tur, grup: grup.grup || ''});
+                  seenDags.add(dag.ad);
+                }
+              });
+            }
           });
-        }
-      });
-      if (turData.daglar && !turData.gruplar) {
-        // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        turData.daglar.forEach((dag: any) => {
-          if (dag.lat && !daglarArr.find(d => d.ad === dag.ad)) daglarArr.push({...dag, tur});
+          if (turData.daglar && !turData.gruplar) {
+            turData.daglar.forEach((dag: any) => {
+              if (dag.lat && !seenDags.has(dag.ad)) {
+                daglarArr.push({...dag, tur});
+                seenDags.add(dag.ad);
+              }
+            });
+          }
         });
-      }
-    });
-    setTumDaglar(daglarArr);
+        setTumDaglar(daglarArr);
 
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    const kapiArr: any[] = [];
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    komsularData.forEach((komsu: any) => {
-      if (komsu.sinir_kapilari) {
-        // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        komsu.sinir_kapilari.forEach((kapi: any) => {
-          if (kapi.lat) kapiArr.push({...kapi, ulke: komsu.ulke});
+        const kapiArr: Kapi[] = [];
+        (komsularData as any).forEach((komsu: any) => {
+          if (komsu.sinir_kapilari) {
+            komsu.sinir_kapilari.forEach((kapi: any) => {
+              if (kapi.lat) kapiArr.push({...kapi, ulke: komsu.ulke});
+            });
+          }
         });
-      }
-    });
-    setTumKapilar(kapiArr);
+        setTumKapilar(kapiArr);
 
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    const akarsuArr: any[] = [];
-    Object.keys(akarsuData.dokulduklari_havzalar).forEach(havza => {
-      // @ts-expect-error data structure
-      const hData = akarsuData.dokulduklari_havzalar[havza];
-      if (hData.akarsular) {
-        // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        hData.akarsular.forEach((ak: any) => {
-          if (ak.lat) akarsuArr.push({...ak, havza});
+        const akarsuArr: Akarsu[] = [];
+        Object.keys((akarsuData as any).dokulduklari_havzalar).forEach(havza => {
+          const hData = (akarsuData as any).dokulduklari_havzalar[havza];
+          if (hData.akarsular) {
+            hData.akarsular.forEach((ak: any) => {
+              if (ak.lat) akarsuArr.push({...ak, havza});
+            });
+          }
         });
+        setTumAkarsular(akarsuArr);
+      } catch (err) {
+        console.error("Harita verileri yüklenirken hata:", err);
       }
-    });
-    setTumAkarsular(akarsuArr);
+    };
+
+    loadMapData();
   }, []);
 
   const getFillColor = (ilSlug: string): string => {
@@ -339,7 +393,7 @@ export default function HaritaGoruntule({
           {/* Göller */}
           <LayersControl.Overlay checked={['yer-sekilleri', 'goller'].includes(konuSlug)} name="🌊 Göller">
             <LayerGroup>
-              {gollerData.goller.filter(g => g.lat).map((gol, i) => (
+              {layersData.gollerData?.goller?.filter((g: any) => g.lat).map((gol: any, i: number) => (
                 <Marker
                   key={`gol-${i}`}
                   position={[gol.lat, gol.lng]}
@@ -393,7 +447,7 @@ export default function HaritaGoruntule({
             <>
               <LayersControl.Overlay checked name="🔴 Yoğun Nüfus">
                 <LayerGroup>
-                  {beseriData.nufus_yogunlugu.yogun.map((yer, i) => (
+                  {layersData.beseriData?.nufus_yogunlugu?.yogun?.map((yer: any, i: number) => (
                     <Marker key={`y-${i}`} position={[yer.lat, yer.lng]} icon={icons.populationDense}>
                       <Popup>
                         <div className="p-2 font-sans">
@@ -407,7 +461,7 @@ export default function HaritaGoruntule({
               </LayersControl.Overlay>
               <LayersControl.Overlay checked name="🟡 Seyrek Nüfus">
                 <LayerGroup>
-                  {beseriData.nufus_yogunlugu.seyrek.map((yer, i) => (
+                  {layersData.beseriData?.nufus_yogunlugu?.seyrek?.map((yer: any, i: number) => (
                     <Marker key={`s-${i}`} position={[yer.lat, yer.lng]} icon={icons.populationSparse}>
                       <Popup>
                         <div className="p-2 font-sans">
@@ -425,7 +479,7 @@ export default function HaritaGoruntule({
           {/* Madenler ve Enerji */}
           <LayersControl.Overlay checked={konuSlug === 'madenler-enerji'} name="⛏️ Madenler">
             <LayerGroup>
-              {madenEnerjiData['Madenler'].map((maden, i) => (
+              {layersData.madenEnerjiData?.['Madenler']?.map((maden: any, i: number) => (
                 <Marker key={`m-${i}`} position={[maden.lat, maden.lng]} icon={icons.mine}>
                   <Popup>
                     <div className="p-2">
@@ -441,7 +495,7 @@ export default function HaritaGoruntule({
 
           <LayersControl.Overlay checked={konuSlug === 'madenler-enerji'} name="⚡ Enerji Santralleri">
             <LayerGroup>
-              {madenEnerjiData['Enerji Santralleri'].map((enerji, i) => (
+              {layersData.madenEnerjiData?.['Enerji Santralleri']?.map((enerji: any, i: number) => (
                 <Marker key={`e-${i}`} position={[enerji.lat, enerji.lng]} icon={icons.energy}>
                   <Popup>
                     <div className="p-2">
@@ -458,7 +512,7 @@ export default function HaritaGoruntule({
           {/* Ulaşım ve Turizm */}
           <LayersControl.Overlay checked={konuSlug === 'ulasim'} name="🛣️ Geçitler & Tüneller">
             <LayerGroup>
-              {ulasimTurizmData.gecitler_ve_tuneller.map((gecit, i) => (
+              {layersData.ulasimTurizmData?.gecitler_ve_tuneller?.map((gecit: any, i: number) => (
                 <Marker key={`gecit-${i}`} position={[gecit.lat, gecit.lng]} icon={icons.gate}>
                   <Popup>
                     <div className="p-2">
@@ -474,7 +528,7 @@ export default function HaritaGoruntule({
 
           <LayersControl.Overlay checked={konuSlug === 'turizm'} name="🏖️ Turizm Merkezleri">
             <LayerGroup>
-              {ulasimTurizmData.turizm_merkezleri.map((turizm, i) => (
+              {layersData.ulasimTurizmData?.turizm_merkezleri?.map((turizm: any, i: number) => (
                 <Marker key={`tur-${i}`} position={[turizm.lat, turizm.lng]} icon={icons.tourism}>
                   <Popup>
                     <div className="p-2">
@@ -509,7 +563,7 @@ export default function HaritaGoruntule({
           {/* Ticaret */}
           <LayersControl.Overlay checked={konuSlug === 'ticaret'} name="💰 Ticaret & Limanlar">
             <LayerGroup>
-              {ticaretData.ticaret_merkezleri.map((tm, i) => (
+              {layersData.ticaretData?.ticaret_merkezleri?.map((tm: any, i: number) => (
                 <Marker key={`tm-${i}`} position={[tm.lat, tm.lng]} icon={icons.trade}>
                   <Popup>
                     <div className="p-2">
@@ -526,7 +580,7 @@ export default function HaritaGoruntule({
           {/* Jeopolitik */}
           <LayersControl.Overlay checked={konuSlug === 'bolge-jeopolitik'} name="🏛️ Jeopolitik Noktalar">
             <LayerGroup>
-              {jeopolitikData.stratejik_noktalar.map((sn, i) => (
+              {layersData.jeopolitikData?.stratejik_noktalar?.map((sn: any, i: number) => (
                 <Marker key={`sn-${i}`} position={[sn.lat, sn.lng]} icon={icons.gate}>
                   <Popup>
                     <div className="p-2">
@@ -542,7 +596,7 @@ export default function HaritaGoruntule({
           {/* Jeolojik Yapı */}
           <LayersControl.Overlay checked={konuSlug === 'jeolojik-yapi'} name="🧬 Masifler & Faylar">
             <LayerGroup>
-              {jeolojikData.masifler.map((ms, i) => (
+              {layersData.jeolojikData?.masifler?.map((ms: any, i: number) => (
                 <Marker key={`ms-${i}`} position={[ms.lat, ms.lng]} icon={icons.mountain('#78350f')}>
                   <Popup>
                     <div className="p-2">
@@ -558,7 +612,7 @@ export default function HaritaGoruntule({
           {/* Kalkınma Projeleri */}
           <LayersControl.Overlay checked={konuSlug === 'kalkinma-projeleri'} name="🏗️ Bölgesel Projeler">
             <LayerGroup>
-              {kalkinmaData.projeler.map((kp, i) => (
+              {layersData.kalkinmaData?.projeler?.map((kp: any, i: number) => (
                 <Marker key={`kp-${i}`} position={[kp.lat, kp.lng]} icon={icons.mine}>
                   <Popup>
                     <div className="p-2">
@@ -575,7 +629,7 @@ export default function HaritaGoruntule({
           {/* Kıyı Tipleri */}
           <LayersControl.Overlay checked={konuSlug === 'kiyi-tipleri'} name="🌊 Kıyı Tipleri">
             <LayerGroup>
-              {kiyiData.kiyi_tipleri.map((kt, i) => (
+              {layersData.kiyiData?.kiyi_tipleri?.map((kt: any, i: number) => (
                 <Marker key={`kt-${i}`} position={[kt.lat, kt.lng]} icon={icons.wave}>
                   <Popup>
                     <div className="p-2">

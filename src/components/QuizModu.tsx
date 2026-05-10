@@ -308,10 +308,10 @@ export default function QuizModu({ konuSlug, konuMeta, sorular = [] }: QuizModuP
     'text-red-600';
 
   const sonucMesaj =
-    finalSkor >= 80 ? '🎉 Mükemmel! KPSS&apos;ye hazırsın.' :
-    finalSkor >= 60 ? '👍 İyi! Biraz daha tekrar yap.' :
-    finalSkor >= 40 ? '📚 Konu anlatımını tekrar oku.' :
-    '💪 Hayal kırıklığına uğrama, tekrar dene!';
+    finalSkor >= 80 ? "🎉 Mükemmel! KPSS'ye hazırsın." :
+    finalSkor >= 60 ? "👍 İyi! Biraz daha tekrar yap." :
+    finalSkor >= 40 ? "📚 Konu anlatımını tekrar oku." :
+    "💪 Hayal kırıklığına uğrama, tekrar dene!";
 
   return (
     <div className="max-w-xl mx-auto text-center py-10 px-4">
@@ -339,7 +339,7 @@ export default function QuizModu({ konuSlug, konuMeta, sorular = [] }: QuizModuP
         </div>
       </div>
 
-      <p className="text-gray-600 mb-6 text-lg" dangerouslySetInnerHTML={{ __html: sonucMesaj }} />
+      <p className="text-gray-600 mb-6 text-lg">{sonucMesaj}</p>
 
       {enYuksekSkor !== null && (
         <p className="text-sm text-yellow-700 font-semibold mb-4">

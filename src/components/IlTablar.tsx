@@ -95,11 +95,21 @@ export default function IlTablar({ params_slug, bolge_slug, tumKonular, konuVeri
                 {/* Sağ: Snippet & Özet */}
                 <div className="flex flex-col">
                   {aktifVeri.super_detay?.snippet ? (
-                    <div className="bg-gray-50 rounded-2xl p-6 border border-gray-100 flex-1 relative overflow-hidden">
-                      <h3 className="text-xs font-bold text-blue-500 uppercase tracking-widest mb-3">📝 Konu Özeti</h3>
-                      <p className="text-gray-800 text-sm leading-relaxed font-medium">
-                        {aktifVeri.super_detay.snippet}
-                      </p>
+                    <div className="bg-gray-50 rounded-2xl p-6 border border-gray-100 flex-1 relative overflow-hidden flex flex-col justify-between">
+                      <div>
+                        <h3 className="text-xs font-bold text-blue-500 uppercase tracking-widest mb-3">📝 Konu Özeti</h3>
+                        <p className="text-gray-800 text-sm leading-relaxed font-medium">
+                          {aktifVeri.super_detay.snippet}
+                        </p>
+                      </div>
+                      <div className="mt-4 flex justify-end">
+                        <Link
+                          href={`/${bolge_slug}/il/${params_slug}/${aktifKonu.slug}`}
+                          className="bg-gray-900 text-white text-[11px] font-bold px-4 py-2 rounded-lg hover:bg-black transition-colors"
+                        >
+                          Konuya git.
+                        </Link>
+                      </div>
                     </div>
                   ) : (
                     <div className="bg-gray-50/50 rounded-2xl p-6 border border-dashed border-gray-200 flex items-center justify-center text-center flex-1">

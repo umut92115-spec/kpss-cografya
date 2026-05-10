@@ -1,9 +1,9 @@
 import React from 'react';
-import { Metadata } from 'next';
+import { getKonu, getAllKonular, getKonuFaq } from '@/lib/getKonuData';
 import Link from 'next/link';
+import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { MDXRemote } from 'next-mdx-remote/rsc';
-import { getKonu, getAllKonular } from '@/lib/getKonuData';
 import KonuOzetKarti from '@/components/KonuOzetKarti';
 import IcindekilerTablosu, { TocItem } from '@/components/IcindekilerTablosu';
 import KpssNotKutusu from '@/components/KpssNotKutusu';
@@ -21,9 +21,9 @@ import remarkGfm from 'remark-gfm';
 // MDX içinde kullanılabilecek özel bileşenler
 const mdxComponents = {
   KpssNot: KpssNotKutusu,
-  SmartFAQ: SmartFAQ,
+  SmartFAQ: () => null, // Artık MDX içindeki SmartFAQ'ları devre dışı bırakıyoruz, kendimiz render edeceğiz
   StatCards: StatCards,
-  // Başlıklara otomatik id ekle
+  // ... (rest of mdxComponents is same)
   h2: (props: React.HTMLAttributes<HTMLHeadingElement>) => {
     const id = String(props.children).toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
     return <h2 id={id} {...props} className="text-2xl font-bold text-gray-900 mt-10 mb-4 scroll-mt-24 pb-2 border-b-2 border-blue-100" />;
@@ -51,7 +51,6 @@ const mdxComponents = {
     interface PropsWithChildren {
       children?: React.ReactNode;
     }
-    // Çocukları (children) düz metne çevirerek kontrol et
     const children = props.children;
     const textContent = Array.isArray(children) 
       ? children.map(c => {
@@ -72,8 +71,6 @@ const mdxComponents = {
       };
       
       const kpssType = typeMap[type] || 'onemli';
-      
-      // İçerikten tag'i temizle
       const renderChildren = Array.isArray(children) ? children : [children];
       const cleanedChildren = renderChildren.map((child, idx: number) => {
         if (typeof child === 'string') {
@@ -119,7 +116,7 @@ async function getMdxContent(slug: string) {
 }
 
 // Başlıkları parse ederek ToC oluştur
-function parseToc(content: string): TocItem[] {
+function parseToc(content: string, faqs: any[]): TocItem[] {
   const lines = content.split('\n');
   const items: TocItem[] = [];
   for (const line of lines) {
@@ -127,12 +124,19 @@ function parseToc(content: string): TocItem[] {
     const h3 = line.match(/^### (.+)/);
     if (h2) {
       const text = h2[1];
+      if (text.includes('Sık Sorulan Sorular') || text.includes('SSS')) continue; // MDX içindeki SSS başlığını ToC'ye ekleme
       items.push({ id: text.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, ''), text, level: 2 });
     } else if (h3) {
       const text = h3[1];
       items.push({ id: text.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, ''), text, level: 3 });
     }
   }
+  
+  // Eğer FAQ varsa ToC sonuna ekle
+  if (faqs && faqs.length > 0) {
+    items.push({ id: 'faq', text: 'Sık Sorulan Sorular', level: 2 });
+  }
+  
   return items;
 }
 
@@ -172,16 +176,15 @@ export async function generateMetadata({ params }: { params: { slug: string } })
 export default async function KonuPage({ params }: { params: { slug: string } }) {
   const konu = getKonu(params.slug);
   const mdx = await getMdxContent(params.slug);
+  const faqs = getKonuFaq(params.slug);
 
   if (!konu) notFound();
 
   const tumKonular = getAllKonular();
   const { prev, next } = getNextPrevKonu(params.slug);
-  const tocItems = mdx ? parseToc(mdx.content) : [];
+  const tocItems = mdx ? parseToc(mdx.content, faqs) : [];
   
-  // İçerik içindeki anahtar kelimeleri otomatik linkle
   const linkedContent = mdx ? linkKeywords(mdx.content, params.slug) : '';
-  
   const metaDesc = mdx?.frontmatter?.description || konu.aciklama;
 
   return (
@@ -212,43 +215,29 @@ export default async function KonuPage({ params }: { params: { slug: string } })
           ]
         }}
       />
-      {mdx && (mdx.content.includes('## Sık Sorulan Sorular') || mdx.content.includes('## SSS')) && (
+      
+      {faqs && faqs.length > 0 && (
         <JsonLd
           tip="FAQPage"
           veri={{
-            mainEntity: (mdx.content.split(/## Sık Sorulan Sorular|## SSS/)[1] || '')
-              .split('\n---')[0]
-              .split(/\n\s*\n/)
-              .map(block => {
-                const lines = block.trim().split('\n');
-                if (lines.length < 2) return null;
-                
-                // İlk satır soru olmalı (genelde ** ile başlar ve ? ile biter)
-                const questionLine = lines[0].trim();
-                if (!questionLine.includes('?') || !questionLine.startsWith('**')) return null;
-                
-                const question = questionLine.replace(/\*\*/g, '').trim();
-                const answer = lines.slice(1).join(' ').trim();
-                
-                if (!question || !answer) return null;
-
-                return {
-                  "@type": "Question",
-                  name: question,
-                  acceptedAnswer: {
-                    "@type": "Answer",
-                    text: answer
-                  }
-                };
-              })
-              .filter((item): item is NonNullable<typeof item> => item !== null)
+            mainEntity: faqs
+              .filter((f: any) => f.q && f.a)
+              .map((f: any) => ({
+                "@type": "Question",
+                name: f.q,
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: f.a
+                }
+              }))
           }}
         />
       )}
+
       {/* Konu Özet Kartı */}
       <KonuOzetKarti konu={konu} />
 
-      {/* Görsel Vurgu / İnfografik Alanı (Eğer MDX içinde resim varsa ilkini buraya çekebiliriz veya genel bir stil verebiliriz) */}
+      {/* Görsel Hafıza Kartı */}
       <div className="mb-12 bg-white rounded-3xl border border-gray-200 shadow-sm overflow-hidden p-2">
         <div className="bg-gray-50 rounded-2xl p-6 md:p-10 border border-gray-100 flex flex-col md:flex-row items-center gap-10">
           <div className="flex-1">
@@ -273,15 +262,15 @@ export default async function KonuPage({ params }: { params: { slug: string } })
       </div>
 
       <div className="flex gap-10 relative" id="mdx-content">
-        {/* Sol: İçindekiler Tablosu (sticky) */}
+        {/* Sol: İçindekiler Tablosu */}
         {tocItems.length > 0 && <IcindekilerTablosu items={tocItems} />}
 
-        {/* Orta: MDX Wiki İçeriği */}
+        {/* Orta: MDX İçeriği */}
         <article className="flex-1 min-w-0 prose prose-gray max-w-none prose-headings:scroll-mt-24">
           {mdx ? (
             <MDXRemote 
               source={linkedContent} 
-              components={mdxComponents as Parameters<typeof MDXRemote>[0]['components']}
+              components={mdxComponents as any}
               options={{
                 mdxOptions: {
                   remarkPlugins: [remarkGfm],
@@ -294,9 +283,26 @@ export default async function KonuPage({ params }: { params: { slug: string } })
               <p className="text-sm mt-1">Yakında eklenecek.</p>
             </div>
           )}
+
+          {/* Sık Sorulan Sorular (Dinamik) */}
+          {faqs && faqs.length > 0 && (
+            <section className="mt-20 border-t-4 border-blue-50 pt-10" id="faq">
+              <div className="flex items-center gap-3 mb-8">
+                <span className="w-12 h-12 bg-blue-600 text-white rounded-2xl flex items-center justify-center text-2xl shadow-lg shadow-blue-200">
+                  ❓
+                </span>
+                <div>
+                  <h2 className="text-3xl font-black text-gray-900 mb-1">Sık Sorulan Sorular</h2>
+                  <p className="text-gray-500 text-sm">Konu hakkında en çok merak edilen ve sınavda çıkabilecek sorular.</p>
+                </div>
+              </div>
+              <SmartFAQ items={faqs} />
+            </section>
+          )}
+
           <IlgiliBaglantilar tip="konu" slug={konu.slug} />
 
-          {/* Sonraki/Önceki Konu Navigasyonu */}
+          {/* Navigasyon */}
           <div className="mt-12 flex flex-col sm:flex-row gap-4 border-t border-gray-100 pt-8">
             {prev && (
               <Link 
@@ -322,16 +328,14 @@ export default async function KonuPage({ params }: { params: { slug: string } })
             )}
           </div>
 
-
-          {/* Bölgesel Analiz Linkleri */}
+          {/* Bölgesel Analiz */}
           <section className="mt-16 bg-gradient-to-br from-gray-900 to-blue-900 rounded-3xl p-8 md:p-12 text-white overflow-hidden relative">
             <div className="absolute top-0 right-0 w-64 h-64 bg-blue-500 opacity-10 rounded-full blur-3xl -mr-20 -mt-20"></div>
             <div className="relative z-10">
               <h3 className="text-2xl md:text-3xl font-black mb-4">Bölgelere Göre {konu.baslik}</h3>
               <p className="text-blue-100 mb-10 max-w-2xl">
-                {konu.baslik} konusunu Türkiye&apos;nin 7 coğrafi bölgesi bazında, KPSS&apos;de en çok çıkan kritik notlar ve harita analizleriyle incele.
+                {konu.baslik} konusunu Türkiye&apos;nin 7 coğrafi bölgesi bazında incele.
               </p>
-              
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
                 {[
                   { ad: 'Marmara', url: 'marmarabolgesi' },
@@ -356,9 +360,8 @@ export default async function KonuPage({ params }: { params: { slug: string } })
           </section>
         </article>
 
-        {/* Sağ: Kenar Çubuğu (masaüstü) */}
+        {/* Sağ Kenar Çubuğu */}
         <aside className="hidden lg:flex flex-col gap-4 w-56 shrink-0">
-          {/* Haritada Gör Kartı */}
           <div className="bg-white border border-gray-200 rounded-xl p-4 shadow-sm sticky top-24">
             <p className="text-xs font-bold uppercase text-gray-400 mb-3">Haritada Gör</p>
             <Link
@@ -367,10 +370,7 @@ export default async function KonuPage({ params }: { params: { slug: string } })
             >
               🗺️ İnteraktif Harita
             </Link>
-            <p className="text-xs text-gray-500 mt-2">İl bazlı dağılımı görsel haritada incele.</p>
           </div>
-
-          {/* İlgili Konular */}
           <div className="bg-white border border-gray-200 rounded-xl p-4 shadow-sm sticky top-56">
             <p className="text-xs font-bold uppercase text-gray-400 mb-3">İlgili Konular</p>
             <ul className="space-y-2">

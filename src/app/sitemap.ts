@@ -6,7 +6,7 @@ import path from 'path'
  
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://kpsscografya.com.tr'
-  const updateDate = new Date('2025-01-01')
+  const updateDate = new Date('2026-05-10')
   
   const iller = getAllIller()
   const konular = getAllKonular()
@@ -18,7 +18,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly' as const,
       priority: 0.7,
     },
-    ...konular.map(konu => ({
+    ...konular.filter(k => k.slug !== 'sozluk').map(konu => ({
       url: `${baseUrl}/${il.bolge_slug}bolgesi/il/${il.slug}/${konu.slug}`,
       lastModified: updateDate,
       changeFrequency: 'monthly' as const,

@@ -261,8 +261,8 @@ export default function Home() {
               .slice()
               .sort((a, b) => b.kpss_soru_sayisi_ort - a.kpss_soru_sayisi_ort)
               .map((k) => {
-                const maxSoru = 4;
-                const oran = (k.kpss_soru_sayisi_ort / maxSoru) * 100;
+                const MAX_EXPECTED_QUESTIONS = 4;
+                const oran = (k.kpss_soru_sayisi_ort / MAX_EXPECTED_QUESTIONS) * 100;
                 return (
                   <div key={k.slug} className="group flex flex-col md:flex-row md:items-center gap-4 bg-white/5 backdrop-blur-md p-6 rounded-3xl border border-white/10 transition-colors hover:bg-white/10">
                     <div className="flex items-center gap-4 md:w-64">

@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { getIl, getIlKonuData, getAllIller } from '@/lib/getIlData';
-import { getKonu, getAllKonular } from '@/lib/getKonuData';
+import { getKonu, getAllKonular, getKonuFaq } from '@/lib/getKonuData';
 import SuperDetayRender from '@/components/SuperDetayRender';
 import JsonLd from '@/components/JsonLd';
 
@@ -13,6 +13,7 @@ export async function generateStaticParams() {
   const params = [];
   for (const il of iller) {
     for (const konu of konular) {
+      if (konu.slug === 'sozluk') continue;
       params.push({
         bolge: `${il.bolge_slug}bolgesi`,
         slug: il.slug,
@@ -30,13 +31,13 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const il = getIl(params.slug);
   const konu = getKonu(params.konu);
-  if (!il || !konu) return {};
+  if (!il || !konu || konu.slug === 'sozluk') return {};
 
   const data = getIlKonuData(il.slug, konu.slug);
   const superDetay = data?.super_detay;
 
-  const title = superDetay?.title || `${il.ad} ${konu.baslik} — KPSS Coğrafya`;
-  const description = superDetay?.meta || `${il.ad} ilinde ${konu.baslik.toLowerCase()} konusuna dair KPSS notları.`;
+  const title = superDetay?.title || `${il.ad} ${konu.baslik} Akademik Analizi (2026 KPSS)`;
+  const description = superDetay?.meta || `${il.ad} ilinde ${konu.baslik.toLowerCase()} konusuna dair 2026 KPSS müfredatına uygun akademik detaylar, haritalar ve SSS bölümü.`;
 
   return {
     title,
@@ -74,10 +75,19 @@ export default function IlKonuDetayPage({
 }) {
   const il = getIl(params.slug);
   const konu = getKonu(params.konu);
-  if (!il || !konu) notFound();
+  if (!il || !konu || konu.slug === 'sozluk') notFound();
 
   const data = getIlKonuData(il.slug, konu.slug);
-  
+
+  // GÖREV 3 ✅ — FAQ Fallback: matris boşsa faq-konular.json'dan genel soruları kullan
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const matrisFaqs: { q: string; a: string }[] = (data as any)?.faqs ?? [];
+  const superDetayFaqs: { q: string; a: string }[] = data?.super_detay?.faqs ?? [];
+  const effectiveFaqs =
+    matrisFaqs.length > 0 ? matrisFaqs
+    : superDetayFaqs.length > 0 ? superDetayFaqs
+    : getKonuFaq(konu.slug); // ← faq-konular.json fallback (15 soru)
+
   if (!data?.super_detay) {
     // Eğer süper detay yoksa ana il sayfasına yönlendir veya basit içerik göster
     return (
@@ -117,7 +127,10 @@ export default function IlKonuDetayPage({
       />
 
       <SuperDetayRender 
-        data={data.super_detay} 
+        data={{
+          ...data.super_detay,
+          faqs: effectiveFaqs,
+        }} 
         ilAd={il.ad} 
         konuBaslik={konu.baslik} 
       />
@@ -126,7 +139,7 @@ export default function IlKonuDetayPage({
       <div className="mt-16 pt-8 border-t border-gray-100">
         <h3 className="text-lg font-bold text-gray-800 mb-6">{il.ad} İçin Diğer Konular</h3>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          {getAllKonular().filter(k => k.slug !== konu.slug).slice(0, 4).map(k => (
+          {getAllKonular().filter(k => k.slug !== konu.slug && k.slug !== 'sozluk').slice(0, 4).map(k => (
             <Link 
               key={k.slug}
               href={`/${params.bolge}/il/${il.slug}/${k.slug}`}

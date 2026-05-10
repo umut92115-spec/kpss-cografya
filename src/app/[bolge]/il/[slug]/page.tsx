@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { getAllIller, getIl, getIlKonuData, getIlOzet } from '@/lib/getIlData';
-import { getAllKonular } from '@/lib/getKonuData';
+import { getAllKonular, getKonuFaq } from '@/lib/getKonuData';
 import IlTablar from '@/components/IlTablar';
 import JsonLd from '@/components/JsonLd';
 import IlgiliBaglantilar from '@/components/IlgiliBaglantilar';
@@ -17,240 +17,197 @@ export async function generateStaticParams() {
   }));
 }
 
-// ─── SEO Metadata + Geo Tag ────────────────────────────────────────────────
-export async function generateMetadata({
-  params,
-}: {
-  params: { bolge: string; slug: string };
-}): Promise<Metadata> {
+// ─── SEO Metadata ──────────────────────────────────────────────────────────
+export async function generateMetadata({ params }: { params: { bolge: string; slug: string } }): Promise<Metadata> {
   const il = getIl(params.slug);
   if (!il) return {};
-
   const ilOzet = getIlOzet(params.slug);
-  // Vercel için build tetikleme ve tip güvenliği sağlandı
-  const tarimData = getIlKonuData(il.slug, 'tarim');
-  const madenData = getIlKonuData(il.slug, 'madenler-enerji');
-  
-  const tarimVerisi = tarimData && 'ana_urunler' in tarimData ? tarimData.ana_urunler.join(', ') : '';
-  const madenVerisi = madenData && 'maden_turleri' in madenData ? madenData.maden_turleri.join(', ') : '';
-  const plakaKod = String(il.plaka).padStart(2, '0');
-
-  const shortDescription = `${il.ad} KPSS Coğrafya Özeti: ${ilOzet?.[0] || ''} ${tarimVerisi.slice(0, 100)}... ${madenVerisi.slice(0, 80)}...`;
-
   return {
-    title: `${il.ad} KPSS Coğrafya — Madenler, Tarım, İklim | kpsscografya.com.tr`,
-    description: shortDescription,
-    alternates: {
-      canonical: `https://kpsscografya.com.tr/${params.bolge}/il/${il.slug}`,
-    },
-    openGraph: {
-      title: `${il.ad} — KPSS Coğrafya`,
-      description: `${il.ad} ili KPSS coğrafya özeti ve tarım-maden bilgileri.`,
-      url: `https://kpsscografya.com.tr/${params.bolge}/il/${il.slug}`,
-      siteName: 'kpsscografya.com.tr',
-      locale: 'tr_TR',
-      type: 'website',
-      images: ['/og-default.jpg'],
-    },
-    twitter: {
-      card: 'summary_large_image',
-      title: `${il.ad} — KPSS Coğrafya`,
-      images: ['/og-default.jpg'],
-    },
-    other: {
-      'geo.region': `TR-${plakaKod}`,
-      'geo.placename': `${il.ad}, Türkiye`,
-      'geo.position': `${il.lat};${il.lng}`,
-      'ICBM': `${il.lat}, ${il.lng}`,
-    },
+    title: `${il.ad} Hakkında Coğrafi Bilgiler — Coğrafya Ansiklopedisi`,
+    description: `${il.ad} ili KPSS coğrafya özeti: ${ilOzet?.[0] || ''}`,
+    alternates: { canonical: `https://kpsscografya.com.tr/${params.bolge}/il/${il.slug}` },
   };
 }
 
-// ─── JSON-LD Schema (Silindi, JsonLd bileşeni kullanılıyor) ────────────────────────────────────────────────────────
-
-// ─── Sayfa Bileşeni ────────────────────────────────────────────────────────
 export default function IlPage({ params }: { params: { bolge: string; slug: string } }) {
   const il = getIl(params.slug);
   if (!il) notFound();
 
   const tumKonular = getAllKonular();
   const ilOzet = getIlOzet(params.slug);
-
-  // Her konu için il verisini hazırla
+  const tumKonularFiltreli = tumKonular.filter(k => k.slug !== 'sozluk');
   const konuVerileri = Object.fromEntries(
-    tumKonular.map((konu) => [konu.slug, getIlKonuData(il.slug, konu.slug)])
+    tumKonularFiltreli.map((konu) => [konu.slug, getIlKonuData(il.slug, konu.slug)])
   );
 
-  // Nüfus formatlama
+  // GÖREV 2 ✅ — İl FAQPage: faq-konular.json'dan konu başına 2 soru → toplam ~10 soru/il
+  const ilFaqs = tumKonularFiltreli
+    .flatMap((k) => getKonuFaq(k.slug).slice(0, 2))
+    .filter((f) => f?.q && f?.a)
+    .slice(0, 10);
+
   const nufusFormatli = new Intl.NumberFormat('tr-TR').format(il.nufus_2023);
   const alanFormatli = new Intl.NumberFormat('tr-TR').format(il.yuzolcumu_km2);
   const plakaKod = String(il.plaka).padStart(2, '0');
 
   return (
-    <>
-      <JsonLd
-        tip="AdministrativeArea"
-        veri={getIlJsonLd(il)}
-      />
-      <JsonLd
-        tip="Place"
-        veri={{
-          name: `${il.ad}, Türkiye`,
-          geo: {
-            "@type": "GeoCoordinates",
-            latitude: il.lat,
-            longitude: il.lng,
-          },
-          containedInPlace: {
-            "@type": "AdministrativeArea",
-            name: "Türkiye"
-          }
-        }}
-      />
-      <JsonLd
-        tip="BreadcrumbList"
-        veri={{
-          itemListElement: [
-            { "@type": "ListItem", position: 1, name: "Ana Sayfa", item: "https://kpsscografya.com.tr" },
-            { "@type": "ListItem", position: 2, name: il.bolge, item: `https://kpsscografya.com.tr/${params.bolge}` },
-            { "@type": "ListItem", position: 3, name: il.ad, item: `https://kpsscografya.com.tr/${params.bolge}/il/${il.slug}` },
-          ]
-        }}
-      />
-      <div className="max-w-5xl mx-auto px-4 py-8">
-        {/* Breadcrumb */}
-        <nav aria-label="Breadcrumb" className="mb-6 text-sm text-gray-500 flex items-center gap-2">
-          <Link href="/" className="hover:text-blue-600 transition-colors">Ana Sayfa</Link>
-          <span>›</span>
-          <Link href={`/${params.bolge}`} className="hover:text-blue-600 transition-colors">{il.bolge} Bölgesi</Link>
-          <span>›</span>
-          <span className="text-gray-800 font-medium">{il.ad}</span>
+    <div className="bg-gray-50 min-h-screen pb-20">
+      <JsonLd tip="AdministrativeArea" veri={getIlJsonLd(il)} />
+      <JsonLd tip="BreadcrumbList" veri={{
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Ana Sayfa", item: "https://kpsscografya.com.tr" },
+          { "@type": "ListItem", position: 2, name: il.bolge, item: `https://kpsscografya.com.tr/${params.bolge}` },
+          { "@type": "ListItem", position: 3, name: il.ad, item: `https://kpsscografya.com.tr/${params.bolge}/il/${il.slug}` },
+        ]
+      }} />
+      {/* GÖREV 2 ✅ — İl FAQPage JSON-LD (81 il × 10 soru = 810 FAQ görünür) */}
+      {ilFaqs.length > 0 && (
+        <JsonLd
+          tip="FAQPage"
+          veri={{
+            mainEntity: ilFaqs.map((f) => ({
+              '@type': 'Question',
+              name: f.q,
+              acceptedAnswer: { '@type': 'Answer', text: f.a },
+            })),
+          }}
+        />
+      )}
+
+      <div className="max-w-7xl mx-auto px-4 py-8">
+        {/* Wiki Breadcrumb */}
+        <nav className="mb-6 text-xs text-gray-500 border-b border-gray-200 pb-4 flex items-center gap-2">
+          <Link href="/" className="hover:underline">Ana Sayfa</Link>
+          <span>/</span>
+          <Link href={`/${params.bolge}`} className="hover:underline">{il.bolge}</Link>
+          <span>/</span>
+          <span className="text-gray-900 font-bold">{il.ad}</span>
         </nav>
 
-        {/* ── Üst Hero Bölümü ── */}
-        <div className="bg-white rounded-2xl border border-gray-200 shadow-sm p-6 mb-8">
-          <div className="flex flex-wrap items-start justify-between gap-6">
-            {/* Sol: İl Bilgisi */}
-            <div>
-              <div className="flex items-center gap-3 mb-1">
-                <span className="text-3xl font-black text-gray-200 select-none">{il.plaka}</span>
-                <h1 className="text-4xl font-bold text-gray-900">{il.ad}</h1>
-              </div>
-              <p className="text-gray-500 mt-1 flex items-center gap-2 text-sm">
-                <span>📍 {il.bolge} Bölgesi</span>
-                <span>·</span>
-                <span>TR-{plakaKod}</span>
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
+          {/* Main Wiki Content */}
+          <main className="lg:col-span-8 space-y-8">
+            <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-8">
+              <h1 className="text-4xl font-serif font-black text-gray-900 mb-6 border-b border-gray-100 pb-4">
+                {il.ad}
+              </h1>
+
+              {/* Wiki Abstract */}
+              <p className="text-lg text-gray-700 leading-relaxed mb-8">
+                {il.ad}, Türkiye&apos;nin <strong>{il.bolge}</strong> Bölgesi&apos;nde yer alır. 
+                Güncel verilere göre şehrin nüfusu <strong>{nufusFormatli}</strong>, yüzölçümü ise <strong>{alanFormatli} km²</strong>&apos;dir.
               </p>
-            </div>
 
-            {/* Sağ: Harita Mini Koordinat Kartı */}
-            <div className="flex items-center gap-2 text-xs text-gray-400 bg-gray-50 rounded-lg px-4 py-3 border border-gray-200">
-              <span>🌐</span>
-              <span>{il.lat.toFixed(3)}°N, {il.lng.toFixed(3)}°E</span>
-            </div>
-          </div>
-
-          {/* İstatistik Çipleri */}
-          <div className="mt-6 flex flex-wrap gap-4">
-            <div className="flex flex-col bg-blue-50 border border-blue-100 rounded-xl px-5 py-3 min-w-[130px]">
-              <span className="text-xs font-semibold text-blue-500 uppercase tracking-wider">Nüfus (2023)</span>
-              <span className="text-2xl font-bold text-blue-700 mt-1">{nufusFormatli}</span>
-            </div>
-            <div className="flex flex-col bg-emerald-50 border border-emerald-100 rounded-xl px-5 py-3 min-w-[130px]">
-              <span className="text-xs font-semibold text-emerald-500 uppercase tracking-wider">Yüzölçümü</span>
-              <span className="text-2xl font-bold text-emerald-700 mt-1">{alanFormatli} <span className="text-base font-normal">km²</span></span>
-            </div>
-            <div className="flex flex-col bg-purple-50 border border-purple-100 rounded-xl px-5 py-3 min-w-[130px]">
-              <span className="text-xs font-semibold text-purple-500 uppercase tracking-wider">Bölge</span>
-              <span className="text-xl font-bold text-purple-700 mt-1">{il.bolge}</span>
-            </div>
-          </div>
-        </div>
-
-        {/* ── İl Kimlik Kartı (Süper Detay KPSS Notları) ── */}
-        {ilOzet && ilOzet.length > 0 && (
-          <div className="bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden mb-8">
-            <div className="bg-gray-900 px-6 py-4 flex items-center justify-between">
-              <h2 className="text-white font-bold flex items-center gap-2">
-                <span className="text-xl">📇</span> {il.ad} — KPSS Coğrafya Kimlik Kartı
-              </h2>
-              <span className="text-xs text-gray-400 font-medium">2026 Müfredatı</span>
-            </div>
-            <div className="p-6 md:p-8">
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                {ilOzet.map((not, idx) => (
-                  <div key={idx} className="flex items-start gap-3 p-3 rounded-xl bg-gray-50 border border-gray-100 hover:border-blue-200 transition-colors group">
-                    <span className="flex-shrink-0 w-6 h-6 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center text-xs font-bold group-hover:bg-blue-600 group-hover:text-white transition-colors">
-                      {idx + 1}
-                    </span>
-                    <span className="text-sm text-gray-700 leading-snug font-medium">{not}</span>
-                  </div>
-                ))}
+              {/* Table of Contents */}
+              <div className="bg-gray-50 rounded-lg p-6 mb-12 border border-gray-100">
+                <h2 className="text-xs font-black uppercase tracking-widest text-gray-400 mb-4">İçindekiler</h2>
+                <ul className="space-y-2 text-sm">
+                  <li><a href="#ozellikler" className="text-blue-600 hover:underline">1. Akademik Kimlik Kartı</a></li>
+                  <li><a href="#matris" className="text-blue-600 hover:underline">2. Coğrafi Konu Matrisi</a></li>
+                  <li><a href="#bolgesel" className="text-blue-600 hover:underline">3. Bölgesel Yakınlık</a></li>
+                </ul>
               </div>
-              <div className="mt-8 pt-4 border-t border-gray-100 flex items-center justify-between">
-                <p className="text-xs text-gray-400 italic">
-                  * Bu bilgiler MEB ve ÖSYM güncel kaynaklarına göre hazırlanmıştır.
-                </p>
-                <div className="flex gap-2">
-                   <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
-                   <span className="text-[10px] text-gray-400 font-bold uppercase tracking-widest">Güncel Veri</span>
+
+              {/* Section 1: Ozet */}
+              <section id="ozellikler" className="scroll-mt-20 mb-16">
+                <h2 className="text-2xl font-black text-gray-900 mb-6 border-b border-gray-100 pb-2">1. Akademik Kimlik Kartı</h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  {ilOzet?.map((not, idx) => (
+                    <div key={idx} className="bg-gray-50 p-4 rounded-xl border border-gray-100 text-sm leading-relaxed text-gray-700">
+                      <span className="font-bold text-blue-600 mr-2">#{idx+1}</span>
+                      {not}
+                    </div>
+                  ))}
+                </div>
+              </section>
+
+              {/* Section 2: Konu Matrisi (Tabs) */}
+              <section id="matris" className="scroll-mt-20 mb-16">
+                <h2 className="text-2xl font-black text-gray-900 mb-6 border-b border-gray-100 pb-2">2. Coğrafi Konu Matrisi</h2>
+                <div className="mt-8">
+                  <IlTablar
+                    params_slug={params.slug}
+                    bolge_slug={params.bolge}
+                    tumKonular={tumKonularFiltreli}
+                    konuVerileri={konuVerileri}
+                  />
+                </div>
+              </section>
+
+              {/* Section 3: Regional Connections */}
+              <section id="bolgesel" className="scroll-mt-20">
+                <h2 className="text-2xl font-black text-gray-900 mb-6 border-b border-gray-100 pb-2">3. Bölgesel Yakınlık</h2>
+                <div className="flex flex-wrap gap-2">
+                  {getAllIller()
+                    .filter((i) => i.bolge === il.bolge && i.slug !== il.slug)
+                    .map((komsu) => (
+                      <Link
+                        key={komsu.slug}
+                        href={`/${params.bolge}/il/${komsu.slug}`}
+                        className="text-xs bg-gray-100 hover:bg-blue-600 hover:text-white px-3 py-2 rounded-lg transition-all font-bold border border-gray-200"
+                      >
+                        {komsu.ad}
+                      </Link>
+                    ))}
+                </div>
+              </section>
+            </div>
+            
+            <IlgiliBaglantilar tip="il" slug={il.slug} />
+          </main>
+
+          {/* Wiki Sidebar (Infobox) */}
+          <aside className="lg:col-span-4 space-y-6">
+            <div className="bg-white border-2 border-gray-200 rounded-xl overflow-hidden shadow-sm sticky top-8">
+              <div className="bg-gray-100 p-4 text-center border-b border-gray-200">
+                <h3 className="font-black text-xl text-gray-800">{il.ad}</h3>
+                <span className="text-xs text-gray-500 font-bold tracking-widest">TÜRKİYE CUMHURİYETİ</span>
+              </div>
+              
+              <div className="p-4">
+                <table className="w-full text-sm border-collapse">
+                  <tbody>
+                    <tr className="border-b border-gray-50">
+                      <th className="text-left py-3 px-2 bg-gray-50/50 w-1/3">Bölge</th>
+                      <td className="py-3 px-2">
+                        <Link href={`/${params.bolge}`} className="text-blue-600 hover:underline">{il.bolge}</Link>
+                      </td>
+                    </tr>
+                    <tr className="border-b border-gray-50">
+                      <th className="text-left py-3 px-2 bg-gray-50/50">Plaka Kodu</th>
+                      <td className="py-3 px-2 font-mono font-bold text-lg">{plakaKod}</td>
+                    </tr>
+                    <tr className="border-b border-gray-50">
+                      <th className="text-left py-3 px-2 bg-gray-50/50">Nüfus (2023)</th>
+                      <td className="py-3 px-2 font-bold">{nufusFormatli}</td>
+                    </tr>
+                    <tr className="border-b border-gray-50">
+                      <th className="text-left py-3 px-2 bg-gray-50/50">Yüzölçümü</th>
+                      <td className="py-3 px-2">{alanFormatli} km²</td>
+                    </tr>
+                    <tr className="border-b border-gray-50">
+                      <th className="text-left py-3 px-2 bg-gray-50/50">Koordinatlar</th>
+                      <td className="py-3 px-2 text-xs font-mono">{il.lat.toFixed(2)}°N {il.lng.toFixed(2)}°E</td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                {/* Quiz CTA in Wiki Style */}
+                <div className="mt-6 bg-blue-600 rounded-xl p-6 text-white text-center">
+                  <h4 className="font-black text-lg mb-2">Bilgini Test Et</h4>
+                  <p className="text-[10px] opacity-80 mb-4 leading-tight">{il.ad} ile ilgili KPSS formatında soruları çöz.</p>
+                  <Link 
+                    href="/quiz/madenler-enerji" 
+                    className="inline-block w-full bg-white text-blue-600 font-black py-3 rounded-lg text-xs hover:bg-gray-100 transition-colors"
+                  >
+                    SINAVA BAŞLA
+                  </Link>
                 </div>
               </div>
             </div>
-          </div>
-        )}
-
-        {/* ── Ana İçerik: Konular (Tab'lı) ── */}
-        <div className="bg-white rounded-2xl border border-gray-200 shadow-sm p-6 mb-8">
-          <h2 className="text-lg font-bold text-gray-800 mb-6">KPSS Coğrafya Konuları</h2>
-          <IlTablar
-            params_slug={params.slug}
-            bolge_slug={params.bolge}
-            tumKonular={tumKonular}
-            konuVerileri={konuVerileri}
-          />
+          </aside>
         </div>
-
-        {/* ── Alt Bölüm ── */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {/* Komşu İller */}
-          <div className="bg-white rounded-2xl border border-gray-200 shadow-sm p-6">
-            <h3 className="font-bold text-gray-700 mb-4 text-sm uppercase tracking-wider">Aynı Bölgedeki İller</h3>
-            <div className="flex flex-wrap gap-2">
-              {getAllIller()
-                .filter((i) => i.bolge === il.bolge && i.slug !== il.slug)
-                .slice(0, 10)
-                .map((komsu) => (
-                  <Link
-                    key={komsu.slug}
-                    href={`/${params.bolge}/il/${komsu.slug}`}
-                    className="px-3 py-1.5 bg-gray-50 hover:bg-gray-100 border border-gray-200 rounded-lg text-sm text-gray-700 transition-colors"
-                  >
-                    {komsu.ad}
-                  </Link>
-                ))}
-            </div>
-          </div>
-
-          {/* Quiz CTA */}
-          <div className="bg-gradient-to-br from-blue-600 to-blue-800 rounded-2xl p-6 text-white flex flex-col justify-between">
-            <div>
-              <h3 className="font-bold text-lg mb-2">Bu İlin Sorularını Çöz</h3>
-              <p className="text-blue-200 text-sm">
-                {il.ad} ile ilgili çıkmış KPSS sorularını incele ve puan kazan.
-              </p>
-            </div>
-            <Link
-              href={`/quiz/madenler-enerji`}
-              className="mt-4 inline-block bg-white text-blue-700 font-bold py-2.5 px-6 rounded-xl hover:bg-blue-50 transition-colors text-sm text-center"
-            >
-              Quiz&apos;i Başlat →
-            </Link>
-          </div>
-        </div>
-
-        <IlgiliBaglantilar tip="il" slug={il.slug} />
       </div>
-    </>
+    </div>
   );
 }

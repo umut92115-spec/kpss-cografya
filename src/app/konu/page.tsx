@@ -78,7 +78,7 @@ export default function KonularPage() {
               <div className="flex gap-3">
                 <Link
                   href={`/konu/${k.slug}`}
-                  className="flex-[2] text-center text-sm font-bold text-white bg-kpss-koyu hover:bg-black py-3.5 rounded-xl transition-all shadow-lg shadow-gray-200"
+                  className="flex-[2] text-center text-xs md:text-sm font-black text-white bg-slate-900 hover:bg-blue-600 py-3.5 rounded-xl transition-all shadow-lg shadow-blue-900/10 active:scale-95"
                 >
                   📖 Konuyu Oku
                 </Link>

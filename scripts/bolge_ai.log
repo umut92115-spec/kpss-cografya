@@ -1,0 +1,23 @@
+
+🏗️ Akdeniz Bölgesi için akademik içerik üretiliyor...
+❌ Akdeniz Bölgesi üretilirken hata: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-lite-latest:generateContent: [503 Service Unavailable] This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
+
+🏗️ Ege Bölgesi için akademik içerik üretiliyor...
+✅ Ege Bölgesi başarıyla güncellendi (30 SSS eklendi).
+
+🏗️ Marmara Bölgesi için akademik içerik üretiliyor...
+✅ Marmara Bölgesi başarıyla güncellendi (30 SSS eklendi).
+
+🏗️ Karadeniz Bölgesi için akademik içerik üretiliyor...
+✅ Karadeniz Bölgesi başarıyla güncellendi (30 SSS eklendi).
+
+🏗️ İç Anadolu Bölgesi için akademik içerik üretiliyor...
+✅ İç Anadolu Bölgesi başarıyla güncellendi (30 SSS eklendi).
+
+🏗️ Doğu Anadolu Bölgesi için akademik içerik üretiliyor...
+✅ Doğu Anadolu Bölgesi başarıyla güncellendi (30 SSS eklendi).
+
+🏗️ Güneydoğu Anadolu Bölgesi için akademik içerik üretiliyor...
+✅ Güneydoğu Anadolu Bölgesi başarıyla güncellendi (30 SSS eklendi).
+
+✨ TÜM BÖLGELER ŞAHLANDIRILDI! ✨

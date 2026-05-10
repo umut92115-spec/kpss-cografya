@@ -13,51 +13,69 @@ const GLOSSARY_TERMS = [
 ];
 
 export function linkKeywords(content: string, currentSlug: string): string {
-  const konular = getAllKonular();
-  
-  // Önce içeriği tagler ve düz metin olarak parçalara ayırıyoruz
-  // Bu sayede <Component items={...}> içindeki metinlerin linklenmesini önlüyoruz
-  const parts = content.split(/(<[^>]+>)/g);
-  
-  const linkedParts = parts.map(part => {
-    // Eğer bu bir tag ise (veya boş ise) olduğu gibi bırak
-    if (part.startsWith('<') || !part.trim()) return part;
+  if (!content) return '';
 
-    let linkedPart = part;
-    const sortedKonular = [...konular].sort((a, b) => b.kisa_baslik.length - a.kisa_baslik.length);
+  const placeholders: string[] = [];
 
-    sortedKonular.forEach((konu) => {
-      if (konu.slug === currentSlug) return;
-      const keyword = konu.kisa_baslik;
-      const regex = new RegExp(`(?<!\\[)${keyword}(?![\\w\\s]*\\]\\()`, 'gi');
-      
-      let found = false;
-      linkedPart = linkedPart.replace(regex, (match) => {
-        if (!found) {
-          found = true;
-          return `[${match}](/konu/${konu.slug})`;
-        }
-        return match;
-      });
-    });
-
-    // Sözlük terimlerini linkle
-    GLOSSARY_TERMS.forEach((item) => {
-      const regex = new RegExp(`(?<!\\[)${item.term}(?![\\w\\s]*\\]\\()`, 'gi');
-      let found = false;
-      linkedPart = linkedPart.replace(regex, (match) => {
-        if (!found) {
-          found = true;
-          return `[${match}](/konu/${item.slug})`;
-        }
-        return match;
-      });
-    });
-
-    return linkedPart;
+  // 1. Korumaya al: MDX/HTML Tag'leri (Çok satırlı destekli)
+  // Sadece < harfiyle başlayan ve geçerli bir etiket gibi görünenleri alıyoruz
+  let protectedContent = content.replace(/<[a-zA-Z\/][\s\S]*?>/g, (match) => {
+    placeholders.push(match);
+    return `___TAG_${placeholders.length - 1}___`;
   });
 
-  return linkedParts.join('');
+  // 2. Korumaya al: Mevcut Markdown Linkleri [text](url)
+  protectedContent = protectedContent.replace(/\[[\s\S]+?\]\([\s\S]+?\)/g, (match) => {
+    placeholders.push(match);
+    return `___LINK_${placeholders.length - 1}___`;
+  });
+
+  // 3. Linkleme İşlemi (Sadece korumasız metin üzerinde)
+  const konular = getAllKonular();
+  const sortedKonular = [...konular]
+    .filter(k => k.slug !== currentSlug)
+    .sort((a, b) => b.kisa_baslik.length - a.kisa_baslik.length);
+
+  let result = protectedContent;
+
+  // Konu başlıklarını linkle
+  sortedKonular.forEach((konu) => {
+    const keyword = konu.kisa_baslik;
+    // Negatif lookbehind/lookahead ile zaten linklenmiş veya placeholder içinde olanları koruyoruz
+    // (Gerçi placeholder kullandığımız için çakışma ihtimali düşük)
+    const regex = new RegExp(`(?<![\\w\\[])${keyword}(?![\\w\\s]*\\]\\()`, 'gi');
+    
+    let found = false;
+    result = result.replace(regex, (match) => {
+      if (!found) {
+        found = true;
+        return `[${match}](/konu/${konu.slug})`;
+      }
+      return match;
+    });
+  });
+
+  // Sözlük terimlerini linkle
+  GLOSSARY_TERMS.forEach((item) => {
+    const regex = new RegExp(`(?<![\\w\\[])${item.term}(?![\\w\\s]*\\]\\()`, 'gi');
+    let found = false;
+    result = result.replace(regex, (match) => {
+      if (!found) {
+        found = true;
+        return `[${match}](/konu/${item.slug})`;
+      }
+      return match;
+    });
+  });
+
+  // 4. Placeholder'ları geri yükle
+  // Sondan başa doğru giderek iç içe placeholder (olursa) sorununu çözüyoruz
+  for (let i = placeholders.length - 1; i >= 0; i--) {
+    result = result.replace(`___TAG_${i}___`, () => placeholders[i]);
+    result = result.replace(`___LINK_${i}___`, () => placeholders[i]);
+  }
+
+  return result;
 }
 
 export function getNextPrevKonu(currentSlug: string) {

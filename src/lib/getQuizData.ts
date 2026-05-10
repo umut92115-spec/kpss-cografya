@@ -4,6 +4,20 @@ import { QuizData } from '@/types/quiz';
 
 const quizDir = path.join(process.cwd(), 'data', 'quiz');
 
+interface LegacyQuizItem {
+  id?: string;
+  soru?: string;
+  question?: string;
+  siklar?: string[];
+  options?: string[];
+  dogru?: string;
+  correct_index?: number;
+  aciklama?: string;
+  explanation?: string;
+  harita_il?: string | null;
+  zorluk?: 'kolay' | 'orta' | 'zor';
+}
+
 export function getQuizData(konuSlug: string): QuizData | null {
   try {
     const filePath = path.join(quizDir, `${konuSlug}.json`);
@@ -13,20 +27,6 @@ export function getQuizData(konuSlug: string): QuizData | null {
     
     // Eğer dosya direkt bir array ise (legacy format), QuizData objesine çevir
     if (Array.isArray(rawData)) {
-      interface LegacyQuizItem {
-        id?: string;
-        soru?: string;
-        question?: string;
-        siklar?: string[];
-        options?: string[];
-        dogru?: string;
-        correct_index?: number;
-        aciklama?: string;
-        explanation?: string;
-        harita_il?: string | null;
-        zorluk?: 'kolay' | 'orta' | 'zor';
-      }
-
       return {
         konu: konuSlug,
         sorular: (rawData as LegacyQuizItem[]).map((item, index) => ({

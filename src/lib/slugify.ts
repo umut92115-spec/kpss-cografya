@@ -13,6 +13,18 @@ export function slugify(text: string): string {
     .map(char => charMap[char] || char)
     .join('')
     .toLowerCase()
-    .replace(/[^a-z0-9]+/g, '-') // Alfanümerik olmayanları tireye çevir
-    .replace(/^-+|-+$/g, '');    // Baştaki ve sondaki tireleri temizle
+    .trim()
+    .replace(/[^\w\s-]/g, '') 
+    .replace(/[\s_-]+/g, '-') 
+    .replace(/^-+|-+$/g, '');
+}
+
+/**
+ * MDX başlıkları için (h2, h3) güvenli ID oluşturur.
+ */
+export function slugifyHeading(children: React.ReactNode): string {
+  const text = typeof children === 'string' 
+    ? children 
+    : String(children);
+  return slugify(text);
 }
