@@ -83,9 +83,9 @@ export default function SuperDetayRender({ data, ilAd, konuBaslik }: SuperDetayR
               </div>
             )}
 
-            {section.type === 'vurgu' && (
+            {section.type === 'vurgu' && section.data && (
               <div className="bg-amber-50 border border-amber-200 rounded-xl p-4 text-amber-900 font-medium">
-                🎯 {section.content}
+                🎯 {typeof section.data === 'string' ? section.data : String(section.data)}
               </div>
             )}
 
