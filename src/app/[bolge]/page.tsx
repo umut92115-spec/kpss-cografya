@@ -60,10 +60,11 @@ export default function BolgePage({ params }: { params: { bolge: string } }) {
     { id: 'kalkinma', baslik: 'Kalkınma Projeleri', icon: '🏗️' },
   ];
 
-  // FAQ verisi için normalize et (soru/cevap veya q/a formatları)
-  const bolgeFaqs = (veriler?.faqs || [])
-    .filter((f: any) => (f.soru || f.q) && (f.cevap || f.a))
-    .map((f: any) => ({ q: f.soru || f.q, a: f.cevap || f.a }));
+  // FAQ verisi için normalize et (bolge-verileri.json'da soru/cevap veya q/a gelir)
+  type RawFaq = { soru?: string; q?: string; cevap?: string; a?: string };
+  const bolgeFaqs = ((veriler?.faqs || []) as RawFaq[])
+    .filter((f) => (f.soru || f.q) && (f.cevap || f.a))
+    .map((f) => ({ q: (f.soru ?? f.q) as string, a: (f.cevap ?? f.a) as string }));
 
   return (
     <div className="bg-gray-50 min-h-screen">
@@ -135,7 +136,10 @@ export default function BolgePage({ params }: { params: { bolge: string } }) {
                     
                     <div className="flex flex-col gap-6">
                       <div className="text-gray-700 leading-relaxed text-base whitespace-pre-wrap">
-                        {veriler?.[b.id as keyof typeof veriler] || "İçerik hazırlanıyor..."}
+                        {(() => {
+                          const val = veriler?.[b.id as keyof typeof veriler];
+                          return typeof val === 'string' ? val : 'İçerik hazırlanıyor...';
+                        })()}
                       </div>
 
                       {/* Sadece elimizde olan görselleri göster */}
@@ -158,7 +162,7 @@ export default function BolgePage({ params }: { params: { bolge: string } }) {
                   <span className="text-blue-600">❓</span> Sıkça Sorulan Sorular
                 </h2>
                 <div className="bg-gray-50 rounded-2xl p-4 md:p-6 border border-gray-100">
-                  <FaqAccordion faqs={veriler?.faqs?.map((f: any) => ({ q: f.soru || f.q, a: f.cevap || f.a })) || []} />
+                  <FaqAccordion faqs={bolgeFaqs} />
                 </div>
               </section>
             </div>

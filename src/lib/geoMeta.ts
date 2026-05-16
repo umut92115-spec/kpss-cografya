@@ -1,10 +1,9 @@
-import { Metadata } from 'next';
 import { Il } from '@/types';
+import type { Metadata } from 'next';
 
 export function getIlJsonLd(il: Il) {
   return {
-    '@type': 'AdministrativeArea',
-    '@context': 'https://schema.org',
+    // @context JsonLd bileşeni tarafından ekleniyor — tekrar koymuyoruz
     name: il.ad,
     geo: {
       '@type': 'GeoCoordinates',
@@ -19,7 +18,6 @@ export function getIlJsonLd(il: Il) {
     identifier: `TR-${String(il.plaka).padStart(2, '0')}`,
   };
 }
-
 
 export function getSiteGeoMeta(): Metadata {
   return {

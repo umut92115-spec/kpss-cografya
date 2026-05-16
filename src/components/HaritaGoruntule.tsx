@@ -98,7 +98,7 @@ const icons = {
 interface HaritaGoruntuleProps {
   konuSlug: string;
   secilenIl: string | null;
-  onIlSec: (slug: string) => void;
+  onIlSec?: (slug: string) => void;
   matrisData: Record<string, IlKonuData> | null;
   temaRenk: string;
 }
@@ -292,7 +292,7 @@ export default function HaritaGoruntule({
       mouseout: (e: L.LeafletMouseEvent) => {
         e.target.setStyle(styleFeature(feature));
       },
-      click: () => onIlSec(ilSlug),
+      click: () => onIlSec && onIlSec(ilSlug),
     });
 
     if (adHam) {

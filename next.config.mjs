@@ -7,15 +7,16 @@ const nextConfig = {
   },
   async redirects() {
     return [
+      // www → non-www kalıcı yönlendirme
       {
         source: '/:path*',
         has: [
           {
             type: 'host',
-            value: 'www.kpsscografya.com.tr.tr',
+            value: 'www.kpsscografya.com.tr',
           },
         ],
-        destination: 'https://kpsscografya.com.tr.tr/:path*',
+        destination: 'https://kpsscografya.com.tr/:path*',
         permanent: true,
       },
     ];

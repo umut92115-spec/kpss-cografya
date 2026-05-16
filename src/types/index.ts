@@ -32,7 +32,8 @@ export interface Section {
   h2: string;
   content: string;
   type: 'text' | 'table' | 'map' | 'list' | 'vurgu';
-  data?: Record<string, string | number>[];
+  /** Tablo verisi: 2D array (ilk satır header) veya object array */
+  data?: string[][] | Record<string, string | number>[] | string;
 }
 
 export interface SuperDetay {
@@ -77,3 +78,21 @@ export interface MatrisData<T = IlKonuData> {
   iller: Record<string, T>;
 }
 
+/** bolge-verileri.json'daki bölge veri yapısı */
+export interface BolgeVerisi {
+  konum?: string;
+  yer_sekilleri?: string;
+  jeoloji?: string;
+  su_ortusu?: string;
+  iklim_bitki?: string;
+  toprak_cevre?: string;
+  nufus?: string;
+  tarim_hayvancilik?: string;
+  maden_enerji?: string;
+  sanayi_ticaret?: string;
+  ulasim_sinir?: string;
+  turizm?: string;
+  kalkinma?: string;
+  kpss_altin_not?: string;
+  faqs?: Array<{ soru?: string; q?: string; cevap?: string; a?: string }>;
+}

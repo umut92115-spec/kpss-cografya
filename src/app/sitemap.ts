@@ -6,7 +6,7 @@ import path from 'path'
  
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://kpsscografya.com.tr'
-  const updateDate = new Date('2026-05-10')
+  const updateDate = new Date('2026-05-17')
   
   const iller = getAllIller()
   const konular = getAllKonular()

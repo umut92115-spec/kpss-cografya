@@ -1,5 +1,6 @@
 import React from 'react';
 import { getKonu, getAllKonular, getKonuFaq } from '@/lib/getKonuData';
+import type { FAQ } from '@/types';
 import Link from 'next/link';
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
@@ -116,7 +117,7 @@ async function getMdxContent(slug: string) {
 }
 
 // Başlıkları parse ederek ToC oluştur
-function parseToc(content: string, faqs: any[]): TocItem[] {
+function parseToc(content: string, faqs: FAQ[]): TocItem[] {
   const lines = content.split('\n');
   const items: TocItem[] = [];
   for (const line of lines) {
@@ -221,8 +222,8 @@ export default async function KonuPage({ params }: { params: { slug: string } })
           tip="FAQPage"
           veri={{
             mainEntity: faqs
-              .filter((f: any) => f.q && f.a)
-              .map((f: any) => ({
+              .filter((f: FAQ) => f.q && f.a)
+              .map((f: FAQ) => ({
                 "@type": "Question",
                 name: f.q,
                 acceptedAnswer: {

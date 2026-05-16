@@ -79,6 +79,14 @@ export default function IlKonuDetayPage({
 
   const data = getIlKonuData(il.slug, konu.slug);
 
+  // Tüm iller için bu konunun matris verisini topla (Harita boyaması için)
+  const iller = getAllIller();
+  const matrisData = iller.reduce((acc, curr) => {
+    const d = getIlKonuData(curr.slug, konu.slug);
+    if (d) acc[curr.slug] = d;
+    return acc;
+  }, {} as Record<string, any>);
+
   // GÖREV 3 ✅ — FAQ Fallback: matris boşsa faq-konular.json'dan genel soruları kullan
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const matrisFaqs: { q: string; a: string }[] = (data as any)?.faqs ?? [];
@@ -89,9 +97,36 @@ export default function IlKonuDetayPage({
     : getKonuFaq(konu.slug); // ← faq-konular.json fallback (15 soru)
 
   if (!data?.super_detay) {
-    // Eğer süper detay yoksa ana il sayfasına yönlendir veya basit içerik göster
+    // super_detay olmasa bile FAQPage + Breadcrumb schema'sını gönder
     return (
       <div className="max-w-3xl mx-auto px-4 py-20 text-center">
+        {/* BreadcrumbList schema */}
+        <JsonLd
+          tip="BreadcrumbList"
+          veri={{
+            itemListElement: [
+              { "@type": "ListItem", position: 1, name: "Ana Sayfa", item: "https://kpsscografya.com.tr" },
+              { "@type": "ListItem", position: 2, name: il.bolge, item: `https://kpsscografya.com.tr/${params.bolge}` },
+              { "@type": "ListItem", position: 3, name: il.ad, item: `https://kpsscografya.com.tr/${params.bolge}/il/${il.slug}` },
+              { "@type": "ListItem", position: 4, name: konu.kisa_baslik, item: `https://kpsscografya.com.tr/${params.bolge}/il/${il.slug}/${konu.slug}` },
+            ]
+          }}
+        />
+        {/* FAQPage schema — faq-konular.json fallback ile her zaman var */}
+        {effectiveFaqs.length > 0 && (
+          <JsonLd
+            tip="FAQPage"
+            veri={{
+              mainEntity: effectiveFaqs
+                .filter(f => f.q && f.a)
+                .map(f => ({
+                  "@type": "Question",
+                  name: f.q,
+                  acceptedAnswer: { "@type": "Answer", text: f.a },
+                })),
+            }}
+          />
+        )}
         <h1 className="text-2xl font-bold text-gray-800 mb-4">{il.ad} {konu.baslik}</h1>
         <p className="text-gray-600 mb-8">Bu konu için henüz detaylı içerik hazırlanmamıştır.</p>
         <Link href={`/${params.bolge}/il/${il.slug}`} className="text-blue-600 hover:underline">
@@ -132,7 +167,11 @@ export default function IlKonuDetayPage({
           faqs: effectiveFaqs,
         }} 
         ilAd={il.ad} 
-        konuBaslik={konu.baslik} 
+        konuBaslik={konu.baslik}
+        konuSlug={konu.slug}
+        ilSlug={il.slug}
+        matrisData={matrisData}
+        temaRenk={konu.harita_renk}
       />
 
       {/* İlgili Diğer Konular */}

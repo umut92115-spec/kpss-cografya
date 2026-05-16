@@ -1,15 +1,21 @@
-import { SuperDetay } from '@/types';
+import { SuperDetay, IlKonuData } from '@/types';
 import JsonLd from '@/components/JsonLd';
 import FaqAccordion from './FaqAccordion';
 import Link from 'next/link';
+import { getAllIller, getIl } from '@/lib/getIlData';
+import MiniIlHaritasi from '@/components/MiniIlHaritasi';
 
 interface SuperDetayRenderProps {
   data: SuperDetay;
   ilAd: string;
   konuBaslik: string;
+  konuSlug?: string;
+  ilSlug?: string;
+  matrisData?: Record<string, IlKonuData> | null;
+  temaRenk?: string;
 }
 
-export default function SuperDetayRender({ data, ilAd, konuBaslik }: SuperDetayRenderProps) {
+export default function SuperDetayRender({ data, ilAd, konuBaslik, konuSlug, ilSlug, matrisData, temaRenk }: SuperDetayRenderProps) {
   return (
     <article className="space-y-8">
       {/* Schema Markup */}
@@ -89,8 +95,24 @@ export default function SuperDetayRender({ data, ilAd, konuBaslik }: SuperDetayR
               </div>
             )}
 
-            {section.type === 'map' && (
-              <div className="aspect-video bg-gray-100 rounded-xl flex items-center justify-center border-2 border-dashed border-gray-300">
+            {section.type === 'map' && ilSlug && (
+              <div className="w-full h-[400px] md:h-[500px] relative mt-6 rounded-2xl overflow-hidden shadow-sm border border-gray-200 bg-white">
+                {(() => {
+                  const il = getIl(ilSlug);
+                  const bolgeIlleri = il ? getAllIller().filter(i => i.bolge_slug === il.bolge_slug).map(i => i.slug) : [];
+                  return il ? (
+                    <MiniIlHaritasi 
+                      secilenIlSlug={ilSlug}
+                      bolgeIlleri={bolgeIlleri}
+                      ilAdi={il.ad}
+                      bolgeAdi={il.bolge}
+                    />
+                  ) : null;
+                })()}
+              </div>
+            )}
+            {section.type === 'map' && (!konuSlug || !ilSlug) && (
+              <div className="aspect-video bg-gray-100 rounded-xl flex items-center justify-center border-2 border-dashed border-gray-300 mt-6">
                 <div className="text-center">
                   <p className="text-3xl mb-2">🗺️</p>
                   <p className="text-sm font-semibold text-gray-500">İnteraktif {konuBaslik} Haritası</p>
