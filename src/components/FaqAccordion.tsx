@@ -20,9 +20,10 @@ export default function FaqAccordion({ faqs }: FaqAccordionProps) {
         const isOpen = openIndex === idx;
         const panelId = `faq-panel-${idx}`;
         const headerId = `faq-header-${idx}`;
+        const keyStr = (faq.q ?? '').slice(0, 20);
         return (
           <div
-            key={`${faq.q.slice(0, 20)}-${idx}`}
+            key={`${keyStr}-${idx}`}
             className={`border rounded-xl transition-all duration-200 ${
               isOpen ? 'border-blue-500 bg-blue-50/30' : 'border-gray-200 bg-white hover:border-gray-300'
             }`}

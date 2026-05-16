@@ -96,12 +96,12 @@ export default function IlKonuDetayPage({
 
   // GÖREV 3 ✅ — FAQ Fallback: matris boşsa faq-konular.json'dan genel soruları kullan
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const matrisFaqs: { q: string; a: string }[] = (data as any)?.faqs ?? [];
-  const superDetayFaqs: { q: string; a: string }[] = data?.super_detay?.faqs ?? [];
+  const matrisFaqs: { q: string; a: string }[] = ((data as any)?.faqs ?? []).filter((f: {q?: string; a?: string}) => f.q && f.a);
+  const superDetayFaqs: { q: string; a: string }[] = (data?.super_detay?.faqs ?? []).filter(f => f.q && f.a);
   const effectiveFaqs =
     matrisFaqs.length > 0 ? matrisFaqs
     : superDetayFaqs.length > 0 ? superDetayFaqs
-    : getKonuFaq(konu.slug); // ← faq-konular.json fallback (15 soru)
+    : getKonuFaq(konu.slug).filter(f => f.q && f.a); // ← faq-konular.json fallback
 
   if (!data?.super_detay) {
     // super_detay olmasa bile FAQPage + Breadcrumb schema'sını gönder
