@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { getIl, getIlKonuData, getAllIller } from '@/lib/getIlData';
 import { getKonu, getAllKonular, getKonuFaq } from '@/lib/getKonuData';
 import SuperDetayRender from '@/components/SuperDetayRender';
+import FaqAccordion from '@/components/FaqAccordion';
 import JsonLd from '@/components/JsonLd';
 
 export async function generateStaticParams() {
@@ -104,8 +105,9 @@ export default function IlKonuDetayPage({
 
   if (!data?.super_detay) {
     // super_detay olmasa bile FAQPage + Breadcrumb schema'sını gönder
+    // ÖNEMLI: Google FAQPage rich result için görünür içerik de zorunlu — accordion ekliyoruz
     return (
-      <div className="max-w-3xl mx-auto px-4 py-20 text-center">
+      <div className="max-w-3xl mx-auto px-4 py-12">
         {/* BreadcrumbList schema */}
         <JsonLd
           tip="BreadcrumbList"
@@ -118,7 +120,7 @@ export default function IlKonuDetayPage({
             ]
           }}
         />
-        {/* FAQPage schema — faq-konular.json fallback ile her zaman var */}
+        {/* FAQPage schema — görünür accordion ile eşleşiyor (Google uyumlu) */}
         {effectiveFaqs.length > 0 && (
           <JsonLd
             tip="FAQPage"
@@ -133,14 +135,62 @@ export default function IlKonuDetayPage({
             }}
           />
         )}
-        <h1 className="text-2xl font-bold text-gray-800 mb-4">{il.ad} {konu.baslik}</h1>
-        <p className="text-gray-600 mb-8">Bu konu için henüz detaylı içerik hazırlanmamıştır.</p>
-        <Link href={`/${params.bolge}/il/${il.slug}`} className="text-blue-600 hover:underline">
-          ← İl sayfasına geri dön
-        </Link>
+
+        {/* Breadcrumb nav */}
+        <nav aria-label="Breadcrumb" className="mb-8 text-sm text-gray-400 flex flex-wrap items-center gap-2">
+          <Link href="/" className="hover:text-blue-600 transition-colors">Ana Sayfa</Link>
+          <span>›</span>
+          <Link href={`/${params.bolge}`} className="hover:text-blue-600 transition-colors">{il.bolge} Bölgesi</Link>
+          <span>›</span>
+          <Link href={`/${params.bolge}/il/${il.slug}`} className="hover:text-blue-600 transition-colors">{il.ad}</Link>
+          <span>›</span>
+          <span className="text-gray-700 font-medium">{konu.kisa_baslik}</span>
+        </nav>
+
+        {/* Sayfa başlığı */}
+        <div className="mb-10">
+          <span className="inline-block px-3 py-1 bg-blue-100 text-blue-700 text-xs font-bold rounded-full mb-3 uppercase tracking-wider">
+            {konu.icon} {konu.kisa_baslik}
+          </span>
+          <h1 className="text-3xl font-bold text-gray-900 mb-3">{il.ad} {konu.baslik}</h1>
+          <p className="text-gray-500 leading-relaxed">
+            {il.ad} ili için {konu.baslik.toLowerCase()} konusundaki KPSS hazırlık içeriği hazırlanıyor. 
+            Bu aşamada konuya dair sık sorulan sorular aşağıda listelenmiştir.
+          </p>
+        </div>
+
+        {/* Görünür FAQ Accordion — Google rich result için zorunlu */}
+        {effectiveFaqs.length > 0 && (
+          <section id="sss" className="mb-12">
+            <h2 className="text-xl font-bold text-gray-900 mb-5 flex items-center gap-2">
+              <span className="w-8 h-8 bg-blue-600 text-white rounded-lg flex items-center justify-center text-sm">?</span>
+              {il.ad} {konu.kisa_baslik} — Sıkça Sorulan Sorular
+            </h2>
+            <div className="bg-slate-50 rounded-2xl p-4 md:p-6 border border-slate-100">
+              <FaqAccordion faqs={effectiveFaqs} />
+            </div>
+          </section>
+        )}
+
+        {/* İl sayfasına geri dön */}
+        <div className="flex gap-4 flex-wrap">
+          <Link
+            href={`/${params.bolge}/il/${il.slug}`}
+            className="inline-flex items-center gap-2 text-sm font-bold text-blue-600 hover:text-blue-800 bg-blue-50 px-4 py-2 rounded-lg border border-blue-100 transition-colors"
+          >
+            ← {il.ad} Ana Sayfası
+          </Link>
+          <Link
+            href={`/konu/${konu.slug}`}
+            className="inline-flex items-center gap-2 text-sm font-bold text-gray-600 hover:text-gray-900 bg-gray-50 px-4 py-2 rounded-lg border border-gray-200 transition-colors"
+          >
+            📖 {konu.baslik} Konu Anlatımı →
+          </Link>
+        </div>
       </div>
     );
   }
+
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-12">
