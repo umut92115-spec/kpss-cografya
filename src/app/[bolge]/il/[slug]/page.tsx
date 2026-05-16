@@ -9,7 +9,7 @@ import IlgiliBaglantilar from '@/components/IlgiliBaglantilar';
 import FaqAccordion from '@/components/FaqAccordion';
 import { getIlJsonLd } from '@/lib/geoMeta';
 import MiniIlHaritasi from '@/components/MiniIlHaritasi';
-import { MapPin, Info, BookOpen, HelpCircle, Layers, Star } from 'lucide-react';
+import { MapPin, Info, BookOpen, Layers, Star } from 'lucide-react';
 
 // ─── Statik Param Üretimi ──────────────────────────────────────────────────
 export async function generateStaticParams() {
@@ -80,7 +80,8 @@ export default function IlPage({ params }: { params: { bolge: string; slug: stri
 
   const nufusFormatli = new Intl.NumberFormat('tr-TR').format(il.nufus_2023);
   const alanFormatli = new Intl.NumberFormat('tr-TR').format(il.yuzolcumu_km2);
-  const plakaKod = String(il.plaka).padStart(2, '0');
+
+
 
   return (
     <div className="bg-gray-50 min-h-screen pb-20">

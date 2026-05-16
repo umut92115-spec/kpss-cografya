@@ -15,7 +15,7 @@ interface SuperDetayRenderProps {
   temaRenk?: string;
 }
 
-export default function SuperDetayRender({ data, ilAd, konuBaslik, konuSlug, ilSlug, matrisData, temaRenk }: SuperDetayRenderProps) {
+export default function SuperDetayRender({ data, ilAd, konuBaslik, konuSlug, ilSlug }: SuperDetayRenderProps) {
   return (
     <article className="space-y-8">
       {/* Schema Markup */}
