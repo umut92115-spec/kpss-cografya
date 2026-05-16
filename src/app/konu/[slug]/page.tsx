@@ -150,26 +150,42 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   const konu = getKonu(params.slug);
   const mdx = await getMdxContent(params.slug);
   if (!konu) return {};
+  const title = mdx?.frontmatter?.title || `${konu.baslik} — KPSS Coğrafya`;
+  const description = mdx?.frontmatter?.description || konu.aciklama;
+  const keywords = mdx?.frontmatter?.keywords?.length
+    ? mdx.frontmatter.keywords
+    : [
+        `${konu.baslik.toLowerCase()} kpss`,
+        `kpss ${konu.baslik.toLowerCase()}`,
+        `${konu.kisa_baslik.toLowerCase()} konu anlatımı`,
+        `türkiye ${konu.baslik.toLowerCase()}`,
+        'kpss coğrafya',
+      ];
   return {
-    title: mdx?.frontmatter?.title || `${konu.baslik} — KPSS Coğrafya`,
-    description: mdx?.frontmatter?.description || konu.aciklama,
-    keywords: mdx?.frontmatter?.keywords || [],
+    title,
+    description,
+    keywords,
     alternates: {
       canonical: `https://kpsscografya.com.tr/konu/${konu.slug}`,
     },
     openGraph: {
-      title: mdx?.frontmatter?.title || `${konu.baslik} — KPSS Coğrafya`,
-      description: mdx?.frontmatter?.description || konu.aciklama,
+      title,
+      description,
       url: `https://kpsscografya.com.tr/konu/${konu.slug}`,
       siteName: 'kpsscografya.com.tr',
       locale: 'tr_TR',
       type: 'article',
-      images: [`/images/konu/${params.slug}.png`],
+      images: [{ url: `/images/konu/${params.slug}.png`, width: 1200, height: 630, alt: `${konu.baslik} Konu Görseli` }],
     },
     twitter: {
       card: 'summary_large_image',
-      title: mdx?.frontmatter?.title || `${konu.baslik} — KPSS Coğrafya`,
+      title,
+      description,
       images: [`/images/konu/${params.slug}.png`],
+    },
+    other: {
+      'geo.region': 'TR',
+      'geo.placename': 'Türkiye',
     },
   };
 }

@@ -20,15 +20,44 @@ export async function generateStaticParams() {
   }));
 }
 
-// ─── SEO Metadata ──────────────────────────────────────────────────────────
 export async function generateMetadata({ params }: { params: { bolge: string; slug: string } }): Promise<Metadata> {
   const il = getIl(params.slug);
   if (!il) return {};
   const ilOzet = getIlOzet(params.slug);
+  const description = `${il.ad} ili KPSS coğrafya özeti: ${ilOzet?.[0] || `${il.ad} ilinin fiziki, beşeri ve ekonomik coğrafya özellikleri.`}`;
   return {
-    title: `${il.ad} Hakkında Coğrafi Bilgiler — Coğrafya Ansiklopedisi`,
-    description: `${il.ad} ili KPSS coğrafya özeti: ${ilOzet?.[0] || ''}`,
+    title: `${il.ad} Coğrafyası — KPSS Hazırlık Ansiklopedisi`,
+    description,
+    keywords: [
+      `${il.ad} coğrafyası`,
+      `${il.ad} kpss`,
+      `${il.ad} yer şekilleri`,
+      `${il.ad} ekonomisi`,
+      `${il.ad} nüfusu`,
+      `kpss ${il.ad}`,
+    ],
     alternates: { canonical: `https://kpsscografya.com.tr/${params.bolge}/il/${il.slug}` },
+    openGraph: {
+      title: `${il.ad} Coğrafyası — KPSS Hazırlık Ansiklopedisi`,
+      description,
+      url: `https://kpsscografya.com.tr/${params.bolge}/il/${il.slug}`,
+      siteName: 'kpsscografya.com.tr',
+      locale: 'tr_TR',
+      type: 'article',
+      images: [{ url: '/og-default.jpg', width: 1200, height: 630, alt: `${il.ad} Coğrafya Haritası` }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${il.ad} Coğrafyası — KPSS Hazırlık`,
+      description,
+      images: ['/og-default.jpg'],
+    },
+    other: {
+      'geo.region': `TR-${String(il.plaka).padStart(2, '0')}`,
+      'geo.placename': `${il.ad}, Türkiye`,
+      'geo.position': `${il.lat};${il.lng}`,
+      'ICBM': `${il.lat}, ${il.lng}`,
+    },
   };
 }
 

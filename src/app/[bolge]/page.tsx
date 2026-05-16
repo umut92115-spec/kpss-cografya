@@ -12,11 +12,38 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: { params: { bolge: string } }): Promise<Metadata> {
   const bolge = getBolgeByUrl(params.bolge);
   if (!bolge) return {};
+  const description = `${bolge.ad} Bölgesi'nin fiziki, beşeri ve ekonomik coğrafya özellikleri. 2026 KPSS müfredatına uygun akademik analizler.`;
   return {
     title: `${bolge.ad} Bölgesi — Coğrafya Ansiklopedisi`,
-    description: `${bolge.ad} Bölgesi'nin fiziki, beşeri ve ekonomik coğrafya özellikleri. Akademik analizler ve detaylı veriler.`,
+    description,
+    keywords: [
+      `${bolge.ad} bölgesi coğrafyası`,
+      `${bolge.ad} bölgesi kpss`,
+      `${bolge.ad} illeri`,
+      `${bolge.ad} bölgesi özellikleri`,
+      'kpss bölgeler coğrafya',
+    ],
+    alternates: {
+      canonical: `https://kpsscografya.com.tr/${params.bolge}`,
+    },
     openGraph: {
+      title: `${bolge.ad} Bölgesi — KPSS Coğrafya`,
+      description,
+      url: `https://kpsscografya.com.tr/${params.bolge}`,
+      siteName: 'kpsscografya.com.tr',
+      locale: 'tr_TR',
+      type: 'article',
+      images: [{ url: `/images/bolgeler/${bolge.slug}.png`, width: 1200, height: 630, alt: `${bolge.ad} Bölgesi Haritası` }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${bolge.ad} Bölgesi — KPSS Coğrafya`,
+      description,
       images: [`/images/bolgeler/${bolge.slug}.png`],
+    },
+    other: {
+      'geo.region': 'TR',
+      'geo.placename': `${bolge.ad} Bölgesi, Türkiye`,
     },
   };
 }

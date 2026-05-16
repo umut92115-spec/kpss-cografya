@@ -42,6 +42,12 @@ export async function generateMetadata({
   return {
     title,
     description,
+    keywords: [
+      `${il.ad} ${konu.baslik.toLowerCase()}`,
+      `${il.ad} ${konu.kisa_baslik.toLowerCase()} kpss`,
+      `kpss ${il.ad.toLowerCase()} ${konu.baslik.toLowerCase()}`,
+      `${konu.baslik.toLowerCase()} ${il.bolge} bölgesi`,
+    ],
     alternates: {
       canonical: `https://kpsscografya.com.tr/${params.bolge}/il/${il.slug}/${konu.slug}`,
     },
