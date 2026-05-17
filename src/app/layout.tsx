@@ -96,6 +96,8 @@ export default function RootLayout({
             url: "https://kpsscografya.com.tr",
             description: "Türkiye'nin harita destekli KPSS Coğrafya hazırlık platformu",
             inLanguage: "tr-TR",
+            datePublished: "2026-05-15T08:00:00+03:00",
+            dateModified: "2026-05-17T22:00:00+03:00",
             potentialAction: {
               "@type": "SearchAction",
               "target": {

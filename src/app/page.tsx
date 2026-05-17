@@ -5,11 +5,11 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'KPSS Coğrafya - Ücretsiz Notlar, Harita ve Soru Bankası',
-  description: 'KPSS coğrafya sınavına harita ile hazırlan. 10 konu, 81 il, interaktif harita ve quiz modu. Madenler, tarım, iklim, ulaşım ve daha fazlası.',
+  description: 'Türkiye\'nin en kapsamlı KPSS coğrafya hazırlık platformu. 10 temel konu, 81 il detayları, interaktif harita ve quiz modu ile hemen ücretsiz çalışmaya başla.',
   alternates: { canonical: 'https://kpsscografya.com.tr' },
   openGraph: {
     title: 'KPSS Coğrafya - Ücretsiz Notlar, Harita ve Soru Bankası',
-    description: 'KPSS coğrafya sınavına harita ile hazırlan. 10 konu, 81 il, interaktif harita ve quiz modu.',
+    description: 'Türkiye\'nin en kapsamlı KPSS coğrafya hazırlık platformu. 10 temel konu, 81 il detayları, interaktif harita ve quiz modu ile hemen ücretsiz çalışmaya başla.',
     url: 'https://kpsscografya.com.tr',
     siteName: 'kpsscografya.com.tr',
     locale: 'tr_TR',
@@ -71,6 +71,17 @@ export default function Home() {
           teaches: ['KPSS Türkiye Coğrafyası', 'KPSS Madenler ve Enerji', 'KPSS Tarım Coğrafyası'],
         }}
       />
+      <JsonLd
+        tip="BreadcrumbList"
+        veri={{
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Ana Sayfa", item: "https://kpsscografya.com.tr" }
+          ]
+        }}
+      />
+      
+      {/* Erişilebilirlik ve SEO için gizli görsel */}
+      <img src="/og-default.jpg" alt="KPSS Coğrafya Eğitim Platformu" width={1200} height={630} className="sr-only" />
 
       {/* ════════════════════════════════════════
           BÖLÜM 1 — HERO

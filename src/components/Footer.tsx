@@ -94,6 +94,7 @@ export default function Footer() {
           <div className="flex items-center gap-6">
             <Link href="/gizlilik" className="hover:text-white transition-colors">Gizlilik</Link>
             <Link href="/iletisim" className="hover:text-white transition-colors">İletişim</Link>
+            <a href="https://www.osym.gov.tr" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">ÖSYM</a>
           </div>
         </div>
       </div>
