@@ -82,7 +82,8 @@
     { "q": "Eğirdir Gölü'nün özelliği nedir?", "a": "Gideğeni olduğu için suları tatlıdır ve göl içinde ulaşım/turizm faaliyetleri yapılmaktadır." },
     { "q": "Bafa (Çamiçi) Gölü nasıl oluşmuştur?", "a": "Ege denizindeki bir körfezin Menderes nehrinin taşıdığı alüvyonlarla kapanması sonucu oluşan alüvyal set gölüdür." },
     { "q": "Çıldır Gölü'nün kış turizmindeki yeri nedir?", "a": "Kışın tamamen donar ve üzerinde atlı kızaklarla gezinti yapılan popüler bir turizm merkezidir." },
-    { "q": "Baraj gölleri (Yapay göller) neden yapılır?", "a": "Elektrik üretimi, tarımsal sulama, içme suyu sağlama ve taşkınları önleme amaçlı inşa edilirler." }
+    { "q": "Baraj gölleri (Yapay göller) neden yapılır?", "a": "Elektrik üretimi, tarımsal sulama, içme suyu sağlama ve taşkınları önleme amaçlı inşa edilirler." },
+    { "q": "Karma oluşumlu göller nelerdir? Örnekleri nelerdir?", "a": "Birden fazla faktörün etkisiyle oluşan göllerdir. Van Gölü (Tektonik + Volkanik set) ve Eğirdir Gölü (Tektonik + Karstik) en önemli karma oluşumlu göllerdir." }
   ],
   "iklim-bitki": [
     { "q": "Türkiye'de kaç çeşit iklim görülür?", "a": "Temel olarak Akdeniz, Karadeniz, Step (Karasal) ve Sert Karasal olmak üzere 4 ana iklim tipi görülür." },
@@ -257,7 +258,7 @@
   "kalkinma-projeleri": [
     { "q": "GAP projesinin temel amacı nedir?", "a": "Güneydoğu Anadolu'da sulama ve enerji üretimini artırarak bölgenin sosyal ve ekonomik kalkınmasını sağlamaktır." },
     { "q": "DAP projesi hangi bölgeleri kapsar?", "a": "Doğu Anadolu Bölgesi'ndeki 15 ili kapsayan, tarım ve hayvancılığı modernize etmeyi hedefleyen en geniş projelerden biridir." },
-    { "q": "ZBK projesinin odak noktası nedir?", "a": "Zonguldak-Bartın-Karabük çevresindeki taş kömürü ve demir-çelik sanayisini modernize etmek ve yeni iş kolları yaratmaktır." },
+    { "q": "ZBK nedir? Hangi illeri kapsar?", "a": "ZBK (Zonguldak, Bartın, Karabük) projesi, bu üç ili kapsayan, madencilik, demir-çelik sanayisini modernize etmeyi ve sektörel çeşitliliği artırmayı hedefleyen kalkınma projesidir." },
     { "q": "DOKAP projesi neyi hedefler?", "a": "Doğu Karadeniz'deki ulaşımı, turizmi (Yeşil Yol projesi) ve kıyı şeridindeki ekonomik faaliyetleri geliştirmeyi amaçlar." },
     { "q": "KOP projesi neden önemlidir?", "a": "Konya Ovası'ndaki yeraltı sularının yetersizliği nedeniyle Göksu Nehri'nin sularını (Mavi Tünel) bölgeye taşıyarak sulamayı hedefler." },
     { "q": "Yeşilırmak Havzası Gelişim Projesi (YHGP) amacı nedir?", "a": "Havzadaki kirliliği önlemek, taşkınları kontrol altına almak ve tarımsal verimi artırmaktır." },
@@ -318,7 +319,7 @@
     { "q": "Hangi ülkeyle olan sınır kapılarımız şu an kapalıdır?", "a": "Ermenistan (Alican ve Akyaka) sınır kapıları siyasi nedenlerle uzun süredir kapalıdır." },
     { "q": "Cilvegözü Sınır Kapısı nerede bulunur?", "a": "Hatay ilimizde yer alır ve Suriye'ye açılan en önemli kapılardan biridir." },
     { "q": "Sınır kapılarının ekonomiye katkısı nedir?", "a": "Transit ticareti geliştirir, döviz girdisi sağlar ve sınır şehirlerinin ekonomik olarak canlanmasını sağlar." },
-    { "q": "En son açılan sınır kapılarımızdan biri hangisidir?", "a": "Zeytin Dalı Sınır Kapısı (Hatay), Suriye ile olan ticareti ve yardımları koordine etmek için açılmıştır." },
+    { "q": "En son açılan sınır kapısı hangisidir? (KPSS 2026)", "a": "Zeytin Dalı Sınır Kapısı (Hatay), Suriye ile olan ticareti ve yardımları koordine etmek için açılan en son sınır kapımızdır." },
     { "q": "Hamzabeyli Sınır Kapısı nereye açılır?", "a": "Edirne ilimizde bulunur ve Bulgaristan'a açılan Kapıkule'den sonraki ikinci önemli kapımızdır." },
     { "q": "Sınır kapılarında işlemler nasıl hızlandırılmaktadır?", "a": "Dijitalleşme, tek pencere sistemi ve modern gümrük sahaları ile tır kuyrukları ve bekleme süreleri azaltılmaktadır." }
   ],

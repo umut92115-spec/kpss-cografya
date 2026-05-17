@@ -20,7 +20,7 @@ export default function KonuOzetKarti({ konu }: KonuOzetKartiProps) {
           {konu.icon}
         </div>
         <div>
-          <h2 className="font-bold text-surface-900 text-2xl tracking-tight">{konu.baslik}</h2>
+          <h1 className="font-bold text-surface-900 text-2xl tracking-tight">{konu.baslik}</h1>
           <p className="text-sm font-medium text-surface-400 mt-1 uppercase tracking-widest">Kapsamlı Konu Özeti</p>
         </div>
       </div>
@@ -34,10 +34,12 @@ export default function KonuOzetKarti({ konu }: KonuOzetKartiProps) {
           </div>
         </div>
 
-        <div className={`flex flex-col justify-center px-6 py-3 rounded-2xl border ${agirlikRenk[konu.agirlik] || 'bg-surface-50 text-surface-700 border-surface-100'}`}>
-          <span className="text-[10px] font-bold uppercase tracking-widest leading-none mb-1 opacity-70">Sınav Ağırlığı</span>
-          <span className="text-sm font-bold uppercase tracking-wider leading-none">{konu.agirlik}</span>
-        </div>
+        {konu.agirlik !== 'düşük' && (
+          <div className={`flex flex-col justify-center px-6 py-3 rounded-2xl border ${agirlikRenk[konu.agirlik] || 'bg-surface-50 text-surface-700 border-surface-100'}`}>
+            <span className="text-[10px] font-bold uppercase tracking-widest leading-none mb-1 opacity-70">Sınav Ağırlığı</span>
+            <span className="text-sm font-bold uppercase tracking-wider leading-none">{konu.agirlik}</span>
+          </div>
+        )}
       </div>
     </div>
   );

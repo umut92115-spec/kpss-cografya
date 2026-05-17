@@ -150,7 +150,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   const konu = getKonu(params.slug);
   const mdx = await getMdxContent(params.slug);
   if (!konu) return {};
-  const title = mdx?.frontmatter?.title || `${konu.baslik} — KPSS Coğrafya`;
+  const title = mdx?.frontmatter?.title || `${konu.baslik}`;
   const description = mdx?.frontmatter?.description || konu.aciklama;
   const keywords = mdx?.frontmatter?.keywords?.length
     ? mdx.frontmatter.keywords

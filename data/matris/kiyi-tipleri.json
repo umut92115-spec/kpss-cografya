@@ -9196,6 +9196,10 @@
       "kpss_notu": "DİKKAT: Batman, Türkiye'de deniz kıyısı olmayan illerimizden biridir. KPSS coğrafya sorularında 'kıyı tipi' veya 'kıta sahanlığı' ile ilgili seçeneklerde Batman'ı işaretlemek, doğrudan bilgi hatasıdır. Batman sadece flüvyal (akarsu) süreçlerle şekillenmiştir.",
       "faqs": [
         {
+          "q": "Batman'da deniz var mı?",
+          "a": "Hayır, Batman'da deniz yoktur. Şehir, Güneydoğu Anadolu Bölgesi'nde, denizden tamamen izole edilmiş bir iç havzada yer almaktadır."
+        },
+        {
           "q": "Batman ilinin kıyı tipi nedir?",
           "a": "Batman bir kara şehri olduğu için herhangi bir kıyı tipi bulunmamaktadır. Kıyı tipleri deniz kıyısındaki jeolojik ve tektonik hareketlerle şekillenir, Batman ise tamamen karasal bir havzada yer alır."
         },
