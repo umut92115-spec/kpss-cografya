@@ -1,0 +1,135 @@
+17.05.2026 22:06kpsscografya.com.tr GEO Skoru: 67/100 (Orta) — GeoSkoru Anal"z Raporu
+Sayfa 1 / 5https://geoskoru.com/geo/rapor/kpsscografya.com.tr
+kpsscografya.com.tr
+Son analiz: 17 Mayıs 2026 21:58
+ToplulukAna Sayfa
+Geliştirilmeli
+GEO Görünürlük Skoru
+AI görünürlüğü orta düzeyde,
+önemli geliştirme alanları
+mevcut.
+kpsscografya.com.tr
+3/7teknik kriter
+25
+50
+75
+YZ Erişim85 Yapısal Veri20
+E-E-A-T75
+Yanıt Bloğu50
+Güncellik50
+Bağ. Çıkarma75Konu Otoritesi40
+YZ Atıf75
+Derinlik75
+Varlık Kapsamı100
+Kaynak Kalitesi50
+JavaScript ağırlıklı site — Bu sitenin HTML içeriğinin büyük bölümü JavaScript
+ile yükleniyor. Dinamik olarak oluşturulan içerikler AI tarayıcıları tarafından
+okunamayabilir.
+67/100
+17.05.2026 22:06kpsscografya.com.tr GEO Skoru: 67/100 (Orta) — GeoSkoru Anal"z Raporu
+Sayfa 2 / 5https://geoskoru.com/geo/rapor/kpsscografya.com.tr
+GEO Kriter Analizi
+Teknik (7) + Semantik (4) · düşükten yükseğe 3/7
+Yapısal Veri (Schema) 20
+Konu Otoritesi 40
+Doğrudan Yanıt Bloğu Tespiti 50
+İçerik Tazeliği & Güncelliği 50
+Kaynak GüvenilirliğiS 50
+Güvenilirlik ve Uzmanlık (E-E-A-T) 75
+Bağımsız Bilgi Çıkarılabilirliği 75
+Yapay Zeka Atıf OranıS 75
+İçerik Kapsamı ve DerinliğiS 75
+Yapay Zeka Erişilebilirliği 85
+Varlık (Entity) KapsamıS 100
+1 teknik alan AI görünürlüğünü kısıtlıyor: Yapısal Veri (Schema) puanları yükseltilmeli.
+Öncelikli Aksiyonlar 2 adım
+1 Yapısal Veri (Schema)20/100
+DiscussionForumPosting veya QAPage şeması ekleyin
+2 İçerik Tazeliği & Güncelliği50/100
+İçerik sayfalarına yayın tarihi ekleyin
+17.05.2026 22:06kpsscografya.com.tr GEO Skoru: 67/100 (Orta) — GeoSkoru Anal"z Raporu
+Sayfa 3 / 5https://geoskoru.com/geo/rapor/kpsscografya.com.tr
+TEKNİKTeknik Analiz
+Deterministik · HTML parse · anında hesaplanır · 7 kriter 3 başarılı4 geliştir
+Yapısal Veri (Schema)%20
+Schema: WebSite, EducationalOrganization 20/100
+Konu Otoritesi%10
+Topluluk çeşitliliği (site tipine göre normal) 40/100
+Doğrudan Yanıt Bloğu Tespiti%15
+başlık+paragraf, tanım formatı 50/100
+İçerik Tazeliği & Güncelliği%10
+Topluluk: ana sayfa tarih zorunlu değil (taban 50) 50/100
+Güvenilirlik ve Uzmanlık (E-E-A-T)%20
+Eksik: Otorite kaynak linki 75/100
+Bağımsız Bilgi Çıkarılabilirliği%10
+entity mevcut, tanım formatı, sayısal veri 75/100
+Yapay Zeka Erişilebilirliği%15
+İyi, llms.txt eklenebilir — Tüm AI botlara açık 85/100
+SEMANTİKSemantik Analiz
+AI destekli · arka planda hesaplanır · 4 boyut Tamamlandı
+Yapay Zeka Atıf Oranı 75/100
+AI sistemlerinin içeriği alıntılama kolaylığı
+Metin, tanımlayıcı cümleler ve sayısal
+veriler içeriyor, bu da alıntılanabilirliği
+artırıyor.
+İçerik Kapsamı ve Derinliği 75/100
+Konunun kapsamlı ve derinlemesine işlenmesi
+Konu iyi işlenmiş, birçok alt başlık ve detay
+mevcut, ancak derinlemesine analiz eksik.
+Varlık (Entity) Kapsamı 100/100 Kaynak Güvenilirliği 50/100
+17.05.2026 22:06kpsscografya.com.tr GEO Skoru: 67/100 (Orta) — GeoSkoru Anal"z Raporu
+Sayfa 4 / 5https://geoskoru.com/geo/rapor/kpsscografya.com.tr
+Varlık (Entity) Kapsamı 100/100
+Konu ile ilgili varlıkların kapsam genişliği
+Tüm ilgili coğrafi kavramlar, iller ve konular
+eksiksiz işlenmiş, ilişkiler açıklanmış.
+Kaynak Güvenilirliği 50/100
+Kullanılan kaynakların güvenilirlik düzeyi
+Topluluk sitesi olduğu için kaynak
+beklenmez, bu nedenle orta düzey puan
+verilmiştir.
+GEO Kod ÜretimiAI Destekli Yenile
+llms.txt Schema JSON-LD Meta Etiketler 14 Günlük Plan
+llms.txt Dosyası
+Sitenizin kök dizinine ekleyin: /llms.txt Dosyayı Kopyala
+# kpsscografya.com.tr
+## Hakkında
+kpsscografya.com.tr, Kamu Personeli Seçme Sınavı (KPSS) coğrafya 
+bölümüne hazırlanan adaylara yönelik kapsamlı ve ücretsiz bir eğitim 
+platformudur. Site, interaktif haritalar, detaylı konu notları ve 
+geniş bir soru bankası sunarak coğrafya konularının öğrenilmesini ve 
+pekiştirilmesini hedefler. Özellikle 10 konu ve 81 ili kapsayan 
+harita tabanlı öğrenme ve quiz modları ile sınav başarısını artırmayı 
+amaçlar.
+## Ana Konular
+- Madenler
+- Tarım
+- İklim
+- Ulaşım
+## Hedef Kitle
+Bu site, Kamu Personeli Seçme Sınavı (KPSS) coğrafya bölümüne 
+hazırlanan tüm adaylar için tasarlanmıştır.
+## İçerik Politikası
+Site içeriği, uzmanlar tarafından hazırlanmış güncel ve istatistiksel 
+verilere dayalı bilgilerle sürekli olarak zenginleştirilmektedir.
+## İletişim
+https://kpsscografya.com.tr
+Üretildi: 17 May 2026 21:58
+17.05.2026 22:06kpsscografya.com.tr GEO Skoru: 67/100 (Orta) — GeoSkoru Anal"z Raporu
+Sayfa 5 / 5https://geoskoru.com/geo/rapor/kpsscografya.com.tr
+ÜCRETSİZ · SONUÇ 30 SN'DE
+Siteniz ChatGPT &
+Gemini'de Görünüyor mu?
+4 büyük AI arama motorundaki
+gerçek görünürlüğünüzü ölçün
+— ChatGPT, Gemini, Claude
+ve Perplexity'deki varlığınızı
+analiz edin.
+Ücretsiz AI Görünürlük Testi
+Bu skor nasıl hesaplandı?
+Siteniz 7 teknik kriter üzerinden analiz edildi
+Her kriter site tipinize göre ağırlıklandırıldı
+Teknik analizin yanı sıra içeriğiniz yapay zeka ile de değerlendirildi
+Teknik detayları gör
+GeoSkoru · GEO & Semantik SEO Analiz Platformu · v2.0
+Rapor tarihi: 17 Mayıs 2026

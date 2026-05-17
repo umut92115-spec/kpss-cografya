@@ -1,0 +1,22 @@
+# kpsscografya.com.tr
+## Hakkında
+kpsscografya.com.tr, Kamu Personeli Seçme Sınavı (KPSS) coğrafya 
+bölümüne hazırlanan adaylara yönelik kapsamlı ve ücretsiz bir eğitim 
+platformudur. Site, interaktif haritalar, detaylı konu notları ve 
+geniş bir soru bankası sunarak coğrafya konularının öğrenilmesini ve 
+pekiştirilmesini hedefler. Özellikle 10 konu ve 81 ili kapsayan 
+harita tabanlı öğrenme ve quiz modları ile sınav başarısını artırmayı 
+amaçlar.
+## Ana Konular
+- Madenler
+- Tarım
+- İklim
+- Ulaşım
+## Hedef Kitle
+Bu site, Kamu Personeli Seçme Sınavı (KPSS) coğrafya bölümüne 
+hazırlanan tüm adaylar için tasarlanmıştır.
+## İçerik Politikası
+Site içeriği, uzmanlar tarafından hazırlanmış güncel ve istatistiksel 
+verilere dayalı bilgilerle sürekli olarak zenginleştirilmektedir.
+## İletişim
+https://kpsscografya.com.tr

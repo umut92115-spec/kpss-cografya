@@ -19,6 +19,20 @@ export default function SuperDetayRender({ data, ilAd, konuBaslik, konuSlug, ilS
   return (
     <article className="space-y-8">
       {/* Schema Markup */}
+      <JsonLd
+        tip="DiscussionForumPosting"
+        veri={{
+          headline: `${ilAd} ${konuBaslik} Analizi`,
+          articleBody: data.snippet,
+          author: {
+            "@type": "Organization",
+            name: "kpsscografya.com.tr",
+            url: "https://kpsscografya.com.tr"
+          },
+          datePublished: "2026-05-15T08:00:00+03:00",
+          dateModified: "2026-05-17T08:00:00+03:00"
+        }}
+      />
       {data?.faqs && (
         <JsonLd
           tip="FAQPage"
@@ -140,7 +154,10 @@ export default function SuperDetayRender({ data, ilAd, konuBaslik, konuSlug, ilS
           <span>© kpsscografya.com.tr</span>
           <Link href="/konu/sozluk" className="hover:text-blue-500 underline underline-offset-2">Coğrafya Sözlüğü</Link>
         </div>
-        <span>Son Güncelleme: {data.last_updated} | 2026 KPSS Müfredatı</span>
+        <div className="flex items-center gap-3">
+          <span>Yayın Tarihi: 15 Mayıs 2026</span>
+          <span>Son Güncelleme: {data.last_updated} | 2026 KPSS Müfredatı</span>
+        </div>
       </div>
     </article>
   );

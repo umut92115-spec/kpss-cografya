@@ -250,6 +250,21 @@ export default async function KonuPage({ params }: { params: { slug: string } })
           }}
         />
       )}
+      
+      <JsonLd
+        tip="DiscussionForumPosting"
+        veri={{
+          headline: `KPSS Coğrafya — ${konu.baslik}`,
+          articleBody: metaDesc,
+          author: {
+            "@type": "Organization",
+            name: "kpsscografya.com.tr",
+            url: "https://kpsscografya.com.tr"
+          },
+          datePublished: "2026-05-15T08:00:00+03:00",
+          dateModified: "2026-05-17T08:00:00+03:00"
+        }}
+      />
 
       {/* Konu Özet Kartı */}
       <KonuOzetKarti konu={konu} />
@@ -419,6 +434,11 @@ export default async function KonuPage({ params }: { params: { slug: string } })
         >
           Quiz&apos;i Başlat →
         </Link>
+      </div>
+
+      <div className="mt-8 pt-6 border-t border-gray-100 flex items-center justify-center gap-4 text-xs text-gray-500">
+        <span>Yayın Tarihi: 15 Mayıs 2026</span>
+        <span>Son Güncelleme: 17 Mayıs 2026</span>
       </div>
     </div>
   );

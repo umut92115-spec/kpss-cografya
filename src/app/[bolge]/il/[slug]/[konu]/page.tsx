@@ -120,6 +120,20 @@ export default function IlKonuDetayPage({
             ]
           }}
         />
+        <JsonLd
+          tip="DiscussionForumPosting"
+          veri={{
+            headline: `${il.ad} ${konu.baslik} Analizi`,
+            articleBody: `${il.ad} ili için ${konu.baslik.toLowerCase()} konusundaki KPSS hazırlık içeriği`,
+            author: {
+              "@type": "Organization",
+              name: "kpsscografya.com.tr",
+              url: "https://kpsscografya.com.tr"
+            },
+            datePublished: "2026-05-15T08:00:00+03:00",
+            dateModified: "2026-05-17T08:00:00+03:00"
+          }}
+        />
         {/* FAQPage schema — görünür accordion ile eşleşiyor (Google uyumlu) */}
         {effectiveFaqs.length > 0 && (
           <JsonLd
@@ -173,19 +187,25 @@ export default function IlKonuDetayPage({
         )}
 
         {/* İl sayfasına geri dön */}
-        <div className="flex gap-4 flex-wrap">
-          <Link
-            href={`/${params.bolge}/il/${il.slug}`}
-            className="inline-flex items-center gap-2 text-sm font-bold text-blue-600 hover:text-blue-800 bg-blue-50 px-4 py-2 rounded-lg border border-blue-100 transition-colors"
-          >
-            ← {il.ad} Ana Sayfası
-          </Link>
-          <Link
-            href={`/konu/${konu.slug}`}
-            className="inline-flex items-center gap-2 text-sm font-bold text-gray-600 hover:text-gray-900 bg-gray-50 px-4 py-2 rounded-lg border border-gray-200 transition-colors"
-          >
-            📖 {konu.baslik} Konu Anlatımı →
-          </Link>
+        <div className="flex flex-col gap-4">
+          <div className="flex gap-4 flex-wrap">
+            <Link
+              href={`/${params.bolge}/il/${il.slug}`}
+              className="inline-flex items-center gap-2 text-sm font-bold text-blue-600 hover:text-blue-800 bg-blue-50 px-4 py-2 rounded-lg border border-blue-100 transition-colors"
+            >
+              ← {il.ad} Ana Sayfası
+            </Link>
+            <Link
+              href={`/konu/${konu.slug}`}
+              className="inline-flex items-center gap-2 text-sm font-bold text-gray-600 hover:text-gray-900 bg-gray-50 px-4 py-2 rounded-lg border border-gray-200 transition-colors"
+            >
+              📖 {konu.baslik} Konu Anlatımı →
+            </Link>
+          </div>
+          <div className="flex items-center gap-3 text-xs text-gray-400 mt-4 border-t border-gray-100 pt-4">
+            <span>Yayın Tarihi: 15 Mayıs 2026</span>
+            <span>Son Güncelleme: 17 Mayıs 2026 | 2026 KPSS Müfredatı</span>
+          </div>
         </div>
       </div>
     );

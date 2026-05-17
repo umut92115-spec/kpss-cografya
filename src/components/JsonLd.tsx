@@ -9,7 +9,9 @@ interface JsonLdProps {
     | 'LearningResource'
     | 'Quiz'
     | 'EducationalOrganization'
-    | 'AdministrativeArea';
+    | 'AdministrativeArea'
+    | 'DiscussionForumPosting'
+    | 'QAPage';
   veri: Record<string, unknown>;
 }
 

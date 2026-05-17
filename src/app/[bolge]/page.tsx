@@ -108,6 +108,20 @@ export default function BolgePage({ params }: { params: { bolge: string } }) {
           }}
         />
       )}
+      <JsonLd
+        tip="DiscussionForumPosting"
+        veri={{
+          headline: `${bolge.ad} Bölgesi Coğrafyası`,
+          articleBody: veriler?.konum?.substring(0, 150) || `${bolge.ad} Bölgesi özellikleri`,
+          author: {
+            "@type": "Organization",
+            name: "kpsscografya.com.tr",
+            url: "https://kpsscografya.com.tr"
+          },
+          datePublished: "2026-05-15T08:00:00+03:00",
+          dateModified: "2026-05-17T08:00:00+03:00"
+        }}
+      />
       <div className="max-w-7xl mx-auto px-4 py-8">
         <nav className="mb-6 text-sm text-gray-500 border-b border-gray-200 pb-4">
           <Link href="/" className="hover:underline">Ana Sayfa</Link>
@@ -192,6 +206,11 @@ export default function BolgePage({ params }: { params: { bolge: string } }) {
                   <FaqAccordion faqs={bolgeFaqs} />
                 </div>
               </section>
+
+              <div className="mt-12 pt-6 border-t border-gray-100 flex items-center justify-center gap-4 text-xs text-gray-500">
+                <span>Yayın Tarihi: 15 Mayıs 2026</span>
+                <span>Son Güncelleme: 17 Mayıs 2026</span>
+              </div>
             </div>
           </main>
 
