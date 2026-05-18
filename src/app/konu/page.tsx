@@ -1,12 +1,13 @@
-import Link from 'next/link';
-import { getAllKonular } from '@/lib/getKonuData';
-import { Metadata } from 'next';
+import Link from "next/link";
+import { getAllKonular } from "@/lib/getKonuData";
+import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: 'KPSS Coğrafya Konuları — Süper Detay Anlatım | kpsscografya.com.tr',
-  description: 'KPSS coğrafya tüm konuları: Yer şekilleri, iklim, nüfus, tarım, madenler, ticaret ve daha fazlası. Görsel ve detaylı konu anlatımları.',
+  title: "KPSS Coğrafya Konuları — Süper Detay Anlatım | kpsscografya.com.tr",
+  description:
+    "KPSS coğrafya tüm konuları: Yer şekilleri, iklim, nüfus, tarım, madenler, ticaret ve daha fazlası. Görsel ve detaylı konu anlatımları.",
   alternates: {
-    canonical: 'https://kpsscografya.com.tr/konu',
+    canonical: "https://kpsscografya.com.tr/konu",
   },
 };
 
@@ -22,7 +23,8 @@ export default function KonularPage() {
             Tüm KPSS Coğrafya <span className="text-harita-mavi">Konuları</span>
           </h1>
           <p className="text-gray-500 text-lg max-w-2xl mx-auto leading-relaxed">
-            Sınavda çıkan tüm başlıklar, &quot;Süper Detay&quot; formatında, güncel veriler ve sınav odaklı özetlerle hazırlandı.
+            Sınavda çıkan tüm başlıklar, &quot;Süper Detay&quot; formatında, güncel veriler ve sınav
+            odaklı özetlerle hazırlandı.
           </p>
         </div>
 
@@ -45,11 +47,11 @@ export default function KonularPage() {
                 </div>
                 <span
                   className={`text-[10px] uppercase tracking-widest font-black px-3 py-1.5 rounded-full border ${
-                    k.agirlik === 'yüksek'
-                      ? 'bg-red-50 text-red-600 border-red-100'
-                      : k.agirlik === 'orta'
-                      ? 'bg-yellow-50 text-yellow-700 border-yellow-100'
-                      : 'bg-green-50 text-green-700 border-green-100'
+                    k.agirlik === "yüksek"
+                      ? "bg-red-50 text-red-600 border-red-100"
+                      : k.agirlik === "orta"
+                        ? "bg-yellow-50 text-yellow-700 border-yellow-100"
+                        : "bg-green-50 text-green-700 border-green-100"
                   }`}
                 >
                   {k.agirlik} ÖNEM
@@ -60,7 +62,7 @@ export default function KonularPage() {
               <h3 className="font-black text-kpss-koyu text-2xl leading-tight mb-2 group-hover:text-harita-mavi transition-colors">
                 {k.baslik}
               </h3>
-              
+
               <div className="flex items-center gap-4 mb-4">
                 <div className="flex items-center gap-1.5">
                   <span className="w-2 h-2 rounded-full bg-kpss-turuncu"></span>
@@ -70,9 +72,7 @@ export default function KonularPage() {
                 </div>
               </div>
 
-              <p className="text-gray-500 text-sm leading-relaxed mb-8 flex-1">
-                {k.aciklama}
-              </p>
+              <p className="text-gray-500 text-sm leading-relaxed mb-8 flex-1">{k.aciklama}</p>
 
               {/* Linkler */}
               <div className="flex gap-3">
@@ -97,15 +97,16 @@ export default function KonularPage() {
         {/* Alt Bilgi */}
         <div className="mt-20 p-10 bg-gradient-to-br from-kpss-koyu to-black rounded-[40px] text-center text-white relative overflow-hidden">
           <div className="absolute top-0 left-0 w-full h-full opacity-10 pointer-events-none">
-             <div className="absolute top-0 left-0 w-64 h-64 bg-harita-mavi rounded-full blur-[100px] -translate-x-1/2 -translate-y-1/2"></div>
-             <div className="absolute bottom-0 right-0 w-64 h-64 bg-kpss-turuncu rounded-full blur-[100px] translate-x-1/2 translate-y-1/2"></div>
+            <div className="absolute top-0 left-0 w-64 h-64 bg-harita-mavi rounded-full blur-[100px] -translate-x-1/2 -translate-y-1/2"></div>
+            <div className="absolute bottom-0 right-0 w-64 h-64 bg-kpss-turuncu rounded-full blur-[100px] translate-x-1/2 translate-y-1/2"></div>
           </div>
           <div className="relative z-10">
             <h2 className="text-3xl font-black mb-4">Harita ile Öğrenmeyi Dene</h2>
             <p className="text-gray-400 max-w-xl mx-auto mb-8">
-              Sadece okumak yetmez. Tüm bu konuları Türkiye haritası üzerinde görselleştirerek hafızana kazı.
+              Sadece okumak yetmez. Tüm bu konuları Türkiye haritası üzerinde görselleştirerek
+              hafızana kazı.
             </p>
-            <Link 
+            <Link
               href="/harita/madenler-enerji"
               className="inline-block bg-harita-mavi hover:bg-harita-mavi-dark text-white font-black py-4 px-10 rounded-2xl transition-all transform hover:scale-105"
             >

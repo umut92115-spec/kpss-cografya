@@ -1,56 +1,61 @@
-import Link from 'next/link';
-import JsonLd from '@/components/JsonLd';
-import { getAllKonular } from '@/lib/getKonuData';
-import { Metadata } from 'next';
+import Link from "next/link";
+import JsonLd from "@/components/JsonLd";
+import { getAllKonular } from "@/lib/getKonuData";
+import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: 'KPSS Coğrafya - Ücretsiz Notlar, Harita ve Soru Bankası',
-  description: 'Türkiye\'nin en kapsamlı KPSS coğrafya hazırlık platformu. 10 temel konu, 81 il detayları, interaktif harita ve quiz modu ile hemen ücretsiz çalışmaya başla.',
-  alternates: { canonical: 'https://kpsscografya.com.tr' },
+  title: "KPSS Coğrafya - Ücretsiz Notlar, Harita ve Soru Bankası",
+  description:
+    "Türkiye'nin en kapsamlı KPSS coğrafya hazırlık platformu. 10 temel konu, 81 il detayları, interaktif harita ve quiz modu ile hemen ücretsiz çalışmaya başla.",
+  alternates: { canonical: "https://kpsscografya.com.tr" },
   openGraph: {
-    title: 'KPSS Coğrafya - Ücretsiz Notlar, Harita ve Soru Bankası',
-    description: 'Türkiye\'nin en kapsamlı KPSS coğrafya hazırlık platformu. 10 temel konu, 81 il detayları, interaktif harita ve quiz modu ile hemen ücretsiz çalışmaya başla.',
-    url: 'https://kpsscografya.com.tr',
-    siteName: 'kpsscografya.com.tr',
-    locale: 'tr_TR',
-    type: 'website',
+    title: "KPSS Coğrafya - Ücretsiz Notlar, Harita ve Soru Bankası",
+    description:
+      "Türkiye'nin en kapsamlı KPSS coğrafya hazırlık platformu. 10 temel konu, 81 il detayları, interaktif harita ve quiz modu ile hemen ücretsiz çalışmaya başla.",
+    url: "https://kpsscografya.com.tr",
+    siteName: "kpsscografya.com.tr",
+    locale: "tr_TR",
+    type: "website",
   },
   other: {
-    'geo.region': 'TR',
-    'geo.placename': 'Türkiye',
-    'geo.position': '39.0;35.0',
-    'ICBM': '39.0, 35.0',
+    "geo.region": "TR",
+    "geo.placename": "Türkiye",
+    "geo.position": "39.0;35.0",
+    ICBM: "39.0, 35.0",
   },
 };
 
 // Öne çıkan araçlar
 const araclar = [
   {
-    icon: '🗺️',
-    baslik: 'İnteraktif Harita',
-    aciklama: 'İl bazlı veri görselleştirme. Her konuyu Türkiye haritası üzerinde interaktif olarak keşfet.',
-    href: '/harita',
-    renk: 'from-brand-50 to-white border-brand-100 hover:border-brand-300 shadow-sm',
-    etiket: '81 İl',
-    accent: 'text-brand-600 bg-brand-50'
+    icon: "🗺️",
+    baslik: "İnteraktif Harita",
+    aciklama:
+      "İl bazlı veri görselleştirme. Her konuyu Türkiye haritası üzerinde interaktif olarak keşfet.",
+    href: "/harita",
+    renk: "from-brand-50 to-white border-brand-100 hover:border-brand-300 shadow-sm",
+    etiket: "81 İl",
+    accent: "text-brand-600 bg-brand-50",
   },
   {
-    icon: '✍️',
-    baslik: 'Quiz Modu',
-    aciklama: 'Çıkmış KPSS soruları ile kendini test et. Detaylı analiz ve skor takibi ile ilerlemeni gör.',
-    href: '/quiz',
-    renk: 'from-kpss-turuncu-light/30 to-white border-kpss-turuncu-light hover:border-kpss-turuncu shadow-sm',
-    etiket: '200+ Soru',
-    accent: 'text-kpss-turuncu bg-kpss-turuncu-light'
+    icon: "✍️",
+    baslik: "Quiz Modu",
+    aciklama:
+      "Çıkmış KPSS soruları ile kendini test et. Detaylı analiz ve skor takibi ile ilerlemeni gör.",
+    href: "/quiz",
+    renk: "from-kpss-turuncu-light/30 to-white border-kpss-turuncu-light hover:border-kpss-turuncu shadow-sm",
+    etiket: "200+ Soru",
+    accent: "text-kpss-turuncu bg-kpss-turuncu-light",
   },
   {
-    icon: '📍',
-    baslik: 'İl Rehberi',
-    aciklama: 'Her ilin coğrafi özelliklerini, güncel verilerini ve KPSS spesifik notlarını tek tıkla gör.',
-    href: '/il',
-    renk: 'from-emerald-50 to-white border-emerald-100 hover:border-emerald-300 shadow-sm',
-    etiket: '81 İl',
-    accent: 'text-emerald-600 bg-emerald-50'
+    icon: "📍",
+    baslik: "İl Rehberi",
+    aciklama:
+      "Her ilin coğrafi özelliklerini, güncel verilerini ve KPSS spesifik notlarını tek tıkla gör.",
+    href: "/il",
+    renk: "from-emerald-50 to-white border-emerald-100 hover:border-emerald-300 shadow-sm",
+    etiket: "81 İl",
+    accent: "text-emerald-600 bg-emerald-50",
   },
 ];
 
@@ -62,26 +67,38 @@ export default function Home() {
       <JsonLd
         tip="EducationalOrganization"
         veri={{
-          name: 'KPSS Coğrafya',
-          alternateName: 'kpsscografya.com.tr',
-          url: 'https://kpsscografya.com.tr',
-          description: 'KPSS coğrafya sınavına hazırlanan adaylar için interaktif harita ve wiki platformu.',
-          inLanguage: 'tr',
-          areaServed: { '@type': 'Country', name: 'Türkiye' },
-          teaches: ['KPSS Türkiye Coğrafyası', 'KPSS Madenler ve Enerji', 'KPSS Tarım Coğrafyası'],
+          name: "KPSS Coğrafya",
+          alternateName: "kpsscografya.com.tr",
+          url: "https://kpsscografya.com.tr",
+          description:
+            "KPSS coğrafya sınavına hazırlanan adaylar için interaktif harita ve wiki platformu.",
+          inLanguage: "tr",
+          areaServed: { "@type": "Country", name: "Türkiye" },
+          teaches: ["KPSS Türkiye Coğrafyası", "KPSS Madenler ve Enerji", "KPSS Tarım Coğrafyası"],
         }}
       />
       <JsonLd
         tip="BreadcrumbList"
         veri={{
           itemListElement: [
-            { "@type": "ListItem", position: 1, name: "Ana Sayfa", item: "https://kpsscografya.com.tr" }
-          ]
+            {
+              "@type": "ListItem",
+              position: 1,
+              name: "Ana Sayfa",
+              item: "https://kpsscografya.com.tr",
+            },
+          ],
         }}
       />
-      
+
       {/* Erişilebilirlik ve SEO için gizli görsel */}
-      <img src="/og-default.jpg" alt="KPSS Coğrafya Eğitim Platformu" width={1200} height={630} className="sr-only" />
+      <img
+        src="/og-default.jpg"
+        alt="KPSS Coğrafya Eğitim Platformu"
+        width={1200}
+        height={630}
+        className="sr-only"
+      />
 
       {/* ════════════════════════════════════════
           BÖLÜM 1 — HERO
@@ -104,20 +121,36 @@ export default function Home() {
           </div>
 
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-surface-900 mb-8 animate-fade-in">
-            Coğrafya&apos;yı{' '}
+            Coğrafya&apos;yı{" "}
             <span className="relative">
               <span className="relative z-10 text-brand-600">Görselleştirin</span>
-              <svg className="absolute -bottom-2 left-0 w-full h-3 text-brand-100 -z-0" viewBox="0 0 100 10" preserveAspectRatio="none">
-                <path d="M0 5 Q 25 0 50 5 Q 75 10 100 5" stroke="currentColor" strokeWidth="8" fill="none" />
+              <svg
+                className="absolute -bottom-2 left-0 w-full h-3 text-brand-100 -z-0"
+                viewBox="0 0 100 10"
+                preserveAspectRatio="none"
+              >
+                <path
+                  d="M0 5 Q 25 0 50 5 Q 75 10 100 5"
+                  stroke="currentColor"
+                  strokeWidth="8"
+                  fill="none"
+                />
               </svg>
             </span>
           </h1>
 
-          <p className="text-xl md:text-2xl text-surface-500 max-w-3xl mx-auto mb-12 leading-relaxed animate-fade-in" style={{ animationDelay: '0.1s' }}>
-            Türkiye&apos;nin en interaktif KPSS Coğrafya platformu. Haritalar, güncel veriler ve çıkmış sorularla sınavda fark yaratın.
+          <p
+            className="text-xl md:text-2xl text-surface-500 max-w-3xl mx-auto mb-12 leading-relaxed animate-fade-in"
+            style={{ animationDelay: "0.1s" }}
+          >
+            Türkiye&apos;nin en interaktif KPSS Coğrafya platformu. Haritalar, güncel veriler ve
+            çıkmış sorularla sınavda fark yaratın.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-5 justify-center items-center animate-fade-in" style={{ animationDelay: '0.2s' }}>
+          <div
+            className="flex flex-col sm:flex-row gap-5 justify-center items-center animate-fade-in"
+            style={{ animationDelay: "0.2s" }}
+          >
             <Link
               href="/harita"
               className="group relative inline-flex items-center justify-center gap-2 px-8 py-4 bg-surface-900 text-white rounded-2xl font-bold text-lg transition-all hover:bg-surface-800 hover:scale-[1.02] active:scale-[0.98] shadow-xl shadow-surface-900/10"
@@ -134,16 +167,21 @@ export default function Home() {
           </div>
 
           {/* İstatistikler */}
-          <div className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto animate-fade-in" style={{ animationDelay: '0.3s' }}>
+          <div
+            className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto animate-fade-in"
+            style={{ animationDelay: "0.3s" }}
+          >
             {[
-              { val: '10', lab: 'Temel Konu' },
-              { val: '81', lab: 'İnteraktif İl' },
-              { val: '200+', lab: 'Özgün Soru' },
-              { val: '100%', lab: 'Ücretsiz' },
+              { val: "10", lab: "Temel Konu" },
+              { val: "81", lab: "İnteraktif İl" },
+              { val: "200+", lab: "Özgün Soru" },
+              { val: "100%", lab: "Ücretsiz" },
             ].map((stat, i) => (
               <div key={i} className="flex flex-col items-center">
                 <span className="text-4xl font-bold text-surface-900 mb-1">{stat.val}</span>
-                <span className="text-sm font-medium text-surface-400 uppercase tracking-wider">{stat.lab}</span>
+                <span className="text-sm font-medium text-surface-400 uppercase tracking-wider">
+                  {stat.lab}
+                </span>
               </div>
             ))}
           </div>
@@ -158,13 +196,19 @@ export default function Home() {
           <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
             <div className="max-w-2xl">
               <h2 className="text-3xl md:text-4xl font-bold text-surface-900 mb-4">
-                Öğrenme Deneyimini<br />Yeniden Tanımlayın
+                Öğrenme Deneyimini
+                <br />
+                Yeniden Tanımlayın
               </h2>
               <p className="text-lg text-surface-500">
-                Geleneksel notlardan sıkıldınız mı? Biz coğrafyayı sayfalardan çıkarıp haritalara taşıyoruz.
+                Geleneksel notlardan sıkıldınız mı? Biz coğrafyayı sayfalardan çıkarıp haritalara
+                taşıyoruz.
               </p>
             </div>
-            <Link href="/harita" className="text-brand-600 font-bold flex items-center gap-2 hover:underline">
+            <Link
+              href="/harita"
+              className="text-brand-600 font-bold flex items-center gap-2 hover:underline"
+            >
               Tüm araçları gör <span className="text-xl">→</span>
             </Link>
           </div>
@@ -176,16 +220,16 @@ export default function Home() {
                 href={arac.href}
                 className={`group p-8 rounded-3xl border bg-gradient-to-br ${arac.renk} transition-all duration-300 hover:-translate-y-2 hover:shadow-premium`}
               >
-                <div className="text-6xl mb-8 group-hover:scale-110 transition-transform duration-300">{arac.icon}</div>
+                <div className="text-6xl mb-8 group-hover:scale-110 transition-transform duration-300">
+                  {arac.icon}
+                </div>
                 <div className="flex items-center justify-between mb-4">
                   <h3 className="text-2xl font-bold text-surface-900">{arac.baslik}</h3>
                   <span className={`text-xs font-bold px-2.5 py-1 rounded-full ${arac.accent}`}>
                     {arac.etiket}
                   </span>
                 </div>
-                <p className="text-surface-500 leading-relaxed">
-                  {arac.aciklama}
-                </p>
+                <p className="text-surface-500 leading-relaxed">{arac.aciklama}</p>
                 <div className="mt-8 flex items-center gap-2 text-surface-900 font-bold group-hover:gap-3 transition-all">
                   Hemen Dene <span className="text-xl">→</span>
                 </div>
@@ -201,7 +245,9 @@ export default function Home() {
       <section className="py-32 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-20">
-            <h2 className="text-4xl md:text-5xl font-bold text-surface-900 mb-6">Müfredatın Tamamı</h2>
+            <h2 className="text-4xl md:text-5xl font-bold text-surface-900 mb-6">
+              Müfredatın Tamamı
+            </h2>
             <p className="text-xl text-surface-500 max-w-2xl mx-auto">
               KPSS Coğrafya müfredatındaki 10 temel konuyu en ince detayına kadar inceleyin.
             </p>
@@ -218,11 +264,15 @@ export default function Home() {
                     <div className="w-16 h-16 rounded-2xl bg-surface-50 flex items-center justify-center text-4xl group-hover:scale-110 transition-transform">
                       {k.icon}
                     </div>
-                    <span className={`text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded-full border ${
-                      k.agirlik === 'yüksek' ? 'text-rose-600 border-rose-100 bg-rose-50' :
-                      k.agirlik === 'orta' ? 'text-amber-600 border-amber-100 bg-amber-50' :
-                      'text-emerald-600 border-emerald-100 bg-emerald-50'
-                    }`}>
+                    <span
+                      className={`text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded-full border ${
+                        k.agirlik === "yüksek"
+                          ? "text-rose-600 border-rose-100 bg-rose-50"
+                          : k.agirlik === "orta"
+                            ? "text-amber-600 border-amber-100 bg-amber-50"
+                            : "text-emerald-600 border-emerald-100 bg-emerald-50"
+                      }`}
+                    >
                       {k.agirlik} Önem
                     </span>
                   </div>
@@ -264,7 +314,9 @@ export default function Home() {
         <div className="max-w-5xl mx-auto px-6 relative z-10">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">Sınav Analizi</h2>
-            <p className="text-surface-400">Son 5 yılın KPSS soru dağılımına göre konu ağırlıkları</p>
+            <p className="text-surface-400">
+              Son 5 yılın KPSS soru dağılımına göre konu ağırlıkları
+            </p>
           </div>
 
           <div className="space-y-6">
@@ -275,7 +327,10 @@ export default function Home() {
                 const MAX_EXPECTED_QUESTIONS = 4;
                 const oran = (k.kpss_soru_sayisi_ort / MAX_EXPECTED_QUESTIONS) * 100;
                 return (
-                  <div key={k.slug} className="group flex flex-col md:flex-row md:items-center gap-4 bg-white/5 backdrop-blur-md p-6 rounded-3xl border border-white/10 transition-colors hover:bg-white/10">
+                  <div
+                    key={k.slug}
+                    className="group flex flex-col md:flex-row md:items-center gap-4 bg-white/5 backdrop-blur-md p-6 rounded-3xl border border-white/10 transition-colors hover:bg-white/10"
+                  >
                     <div className="flex items-center gap-4 md:w-64">
                       <span className="text-3xl">{k.icon}</span>
                       <span className="font-bold text-white truncate">{k.kisa_baslik}</span>
@@ -289,8 +344,15 @@ export default function Home() {
                       </div>
                     </div>
                     <div className="flex items-center justify-between md:w-32">
-                      <span className="text-brand-400 font-bold">~{k.kpss_soru_sayisi_ort} Soru</span>
-                      <Link href={`/konu/${k.slug}`} className="md:hidden text-sm font-bold text-surface-400">Detay →</Link>
+                      <span className="text-brand-400 font-bold">
+                        ~{k.kpss_soru_sayisi_ort} Soru
+                      </span>
+                      <Link
+                        href={`/konu/${k.slug}`}
+                        className="md:hidden text-sm font-bold text-surface-400"
+                      >
+                        Detay →
+                      </Link>
                     </div>
                   </div>
                 );
@@ -308,9 +370,14 @@ export default function Home() {
           <div className="absolute bottom-0 left-0 w-96 h-96 bg-black/10 rounded-full blur-[100px] -ml-48 -mb-48" />
 
           <div className="relative z-10">
-            <h2 className="text-4xl md:text-6xl font-bold mb-8">Hayalindeki Memuriyet İçin<br />Coğrafyayı Fulleyin</h2>
+            <h2 className="text-4xl md:text-6xl font-bold mb-8">
+              Hayalindeki Memuriyet İçin
+              <br />
+              Coğrafyayı Fulleyin
+            </h2>
             <p className="text-xl text-brand-100 mb-12 max-w-2xl mx-auto leading-relaxed">
-              Binlerce aday harita üzerinden öğrenerek başarıya ulaştı. Siz de bugün başlayın, sınavda hiçbir soruyu kaçırmayın.
+              Binlerce aday harita üzerinden öğrenerek başarıya ulaştı. Siz de bugün başlayın,
+              sınavda hiçbir soruyu kaçırmayın.
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
               <Link

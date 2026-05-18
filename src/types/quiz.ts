@@ -5,7 +5,7 @@ export interface QuizSoru {
   dogru: string;
   aciklama: string;
   harita_il: string | null;
-  zorluk: 'kolay' | 'orta' | 'zor';
+  zorluk: "kolay" | "orta" | "zor";
 }
 
 export interface QuizData {
@@ -15,9 +15,9 @@ export interface QuizData {
 
 export interface QuizSonuc {
   konuSlug: string;
-  tarih: string;          // ISO string
+  tarih: string; // ISO string
   toplamSoru: number;
   dogruSayisi: number;
   sureMs: number;
-  skor: number;           // 0-100
+  skor: number; // 0-100
 }

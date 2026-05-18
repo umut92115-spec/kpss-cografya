@@ -1,24 +1,24 @@
-import React from 'react';
-import { getKonu, getAllKonular, getKonuFaq } from '@/lib/getKonuData';
-import type { FAQ } from '@/types';
-import Link from 'next/link';
-import { Metadata } from 'next';
-import { notFound } from 'next/navigation';
-import { MDXRemote } from 'next-mdx-remote/rsc';
-import KonuOzetKarti from '@/components/KonuOzetKarti';
-import IcindekilerTablosu, { TocItem } from '@/components/IcindekilerTablosu';
-import KpssNotKutusu from '@/components/KpssNotKutusu';
-import fs from 'fs';
-import path from 'path';
-import matter from 'gray-matter';
-import JsonLd from '@/components/JsonLd';
-import IlgiliBaglantilar from '@/components/IlgiliBaglantilar';
-import GorselHafizaKarti from '@/components/GorselHafizaKarti';
-import SmartFAQ from '@/components/SmartFAQ';
-import StatCards from '@/components/StatCards';
+import React from "react";
+import { getKonu, getAllKonular, getKonuFaq } from "@/lib/getKonuData";
+import type { FAQ } from "@/types";
+import Link from "next/link";
+import { Metadata } from "next";
+import { notFound } from "next/navigation";
+import { MDXRemote } from "next-mdx-remote/rsc";
+import KonuOzetKarti from "@/components/KonuOzetKarti";
+import IcindekilerTablosu, { TocItem } from "@/components/IcindekilerTablosu";
+import KpssNotKutusu from "@/components/KpssNotKutusu";
+import fs from "fs";
+import path from "path";
+import matter from "gray-matter";
+import JsonLd from "@/components/JsonLd";
+import IlgiliBaglantilar from "@/components/IlgiliBaglantilar";
+import GorselHafizaKarti from "@/components/GorselHafizaKarti";
+import SmartFAQ from "@/components/SmartFAQ";
+import StatCards from "@/components/StatCards";
 
-import { linkKeywords, getNextPrevKonu } from '@/lib/linkUtils';
-import remarkGfm from 'remark-gfm';
+import { linkKeywords, getNextPrevKonu } from "@/lib/linkUtils";
+import remarkGfm from "remark-gfm";
 // MDX içinde kullanılabilecek özel bileşenler
 const mdxComponents = {
   KpssNot: KpssNotKutusu,
@@ -26,20 +26,38 @@ const mdxComponents = {
   StatCards: StatCards,
   // ... (rest of mdxComponents is same)
   h2: (props: React.HTMLAttributes<HTMLHeadingElement>) => {
-    const id = String(props.children).toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
-    return <h2 id={id} {...props} className="text-2xl font-bold text-gray-900 mt-10 mb-4 scroll-mt-24 pb-2 border-b-2 border-blue-100" />;
+    const id = String(props.children)
+      .toLowerCase()
+      .replace(/\s+/g, "-")
+      .replace(/[^a-z0-9-]/g, "");
+    return (
+      <h2
+        id={id}
+        {...props}
+        className="text-2xl font-bold text-gray-900 mt-10 mb-4 scroll-mt-24 pb-2 border-b-2 border-blue-100"
+      />
+    );
   },
   h3: (props: React.HTMLAttributes<HTMLHeadingElement>) => {
-    const id = String(props.children).toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
-    return <h3 id={id} {...props} className="text-xl font-semibold text-gray-800 mt-8 mb-4 scroll-mt-24 flex items-center gap-2" />;
+    const id = String(props.children)
+      .toLowerCase()
+      .replace(/\s+/g, "-")
+      .replace(/[^a-z0-9-]/g, "");
+    return (
+      <h3
+        id={id}
+        {...props}
+        className="text-xl font-semibold text-gray-800 mt-8 mb-4 scroll-mt-24 flex items-center gap-2"
+      />
+    );
   },
   img: ({ alt, ...props }: React.ImgHTMLAttributes<HTMLImageElement>) => (
     <span className="block my-10 group">
-      <img 
-        {...props} 
-        alt={alt || ''}
-        className="rounded-2xl border border-gray-200 shadow-xl w-full hover:shadow-2xl transition-shadow duration-300" 
-        loading="lazy" 
+      <img
+        {...props}
+        alt={alt || ""}
+        className="rounded-2xl border border-gray-200 shadow-xl w-full hover:shadow-2xl transition-shadow duration-300"
+        loading="lazy"
       />
       {alt && (
         <span className="block text-center text-sm text-gray-400 mt-3 italic font-medium">
@@ -53,41 +71,68 @@ const mdxComponents = {
       children?: React.ReactNode;
     }
     const children = props.children;
-    const textContent = Array.isArray(children) 
-      ? children.map(c => {
-          if (typeof c === 'string') return c;
-          if (React.isValidElement(c) && (c.props as PropsWithChildren).children) return String((c.props as PropsWithChildren).children);
-          return '';
-        }).join('')
-      : (typeof children === 'string' ? children : (React.isValidElement(children) && (children.props as PropsWithChildren).children ? String((children.props as PropsWithChildren).children) : ''));
+    const textContent = Array.isArray(children)
+      ? children
+          .map((c) => {
+            if (typeof c === "string") return c;
+            if (React.isValidElement(c) && (c.props as PropsWithChildren).children)
+              return String((c.props as PropsWithChildren).children);
+            return "";
+          })
+          .join("")
+      : typeof children === "string"
+        ? children
+        : React.isValidElement(children) && (children.props as PropsWithChildren).children
+          ? String((children.props as PropsWithChildren).children)
+          : "";
 
-    const match = String(textContent).match(/\[!(IMPORTANT|TIP|NOTE|WARNING|CAUTION|onemli|dikkat|ezber|soru|uyari)\]/i);
-    
+    const match = String(textContent).match(
+      /\[!(IMPORTANT|TIP|NOTE|WARNING|CAUTION|onemli|dikkat|ezber|soru|uyari)\]/i
+    );
+
     if (match) {
       const type = match[1].toLowerCase();
       const typeMap: Record<string, string> = {
-        important: 'onemli', note: 'onemli', tip: 'onemli',
-        warning: 'uyari', caution: 'dikkat',
-        onemli: 'onemli', dikkat: 'dikkat', ezber: 'ezber', soru: 'soru', uyari: 'uyari'
+        important: "onemli",
+        note: "onemli",
+        tip: "onemli",
+        warning: "uyari",
+        caution: "dikkat",
+        onemli: "onemli",
+        dikkat: "dikkat",
+        ezber: "ezber",
+        soru: "soru",
+        uyari: "uyari",
       };
-      
-      const kpssType = typeMap[type] || 'onemli';
+
+      const kpssType = typeMap[type] || "onemli";
       const renderChildren = Array.isArray(children) ? children : [children];
       const cleanedChildren = renderChildren.map((child, idx: number) => {
-        if (typeof child === 'string') {
-          return child.replace(/\[!.*?\]/, '').trim();
+        if (typeof child === "string") {
+          return child.replace(/\[!.*?\]/, "").trim();
         }
-        if (React.isValidElement(child) && (child.props as PropsWithChildren).children && typeof (child.props as PropsWithChildren).children === 'string') {
-          const newText = String((child.props as PropsWithChildren).children).replace(/\[!.*?\]/, '').trim();
+        if (
+          React.isValidElement(child) &&
+          (child.props as PropsWithChildren).children &&
+          typeof (child.props as PropsWithChildren).children === "string"
+        ) {
+          const newText = String((child.props as PropsWithChildren).children)
+            .replace(/\[!.*?\]/, "")
+            .trim();
           return <span key={idx}>{newText}</span>;
         }
         return child;
       });
 
-      return <KpssNotKutusu tip={kpssType as 'onemli'}>{cleanedChildren}</KpssNotKutusu>;
+      return <KpssNotKutusu tip={kpssType as "onemli"}>{cleanedChildren}</KpssNotKutusu>;
     }
-    
-    return <blockquote {...props} className="border-l-4 border-gray-200 pl-4 italic my-6 text-gray-700" />;
+
+    return (
+      <blockquote
+        {...props}
+        className="border-l-4 border-gray-200 pl-4 italic my-6 text-gray-700"
+      />
+    );
   },
   table: (props: React.HTMLAttributes<HTMLTableElement>) => (
     <div className="overflow-x-auto my-10 rounded-2xl border border-gray-200 shadow-premium bg-white">
@@ -101,43 +146,63 @@ const mdxComponents = {
     <th {...props} className="px-6 py-4 font-bold text-left uppercase tracking-wider text-[11px]" />
   ),
   tr: (props: React.HTMLAttributes<HTMLTableRowElement>) => (
-    <tr {...props} className="border-b border-gray-50 last:border-0 hover:bg-academic-gri/50 transition-colors group" />
+    <tr
+      {...props}
+      className="border-b border-gray-50 last:border-0 hover:bg-academic-gri/50 transition-colors group"
+    />
   ),
   td: (props: React.HTMLAttributes<HTMLTableCellElement>) => (
-    <td {...props} className="px-6 py-4 text-gray-700 leading-relaxed first:border-l-4 first:border-[#4B7BA7] group-hover:bg-gray-50/80 transition-colors" />
+    <td
+      {...props}
+      className="px-6 py-4 text-gray-700 leading-relaxed first:border-l-4 first:border-[#4B7BA7] group-hover:bg-gray-50/80 transition-colors"
+    />
   ),
 };
 
 async function getMdxContent(slug: string) {
-  const filePath = path.join(process.cwd(), 'content', 'konu', `${slug}.mdx`);
+  const filePath = path.join(process.cwd(), "content", "konu", `${slug}.mdx`);
   if (!fs.existsSync(filePath)) return null;
-  const raw = fs.readFileSync(filePath, 'utf8');
+  const raw = fs.readFileSync(filePath, "utf8");
   const { content, data } = matter(raw);
   return { content, frontmatter: data };
 }
 
 // Başlıkları parse ederek ToC oluştur
 function parseToc(content: string, faqs: FAQ[]): TocItem[] {
-  const lines = content.split('\n');
+  const lines = content.split("\n");
   const items: TocItem[] = [];
   for (const line of lines) {
     const h2 = line.match(/^## (.+)/);
     const h3 = line.match(/^### (.+)/);
     if (h2) {
       const text = h2[1];
-      if (text.includes('Sık Sorulan Sorular') || text.includes('SSS')) continue; // MDX içindeki SSS başlığını ToC'ye ekleme
-      items.push({ id: text.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, ''), text, level: 2 });
+      if (text.includes("Sık Sorulan Sorular") || text.includes("SSS")) continue; // MDX içindeki SSS başlığını ToC'ye ekleme
+      items.push({
+        id: text
+          .toLowerCase()
+          .replace(/\s+/g, "-")
+          .replace(/[^a-z0-9-]/g, ""),
+        text,
+        level: 2,
+      });
     } else if (h3) {
       const text = h3[1];
-      items.push({ id: text.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, ''), text, level: 3 });
+      items.push({
+        id: text
+          .toLowerCase()
+          .replace(/\s+/g, "-")
+          .replace(/[^a-z0-9-]/g, ""),
+        text,
+        level: 3,
+      });
     }
   }
-  
+
   // Eğer FAQ varsa ToC sonuna ekle
   if (faqs && faqs.length > 0) {
-    items.push({ id: 'faq', text: 'Sık Sorulan Sorular', level: 2 });
+    items.push({ id: "faq", text: "Sık Sorulan Sorular", level: 2 });
   }
-  
+
   return items;
 }
 
@@ -146,7 +211,11 @@ export async function generateStaticParams() {
   return konular.map((k) => ({ slug: k.slug }));
 }
 
-export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
+export async function generateMetadata({
+  params,
+}: {
+  params: { slug: string };
+}): Promise<Metadata> {
   const konu = getKonu(params.slug);
   const mdx = await getMdxContent(params.slug);
   if (!konu) return {};
@@ -159,7 +228,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
         `kpss ${konu.baslik.toLowerCase()}`,
         `${konu.kisa_baslik.toLowerCase()} konu anlatımı`,
         `türkiye ${konu.baslik.toLowerCase()}`,
-        'kpss coğrafya',
+        "kpss coğrafya",
       ];
   return {
     title,
@@ -172,20 +241,27 @@ export async function generateMetadata({ params }: { params: { slug: string } })
       title,
       description,
       url: `https://kpsscografya.com.tr/konu/${konu.slug}`,
-      siteName: 'kpsscografya.com.tr',
-      locale: 'tr_TR',
-      type: 'article',
-      images: [{ url: `/images/konu/${params.slug}.png`, width: 1200, height: 630, alt: `${konu.baslik} Konu Görseli` }],
+      siteName: "kpsscografya.com.tr",
+      locale: "tr_TR",
+      type: "article",
+      images: [
+        {
+          url: `/images/konu/${params.slug}.png`,
+          width: 1200,
+          height: 630,
+          alt: `${konu.baslik} Konu Görseli`,
+        },
+      ],
     },
     twitter: {
-      card: 'summary_large_image',
+      card: "summary_large_image",
       title,
       description,
       images: [`/images/konu/${params.slug}.png`],
     },
     other: {
-      'geo.region': 'TR',
-      'geo.placename': 'Türkiye',
+      "geo.region": "TR",
+      "geo.placename": "Türkiye",
     },
   };
 }
@@ -200,8 +276,8 @@ export default async function KonuPage({ params }: { params: { slug: string } })
   const tumKonular = getAllKonular();
   const { prev, next } = getNextPrevKonu(params.slug);
   const tocItems = mdx ? parseToc(mdx.content, faqs) : [];
-  
-  const linkedContent = mdx ? linkKeywords(mdx.content, params.slug) : '';
+
+  const linkedContent = mdx ? linkKeywords(mdx.content, params.slug) : "";
   const metaDesc = mdx?.frontmatter?.description || konu.aciklama;
 
   return (
@@ -218,21 +294,36 @@ export default async function KonuPage({ params }: { params: { slug: string } })
           provider: {
             "@type": "EducationalOrganization",
             name: "kpsscografya.com.tr",
-            url: "https://kpsscografya.com.tr"
-          }
+            url: "https://kpsscografya.com.tr",
+          },
         }}
       />
       <JsonLd
         tip="BreadcrumbList"
         veri={{
           itemListElement: [
-            { "@type": "ListItem", position: 1, name: "Ana Sayfa", item: "https://kpsscografya.com.tr" },
-            { "@type": "ListItem", position: 2, name: "Konular", item: "https://kpsscografya.com.tr/konu" },
-            { "@type": "ListItem", position: 3, name: konu.baslik, item: `https://kpsscografya.com.tr/konu/${konu.slug}` },
-          ]
+            {
+              "@type": "ListItem",
+              position: 1,
+              name: "Ana Sayfa",
+              item: "https://kpsscografya.com.tr",
+            },
+            {
+              "@type": "ListItem",
+              position: 2,
+              name: "Konular",
+              item: "https://kpsscografya.com.tr/konu",
+            },
+            {
+              "@type": "ListItem",
+              position: 3,
+              name: konu.baslik,
+              item: `https://kpsscografya.com.tr/konu/${konu.slug}`,
+            },
+          ],
         }}
       />
-      
+
       {faqs && faqs.length > 0 && (
         <JsonLd
           tip="FAQPage"
@@ -244,13 +335,13 @@ export default async function KonuPage({ params }: { params: { slug: string } })
                 name: f.q,
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: f.a
-                }
-              }))
+                  text: f.a,
+                },
+              })),
           }}
         />
       )}
-      
+
       <JsonLd
         tip="DiscussionForumPosting"
         veri={{
@@ -259,10 +350,10 @@ export default async function KonuPage({ params }: { params: { slug: string } })
           author: {
             "@type": "Organization",
             name: "kpsscografya.com.tr",
-            url: "https://kpsscografya.com.tr"
+            url: "https://kpsscografya.com.tr",
           },
           datePublished: "2026-05-15T08:00:00+03:00",
-          dateModified: "2026-05-17T08:00:00+03:00"
+          dateModified: "2026-05-17T08:00:00+03:00",
         }}
       />
 
@@ -278,13 +369,20 @@ export default async function KonuPage({ params }: { params: { slug: string } })
             </div>
             <h2 className="text-3xl font-black text-gray-900 mb-4">{konu.baslik} Konu Özeti</h2>
             <p className="text-gray-600 leading-relaxed mb-6">
-              Bu konuyla ilgili en kritik verileri, sınavda çıkma ihtimali yüksek noktaları ve görsel haritaları aşağıda detaylıca inceleyebilirsin.
+              Bu konuyla ilgili en kritik verileri, sınavda çıkma ihtimali yüksek noktaları ve
+              görsel haritaları aşağıda detaylıca inceleyebilirsin.
             </p>
             <div className="flex flex-wrap gap-3">
-              <Link href={`/harita/${konu.slug}`} className="bg-blue-600 text-white font-bold py-3 px-6 rounded-xl hover:bg-blue-700 transition-colors shadow-lg shadow-blue-200">
+              <Link
+                href={`/harita/${konu.slug}`}
+                className="bg-blue-600 text-white font-bold py-3 px-6 rounded-xl hover:bg-blue-700 transition-colors shadow-lg shadow-blue-200"
+              >
                 🗺️ Haritada İncele
               </Link>
-              <Link href={`/quiz/${konu.slug}`} className="bg-gray-900 text-white font-bold py-3 px-6 rounded-xl hover:bg-gray-800 transition-colors">
+              <Link
+                href={`/quiz/${konu.slug}`}
+                className="bg-gray-900 text-white font-bold py-3 px-6 rounded-xl hover:bg-gray-800 transition-colors"
+              >
                 📝 Hemen Test Çöz
               </Link>
             </div>
@@ -300,8 +398,8 @@ export default async function KonuPage({ params }: { params: { slug: string } })
         {/* Orta: MDX İçeriği */}
         <article className="flex-1 min-w-0 prose prose-gray max-w-none prose-headings:scroll-mt-24">
           {mdx ? (
-            <MDXRemote 
-              source={linkedContent} 
+            <MDXRemote
+              source={linkedContent}
               components={mdxComponents as any}
               options={{
                 mdxOptions: {
@@ -325,7 +423,9 @@ export default async function KonuPage({ params }: { params: { slug: string } })
                 </span>
                 <div>
                   <h2 className="text-3xl font-black text-gray-900 mb-1">Sık Sorulan Sorular</h2>
-                  <p className="text-gray-500 text-sm">Konu hakkında en çok merak edilen ve sınavda çıkabilecek sorular.</p>
+                  <p className="text-gray-500 text-sm">
+                    Konu hakkında en çok merak edilen ve sınavda çıkabilecek sorular.
+                  </p>
                 </div>
               </div>
               <SmartFAQ items={faqs} />
@@ -337,22 +437,26 @@ export default async function KonuPage({ params }: { params: { slug: string } })
           {/* Navigasyon */}
           <div className="mt-12 flex flex-col sm:flex-row gap-4 border-t border-gray-100 pt-8">
             {prev && (
-              <Link 
+              <Link
                 href={`/konu/${prev.slug}`}
                 className="flex-1 p-4 bg-gray-50 rounded-2xl border border-gray-100 hover:border-blue-200 hover:bg-blue-50 transition-all group"
               >
-                <span className="text-[10px] text-gray-400 font-bold uppercase tracking-wider block mb-1">Önceki Konu</span>
+                <span className="text-[10px] text-gray-400 font-bold uppercase tracking-wider block mb-1">
+                  Önceki Konu
+                </span>
                 <span className="text-gray-900 font-bold flex items-center gap-2 group-hover:text-blue-700 transition-colors">
                   ← {prev.baslik}
                 </span>
               </Link>
             )}
             {next && (
-              <Link 
+              <Link
                 href={`/konu/${next.slug}`}
                 className="flex-1 p-4 bg-gray-50 rounded-2xl border border-gray-100 hover:border-blue-200 hover:bg-blue-50 transition-all group text-right"
               >
-                <span className="text-[10px] text-gray-400 font-bold uppercase tracking-wider block mb-1">Sıradaki Konu</span>
+                <span className="text-[10px] text-gray-400 font-bold uppercase tracking-wider block mb-1">
+                  Sıradaki Konu
+                </span>
                 <span className="text-gray-900 font-bold flex items-center gap-2 justify-end group-hover:text-blue-700 transition-colors">
                   {next.baslik} →
                 </span>
@@ -370,13 +474,13 @@ export default async function KonuPage({ params }: { params: { slug: string } })
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
                 {[
-                  { ad: 'Marmara', url: 'marmarabolgesi' },
-                  { ad: 'Ege', url: 'egebolgesi' },
-                  { ad: 'Akdeniz', url: 'akdenizbolgesi' },
-                  { ad: 'İç Anadolu', url: 'ic-anadolubolgesi' },
-                  { ad: 'Karadeniz', url: 'karadenizbolgesi' },
-                  { ad: 'Doğu Anadolu', url: 'dogu-anadolubolgesi' },
-                  { ad: 'Güneydoğu Anadolu', url: 'guneydogu-anadolubolgesi' },
+                  { ad: "Marmara", url: "marmarabolgesi" },
+                  { ad: "Ege", url: "egebolgesi" },
+                  { ad: "Akdeniz", url: "akdenizbolgesi" },
+                  { ad: "İç Anadolu", url: "ic-anadolubolgesi" },
+                  { ad: "Karadeniz", url: "karadenizbolgesi" },
+                  { ad: "Doğu Anadolu", url: "dogu-anadolubolgesi" },
+                  { ad: "Güneydoğu Anadolu", url: "guneydogu-anadolubolgesi" },
                 ].map((b) => (
                   <Link
                     key={b.url}
@@ -384,7 +488,9 @@ export default async function KonuPage({ params }: { params: { slug: string } })
                     className="flex items-center justify-between p-4 bg-white/10 hover:bg-white/20 border border-white/10 rounded-2xl transition-all group backdrop-blur-sm"
                   >
                     <span className="font-bold text-white">{b.ad} Analizi</span>
-                    <span className="text-blue-300 group-hover:translate-x-1 transition-transform">→</span>
+                    <span className="text-blue-300 group-hover:translate-x-1 transition-transform">
+                      →
+                    </span>
                   </Link>
                 ))}
               </div>

@@ -31,7 +31,7 @@ export interface FAQ {
 export interface Section {
   h2: string;
   content: string;
-  type: 'text' | 'table' | 'map' | 'list' | 'vurgu';
+  type: "text" | "table" | "map" | "list" | "vurgu";
   /** Tablo verisi: 2D array (ilk satır header) veya object array */
   data?: string[][] | Record<string, string | number>[] | string;
 }

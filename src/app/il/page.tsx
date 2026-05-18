@@ -1,26 +1,26 @@
-import { Metadata } from 'next';
-import Link from 'next/link';
-import { getAllIller, bolgeler } from '@/lib/getIlData';
-import { Il } from '@/types';
+import { Metadata } from "next";
+import Link from "next/link";
+import { getAllIller, bolgeler } from "@/lib/getIlData";
+import { Il } from "@/types";
 
 export const metadata: Metadata = {
   title: "Türkiye İlleri KPSS Coğrafya — 81 İl | kpsscografya.com.tr",
   description:
     "Türkiye'nin tüm 81 iline ait KPSS coğrafya bilgileri: madenler, tarım, iklim, nüfus ve sanayi verileri. Bölgeye göre gruplanmış kapsamlı rehber.",
   alternates: {
-    canonical: 'https://kpsscografya.com.tr/il',
+    canonical: "https://kpsscografya.com.tr/il",
   },
 };
 
 // Bölge renk ve ikon eşleştirmesi
 const bolgeAyarlar: Record<string, { renk: string; bg: string; icon: string }> = {
-  Marmara:              { renk: 'text-blue-700',   bg: 'bg-blue-50 border-blue-200',   icon: '🌊' },
-  Ege:                  { renk: 'text-sky-700',    bg: 'bg-sky-50 border-sky-200',     icon: '🏖️' },
-  Akdeniz:              { renk: 'text-orange-700', bg: 'bg-orange-50 border-orange-200', icon: '☀️' },
-  'İç Anadolu':         { renk: 'text-yellow-700', bg: 'bg-yellow-50 border-yellow-200', icon: '🌾' },
-  Karadeniz:            { renk: 'text-green-700',  bg: 'bg-green-50 border-green-200', icon: '🌲' },
-  'Doğu Anadolu':       { renk: 'text-purple-700', bg: 'bg-purple-50 border-purple-200', icon: '⛰️' },
-  'Güneydoğu Anadolu':  { renk: 'text-red-700',   bg: 'bg-red-50 border-red-200',     icon: '🏜️' },
+  Marmara: { renk: "text-blue-700", bg: "bg-blue-50 border-blue-200", icon: "🌊" },
+  Ege: { renk: "text-sky-700", bg: "bg-sky-50 border-sky-200", icon: "🏖️" },
+  Akdeniz: { renk: "text-orange-700", bg: "bg-orange-50 border-orange-200", icon: "☀️" },
+  "İç Anadolu": { renk: "text-yellow-700", bg: "bg-yellow-50 border-yellow-200", icon: "🌾" },
+  Karadeniz: { renk: "text-green-700", bg: "bg-green-50 border-green-200", icon: "🌲" },
+  "Doğu Anadolu": { renk: "text-purple-700", bg: "bg-purple-50 border-purple-200", icon: "⛰️" },
+  "Güneydoğu Anadolu": { renk: "text-red-700", bg: "bg-red-50 border-red-200", icon: "🏜️" },
 };
 
 export default function IllerPage() {
@@ -34,31 +34,32 @@ export default function IllerPage() {
   }
   // Her bölgeyi il adına göre sırala
   for (const bolge in bolgeMap) {
-    bolgeMap[bolge].sort((a, b) => a.ad.localeCompare(b.ad, 'tr'));
+    bolgeMap[bolge].sort((a, b) => a.ad.localeCompare(b.ad, "tr"));
   }
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-10">
       {/* Başlık */}
       <div className="mb-10 text-center">
-        <h1 className="text-4xl font-bold text-gray-900 mb-3">
-          Türkiye&apos;nin 81 İli
-        </h1>
+        <h1 className="text-4xl font-bold text-gray-900 mb-3">Türkiye&apos;nin 81 İli</h1>
         <p className="text-gray-500 text-lg max-w-2xl mx-auto">
-          İlgilendiğin ile tıkla ve KPSS coğrafya konularındaki bilgilerine ulaş.
-          Her sayfa harita, maden, tarım, iklim ve quiz içerir.
+          İlgilendiğin ile tıkla ve KPSS coğrafya konularındaki bilgilerine ulaş. Her sayfa harita,
+          maden, tarım, iklim ve quiz içerir.
         </p>
       </div>
 
       {/* Hızlı istatistik */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
         {[
-          { etiket: 'Toplam İl', deger: '81' },
-          { etiket: 'Bölge', deger: '7' },
-          { etiket: 'KPSS Konusu', deger: '10' },
-          { etiket: 'İnteraktif Harita', deger: '10' },
-        ].map(stat => (
-          <div key={stat.etiket} className="text-center bg-white border border-gray-200 rounded-xl py-4 shadow-sm">
+          { etiket: "Toplam İl", deger: "81" },
+          { etiket: "Bölge", deger: "7" },
+          { etiket: "KPSS Konusu", deger: "10" },
+          { etiket: "İnteraktif Harita", deger: "10" },
+        ].map((stat) => (
+          <div
+            key={stat.etiket}
+            className="text-center bg-white border border-gray-200 rounded-xl py-4 shadow-sm"
+          >
             <p className="text-3xl font-bold text-blue-600">{stat.deger}</p>
             <p className="text-xs text-gray-500 mt-1 uppercase tracking-wider">{stat.etiket}</p>
           </div>
@@ -70,7 +71,11 @@ export default function IllerPage() {
         {bolgeler.map((b) => {
           const regionName = b.ad;
           const regionIller = bolgeMap[regionName] ?? [];
-          const ayar = bolgeAyarlar[regionName] ?? { renk: 'text-gray-700', bg: 'bg-gray-50 border-gray-200', icon: '📍' };
+          const ayar = bolgeAyarlar[regionName] ?? {
+            renk: "text-gray-700",
+            bg: "bg-gray-50 border-gray-200",
+            icon: "📍",
+          };
 
           return (
             <section key={b.slug} id={b.slug}>
@@ -98,7 +103,9 @@ export default function IllerPage() {
                     className="group flex flex-col bg-white border border-gray-200 rounded-xl p-3 shadow-sm hover:shadow-md hover:border-blue-300 transition-all"
                   >
                     <div className="flex items-start justify-between mb-2">
-                      <span className="text-xs font-bold text-gray-400 leading-none">{il.plaka}</span>
+                      <span className="text-xs font-bold text-gray-400 leading-none">
+                        {il.plaka}
+                      </span>
                     </div>
                     <p className="font-semibold text-gray-800 text-sm group-hover:text-blue-600 transition-colors leading-tight">
                       {il.ad}

@@ -1,9 +1,8 @@
-
-import { Metadata } from 'next';
+import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: 'Gizlilik Politikası — KPSS Coğrafya',
-  description: 'kpsscografya.com.tr gizlilik politikası ve veri güvenliği hakkında bilgilendirme.',
+  title: "Gizlilik Politikası — KPSS Coğrafya",
+  description: "kpsscografya.com.tr gizlilik politikası ve veri güvenliği hakkında bilgilendirme.",
 };
 
 export default function GizlilikPage() {
@@ -18,45 +17,56 @@ export default function GizlilikPage() {
             <section className="mb-10">
               <h2 className="text-2xl font-bold text-gray-900 mb-4">1. Veri Toplama</h2>
               <p className="text-gray-600 leading-relaxed">
-                kpsscografya.com.tr, platformu kullanırken kullanıcılarından herhangi bir üyelik veya kişisel veri talep etmez. 
-                Platformumuz tamamen açık kaynaklı ve ücretsiz bir eğitim projesidir.
+                kpsscografya.com.tr, platformu kullanırken kullanıcılarından herhangi bir üyelik
+                veya kişisel veri talep etmez. Platformumuz tamamen açık kaynaklı ve ücretsiz bir
+                eğitim projesidir.
               </p>
             </section>
 
             <section className="mb-10">
               <h2 className="text-2xl font-bold text-gray-900 mb-4">2. Çerezler (Cookies)</h2>
               <p className="text-gray-600 leading-relaxed">
-                Platform deneyiminizi iyileştirmek, kullanım istatistiklerini analiz etmek ve tercihlerini hatırlamak (örneğin karanlık mod tercihi veya quiz skorları) 
-                amacıyla tarayıcı çerezleri kullanılabilir. Bu çerezler kişisel kimlik bilgilerini içermez.
+                Platform deneyiminizi iyileştirmek, kullanım istatistiklerini analiz etmek ve
+                tercihlerini hatırlamak (örneğin karanlık mod tercihi veya quiz skorları) amacıyla
+                tarayıcı çerezleri kullanılabilir. Bu çerezler kişisel kimlik bilgilerini içermez.
               </p>
             </section>
 
             <section className="mb-10">
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">3. Üçüncü Taraf Bağlantıları</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">
+                3. Üçüncü Taraf Bağlantıları
+              </h2>
               <p className="text-gray-600 leading-relaxed">
-                Sitemiz içerisinde diğer web sitelerine (örneğin ÖSYM, MEB veya haber siteleri) bağlantılar bulunabilir. 
-                Bu sitelerin gizlilik politikalarından kpsscografya.com.tr sorumlu tutulamaz.
+                Sitemiz içerisinde diğer web sitelerine (örneğin ÖSYM, MEB veya haber siteleri)
+                bağlantılar bulunabilir. Bu sitelerin gizlilik politikalarından kpsscografya.com.tr
+                sorumlu tutulamaz.
               </p>
             </section>
 
             <section className="mb-10">
               <h2 className="text-2xl font-bold text-gray-900 mb-4">4. Veri Güvenliği</h2>
               <p className="text-gray-600 leading-relaxed">
-                Toplanan anonim trafik verileri, güvenli sunucularımızda saklanmakta ve sadece site performansını artırmak amacıyla kullanılmaktadır. 
-                Verileriniz hiçbir şekilde üçüncü şahıs veya kurumlarla paylaşılmaz veya satılmaz.
+                Toplanan anonim trafik verileri, güvenli sunucularımızda saklanmakta ve sadece site
+                performansını artırmak amacıyla kullanılmaktadır. Verileriniz hiçbir şekilde üçüncü
+                şahıs veya kurumlarla paylaşılmaz veya satılmaz.
               </p>
             </section>
 
             <section className="mb-10">
               <h2 className="text-2xl font-bold text-gray-900 mb-4">5. İletişim</h2>
               <p className="text-gray-600 leading-relaxed">
-                Gizlilik politikamız ile ilgili sorularınız için bizimle <a href="/iletisim" className="text-blue-600 hover:underline">iletişim sayfası</a> üzerinden irtibata geçebilirsiniz.
+                Gizlilik politikamız ile ilgili sorularınız için bizimle{" "}
+                <a href="/iletisim" className="text-blue-600 hover:underline">
+                  iletişim sayfası
+                </a>{" "}
+                üzerinden irtibata geçebilirsiniz.
               </p>
             </section>
 
             <div className="mt-12 pt-8 border-t border-gray-100 text-center">
               <p className="text-gray-400 text-sm">
-                Bu platform, eğitimde fırsat eşitliği ilkesiyle tüm KPSS adaylarına ücretsiz sunulmaktadır.
+                Bu platform, eğitimde fırsat eşitliği ilkesiyle tüm KPSS adaylarına ücretsiz
+                sunulmaktadır.
               </p>
             </div>
           </div>

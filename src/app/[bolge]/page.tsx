@@ -1,15 +1,19 @@
-import { Metadata } from 'next';
-import Link from 'next/link';
-import { notFound } from 'next/navigation';
-import { bolgeler, getBolgeByUrl, getIllerByBolge, getBolgeVerileri } from '@/lib/getIlData';
-import JsonLd from '@/components/JsonLd';
-import FaqAccordion from '@/components/FaqAccordion';
+import { Metadata } from "next";
+import Link from "next/link";
+import { notFound } from "next/navigation";
+import { bolgeler, getBolgeByUrl, getIllerByBolge, getBolgeVerileri } from "@/lib/getIlData";
+import JsonLd from "@/components/JsonLd";
+import FaqAccordion from "@/components/FaqAccordion";
 
 export async function generateStaticParams() {
   return bolgeler.map((b) => ({ bolge: b.url }));
 }
 
-export async function generateMetadata({ params }: { params: { bolge: string } }): Promise<Metadata> {
+export async function generateMetadata({
+  params,
+}: {
+  params: { bolge: string };
+}): Promise<Metadata> {
   const bolge = getBolgeByUrl(params.bolge);
   if (!bolge) return {};
   const description = `${bolge.ad} Bölgesi'nin fiziki, beşeri ve ekonomik coğrafya özellikleri. 2026 KPSS müfredatına uygun akademik analizler.`;
@@ -21,7 +25,7 @@ export async function generateMetadata({ params }: { params: { bolge: string } }
       `${bolge.ad} bölgesi kpss`,
       `${bolge.ad} illeri`,
       `${bolge.ad} bölgesi özellikleri`,
-      'kpss bölgeler coğrafya',
+      "kpss bölgeler coğrafya",
     ],
     alternates: {
       canonical: `https://kpsscografya.com.tr/${params.bolge}`,
@@ -30,20 +34,27 @@ export async function generateMetadata({ params }: { params: { bolge: string } }
       title: `${bolge.ad} Bölgesi — KPSS Coğrafya`,
       description,
       url: `https://kpsscografya.com.tr/${params.bolge}`,
-      siteName: 'kpsscografya.com.tr',
-      locale: 'tr_TR',
-      type: 'article',
-      images: [{ url: `/images/bolgeler/${bolge.slug}.png`, width: 1200, height: 630, alt: `${bolge.ad} Bölgesi Haritası` }],
+      siteName: "kpsscografya.com.tr",
+      locale: "tr_TR",
+      type: "article",
+      images: [
+        {
+          url: `/images/bolgeler/${bolge.slug}.png`,
+          width: 1200,
+          height: 630,
+          alt: `${bolge.ad} Bölgesi Haritası`,
+        },
+      ],
     },
     twitter: {
-      card: 'summary_large_image',
+      card: "summary_large_image",
       title: `${bolge.ad} Bölgesi — KPSS Coğrafya`,
       description,
       images: [`/images/bolgeler/${bolge.slug}.png`],
     },
     other: {
-      'geo.region': 'TR',
-      'geo.placename': `${bolge.ad} Bölgesi, Türkiye`,
+      "geo.region": "TR",
+      "geo.placename": `${bolge.ad} Bölgesi, Türkiye`,
     },
   };
 }
@@ -57,34 +68,34 @@ export default function BolgePage({ params }: { params: { bolge: string } }) {
 
   const toplamNufus = iller.reduce((acc, curr) => acc + curr.nufus_2023, 0);
   const toplamAlan = iller.reduce((acc, curr) => acc + curr.yuzolcumu_km2, 0);
-  const nufusFormatli = new Intl.NumberFormat('tr-TR').format(toplamNufus);
-  const alanFormatli = new Intl.NumberFormat('tr-TR').format(toplamAlan);
+  const nufusFormatli = new Intl.NumberFormat("tr-TR").format(toplamNufus);
+  const alanFormatli = new Intl.NumberFormat("tr-TR").format(toplamAlan);
 
   // Elimizde kesin olan görsellerin haritası
   const mevcutGorseller: Record<string, string[]> = {
-    'akdeniz': ['iklim_bitki', 'tarim_hayvancilik'],
-    'ege': ['tarim_hayvancilik', 'turizm'],
-    'marmara': ['sanayi_ticaret', 'ulasim_sinir'],
-    'karadeniz': ['su_ortusu'],
-    'ic-anadolu': ['yer_sekilleri'],
-    'dogu-anadolu': ['maden_enerji'],
-    'guneydogu-anadolu': ['kalkinma']
+    akdeniz: ["iklim_bitki", "tarim_hayvancilik"],
+    ege: ["tarim_hayvancilik", "turizm"],
+    marmara: ["sanayi_ticaret", "ulasim_sinir"],
+    karadeniz: ["su_ortusu"],
+    "ic-anadolu": ["yer_sekilleri"],
+    "dogu-anadolu": ["maden_enerji"],
+    "guneydogu-anadolu": ["kalkinma"],
   };
 
   const bolumler = [
-    { id: 'konum', baslik: 'Coğrafi Konum', icon: '🌍' },
-    { id: 'yer_sekilleri', baslik: 'Yer Şekilleri', icon: '⛰️' },
-    { id: 'jeoloji', baslik: 'Jeolojik Yapı', icon: '🧬' },
-    { id: 'su_ortusu', baslik: 'Su Örtüsü', icon: '🌊' },
-    { id: 'iklim_bitki', baslik: 'İklim ve Bitki Örtüsü', icon: '☀️' },
-    { id: 'toprak_cevre', baslik: 'Toprak ve Çevre', icon: '🌱' },
-    { id: 'nufus', baslik: 'Nüfus ve Yerleşme', icon: '👥' },
-    { id: 'tarim_hayvancilik', baslik: 'Tarım ve Hayvancılık', icon: '🌾' },
-    { id: 'maden_enerji', baslik: 'Maden ve Enerji', icon: '⛏️' },
-    { id: 'sanayi_ticaret', baslik: 'Sanayi ve Ticaret', icon: '🏭' },
-    { id: 'ulasim_sinir', baslik: 'Ulaşım ve Sınır', icon: '🛤️' },
-    { id: 'turizm', baslik: 'Turizm Potansiyeli', icon: '🏖️' },
-    { id: 'kalkinma', baslik: 'Kalkınma Projeleri', icon: '🏗️' },
+    { id: "konum", baslik: "Coğrafi Konum", icon: "🌍" },
+    { id: "yer_sekilleri", baslik: "Yer Şekilleri", icon: "⛰️" },
+    { id: "jeoloji", baslik: "Jeolojik Yapı", icon: "🧬" },
+    { id: "su_ortusu", baslik: "Su Örtüsü", icon: "🌊" },
+    { id: "iklim_bitki", baslik: "İklim ve Bitki Örtüsü", icon: "☀️" },
+    { id: "toprak_cevre", baslik: "Toprak ve Çevre", icon: "🌱" },
+    { id: "nufus", baslik: "Nüfus ve Yerleşme", icon: "👥" },
+    { id: "tarim_hayvancilik", baslik: "Tarım ve Hayvancılık", icon: "🌾" },
+    { id: "maden_enerji", baslik: "Maden ve Enerji", icon: "⛏️" },
+    { id: "sanayi_ticaret", baslik: "Sanayi ve Ticaret", icon: "🏭" },
+    { id: "ulasim_sinir", baslik: "Ulaşım ve Sınır", icon: "🛤️" },
+    { id: "turizm", baslik: "Turizm Potansiyeli", icon: "🏖️" },
+    { id: "kalkinma", baslik: "Kalkınma Projeleri", icon: "🏗️" },
   ];
 
   // FAQ verisi için normalize et (bolge-verileri.json'da soru/cevap veya q/a gelir)
@@ -101,9 +112,9 @@ export default function BolgePage({ params }: { params: { bolge: string } }) {
           tip="FAQPage"
           veri={{
             mainEntity: bolgeFaqs.map((f: { q: string; a: string }) => ({
-              '@type': 'Question',
+              "@type": "Question",
               name: f.q,
-              acceptedAnswer: { '@type': 'Answer', text: f.a },
+              acceptedAnswer: { "@type": "Answer", text: f.a },
             })),
           }}
         />
@@ -116,15 +127,17 @@ export default function BolgePage({ params }: { params: { bolge: string } }) {
           author: {
             "@type": "Organization",
             name: "kpsscografya.com.tr",
-            url: "https://kpsscografya.com.tr"
+            url: "https://kpsscografya.com.tr",
           },
           datePublished: "2026-05-15T08:00:00+03:00",
-          dateModified: "2026-05-17T08:00:00+03:00"
+          dateModified: "2026-05-17T08:00:00+03:00",
         }}
       />
       <div className="max-w-7xl mx-auto px-4 py-8">
         <nav className="mb-6 text-sm text-gray-500 border-b border-gray-200 pb-4">
-          <Link href="/" className="hover:underline">Ana Sayfa</Link>
+          <Link href="/" className="hover:underline">
+            Ana Sayfa
+          </Link>
           <span className="mx-2">/</span>
           <span className="text-gray-900 font-bold">{bolge.ad} Bölgesi</span>
         </nav>
@@ -138,7 +151,8 @@ export default function BolgePage({ params }: { params: { bolge: string } }) {
 
               <div className="prose prose-blue max-w-none mb-12">
                 <p className="text-lg leading-relaxed text-gray-700 italic">
-                  {veriler?.konum?.split('.')[0]}. {bolge.ad} Bölgesi, Türkiye&apos;nin stratejik açıdan en önemli coğrafi alanlarından biridir.
+                  {veriler?.konum?.split(".")[0]}. {bolge.ad} Bölgesi, Türkiye&apos;nin stratejik
+                  açıdan en önemli coğrafi alanlarından biridir.
                 </p>
               </div>
 
@@ -146,24 +160,35 @@ export default function BolgePage({ params }: { params: { bolge: string } }) {
                 <div className="bg-amber-50 border-l-4 border-amber-500 p-6 my-8 rounded-r-lg">
                   <div className="flex items-center gap-3 mb-2">
                     <span className="text-xl">⭐</span>
-                    <h4 className="font-black text-amber-900 uppercase tracking-widest text-xs">KPSS Stratejik Not</h4>
+                    <h4 className="font-black text-amber-900 uppercase tracking-widest text-xs">
+                      KPSS Stratejik Not
+                    </h4>
                   </div>
                   <p className="text-amber-900 font-bold text-lg">{veriler.kpss_altin_not}</p>
                 </div>
               )}
 
               <div className="bg-gray-50 rounded-xl p-6 mb-12 border border-gray-100">
-                <h2 className="text-sm font-black uppercase tracking-widest text-gray-400 mb-4">İçindekiler</h2>
+                <h2 className="text-sm font-black uppercase tracking-widest text-gray-400 mb-4">
+                  İçindekiler
+                </h2>
                 <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-2">
                   {bolumler.map((b, idx) => (
                     <li key={b.id} className="text-sm">
-                      <a href={`#${b.id}`} className="text-blue-600 hover:underline flex items-center gap-2">
+                      <a
+                        href={`#${b.id}`}
+                        className="text-blue-600 hover:underline flex items-center gap-2"
+                      >
                         <span className="text-gray-300 w-4 font-mono">{idx + 1}.</span>
                         {b.baslik}
                       </a>
                     </li>
                   ))}
-                  <li className="text-sm"><a href="#sss" className="text-blue-600 hover:underline">Sıkça Sorulan Sorular</a></li>
+                  <li className="text-sm">
+                    <a href="#sss" className="text-blue-600 hover:underline">
+                      Sıkça Sorulan Sorular
+                    </a>
+                  </li>
                 </ul>
               </div>
 
@@ -174,20 +199,20 @@ export default function BolgePage({ params }: { params: { bolge: string } }) {
                       <span className="text-2xl">{b.icon}</span>
                       <h2 className="text-2xl font-black text-gray-900">{b.baslik}</h2>
                     </div>
-                    
+
                     <div className="flex flex-col gap-6">
                       <div className="text-gray-700 leading-relaxed text-base whitespace-pre-wrap">
                         {(() => {
                           const val = veriler?.[b.id as keyof typeof veriler];
-                          return typeof val === 'string' ? val : 'İçerik hazırlanıyor...';
+                          return typeof val === "string" ? val : "İçerik hazırlanıyor...";
                         })()}
                       </div>
 
                       {/* Sadece elimizde olan görselleri göster */}
                       {mevcutGorseller[bolge.slug]?.includes(b.id) && (
                         <div className="my-4 aspect-video rounded-xl bg-gray-100 overflow-hidden border border-gray-200">
-                          <img 
-                            src={`/images/bolgeler/${bolge.slug}-${b.id}.png`} 
+                          <img
+                            src={`/images/bolgeler/${bolge.slug}-${b.id}.png`}
                             alt={`${bolge.ad} ${b.baslik} Haritası`}
                             className="w-full h-full object-cover"
                           />
@@ -221,23 +246,52 @@ export default function BolgePage({ params }: { params: { bolge: string } }) {
               </div>
               <div className="p-2">
                 <div className="aspect-square rounded-lg bg-gray-100 mb-4 overflow-hidden border border-gray-100">
-                  <img src={`/images/bolgeler/${bolge.slug}.png`} alt={bolge.ad} className="w-full h-full object-cover" />
+                  <img
+                    src={`/images/bolgeler/${bolge.slug}.png`}
+                    alt={bolge.ad}
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 <table className="w-full text-xs border-collapse">
                   <tbody>
-                    <tr className="border-b border-gray-50"><th className="text-left py-3 px-2 bg-gray-50/50 w-1/3">Ülke</th><td className="py-3 px-2">🇹🇷 Türkiye</td></tr>
-                    <tr className="border-b border-gray-50"><th className="text-left py-3 px-2 bg-gray-50/50">Nüfus</th><td className="py-3 px-2 font-bold">{nufusFormatli}</td></tr>
-                    <tr className="border-b border-gray-50"><th className="text-left py-3 px-2 bg-gray-50/50">Yüzölçümü</th><td className="py-3 px-2">{alanFormatli} km²</td></tr>
-                    <tr className="border-b border-gray-50"><th className="text-left py-3 px-2 bg-gray-50/50">Şehir Sayısı</th><td className="py-3 px-2">{iller.length}</td></tr>
-                    <tr className="border-b border-gray-50"><th className="text-left py-3 px-2 bg-gray-50/50">En Büyük Şehir</th><td className="py-3 px-2 font-bold">{iller.sort((a,b) => b.nufus_2023-a.nufus_2023)[0]?.ad}</td></tr>
+                    <tr className="border-b border-gray-50">
+                      <th className="text-left py-3 px-2 bg-gray-50/50 w-1/3">Ülke</th>
+                      <td className="py-3 px-2">🇹🇷 Türkiye</td>
+                    </tr>
+                    <tr className="border-b border-gray-50">
+                      <th className="text-left py-3 px-2 bg-gray-50/50">Nüfus</th>
+                      <td className="py-3 px-2 font-bold">{nufusFormatli}</td>
+                    </tr>
+                    <tr className="border-b border-gray-50">
+                      <th className="text-left py-3 px-2 bg-gray-50/50">Yüzölçümü</th>
+                      <td className="py-3 px-2">{alanFormatli} km²</td>
+                    </tr>
+                    <tr className="border-b border-gray-50">
+                      <th className="text-left py-3 px-2 bg-gray-50/50">Şehir Sayısı</th>
+                      <td className="py-3 px-2">{iller.length}</td>
+                    </tr>
+                    <tr className="border-b border-gray-50">
+                      <th className="text-left py-3 px-2 bg-gray-50/50">En Büyük Şehir</th>
+                      <td className="py-3 px-2 font-bold">
+                        {iller.sort((a, b) => b.nufus_2023 - a.nufus_2023)[0]?.ad}
+                      </td>
+                    </tr>
                   </tbody>
                 </table>
               </div>
               <div className="p-4 bg-blue-50/30 border-t border-gray-100">
-                <h4 className="text-[10px] font-black uppercase text-blue-400 mb-3 tracking-widest">Bölge İlleri</h4>
+                <h4 className="text-[10px] font-black uppercase text-blue-400 mb-3 tracking-widest">
+                  Bölge İlleri
+                </h4>
                 <div className="flex flex-wrap gap-1.5">
-                  {iller.map(il => (
-                    <Link key={il.slug} href={`/${params.bolge}/il/${il.slug}`} className="text-[10px] bg-white border border-gray-200 px-2 py-1 rounded-md font-bold">{il.ad}</Link>
+                  {iller.map((il) => (
+                    <Link
+                      key={il.slug}
+                      href={`/${params.bolge}/il/${il.slug}`}
+                      className="text-[10px] bg-white border border-gray-200 px-2 py-1 rounded-md font-bold"
+                    >
+                      {il.ad}
+                    </Link>
                   ))}
                 </div>
               </div>

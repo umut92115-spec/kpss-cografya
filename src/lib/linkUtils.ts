@@ -1,19 +1,19 @@
-import { getAllKonular } from './getKonuData';
+import { getAllKonular } from "./getKonuData";
 
 const GLOSSARY_TERMS = [
-  { term: 'Alüvyon', slug: 'sozluk#alüvyon' },
-  { term: 'Bakı', slug: 'sozluk#bakı' },
-  { term: 'Delta', slug: 'sozluk#delta' },
-  { term: 'Falez', slug: 'sozluk#falez' },
-  { term: 'Hinterland', slug: 'sozluk#hinterland' },
-  { term: 'Mikroklima', slug: 'sozluk#mikroklima' },
-  { term: 'Obruk', slug: 'sozluk#obruk' },
-  { term: 'Terra Rossa', slug: 'sozluk#terra-rossa' },
-  { term: 'Tektonik', slug: 'sozluk#tektonik' },
+  { term: "Alüvyon", slug: "sozluk#alüvyon" },
+  { term: "Bakı", slug: "sozluk#bakı" },
+  { term: "Delta", slug: "sozluk#delta" },
+  { term: "Falez", slug: "sozluk#falez" },
+  { term: "Hinterland", slug: "sozluk#hinterland" },
+  { term: "Mikroklima", slug: "sozluk#mikroklima" },
+  { term: "Obruk", slug: "sozluk#obruk" },
+  { term: "Terra Rossa", slug: "sozluk#terra-rossa" },
+  { term: "Tektonik", slug: "sozluk#tektonik" },
 ];
 
 export function linkKeywords(content: string, currentSlug: string): string {
-  if (!content) return '';
+  if (!content) return "";
 
   const placeholders: string[] = [];
 
@@ -33,7 +33,7 @@ export function linkKeywords(content: string, currentSlug: string): string {
   // 3. Linkleme İşlemi (Sadece korumasız metin üzerinde)
   const konular = getAllKonular();
   const sortedKonular = [...konular]
-    .filter(k => k.slug !== currentSlug)
+    .filter((k) => k.slug !== currentSlug)
     .sort((a, b) => b.kisa_baslik.length - a.kisa_baslik.length);
 
   let result = protectedContent;
@@ -43,8 +43,8 @@ export function linkKeywords(content: string, currentSlug: string): string {
     const keyword = konu.kisa_baslik;
     // Negatif lookbehind/lookahead ile zaten linklenmiş veya placeholder içinde olanları koruyoruz
     // (Gerçi placeholder kullandığımız için çakışma ihtimali düşük)
-    const regex = new RegExp(`(?<![\\w\\[])${keyword}(?![\\w\\s]*\\]\\()`, 'gi');
-    
+    const regex = new RegExp(`(?<![\\w\\[])${keyword}(?![\\w\\s]*\\]\\()`, "gi");
+
     let found = false;
     result = result.replace(regex, (match) => {
       if (!found) {
@@ -57,7 +57,7 @@ export function linkKeywords(content: string, currentSlug: string): string {
 
   // Sözlük terimlerini linkle
   GLOSSARY_TERMS.forEach((item) => {
-    const regex = new RegExp(`(?<![\\w\\[])${item.term}(?![\\w\\s]*\\]\\()`, 'gi');
+    const regex = new RegExp(`(?<![\\w\\[])${item.term}(?![\\w\\s]*\\]\\()`, "gi");
     let found = false;
     result = result.replace(regex, (match) => {
       if (!found) {
@@ -80,10 +80,10 @@ export function linkKeywords(content: string, currentSlug: string): string {
 
 export function getNextPrevKonu(currentSlug: string) {
   const konular = getAllKonular();
-  const currentIndex = konular.findIndex(k => k.slug === currentSlug);
-  
+  const currentIndex = konular.findIndex((k) => k.slug === currentSlug);
+
   return {
     prev: currentIndex > 0 ? konular[currentIndex - 1] : null,
-    next: currentIndex < konular.length - 1 ? konular[currentIndex + 1] : null
+    next: currentIndex < konular.length - 1 ? konular[currentIndex + 1] : null,
   };
 }

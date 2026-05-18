@@ -1,9 +1,9 @@
-import { Metadata } from 'next';
-import Link from 'next/link';
-import { notFound } from 'next/navigation';
-import { getSeviye, seviyeler } from '@/lib/hazirlikConfig';
-import { getAllKonular } from '@/lib/getKonuData';
-import JsonLd from '@/components/JsonLd';
+import { Metadata } from "next";
+import Link from "next/link";
+import { notFound } from "next/navigation";
+import { getSeviye, seviyeler } from "@/lib/hazirlikConfig";
+import { getAllKonular } from "@/lib/getKonuData";
+import JsonLd from "@/components/JsonLd";
 
 export async function generateStaticParams() {
   return seviyeler.map((s) => ({ seviye: s.slug }));
@@ -27,24 +27,24 @@ export async function generateMetadata({
       title: s.seoTitle,
       description: s.seoDescription,
       url: `https://kpsscografya.com.tr/hazirlik/${s.slug}`,
-      siteName: 'kpsscografya.com.tr',
-      locale: 'tr_TR',
-      type: 'article',
-      images: ['/og-default.jpg'],
+      siteName: "kpsscografya.com.tr",
+      locale: "tr_TR",
+      type: "article",
+      images: ["/og-default.jpg"],
     },
     twitter: {
-      card: 'summary_large_image',
+      card: "summary_large_image",
       title: s.seoTitle,
-      images: ['/og-default.jpg'],
+      images: ["/og-default.jpg"],
     },
     other: {
-      'geo.region': 'TR',
-      'geo.placename': 'Türkiye',
-      'geo.position': '38.9637;35.2433',
-      'ICBM': '38.9637, 35.2433',
-      'revisit-after': '7 days',
-      'distribution': 'global',
-      'language': 'Turkish',
+      "geo.region": "TR",
+      "geo.placename": "Türkiye",
+      "geo.position": "38.9637;35.2433",
+      ICBM: "38.9637, 35.2433",
+      "revisit-after": "7 days",
+      distribution: "global",
+      language: "Turkish",
     },
   };
 }
@@ -52,9 +52,9 @@ export async function generateMetadata({
 // Soru dağılımı seviye verisinden dinamik olarak çekilir
 
 const oncelikRenk: Record<string, string> = {
-  Kritik: 'bg-red-100 text-red-700',
-  Önemli: 'bg-amber-100 text-amber-700',
-  Normal: 'bg-green-100 text-green-700',
+  Kritik: "bg-red-100 text-red-700",
+  Önemli: "bg-amber-100 text-amber-700",
+  Normal: "bg-green-100 text-green-700",
 };
 
 export default function SeviyePage({ params }: { params: { seviye: string } }) {
@@ -70,9 +70,9 @@ export default function SeviyePage({ params }: { params: { seviye: string } }) {
         tip="FAQPage"
         veri={{
           mainEntity: s.faqlar.map((f) => ({
-            '@type': 'Question',
+            "@type": "Question",
             name: f.soru,
-            acceptedAnswer: { '@type': 'Answer', text: f.cevap },
+            acceptedAnswer: { "@type": "Answer", text: f.cevap },
           })),
         }}
       />
@@ -85,12 +85,12 @@ export default function SeviyePage({ params }: { params: { seviye: string } }) {
           description: s.seoDescription,
           url: `https://kpsscografya.com.tr/hazirlik/${s.slug}`,
           educationalLevel: s.baslik,
-          teaches: s.slug.includes('yt') ? 'YKS Coğrafya' : 'KPSS Coğrafya',
-          inLanguage: 'tr',
+          teaches: s.slug.includes("yt") ? "YKS Coğrafya" : "KPSS Coğrafya",
+          inLanguage: "tr",
           provider: {
-            '@type': 'Organization',
-            name: 'KPSS Coğrafya',
-            url: 'https://kpsscografya.com.tr',
+            "@type": "Organization",
+            name: "KPSS Coğrafya",
+            url: "https://kpsscografya.com.tr",
           },
         }}
       />
@@ -100,42 +100,34 @@ export default function SeviyePage({ params }: { params: { seviye: string } }) {
         <div className="max-w-4xl mx-auto px-4">
           {/* Breadcrumb */}
           <nav className="text-sm mb-8 text-gray-400">
-            <Link href="/" className="hover:text-white">Ana Sayfa</Link>
+            <Link href="/" className="hover:text-white">
+              Ana Sayfa
+            </Link>
             <span className="mx-2">›</span>
-            <Link href="/hazirlik" className="hover:text-white">Hazırlık</Link>
+            <Link href="/hazirlik" className="hover:text-white">
+              Hazırlık
+            </Link>
             <span className="mx-2">›</span>
             <span className="text-white">{s.baslik}</span>
           </nav>
 
           <div className="text-5xl mb-6">{s.favicon}</div>
-          <h1 className="text-4xl md:text-6xl font-black mb-6 leading-tight">
-            {s.h1}
-          </h1>
-          <p className="text-xl text-gray-300 mb-8 max-w-2xl">
-            {s.h2}
-          </p>
+          <h1 className="text-4xl md:text-6xl font-black mb-6 leading-tight">{s.h1}</h1>
+          <p className="text-xl text-gray-300 mb-8 max-w-2xl">{s.h2}</p>
 
           {/* Hızlı bilgi badge'leri */}
           <div className="flex flex-wrap gap-3">
             <span className="bg-white/10 px-4 py-2 rounded-full text-sm">
               📝 {s.bankaSoruSayisi}+ Özgün Soru
             </span>
-            <span className="bg-white/10 px-4 py-2 rounded-full text-sm">
-              ⏱️ {s.sinav_suresi}
-            </span>
-            <span className="bg-white/10 px-4 py-2 rounded-full text-sm">
-              📅 {s.sinav_periyot}
-            </span>
-            <span className="bg-white/10 px-4 py-2 rounded-full text-sm">
-              👤 {s.hedef_kitle}
-            </span>
+            <span className="bg-white/10 px-4 py-2 rounded-full text-sm">⏱️ {s.sinav_suresi}</span>
+            <span className="bg-white/10 px-4 py-2 rounded-full text-sm">📅 {s.sinav_periyot}</span>
+            <span className="bg-white/10 px-4 py-2 rounded-full text-sm">👤 {s.hedef_kitle}</span>
           </div>
         </div>
       </div>
 
       <div className="max-w-4xl mx-auto px-4 py-16">
-
-
         {/* SORU DAĞILIM TABLOSU */}
         <section className="mb-16">
           <h2 className="text-2xl font-black text-gray-900 mb-8">
@@ -156,7 +148,9 @@ export default function SeviyePage({ params }: { params: { seviye: string } }) {
                     <td className="p-4 text-gray-800">{row.konu}</td>
                     <td className="p-4 text-center font-bold text-gray-900">{row.soru}</td>
                     <td className="p-4 text-center">
-                      <span className={`px-3 py-1 rounded-full text-xs font-bold ${oncelikRenk[row.oncelik]}`}>
+                      <span
+                        className={`px-3 py-1 rounded-full text-xs font-bold ${oncelikRenk[row.oncelik]}`}
+                      >
                         {row.oncelik}
                       </span>
                     </td>
@@ -174,16 +168,16 @@ export default function SeviyePage({ params }: { params: { seviye: string } }) {
 
         {/* KONU KARTI IZGARASI */}
         <section className="mb-16">
-          <h2 className="text-2xl font-black text-gray-900 mb-4">
-            Konuları Harita ile Öğren
-          </h2>
+          <h2 className="text-2xl font-black text-gray-900 mb-4">Konuları Harita ile Öğren</h2>
           <p className="text-gray-600 mb-8">
-            Her konu için harita destekli anlatım ve quiz.
-            Tıkla, öğren, test et.
+            Her konu için harita destekli anlatım ve quiz. Tıkla, öğren, test et.
           </p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {konular.map((konu) => (
-              <div key={konu.slug} className="bg-white border border-gray-200 rounded-xl p-5 hover:shadow-md hover:border-orange-400 transition-all">
+              <div
+                key={konu.slug}
+                className="bg-white border border-gray-200 rounded-xl p-5 hover:shadow-md hover:border-orange-400 transition-all"
+              >
                 <div className="text-3xl mb-3">{konu.icon}</div>
                 <h3 className="font-black text-gray-900 mb-2">{konu.baslik}</h3>
                 <p className="text-xs text-gray-500 mb-4">
@@ -218,24 +212,23 @@ export default function SeviyePage({ params }: { params: { seviye: string } }) {
               <div className="text-2xl mb-3">📅</div>
               <h3 className="font-black text-gray-900 mb-2">1-10. Gün</h3>
               <p className="text-sm text-gray-600">
-                Fiziki coğrafya + iklim. Her gün harita üzerinde tekrar.
-                Dağ, ova, akarsu konumlarını ezberle.
+                Fiziki coğrafya + iklim. Her gün harita üzerinde tekrar. Dağ, ova, akarsu
+                konumlarını ezberle.
               </p>
             </div>
             <div className="bg-white rounded-xl p-5 border border-gray-200">
               <div className="text-2xl mb-3">📅</div>
               <h3 className="font-black text-gray-900 mb-2">11-20. Gün</h3>
               <p className="text-sm text-gray-600">
-                Nüfus, madenler, tarım. Her konudan 20 quiz sorusu çöz.
-                Hatalı soruları tekrar et.
+                Nüfus, madenler, tarım. Her konudan 20 quiz sorusu çöz. Hatalı soruları tekrar et.
               </p>
             </div>
             <div className="bg-white rounded-xl p-5 border border-gray-200">
               <div className="text-2xl mb-3">📅</div>
               <h3 className="font-black text-gray-900 mb-2">21-30. Gün</h3>
               <p className="text-sm text-gray-600">
-                Sanayi, ulaşım, turizm + tam deneme. Zayıf konulara odaklan,
-                harita üzerinde son tekrar.
+                Sanayi, ulaşım, turizm + tam deneme. Zayıf konulara odaklan, harita üzerinde son
+                tekrar.
               </p>
             </div>
           </div>
@@ -244,9 +237,7 @@ export default function SeviyePage({ params }: { params: { seviye: string } }) {
         {/* QUIZ CTA */}
         <section className="mb-16">
           <div className="bg-orange-500 rounded-2xl p-8 text-white text-center">
-            <h2 className="text-2xl font-black mb-3">
-              {s.baslik} Sınavına Hazır mısın?
-            </h2>
+            <h2 className="text-2xl font-black mb-3">{s.baslik} Sınavına Hazır mısın?</h2>
             <p className="text-orange-100 mb-6">
               {s.bankaSoruSayisi}+ soruluk dev soru bankası ile hazırlık düzeyini ölç.
             </p>
@@ -274,25 +265,26 @@ export default function SeviyePage({ params }: { params: { seviye: string } }) {
               {s.baslik} Coğrafya Başarı Rehberi
             </h2>
             <div className="text-gray-700 leading-relaxed space-y-6">
-              {s.makale.trim().split('\n\n').map((paragraph, idx) => {
-                if (paragraph.startsWith('### ')) {
-                  return (
-                    <h3 key={idx} className="text-xl font-black text-gray-900 mt-8 mb-4">
-                      {paragraph.replace('### ', '')}
-                    </h3>
-                  );
-                }
-                return <p key={idx}>{paragraph}</p>;
-              })}
+              {s.makale
+                .trim()
+                .split("\n\n")
+                .map((paragraph, idx) => {
+                  if (paragraph.startsWith("### ")) {
+                    return (
+                      <h3 key={idx} className="text-xl font-black text-gray-900 mt-8 mb-4">
+                        {paragraph.replace("### ", "")}
+                      </h3>
+                    );
+                  }
+                  return <p key={idx}>{paragraph}</p>;
+                })}
             </div>
           </div>
         </section>
 
         {/* FAQ */}
         <section className="mb-16">
-          <h2 className="text-2xl font-black text-gray-900 mb-8">
-            Sık Sorulan Sorular
-          </h2>
+          <h2 className="text-2xl font-black text-gray-900 mb-8">Sık Sorulan Sorular</h2>
           <div className="space-y-4">
             {s.faqlar.map((faq, i) => (
               <div key={i} className="border border-gray-200 rounded-xl p-6">
@@ -326,7 +318,6 @@ export default function SeviyePage({ params }: { params: { seviye: string } }) {
               ))}
           </div>
         </section>
-
       </div>
     </div>
   );

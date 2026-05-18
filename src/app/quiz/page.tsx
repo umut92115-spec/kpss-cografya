@@ -1,12 +1,13 @@
-import Link from 'next/link';
-import { getAllKonular } from '@/lib/getKonuData';
-import { Metadata } from 'next';
+import Link from "next/link";
+import { getAllKonular } from "@/lib/getKonuData";
+import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: 'KPSS Coğrafya Quiz Modu — 2000+ Soru & Güncel Deneme Sınavları',
-  description: 'KPSS coğrafya konularına göre hazırlanmış interaktif testler. Çıkmış sorular, süreli sınavlar, doğru-yanlış analizleri ve skor tablosu. Hemen kendini test et!',
+  title: "KPSS Coğrafya Quiz Modu — 2000+ Soru & Güncel Deneme Sınavları",
+  description:
+    "KPSS coğrafya konularına göre hazırlanmış interaktif testler. Çıkmış sorular, süreli sınavlar, doğru-yanlış analizleri ve skor tablosu. Hemen kendini test et!",
   alternates: {
-    canonical: 'https://kpsscografya.com.tr/quiz',
+    canonical: "https://kpsscografya.com.tr/quiz",
   },
 };
 
@@ -25,7 +26,8 @@ export default function QuizPage() {
             Coğrafya <span className="text-kpss-turuncu">Sınav Modu</span>
           </h1>
           <p className="text-gray-500 text-lg max-w-2xl mx-auto leading-relaxed">
-            Hangi konuda ne kadar iyisin? İstediğin konuyu seç, testi başlat ve performansını analiz et.
+            Hangi konuda ne kadar iyisin? İstediğin konuyu seç, testi başlat ve performansını analiz
+            et.
           </p>
         </div>
 
@@ -40,11 +42,11 @@ export default function QuizPage() {
               <div className="w-20 h-20 bg-gray-50 rounded-full flex items-center justify-center text-4xl mb-6 group-hover:bg-kpss-turuncu/5 group-hover:scale-110 transition-all duration-300">
                 {k.icon}
               </div>
-              
+
               <h3 className="font-black text-kpss-koyu text-xl mb-2 group-hover:text-kpss-turuncu transition-colors">
                 {k.baslik}
               </h3>
-              
+
               <p className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-4">
                 {k.kpss_soru_sayisi_ort} Soru Beklentisi
               </p>
@@ -70,11 +72,26 @@ export default function QuizPage() {
         {/* Bilgi Kutusu */}
         <div className="mt-20 grid grid-cols-1 md:grid-cols-3 gap-8">
           {[
-            { icon: '⏱️', title: 'Süreli Sınav', desc: 'Gerçek sınav atmosferi için her soruya özel süre.' },
-            { icon: '📊', title: 'Detaylı Analiz', desc: 'Hangi konuda hata yaptığını anında gör.' },
-            { icon: '🏆', title: 'Skor Tablosu', desc: 'En yüksek skorunu yap ve kendini geliştir.' },
+            {
+              icon: "⏱️",
+              title: "Süreli Sınav",
+              desc: "Gerçek sınav atmosferi için her soruya özel süre.",
+            },
+            {
+              icon: "📊",
+              title: "Detaylı Analiz",
+              desc: "Hangi konuda hata yaptığını anında gör.",
+            },
+            {
+              icon: "🏆",
+              title: "Skor Tablosu",
+              desc: "En yüksek skorunu yap ve kendini geliştir.",
+            },
           ].map((item) => (
-            <div key={item.title} className="bg-white p-8 rounded-3xl border border-gray-100 flex flex-col items-center text-center">
+            <div
+              key={item.title}
+              className="bg-white p-8 rounded-3xl border border-gray-100 flex flex-col items-center text-center"
+            >
               <div className="text-4xl mb-4">{item.icon}</div>
               <h4 className="font-bold text-kpss-koyu mb-2">{item.title}</h4>
               <p className="text-gray-500 text-sm">{item.desc}</p>

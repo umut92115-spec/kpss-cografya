@@ -1,22 +1,29 @@
-import Link from 'next/link';
-import { getAllKonular } from '@/lib/getKonuData';
-import { Metadata } from 'next';
+import Link from "next/link";
+import { getAllKonular } from "@/lib/getKonuData";
+import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: 'KPSS İnteraktif Harita Atlası 2026 — Maden, Tarım, Sanayi Görselleştirme',
-  description: 'Türkiye\'nin en kapsamlı KPSS İnteraktif Harita platformu. Madenler, tarım ürünleri ve sanayi tesislerini harita üzerinde görselleştirin, sınavda fark atın.',
-  keywords: ['kpss interaktif harita', 'kpss harita çalışması', 'türkiye maden haritası interaktif', 'kpss coğrafya harita görselleştirme'],
+  title: "KPSS İnteraktif Harita Atlası 2026 — Maden, Tarım, Sanayi Görselleştirme",
+  description:
+    "Türkiye'nin en kapsamlı KPSS İnteraktif Harita platformu. Madenler, tarım ürünleri ve sanayi tesislerini harita üzerinde görselleştirin, sınavda fark atın.",
+  keywords: [
+    "kpss interaktif harita",
+    "kpss harita çalışması",
+    "türkiye maden haritası interaktif",
+    "kpss coğrafya harita görselleştirme",
+  ],
   alternates: {
-    canonical: 'https://kpsscografya.com.tr/harita',
+    canonical: "https://kpsscografya.com.tr/harita",
   },
   openGraph: {
-    title: 'KPSS İnteraktif Harita Atlası — Görsel Öğrenme Merkezi',
-    description: 'Türkiye coğrafyasını interaktif haritalarla keşfedin. KPSS\'de en çok çıkan konuları görsel hafızanıza kazıyın.',
-    url: 'https://kpsscografya.com.tr/harita',
-    siteName: 'kpsscografya.com.tr',
-    locale: 'tr_TR',
-    type: 'website',
-    images: ['/og-default.jpg'],
+    title: "KPSS İnteraktif Harita Atlası — Görsel Öğrenme Merkezi",
+    description:
+      "Türkiye coğrafyasını interaktif haritalarla keşfedin. KPSS'de en çok çıkan konuları görsel hafızanıza kazıyın.",
+    url: "https://kpsscografya.com.tr/harita",
+    siteName: "kpsscografya.com.tr",
+    locale: "tr_TR",
+    type: "website",
+    images: ["/og-default.jpg"],
   },
 };
 
@@ -42,21 +49,42 @@ export default function HaritaPage() {
             İnteraktif Görsel Hafıza Teknikleri
           </div>
           <h1 className="text-4xl md:text-6xl font-black mb-6 leading-tight tracking-tight">
-            KPSS <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-indigo-400 to-purple-400">İnteraktif Harita</span> Atlası
+            KPSS{" "}
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-indigo-400 to-purple-400">
+              İnteraktif Harita
+            </span>{" "}
+            Atlası
           </h1>
           <p className="text-gray-400 text-lg md:text-xl max-w-3xl mx-auto leading-relaxed font-medium">
-            Sınavda sorulan yerleri &quot;görmeden&quot; öğrenme! Türkiye&apos;nin madenlerini, tarım alanlarını ve sanayi tesislerini tek tıkla haritaya dök, görsel hafızanı güçlendir.
+            Sınavda sorulan yerleri &quot;görmeden&quot; öğrenme! Türkiye&apos;nin madenlerini,
+            tarım alanlarını ve sanayi tesislerini tek tıkla haritaya dök, görsel hafızanı
+            güçlendir.
           </p>
         </div>
 
         {/* Avantajlar / Neden Harita? */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-16">
           {[
-            { t: "Görsel Hafıza", d: "Karmaşık listeler yerine yerleri harita üzerinde görerek öğrenin.", i: "🧠" },
-            { t: "İl Bazlı Analiz", d: "Hangi ilde hangi ürünün 1. olduğunu anında keşfedin.", i: "📍" },
-            { t: "Sınav Uyumu", d: "ÖSYM'nin harita sorularını kaçırmamanız için tasarlandı.", i: "🎯" }
+            {
+              t: "Görsel Hafıza",
+              d: "Karmaşık listeler yerine yerleri harita üzerinde görerek öğrenin.",
+              i: "🧠",
+            },
+            {
+              t: "İl Bazlı Analiz",
+              d: "Hangi ilde hangi ürünün 1. olduğunu anında keşfedin.",
+              i: "📍",
+            },
+            {
+              t: "Sınav Uyumu",
+              d: "ÖSYM'nin harita sorularını kaçırmamanız için tasarlandı.",
+              i: "🎯",
+            },
           ].map((item, idx) => (
-            <div key={idx} className="bg-white/5 border border-white/10 rounded-2xl p-6 backdrop-blur-sm flex items-start gap-4 hover:border-blue-500/30 transition-colors">
+            <div
+              key={idx}
+              className="bg-white/5 border border-white/10 rounded-2xl p-6 backdrop-blur-sm flex items-start gap-4 hover:border-blue-500/30 transition-colors"
+            >
               <span className="text-2xl">{item.i}</span>
               <div>
                 <h4 className="font-bold text-blue-300 mb-1">{item.t}</h4>
@@ -82,11 +110,11 @@ export default function HaritaPage() {
                     2026 Güncel
                   </div>
                 </div>
-                
+
                 <h3 className="font-black text-2xl mb-4 group-hover:text-blue-400 transition-colors">
                   {k.baslik}
                 </h3>
-                
+
                 <p className="text-gray-500 text-sm leading-relaxed mb-8 flex-1 group-hover:text-gray-400 transition-colors">
                   {k.aciklama}
                 </p>
@@ -115,18 +143,21 @@ export default function HaritaPage() {
         <div className="mt-24 p-10 md:p-16 bg-gradient-to-br from-blue-600 via-indigo-600 to-purple-700 rounded-[3rem] text-center relative overflow-hidden shadow-2xl">
           <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-10"></div>
           <div className="relative z-10 max-w-2xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-black mb-6">Detaylı İl Analizlerini Gördün mü?</h2>
+            <h2 className="text-3xl md:text-4xl font-black mb-6">
+              Detaylı İl Analizlerini Gördün mü?
+            </h2>
             <p className="text-blue-100 text-lg mb-10 opacity-90 leading-relaxed">
-              81 ilin kendine has coğrafi verilerini, madenlerini ve tarım potansiyelini &quot;İl Kimlik Kartları&quot; ile tek tek inceleyebilirsin.
+              81 ilin kendine has coğrafi verilerini, madenlerini ve tarım potansiyelini &quot;İl
+              Kimlik Kartları&quot; ile tek tek inceleyebilirsin.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link 
+              <Link
                 href="/il"
                 className="bg-white text-blue-700 font-black py-4 px-10 rounded-2xl hover:bg-blue-50 transition-all shadow-xl hover:-translate-y-1"
               >
                 📍 81 İl Atlasını Keşfet
               </Link>
-              <Link 
+              <Link
                 href="/konu"
                 className="bg-blue-900/30 backdrop-blur-md text-white border border-white/20 font-black py-4 px-10 rounded-2xl hover:bg-white/10 transition-all"
               >
@@ -139,4 +170,3 @@ export default function HaritaPage() {
     </div>
   );
 }
-
