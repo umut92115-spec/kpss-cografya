@@ -4,6 +4,8 @@ import { useState, useEffect, useCallback, useRef } from "react";
 import { QuizSoru, QuizSonuc } from "@/types/quiz";
 import { Konu } from "@/types";
 import clsx from "clsx";
+import { saveQuizResult } from "@/lib/gamification";
+import { X } from "lucide-react";
 
 const STORAGE_KEY = "kpss_quiz_sonuclar";
 const TOP_SCORE_KEY = "kpss_quiz_top";
@@ -43,10 +45,16 @@ interface QuizModuProps {
 }
 
 type FazTip = "hazir" | "quiz" | "sonuc";
+type FeedbackMode = "aninda" | "sonunda";
 type CevapDurumu = "bekleniyor" | "dogru" | "yanlis";
 
 export default function QuizModu({ konuSlug, konuMeta, sorular = [] }: QuizModuProps) {
   const [faz, setFaz] = useState<FazTip>("hazir");
+  const [feedbackMode, setFeedbackMode] = useState<FeedbackMode>("aninda");
+  const [showFeedbackModal, setShowFeedbackModal] = useState(false);
+  const [isHizliSelect, setIsHizliSelect] = useState(false);
+  const [tumCevaplar, setTumCevaplar] = useState<(string | null)[]>([]);
+  const [kazanilanXp, setKazanilanXp] = useState<number>(0);
   const [aktifSorular, setAktifSorular] = useState<QuizSoru[]>([]);
   const [soruIndex, setSoruIndex] = useState(0);
   const [secilenSik, setSecilenSik] = useState<string | null>(null);
@@ -63,7 +71,8 @@ export default function QuizModu({ konuSlug, konuMeta, sorular = [] }: QuizModuP
   const toplamSoru = aktifSorular.length;
 
   const quizBaslat = useCallback(
-    (hizli = false) => {
+    (hizli = false, mod: FeedbackMode = "aninda") => {
+      setFeedbackMode(mod);
       let secilecekSorular = [...sorular];
       if (hizli) {
         secilecekSorular = secilecekSorular.sort(() => Math.random() - 0.5).slice(0, 10);
@@ -73,6 +82,8 @@ export default function QuizModu({ konuSlug, konuMeta, sorular = [] }: QuizModuP
       setSecilenSik(null);
       setCevapDurumu("bekleniyor");
       setDogruSayisi(0);
+      setTumCevaplar(new Array(secilecekSorular.length).fill(null));
+      setKazanilanXp(0);
       setBaslangicZamani(Date.now());
       setGecenSure(0);
       setFaz("quiz");
@@ -108,25 +119,48 @@ export default function QuizModu({ konuSlug, konuMeta, sorular = [] }: QuizModuP
   };
 
   const sikasTikla = (sik: string) => {
-    if (cevapDurumu !== "bekleniyor") return;
+    if (cevapDurumu !== "bekleniyor" && feedbackMode === "aninda") return;
     setSecilenSik(sik);
-    const dogru = sik === mevcutSoru.dogru;
-    setCevapDurumu(dogru ? "dogru" : "yanlis");
-    if (dogru) setDogruSayisi((p) => p + 1);
+
+    const yeniCevaplar = [...tumCevaplar];
+    yeniCevaplar[soruIndex] = sik;
+    setTumCevaplar(yeniCevaplar);
+
+    if (feedbackMode === "aninda") {
+      const dogru = sik === mevcutSoru.dogru;
+      setCevapDurumu(dogru ? "dogru" : "yanlis");
+      if (dogru) setDogruSayisi((p) => p + 1);
+    }
   };
 
   const sonrakiSoru = () => {
     if (soruIndex + 1 >= toplamSoru) {
       if (timerRef.current) clearInterval(timerRef.current);
       const sureMs = Date.now() - baslangicZamani;
-      const skor = Math.round(
-        ((dogruSayisi + (cevapDurumu === "dogru" ? 1 : 0)) / toplamSoru) * 100
-      );
+
+      let finalDogru = 0;
+      let finalYanlis = 0;
+      if (feedbackMode === "aninda") {
+        finalDogru = dogruSayisi + (cevapDurumu === "dogru" ? 1 : 0);
+        finalYanlis = toplamSoru - finalDogru;
+      } else {
+        aktifSorular.forEach((soru, idx) => {
+          if (tumCevaplar[idx] === soru.dogru) finalDogru++;
+          else finalYanlis++;
+        });
+        setDogruSayisi(finalDogru);
+      }
+
+      const skor = Math.round((finalDogru / toplamSoru) * 100);
+
+      const { xpGained } = saveQuizResult(konuSlug, finalDogru, finalYanlis, sureMs);
+      setKazanilanXp(xpGained);
+
       const yeniSonuc: QuizSonuc = {
         konuSlug,
         tarih: new Date().toISOString(),
         toplamSoru,
-        dogruSayisi: dogruSayisi + (cevapDurumu === "dogru" ? 1 : 0),
+        dogruSayisi: finalDogru,
         sureMs,
         skor,
       };
@@ -140,8 +174,13 @@ export default function QuizModu({ konuSlug, konuMeta, sorular = [] }: QuizModuP
       setFaz("sonuc");
     } else {
       setSoruIndex((p) => p + 1);
-      setSecilenSik(null);
-      setCevapDurumu("bekleniyor");
+      if (feedbackMode === "aninda") {
+        setSecilenSik(null);
+        setCevapDurumu("bekleniyor");
+      } else {
+        setSecilenSik(tumCevaplar[soruIndex + 1] || null);
+        setCevapDurumu("bekleniyor");
+      }
     }
   };
 
@@ -169,19 +208,94 @@ export default function QuizModu({ konuSlug, konuMeta, sorular = [] }: QuizModuP
 
         <div className="flex flex-col gap-3 mb-6">
           <button
-            onClick={() => quizBaslat(false)}
-            className="w-full bg-focus-600 hover:bg-focus-700 text-white font-bold py-4 px-8 rounded-2xl text-lg transition-all shadow-lg shadow-focus-600/20"
+            onClick={() => {
+              setIsHizliSelect(false);
+              setShowFeedbackModal(true);
+            }}
+            className="w-full bg-focus-600 hover:bg-focus-700 text-white font-bold py-4 px-8 rounded-2xl text-lg transition-all shadow-lg shadow-focus-600/20 cursor-pointer"
           >
             Tam Quiz&apos;i Başlat ({sorular.length} Soru) 🚀
           </button>
 
           <button
-            onClick={() => quizBaslat(true)}
-            className="w-full bg-glow-500 hover:bg-glow-600 text-white font-bold py-4 px-8 rounded-2xl text-lg transition-all shadow-lg shadow-glow-500/20"
+            onClick={() => {
+              setIsHizliSelect(true);
+              setShowFeedbackModal(true);
+            }}
+            className="w-full bg-glow-500 hover:bg-glow-600 text-white font-bold py-4 px-8 rounded-2xl text-lg transition-all shadow-lg shadow-glow-500/20 cursor-pointer"
           >
             Hızlı Test (10 Karışık Soru) ⏱️
           </button>
         </div>
+
+        {/* ==================== CEVAP GÖSTERİMİ SEÇENEK POPUP MODAL ==================== */}
+        {showFeedbackModal && (
+          <div className="fixed inset-0 z-[110] flex items-center justify-center p-4 bg-black/60 backdrop-blur-md animate-fade-in text-left">
+            <div className="relative w-full max-w-md bg-white dark:bg-ink-900 rounded-[32px] border border-focus-100 dark:border-focus-900/50 shadow-2xl p-6 md:p-8 overflow-hidden animate-scale-up">
+              {/* Close Button */}
+              <button
+                onClick={() => setShowFeedbackModal(false)}
+                className="absolute top-6 right-6 p-2 rounded-xl bg-ink-50 dark:bg-ink-800 border border-ink-200 dark:border-ink-700 text-ink-500 dark:text-ink-400 hover:bg-ink-100 dark:hover:bg-ink-700 transition-all cursor-pointer"
+              >
+                <X size={18} />
+              </button>
+
+              <div className="flex items-center justify-center w-14 h-14 bg-gradient-to-tr from-focus-500 to-indigo-600 rounded-2xl text-white text-2xl mb-5 shadow-lg shadow-focus-500/25">
+                ❓
+              </div>
+
+              <h3 className="text-xl font-black text-ink-900 dark:text-white mb-2 tracking-tight leading-tight">
+                Cevap Gösterim Modu
+              </h3>
+              <p className="text-xs text-ink-500 dark:text-ink-400 mb-6 leading-relaxed">
+                Soru çözme tarzını belirle. Nasıl ilerlemek istersin?
+              </p>
+
+              <div className="space-y-3">
+                <button
+                  onClick={() => {
+                    setShowFeedbackModal(false);
+                    quizBaslat(isHizliSelect, "aninda");
+                  }}
+                  className="w-full text-left p-4 rounded-2xl border border-ink-150 dark:border-ink-750 hover:border-focus-500 dark:hover:border-focus-500 bg-ink-50/50 dark:bg-ink-950/20 hover:bg-focus-50/20 dark:hover:bg-focus-950/30 transition-all group cursor-pointer"
+                >
+                  <div className="flex justify-between items-center mb-1">
+                    <span className="font-bold text-sm text-ink-900 dark:text-white group-hover:text-focus-600 dark:group-hover:text-focus-400 transition-colors">
+                      Anında Cevap Gösterimi ⏱️
+                    </span>
+                    <span className="text-[10px] font-extrabold uppercase px-2 py-0.5 rounded-md bg-focus-500/10 text-focus-600 dark:text-focus-400 border border-focus-500/20">
+                      Öğretici
+                    </span>
+                  </div>
+                  <p className="text-[11px] text-ink-500 dark:text-ink-400 leading-relaxed">
+                    Her sorudan sonra doğru/yanlış yanıtı ve detaylı coğrafi açıklamayı anında gör.
+                  </p>
+                </button>
+
+                <button
+                  onClick={() => {
+                    setShowFeedbackModal(false);
+                    quizBaslat(isHizliSelect, "sonunda");
+                  }}
+                  className="w-full text-left p-4 rounded-2xl border border-ink-150 dark:border-ink-750 hover:border-indigo-500 dark:hover:border-indigo-500 bg-ink-50/50 dark:bg-ink-950/20 hover:bg-indigo-50/20 dark:hover:bg-indigo-950/30 transition-all group cursor-pointer"
+                >
+                  <div className="flex justify-between items-center mb-1">
+                    <span className="font-bold text-sm text-ink-900 dark:text-white group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors">
+                      Sınav Modu (Sonunda Gör) 📝
+                    </span>
+                    <span className="text-[10px] font-extrabold uppercase px-2 py-0.5 rounded-md bg-indigo-500/10 text-indigo-600 dark:text-indigo-400 border border-indigo-500/20">
+                      Simülasyon
+                    </span>
+                  </div>
+                  <p className="text-[11px] text-ink-500 dark:text-ink-400 leading-relaxed">
+                    Gerçek sınav deneyimi. Doğru ve yanlışlarını ancak testi tamamen bitirince
+                    incele.
+                  </p>
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
 
         {gecmisler.length > 0 && (
           <div className="text-left bg-paper-100 dark:bg-ink-800 rounded-xl p-4 border border-ink-100 dark:border-ink-700">
@@ -254,13 +368,41 @@ export default function QuizModu({ konuSlug, konuMeta, sorular = [] }: QuizModuP
 
         {/* Question */}
         <div className="bg-white dark:bg-ink-850 rounded-2xl border border-ink-100 dark:border-ink-700/80 shadow-card p-6 mb-6">
-          <p className="text-lg font-semibold text-ink-900 dark:text-white leading-relaxed">
-            {mevcutSoru.soru}
-          </p>
+          <div className="text-lg font-semibold text-ink-900 dark:text-white leading-relaxed space-y-3">
+            {mevcutSoru.soru.split("\n").map((line, index, arr) => {
+              const trimmed = line.trim();
+              if (!trimmed) return null;
+
+              // Son anlamlı satırı bul (soru cümlesi) — o bold, gerisi normal
+              const lastMeaningfulIndex = [...arr].reverse().findIndex((l) => l.trim());
+              const lastIdx = arr.length - 1 - lastMeaningfulIndex;
+              const isLastLine = index === lastIdx;
+
+              // Madde numaralı satırlar: "I. ", "II. ", "1. " vb. → girinti
+              const isStatement = /^(I{1,3}|IV|V|X|\d+)\.\s/.test(trimmed);
+
+              return (
+                <p
+                  key={index}
+                  className={clsx(
+                    "text-ink-900 dark:text-white",
+                    isLastLine ? "font-bold pt-3" : "font-normal",
+                    isStatement && !isLastLine && "pl-4"
+                  )}
+                >
+                  {trimmed}
+                </p>
+              );
+            })}
+          </div>
           {mevcutSoru.gorsel && (
             <div className="mt-4 overflow-hidden rounded-xl border border-ink-100 dark:border-ink-700/80 bg-ink-50/50 dark:bg-ink-900/50 flex justify-center p-2">
               <img
-                src={mevcutSoru.gorsel}
+                src={
+                  mevcutSoru.gorsel.startsWith("/")
+                    ? mevcutSoru.gorsel
+                    : `/images/quizzes/${mevcutSoru.gorsel}`
+                }
                 alt="Soru Harita Görseli"
                 className="max-h-[320px] object-contain rounded-lg shadow-sm"
               />
@@ -276,33 +418,47 @@ export default function QuizModu({ konuSlug, konuMeta, sorular = [] }: QuizModuP
             let renk =
               "bg-white dark:bg-ink-800 border-ink-200 dark:border-ink-700 text-ink-800 dark:text-ink-200 hover:border-focus-300 dark:hover:border-focus-700 hover:bg-focus-50 dark:hover:bg-focus-950/20";
 
-            if (cevapDurumu !== "bekleniyor") {
-              if (isDogru)
+            if (feedbackMode === "aninda") {
+              if (cevapDurumu !== "bekleniyor") {
+                if (isDogru)
+                  renk =
+                    "bg-emerald-50 dark:bg-emerald-950/20 border-emerald-400 dark:border-emerald-700/80 text-emerald-800 dark:text-emerald-300";
+                else if (isSecilen && !isDogru)
+                  renk =
+                    "bg-rose-50 dark:bg-rose-950/20 border-rose-400 dark:border-rose-700/80 text-rose-800 dark:text-rose-300";
+                else
+                  renk =
+                    "bg-white dark:bg-ink-800 border-ink-100 dark:border-ink-850 text-ink-400 dark:text-ink-600";
+              }
+            } else {
+              // sınav modu: sadece secileni vurgula
+              if (isSecilen) {
                 renk =
-                  "bg-emerald-50 dark:bg-emerald-950/20 border-emerald-400 dark:border-emerald-700/80 text-emerald-800 dark:text-emerald-300";
-              else if (isSecilen && !isDogru)
-                renk =
-                  "bg-rose-50 dark:bg-rose-950/20 border-rose-400 dark:border-rose-700/80 text-rose-800 dark:text-rose-300";
-              else
-                renk =
-                  "bg-white dark:bg-ink-800 border-ink-100 dark:border-ink-850 text-ink-400 dark:text-ink-600";
+                  "bg-focus-50 dark:bg-focus-950/20 border-focus-400 dark:border-focus-600 text-focus-800 dark:text-focus-400";
+              }
             }
 
             return (
               <button
                 key={sik}
                 onClick={() => sikasTikla(sik)}
-                disabled={cevapDurumu !== "bekleniyor"}
+                disabled={cevapDurumu !== "bekleniyor" && feedbackMode === "aninda"}
                 className={clsx(
                   "w-full text-left px-5 py-4 rounded-xl border-2 font-medium transition-all duration-200",
                   renk,
-                  cevapDurumu === "bekleniyor" && "cursor-pointer active:scale-[0.98]",
-                  cevapDurumu !== "bekleniyor" && "cursor-default"
+                  (cevapDurumu === "bekleniyor" || feedbackMode === "sonunda") &&
+                    "cursor-pointer active:scale-[0.98]",
+                  cevapDurumu !== "bekleniyor" && feedbackMode === "aninda" && "cursor-default"
                 )}
               >
                 <span className="flex items-center gap-3">
-                  {cevapDurumu !== "bekleniyor" && isDogru && <span>✅</span>}
-                  {cevapDurumu !== "bekleniyor" && isSecilen && !isDogru && <span>❌</span>}
+                  {feedbackMode === "aninda" && cevapDurumu !== "bekleniyor" && isDogru && (
+                    <span>✅</span>
+                  )}
+                  {feedbackMode === "aninda" &&
+                    cevapDurumu !== "bekleniyor" &&
+                    isSecilen &&
+                    !isDogru && <span>❌</span>}
                   {sik}
                 </span>
               </button>
@@ -310,8 +466,8 @@ export default function QuizModu({ konuSlug, konuMeta, sorular = [] }: QuizModuP
           })}
         </div>
 
-        {/* Explanation */}
-        {cevapDurumu !== "bekleniyor" && (
+        {/* Explanation (only in anında mode) */}
+        {feedbackMode === "aninda" && cevapDurumu !== "bekleniyor" && (
           <div
             className={clsx(
               "rounded-xl p-4 border-l-4 mb-6 animate-fade-in",
@@ -330,7 +486,7 @@ export default function QuizModu({ konuSlug, konuMeta, sorular = [] }: QuizModuP
         )}
 
         {/* Next Button */}
-        {cevapDurumu !== "bekleniyor" && (
+        {(cevapDurumu !== "bekleniyor" || (feedbackMode === "sonunda" && secilenSik !== null)) && (
           <button
             onClick={sonrakiSoru}
             className="w-full bg-focus-600 hover:bg-focus-700 text-white font-bold py-3.5 px-6 rounded-xl transition-all shadow-sm"
@@ -401,6 +557,61 @@ export default function QuizModu({ konuSlug, konuMeta, sorular = [] }: QuizModuP
       </div>
 
       <p className="text-ink-600 dark:text-ink-350 mb-6 text-lg">{sonucMesaj}</p>
+
+      {kazanilanXp > 0 && (
+        <div className="bg-amber-100 dark:bg-amber-950/30 border border-amber-300 dark:border-amber-900 text-amber-800 dark:text-amber-400 rounded-xl py-3 px-6 mb-6 inline-flex items-center gap-2 font-bold shadow-sm">
+          🌟 +{kazanilanXp} XP Kazandın!
+        </div>
+      )}
+
+      {feedbackMode === "sonunda" && (
+        <div className="text-left bg-white dark:bg-ink-800 rounded-xl p-4 md:p-6 border border-ink-200 dark:border-ink-700 mb-6 max-h-96 overflow-y-auto shadow-inner">
+          <h3 className="font-bold text-lg mb-4 text-ink-900 dark:text-white border-b border-ink-200 dark:border-ink-700 pb-2">
+            Cevap Anahtarı ve Açıklamalar
+          </h3>
+          <div className="flex flex-col gap-4">
+            {aktifSorular.map((soru, idx) => {
+              const uSec = tumCevaplar[idx];
+              const dogruMu = uSec === soru.dogru;
+              return (
+                <div
+                  key={idx}
+                  className={clsx(
+                    "p-4 rounded-xl border-l-4",
+                    dogruMu
+                      ? "bg-emerald-50 dark:bg-emerald-950/10 border-emerald-400 text-emerald-900 dark:text-emerald-300"
+                      : "bg-rose-50 dark:bg-rose-950/10 border-rose-400 text-rose-900 dark:text-rose-300"
+                  )}
+                >
+                  <p className="font-bold text-sm mb-1.5">Soru {idx + 1}</p>
+                  <p className="text-xs text-ink-600 dark:text-ink-400 mb-2.5 line-clamp-2">
+                    {soru.soru.replace(/\n/g, " ")}
+                  </p>
+                  <div className="flex gap-4 text-xs font-semibold mb-2">
+                    <span
+                      className={
+                        dogruMu
+                          ? "text-emerald-700 dark:text-emerald-450"
+                          : "text-rose-700 dark:text-rose-450"
+                      }
+                    >
+                      Senin Cevabın: {uSec || "Boş"}
+                    </span>
+                    {!dogruMu && (
+                      <span className="text-emerald-700 dark:text-emerald-400">
+                        Doğru Cevap: {soru.dogru}
+                      </span>
+                    )}
+                  </div>
+                  <div className="text-xs text-ink-700 dark:text-ink-300 bg-white/50 dark:bg-ink-900/50 p-2.5 rounded-lg mt-2 italic border border-ink-100 dark:border-ink-800">
+                    💡 {soru.aciklama}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      )}
 
       {enYuksekSkor !== null && (
         <p className="text-sm text-glow-700 dark:text-glow-400 font-semibold mb-4 shadow-glow inline-block px-3 py-1 rounded-lg bg-glow-50 dark:bg-glow-950/20 border border-glow-200 dark:border-glow-800/80">

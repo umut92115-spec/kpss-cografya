@@ -10,7 +10,7 @@ const navLinks = [
   { href: "/konu", label: "Konular", icon: "📖" },
   { href: "/il", label: "İller", icon: "📍" },
   { href: "/hazirlik", label: "Hazırlık", icon: "🎓" },
-  { href: "/quiz", label: "Quiz", icon: "✍️" },
+  { href: "/quiz", label: "Quiz", icon: "🎯" },
 ];
 
 export default function Navbar() {

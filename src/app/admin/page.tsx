@@ -1,6 +1,7 @@
 import fs from "fs/promises";
 import path from "path";
 import AdminClient from "./AdminClient";
+import { getAllKonular } from "@/lib/getKonuData";
 
 interface Soru {
   id: string;
@@ -52,9 +53,11 @@ export default async function AdminPage() {
   // Konuları isimlerine göre sıralayalım
   quizzes.sort((a, b) => a.konu.localeCompare(b.konu));
 
+  const konular = getAllKonular();
+
   return (
     <div className="container mx-auto px-4 py-8">
-      <AdminClient initialQuizzes={quizzes} />
+      <AdminClient initialQuizzes={quizzes} konular={konular} />
     </div>
   );
 }

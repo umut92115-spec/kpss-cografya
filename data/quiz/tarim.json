@@ -1,4 +1,1825 @@
 {
   "konu": "tarim",
-  "sorular": []
+  "sorular": [
+    {
+      "id": "tarim-001",
+      "soru": "Yukarıdaki Türkiye haritasında I, II, III, IV ve V numaralı alanlar gösterilmiştir. Bu alanların hangisinde tarımda makine kullanımının diğerlerine göre daha zor olması beklenir?",
+      "siklar": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV",
+        "E) V"
+      ],
+      "dogru": "E) V",
+      "aciklama": "E şıkkı doğrudur çünkü V numaralı bölge (Hakkari) Türkiye'nin en dağlık ve engebeli yörelerinden biridir ve bu durum makine kullanımını büyük ölçüde zorlaştırır. A, B, C ve D şıklarındaki Edirne, Konya, Adana ve Şanlıurfa yöreleri geniş düzlüklere sahip oldukları için makine kullanımına elverişlidir. Genel kural olarak tarımda makineleşmenin önündeki en büyük doğal engel, yer şekillerinin dağlık ve engebeli olmasıdır.",
+      "harita_il": "hakkari",
+      "zorluk": "kolay",
+      "gorsel": "tarim/tarim-001.svg",
+      "gorsel_veri": {
+        "I": "edirne",
+        "II": "konya",
+        "III": "adana",
+        "IV": "sanliurfa",
+        "V": "hakkari"
+      }
+    },
+    {
+      "id": "tarim-002",
+      "soru": "İntansif (modern) tarım yönteminin uygulandığı alanlarla ilgili,\nI. İklim koşullarına bağımlılık oldukça düşüktür.\nII. Birim alandan elde edilen tarımsal verim yüksektir.\nIII. Üretim miktarında yıldan yıla görülen dalgalanmalar fazladır.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "C şıkkı doğrudur çünkü intansif tarımda sulama, gübreleme ve ilaçlama imkanları geliştiği için iklim şartlarına bağımlılık azalır (I doğru) ve birim alandan alınan verim artar (II doğru). III. önerme yanlıştır zira üretimde yıllar arası dalgalanmaların fazla olması iklime bağımlılığın yüksek olduğu ilkel (ekstansif) tarım yönteminin bir sonucudur. İntansif tarımda doğal koşulların üretim üzerindeki etkisi minimuma indirilmiştir.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-003",
+      "soru": "Güneydoğu Anadolu Projesi'nin (GAP) hayata geçirilmesiyle bölgedeki tarımsal faaliyetlerde önemli değişimler yaşanmıştır. Buna göre GAP'ın faaliyete geçmesiyle bölgede aşağıdaki durumlardan hangisinin gerçekleştiği söylenebilir?",
+      "siklar": [
+        "A) Nadasa bırakılan tarım alanlarının giderek genişlemesi",
+        "B) Kuru tarım ürünlerinin ekim alanının artması",
+        "C) Tarımsal üretimde iklim koşullarına bağımlılığın azalması",
+        "D) Ekstansif tarım yöntemlerinin bölgede daha fazla yaygınlaşması",
+        "E) Tarım alanlarının daralarak büyük oranda sanayi alanlarına dönüşmesi"
+      ],
+      "dogru": "C) Tarımsal üretimde iklim koşullarına bağımlılığın azalması",
+      "aciklama": "C şıkkı doğrudur çünkü GAP ile sulama olanaklarının artması, bölge tarımında yağışa olan ihtiyacı azaltarak iklime bağımlılığı düşürmüştür. A ve B şıkları yanlıştır zira sulamanın artması nadas alanlarını daraltmış ve kuru tarım ürünlerinin (buğday, arpa, mercimek vb.) yerini sulama isteyen ürünlere bırakmasını sağlamıştır. D şıkkı yanlıştır, ekstansif değil intansif tarım yöntemleri yaygınlaşmıştır. E şıkkındaki sanayileşme bilgisi abartılıdır ve temel tarımsal sonuç sulamanın getirdiği istikrardır.",
+      "harita_il": "sanliurfa",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-004",
+      "soru": "Türkiye'de yer şekillerinin engebeli olduğu yörelerde tarımda makine kullanımı zorken, düz ve sade alanlarda oldukça kolaydır. Aşağıda verilen il ve tarımda makine kullanım durumu eşleşmelerinden hangisi yanlıştır?",
+      "siklar": [
+        "A) Rize — Makine kullanımı zor",
+        "B) Edirne — Makine kullanımı kolay",
+        "C) Artvin — Makine kullanımı zor",
+        "D) Konya — Makine kullanımı kolay",
+        "E) Aksaray — Makine kullanımı zor"
+      ],
+      "dogru": "E) Aksaray — Makine kullanımı zor",
+      "aciklama": "E şıkkı doğrudur (yanlış eşleşmedir) çünkü Aksaray, İç Anadolu Bölgesi'nde yer alan oldukça düz ve sade yer şekillerine sahip bir ilimizdir; bu nedenle makine kullanımı son derece kolaydır. Rize ve Artvin illerimiz dağlık arazi yapısından dolayı (A ve C şıkları doğru eşleşme) makine kullanımının çok zor olduğu yörelerdir. Edirne ve Konya (B ve D şıkları) geniş ova ve platolara sahip olduğundan makineleşme oranının en yüksek olduğu iller arasındadır.",
+      "harita_il": "aksaray",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-005",
+      "soru": "Yukarıdaki Türkiye haritasında numaralandırılarak gösterilen yörelerin hangisinde, yağış azlığına bağlı olarak nadas tarımı uygulamasının daha yaygın olması beklenir?",
+      "siklar": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV",
+        "E) V"
+      ],
+      "dogru": "C) III",
+      "aciklama": "C şıkkı doğrudur çünkü III numaralı alan (Yozgat), yarı kurak karasal iklimin etkisi altındadır ve sulama yetersizliği sebebiyle toprakların bir yıl ekilip bir yıl dinlendirildiği nadas uygulamasının en yaygın olduğu yörelerdendir. I ve II numaralı alanlar (İzmir, Antalya) sulama imkanlarının ve yağışın yeterli olduğu, IV ve V numaralı alanlar (Rize, Ordu) ise her mevsim yağışlı Karadeniz ikliminin etkili olduğu yerler olduğundan bu alanlarda nadas uygulamasına duyulan ihtiyaç çok daha azdır.",
+      "harita_il": "yozgat",
+      "zorluk": "kolay",
+      "gorsel": "tarim/tarim-005.svg",
+      "gorsel_veri": {
+        "I": "izmir",
+        "II": "antalya",
+        "III": "yozgat",
+        "IV": "rize",
+        "V": "ordu"
+      }
+    },
+    {
+      "id": "tarim-006",
+      "soru": "Konya Ovası Projesi (KOP) ile bölgeye Göksu Nehri'nin suları aktarılarak sulama olanakları büyük ölçüde geliştirilmiştir. Bu durumun sonucunda Konya ovasında aşağıdaki tarım ürünlerinden hangisinin ekim alanında daha belirgin bir artış yaşanmıştır?",
+      "siklar": [
+        "A) Buğday",
+        "B) Şekerpancarı",
+        "C) Arpa",
+        "D) Çavdar",
+        "E) Kırmızı mercimek"
+      ],
+      "dogru": "B) Şekerpancarı",
+      "aciklama": "B şıkkı doğrudur çünkü şekerpancarı yüksek oranda su isteyen bir endüstri bitkisidir ve KOP sayesinde artan sulama imkanları, çiftçilerin buğday veya arpa yerine getirisi daha yüksek olan şekerpancarına yönelmesine olanak tanımıştır. A, C, D ve E şıkları yanlıştır zira buğday, arpa, çavdar ve kırmızı mercimek kuru tarım ürünleridir ve sulama imkanları arttığında bu ürünlerin ekim alanları genellikle daralır. Sulama projeleri bölgenin tarımsal ürün desenini köklü şekilde değiştirir.",
+      "harita_il": "konya",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-007",
+      "soru": "Türkiye'de tarımsal verimliliği artırmak amacıyla pek çok modern tarım uygulaması hayata geçirilmektedir. Aşağıdakilerden hangisi tarımda birim alandan alınan verimi artıran etmenlerden biri değildir?",
+      "siklar": [
+        "A) Kaliteli tohum kullanımının yaygınlaştırılması",
+        "B) Tarım alanlarının genişletilmesi",
+        "C) Suni gübre kullanımının artırılması",
+        "D) Modern sulama sistemlerinin kurulması",
+        "E) Zirai mücadele yöntemlerinin geliştirilmesi"
+      ],
+      "dogru": "B) Tarım alanlarının genişletilmesi",
+      "aciklama": "B şıkkı doğrudur çünkü tarım alanlarının genişletilmesi tarımsal 'üretim miktarını' artırsa da, birim alandan elde edilen 'verimi' (rekolteyi) artırmaz. A, C, D ve E şıkları (tohum ıslahı, gübreleme, sulama ve zirai ilaçlama) intansif (modern) tarımın temel koşullarıdır ve mevcut aynı tarım alanından daha fazla ve daha kaliteli ürün elde edilmesini, yani tarımsal verimin artmasını sağlayan doğrudan etmenlerdir.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-008",
+      "soru": "Türkiye'de sulama imkanlarının artması ve nadasa bırakılan alanların daralması tarımsal üretimi derinden etkilemektedir. Tarım arazilerinde sulama olanaklarının yaygınlaşmasıyla,\nI. İklim koşullarının üretim üzerindeki etkisi azalır.\nII. Tarımsal üretimde yıldan yıla görülen dalgalanmalar artar.\nIII. Sebze ve endüstri bitkilerinin ekim alanı genişler.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) I ve II",
+        "C) I ve III",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve III",
+      "aciklama": "C şıkkı doğrudur çünkü sulamanın artması, yağışa olan bağımlılığı ortadan kaldırarak iklimin etkisini azaltır (I doğru) ve çiftçinin buğday gibi ürünler yerine getirisi yüksek sulu tarım ürünlerine (sebze ve sanayi bitkilerine) yönelmesini sağlar (III doğru). II numaralı önerme ise yanlıştır, zira iklime bağımlılığın azalması üretim miktarındaki dalgalanmaları artırmaz, tam aksine üretimi istikrarlı hale getirerek dalgalanmaları en aza indirir.",
+      "harita_il": null,
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-009",
+      "soru": "Türkiye'de farklı bölgelerde tarımsal verimi artırmak ve yöre halkının gelir seviyesini yükseltmek amacıyla çeşitli bölgesel kalkınma projeleri yürütülmektedir. Aşağıdaki proje ve sulama altyapısıyla doğrudan tarımsal potansiyeli artırılan il eşleşmelerinden hangisi yanlıştır?",
+      "siklar": [
+        "A) GAP — Şanlıurfa",
+        "B) KOP — Karaman",
+        "C) GAP — Yozgat",
+        "D) KOP — Aksaray",
+        "E) GAP — Diyarbakır"
+      ],
+      "dogru": "C) GAP — Yozgat",
+      "aciklama": "C şıkkı doğrudur (yanlış eşleşmedir) çünkü Yozgat, Güneydoğu Anadolu Projesi (GAP) kapsamında yer alan bir il değildir; İç Anadolu Bölgesi'nde yer alır ve proje kapsamı dışındadır. Şanlıurfa ve Diyarbakır GAP kapsamındayken, Karaman ve Aksaray KOP (Konya Ovası Projesi) sınırları içerisindedir ve bu illerin tarımsal sulama kapasiteleri ilgili projelerle ciddi şekilde desteklenmektedir.",
+      "harita_il": "yozgat",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-010",
+      "soru": "Doğu Karadeniz kıyı kuşağında yer şekillerinin engebeli ve eğimin fazla olması tarımsal faaliyetlerin yapılış şeklini doğrudan etkilemektedir. Bu durumun aşağıdakilerden hangisine yol açtığı söylenebilir?",
+      "siklar": [
+        "A) Tarımda makine kullanımının sınırlı kalmasına",
+        "B) Ekstansif tarım yöntemlerinin tamamen terk edilmesine",
+        "C) Nadas alanlarının giderek genişlemesine",
+        "D) Toprak erozyonunun tamamen önlenmesine",
+        "E) Tarımsal üretimin sadece tahıllarla sınırlı kalmasına"
+      ],
+      "dogru": "A) Tarımda makine kullanımının sınırlı kalmasına",
+      "aciklama": "A şıkkı doğrudur çünkü Trabzon, Rize, Artvin gibi Doğu Karadeniz illerinde yer şekillerinin sarp ve dik olması, traktör gibi tarım makinelerinin arazide kullanımını neredeyse imkansız hale getirir ve tarımda insan ile hayvan gücüne duyulan ihtiyacı artırır. B ve D şıkları mantıksız iddialardır. C şıkkı yanlıştır, bölgede yağış fazla olduğu için nadasa ihtiyaç duyulmaz. E şıkkı yanlıştır zira bölgede çay, fındık gibi ürünler ön plandadır.",
+      "harita_il": "trabzon",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-011",
+      "soru": "Modern tarım yöntemlerini kullanan bir üreticinin tarlasında birim alandan yüksek verim aldığı ve üretimde yıldan yıla dalgalanmaların az olduğu görülmüştür. Bu üreticinin aşağıdaki uygulamalardan hangisini gerçekleştirmesi beklenmez?",
+      "siklar": [
+        "A) Tarlasını nadasa bırakması",
+        "B) Kaliteli tohum kullanması",
+        "C) Zirai mücadele yapması",
+        "D) Toprağın ihtiyacına göre suni gübreleme yapması",
+        "E) Düzenli olarak sulama altyapısını kullanması"
+      ],
+      "dogru": "A) Tarlasını nadasa bırakması",
+      "aciklama": "A şıkkı doğrudur çünkü nadas, sulama imkanının olmadığı yerlerde toprağın su toplaması için bir yıl boş bırakılması kuralına dayanan ilkel (ekstansif) bir tarım yöntemidir ve modern tarım yapan bir çiftçinin bunu uygulaması beklenmez. B, C, D ve E şıkları intansif (modern) tarımın ayrılmaz birer parçasıdır ve yıldan yıla üretimdeki dalgalanmaları önleyerek rekolteyi en üst seviyeye çıkaran ana etmenlerdir.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-012",
+      "soru": "Yukarıdaki haritada işaretlenen yörelerin hangisinde, iklim koşullarına bağımlılığın yüksek olduğu ilkel (ekstansif) tarım yöntemlerinin diğerlerine göre daha yaygın olarak uygulandığı söylenebilir?",
+      "siklar": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV",
+        "E) V"
+      ],
+      "dogru": "D) IV",
+      "aciklama": "D şıkkı doğrudur çünkü IV numaralı yöre (Muş ve çevresi), iklimin sert olduğu, tarımsal modernleşmenin ve sermaye birikiminin nispeten daha düşük kaldığı Doğu Anadolu Bölgesi'ndedir; bu nedenle burada doğaya bağımlılığın yüksek olduğu ekstansif tarım yaygındır. I (İzmir), II (Bursa), III (Adana/Çukurova) ve V (Hatay/Amik) gibi batı ve güney yörelerimizde ise modern sulama ve gübreleme imkanlarıyla intansif tarım büyük oranda yerleşmiştir.",
+      "harita_il": "mus",
+      "zorluk": "orta",
+      "gorsel": "tarim/tarim-012.svg",
+      "gorsel_veri": {
+        "I": "izmir",
+        "II": "bursa",
+        "III": "adana",
+        "IV": "mus",
+        "V": "hatay"
+      }
+    },
+    {
+      "id": "tarim-013",
+      "soru": "Tarımsal üretimde verimliliği artıran en önemli etmenlerden biri de toprağın mineral ihtiyacının karşılanmasıdır. Türkiye'de suni gübre kullanımıyla ilgili olarak,\nI. Sulama olanaklarının yetersiz olduğu kuru tarım alanlarında gübreden istenen verim alınamaz.\nII. Gübre tüketiminin artması, tarımsal dış ticarette ülkeye büyük oranda döviz girdisi sağlar.\nIII. İntansif tarımın yapıldığı bölgelerde ekstansif bölgelere kıyasla gübre kullanımı daha azdır.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) I ve III",
+        "E) II ve III"
+      ],
+      "dogru": "A) Yalnız I",
+      "aciklama": "A şıkkı doğrudur çünkü suni gübrenin toprağa karışabilmesi ve bitki tarafından emilebilmesi için mutlak surette suya ihtiyaç vardır; sulamanın olmadığı yerlerde gübre yakıcı etki yapabilir ve verim alınamaz (I doğru). II yanlıştır çünkü Türkiye suni gübre hammaddesinde (fosfat vb.) dışa bağımlı olduğundan tüketim artışı döviz girdisi değil döviz çıktısı yaratır. III yanlıştır zira modern (intansif) tarım bölgelerinde gübre tüketimi ekstansif bölgelere göre çok daha yüksektir.",
+      "harita_il": null,
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-014",
+      "soru": "Nadas uygulaması, toprağın su ihtiyacını karşılamak için bir yıl ekilip ertesi yıl boş bırakılmasıdır ve genellikle kurak veya yarı kurak iklim bölgelerinde yaygındır. Aşağıdaki il ve nadas alanlarının tarım alanları içindeki oranı eşleşmelerinden hangisi yanlıştır?",
+      "siklar": [
+        "A) Konya — Nadas oranı yüksek",
+        "B) Nevşehir — Nadas oranı yüksek",
+        "C) Rize — Nadas oranı yüksek",
+        "D) Yozgat — Nadas oranı yüksek",
+        "E) Kırşehir — Nadas oranı yüksek"
+      ],
+      "dogru": "C) Rize — Nadas oranı yüksek",
+      "aciklama": "C şıkkı doğrudur (yanlış eşleşmedir) çünkü Rize, her mevsimi düzenli ve bol yağış alan Karadeniz iklimine sahiptir; bu sebeple toprakta su eksikliği yaşanmadığından nadas uygulamasına ihtiyaç duyulmaz. A, B, D ve E şıklarında yer alan Konya, Nevşehir, Yozgat ve Kırşehir illeri ise İç Anadolu'nun kurak ve yarı kurak iklim kuşağında yer aldıkları için Türkiye'de nadas uygulamasının en geniş yer tuttuğu iller arasındadır.",
+      "harita_il": "rize",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-015",
+      "soru": "Türkiye'de tarım alanlarının miras yoluyla çok küçük parsellere bölünmesi, verimi düşüren önemli bir yapısal sorundur. Bu sorunun çözümüne yönelik olarak devlet tarafından uygulanan en etkili yöntem aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Kırsal kesimden kentlere göçün teşvik edilmesi",
+        "B) Arazi toplulaştırma çalışmalarının hızlandırılması",
+        "C) Nadas uygulamasının ülke genelinde zorunlu hale getirilmesi",
+        "D) Tarımsal ürün çeşitliliğinin azaltılarak tek tipe indirilmesi",
+        "E) Mera hayvancılığının yerine ahır hayvancılığının desteklenmesi"
+      ],
+      "dogru": "B) Arazi toplulaştırma çalışmalarının hızlandırılması",
+      "aciklama": "B şıkkı doğrudur çünkü miras yoluyla parçalanmış olan dağınık ve çok sayıdaki küçük arazinin, sahiplerinin rızası veya devlet eliyle birleştirilerek tek ve büyük parseller haline getirilmesi işlemine 'arazi toplulaştırması' denir. Bu işlem tarlada makine kullanımını kolaylaştırır, sınır ve yol kayıplarını önler ve sulama altyapısının daha ucuza kurulmasını sağlar. A, C ve D şıkları tarımsal verim sorunlarına rasyonel çözümler değildir.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-016",
+      "soru": "Yukarıdaki haritada numaralandırılarak gösterilen merkezlerin hangisinde, modern (intansif) tarım yöntemlerinin gelişmiş olması nedeniyle tarımsal verimlilik diğerlerine göre daha yüksektir?",
+      "siklar": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV",
+        "E) V"
+      ],
+      "dogru": "E) V",
+      "aciklama": "E şıkkı doğrudur çünkü V numaralı bölge, Türkiye'nin en verimli tarım alanlarından biri olan Çukurova'yı (Adana) göstermektedir; burada sulama, gübreleme, makineleşme gibi intansif tarım şartları son derece gelişmiştir. I (Artvin), II (Hakkari), III (Kars) ve IV (Tunceli) numaralı yöreler ise hem yer şekillerinin engebeli olduğu hem de iklim şartlarının çok sert geçtiği alanlar olduğundan modern tarım uygulamaları buralarda oldukça sınırlı kalmıştır.",
+      "harita_il": "adana",
+      "zorluk": "orta",
+      "gorsel": "tarim/tarim-016.svg",
+      "gorsel_veri": {
+        "I": "artvin",
+        "II": "hakkari",
+        "III": "kars",
+        "IV": "tunceli",
+        "V": "adana"
+      }
+    },
+    {
+      "id": "tarim-017",
+      "soru": "Tarım alanlarının dar ve parçalı, yer şekillerinin engebeli olduğu yörelerde makine kullanımı zorlaşırken tarımsal nüfus yoğunluğu artış gösterir. Bu bilgiye göre;\nI. Edirne\nII. Artvin\nIII. Hakkari\nillerinin hangilerinde yer şekillerinin engebesinden dolayı tarımsal nüfus yoğunluğunun daha fazla olması beklenir?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "D) II ve III",
+      "aciklama": "D şıkkı doğrudur çünkü tarımsal nüfus yoğunluğu formülünde paydada 'tarım alanı' yer alır. Artvin (II) ve Hakkari (III) gibi sarp yer şekillerine sahip illerimizde ekilebilir tarım alanı son derece dar olduğu için (payda küçüldüğü için) tarımsal nüfus yoğunluğu çok yüksektir. I. öncüldeki Edirne ise düz ovalardan oluştuğu için geniş tarım alanlarına sahiptir, bu nedenle tarımsal nüfus yoğunluğu düşüktür.",
+      "harita_il": "hakkari",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-018",
+      "soru": "Kuru tarım bölgelerinde uygulanan nadas yöntemi, toprağın bir yıl boyunca boş bırakılmasını içerdiği için doğa üzerinde çeşitli olumsuz etkilere yol açar. Aşağıdakilerden hangisi nadas uygulamasının zararlarından biridir?",
+      "siklar": [
+        "A) Rüzgar erozyonunun şiddetlenmesi",
+        "B) Yeraltı su seviyesinin yükselmesi",
+        "C) Topraktaki mineral oranının hızla artması",
+        "D) Tarımsal makine kullanımının tamamen imkansızlaşması",
+        "E) Yabani ot gelişiminin tamamen durması"
+      ],
+      "dogru": "A) Rüzgar erozyonunun şiddetlenmesi",
+      "aciklama": "A şıkkı doğrudur çünkü nadasa bırakılan toprak, üzerinde bitki örtüsü (ürün) bulunmadığı için rüzgara karşı tamamen korumasız kalır ve kuru, ufalanmış toprak tabakası kolayca taşınarak erozyona uğrar. B, C ve E şıkları nadasın zararı veya sonucu değildir. D şıkkı yanlıştır zira nadas uygulaması makine kullanımını engellemez, tamamen arazi düzlüğü ile ilgilidir. Nadasın en büyük ekolojik zararı erozyonu tetiklemesidir.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-019",
+      "soru": "KOP (Konya Ovası Projesi) tamamlandığında bölgenin tarımsal yapısında önemli değişiklikler yaşanması öngörülmektedir. Proje hedeflerine ulaştığında bölgede;\nI. Nadasa ayrılan arazilerin daralması\nII. Kuru tarım alanlarının genişlemesi\nIII. Endüstri bitkilerinin ekim alanının artması\ndurumlarından hangilerinin gerçekleşmesi beklenir?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız III",
+        "C) I ve II",
+        "D) I ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "D) I ve III",
+      "aciklama": "D şıkkı doğrudur çünkü KOP ile bölgeye dış havzalardan sulama suyu getirilmesi, yağış beklemeyi gerektiren nadas alanlarını ciddi oranda daraltacaktır (I doğru) ve çiftçiler buğday/arpa yerine getirisi yüksek sulu sanayi bitkilerine (şekerpancarı, ayçiçeği, mısır) yönelecektir (III doğru). II numaralı önerme yanlıştır, zira sulamanın geldiği bir yerde kuru tarım alanları genişlemez aksine daralır ve yerini sulu tarıma bırakır.",
+      "harita_il": "konya",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-020",
+      "soru": "Haritada gösterilen illerin topografik özellikleri dikkate alındığında, hangisinde yer şekillerinin dağlık ve engebeli olmasına bağlı olarak tarım alanlarının daha dar ve parçalı olduğu söylenebilir?",
+      "siklar": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV",
+        "E) V"
+      ],
+      "dogru": "E) V",
+      "aciklama": "E şıkkı doğrudur çünkü V numaralı ilimiz olan Muğla (Menteşe Yöresi), dağların kıyıya dik ve sarp uzandığı, yer şekillerinin oldukça kırık ve engebeli olduğu bir alandır. Bu durum bölgede tarım alanlarının dar ve parçalı olmasına yol açmıştır. Edirne (I), Konya (II), Şanlıurfa (III) ve Muş (IV) illeri ise geniş düzlüklere, büyük ovalara ve daha sade bir topografyaya sahiptir.",
+      "harita_il": "mugla",
+      "zorluk": "orta",
+      "gorsel": "tarim/tarim-020.svg",
+      "gorsel_veri": {
+        "I": "edirne",
+        "II": "konya",
+        "III": "sanliurfa",
+        "IV": "mus",
+        "V": "mugla"
+      }
+    },
+    {
+      "id": "tarim-021",
+      "soru": "Tarımsal verimi artırmak amacıyla uygulanan tohum ıslahı ve ilaçlama yöntemleriyle ilgili,\nI. Birim alandan alınan tarımsal hasılayı yükseltir.\nII. Zirai kayıpları önemli ölçüde azaltır.\nIII. Ürün kalitesini ve pazar değerini artırır.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) I ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "E) I, II ve III",
+      "aciklama": "E şıkkı doğrudur çünkü kaliteli, laboratuvar ortamında ıslah edilmiş tohumların kullanılması ile ürüne zarar veren hastalıklara ve zararlılara karşı yapılan ilaçlamalar, doğrudan birim alandan alınan hasılayı (rekolteyi) artırır (I doğru). Zararlılara karşı korunan ekinin fire vermesi engellenir (II doğru) ve daha dayanıklı, standardize ürünler elde edildiği için pazar kalitesi yükselir (III doğru). Bütün bu faktörler modern (intansif) tarımın amaçları arasındadır.",
+      "harita_il": null,
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-022",
+      "soru": "Tarımda makineleşme, kırsal kesimde insan gücüne duyulan ihtiyacı azaltarak köyden kente göçü hızlandıran önemli faktörlerden biridir. Buna göre, yer şekilleri dikkate alındığında aşağıdaki illerin hangisinde makineleşmeye bağlı olarak yaşanan kırsal göçün diğerlerinden daha fazla olması beklenir?",
+      "siklar": [
+        "A) Rize",
+        "B) Hakkari",
+        "C) Yozgat",
+        "D) Artvin",
+        "E) Şırnak"
+      ],
+      "dogru": "C) Yozgat",
+      "aciklama": "C şıkkı doğrudur çünkü Yozgat, İç Anadolu Bölgesi'nde yer alan düzlük ve plato sahalarından ibarettir. Makine (traktör, biçerdöver) girmesinin çok kolay olduğu bu düz arazilerde, insanların yaptığı işi makineler devralınca işsiz kalan köylüler kentlere göç etmek zorunda kalmıştır. Rize, Hakkari, Artvin ve Şırnak gibi iller son derece sarp ve dağlık olduğu için tarımda makineleşme zordur; buralarda yaşanan göçün sebebi makineleşme değil, tarım arazilerinin darlığı ve verimsizliğidir.",
+      "harita_il": "yozgat",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-023",
+      "soru": "İç Anadolu Bölgesi'nde geniş düzlükler bulunmasına ve tarım alanlarının Türkiye ortalamasının üzerinde olmasına rağmen, tarımdan elde edilen gelir bazı kıyı bölgelerimize göre daha düşüktür. Bu durumun temel nedeni aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Tarımda ekstansif yöntemlerin baskın olması ve sulama yetersizliği",
+        "B) Tarımsal nüfus yoğunluğunun Türkiye ortalamasının çok üzerinde olması",
+        "C) Arazi toplulaştırma projelerinin sadece bu bölgede uygulanmış olması",
+        "D) Tarım arazilerinde makine kullanımının yer şekilleri nedeniyle zor olması",
+        "E) Çiftçilerin tamamının sadece endüstri bitkileri yetiştirmesi"
+      ],
+      "dogru": "A) Tarımda ekstansif yöntemlerin baskın olması ve sulama yetersizliği",
+      "aciklama": "A şıkkı doğrudur çünkü İç Anadolu Bölgesi'nde arazi çok geniş olmasına rağmen yarı kurak iklim şartlarından dolayı sulama sorunu büyüktür; bu da nadas ve ilkel tarım yöntemlerini zorunlu kılar, nihayetinde verimi düşürür. B şıkkı yanlıştır zira tarım alanları geniş olduğu için tarımsal nüfus yoğunluğu düşüktür. D şıkkı yanlıştır, düz arazide makine kullanımı kolaydır. E şıkkı yanlıştır, bölgede sanayi bitkilerinden ziyade tahıl ağırlıklı tarım yapılır.",
+      "harita_il": "kirsehir",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-024",
+      "soru": "X yöresinde buğday tarımı yapılan geniş arazilerde rekolte (üretim miktarı) yıllara göre çok büyük dalgalanmalar gösterirken, Y yöresinde daha dar bir alanda yapılan pamuk tarımında üretim miktarı yıllar boyunca oldukça istikrarlı seyretmiştir. Bu durum Y yöresinin aşağıdaki özelliklerinden hangisiyle en iyi açıklanabilir?",
+      "siklar": [
+        "A) Tarımsal faaliyetlerin yağış rejimine paralel yapılması",
+        "B) Topraklarının humus bakımından zayıf olması",
+        "C) Modern sulama tekniklerinin yaygın olarak kullanılması",
+        "D) Tarımsal nüfus oranının X yöresinden daha düşük olması",
+        "E) Karasallık şiddetinin X yöresinden daha yüksek olması"
+      ],
+      "dogru": "C) Modern sulama tekniklerinin yaygın olarak kullanılması",
+      "aciklama": "C şıkkı doğrudur çünkü Y yöresinde üretimin istikrarlı olması ve yıllar arası dalgalanma görülmemesi, o bölgede intansif (modern) tarım yöntemlerinin, özellikle de 'sulama' imkanlarının geliştiğinin en büyük kanıtıdır. X yöresinde ise yağışa (iklime) bağımlılık sürdüğü için kurak geçen yıllarda üretim düşmekte, yağışlı yıllarda artmaktadır. Bu dalgalanmayı kıran yegane unsur suyun insan eliyle tarlaya ulaştırılmasıdır.",
+      "harita_il": null,
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-025",
+      "soru": "Türkiye'de geniş alanlarda tarımı yapılan buğday, filizlenme döneminde yağış, olgunlaşma döneminde ise kuraklık istemektedir. Bu özelliğinden dolayı aşağıdaki illerin hangisinde buğday tarımının doğal koşullarda yapılması daha zordur?",
+      "siklar": [
+        "A) Konya",
+        "B) Yozgat",
+        "C) Rize",
+        "D) Ankara",
+        "E) Eskişehir"
+      ],
+      "dogru": "C) Rize",
+      "aciklama": "C şıkkı doğrudur çünkü Rize, her mevsim yağış alan Karadeniz ikliminin etkisi altındadır ve yaz kuraklığı yaşamaz. Buğday ise filizlenme döneminde yağış, olgunlaşma ve hasat döneminde ise kesinlikle şiddetli bir yaz kuraklığı ister. A, B, D ve E şıklarındaki iller (Konya, Yozgat, Ankara, Eskişehir) karasal iklime sahip oldukları için yaz mevsimleri kurak geçer ve buğday tarımına oldukça elverişlidir. Genel kural olarak, Doğu Karadeniz kıyı kuşağında yaz yağışlarından dolayı buğday tarımı yapılamaz; bunun yerine mısır tercih edilir.",
+      "harita_il": "rize",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-026",
+      "soru": "Arpa ile buğdayın Türkiye'deki yetişme koşulları ve ekim alanları karşılaştırıldığında, aşağıdakilerden hangisi yalnızca arpa için söylenebilir?",
+      "siklar": [
+        "A) Olgunlaşma döneminde yaz kuraklığına ihtiyaç duyması",
+        "B) İç Anadolu Bölgesi'nde geniş ekim alanlarına sahip olması",
+        "C) Yüksek rakımlı ve soğuk kış şartlarının görüldüğü alanlarda buğdaya göre daha fazla tercih edilmesi",
+        "D) Kuru tarım yönteminin uygulandığı alanlarda üretilebilmesi",
+        "E) Üretim miktarında yıllar arasında iklime bağlı dalgalanmalar görülmesi"
+      ],
+      "dogru": "C) Yüksek rakımlı ve soğuk kış şartlarının görüldüğü alanlarda buğdaya göre daha fazla tercih edilmesi",
+      "aciklama": "C şıkkı doğrudur çünkü arpa, buğdaya kıyasla düşük sıcaklıklara daha dayanıklı olan ve vejetasyon (olgunlaşma) süresi daha kısa olan bir tahıldır. Bu biyolojik özelliği sayesinde, Erzurum ve Kars gibi yüksek rakımlı, yazların kısa ve serin geçtiği alanlarda buğdayın yetişemediği yerlerde temel ürün olarak arpa tercih edilmektedir. A, B, D ve E şıkları yanlıştır zira her iki ürün de olgunlaşma evresinde yaz kuraklığı ister, İç Anadolu'da geniş alanlarda kuru tarım yöntemiyle yetiştirilirler ve iklime bağlı oldukları için üretimlerinde yıllar arasında dalgalanmalar görülür.",
+      "harita_il": "erzurum",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-027",
+      "soru": "Mısır, doğal yetişme alanı Karadeniz kıyıları olmasına rağmen günümüzde en fazla üretim Akdeniz Bölgesi'nde sulama imkânlarıyla yapılmaktadır. Buna rağmen Karadeniz kıyılarında üretilen mısırın ticari değerinin düşük olmasının temel nedeni aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Üretilen mısırın büyük bölümünün yöre halkı tarafından temel besin maddesi olarak tüketilmesi",
+        "B) Karadeniz Bölgesi'nde mısır veriminin Akdeniz Bölgesi'ne göre daha düşük olması",
+        "C) Dağlık engebenin tarım alanlarını daraltması",
+        "D) Mısır tarımının devlet kontrolünde yapılması",
+        "E) Yaz yağışlarının mısırın kalitesini düşürmesi"
+      ],
+      "dogru": "A) Üretilen mısırın büyük bölümünün yöre halkı tarafından temel besin maddesi olarak tüketilmesi",
+      "aciklama": "A şıkkı doğrudur çünkü Karadeniz Bölgesi mısırın doğal yetişme alanı olmasına rağmen, bölge halkı buğday yetiştiremediği için mısırı temel besin maddesi (un, ekmek yapımı) olarak kendi tüketimi için üretmektedir. Bu nedenle Karadeniz'de üretilen mısır sanayiye veya ticarete katılmaz. B ve C şıkları yanlıştır zira temel neden verim düşüklüğü veya engebeli arazi değil, üretim amacıdır. D şıkkı yanlıştır zira mısır üretimi hiçbir dönemde devlet kontrolünde (kota) olmamıştır. E şıkkı yanlıştır, mısır zaten yaz yağışı isteyen bir bitkidir.",
+      "harita_il": "trabzon",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-028",
+      "soru": "Türkiye'de tarımı yapılan şeker pancarı ile ilgili,\nI. Hasat edildikten sonra kısa sürede işlenmesi gerektiğinden fabrikalar üretim alanlarına yakın kurulur.\nII. Üretiminin en fazla yapıldığı yer, yaz yağışlarının belirgin olduğu Doğu Karadeniz kıyılarıdır.\nIII. Fabrika atıkları (küspe) hayvan yemi olarak kullanıldığı için fabrikaların çevresinde besi hayvancılığı gelişmiştir.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve III",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve III",
+      "aciklama": "C şıkkı (I ve III) doğrudur çünkü şeker pancarı tarladan söküldükten sonra hızla su kaybedip bozulan bir üründür, bu yüzden nakliyesi zordur ve fabrikalar üretim alanlarının hemen yakınına kurulmak zorundadır (I). Fabrikalardan arta kalan küspe iyi bir hayvan yemidir, bu durum tesis çevresinde ahır (besi) hayvancılığını geliştirir (III). A, B, D ve E şıkları yanlıştır çünkü II numaralı önerme tamamen yanlıştır; şeker pancarı Karadeniz kıyılarında yüksek nem ve yaz yağışı nedeniyle yeterli şeker oranına ulaşamaz, üretimi en fazla İç Anadolu'da yapılır.",
+      "harita_il": "konya",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-029",
+      "soru": "Aşağıdaki tarım ürünlerinden hangisi yetişme koşulları ve kullanım alanı bakımından endüstri (sanayi) bitkileri grubunda değerlendirilemez?",
+      "siklar": [
+        "A) Pamuk",
+        "B) Tütün",
+        "C) Şeker pancarı",
+        "D) Arpa",
+        "E) Çay"
+      ],
+      "dogru": "D) Arpa",
+      "aciklama": "D şıkkı doğrudur çünkü arpa doğrudan insan beslenmesinde veya hayvan yemi olarak tüketilen, tahıllar (hububat) grubuna ait bir tarım ürünüdür. A, B, C ve E şıkları yanlıştır zira pamuk (tekstil ve iplik sanayisi), tütün (sigara sanayisi), şeker pancarı (gıda sanayisi) ve çay (içecek sanayisi) fabrikalarda belirli işlemlerden geçerek mamul maddeye dönüştürülen endüstri (sanayi) bitkileridir. Endüstri bitkileri genel olarak tarıma dayalı sanayi kollarının temel ham maddesini oluşturarak ekonomiye yüksek katma değer sağlarlar.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-030",
+      "soru": "Aşağıda bazı endüstri bitkileri ve bu bitkilere ait belirgin özellikler eşleştirilmiştir. Bu eşleştirmelerden hangisi yanlıştır?",
+      "siklar": [
+        "A) Pamuk — Çukurova ve Güneydoğu Anadolu'da sulama ile geniş alanlarda üretilmesi",
+        "B) Şeker pancarı — Kıyı bölgelerinde yüksek gelir getiren ürünlerin tercih edilmesi nedeniyle ekiminin iç bölgelerde yoğunlaşması",
+        "C) Tütün — Kaliteyi korumak amacıyla üretiminin tamamen devlet tekeli ve kontrolünde yapılması",
+        "D) Çay — Yıkanmış, kireçsiz ve asidik topraklarda sadece belirli bir yörede yetişebilmesi",
+        "E) Mısır — Akdeniz Bölgesi'nde doğal yetişme şartlarının olmamasına rağmen sulama ile ticari amaçlı üretilmesi"
+      ],
+      "dogru": "C) Tütün — Kaliteyi korumak amacıyla üretiminin tamamen devlet tekeli ve kontrolünde yapılması",
+      "aciklama": "C şıkkı doğrudur (eşleşme yanlıştır) çünkü tütün üretiminde Türk tütününün marka değerini ve kalitesini korumak için devlet kontrolü (kota sistemi) uygulanmaktadır; ancak 'üretimin tamamen devlet tekeli eliyle yapılması' ifadesi günümüz için geçerli değildir, zira TEKEL özelleştirilmiş olup üretim sözleşmeli tarım modeliyle özel sektör tarafından yapılmaktadır. A, B, D ve E şıkları doğrudur çünkü pamuk sulama ile geniş alanlara yayılır, şeker pancarı kıyı ovalarında daha çok kazandıran ürünlerle rekabet edemez, çay sadece yıkanmış asidik topraklarda Rize çevresinde yetişir ve mısır Akdeniz'de ticari amaçla sulanarak üretilir.",
+      "harita_il": "manisa",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-031",
+      "soru": "Türkiye'de çay tarımıyla ilgili,\nI. Her mevsim yağışlı ve bulutlu gün sayısının fazla olduğu iklimleri sever.\nII. Yıkanmanın fazla olduğu kireçsiz topraklarda verimi yüksektir.\nIII. Haritada I, II ve III numarayla gösterilen alanlar çay tarımının yoğun olarak yapıldığı yerlerdir.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) I ve II",
+        "C) I ve III",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "E) I, II ve III",
+      "aciklama": "E şıkkı (I, II ve III) doğrudur çünkü çay bitkisi çok seçici bir ekolojiye sahiptir; her mevsim yağış alan, bulutlu gün sayısının yüksek olduğu ve doğrudan güneş ışığına fazla maruz kalmayan iklimleri sever (I). Ayrıca yağışlarla yıkanmış, kireç oranı düşük, asidik ve bol humuslu topraklarda yüksek verim verir (II). Haritada I (Rize), II (Artvin) ve III (Trabzon) numaralı alanlar, Türkiye'de bu mikroklima şartlarını sağlayan yegane yerlerdir ve çay tarımının tamamı bu dar kıyı şeridinde yapılmaktadır (III). A, B, C ve D şıkları eksik değerlendirme içermektedir.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": "tarim/tarim-031.svg",
+      "gorsel_veri": {
+        "I": "rize",
+        "II": "artvin",
+        "III": "trabzon",
+        "IV": "gaziantep",
+        "V": "mardin"
+      }
+    },
+    {
+      "id": "tarim-032",
+      "soru": "Doğu Karadeniz kıyı kuşağında buğday tarımının gelişmemesinin ve ekim alanlarının oldukça sınırlı olmasının temel nedeni aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Tarım alanlarının engebeli olması",
+        "B) Toprakların aşırı yıkanmış ve asidik karakterde olması",
+        "C) Yaz aylarının yağışlı geçmesinin buğdayın olgunlaşmasını engellemesi",
+        "D) Yörede mısır üretiminin devlet tarafından teşvik edilmesi",
+        "E) Kış sıcaklıklarının buğdayın çimlenmesi için yetersiz kalması"
+      ],
+      "dogru": "C) Yaz aylarının yağışlı geçmesinin buğdayın olgunlaşmasını engellemesi",
+      "aciklama": "C şıkkı doğrudur çünkü tahıl grubunun en önemli üyesi olan buğday, büyüme evresinde su isterken hasat ve olgunlaşma döneminde (yaz aylarında) mutlaka kuraklık ve sıcaklık ister. Doğu Karadeniz kıyı kuşağı her mevsim yağışlı olduğu için yazları da yağış alır, bu durum buğdayın başaklarının olgunlaşamadan çürümesine neden olur. A ve B şıkları yanlıştır çünkü tarımı sınırlayan asıl faktör arazinin engebesi veya toprağın yıkanmış olması değil, doğrudan makroklima özellikleridir. D ve E şıkları yanlıştır; devletin mısır teşviki yoktur ve kıyıda kışlar ılıman geçer.",
+      "harita_il": "giresun",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-033",
+      "soru": "Bir araştırmacı Karadeniz ve Akdeniz bölgelerinde mısır tarımını incelemiş; Karadeniz'de mısırın doğal yağışlarla yetiştirilip halkın günlük gıda ihtiyacını karşıladığını, Akdeniz'de ise sulama ile yetiştirilip sanayide kullanılmak üzere yüksek kazanç elde etmek amacıyla üretildiğini gözlemlemiştir. Bu durum aşağıdakilerden hangisinin sonucudur?",
+      "siklar": [
+        "A) Mısırın ekolojik toleransının çok dar olmasının",
+        "B) Akdeniz Bölgesi'nde mısırın ikinci ürün olarak yetiştirilebilme imkânının bulunmasının",
+        "C) Karadeniz Bölgesi'nde tarımsal makine kullanımının gelişmiş olmasının",
+        "D) Akdeniz Bölgesi'nde karstik arazilerin tarımı sınırlandırmasının",
+        "E) İki bölge arasındaki yükselti ortalamalarının farklı olmasının"
+      ],
+      "dogru": "B) Akdeniz Bölgesi'nde mısırın ikinci ürün olarak yetiştirilebilme imkânının bulunmasının",
+      "aciklama": "B şıkkı doğrudur çünkü Akdeniz Bölgesi'nde yaz mevsimi çok uzun ve sıcak geçmektedir. Bu durum, buğday hasadından hemen sonra tarlaların boş kalmaması için çiftçilerin mısırı ikinci ürün (sılajlık veya yağlık) olarak ekmesine olanak tanır. Çukurova gibi alanlarda sulama imkânlarının da yardımıyla mısır, sanayide kullanılmak üzere yüksek kazanç elde etmek amacıyla üretilir. A şıkkı yanlıştır, mısırın ekolojik toleransı dardır denemez. C, D ve E şıkları yanlıştır; makineleşme, karstik araziler veya yükselti mısırın ticari kullanım amacındaki bu belirgin bölgesel farklılığı doğrudan açıklayan temel etkenler değildir.",
+      "harita_il": "adana",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-034",
+      "soru": "Türkiye'de pirinç (çeltik) tarımının üretim alanları, iklim ve toprak şartları uygun olmasına rağmen her yerde yapılamamakta ve ekim alanları devlet tarafından sınırlandırılmaktadır. Bu durumun temel nedeni aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Üretiminin sadece ihraç amacıyla yapılması",
+        "B) Su içinde yetişen bitkinin bulunduğu alanlarda sıtma hastalığı riskinin olması",
+        "C) Çok fazla su tüketerek yeraltı su seviyesini düşürmesi",
+        "D) Ekim nöbeti (nadas) uygulamasının zorunlu olması",
+        "E) Topraktaki mineral dengesini hızlıca bozması"
+      ],
+      "dogru": "B) Su içinde yetişen bitkinin bulunduğu alanlarda sıtma hastalığı riskinin olması",
+      "aciklama": "B şıkkı doğrudur çünkü pirinç (çeltik) bitkisi büyüme süreci boyunca 'tava' adı verilen ve sürekli su dolu tutulan havuzlarda yetiştirilir. Bu geniş yüzeyli durgun sular, sivrisineklerin hızla üremesi için son derece uygun bir ortam oluşturur ve bu durum sıtma hastalığı riskini artırır. Halk sağlığını korumak amacıyla yerleşim birimlerinin yakınında çeltik ekimine izin verilmez, üretim tamamen devlet kontrolünde (izin belgesiyle) yapılır. A, C, D ve E şıkları yanlıştır zira devletin müdahalesinin ekonomik, hidrolojik veya toprağa dair bir gerekçesi yoktur; temel neden tamamen sağlık politikasıdır.",
+      "harita_il": "edirne",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-035",
+      "soru": "Haritada numaralandırılmış yörelerde buğday tarımının yaygın olmamasıyla ilgili,\nI. I, II ve III numaralı alanlarda yaz yağışlarının olgunlaşmayı engellemesi etkilidir.\nII. IV ve V numaralı alanlarda yaz süresinin kısalığı ve düşük sıcaklıklar etkilidir.\nIII. Tüm alanlarda karstik arazinin yaygın olması üretimi zorlaştırmaktadır.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "C şıkkı (I ve II) doğrudur çünkü Türkiye'de buğday tarımının yapılamadığı iki temel alan vardır. I, II ve III numaralı alanlar (Doğu Karadeniz kıyıları) her mevsim yağışlı olduğu için buğdayın olgunlaşması için gereken yaz kuraklığına sahip değildir. IV ve V numaralı alanlar (Erzurum-Kars platosu) ise çok yüksek olduğu için yaz süresi çok kısa ve serindir, buğday olgunlaşamadan donar (II). A, B, D ve E şıkları yanlıştır çünkü III numaralı önerme yanlıştır; bu yörelerin hiçbirinde karstik arazi (kalker) yaygın değildir, karstik arazi Akdeniz'de yoğunlaşır.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": "tarim/tarim-035.svg",
+      "gorsel_veri": {
+        "I": "rize",
+        "II": "artvin",
+        "III": "trabzon",
+        "IV": "erzurum",
+        "V": "kars"
+      }
+    },
+    {
+      "id": "tarim-036",
+      "soru": "Aşağıdaki tarım ürünü ve bu ürünün Türkiye'de en fazla yetiştirildiği yöre eşleştirmelerinden hangisi yanlıştır?",
+      "siklar": [
+        "A) Buğday — İç Anadolu Bölgesi",
+        "B) Çay — Doğu Karadeniz Bölümü",
+        "C) Pamuk — Güneydoğu Anadolu Projesi (GAP) alanı",
+        "D) Mısır — Akdeniz kıyı kuşağı",
+        "E) Şeker pancarı — Ege Bölgesi kıyı ovaları"
+      ],
+      "dogru": "E) Şeker pancarı — Ege Bölgesi kıyı ovaları",
+      "aciklama": "E şıkkı doğrudur (eşleşme yanlıştır) çünkü şeker pancarı Ege Bölgesi'nin kıyı ovalarında yetiştirilmez. Ege kıyılarında (Bakırçay, Gediz, Küçük ve Büyük Menderes) ılıman iklim sayesinde incir, pamuk, zeytin, üzüm gibi ihracat değeri ve ekonomik getirisi daha yüksek olan tarım ürünleri tercih edilir. Şeker pancarı ise karasal iklime uyum sağlamış olup İç Anadolu Bölgesi'nde yoğunlaşmıştır. A, B, C ve D şıkları doğrudur zira buğday karasal iç bölgelerde, çay Rize yöresinde, pamuk Şanlıurfa önderliğindeki GAP alanında, mısır ise Akdeniz kıyı kuşağında en fazla üretilen ürünlerdir.",
+      "harita_il": "izmir",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-037",
+      "soru": "Tütün bitkisi toprak seçiciliği fazla olan ve kaliteli üretim için kıraç toprakları tercih eden bir endüstri bitkisidir. Türkiye'nin dünya standartlarında kaliteli tütün üretebilmesi ve marka değerini koruyabilmesi için aşağıdakilerden hangisi uygulanmaktadır?",
+      "siklar": [
+        "A) Tütün ekim alanlarının genişletilerek üretimin artırılması",
+        "B) Üretimin devlet tarafından kota (sınırlandırma) uygulamasıyla denetlenmesi",
+        "C) Tütün tarımında sulama imkânlarının her bölgede yaygınlaştırılması",
+        "D) Tütün fidesinin ithal edilerek yerli üreticilere dağıtılması",
+        "E) Hasat döneminde modern tarım makinelerinin zorunlu tutulması"
+      ],
+      "dogru": "B) Üretimin devlet tarafından kota (sınırlandırma) uygulamasıyla denetlenmesi",
+      "aciklama": "B şıkkı doğrudur çünkü tütün, toprak seçiciliği oldukça yüksek olan bir bitkidir; kıraç, eğimli ve suyu çabuk süzen topraklarda yetiştiğinde yapraklarındaki nikotin ve aroma oranı artarak kaliteli hale gelir. Verimli, sulu ve düz ovalarda ekildiğinde verim artsa da kalite hızla düşer. Türk tütününün dünya pazarındaki marka değerini korumak için devlet, tütün ekimini sadece uygun arazilere tahsis ederek kota uygular. A, C, D ve E şıkları yanlıştır; ekim alanını rastgele genişletmek, sulamayı artırmak veya makine kullanmak tütünün kalitesini düşürür veya doğrudan etkilemez.",
+      "harita_il": "samsun",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-038",
+      "soru": "Tahılların yetişme şartları incelendiğinde, buğdayın iç kesimlerde, mısırın Karadeniz kıyılarında doğal olarak yetişebildiği görülmektedir. Bu iki ürünün doğal yetişme alanlarındaki farklılığın temel nedeni aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Don olaylarına karşı gösterdikleri direnç farkı",
+        "B) Olgunlaşma dönemlerinde ihtiyaç duydukları nem ve yağış farkı",
+        "C) İhtiyaç duydukları toprak tipi özellikleri",
+        "D) Yetiştirilmeleri için gereken yükselti sınırları",
+        "E) Hasat süreçlerinde gereken makine kullanım oranları"
+      ],
+      "dogru": "B) Olgunlaşma dönemlerinde ihtiyaç duydukları nem ve yağış farkı",
+      "aciklama": "B şıkkı doğrudur çünkü her iki bitki de tahıl grubunda olmasına rağmen nem istekleri tamamen zıttır. Buğday, büyüme döneminde nem isterken olgunlaşma döneminde kesinlikle kurak ve güneşli bir hava talep eder. Mısır ise gelişme süresi boyunca sürekli nem ve bol yağış ister. Bu yüzden mısır yazların yağışlı geçtiği Karadeniz iklimine uyum sağlarken, buğday İç Anadolu'nun karasal yaz kuraklığına uyum sağlamıştır. A, C, D ve E şıkları yanlıştır zira her iki bitkinin de bölgesel ayrımını yaratan temel fizyolojik fark don veya toprak değil, doğrudan olgunlaşma dönemi nem ihtiyacıdır.",
+      "harita_il": "konya",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-039",
+      "soru": "Haritada gösterilen alanlar Türkiye'de pamuk tarımının yapıldığı önemli merkezlerdir. Pamuğun yetişme evresinde bol su, olgunlaşma evresinde ise kuraklık istediği bilinmektedir. Güneydoğu Anadolu Projesi'nin (GAP) tamamlanmasıyla pamuk üretiminde birinci sıraya yerleşen ve haritada I numarayla gösterilen il aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Diyarbakır",
+        "B) Gaziantep",
+        "C) Şanlıurfa",
+        "D) Mardin",
+        "E) Adıyaman"
+      ],
+      "dogru": "C) Şanlıurfa",
+      "aciklama": "C şıkkı doğrudur çünkü Güneydoğu Anadolu Projesi (GAP) kapsamında Atatürk Barajı ve sulama kanallarının (Şanlıurfa tünelleri gibi) devreye girmesiyle birlikte bölgede sulu tarım hızla yaygınlaşmıştır. Pamuk yüksek sıcaklık isteyen ancak büyüme evresinde suya ihtiyaç duyan bir bitki olduğundan, Şanlıurfa (I numara) Türkiye'nin en fazla pamuk üreten ili konumuna yükselmiştir. A, B, D ve E şıkları yanlıştır çünkü haritada I numara ile gösterilen ve Türkiye pamuk üretiminin yarısından fazlasını tek başına karşılayan il Şanlıurfa'dır; diğer iller üretimde bu kadar dominant değildir.",
+      "harita_il": null,
+      "zorluk": "zor",
+      "gorsel": "tarim/tarim-039.svg",
+      "gorsel_veri": {
+        "I": "sanliurfa",
+        "II": "diyarbakir",
+        "III": "adana",
+        "IV": "aydin",
+        "V": "hatay"
+      }
+    },
+    {
+      "id": "tarim-040",
+      "soru": "Türkiye'de buğday hasadı Akdeniz Bölgesi'nde mayıs ayı sonlarında başlarken, Doğu Anadolu Bölgesi'nde ağustos ayına kadar sarkmaktadır. Bölgeler arasında buğday hasat zamanında görülen bu farklılığın temel nedeni aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Bölgeler arasındaki enlem ve yükselti farklılıklarının sıcaklığı etkilemesi",
+        "B) Akdeniz Bölgesi'nde sulu tarımın yaygın olarak yapılması",
+        "C) Doğu Anadolu Bölgesi'nde topraktaki humus oranının düşük olması",
+        "D) Tarımsal makineleşmenin bölgeler arasında dengesiz dağılması",
+        "E) Akdeniz Bölgesi'nde farklı buğday türlerinin kullanılması"
+      ],
+      "dogru": "A) Bölgeler arasındaki enlem ve yükselti farklılıklarının sıcaklığı etkilemesi",
+      "aciklama": "A şıkkı doğrudur çünkü tarım ürünlerinin olgunlaşıp hasat edilecek hale gelmesi bölgenin sıcaklık birikimine bağlıdır. Akdeniz Bölgesi, hem Ekvator'a yakınlığı (enlem etkisi) hem de deniz seviyesinde olması (yükseltinin azlığı) nedeniyle ilkbaharda hızla ısınır ve ürünler mayıs sonunda olgunlaşır. Doğu Anadolu ise yüksek rakımı ve karasallığı nedeniyle geç ısınır, bu nedenle hasat ağustosa sarkar. B, C, D ve E şıkları yanlıştır zira sulama oranları, humus miktarı veya makineleşme farkı, bir bitkinin biyolojik olgunlaşma döngüsünü doğrudan iklim koşulları kadar etkileyemez.",
+      "harita_il": "erzurum",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-041",
+      "soru": "Türkiye'de yetiştirilen sanayi bitkileri ile ilgili,\nI. Pamuk üretiminde günümüzde Akdeniz Bölgesi ilk sırada yer almaktadır.\nII. Şeker pancarının ekim alanları kıyı bölgelerinden ziyade iç kesimlerde toplanmıştır.\nIII. Tütün, kalitesini korumak amacıyla devlet kontrolünde belirli alanlarda yetiştirilen bir bitkidir.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "D) II ve III",
+      "aciklama": "D şıkkı (II ve III) doğrudur. Şeker pancarının ekim alanları, kıyı bölgelerinde çiftçilerin daha yüksek getirili ürünleri tercih etmesinden dolayı iç bölgelerde (İç Anadolu) toplanmıştır (II). Tütün ise, kalitesini korumak ve pazar değerini düşürmemek amacıyla devlet tarafından sınırlandırılan (kota uygulanan) ve sadece uygun kıraç arazilerde yetiştirilmesine izin verilen bir bitkidir (III). A, B, C ve E şıkları yanlıştır çünkü I numaralı önerme yanlıştır; pamuk üretiminde Ege veya Akdeniz değil, GAP'ın etkisiyle Güneydoğu Anadolu Bölgesi ilk sırada yer almaktadır.",
+      "harita_il": "sanliurfa",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-042",
+      "soru": "Türkiye'de tekstil (dokuma) sanayisinin gelişmesinde hammadde temininin kolay olması büyük rol oynar. Buna göre, Adana, İzmir ve Şanlıurfa gibi illerde pamuklu dokuma sanayisinin gelişmesinin temel nedeni aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Yabancı sermaye yatırımlarının bu illerde yoğunlaşması",
+        "B) Enerji kaynaklarına yakınlık ilkesinin gözetilmesi",
+        "C) Tarımsal hammadde üretim alanlarına yakın olmaları",
+        "D) Nitelikli iş gücünün bu illerde toplanması",
+        "E) İklim koşullarının sanayi tesislerinin çalışmasına uygun olması"
+      ],
+      "dogru": "C) Tarımsal hammadde üretim alanlarına yakın olmaları",
+      "aciklama": "C şıkkı doğrudur çünkü dokuma (tekstil) sanayisinde taşıma (nakliye) masraflarını en aza indirmek ve üretime hızlıca geçmek için fabrikalar hammadde alanlarına yakın yerlere kurulur. Adana (Çukurova), İzmir (Ege ovaları) ve Şanlıurfa (Harran ovası vb.) pamuk tarımının Türkiye'deki merkezleridir ve bu yüzden dokuma fabrikaları da bu illerde kümelenmiştir. A, B, D ve E şıkları yanlıştır zira tekstil sanayisinin yer seçiminde enerjiye veya pazar alanlarına yakınlıktan ziyade doğrudan hammaddeye (pamuğa) yakınlık ilkesi baskındır.",
+      "harita_il": "adana",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-043",
+      "soru": "Haritada işaretlenen illerin tarımsal özellikleri incelendiğinde,\nI. I, II, III ve IV numaralı merkezlerde tütün tarımı yapılmaktadır.\nII. V numaralı merkez Türkiye'de çeltik (pirinç) üretiminde ilk sırada yer alır.\nIII. Tütün üretimindeki devlet kontrolünün amacı sıtma hastalığını engellemektir.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "C şıkkı (I ve II) doğrudur çünkü Manisa, Denizli, Samsun ve Bitlis, eğimli ve kıraç arazileri sayesinde Türkiye'nin en kaliteli tütünlerinin yetiştirildiği (I) ve Edirne'nin Meriç havzasındaki yaygın sulak arazileri sayesinde çeltik (pirinç) üretiminde ilk sırada olduğu (II) bilinmektedir. A, B, D ve E şıkları yanlıştır çünkü III numaralı önerme hatalıdır; her ne kadar ikisi de devlet kontrolünde olsa da, tütün üretimindeki kontrolün amacı kaliteyi korumaktır, sıtma hastalığı gibi sağlık gerekçeleri tütün için değil pirinç üretimi için geçerlidir.",
+      "harita_il": null,
+      "zorluk": "zor",
+      "gorsel": "tarim/tarim-043.svg",
+      "gorsel_veri": {
+        "I": "manisa",
+        "II": "samsun",
+        "III": "bitlis",
+        "IV": "denizli",
+        "V": "edirne"
+      }
+    },
+    {
+      "id": "tarim-044",
+      "soru": "Aşağıdaki tahıl ürünlerinden hangisi, soğuğa ve kuraklığa karşı buğdaydan daha dayanıklı olduğu için vejetasyon (yetişme) süresinin kısa olduğu Doğu Anadolu'nun yüksek kesimlerinde temel tarım ürünü olarak tercih edilir?",
+      "siklar": [
+        "A) Pirinç",
+        "B) Mısır",
+        "C) Arpa",
+        "D) Yulaf",
+        "E) Çavdar"
+      ],
+      "dogru": "C) Arpa",
+      "aciklama": "C şıkkı doğrudur çünkü arpa, buğdaya göre daha sert iklim koşullarına, şiddetli don olaylarına ve kuraklığa daha fazla tolerans gösteren bir üründür. Aynı zamanda vejetasyon (olgunlaşma) süresi daha kısa olduğundan, yaz mevsiminin çok kısa sürdüğü Erzurum-Kars gibi Kuzeydoğu Anadolu platosunda buğdayın yerine arpa ekimi tercih edilir. A ve B şıkları yanlıştır, pirinç ve mısır sıcaklık ve su ister. E şıkkı (çavdar) da soğuğa dayanıklıdır ancak bölge hayvancılığında temel yem bitkisi olarak asıl geniş alanlarda ekilen tahıl arpadır.",
+      "harita_il": "kars",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-045",
+      "soru": "Türkiye'de şeker fabrikalarının dağılışı incelendiğinde, Marmara ve Ege kıyıları dışında ülkenin neredeyse tamamına (İç Anadolu, Doğu Anadolu, Karadeniz iç kesimleri vb.) yayılmış oldukları görülür. Bu tesislerin yurt sathına yayılmasının temel nedeni aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Şeker pancarının iklim seçiciliğinin az olması ve çabuk bozulduğu için uzağa taşınamaması",
+        "B) İç bölgelerde sanayi yatırımlarını artırmak için devlet teşviki verilmesi",
+        "C) Kıyı bölgelerinde arazilerin turizm amaçlı kullanılması",
+        "D) Şeker fabrikalarının yoğun enerji tüketimi nedeniyle kömür havzalarına kurulması",
+        "E) Tüketim merkezlerinin iç kesimlerde yoğunlaşması"
+      ],
+      "dogru": "A) Şeker pancarının iklim seçiciliğinin az olması ve çabuk bozulduğu için uzağa taşınamaması",
+      "aciklama": "A şıkkı doğrudur çünkü şeker pancarı tarladan söküldükten sonra içeriğindeki şeker oranını kaybetmeden ve çürümeden çok kısa süre içinde işlenmek zorundadır. Bu fiziki zorunluluk nedeniyle şeker pancarı uzun mesafelere taşınamaz; üretim alanlarının çevresinde mutlaka bir fabrika kurulmalıdır. İklim seçiciliği az olduğu için her bölgede (iç kesimlerde) yetiştirilebilmesi, şeker fabrikalarının da tüm ülkeye homojen yayılmasını sağlamıştır. B, C, D ve E şıkları yanlıştır zira asıl sebep devlet teşviki veya pazar alanları değil, ürünün çabuk bozulan doğasıdır.",
+      "harita_il": "yozgat",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-046",
+      "soru": "Türkiye'de tütün ekim alanları yıllar içerisinde daralma göstermiştir. Bu daralmanın yaşanmasında,\nI. Kaliteyi yükseltmek amacıyla devletin destekleme alımlarını sınırlandırması\nII. Ovalık alanlarda daha çok gelir getiren pamuk gibi ürünlerin tercih edilmesi\nIII. İklimdeki ısınma nedeniyle tütünün doğal yetişme şartlarının ortadan kalkması\nfaktörlerinden hangileri etkili olmuştur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) I ve II",
+        "C) I ve III",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "B) I ve II",
+      "aciklama": "B şıkkı (I ve II) doğrudur çünkü Türk tütününün dünya pazarındaki ünü ve kalitesi düştüğü için devlet, sulu ve verimli ovalarda tütün ekimini yasaklayarak kota (sınırlandırma) sistemini getirmiştir (I). Bu verimli ovalardaki çiftçiler de tütün yerine ekonomik getirisi daha yüksek olan pamuk, mısır veya ayçiçeği gibi bitkilere yönelmiştir (II). C, D ve E şıkları yanlıştır çünkü III numaralı önerme hatalıdır; iklimdeki ısınma veya küresel değişiklikler tütünün Türkiye'deki doğal ekolojik şartlarını ortadan kaldırmamıştır, süreç tamamen idari ve ekonomiktir.",
+      "harita_il": "manisa",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-047",
+      "soru": "Haritada Güneydoğu Anadolu Bölgesi'nde yer alan iller numaralandırılarak verilmiştir. GAP (Güneydoğu Anadolu Projesi) yatırımlarının artmasıyla birlikte bölgede sulu tarım yaygınlaşmış ve belirli sanayi bitkilerinin üretiminde patlama yaşanmıştır. Buna göre, haritada numaralandırılmış alanların genelinde sulama ile birlikte üretimi en çok artan endüstri bitkisi aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Çay",
+        "B) Pamuk",
+        "C) Tütün",
+        "D) Şeker pancarı",
+        "E) Ayçiçeği"
+      ],
+      "dogru": "B) Pamuk",
+      "aciklama": "B şıkkı doğrudur çünkü Güneydoğu Anadolu Bölgesi, Türkiye'de yaz kuraklığının ve buharlaşma şiddetinin en yüksek olduğu alandır. GAP (Güneydoğu Anadolu Projesi) sayesinde bölgeye dev barajlar ve sulama kanalları yapılmış, kuraklık aşılmıştır. Pamuk, büyüme döneminde bol su isteyen bir endüstri bitkisi olduğundan, sulama olanaklarının artmasıyla birlikte bölgede (özellikle Şanlıurfa'da) ekim alanı en fazla genişleyen ve üretimi patlama yapan ürün olmuştur. A, C, D ve E şıkları yanlıştır zira bölge ekolojisi çay ve şeker pancarı için kesinlikle uygun değildir.",
+      "harita_il": null,
+      "zorluk": "zor",
+      "gorsel": "tarim/tarim-047.svg",
+      "gorsel_veri": {
+        "I": "sanliurfa",
+        "II": "gaziantep",
+        "III": "mardin",
+        "IV": "diyarbakir",
+        "V": "batman"
+      }
+    },
+    {
+      "id": "tarim-048",
+      "soru": "Aşağıdaki tarım ürünü ve bu ürünün yetiştirilme koşulları ile ilgili eşleşmelerden hangisi yanlıştır?",
+      "siklar": [
+        "A) Buğday — Yetişme döneminde nem, olgunlaşma döneminde yaz kuraklığı ister.",
+        "B) Şeker pancarı — Kış ılıklığı istediği için sadece Akdeniz kıyılarında yetişir.",
+        "C) Çay — Yıkanmış asidik toprak ve her mevsim yağış ister.",
+        "D) Pamuk — Olgunlaşma döneminde kesinlikle yağış istemez, yüksek sıcaklık ister.",
+        "E) Mısır — Doğal yetişme alanı Karadeniz, ticari yetiştirme alanı sulama ile Akdeniz'dir."
+      ],
+      "dogru": "B) Şeker pancarı — Kış ılıklığı istediği için sadece Akdeniz kıyılarında yetişir.",
+      "aciklama": "B şıkkı doğrudur (eşleşme yanlıştır) çünkü şeker pancarı soğuğa oldukça dayanıklı, karasal iklim şartlarına tam uyum sağlamış bir bitkidir ve kesinlikle kış ılıklığı istemez. Akdeniz kıyılarında veya Ege kıyılarında yetişmemesinin nedeni iklimin uygun olmaması değil, bu alanlarda seracılık, turunçgil, pamuk gibi çok daha yüksek gelir getiren ürünlerin tercih edilmesidir; şeker pancarı iç bölgelerde yaygındır. A, C, D ve E şıkları tamamen doğrudur; pamuk yaz yağışı sevmez, çay yıkanmış toprak ister ve mısırın ticari üretimi Akdeniz'dedir.",
+      "harita_il": "konya",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-049",
+      "soru": "Türkiye'de ayçiçeği tarımı ile ilgili,\nI. Yetişme döneminde bol yağış veya sulama, olgunlaşma döneminde ise kuraklık ister.\nII. Üretiminde Marmara Bölgesi, özellikle Ergene Bölümü ilk sırada yer alır.\nIII. Kış ılıklığına ihtiyaç duyduğu için sadece kıyı bölgelerinde yetiştirilir.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "C şıkkı doğrudur çünkü ayçiçeği yaz kuraklığı isteyen, olgunlaşma döneminde güneşlenme süresinin uzun olması gereken bir yağ bitkisidir ve en çok Ergene Havzası'nda yetişir. A şıkkı yanlıştır zira Marmara Bölgesi'nin üretimde lider olduğu bilgisi de doğrudur. B şıkkı eksiktir. D ve E şıkları yanlıştır çünkü ayçiçeği kış ılıklığına ihtiyaç duymaz, karasal iklim şartlarına uyum sağlayabildiği için İç Anadolu gibi denizel etkinin olmadığı yerlerde de yetiştirilebilir.",
+      "harita_il": "edirne",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-050",
+      "soru": "Türkiye'nin farklı coğrafi bölgelerinde geniş bir ekim alanına sahip olan ve soğuğa karşı yüksek dayanıklılığı sayesinde iklim seçiciliği en az olan meyve türü aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) İncir",
+        "B) Elma",
+        "C) Fındık",
+        "D) Turunçgil",
+        "E) Muz"
+      ],
+      "dogru": "B) Elma",
+      "aciklama": "B şıkkı doğrudur çünkü elma (üzümle birlikte) Türkiye'de soğuğa karşı en dayanıklı ve iklim seçiciliği en az olan meyvelerden biridir; bu nedenle ülke genelinde geniş bir yayılış alanı bulur. İncir ve turunçgil don olaylarına karşı oldukça hassastır. Muz, tropikal iklim koşullarına ihtiyaç duyduğu için sadece çok dar bir kıyı şeridinde yetişir. Fındık ise Karadeniz ikliminin bol yağış ve nemli şartlarını gerektirir.",
+      "harita_il": "isparta",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-051",
+      "soru": "Aşağıdaki tarım ürünü ve Türkiye'de üretiminin en yoğun yapıldığı yöre eşleştirmelerinden hangisi yanlıştır?",
+      "siklar": [
+        "A) Zeytin — Ege Bölgesi",
+        "B) Fındık — Karadeniz Bölgesi",
+        "C) Ayçiçeği — Marmara Bölgesi",
+        "D) İncir — İç Anadolu Bölgesi",
+        "E) Kırmızı mercimek — Güneydoğu Anadolu Bölgesi"
+      ],
+      "dogru": "D) İncir — İç Anadolu Bölgesi",
+      "aciklama": "D şıkkı doğrudur çünkü incir don olaylarına karşı oldukça duyarlı bir meyve olup Türkiye'de üretiminin ezici çoğunluğu kışları ılık geçen Ege Bölgesi'nde, özellikle Aydın çevresinde yapılmaktadır; İç Anadolu'nun karasal iklimi incir için uygun değildir. A, B, C ve E şıklarındaki ürün-bölge eşleştirmeleri kesinlikle doğrudur. Zeytin Ege'de, fındık Karadeniz'de, ayçiçeği Ergene'de ve kırmızı mercimek Güneydoğu'da yoğun olarak tarımlanır.",
+      "harita_il": "aydin",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-052",
+      "soru": "Akdeniz ikliminin doğal bitki örtüsü maki ve onun karakteristik türlerinden biri olan zeytin, Ege ve Akdeniz kıyılarında doğal olarak yetişebilmektedir. Ancak günümüzde Türkiye'de zeytin üretiminde Ege Bölgesi birinci sıradayken, Akdeniz Bölgesi daha gerilerde kalmaktadır.\nBu durumun temel nedeni aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Akdeniz Bölgesi'nde don olaylarının daha sık yaşanması",
+        "B) Akdeniz Bölgesi'nde zeytin ağaçlarının yağış yetersizliği nedeniyle kuruması",
+        "C) Ege Bölgesi'nde tarım alanlarının dar ve parçalı olması",
+        "D) Akdeniz Bölgesi'nde çiftçilerin daha yüksek ekonomik getiri sağlayan diğer ürünlere yönelmesi",
+        "E) Ege Bölgesi'nde kış sıcaklık ortalamalarının Akdeniz'den yüksek olması"
+      ],
+      "dogru": "D) Akdeniz Bölgesi'nde çiftçilerin daha yüksek ekonomik getiri sağlayan diğer ürünlere yönelmesi",
+      "aciklama": "D şıkkı doğrudur çünkü Akdeniz Bölgesi (özellikle Çukurova, Antalya çevresi) iklim olarak zeytine çok uygun olsa da çiftçiler turunçgil, pamuk, muz, sera ürünleri gibi ekonomik getirisi daha yüksek ürünleri tercih etmektedir. A ve E şıkları yanlıştır; Akdeniz Bölgesi Ege'den daha sıcaktır ve don olayları daha azdır. B şıkkı yanlıştır zira Akdeniz yeterli yağış alır. C şıkkı Ege'nin bir özelliği olsa da bu durumun zeytin üretimine olumlu bir etkisi yoktur.",
+      "harita_il": "antalya",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-053",
+      "soru": "Yukarıdaki haritada Türkiye'de yetiştirilen bazı tarım ürünlerinin en yoğun olduğu numaralandırılmış alanlar verilmiştir.\nBuna göre, işaretli alanların tamamında yetişen ve don olaylarına karşı hassas olmaları nedeniyle iklim seçiciliği yüksek olan tarım ürünleri aşağıdakilerin hangisinde doğru eşleştirilmiştir?",
+      "siklar": [
+        "A) I - Fındık, II - Pamuk, III - Üzüm",
+        "B) I - Çay, II - Muz, III - İncir",
+        "C) I - Mısır, II - Zeytin, III - Tütün",
+        "D) I - Çay, II - Turunçgil, III - Elma",
+        "E) I - Kivi, II - Pamuk, III - Haşhaş"
+      ],
+      "dogru": "B) I - Çay, II - Muz, III - İncir",
+      "aciklama": "B şıkkı doğrudur çünkü soruda 'don olaylarına karşı hassas ve iklim seçiciliği yüksek' ürünler aranmaktadır. I numaralı alan Rize olup çay (çok yüksek nem ve kış ılıklığı ister), II numaralı alan Antalya olup muz (sadece dona karşı tam korunaklı mikroklimalarda yetişir), III numaralı alan Aydın olup incir (kış ılıklığı ister) tarımında liderdir. A şıkkı yanlıştır, üzüm iklim seçiciliği az olan bir meyvedir. D şıkkı yanlıştır, elma soğuğa dayanıklıdır ve İç Anadolu kökenlidir.",
+      "harita_il": null,
+      "zorluk": "zor",
+      "gorsel": "tarim/tarim-053.svg",
+      "gorsel_veri": {
+        "I": "rize",
+        "II": "antalya",
+        "III": "aydin"
+      }
+    },
+    {
+      "id": "tarim-054",
+      "soru": "Türkiye'de yetiştirilen soya fasulyesi ve kanola (kolza) bitkileri ile ilgili,\nI. Her ikisi de endüstride bitkisel yağ elde etmek amacıyla kullanılır.\nII. Soya fasulyesi üretiminde Akdeniz Bölgesi (Çukurova) ilk sırada yer alır.\nIII. Kanola daha çok biyodizel yakıt üretimi amacıyla yetiştirildiği için Marmara Bölgesi'nde yoğunlaşmıştır.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) I ve II",
+        "C) I ve III",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "E) I, II ve III",
+      "aciklama": "E şıkkı doğrudur. I. öncül doğrudur zira soya ve kanola Türkiye'nin önemli yağ bitkilerindendir. II. öncül doğrudur, soya fasulyesi toprağa azot bağlayan önemli bir nöbetleşe ekim bitkisi olup Çukurova (Adana, Mersin) üretiminde açık ara birincidir. III. öncül de doğrudur, kanola biyodizel üretiminde kullanılması sebebiyle teşvik edilmiş ve Trakya'da (Tekirdağ çevresi) ekim alanları hızla genişlemiştir. Bu nedenle tüm öncüller doğru kabul edilir.",
+      "harita_il": "adana",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-055",
+      "soru": "Türkiye'de yetiştirilen bazı meyve türlerinin yetişme şartları birbirinden farklılık göstermektedir. Kimi meyveler sadece belirli iklim tiplerinde yetişebilirken, kimileri çok geniş alanlarda tutunabilmektedir.\nBuna göre, aşağıdaki tarım ürünlerinden hangisi iklim seçiciliği ve yetiştirme alanının genişliği bakımından diğerlerinden farklıdır?",
+      "siklar": [
+        "A) Çay",
+        "B) Muz",
+        "C) Üzüm",
+        "D) Turunçgil",
+        "E) İncir"
+      ],
+      "dogru": "C) Üzüm",
+      "aciklama": "C şıkkı doğrudur çünkü üzüm (ve elma), soğuğa karşı -40 derecelere kadar dayanabilen, bu sayede karasal iklim bölgelerinde de çok rahat yetişen ve iklim seçiciliği en az olan meyvelerdendir. A (çay), B (muz), D (turunçgil) ve E (incir) şıkları ise kış ılıklığı isteyen, don olaylarına karşı oldukça hassas olan ve yetiştirme alanı sadece kıyı bölgeleriyle sınırlı olan bitkilerdir. Genel kural olarak karasal iklime uyum sağlayan meyvelerin ekim alanı daha geniştir.",
+      "harita_il": "nevsehir",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-056",
+      "soru": "Aşağıdaki tarım ürünü ve bu ürünün yetiştirilmesinde Türkiye'de ilk sıralarda yer alan il eşleştirmelerinden hangisi yanlıştır?",
+      "siklar": [
+        "A) İncir — Aydın",
+        "B) Ayçiçeği — Tekirdağ",
+        "C) Çay — Rize",
+        "D) Elma — Isparta",
+        "E) Kırmızı mercimek — Giresun"
+      ],
+      "dogru": "E) Kırmızı mercimek — Giresun",
+      "aciklama": "E şıkkı yanlıştır çünkü kırmızı mercimek yaz kuraklığı ve yüksek sıcaklık isteyen bir baklagildir; üretiminde Güneydoğu Anadolu illeri (Şanlıurfa, Diyarbakır) ilk sıradadır. Karadeniz iklimine sahip, bol yağışlı Giresun'da kırmızı mercimek yetiştirilemez. A şıkkındaki İncir-Aydın, B şıkkındaki Ayçiçeği-Tekirdağ, C şıkkındaki Çay-Rize ve D şıkkındaki Elma-Isparta eşleştirmeleri ise Türkiye'nin tarımsal üretim verilerine tam olarak uygundur.",
+      "harita_il": "sanliurfa",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-057",
+      "soru": "Türkiye'de zeytin yetiştiriciliği ile ilgili,\nI. Devirli bir üretim özelliğine sahip olduğundan üretim miktarı yıllar arasında dalgalanma gösterir (bir yıl var yılı, bir yıl yok yılı).\nII. Yaz kuraklığına dayanıklı, ancak kış soğuklarına ve don olaylarına karşı oldukça duyarlı bir bitkidir.\nIII. Üretiminin tamamı sulamalı tarım yöntemleriyle yapılmaktadır.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız II",
+        "B) I ve II",
+        "C) I ve III",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "B) I ve II",
+      "aciklama": "B şıkkı doğrudur. I. öncül doğrudur zira zeytin biyolojik yapısı gereği devirlilik (periyodisite) gösterir, ürün bir yıl çok bir yıl az verir. II. öncül doğrudur, zeytin tipik bir Akdeniz bitkisidir, yaz kuraklığına dayanır fakat kış donlarına duyarlıdır (bu sebeple İç Anadolu'da yetişmez). III. öncül yanlıştır, zeytin Türkiye'de ağırlıklı olarak kuru tarım (sulamasız) şartlarında, doğal yağışla yetişmektedir.",
+      "harita_il": "mugla",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-058",
+      "soru": "Ege Bölgesi, Türkiye'de hem incir hem de üzüm üretiminde birinci sırada yer almaktadır. Ancak incir bahçeleri genellikle kıyı kesimlerindeki ovalarda yoğunlaşırken, bağcılık (üzüm) iç kesimlerdeki graben ovalarına ve yamaçlara kadar yayılış gösterir.\nÜzüm tarım alanlarının incire göre iç kesimlere daha fazla sokulabilmesinin temel nedeni aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Üzümün sulamaya daha fazla ihtiyaç duyması",
+        "B) İç kesimlerde toprak verimliliğinin kıyıya göre daha yüksek olması",
+        "C) Üzümün düşük kış sıcaklıklarına karşı incirden daha dayanıklı olması",
+        "D) İncirin yaz aylarında daha az güneşlenmeye ihtiyaç duyması",
+        "E) İç kesimlerde tarımsal destekleme politikalarının üzüm lehine olması"
+      ],
+      "dogru": "C) Üzümün düşük kış sıcaklıklarına karşı incirden daha dayanıklı olması",
+      "aciklama": "C şıkkı doğrudur çünkü üzüm soğuğa çok dayanıklı bir bitkiyken, incir kış ılıklığı isteyen ve don olayından hemen zarar gören bir meyvedir. Ege Bölgesi'nde iç kesimlere (örneğin Afyon, Uşak yönüne) gidildikçe karasallık artar ve kış sıcaklıkları düşer; bu durum incir tarımını engellerken üzüm tarımına olanak tanır. A ve D şıkları bitkilerin biyolojik özellikleriyle çelişir. B şıkkı yanlıştır zira graben ovalarının tamamı verimlidir.",
+      "harita_il": "manisa",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-059",
+      "soru": "Yukarıdaki Türkiye haritasında ayçiçeği üretiminin yoğunlaştığı bazı alanlar koyu renkle gösterilmiştir.\nBu tarım ürününün işaretli alanlarda (I ve II) yüksek miktarda üretilmesinin temel coğrafi sebebi aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Yıl boyunca düzenli ve bol yağış almaları",
+        "B) Kış aylarında don olaylarının hiç yaşanmaması",
+        "C) Yetişme döneminde ilkbahar yağışları alıp olgunlaşma döneminde bol güneşlenme süresine sahip olmaları",
+        "D) Kahverengi orman topraklarının yaygın olması",
+        "E) Yüksek rakımlı plato alanlarında yer almaları"
+      ],
+      "dogru": "C) Yetişme döneminde ilkbahar yağışları alıp olgunlaşma döneminde bol güneşlenme süresine sahip olmaları",
+      "aciklama": "C şıkkı doğrudur çünkü ayçiçeği tohumlarının çimlenip büyümesi için yetişme devresinde (ilkbahar) su, olgunlaşması için ise hasat döneminde (yaz) kuraklık ve güneşlenme ister. İşaretli yerler olan Ergene Havzası (Tekirdağ, Edirne) ile İç Anadolu'da (Konya) karasal iklim bu şartları sağlar. A şıkkı Karadeniz iklimine aittir. B şıkkı yanlıştır, bu yörelerde kışın don olayı görülür. D ve E şıkları belirtilen alanların topografik ve toprak yapısıyla uyuşmaz.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": "tarim/tarim-059.svg",
+      "gorsel_veri": {
+        "I": "tekirdag",
+        "II": "edirne",
+        "III": "konya"
+      }
+    },
+    {
+      "id": "tarim-060",
+      "soru": "Türkiye'nin elma üretimi ile ilgili,\nI. İç Anadolu ve Göller Yöresi, karasal iklim özelliklerine bağlı olarak elma tarımında öne çıkan bölgelerdir.\nII. Çiçeklenme döneminde ilkbahar geç donlarına karşı hassasiyet gösterdiğinden vadi tabanlarından ziyade yamaçlarda tercih edilir.\nIII. Üretiminin yarıdan fazlası Ege Bölgesi'ndeki kıyı ovalarından karşılanmaktadır.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) I ve II",
+        "C) I ve III",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "B) I ve II",
+      "aciklama": "B şıkkı doğrudur. I. öncül doğrudur, Isparta (Göller Yöresi), Niğde ve Karaman (İç Anadolu) Türkiye'de elma üretiminde ilk sıralardadır. II. öncül doğrudur, elma kış soğuğuna dayansa da çiçek açtığı ilkbahar aylarındaki geç donlardan zarar görebilir; soğuk havanın vadi tabanlarına çökmesi (enversiyon) nedeniyle yamaçlar daha güvenlidir. III. öncül yanlıştır, kıyı Ege'de daha çok incir, zeytin, üzüm tarımı yapılmaktadır; elma iç bölgelerin ürünüdür.",
+      "harita_il": "nigde",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-061",
+      "soru": "Yukarıdaki Türkiye haritasında turunçgil (narenciye) yetiştiriciliğinin yapıldığı başlıca alanlar numaralandırılarak gösterilmiştir.\nI numaralı alandaki turunçgil üretiminin, kuzeydeki diğer kıyılarda yapılamamasının temel nedeni aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Karadeniz ve Marmara kıyılarında yaz kuraklığının belirgin olmaması",
+        "B) Akdeniz dışındaki kıyılarda kış ılıklığı şartlarının turunçgil için yetersiz kalması",
+        "C) Akdeniz kıyılarında volkanik toprakların geniş yer tutması",
+        "D) Ege ve Karadeniz kıyılarında endüstrileşmenin tarım alanlarını daraltması",
+        "E) Turunçgillerin yüksek rakımlı alanlara ihtiyaç duyması"
+      ],
+      "dogru": "B) Akdeniz dışındaki kıyılarda kış ılıklığı şartlarının turunçgil için yetersiz kalması",
+      "aciklama": "B şıkkı doğrudur çünkü portakal, mandalina ve limon gibi turunçgiller 0°C'nin altındaki sıcaklıklara (don olayına) karşı çok dayanıksızdır ve yüksek kış ılıklığı ister. Haritadaki Akdeniz kıyılarında (Antalya, Mersin, Adana, Hatay) kışlar ılık geçerken, Marmara veya Karadeniz kıyılarında kış sıcaklıkları bu hassas bitki için risklidir (Doğu Karadeniz Rize mikroklimaları hariç). A şıkkı yanlıştır zira yaz kuraklığı turunçgilin sulama ile çözebileceği bir sorundur, asıl sınırlandırıcı faktör kış soğuğudur.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": "tarim/tarim-061.svg",
+      "gorsel_veri": {
+        "I": "mersin",
+        "II": "hatay",
+        "III": "adana",
+        "IV": "antalya"
+      }
+    },
+    {
+      "id": "tarim-062",
+      "soru": "Tropikal bir bitki olan muz, Türkiye'de sadece Alanya ve Anamur çevresinde dar bir kıyı şeridinde yetiştirilebilmektedir. Karadeniz kıyılarında yaz yağışları ve bol nem bulunmasına rağmen muz yetiştiriciliği yapılamaz.\nBu senaryoya göre, Karadeniz Bölgesi'nde muz yetiştirilememesinin temel nedeni ile Akdeniz Bölgesi'nde çay yetiştirilememesinin temel nedeni sırasıyla aşağıdakilerden hangisinde doğru verilmiştir?",
+      "siklar": [
+        "A) Kış ılıklığının yetersizliği — Yaz kuraklığının şiddetli olması",
+        "B) Güneşlenme süresinin azlığı — Kış aylarındaki düşük sıcaklıklar",
+        "C) Toprak yapısının kireçli olması — Yamaç eğimlerinin az olması",
+        "D) Yaz kuraklığı — İlkbahar geç donları",
+        "E) Dağların kıyıya paralel uzanması — Yaz aylarında bağıl nemin yüksek olması"
+      ],
+      "dogru": "A) Kış ılıklığının yetersizliği — Yaz kuraklığının şiddetli olması",
+      "aciklama": "A şıkkı doğrudur. Muz bitkisi don olayına hiç dayanamayan tropikal bir türdür; Karadeniz kıyılarında her ne kadar nem yüksek olsa da kış sıcaklıkları zaman zaman 0°C'nin altına düşebildiği için (kış ılıklığı yetersiz) muz yaşayamaz. Öte yandan çay bitkisi, yılın her dönemi bol nem ve yağış ister; Akdeniz Bölgesi'nin belirgin ve şiddetli yaz kuraklığı çayın kurumasına sebep olur. Bu nedenle doğru eşleştirme kış soğuğu ve yaz kuraklığı faktörleridir.",
+      "harita_il": "antalya",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-063",
+      "soru": "Baklagiller, toprağa azot bağlayarak toprağı zenginleştiren, nadas ihtiyacını azaltan ve Türkiye tarımında önemli yeri olan bitkilerdir.\nAşağıda verilen baklagil türü ve Türkiye'de üretiminin en yoğun yapıldığı bölge/yöre eşleştirmelerinden hangisi yanlıştır?",
+      "siklar": [
+        "A) Kırmızı Mercimek — Güneydoğu Anadolu Bölgesi",
+        "B) Yeşil Mercimek — İç Anadolu Bölgesi",
+        "C) Nohut — İç Anadolu Bölgesi",
+        "D) Kuru Fasulye — Güneydoğu Anadolu Bölgesi",
+        "E) Soya Fasulyesi — Akdeniz Bölgesi"
+      ],
+      "dogru": "D) Kuru Fasulye — Güneydoğu Anadolu Bölgesi",
+      "aciklama": "D şıkkı doğrudur çünkü kuru fasulye yaz mevsiminde yüksek oranda su isteyen, sulama imkanının olduğu yerlerde yetişen bir baklagildir. Türkiye'de kuru fasulye üretiminde İç Anadolu (Niğde, Konya) sulama ile ön plandadır; Güneydoğu Anadolu'nun aşırı yaz sıcaklığı ve kuraklığı fasulye tarımına uygun değildir, bu bölgede daha çok mercimek tercih edilir. Diğer şıklar: Kırmızı mercimek Güneydoğu'da, yeşil mercimek ve nohut İç Anadolu'da, soya fasulyesi ise Çukurova'da yoğundur.",
+      "harita_il": "konya",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-064",
+      "soru": "Karadeniz Bölgesi'nin en önemli tarım ürünü olan fındık ile ilgili,\nI. Türkiye, fındık üretiminde ve ihracatında dünyada ilk sırada yer almaktadır.\nII. Her mevsim yağışlı ve nemli Karadeniz iklim şartlarına uyum sağlamıştır.\nIII. Üretimi yalnızca Karadeniz Bölgesi sınırları içerisinde yapılmakta, başka hiçbir bölgede yetiştirilememektedir.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "C şıkkı doğrudur. I. öncül doğrudur zira Türkiye dünya fındık ihtiyacının çok büyük bir bölümünü tek başına karşılar. II. öncül doğrudur, fındık Karadeniz ikliminin bol yağışlı ve ılıman şartlarını ister. III. öncül yanlıştır çünkü fındık, Karadeniz Bölgesi dışında Marmara Bölgesi'nde de (özellikle Sakarya ve Düzce çevresi) çok yüksek miktarlarda yetiştirilmektedir. Dolayısıyla 'yalnızca Karadeniz Bölgesi' ifadesi hatalıdır.",
+      "harita_il": "ordu",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-065",
+      "soru": "Yaz kuraklığına ve yüksek sıcaklıklara en dayanıklı tarım ürünlerinden biri olup, Türkiye üretiminin tamamına yakını Güneydoğu Anadolu Bölgesi'nden karşılanan tarım ürünü aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Yeşil mercimek",
+        "B) Kırmızı mercimek",
+        "C) Nohut",
+        "D) Soya fasulyesi",
+        "E) Yer fıstığı"
+      ],
+      "dogru": "B) Kırmızı mercimek",
+      "aciklama": "B şıkkı doğrudur çünkü kırmızı mercimek çok yüksek yaz sıcaklıklarına ve şiddetli kuraklığa adapte olabilen bir baklagildir; Türkiye'de başta Şanlıurfa ve Diyarbakır olmak üzere Güneydoğu Anadolu Bölgesi'nde en çok üretilen ürünlerden biridir. A şıkkındaki yeşil mercimek ve C şıkkındaki nohut ise daha çok İç Anadolu (Yozgat, Kırşehir, Ankara) karasal ikliminde yaygındır. D şıkkı soya fasulyesi Akdeniz'in, E şıkkı yer fıstığı ise Osmaniye çevresinin ürünüdür.",
+      "harita_il": "sanliurfa",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-066",
+      "soru": "Yukarıdaki Türkiye haritasında, kuraklık dayanımı yüksek olan bir tarım ürününün yoğun olarak yetiştirildiği alanlar gösterilmiştir.\nToprağı azot yönünden zenginleştirdiği için nadas alanlarını daraltma amacıyla da sıklıkla ekilen bu bitki aşağıdakilerden hangisi olabilir?",
+      "siklar": [
+        "A) Yeşil mercimek",
+        "B) Mısır",
+        "C) Kırmızı mercimek",
+        "D) Çeltik (Pirinç)",
+        "E) Pamuk"
+      ],
+      "dogru": "A) Yeşil mercimek",
+      "aciklama": "A şıkkı doğrudur çünkü haritada işaretli olan İç Anadolu Bölgesi illeri (Yozgat, Kırşehir, Ankara) yeşil mercimek ve nohut üretiminde Türkiye'de ilk sıralarda yer alır. Baklagiller, köklerinde bulunan bakteriler sayesinde toprağa azot bağlayarak nadas uygulamasını azaltır. C şıkkı kırmızı mercimek Güneydoğu Anadolu'nun ürünüdür. B, D ve E şıkları yaz kuraklığına dayanıksız olup bol sulama veya su içinde (çeltik) yetişme şartı arayan bitkilerdir, dolayısıyla kurak topraklarda nadası daraltmak için kullanılamazlar.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": "tarim/tarim-066.svg",
+      "gorsel_veri": {
+        "I": "yozgat",
+        "II": "kirsehir",
+        "III": "ankara"
+      }
+    },
+    {
+      "id": "tarim-067",
+      "soru": "Türkiye'de iç kesimlerde yer alan tarım arazilerinde, devlet tarafından sulama projeleri (KOP, GAP gibi) hayata geçirildikçe çiftçilerin geleneksel tarım ürünlerini bırakıp yeni ürünlere yöneldiği görülmektedir.\nBuna göre sulama olanaklarının artmasıyla ekim alanı daralan tarım ürünü ile ekim alanı genişleyen tarım ürünü aşağıdakilerin hangisinde doğru eşleştirilmiştir?",
+      "siklar": [
+        "A) Kırmızı mercimek — Pamuk",
+        "B) Şeker pancarı — Buğday",
+        "C) Mısır — Arpa",
+        "D) Pamuk — Çeltik",
+        "E) Kuru fasulye — Yeşil mercimek"
+      ],
+      "dogru": "A) Kırmızı mercimek — Pamuk",
+      "aciklama": "A şıkkı doğrudur. Güneydoğu Anadolu Bölgesi'nde GAP projesiyle sulama imkanları artınca çiftçiler, kuraklık bitkisi olan ve getirisi nispeten düşük olan kırmızı mercimek (veya buğday) yerine, bol su isteyen ve ekonomik değeri yüksek olan pamuk tarımına yönelmiştir. B şıkkı yanlıştır zira sulama artarsa buğday daralır, pancar genişler. C şıkkı mısır genişler arpa daralır şeklinde olmalıydı. E şıkkı yanlıştır, sulama artarsa kuru fasulye genişler, mercimek daralır.",
+      "harita_il": "diyarbakir",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-068",
+      "soru": "Türkiye'nin önemli bitkisel yağ kaynaklarından olan ayçiçeği ile soya fasulyesi karşılaştırıldığında, aşağıdakilerden hangisi yalnızca soya fasulyesi tarımı için söylenebilir?",
+      "siklar": [
+        "A) Bitkisel yağ ve margarin endüstrisinde hammadde olarak kullanılması",
+        "B) En fazla Marmara Bölgesi'nin Ergene Havzası'nda yetiştirilmesi",
+        "C) İkincil ürün olarak ekilebilmesi ve üretiminde Akdeniz Bölgesi'nin ilk sırada yer alması",
+        "D) Kuru tarım şartlarında, sulamaya hiç ihtiyaç duymadan yüksek verim sağlaması",
+        "E) Hayvan yemi sanayisinde küspe olarak değerlendirilebilmesi"
+      ],
+      "dogru": "C) İkincil ürün olarak ekilebilmesi ve üretiminde Akdeniz Bölgesi'nin ilk sırada yer alması",
+      "aciklama": "C şıkkı doğrudur çünkü soya fasulyesi büyüme süresi kısa olduğu için Çukurova'da buğday hasadından sonra ikinci ürün olarak rahatlıkla ekilebilir ve Akdeniz Bölgesi üretimde açık ara birincidir. A ve E şıkları her iki bitki için de ortaktır (ikisi de yağ ve yem sanayisinde kullanılır). B şıkkı yalnızca ayçiçeği için geçerlidir. D şıkkı yanlıştır, soya fasulyesi iyi verim için sulamaya ihtiyaç duyar.",
+      "harita_il": "adana",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-069",
+      "soru": "Türkiye'de yetiştirilen yağ bitkileri ve bölgesel dağılışları ile ilgili,\nI. Zeytin, Akdeniz iklim bölgesine özgü olmasına rağmen en fazla üretimi Ege Bölgesi'ndedir.\nII. Kanola üretimi, biyodizelin yaygınlaşmasına paralel olarak özellikle Trakya'da artış göstermiştir.\nIII. Yer fıstığı, karasal iklim şartlarına dayanıklı olduğu için en çok İç Anadolu Bölgesi'nde üretilmektedir.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) I ve II",
+        "C) I ve III",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "B) I ve II",
+      "aciklama": "B şıkkı doğrudur. I. öncül kesinlikle doğrudur; zeytin Akdeniz iklimine aittir ama çiftçi tercihleri yüzünden en çok Ege'de (Manisa, Aydın, İzmir) üretilir. II. öncül de doğrudur; kanola (kolza) son yıllarda Trakya'da (Tekirdağ) ekim alanı en çok genişleyen yağ bitkisidir. III. öncül yanlıştır, yer fıstığı yaz mevsiminde yüksek sıcaklık ve sulama (veya uygun nem) isteyen bir bitki olup Akdeniz Bölgesi'nde (Osmaniye, Adana) yetiştirilir; İç Anadolu kış ve don şartları buna uygun değildir.",
+      "harita_il": "osmaniye",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-070",
+      "soru": "Yukarıdaki Türkiye haritasında bir meyvenin en çok yetiştirildiği ve o yöre ile özdeşleştiği alan taralı olarak gösterilmiştir.\nKış aylarındaki düşük sıcaklıklara karşı çok duyarlı olan ve Türkiye'nin dünya ihracatında birinci olduğu bu tarım ürünü aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Zeytin",
+        "B) İncir",
+        "C) Elma",
+        "D) Haşhaş",
+        "E) Turunçgil"
+      ],
+      "dogru": "B) İncir",
+      "aciklama": "B şıkkı doğrudur çünkü haritada işaretlenen Büyük Menderes Havzası ve özellikle Aydın ili, Türkiye incir üretiminin merkezidir. İncir, kış ılıklığına çok yüksek derecede ihtiyaç duyan ve don olaylarından zarar gören narin bir meyvedir. A şıkkı zeytin de Ege'de yetişse de dünya birinciliği ve kış duyarlılığı bağlamında incir öne çıkar. C şıkkı elma soğuğa dayanıklıdır. D şıkkı haşhaş iç batı Anadolu'nun (Afyon) ürünüdür. E şıkkı turunçgillerin ana merkezi ise Akdeniz (Antalya, Mersin) kıyılarıdır.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": "tarim/tarim-070.svg",
+      "gorsel_veri": {
+        "I": "aydin",
+        "II": "izmir"
+      }
+    },
+    {
+      "id": "tarim-071",
+      "soru": "Türkiye'nin hemen hemen her coğrafi bölgesinde bağcılık faaliyetlerinin yapılabilmesi ve üzüm tarımının yaygın olması, aşağıdaki durumlardan hangisinin doğrudan bir sonucudur?",
+      "siklar": [
+        "A) Üzümün sulama ve gübreleme istemeyen yabani bir bitki olması",
+        "B) Üzüm bitkisinin -40°C'ye kadar düşen sıcaklıklara dayanabilmesi ve iklim seçiciliğinin az olması",
+        "C) Devlet tarafından tüm bölgelerde bağcılık kooperatiflerinin zorunlu tutulması",
+        "D) Üzümün sadece düz ve geniş ovalık alanlarda yetiştirilebilmesi",
+        "E) Türkiye topraklarının tamamının kireç yönünden çok fakir olması"
+      ],
+      "dogru": "B) Üzüm bitkisinin -40°C'ye kadar düşen sıcaklıklara dayanabilmesi ve iklim seçiciliğinin az olması",
+      "aciklama": "B şıkkı doğrudur. Üzüm bitkisi, Türkiye'de elma ile birlikte çok geniş bir ekim alanına sahiptir. Bunun temel nedeni, asmanın (üzümün) kök sisteminin derine inebilmesi, şiddetli karasal kış koşullarına (çok düşük sıcaklıklara) ve yaz kuraklığına karşı son derece dayanıklı bir bitki olmasıdır. A şıkkı yanlıştır zira kaliteli üzüm tarımı emek ve bakım ister. D şıkkı yanlıştır, üzüm dağlık ve eğimli yamaçlarda da gayet iyi yetişir. C ve E şıklarının gerçeklikle ilgisi yoktur.",
+      "harita_il": "manisa",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-072",
+      "soru": "Tarım ürünlerinin coğrafi dağılışı bitkilerin iklim toleranslarıyla yakından ilişkilidir. Bazı ürünler mikroklima alanlarına sıkışırken, bazıları ülke geneline yayılmıştır.\nAşağıda verilen tarım ürünlerinden hangisinin ekim alanı, iklim seçiciliğinin çok yüksek olması nedeniyle Türkiye'de en dar coğrafi yayılışa sahiptir?",
+      "siklar": [
+        "A) Üzüm",
+        "B) Şeker pancarı",
+        "C) Çay",
+        "D) Buğday",
+        "E) Ayçiçeği"
+      ],
+      "dogru": "C) Çay",
+      "aciklama": "C şıkkı doğrudur çünkü çay bitkisi her mevsim bol ve düzenli yağış, yüksek bulutluluk oranı, asitli ve yıkanmış toprak yapısı ile kış aylarında ılıman hava ister. Türkiye'de bu şartları sadece Doğu Karadeniz'in kıyı şeridi (Rize ve çevresi) sağlayabildiği için çayın coğrafi yayılışı çok dardır. Buna karşın üzüm (A), şeker pancarı (B), buğday (D) ve ayçiçeği (E) karasal iklim koşullarına, yaz kuraklığına veya soğuğa dayanıklı ürünler olup Türkiye'nin çok geniş alanlarında tarımlanabilirler.",
+      "harita_il": "rize",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-073",
+      "soru": "Haritadaki numaralandırılmış yörelerde yapılan hayvancılık faaliyetleriyle ilgili,\nI. Küçükbaş hayvancılık içerisinde koyun yetiştiriciliği oldukça yaygındır.\nII. Karasal iklim koşulları ve bozkır bitki örtüsünün geniş yer kaplaması bu durumu destekler.\nIII. Et ve süt verimi besi hayvancılığına göre daha yüksektir.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "C şıkkı doğrudur çünkü işaretli alanlarda yer alan İç Anadolu ve Güneydoğu Anadolu bölgelerinde yarı kurak iklim şartları hakimdir; bu da bozkır bitki örtüsünü ve dolayısıyla koyun yetiştiriciliğini destekler (I ve II. öncüller doğrudur). A ve B şıkları eksik değerlendirme içerdiği için yanlıştır. D ve E şıkları yanlıştır zira III. öncülde belirtilen durum gerçeği yansıtmaz. Mera hayvancılığı şeklinde yapılan koyun yetiştiriciliğinde iklime bağımlılık yüksek olduğu için et ve süt verimi, modern yöntemlerle uygulanan besi ve ahır hayvancılığına kıyasla oldukça düşüktür. Genel kural olarak bozkır alanlarında küçükbaş, gür çayırların bulunduğu alanlarda büyükbaş mera, nüfus yoğun alanlarda ise büyükbaş besi hayvancılığı yapılmaktadır.",
+      "harita_il": "konya",
+      "zorluk": "orta",
+      "gorsel": "tarim/tarim-073.svg",
+      "gorsel_veri": {
+        "I": "konya",
+        "II": "sanliurfa",
+        "III": "afyonkarahisar",
+        "IV": "ankara",
+        "V": "eskisehir"
+      }
+    },
+    {
+      "id": "tarim-074",
+      "soru": "Kıl keçisi yetiştiriciliği ile ilgili,\nI. Toroslar kuşağında makilik alanların varlığına bağlı olarak yoğun şekilde yapılmaktadır.\nII. Ağaç filizlerine zarar verdiği gerekçesiyle orman içi köylerde kısıtlamalara tabi tutulmuştur.\nIII. Türkiye'de en fazla tiftik üretimi sağlanan küçükbaş hayvan türüdür.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) I ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "C şıkkı doğrudur çünkü I. ve II. öncüller kıl keçisi yetiştiriciliğini tam olarak açıklamaktadır. Kıl keçisi, dağlık alanlara uyum sağlaması ve maki ile beslenebilmesi nedeniyle Akdeniz'de yaygındır ancak ormanlara zarar verdiği için kısıtlanmıştır. A ve B şıkları eksik doğru içerdiklerinden dolayı yanlıştır. D ve E şıkları yanlıştır zira III. öncül kesinlikle hatalıdır. Tiftik üretimi, kıl keçisinden değil, ağırlıklı olarak Ankara yöresinde yetiştirilen Tiftik (Angora) keçisinden elde edilmektedir. Genel ilke olarak, kıl keçisi Akdeniz iklim bölgesindeki engebeli arazilerle, tiftik keçisi ise İç Anadolu'nun bozkır şartlarıyla özdeşleşmiştir.",
+      "harita_il": "mersin",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-075",
+      "soru": "Haritadaki alanlarda yaygın olan tiftik keçisi yetiştiriciliğiyle ilgili,\nI. Ankara ve çevresi bu türün yetiştiriciliğinde önemli bir paya sahiptir.\nII. Bozkır ekosistemine uyum sağlamış olması iç bölgelerde yayılışını kolaylaştırmıştır.\nIII. Son yıllarda tarım alanlarının daralmasıyla sayıları ülke genelinde büyük artış göstermiştir.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "C şıkkı doğrudur çünkü tiftik keçisi (Angora keçisi) özellikle Ankara ve çevresindeki bozkır alanlara uyum sağlamış bir küçükbaş hayvandır. A ve B şıkları, I ve II numaralı öncüllerin her ikisinin de doğru olması nedeniyle eksik kalmakta ve elenmektedir. D ve E şıkları yanlıştır çünkü III. öncülde ifade edilen durum gerçeği yansıtmaz. Tarım alanlarının daralmasıyla küçükbaş hayvan sayısında otomatik bir artış yaşanmamış, aksine mera alanlarının tarıma açılması ve kırsaldan kente göç gibi nedenlerle son yıllarda bu türün sayısında belirgin bir azalma eğilimi görülmüştür.",
+      "harita_il": "ankara",
+      "zorluk": "zor",
+      "gorsel": "tarim/tarim-075.svg",
+      "gorsel_veri": {
+        "I": "ankara",
+        "II": "eskisehir",
+        "III": "yozgat"
+      }
+    },
+    {
+      "id": "tarim-076",
+      "soru": "Erzurum-Kars platosundaki büyükbaş hayvancılık faaliyetleriyle ilgili,\nI. Yaz yağışlarına bağlı olarak yeşeren gür çayırlar temel yem kaynağıdır.\nII. Üretimde doğal iklim koşullarının etkisi belirgindir.\nIII. Tüketici nüfusa yakınlık nedeniyle ahır hayvancılığı şeklinde yapılır.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "C şıkkı doğrudur zira Erzurum-Kars platosunda yaz yağışları sayesinde uzun boylu çayırlar yetişir ve bu durum büyükbaş mera hayvancılığını destekleyerek üretimi doğrudan iklim şartlarına bağlar. A ve B şıkları yalnızca bir doğru öncülü içerdiklerinden eksik ve yanlıştır. D ve E şıkları yanlıştır çünkü III. öncül hatalıdır. Erzurum-Kars bölgesi, büyük tüketim merkezlerinden uzaktır; bölgede nüfus yoğunluğuna bağlı bir ahır hayvancılığı değil, tamamen doğal bitki örtüsüne dayalı mera hayvancılığı ön plandadır. Ahır hayvancılığı daha çok Marmara ve Ege gibi bölgelerde gelişmiştir.",
+      "harita_il": "erzurum",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-077",
+      "soru": "Aşağıdaki il ve bu ilde doğal çevre şartlarına bağlı olarak gelişen hayvancılık faaliyeti eşleşmelerinden hangisi yanlıştır?",
+      "siklar": [
+        "A) Hakkari — Arıcılık",
+        "B) Muğla — Çam balı üretimi",
+        "C) Ankara — Tiftik keçisi yetiştiriciliği",
+        "D) Erzurum — Kümes hayvancılığı",
+        "E) Mersin — Kıl keçisi yetiştiriciliği"
+      ],
+      "dogru": "D) Erzurum — Kümes hayvancılığı",
+      "aciklama": "D şıkkı yanlıştır (doğru cevaptır) zira Erzurum, geniş çayır örtüsüne sahip olduğu için büyükbaş mera hayvancılığının merkezidir; kümes hayvancılığı ise genellikle Marmara ve Ege gibi nüfusun ve tüketimin yoğun olduğu bölgelerde toplanmıştır. A şıkkı yanlıştır çünkü Hakkari zengin nektar florası ve dağlık yapısıyla arıcılıkta ön plandadır. B şıkkı yanlıştır zira Muğla Türkiye çam balı üretiminin merkezidir. C şıkkı yanlıştır çünkü Ankara tiftik keçisinin anavatanıdır. E şıkkı yanlıştır zira Mersin ve Toroslar yöresi maki bitki örtüsüne bağlı olarak kıl keçisi yetiştiriciliği için oldukça elverişlidir.",
+      "harita_il": "erzurum",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-078",
+      "soru": "Türkiye'de hayvancılık türleri ve yoğun olarak yapıldıkları bölgelerle ilgili aşağıdaki eşleşmelerden hangisi yanlıştır?",
+      "siklar": [
+        "A) Kümes hayvancılığı — Marmara Bölgesi",
+        "B) Mera büyükbaş hayvancılığı — Doğu Anadolu",
+        "C) İpekböcekçiliği — Güneydoğu Anadolu",
+        "D) Kıl keçisi yetiştiriciliği — Akdeniz Bölgesi",
+        "E) Besi ve ahır hayvancılığı — Karadeniz Bölgesi"
+      ],
+      "dogru": "E) Besi ve ahır hayvancılığı — Karadeniz Bölgesi",
+      "aciklama": "E şıkkı yanlıştır (doğru cevaptır) çünkü besi ve ahır hayvancılığı, tüketici nüfusun ve yem sanayisinin yoğun olduğu Marmara, Ege ve İç Anadolu bölgelerinde gelişmiştir; Karadeniz Bölgesi'nde ise daha çok doğal koşullara bağlı meralarda büyükbaş hayvancılık veya balıkçılık ön plandadır. A şıkkı yanlıştır zira kümes hayvancılığı büyük şehirlere yakın olan Marmara'da yoğunlaşmıştır. B şıkkı yanlıştır çünkü Doğu Anadolu'da yüksek platolar ve çayırlar mera büyükbaşını destekler. C şıkkı yanlıştır çünkü Diyarbakır ipekböcekçiliğinde birinci sıraya çıkmıştır. D şıkkı yanlıştır zira Akdeniz makilikleri kıl keçisi için idealdir.",
+      "harita_il": "kocaeli",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-079",
+      "soru": "Haritadaki numaralandırılmış alanlar ve bu alanlarda yaygın olarak yapılan hayvancılık faaliyeti eşleşmelerinden hangisi yanlıştır?",
+      "siklar": [
+        "A) I numaralı alan — Tüketici nüfusa yakınlık nedeniyle kümes hayvancılığı",
+        "B) II numaralı alan — Orman içi zengin nektar kaynaklarına bağlı çam balı arıcılığı",
+        "C) III numaralı alan — Engebeli arazi ve maki örtüsüyle kıl keçisi yetiştiriciliği",
+        "D) IV numaralı alan — Yaz yağışlarına ve çayır örtüsüne bağlı büyükbaş mera hayvancılığı",
+        "E) V numaralı alan — Yem sanayisinin gelişmiş olmasına bağlı besi ve ahır hayvancılığı"
+      ],
+      "dogru": "E) V numaralı alan — Yem sanayisinin gelişmiş olmasına bağlı besi ve ahır hayvancılığı",
+      "aciklama": "E şıkkı yanlıştır (doğru cevaptır) zira Şanlıurfa'yı temsil eden V numaralı alanda, yarı kurak iklim ve bozkır örtüsü nedeniyle besi hayvancılığından ziyade mera şeklinde yapılan küçükbaş koyun yetiştiriciliği yaygındır; yem sanayisi Marmara ve Ege'deki kadar baskın değildir. A şıkkı yanlıştır çünkü Sakarya yöresinde nüfusa bağlı kümes hayvancılığı gelişmiştir. B şıkkı yanlıştır zira Muğla yöresi çam balı arıcılığının merkezidir. C şıkkı yanlıştır çünkü Antalya yöresindeki makilik alanlarda kıl keçisi yetiştirilir. D şıkkı yanlıştır zira Erzurum'da gür çayırlar mera büyükbaş hayvancılığına zemin hazırlamıştır.",
+      "harita_il": "mugla",
+      "zorluk": "zor",
+      "gorsel": "tarim/tarim-079.svg",
+      "gorsel_veri": {
+        "I": "sakarya",
+        "II": "mugla",
+        "III": "antalya",
+        "IV": "erzurum",
+        "V": "sanliurfa"
+      }
+    },
+    {
+      "id": "tarim-080",
+      "soru": "Aşağıdaki hayvancılık türü ve gelişmesinde belirleyici olan temel faktör eşleşmelerinden hangisi yanlıştır?",
+      "siklar": [
+        "A) Arıcılık — Zengin bitki çeşidi ve çiçeklenme süresi",
+        "B) İpekböcekçiliği — Dut ağacı varlığı",
+        "C) Kıl keçisi — Maki bitki örtüsü ve engebeli arazi",
+        "D) Kümes hayvancılığı — Geniş çayır alanlarının ve otlakların varlığı",
+        "E) Koyun yetiştiriciliği — Bozkır bitki örtüsü ve yarı kurak iklim"
+      ],
+      "dogru": "D) Kümes hayvancılığı — Geniş çayır alanlarının ve otlakların varlığı",
+      "aciklama": "D şıkkı yanlıştır (doğru cevaptır) zira kümes hayvancılığında hayvanlar kapalı tesislerde (tavuk çiftliklerinde) tamamen hazır sanayi yemleriyle beslenir; dolayısıyla geniş çayır alanlarına veya doğal meralara ihtiyaç duyulmaz. Bu tür tesislerin yer seçiminde pazar potansiyeli ön plandadır. A şıkkı yanlıştır çünkü arıcılık tamamen nektar zenginliğine dayanır. B şıkkı yanlıştır zira tırtıllar dut yapraklarıyla beslenir. C şıkkı yanlıştır çünkü kıl keçisi sarp arazide maki yiyerek yaşar. E şıkkı yanlıştır zira koyun bozkır şartlarına en dayanıklı hayvan türüdür.",
+      "harita_il": "hakkari",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-081",
+      "soru": "Türkiye'de ipekböcekçiliği faaliyetleri geçmişte daha çok Marmara Bölgesi'nde, özellikle Bursa ve çevresinde yoğunlaşmışken, son yıllarda teşvikler ve yeni üretim alanlarıyla bu durum değişmiştir.\nBuna göre günümüzde yaş koza (ipekböceği) üretiminde ilk sıraya yükselen ilimiz aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Bursa",
+        "B) Antalya",
+        "C) Diyarbakır",
+        "D) Bilecik",
+        "E) Hatay"
+      ],
+      "dogru": "C) Diyarbakır",
+      "aciklama": "C şıkkı doğrudur çünkü Türkiye'de son yıllarda yaş ipek kozası üretiminde uygulanan teşvikler ve geliştirilen dutluk alanlar sayesinde Diyarbakır birinci sıraya yerleşmiştir. A şıkkı yanlıştır, zira Bursa tarihsel olarak ipek endüstrisinin ve dokumanın merkezi olmaya devam etse de ham madde üretiminde liderliği kaybetmiştir. B, D ve E şıkları yanlıştır çünkü Antalya, Bilecik ve Hatay illerinde de ipekböcekçiliği yapılmasına rağmen üretim miktarı Diyarbakır'ın gerisindedir. Genel bir kural olarak tarımsal faaliyetlerin dağılışı destekleme politikalarıyla zaman içinde büyük bölgesel kaymalar yaşayabilmektedir.",
+      "harita_il": "diyarbakir",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-082",
+      "soru": "Marmara ve Ege bölgelerinde besi ve ahır hayvancılığının diğer bölgelere kıyasla çok daha gelişmiş olmasının temel nedeni aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Otlak ve mera alanlarının geniş yer kaplaması",
+        "B) Tüketici nüfus potansiyelinin ve pazarlama olanaklarının fazla olması",
+        "C) İklim koşullarının büyükbaş hayvancılık için çok uygun olması",
+        "D) Tarımsal faaliyetlerin yetersiz kalması sonucu alternatif aranması",
+        "E) Engebeli arazilerin tarımı kısıtlayarak hayvancılığı zorunlu kılması"
+      ],
+      "dogru": "B) Tüketici nüfus potansiyelinin ve pazarlama olanaklarının fazla olması",
+      "aciklama": "B şıkkı doğrudur zira besi ve ahır hayvancılığı büyük sermaye gerektiren, yüksek verimli tesislerdir ve üretilen et ile sütün bozulmadan hızla pazarlanabilmesi için büyük tüketici kitlelerine (metropollere) yakınlık zorunludur. A şıkkı yanlıştır çünkü bu bölgelerde doğal otlaklar sanıldığı kadar geniş değildir; üstelik besi hayvancılığında otlağa ihtiyaç yoktur. C şıkkı yanlıştır zira ahırda iklimin belirleyici etkisi asgari düzeydedir. D ve E şıkları yanlıştır çünkü Marmara ve Ege bölgeleri, yer şekilleri ve iklim açısından Türkiye'nin tarımsal potansiyeli en yüksek, en az kısıtlı bölgeleri arasındadır.",
+      "harita_il": "bursa",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-083",
+      "soru": "Haritada işaretli olan Erzurum, Kars ve Ardahan yörelerinde yaygın olan büyükbaş mera hayvancılığının yapıldığı işletmelerde, et ve süt üretiminde yıllara göre belirgin dalgalanmalar görülmektedir.\nBu durumun temel nedeni aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Üretimde doğal çevre koşullarına olan bağımlılığın yüksek olması",
+        "B) Hayvan soylarının ıslah edilmemiş yerli ırklardan oluşması",
+        "C) Tüketim alanlarına olan uzaklığın pazarlamayı zorlaştırması",
+        "D) Yem sanayisinin bu bölgelerde gelişmemiş olması",
+        "E) Hayvan hastalıklarıyla mücadelenin yetersiz kalması"
+      ],
+      "dogru": "A) Üretimde doğal çevre koşullarına olan bağımlılığın yüksek olması",
+      "aciklama": "A şıkkı doğrudur çünkü mera hayvancılığında hayvanlar açık alanda otlatılır; yağışın bol olduğu yıllarda çayırlar gürleşir ve verim artarken, kurak geçen yıllarda otlar cılızlaştığı için üretim düşer, bu da yıllar arası dalgalanmaya yol açar. B, D ve E şıkları verimliliği genel anlamda etkileyen faktörler olsa da, üretim miktarının yıldan yıla değişmesinin (dalgalanmanın) ana sebebi değillerdir. C şıkkı yanlıştır zira pazarlama zorlukları üretimin dalgalanmasını değil, daha çok sektörün karlılığını ve büyümesini etkiler.",
+      "harita_il": "kars",
+      "zorluk": "orta",
+      "gorsel": "tarim/tarim-083.svg",
+      "gorsel_veri": {
+        "I": "erzurum",
+        "II": "kars",
+        "III": "ardahan",
+        "IV": "agri",
+        "V": "bingol"
+      }
+    },
+    {
+      "id": "tarim-084",
+      "soru": "Arıcılık faaliyeti, bitki örtüsü çeşitliliğinin fazla olduğu, kimyasal zirai ilaçlamanın az olduğu engebeli ve dağlık alanlarda yoğun olarak yapılmaktadır.\nBuna göre aşağıdaki illerden hangisinin topografik yapısı ve bitki örtüsü şartları, arıcılık faaliyeti için diğerlerine göre daha az elverişlidir?",
+      "siklar": [
+        "A) Hakkari",
+        "B) Ordu",
+        "C) Muğla",
+        "D) Artvin",
+        "E) Edirne"
+      ],
+      "dogru": "E) Edirne",
+      "aciklama": "E şıkkı doğrudur çünkü Edirne, Ergene Havzası'nda yer aldığı için genel hatlarıyla düz ve sade bir topografyaya sahiptir; aynı zamanda tarım alanlarının çok geniş olması ve yoğun zirai ilaçlama yapılması, arıcılık faaliyetlerini sınırlandırmaktadır. A, B, C ve D şıkları yanlıştır zira Hakkari, Ordu, Muğla ve Artvin yüksek dağlık yapıya sahip, bitki florası son derece zengin ve orman altı florası çeşitli illerdir. Bu özellikleriyle Türkiye'de arıcılığın en fazla geliştiği ve bal üretiminin en yüksek olduğu merkezler arasında yer alırlar.",
+      "harita_il": "edirne",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-085",
+      "soru": "Kıl keçisi ile Tiftik keçisi yetiştiriciliği karşılaştırıldığında, aşağıdakilerden hangisi yalnızca Tiftik keçisi yetiştiriciliğine ait bir özelliktir?",
+      "siklar": [
+        "A) Engebeli ve dağlık alanlarda rahatlıkla yapılabilmesi",
+        "B) Akdeniz iklim bölgesindeki maki alanlarında yayılış göstermesi",
+        "C) İç Anadolu'nun yarı kurak bozkır ekosistemine daha iyi uyum sağlaması",
+        "D) Ormanlık alanlara zarar vermesi nedeniyle devlet tarafından kısıtlamalara tabi olması",
+        "E) Türkiye'nin toplam küçükbaş hayvan varlığı içerisinde en geniş paya sahip olması"
+      ],
+      "dogru": "C) İç Anadolu'nun yarı kurak bozkır ekosistemine daha iyi uyum sağlaması",
+      "aciklama": "C şıkkı doğrudur zira Tiftik (Angora) keçisi özellikle Ankara ve çevresindeki bozkır iklim şartlarına adapte olmuş, bu bölgeyle özdeşleşmiş bir türdür. A şıkkı her ikisi (hatta tüm küçükbaşlar) için genellenebilir bir özelliktir ancak kıl keçisi sarp arazide çok daha iddialıdır. B ve D şıkları yalnızca kıl keçisine ait özelliklerdir; makilerle beslenen ve orman filizlerine zarar verdiği için kısıtlanan tür kıl keçisidir. E şıkkı yanlıştır zira Türkiye'de en geniş paya sahip olan küçükbaş hayvan türü koyundur.",
+      "harita_il": "ankara",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-086",
+      "soru": "Türkiye'de kümes hayvancılığı, kapalı tesislerde yapıldığı için doğal bitki örtüsü veya iklim koşullarından bağımsız olarak gelişme gösterir. Bu faaliyetin kuruluş yeri seçiminde tüketici pazar olanakları ve ulaşım maliyetleri belirleyicidir.\nBuna göre aşağıdaki illerin hangisinde kümes hayvancılığının gelişmiş olması öncelikle bu duruma iyi bir örnektir?",
+      "siklar": [
+        "A) Bolu",
+        "B) Kars",
+        "C) Hakkari",
+        "D) Gümüşhane",
+        "E) Sinop"
+      ],
+      "dogru": "A) Bolu",
+      "aciklama": "A şıkkı doğrudur zira Bolu ve çevresi (Sakarya, Balıkesir vb.), İstanbul ve Ankara gibi Türkiye'nin en büyük iki metropolünün tam ortasında yer alan stratejik konumu sayesinde kümes hayvancılığı tesislerinin en çok yoğunlaştığı alanlardan biri olmuştur. B, C, D ve E şıkları yanlıştır çünkü Kars, Hakkari, Gümüşhane ve Sinop hem büyük tüketim merkezlerinden uzaktır hem de ulaşımları daha kısıtlıdır; bu nedenle ticari amaçlı dev entegre kümes hayvancılığı tesisleri bu illerde yeterince gelişme gösterememiştir.",
+      "harita_il": "bolu",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-087",
+      "soru": "Haritada gösterilen alanlarda (Diyarbakır, Antalya, Bursa) ipekböcekçiliğinin ortak bir tarımsal faaliyet olmasında,\nI. Dut ağacı yetiştiriciliğinin yapılması\nII. Tüketim merkezlerine olan yakınlık\nIII. İklim koşullarının dut ağacı yetişmesine olanak sağlaması\nfaktörlerinden hangileri temel etken olmuştur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve III",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve III",
+      "aciklama": "C şıkkı doğrudur çünkü ipekböceği tırtıllarının tek besin kaynağı dut yapraklarıdır; dolayısıyla dut ağacının yetişebildiği iklim koşulları ve doğrudan dut ağacının varlığı bu faaliyetin yer seçimini belirler (I ve III numaralı öncüller doğrudur). A ve B şıkları eksik olduğu için yanlıştır. D ve E şıkları yanlıştır zira II. öncül ipekböcekçiliği için belirleyici değildir. İpek kozası hafif ve taşınması kolay bir hammadde olduğundan, tüketim merkezlerine (veya dokuma sanayisine) yakınlık, kümes hayvancılığında olduğu gibi bir zorunluluk teşkil etmez.",
+      "harita_il": "diyarbakir",
+      "zorluk": "orta",
+      "gorsel": "tarim/tarim-087.svg",
+      "gorsel_veri": {
+        "I": "diyarbakir",
+        "II": "antalya",
+        "III": "bursa",
+        "IV": "bilecik",
+        "V": "hatay"
+      }
+    },
+    {
+      "id": "tarim-088",
+      "soru": "Türkiye'de çam balı üretiminin çok büyük bir kısmını tek başına karşılayan, çam ormanları açısından zengin ve arıcılığın önemli bir ekonomik faaliyet olduğu ilimiz aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Rize",
+        "B) Hakkari",
+        "C) Muğla",
+        "D) Kars",
+        "E) Sivas"
+      ],
+      "dogru": "C) Muğla",
+      "aciklama": "C şıkkı doğrudur zira Muğla, geniş kızılçam ormanları ve bu ormanlarda yaşayan basra böceğinin salgıları sayesinde üretilen çam balının Türkiye'deki ve dünyadaki en önemli merkezidir. A, B, D ve E şıkları yanlıştır çünkü Rize (Anzer balı), Hakkari, Kars ve Sivas illerimizde de arıcılık çok gelişmiş olmakla birlikte, buralardaki üretim çam balı değil, yüksek rakımlı çayır ve endemik bitki türlerine dayanan nektar (çiçek) balı ağırlıklıdır.",
+      "harita_il": "mugla",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-089",
+      "soru": "Doğu Anadolu Bölgesi'nde, özellikle Erzurum-Kars platosunda büyükbaş mera hayvancılığının yaygınlaşmasının asıl nedeni aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Karasal iklim koşullarına bağlı olarak bitki örtüsünün geniş bozkırlardan oluşması",
+        "B) Sert karasal iklimdeki yaz yağışlarına bağlı olarak gür çayır örtüsünün gelişmesi",
+        "C) Yem sanayisi ve et-süt entegre tesislerinin bu bölgede çok yoğunlaşması",
+        "D) Ortalama yükseltinin fazla olması nedeniyle tarım alanlarının genişlemesi",
+        "E) Karasallık şiddetinin yaz aylarında otlatma süresini uzatması"
+      ],
+      "dogru": "B) Sert karasal iklimdeki yaz yağışlarına bağlı olarak gür çayır örtüsünün gelişmesi",
+      "aciklama": "B şıkkı doğrudur çünkü Erzurum-Kars platosunda yaz mevsiminde görülen konveksiyonel yağışlar, boyu uzun gür çayırların yetişmesini sağlar; büyükbaş hayvanların beslenme biyolojisi bu çayırlara daha uygun olduğu için mera hayvancılığı gelişmiştir. A şıkkı yanlıştır zira bozkır bitki örtüsü küçükbaş (koyun) hayvancılığını destekler. C şıkkı yanlıştır çünkü bölge sanayi açısından oldukça geri kalmıştır. D şıkkı yanlıştır, yükselti tarım alanlarını genişletmez, daraltır. E şıkkı yanlıştır zira karasallık kışları uzattığı için doğal otlatma süresini kısaltır.",
+      "harita_il": "erzurum",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-090",
+      "soru": "Türkiye'de iklim ve bitki örtüsünün hayvancılık faaliyetleri üzerindeki etkisi düşünüldüğünde, mera hayvancılığında bitki örtüsü tipi ile yetiştirilen hayvan türü arasında sıkı bir bağ olduğu görülür.\nAşağıdakilerden hangisi bu duruma verilebilecek en doğru örnektir?",
+      "siklar": [
+        "A) Ege kıyılarındaki zeytinlik alanlarında arıcılık faaliyetlerinin ön plana çıkması",
+        "B) İç Anadolu'nun bozkırlarında küçükbaş, Kuzeydoğu Anadolu'nun çayırlarında büyükbaş yetiştiriciliğinin yoğunlaşması",
+        "C) Marmara Bölgesi'nde orman örtüsünün az olmasına rağmen besi hayvancılığının gelişmesi",
+        "D) Büyükşehirlerin çevresinde bitki örtüsünden bağımsız olarak kümes hayvancılığının artması",
+        "E) Karadeniz kıyılarında bol yağışa bağlı olarak balıkçılığın temel geçim kaynağı olması"
+      ],
+      "dogru": "B) İç Anadolu'nun bozkırlarında küçükbaş, Kuzeydoğu Anadolu'nun çayırlarında büyükbaş yetiştiriciliğinin yoğunlaşması",
+      "aciklama": "B şıkkı doğrudur zira bozkır (kısa boylu otlar) ağız yapısı küçük olan koyunlar için, uzun boylu çayırlar ise büyükbaş hayvanlar için uygundur; bu durum doğal çevre-hayvancılık ilişkisinin en klasik örneğidir. A şıkkı yanlıştır çünkü zeytinlikler arıcılıktan ziyade çam balı ormanları ön plandadır. C ve D şıkları, doğal çevreye bağımlılığın değil, beşeri (nüfus/sermaye) faktörlerin sonucudur, dolayısıyla örnek olamazlar. E şıkkı yanlıştır çünkü balıkçılığın gelişmesi deniz suyu sıcaklığı ve plankton zenginliğiyle ilgilidir, doğrudan karadaki bol yağışla değil.",
+      "harita_il": "konya",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-091",
+      "soru": "Besi (ahır) hayvancılığı ile mera hayvancılığı karşılaştırıldığında aşağıdakilerden hangisi söylenemez?",
+      "siklar": [
+        "A) Besi hayvancılığında soyu ıslah edilmiş ırklar kullanıldığı için et ve süt verimi daha yüksektir.",
+        "B) Mera hayvancılığında üretim, iklim koşullarına ve doğal otlaklara daha fazla bağımlıdır.",
+        "C) Besi hayvancılığı pazarlama kolaylığı nedeniyle genellikle büyük tüketim merkezlerine yakın yerlerde kurulur.",
+        "D) Mera hayvancılığında üretim dalgalanmaları, besi hayvancılığına göre daha azdır.",
+        "E) Mera hayvancılığında temel maliyet unsurlarından olan yem giderleri besi hayvancılığına göre daha düşüktür."
+      ],
+      "dogru": "D) Mera hayvancılığında üretim dalgalanmaları, besi hayvancılığına göre daha azdır.",
+      "aciklama": "D şıkkı yanlıştır (doğru cevaptır) çünkü mera hayvancılığı tamamen doğal hava koşullarına (özellikle yağışa) bağlıdır; kurak yıllarda otlar cılızlaşınca verim düşer, yağışlı yıllarda ise artar. Bu durum mera hayvancılığında üretim dalgalanmalarının besi hayvancılığına göre çok daha yüksek olmasına neden olur. A, B ve C şıkları doğru bilgiler içerir; besi kapalı alanda yapılır, verim yüksektir ve şehirlere yakındır. E şıkkı da doğrudur zira mera hayvancılığında hayvanlar doğadaki otları yediği için hazır sanayi yemi kullanan ahır işletmelerine göre yem maliyeti çok düşüktür.",
+      "harita_il": "izmir",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-092",
+      "soru": "Aşağıdaki küçükbaş hayvan türü ve Türkiye'de en yoğun yetiştirildiği bölge/yöre eşleşmelerinden hangisi yanlıştır?",
+      "siklar": [
+        "A) Kıl keçisi — Taşeli Platosu",
+        "B) Tiftik keçisi — Yukarı Sakarya Bölümü",
+        "C) Karaman koyunu — Orta Kızılırmak Bölümü",
+        "D) Dağlıç koyunu — Doğu Karadeniz Bölümü",
+        "E) Merinos koyunu — Güney Marmara Bölümü"
+      ],
+      "dogru": "D) Dağlıç koyunu — Doğu Karadeniz Bölümü",
+      "aciklama": "D şıkkı yanlıştır (doğru cevaptır) zira Dağlıç türü koyun daha çok İç Batı Anadolu ve Ege'de görülürken; Doğu Karadeniz Bölümü'nün aşırı yağışlı ve nemli iklimi koyun yetiştiriciliğine hiç uygun değildir (Karadeniz'de sınırlı da olsa Karayaka türü bulunur). A şıkkı yanlıştır çünkü Taşeli Platosu sarp yapısıyla tam bir kıl keçisi merkezidir. B şıkkı yanlıştır zira Yukarı Sakarya (Ankara/Eskişehir) tiftik keçisi sahasıdır. C şıkkı yanlıştır çünkü İç Anadolu'da Karaman cinsi koyun en yaygın türdür. E şıkkı yanlıştır zira Bursa ve Balıkesir yöreleri (Güney Marmara) yünü için ıslah edilmiş Merinos koyunu ile öne çıkar.",
+      "harita_il": "trabzon",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-093",
+      "soru": "Türkiye'de modern tavukçuluk (kümes hayvancılığı) tesislerinin büyük çoğunluğunun Marmara ve Ege bölgeleri gibi nüfusun yoğun olduğu alanlarda toplanmasının temel nedeni aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Pazarlama ve tüketim olanaklarının fazla olması",
+        "B) İklim koşullarının kanatlı hayvan yetiştiriciliğine en uygun olması",
+        "C) Yem üretiminin yalnızca bu bölgelerde yapılması",
+        "D) Tarım alanlarının çok dar olması nedeniyle alternatif geçim kaynağı aranması",
+        "E) Doğal bitki örtüsünün bozkır özelliği göstermesi"
+      ],
+      "dogru": "A) Pazarlama ve tüketim olanaklarının fazla olması",
+      "aciklama": "A şıkkı doğrudur çünkü modern kümes hayvancılığı iklimden ve doğal bitki örtüsünden bağımsız, kapalı ve entegre tesislerde yapılır. Beyaz etin çabuk bozulabilen yapısı nedeniyle nakliye maliyetlerini düşürmek ve ürünleri hızla satabilmek için tesisler kalabalık tüketici kitlelerine (büyükşehirlere) yakın kurulur. B ve E şıkları yanlıştır zira faaliyetin iklim veya bitki örtüsüyle doğrudan bir bağlantısı yoktur. C şıkkı yanlıştır çünkü yem üretimi Türkiye'nin her yerinde yapılabilmektedir. D şıkkı yanlıştır zira bu bölgelerde tarım alanları dar değil, aksine verimli ve geniştir.",
+      "harita_il": "sakarya",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-094",
+      "soru": "Türkiye'de kıl keçisi yetiştiriciliği, engebeli araziye ve makilik alanlara uyum sağlamış olması nedeniyle özellikle dağlık alanlarda yaygındır.\nBuna göre haritada numaralandırılmış alanların yer şekilleri ve doğal bitki örtüsü dikkate alındığında, hangisinde kıl keçisi yetiştiriciliğinin yoğun olarak yapılması beklenmez?",
+      "siklar": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV",
+        "E) V"
+      ],
+      "dogru": "E) V",
+      "aciklama": "E şıkkı doğrudur zira haritada V numara ile gösterilen Edirne yöresi, yükseltisi oldukça az, yer şekilleri sade olan bir tarım alanıdır ve maki bitki örtüsü barındırmaz; bu nedenle kıl keçisi yetiştiriciliğine uygun değildir. A, B ve C şıkları yanlıştır çünkü Muğla, Antalya ve Mersin (Toroslar) yoğun makilik ve karstik engebeli yapılarıyla kıl keçisinin ana vatanıdır. D şıkkı yanlıştır zira Şırnak ve Hakkari yöresi de sarp dağlık arazisi sayesinde kıl keçisi yetiştiriciliğinde Türkiye'de önemli bir paya sahiptir.",
+      "harita_il": "edirne",
+      "zorluk": "orta",
+      "gorsel": "tarim/tarim-094.svg",
+      "gorsel_veri": {
+        "I": "mugla",
+        "II": "antalya",
+        "III": "mersin",
+        "IV": "sirnak",
+        "V": "edirne"
+      }
+    },
+    {
+      "id": "tarim-095",
+      "soru": "Türkiye'de arıcılık faaliyetleri ile ilgili,\nI. İklim ve yer şekilleri çeşitliliğinin fazla olması bitki çeşitliliğini artırarak arıcılığı olumlu yönde etkilemiştir.\nII. Çam balı üretiminde Ege Bölgesi kıyıları, özellikle Muğla yöresi ilk sırada yer alır.\nIII. Üretimde iklim koşullarının etkisi düşük olduğundan yıldan yıla bal rekoltesi değişmez.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) I ve II",
+        "C) I ve III",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "B) I ve II",
+      "aciklama": "B şıkkı doğrudur çünkü I numaralı öncülde belirtildiği gibi Türkiye'nin engebeli yapısı farklı mikroklimalar ve çok zengin bir bitki florası yaratmış, bu da arıcılık potansiyelini katlamıştır; ayrıca II numaralı öncülde ifade edilen Muğla çam balı gerçeği yansıtmaktadır. A, C, D ve E şıkları yanlıştır zira III. öncül kesinlikle hatalıdır. Arıcılık faaliyeti tamamen dış ortama ve doğadaki çiçeklenme sürecine bağlıdır; yağışsız ve kurak geçen yıllarda veya aşırı don olaylarında bitkiler çiçek açamadığı için bal üretimi ciddi oranda düşer, yani yıllara göre büyük dalgalanmalar gösterir.",
+      "harita_il": "ordu",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-096",
+      "soru": "Türkiye'de küçükbaş hayvancılık içerisinde koyun yetiştiriciliğinin en geniş paya sahip olmasında aşağıdakilerden hangisinin etkisi daha fazladır?",
+      "siklar": [
+        "A) Yarı kurak iklim şartları ve kısa boylu bozkır bitki örtüsünün geniş alan kaplaması",
+        "B) Tüketim alışkanlıklarında diğer et türlerine göre her zaman ilk sırada yer alması",
+        "C) Hayvan hastalıklarına ve kışın şiddetli don olaylarına karşı en dirençli tür olması",
+        "D) Et ve süt veriminin büyükbaş hayvanlara göre doğal olarak çok daha yüksek olması",
+        "E) Modern ve kapalı ahır hayvancılığında en çok tercih edilen tür olması"
+      ],
+      "dogru": "A) Yarı kurak iklim şartları ve kısa boylu bozkır bitki örtüsünün geniş alan kaplaması",
+      "aciklama": "A şıkkı doğrudur zira Türkiye, genel hatlarıyla karasal iklimin egemen olduğu bir ülkedir ve iç bölgelerde ilkbahar yağışlarıyla yeşeren, yazın kuruyan kısa boylu bozkırlar geniş yer kaplar; bu durum koyun türünün beslenme yapısına çok uygundur. B şıkkı yanlıştır çünkü tüketimde sığır eti de (büyükbaş) oldukça ağırlıklıdır. C şıkkı yanlıştır zira koyun, soğuklara kıl keçisi veya büyükbaştan daha dayanıklı değildir. D şıkkı yanlıştır çünkü koyunun et ve süt verimi büyükbaşa göre çok düşüktür. E şıkkı yanlıştır zira koyun yetiştiriciliği çoğunlukla ahırda değil, meralarda geleneksel yöntemlerle yapılır.",
+      "harita_il": "sanliurfa",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-097",
+      "soru": "Türkiye'de tarımsal verimi artırmak amacıyla uygulanan yöntemlerden biri olan nadasın azaltılması, büyük ölçüde sulama imkanlarının geliştirilmesine bağlıdır. Buna göre, aşağıda verilen bölgelerden hangisinde sulama olanaklarının artmasıyla birlikte nadas alanlarının en fazla daraldığı ve ürün çeşitliliğinin en çok arttığı söylenebilir?",
+      "siklar": [
+        "A) Karadeniz Bölgesi",
+        "B) Güneydoğu Anadolu Bölgesi",
+        "C) Ege Bölgesi",
+        "D) Marmara Bölgesi",
+        "E) Akdeniz Bölgesi"
+      ],
+      "dogru": "B) Güneydoğu Anadolu Bölgesi",
+      "aciklama": "Güneydoğu Anadolu Bölgesi, GAP (Güneydoğu Anadolu Projesi) öncesinde kurak ve yarı kurak iklim şartları nedeniyle nadas tarımının en yaygın olduğu bölgelerden biriydi. GAP ile birlikte bölgeye getirilen sulama imkanları, toprağın her yıl ekilmesine olanak tanımış ve nadas alanlarını dramatik bir şekilde azaltmıştır. Ayrıca sulama sayesinde bölgede pamuk, mısır ve soya gibi su isteği yüksek ürünlerin üretimi artmıştır. Genel kural olarak; Türkiye'de sulama imkanlarının gelişmesi, nadasın azalmasını, ürün çeşitliliğinin artmasını ve iklime bağımlılığın düşmesini sağlar. Diğer bölgelerde sulama zaten daha yaygın olduğundan veya iklim şartları nadası zorunlu kılmadığından, GAP'ın sağladığı değişim kadar büyük bir dönüşüm yaşanmamıştır.",
+      "harita_il": "sanliurfa",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-098",
+      "soru": "Türkiye'de sanayi bitkileri, tarıma dayalı sanayi kollarının ham madde ihtiyacını karşılaması bakımından stratejik öneme sahiptir. Aşağıdaki sanayi bitkilerinden hangisinin üretim alanı, çabuk bozulma özelliği nedeniyle fabrikasına yakınlık zorunluluğu (çabuk bozulma/tazelik) nedeniyle daha sınırlıdır?",
+      "siklar": [
+        "A) Pamuk",
+        "B) Tütün",
+        "C) Şeker pancarı",
+        "D) Ayçiçeği",
+        "E) Keten"
+      ],
+      "dogru": "C) Şeker pancarı",
+      "aciklama": "Şeker pancarı, hasat edildikten sonra kısa sürede işlenmesi gereken bir üründür; aksi takdirde şeker oranı düşer ve ürün bozulur. Bu nedenle şeker fabrikaları, pancar üretim alanlarının hemen yakınına kurulur. Pamuk, tütün, ayçiçeği ve keten gibi ürünler ise hasat sonrası depolanmaya ve uzun mesafeli taşımaya daha uygundur. Genel kural olarak; çabuk bozulabilen tarım ürünlerinin (şeker pancarı, çay, meyve-sebze) işlendiği tesisler, ham madde kaynağına yakın yerlerde kurulur. Bu durum, sanayi tesislerinin coğrafi dağılımını doğrudan belirleyen temel bir faktördür.",
+      "harita_il": "afyonkarahisar",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-099",
+      "soru": "Aşağıdaki haritada Türkiye'de yoğun olarak yetiştirilen bir tarım ürününün dağılışı gösterilmiştir.\n\nI. Yaz kuraklığına ihtiyaç duyar.\nII. Akdeniz ikliminin karakteristik bir ürünüdür.\nIII. Kış ılıklığı ister.\n\nBu özelliklere sahip olan ve haritada işaretli alanlarda (I: Aydın, II: Manisa, III: Mersin, IV: Antalya, V: Hatay) yoğunlaşan ürün aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Zeytin",
+        "B) Fındık",
+        "C) Çay",
+        "D) Muz",
+        "E) Pirinç"
+      ],
+      "dogru": "A) Zeytin",
+      "aciklama": "Haritada işaretli olan Ege ve Akdeniz kıyı şeridi, Türkiye'de zeytin tarımının en yoğun yapıldığı alanlardır. Zeytin, kış ılıklığı isteyen ve yaz kuraklığına dayanıklı bir Akdeniz iklim bitkisidir. Fındık ve çay Karadeniz'e, muz sadece Akdeniz'in çok dar bir kıyı şeridine (Alanya-Anamur), pirinç ise akarsu boylarına özgüdür. Genel kural olarak; bir bitkinin yetişme alanı, o bitkinin iklim istekleri ile doğrudan ilişkilidir. Zeytin, kış donlarına karşı hassas olduğu için iç kesimlerde yetişemez, bu yüzden kıyı bölgelerinde yoğunlaşır.",
+      "harita_il": "aydin",
+      "zorluk": "zor",
+      "gorsel": "tarim/tarim-099.svg",
+      "gorsel_veri": {
+        "I": "aydin",
+        "II": "manisa",
+        "III": "mersin",
+        "IV": "antalya",
+        "V": "hatay"
+      }
+    },
+    {
+      "id": "tarim-100",
+      "soru": "Türkiye'de tarımsal faaliyetlerin verimliliğini etkileyen faktörler ile ilgili aşağıdakilerden hangisi yanlıştır?",
+      "siklar": [
+        "A) Gübreleme, toprağın verimini artırarak birim alandan alınan ürünü yükseltir.",
+        "B) Makineleşme, tarımsal faaliyetlerin kısa sürede tamamlanmasını sağlar.",
+        "C) Tohum ıslahı, iklim şartlarına daha dayanıklı ve verimli türlerin elde edilmesini sağlar.",
+        "D) Toprak analizi yapılmadan gübre kullanılması, maliyeti düşürerek verimi artırır.",
+        "E) Pazarlama olanaklarının gelişmesi, çiftçinin üretim motivasyonunu ve ürün çeşitliliğini artırır."
+      ],
+      "dogru": "D) Toprak analizi yapılmadan gübre kullanılması, maliyeti düşürerek verimi artırır.",
+      "aciklama": "Toprak analizi yapılmadan rastgele gübre kullanılması, toprağın kimyasal yapısının bozulmasına, gereksiz maliyet artışına ve çevre kirliliğine yol açar. Bu durum verimi artırmaz, aksine uzun vadede toprağın verimliliğini düşürür. Diğer şıklar ise tarımsal verimi artıran modern yöntemlerin (gübreleme, makineleşme, tohum ıslahı, pazarlama) doğru tanımlarıdır. Genel kural olarak; tarımda verimliliği artırmak için bilimsel yöntemler (toprak analizi, sertifikalı tohum, modern sulama) kullanılmalı ve girdi maliyetleri optimize edilmelidir.",
+      "harita_il": "konya",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    }
+  ]
 }

@@ -14,7 +14,9 @@ import {
   Compass,
   ChevronDown,
   ChevronUp,
+  Trash2,
 } from "lucide-react";
+import { deleteSoruAction } from "./actions";
 
 interface Soru {
   id: string;
@@ -32,11 +34,19 @@ interface QuizData {
   sorular: Soru[];
 }
 
-interface AdminClientProps {
-  initialQuizzes: QuizData[];
+interface KonuData {
+  slug: string;
+  baslik: string;
+  icon: string;
 }
 
-export default function AdminClient({ initialQuizzes }: AdminClientProps) {
+interface AdminClientProps {
+  initialQuizzes: QuizData[];
+  konular: KonuData[];
+}
+
+export default function AdminClient({ initialQuizzes: initialData, konular }: AdminClientProps) {
+  const [initialQuizzes, setInitialQuizzes] = useState<QuizData[]>(initialData);
   const [selectedTopic, setSelectedTopic] = useState<string>(
     initialQuizzes.find((q) => q.sorular.length > 0)?.konu || initialQuizzes[0]?.konu || ""
   );
@@ -48,30 +58,10 @@ export default function AdminClient({ initialQuizzes }: AdminClientProps) {
 
   // Konu Başlıklarını Türkçeleştirme
   const formatTopicName = (slug: string) => {
-    const mapping: Record<string, string> = {
-      "cografi-konum": "Coğrafi Konum & Konum Analizi",
-      "jeolojik-yapi": "Jeolojik Yapı & Depremler",
-      daglar: "Dağlar & Tektonik Kütleler",
-      goller: "Göller & Doğal Su Rezervleri",
-      akarsular: "Akarsular & Akış Rejimleri",
-      "yer-sekilleri": "Yer Şekilleri, Ovalar & Platolar",
-      "kiyi-tipleri": "Kıyı Tipleri & Falez Oluşumları",
-      "iklim-bitki": "İklim Elemanları & Bitki Örtüsü",
-      "toprak-cevre": "Toprak Tipleri & Çevre Afetleri",
-      "beseri-cografya": "Nüfus, Yerleşme & Göç Dinamikleri",
-      "nufus-politikalari": "Nüfus Politikaları & Demografi",
-      tarim: "Tarım Ürünleri & Hayvancılık",
-      "madenler-enerji": "Madenler & Enerji Kaynakları",
-      sanayi: "Sanayi Tesisleri & Sanayileşme",
-      ulasim: "Ulaşım Ağları, Geçitler & Tüneller",
-      ticaret: "İç & Dış Ticaret Dinamikleri",
-      turizm: "UNESCO Alanları & Turizm Değerleri",
-      "bolge-jeopolitik": "Bölgeler & Türkiye Jeopolitiği",
-      "kalkinma-projeleri": "Bölgesel Kalkınma Projeleri (GAP, KOP)",
-      "sinir-kapilari": "Sınır Kapıları & Demiryolu Ağları",
-      "genel-cografya-200": "Genel Coğrafya 200 Soruluk Karma",
-    };
-    return mapping[slug] || slug.replace(/-/g, " ").replace(/\b\w/g, (l) => l.toUpperCase());
+    const matchedKonu = konular.find((k) => k.slug === slug);
+    return matchedKonu
+      ? `${matchedKonu.icon} ${matchedKonu.baslik}`
+      : slug.replace(/-/g, " ").replace(/\b\w/g, (l) => l.toUpperCase());
   };
 
   // Aktif Konu Verileri
@@ -125,7 +115,7 @@ export default function AdminClient({ initialQuizzes }: AdminClientProps) {
       easyCount,
       mediumCount,
       hardCount,
-      totalTopics: initialQuizzes.length,
+      totalTopics: konular.length,
       activeTopics: initialQuizzes.filter((q) => q.sorular.length > 0).length,
     };
   }, [initialQuizzes]);
@@ -172,6 +162,19 @@ export default function AdminClient({ initialQuizzes }: AdminClientProps) {
       nextState[q.id] = expand;
     });
     setExpandedQuestions(nextState);
+  };
+
+  const handleDelete = async (soruId: string, konuSlug: string) => {
+    const res = await deleteSoruAction(konuSlug, soruId);
+    if (res.success) {
+      setInitialQuizzes((prev) =>
+        prev.map((q) =>
+          q.konu === konuSlug ? { ...q, sorular: q.sorular.filter((s) => s.id !== soruId) } : q
+        )
+      );
+    } else {
+      alert("Hata: " + res.error);
+    }
   };
 
   return (
@@ -269,20 +272,24 @@ export default function AdminClient({ initialQuizzes }: AdminClientProps) {
             <h3 className="text-sm font-bold text-ink-500 dark:text-ink-400 uppercase tracking-wider mb-3 px-2 flex items-center justify-between">
               <span>Coğrafya Üniteleri</span>
               <span className="text-xs bg-indigo-50 dark:bg-indigo-950 text-indigo-600 dark:text-indigo-400 px-2 py-0.5 rounded-full font-mono font-bold">
-                {initialQuizzes.length}
+                {konular.length}
               </span>
             </h3>
 
             <div className="space-y-1">
-              {initialQuizzes.map((quiz) => {
+              {konular.map((konu) => {
+                const quiz = initialQuizzes.find((q) => q.konu === konu.slug) || {
+                  konu: konu.slug,
+                  sorular: [],
+                };
                 const isActive = quiz.konu === selectedTopic;
                 const hasQuestions = quiz.sorular.length > 0;
 
                 return (
                   <button
-                    key={quiz.konu}
+                    key={konu.slug}
                     onClick={() => {
-                      setSelectedTopic(quiz.konu);
+                      setSelectedTopic(konu.slug);
                       setSearchTerm("");
                       setDifficultyFilter("hepsi");
                       setMapFilter("hepsi");
@@ -501,6 +508,13 @@ export default function AdminClient({ initialQuizzes }: AdminClientProps) {
                                 Haritasız
                               </span>
                             )}
+
+                            {/* Görsel Rozeti */}
+                            {soru.gorsel ? (
+                              <span className="inline-flex items-center gap-1 text-[9px] font-bold px-1.5 py-0.5 rounded bg-violet-50 dark:bg-violet-950/40 text-violet-600 dark:text-violet-400 border border-violet-100 dark:border-violet-900/40">
+                                🖼️ Görselli
+                              </span>
+                            ) : null}
                           </div>
 
                           {/* Soru Başlangıç Kırpıntısı */}
@@ -510,18 +524,45 @@ export default function AdminClient({ initialQuizzes }: AdminClientProps) {
                             {soru.soru}
                           </div>
                         </div>
+
+                        {/* Silme Butonu */}
+                        <button
+                          onClick={async (e) => {
+                            e.stopPropagation();
+                            if (
+                              confirm("Bu soruyu kalıcı olarak silmek istediğinize emin misiniz?")
+                            ) {
+                              handleDelete(soru.id, selectedTopic);
+                            }
+                          }}
+                          className="ml-auto p-2 text-rose-500 hover:bg-rose-100 dark:hover:bg-rose-950/50 rounded-xl transition-colors flex-shrink-0"
+                          title="Soruyu Sil"
+                        >
+                          <Trash2 className="w-5 h-5" />
+                        </button>
                       </div>
 
                       {/* Genişletilmiş İçerik Alanı */}
                       {isExpanded && (
                         <div className="px-5 pb-6 border-t border-ink-100/50 dark:border-ink-800/40 pt-4 bg-ink-50/10 dark:bg-ink-950/10 space-y-5 animate-slide-down">
+                          {/* ÖSYM Tarzı Görsel Önizleme (varsa) */}
                           {soru.gorsel && (
-                            <div className="overflow-hidden rounded-xl border border-ink-100 bg-ink-50/50 flex justify-center p-2 max-w-md mx-auto">
-                              <img
-                                src={soru.gorsel}
-                                alt="Soru Harita Görseli"
-                                className="max-h-[220px] object-contain rounded-lg shadow-sm"
-                              />
+                            <div className="space-y-2">
+                              <h4 className="text-xs font-bold text-ink-400 uppercase tracking-wider px-1 flex items-center gap-1.5">
+                                <span>🖼️</span>
+                                <span>ÖSYM Harita / Şema Görseli</span>
+                              </h4>
+                              <div className="relative rounded-2xl overflow-hidden border border-violet-200 dark:border-violet-800/50 bg-ink-50 dark:bg-ink-950/40">
+                                {/* eslint-disable-next-line @next/next/no-img-element */}
+                                <img
+                                  src={`/images/quizzes/${soru.gorsel}`}
+                                  alt="Soru görseli"
+                                  className="w-full object-contain max-h-72"
+                                />
+                                <div className="absolute top-2 right-2 bg-violet-600/90 text-white text-[10px] font-bold px-2 py-0.5 rounded-md backdrop-blur-sm">
+                                  📍 {soru.gorsel}
+                                </div>
+                              </div>
                             </div>
                           )}
 

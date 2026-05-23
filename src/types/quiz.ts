@@ -6,6 +6,11 @@ export interface QuizSoru {
   aciklama: string;
   harita_il: string | null;
   zorluk: "kolay" | "orta" | "zor";
+  /**
+   * Opsiyonel: ÖSYM tarzı görselli sorularda kullanılan harita/şema görseli.
+   * Yol /public/images/quizzes/ klasörüne görelidir.
+   * Örnek: "daglar/daglar-q001.png"
+   */
   gorsel?: string | null;
 }
 

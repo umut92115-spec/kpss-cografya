@@ -1,4 +1,1796 @@
 {
   "konu": "beseri-cografya",
-  "sorular": []
+  "sorular": [
+    {
+      "id": "beseri-cografya-001",
+      "soru": "Yukarıdaki Türkiye haritasında I, II, III, IV ve V numaralı alanlar gösterilmiştir.\nBu alanlardan hangisi, sanayi ve ticaretin gelişmiş olmasına bağlı olarak Türkiye'nin en yoğun nüfuslu yöreleri arasında yer alır?",
+      "siklar": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV",
+        "E) V"
+      ],
+      "dogru": "A) I",
+      "aciklama": "A şıkkı doğrudur çünkü I numarayla gösterilen İstanbul ve çevresini kapsayan Çatalca-Kocaeli Yöresi, Türkiye'de sanayi, ticaret, bankacılık ve ulaşım gibi ekonomik faaliyetlerin en fazla geliştiği, buna bağlı olarak en çok göç alan ve nüfus yoğunluğu açık ara en yüksek olan yöremizdir. B şıkkında verilen II numaralı alan Menteşe Yöresi olup dağlık ve engebeli arazisi nedeniyle seyrek nüfusludur. C şıkkı yanlıştır zira III numaralı alan olan Sivas çevresi şiddetli karasal iklim ve engebe nedeniyle nüfusu seyrek bir yöredir. D şıkkında yer alan IV numara Hakkâri yöresini göstermekte olup yüksek ve sarp topoğrafyası sebebiyle oldukça seyrek nüfuslanmıştır. E şıkkındaki V numara olan Konya ise tarım ve sanayisi gelişmekle birlikte çok geniş yüzölçümü ve yer yer şiddetli kuraklık sebebiyle aritmetik yoğunluk bakımından ilk sıralarda yer almaz. Genel kural olarak sanayi ve ticaretin yoğunlaştığı ana merkezler, ülkenin en kalabalık alanlarıdır.",
+      "harita_il": "istanbul",
+      "zorluk": "kolay",
+      "gorsel": "beseri-cografya/beseri-cografya-001.svg",
+      "gorsel_veri": {
+        "I": "istanbul",
+        "II": "mugla",
+        "III": "sivas",
+        "IV": "hakkari",
+        "V": "konya"
+      }
+    },
+    {
+      "id": "beseri-cografya-003",
+      "soru": "Tarımsal nüfus yoğunluğu, tarımla uğraşan kırsal nüfusun toplam tarım alanlarına bölünmesiyle elde edilen istatistiki bir veridir.\nBuna göre tarımsal nüfus yoğunluğu ile ilgili,\nI. Doğu Karadeniz Bölümü'nde tarım alanlarının çok dar olması nedeniyle bu yoğunluk yüksektir.\nII. İç Anadolu Bölgesi'nde tarım alanlarının geniş, makineleşmenin yaygın olması nedeniyle yoğunluk düşüktür.\nIII. Çukurova'da tarım alanlarının aşırı dar ve kısıtlı olması sebebiyle tarımsal nüfus yoğunluğu Türkiye ortalamasının çok üzerindedir.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız III",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "C şıkkı doğrudur çünkü tarımsal nüfus yoğunluğu değeri, tarım alanlarının genişliğinden doğrudan etkilenir. Doğu Karadeniz'de yer şekillerinin aşırı engebeli olması tarım alanlarını daraltmıştır; bu nedenle tarımla uğraşan nüfusun çok küçük bir alana bölünmesi tarımsal yoğunluğu yüksek çıkarır (I. öncül doğru). İç Anadolu'da ise topoğrafyanın düz ve sade olması tarım alanlarını devasa boyutlara ulaştırmıştır. Aynı zamanda tarımda makine kullanımının yaygın olması insan gücüne duyulan ihtiyacı ve tarımsal nüfusu azalttığı için tarımsal nüfus yoğunluğu çok düşüktür (II. öncül doğru). A, B, D ve E şıkları eksik ve hatalı değerlendirme içerir zira Çukurova, Türkiye'nin en büyük alüvyal delta ovalarından biridir; tarım alanları dar değil aksine çok geniştir. Tarım alanları geniş olduğu için Çukurova'da tarımsal nüfus yoğunluğu Türkiye ortalamasının çok üzerinde değil, altındadır (III. öncül yanlış). Genel kural olarak arazi engebeliyse tarımsal yoğunluk yüksek, düz ve sade ise düşüktür.",
+      "harita_il": null,
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-004",
+      "soru": "Türkiye'de nüfusun dağılışını etkileyen faktörler, coğrafi şartlara bağlı olarak yöreden yöreye büyük farklılıklar göstermektedir.\nAşağıda verilen sık nüfuslu yöre ve bu yörede nüfusun yoğun olmasını sağlayan temel ekonomik faaliyet eşleştirmelerinden hangisi yanlıştır?",
+      "siklar": [
+        "A) Çatalca-Kocaeli Yöresi — Sanayi ve Ticaret",
+        "B) Zonguldak Çevresi — Madencilik ve Ağır Sanayi",
+        "C) Çukurova Yöresi — Tarım ve Tarıma Dayalı Sanayi",
+        "D) Antalya Çevresi — Turizm ve Seracılık Faaliyetleri",
+        "E) Menteşe Yöresi — Otomotiv Sanayisi ve Ticaret"
+      ],
+      "dogru": "E) Menteşe Yöresi — Otomotiv Sanayisi ve Ticaret",
+      "aciklama": "E şıkkı doğrudur çünkü Muğla çevresini kapsayan Menteşe Yöresi, sanayi, ticaret veya otomotiv faaliyetleriyle değil; daha çok turizm, ormancılık ve arıcılık gibi faaliyetlerle öne çıkar. Ayrıca bu yöre sık nüfuslu değil, yer şekillerinin engebeli ve dağlık olmasından dolayı oldukça seyrek nüfusludur. A şıkkı yanlıştır zira Çatalca-Kocaeli bölümü Türkiye'de sanayi ve ticaretin merkez üssüdür ve en sık nüfuslu yerdir. B şıkkı yanlıştır, Zonguldak ve çevresinde zengin taşkömürü yataklarına bağlı gelişen madencilik ve demir-çelik sanayisi yoğun nüfuslanmayı sağlamıştır. C şıkkında verilen Çukurova (Adana), son derece verimli alüvyal tarım arazileri ve tarıma dayalı sanayisi (dokuma, gıda) sayesinde dışarıdan göç alarak sık nüfuslanmıştır. D şıkkı yanlıştır zira Antalya çevresi yıl boyunca yapılabilen verimli seracılık faaliyetleri ve gelişmiş yaz turizmi potansiyeli nedeniyle sık nüfusludur. Genel kural olarak sanayi ve elverişli tarım bölgeleri nüfusu kendisine çeker.",
+      "harita_il": "mugla",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-005",
+      "soru": "Türkiye'de bazı yöreler iklim koşullarının uygunsuzluğuna, bazı yöreler ise yer şekillerinin olumsuzluğuna bağlı olarak çevrelerine göre daha seyrek nüfuslanmıştır.\nBuna göre aşağıda verilen seyrek nüfuslu yörelerden hangisi, nüfusun seyrek olma nedeni bakımından diğerlerinden farklıdır?",
+      "siklar": [
+        "A) Hakkâri Yöresi",
+        "B) Menteşe Yöresi",
+        "C) Tuz Gölü ve Çevresi",
+        "D) Yıldız Dağları Bölümü",
+        "E) Biga Yarımadası"
+      ],
+      "dogru": "C) Tuz Gölü ve Çevresi",
+      "aciklama": "C şıkkı doğrudur çünkü İç Anadolu'daki Tuz Gölü ve çevresi, yer şekilleri bakımından Türkiye'nin en düz ve sade topoğrafyalarından birine sahip olmasına karşın; şiddetli kuraklık, yağış azlığı ve toprakların çorak/tuzlu olması gibi iklimsel nedenlerle çok seyrek nüfuslanmıştır. A şıkkı yanlıştır zira Hakkâri Yöresi dağlık ve çok sarp bir topoğrafyaya (engebe) sahip olduğu için seyrektir. B şıkkında verilen Menteşe Yöresi deniz kıyısında elverişli iklimde yer almasına rağmen, dağların kıyıya paralel ve çok engebeli uzanması nedeniyle seyrektir. D şıkkı yanlıştır, Yıldız Dağları (Istrancalar) isminden de anlaşılacağı üzere engebesi sebebiyle seyrek nüfusludur. E şıkkında yer alan Biga Yarımadası (Çanakkale) da yine yer şekillerinin engebeli yapısı nedeniyle yeterince nüfuslanamamıştır. Genel kural olarak Türkiye'de nüfusun dağılışını sınırlandıran en temel iki faktör yer şekillerinin engebesi ve şiddetli kuraklıktır; Tuz Gölü kuraklık örneğiyken diğerleri engebe örneğidir.",
+      "harita_il": "aksaray",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-006",
+      "soru": "Tarımsal nüfus yoğunluğu; tarımsal nüfusun, mevcut tarım alanları yüzölçümüne bölünmesiyle bulunur. Arazi ne kadar engebeli ve tarım alanı ne kadar darsa tarımsal yoğunluk o kadar yüksek hesaplanır.\nYukarıdaki Türkiye haritasında numaralandırılarak gösterilen yörelerden hangisinde tarımsal nüfus yoğunluğunun diğerlerine göre çok daha yüksek olması beklenir?",
+      "siklar": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV",
+        "E) V"
+      ],
+      "dogru": "C) III",
+      "aciklama": "C şıkkı doğrudur çünkü haritada III numara ile gösterilen Rize ve çevresi (Doğu Karadeniz Bölümü), Türkiye'de yer şekillerinin en dağlık ve en sarp olduğu yörelerin başında gelir. Bu aşırı engebe, bölgedeki düzlük ve ekilebilir tarım alanlarını son derece daraltmıştır. Tarımla uğraşan önemli bir kırsal nüfusun, bu daracık tarım alanlarına bölünmesi formül gereği tarımsal nüfus yoğunluğunu Türkiye'nin en yüksek seviyelerine taşır. A şıkkı yanlıştır zira I numaralı alandaki Edirne (Ergene Havzası) düz bir ovadır ve tarım alanları geniştir. B şıkkı yanlıştır, II numara olan Kayseri çevresi nispeten düzlüktür, yoğunluk düşüktür. D şıkkı yanlıştır, IV numara olan Mardin eşiğinin güneyi tamamen geniş düzlüklerden oluşur. E şıkkı olan V numara Konya'dır; Türkiye'de düzlüklerin ve tarım alanlarının en geniş olduğu yer olduğu için tarımsal nüfus yoğunluğu en düşük olan ildir. Genel kural: Engebe artarsa tarım alanı daralır, yoğunluk yükselir.",
+      "harita_il": "rize",
+      "zorluk": "orta",
+      "gorsel": "beseri-cografya/beseri-cografya-006.svg",
+      "gorsel_veri": {
+        "I": "edirne",
+        "II": "kayseri",
+        "III": "rize",
+        "IV": "mardin",
+        "V": "konya"
+      }
+    },
+    {
+      "id": "beseri-cografya-007",
+      "soru": "Doğu Anadolu'da yer alan Hakkâri Bölümü ile Marmara'da yer alan Biga Yarımadası, Türkiye'de nüfusun seyrek olduğu yöreler arasında bulunmaktadır.\nBu iki farklı yörenin seyrek nüfuslu olmasında;\nI. Arazinin genel hatlarıyla dağlık ve engebeli olması,\nII. Yıllık ortalama yağış miktarının Türkiye ortalamasının çok altında kalması,\nIII. Ana kara ulaşım güzergâhlarına sapa kalmaları\nfaktörlerinden hangileri ortak etkiye sahiptir?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve III",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve III",
+      "aciklama": "C şıkkı doğrudur çünkü hem Hakkâri Bölümü hem de Biga Yarımadası (Çanakkale çevresi), yer şekillerinin dağlık ve aşırı engebeli olduğu alanlardır, bu durum yerleşmeyi ve ekonomik yatırımları zorlaştırır (I. öncül ortak). Ayrıca her iki bölge de Türkiye'nin ana karayolu ve transit geçiş güzergâhlarının uzağında, tabiri caizse çıkmaz sokak (sapa) konumunda yer aldıkları için ticari gelişimleri kısıtlı kalmış ve seyrek nüfuslanmışlardır (III. öncül ortak). A, B, D ve E şıkları yanlıştır zira ikinci öncülde belirtilen 'yıllık yağış miktarının düşük olması' bilgisi her iki yöre için de kesinlikle hatalıdır. Hakkâri dağlık kütlesi yüksekliğinden dolayı Doğu Anadolu'nun, Biga Yarımadası ise rüzgâr yönünden dolayı Marmara'nın en çok yağış alan yerleri arasındadır; yani kurak veya az yağışlı değillerdir (II. öncül yanlış). Genel kural olarak bir bölge hem engebeli hem de transit yollara uzaksa, iklimi nispeten iyi olsa bile seyrek nüfuslanır.",
+      "harita_il": "canakkale",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-008",
+      "soru": "Bir ülkenin toplam nüfus miktarının, sahip olduğu toplam yüzölçümüne bölünmesiyle o ülkenin aritmetik nüfus yoğunluğu (kilometrekareye düşen insan sayısı) elde edilir.\nTürkiye'nin aritmetik nüfus yoğunluğunun sayım yıllarına göre sürekli bir artış göstermesinin temel nedeni aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Kara sınırlarının değişmesiyle yüzölçümünün zaman içinde küçülmesi",
+        "B) Yıllık nüfus artış hızının son yıllarda giderek düşme eğilimi göstermesi",
+        "C) Ülke genelinde nüfus miktarının sürekli olarak artmaya devam etmesi",
+        "D) Dışarıdan ülkeye yönelik gerçekleşen kitlesel göçlerin giderek azalması",
+        "E) Tarım sektöründe çalışan kırsal nüfus oranının istikrarlı şekilde artması"
+      ],
+      "dogru": "C) Ülke genelinde nüfus miktarının sürekli olarak artmaya devam etmesi",
+      "aciklama": "C şıkkı doğrudur çünkü aritmetik nüfus yoğunluğu matematiksel bir bölme işlemidir; toplam nüfus (pay) yüzölçümüne (bölen) bölünür. Ülkemizin yüzölçümü yıllar içinde değişmemesine (sabit kalmasına) rağmen, doğumlar ve son yıllarda alınan dış göçler sayesinde toplam insan sayımız (nüfus miktarımız) her sayım döneminde artmaya devam etmiştir. Payın sürekli büyümesi, elde edilen sonucun yani kilometreye düşen insan yoğunluğunun sürekli artmasını sağlamıştır. A şıkkı yanlıştır zira Hatay'ın anavatana katılması dışında yüzölçümümüzde küçülme veya büyük değişimler olmamıştır. B şıkkı yanlıştır çünkü nüfus artış hızının düşmesi nüfusun azaldığı anlamına gelmez, sadece nüfusun eskiye göre daha yavaş arttığını gösterir; yani nüfus hala artmaktadır. D ve E şıkları yanlıştır zira dış göçlerin azalması veya kırsal nüfus oranı, aritmetik yoğunluğun artış trendini açıklayan ana etkenler değildir. Genel kural olarak sınırları değişmeyen bir ülkede toplam nüfus arttıkça aritmetik yoğunluk kesinlikle artar.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-009",
+      "soru": "Türkiye'de nüfusun mekânsal dağılışı son derece düzensiz olup bu durum üzerinde doğal ve beşerî faktörlerin etkileşimi belirleyicidir.\nAşağıda Türkiye'nin bazı yöreleri ve bu yörelerin nüfus özellikleriyle ilgili verilen eşleştirmelerden hangisi yanlıştır?",
+      "siklar": [
+        "A) Taşeli Platosu — Engebe ve karstik litolojik yapı nedeniyle seyrek nüfuslu",
+        "B) Çukurova Yöresi — Geniş ve verimli tarım alanları nedeniyle sık nüfuslu",
+        "C) Erzurum-Kars Platosu — Sert karasal iklim ve yüksek rakım nedeniyle seyrek nüfuslu",
+        "D) İzmit ve Çevresi — Sanayi ve ulaşım olanaklarının gelişmesi nedeniyle sık nüfuslu",
+        "E) Teke Platosu — Ulaşım kolaylığı ve tarımsal verimlilik nedeniyle sık nüfuslu"
+      ],
+      "dogru": "E) Teke Platosu — Ulaşım kolaylığı ve tarımsal verimlilik nedeniyle sık nüfuslu",
+      "aciklama": "E şıkkı doğrudur çünkü Akdeniz Bölgesi'nde (Antalya'nın batısı) yer alan Teke Platosu sık nüfuslu değil aksine Türkiye'nin en seyrek nüfuslu yörelerinden biridir. Ulaşım kolaylığına veya geniş tarım arazilerine sahip değildir; çok sarp, dağlık ve tamamen kireç taşından (karstik) oluşan engebeli bir yapıya sahip olduğu için tarım alanları parçalı ve dar, ulaşım maliyetleri ise çok yüksektir. A şıkkı yanlıştır zira Taşeli Platosu tıpkı Teke gibi karstik ve engebeli olduğu için seyrektir (ifade doğrudur). B şıkkı yanlıştır, Çukurova Türkiye'nin en verimli tarım alanlarından olduğu için kalabalıktır. C şıkkı yanlıştır, Erzurum-Kars soğuk iklim ve yüksek rakım nedeniyle oldukça tenhadır. D şıkkında verilen İzmit (Kocaeli) sanayi faaliyetlerinden dolayı aşırı yoğun nüfusludur. Genel kural olarak karstik araziler yüzey suları bakımından fakir ve engebeli olduklarından nüfusu itici bir özellik taşırlar.",
+      "harita_il": "antalya",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-010",
+      "soru": "Yukarıdaki haritada I, II ve III numaralı alanlar Türkiye'nin farklı nüfus özelliklerine sahip yörelerini göstermektedir.\nBu yörelerin coğrafi ve demografik özellikleriyle ilgili,\nI. I numaralı alanda sanayi, ticaret ve hizmet sektörünün aşırı gelişmesi, aritmetik nüfus yoğunluğunu artırmıştır.\nII. II numaralı alanda tarım ve tarıma dayalı sanayi kollarının varlığı, nüfusun sık olmasında temel etkendir.\nIII. III numaralı alanda topoğrafik engebenin fazla ve iklimsel karasallığın şiddetli olması, nüfusun çok seyrek olmasına yol açmıştır.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) I ve II",
+        "C) I ve III",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "E) I, II ve III",
+      "aciklama": "E şıkkı doğrudur çünkü öncüllerde verilen bilgilerin tamamı yörelerin coğrafi gerçekleriyle birebir örtüşmektedir. I numaralı alan İstanbul ve Kocaeli çevresini (Çatalca-Kocaeli Yöresi) göstermekte olup burası sanayi, ticaret ve hizmet sektörlerinin yoğunluğu sebebiyle ülkenin en yüksek aritmetik nüfus yoğunluğuna sahip bölgesidir (I. öncül doğru). II numaralı alan Çukurova'yı (Adana) işaret eder; Seyhan ve Ceyhan nehirlerinin oluşturduğu bu delta çok verimli topraklara sahip olduğu için tarım ve dokuma/gıda sanayisi gelişmiş, bu da yoğun nüfuslanmayı sağlamıştır (II. öncül doğru). III numaralı alan ise Erzurum-Kars Yöresi'dir; yüksek rakım, dağlık arazi ve çok sert kış koşulları barındıran karasal iklim insan yaşamını ve ekonomik yatırımları zorlaştırdığından nüfus oldukça seyrektir (III. öncül doğru). A, B, C ve D şıkları eksik değerlendirme içerdiklerinden elenir. Genel kural olarak ekonomik faaliyetleri çeşitli yöreler sık, engebeli ve çok soğuk yöreler ise seyrek nüfuslanır.",
+      "harita_il": null,
+      "zorluk": "zor",
+      "gorsel": "beseri-cografya/beseri-cografya-010.svg",
+      "gorsel_veri": {
+        "I": "istanbul",
+        "II": "adana",
+        "III": "kars",
+        "IV": "izmir",
+        "V": "hatay"
+      }
+    },
+    {
+      "id": "beseri-cografya-011",
+      "soru": "Hem elverişli iklim koşullarına sahip olması, hem verimli tektonik tarım alanlarını barındırması hem de sanayi, ticaret ve uluslararası liman fonksiyonlarının çok gelişmiş olması nedeniyle Türkiye'nin en yoğun nüfuslu alanlarından biridir.\nÖzellikleri verilen ve nüfusun yoğunlaşmasında birden fazla faktörün etkili olduğu bu yöre aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) İzmir ve Çevresi",
+        "B) Menteşe Yöresi",
+        "C) Taşeli Platosu",
+        "D) Yıldız Dağları Bölümü",
+        "E) Hakkâri Yöresi"
+      ],
+      "dogru": "A) İzmir ve Çevresi",
+      "aciklama": "A şıkkı doğrudur çünkü İzmir ve çevresi; ılıman Akdeniz iklimine sahip olması, verimli Bakırçay ve Gediz gibi çöküntü ovalarında yüksek tarımsal üretim yapabilmesi, ayrıca Türkiye'nin en büyük ihracat limanlarından birine sahip olup sanayi ve ticarette çok gelişmesi sayesinde aritmetik nüfus yoğunluğu çok yüksek olan bir yöremizdir. B şıkkı yanlıştır zira Menteşe Yöresi (Muğla) engebeli olduğu için sanayisi gelişmemiştir ve seyrek nüfusludur. C şıkkı yanlıştır, Taşeli Platosu karstik litolojisi ve sarp yapısıyla sanayiden yoksundur ve tenhadır. D şıkkında verilen Yıldız Dağları, dağlık yapısı ve ana yollara sapa kalması sebebiyle seyrek nüfusludur. E şıkkındaki Hakkâri yöresi ise yüksek rakımı ve engebesiyle Türkiye'nin en seyrek nüfuslu alanlarından biridir. Genel kural olarak kıyı bölgelerinde iklim, tarım ve liman fonksiyonlarının bir araya geldiği noktalar her zaman yoğun göç alarak kalabalıklaşır.",
+      "harita_il": "izmir",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-012",
+      "soru": "Yukarıdaki Türkiye haritasında beş farklı yöre numaralandırılarak gösterilmiştir.\nBu alanlardan hangisinin yoğun nüfuslu olmasında hem modern tarım yöntemlerinin (seracılık) uygulanması hem de yaz turizmi olanaklarının çok gelişmiş olması diğerlerine göre daha fazla etkili olmuştur?",
+      "siklar": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV",
+        "E) V"
+      ],
+      "dogru": "A) I",
+      "aciklama": "A şıkkı doğrudur çünkü haritada I numara ile gösterilen yer Antalya ve çevresidir. Antalya, Akdeniz ikliminin sunduğu ılıman kış mevsimi sayesinde Türkiye'de modern tarım yöntemlerinden biri olan örtü altı tarımının (seracılığın) başkentidir. Ayrıca uzun güneşlenme süresi ve geniş plajlarıyla Türkiye'nin yaz turizmi gelirlerinin büyük kısmını karşılar. Bu iki güçlü ekonomik faaliyet sayesinde Antalya sürekli göç almakta ve nüfusu hızla artmaktadır. B şıkkı yanlıştır zira II numara Biga Yarımadası'dır, turizm ve seracılık Antalya kadar belirleyici değildir, üstelik yöre nispeten seyrek nüfusludur. C şıkkındaki III numara (Kastamonu kıyıları) turizm ve seracılıkta zayıftır. D şıkkında verilen IV numara Erzincan'dır, karasal iklim nedeniyle seracılık gelişememiştir. E şıkkındaki V numara olan Hakkâri tamamen dağlık olup bu faaliyetlerden yoksundur. Genel kural olarak ılıman iklim şartları tarımı çeşitlendirirken, uzun yaz mevsimi turizmi canlandırarak nüfusu artırır.",
+      "harita_il": "antalya",
+      "zorluk": "orta",
+      "gorsel": "beseri-cografya/beseri-cografya-012.svg",
+      "gorsel_veri": {
+        "I": "antalya",
+        "II": "canakkale",
+        "III": "kastamonu",
+        "IV": "erzincan",
+        "V": "hakkari"
+      }
+    },
+    {
+      "id": "beseri-cografya-013",
+      "soru": "Fizyolojik nüfus yoğunluğu, bir bölgedeki toplam nüfusun o bölgedeki toplam tarım alanlarına (ekili-dikili alan) bölünmesiyle elde edilen ve bölgenin tarımsal beslenme baskısını gösteren bir ölçüttür.\nBuna göre Türkiye'deki coğrafi bölgelerin fizyolojik nüfus yoğunlukları ile ilgili,\nI. Ege Bölgesi'nde toplam nüfusun çok fazla olması nedeniyle fizyolojik yoğunluk Türkiye'nin en yükseğidir.\nII. Doğu Anadolu Bölgesi'nde tarım alanlarının son derece kısıtlı ve dar olması fizyolojik yoğunluğu artırmaktadır.\nIII. Marmara Bölgesi'nde toplam nüfus miktarının olağanüstü fazla olması sebebiyle fizyolojik yoğunluk çok yüksektir.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "D) II ve III",
+      "aciklama": "D şıkkı doğrudur çünkü fizyolojik nüfus yoğunluğu toplam nüfusun ekili-dikili (tarım) alanlarına bölünmesiyle bulunur. Doğu Anadolu Bölgesi'nde arazi çok dağlık ve engebeli olduğu için tarım alanları son derece dardır, bu da bölme işleminde bölen kısmının küçük olmasından dolayı sonucun (fizyolojik yoğunluğun) yüksek çıkmasına neden olur (II. öncül doğru). Marmara Bölgesi'nde ise tarım alanları geniş ve sade olmasına rağmen toplam nüfus miktarı o kadar fazladır ki pay kısmı çok büyüktür, bu yüzden fizyolojik yoğunluk devasa bir rakam çıkar (III. öncül doğru). A, B, C ve E şıkları yanlıştır zira Ege Bölgesi tarımsal potansiyeli yüksek olmakla birlikte fizyolojik nüfus yoğunluğunda Türkiye'nin ilk sırasında yer almaz; bu istatistiki rekor ezici bir nüfus farkıyla Marmara Bölgesi'ne aittir (I. öncül yanlış). Genel kural olarak fizyolojik yoğunluk ya nüfusu aşırı fazla olan ya da tarım alanları aşırı dar olan yerlerde yüksek çıkar.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-014",
+      "soru": "Türkiye'de kıyı bölgeleri; elverişli iklim şartları, ulaşım kolaylıkları ve tarım olanakları sayesinde genel olarak iç bölgelere göre daha yoğun nüfuslanmıştır. Ancak bazı kıyı yörelerinde yer şekillerinin engebeli olması bu avantajı ortadan kaldırarak nüfuslanmayı olumsuz yönde etkilemiştir.\nAşağıdakilerden hangisi, deniz kıyısında yer almasına rağmen engebeli topoğrafyası nedeniyle seyrek nüfuslanmış yörelere örnek gösterilemez?",
+      "siklar": [
+        "A) Menteşe Yöresi",
+        "B) Biga Yöresi",
+        "C) Taşeli Platosu",
+        "D) Çukurova Yöresi",
+        "E) Yıldız Dağları Bölümü"
+      ],
+      "dogru": "D) Çukurova Yöresi",
+      "aciklama": "D şıkkı doğrudur çünkü Çukurova Yöresi (Adana), deniz kıyısında yer almasının yanı sıra Türkiye'nin en büyük alüvyon tabanlı delta ovasıdır; yani yer şekilleri bakımından engebeli değil, tamamen düzlük bir alandır. Bu muazzam tarım potansiyeli ve düz arazi yapısı, yörenin çok yoğun bir şekilde nüfuslanmasını sağlamıştır; dolayısıyla seyrek nüfuslu kıyı alanlarına örnek gösterilemez. A şıkkı yanlıştır zira Muğla'daki Menteşe Yöresi dağların kıyıya göre uzanışının sarp ve kıvrımlı olması sebebiyle oldukça seyrektir. B şıkkında verilen Çanakkale'deki Biga Yöresi hem dağlık hem de sapa kaldığı için seyrektir. C şıkkındaki Taşeli Platosu kıyıda olmasına karşın çok pürüzlü karstik litolojisiyle seyrek nüfuslanmıştır. E şıkkı yanlıştır, Karadeniz kıyısındaki Yıldız Dağları (Istrancalar) dağlık ve ormanlık yapısıyla ulaşımı kısıtlar ve tenhadır. Genel kural olarak kıyıda yer alıp da seyrek nüfuslu olan yörelerin ortak problemi istisnasız engebedir.",
+      "harita_il": "adana",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-015",
+      "soru": "Şehirlerin kuruluş ve büyüme süreçlerinde idari, askeri, ekonomik ve kültürel fonksiyonlar belirleyici rol oynamaktadır. Bir kentin temel fonksiyonu, o kentin çevre illerden yoğun şekilde göç almasını sağlar.\nBuna göre aşağıdaki il ve bu ilin yoğun nüfuslanmasında en fazla etkili olan temel fonksiyon eşleştirmelerinden hangisi yanlıştır?",
+      "siklar": [
+        "A) Ankara — İdari ve Siyasi Fonksiyon",
+        "B) Bursa — Otomotiv, Tekstil Sanayisi ve Ticaret Fonksiyonu",
+        "C) Antalya — Yaz Turizmi ve Seracılık (Tarım) Fonksiyonu",
+        "D) Zonguldak — Taşkömürü Çıkarımı ve Ağır Sanayi Fonksiyonu",
+        "E) Sinop — Uluslararası Ticaret ve Gelişmiş Liman Fonksiyonu"
+      ],
+      "dogru": "E) Sinop — Uluslararası Ticaret ve Gelişmiş Liman Fonksiyonu",
+      "aciklama": "E şıkkı doğrudur çünkü Karadeniz'in en uç noktasında yer alan Sinop, doğal bir limana sahip olmasına karşın gerisindeki dağlık alanlar (Küre Dağları) nedeniyle iç bölgelerle ulaşımı (hinterlandı) çok kısıtlıdır. Bu durum limanın gelişmesini engellemiş, ticaret hacmini daraltmış ve Sinop'un uluslararası ticarette geri kalmasına sebep olarak nüfuslanmasını sınırlandırmıştır. A şıkkı yanlıştır zira Ankara'nın başkent ilan edilmesi idari fonksiyonunu öne çıkarmış ve nüfus patlaması yaratmıştır. B şıkkı yanlıştır, Bursa Türkiye'nin en büyük otomotiv fabrikalarına ev sahipliği yapar ve sanayi ile büyümüştür. C şıkkı yanlıştır, Antalya'nın temel büyüme motoru her şey dahil yaz turizmi ve kış seracılığıdır. D şıkkı yanlıştır zira Zonguldak tamamen taşkömürü yataklarının bulunması ve ardından kurulan demir-çelik sanayisi (Erdemir) sayesinde bir köyden şehre dönüşmüştür. Genel kural olarak hinterlandı dar olan liman şehirleri (Sinop gibi) ticarette büyüyemez ve seyrek nüfuslu kalır.",
+      "harita_il": "sinop",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-016",
+      "soru": "Sanayileşmenin ve ticaretin çok geliştiği bölgeler, çevre illerden yoğun düzeyde göç almalarına bağlı olarak aritmetik nüfus yoğunluğunun hızla yükseldiği alanlardır.\nBuna göre haritada numaralandırılmış alanlardan hangisi, bu genellemenin dışında kalarak sanayiden ziyade tarım ve hayvancılık fonksiyonlarının belirgin olduğu çok seyrek nüfuslu yöreler arasında yer alır?",
+      "siklar": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV",
+        "E) V"
+      ],
+      "dogru": "D) IV",
+      "aciklama": "D şıkkı doğrudur çünkü haritada IV numaralı alan Tunceli ve çevresini (Yukarı Fırat Bölümü) göstermektedir. Bu yöre aşırı dağlık, sarp ve engebeli arazi yapısı nedeniyle sanayi ve ulaşım altyapısının gelişemediği, dolayısıyla sürekli dışarıya göç veren ve Türkiye'nin en seyrek nüfuslanmış yörelerinden biridir. Temel geçim kaynağı mera hayvancılığıdır. A şıkkı yanlıştır zira I numaralı alan olan Bursa otomotiv ve tekstil sanayisiyle sık nüfusludur ve genellemeye uyar. B şıkkı yanlıştır, II numara ile gösterilen Kocaeli petrokimya ve imalat sanayisinde lider illerden olup Türkiye'nin en yoğun nüfuslu yerlerindendir. C şıkkındaki III numara Gaziantep'tir; Güneydoğu Anadolu'nun sanayi ve ticaret merkezidir, dolayısıyla yoğun nüfusludur. E şıkkındaki V numara olan İzmir, çok çeşitli sanayi kolları ve devasa ihracat limanıyla sık nüfuslanmıştır. Genel kural olarak yer şekillerinin engebeli olduğu alanlarda sanayi gelişemez, ulaşım zorlaşır ve nüfus seyrek kalır.",
+      "harita_il": "tunceli",
+      "zorluk": "zor",
+      "gorsel": "beseri-cografya/beseri-cografya-016.svg",
+      "gorsel_veri": {
+        "I": "bursa",
+        "II": "kocaeli",
+        "III": "gaziantep",
+        "IV": "tunceli",
+        "V": "izmir"
+      }
+    },
+    {
+      "id": "beseri-cografya-017",
+      "soru": "İç Anadolu Bölgesi'nde yer alan Tuz Gölü ve çevresi, Türkiye'nin en seyrek nüfuslu yörelerinden biridir.\nBu yörenin seyrek nüfuslu olmasında;\nI. Tarım alanlarının oldukça dar ve arazinin çok engebeli olması,\nII. Yıllık yağış miktarının az, yaz kuraklığı şiddetinin yüksek olması,\nIII. Ana karayolu ulaşım güzergâhlarının tamamen dışında, sapa bir konumda kalması\nfaktörlerinden hangileri etkili olmuştur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "B) Yalnız II",
+      "aciklama": "B şıkkı doğrudur çünkü Tuz Gölü ve çevresinin seyrek nüfuslanmasının yegâne temel nedeni iklimsel zorluklardır; şiddetli kuraklık, yetersiz yağış ve buna bağlı olarak buharlaşmanın artmasıyla toprakların çorak/tuzlu yapıda olması tarımsal verimi düşürmüş, nüfusu sınırlandırmıştır (II. öncül doğru). A, C, D ve E şıkları yanlıştır zira Tuz Gölü çevresi İç Anadolu'nun en geniş düzlük alanlarından biridir, dolayısıyla arazi engebeli değil aksine son derece sade ve ufka kadar düzdür; tarım alanları dardır diyemeyiz, sadece ciddi bir sulama sorunu vardır (I. öncül yanlış). Ayrıca bu yöre Türkiye'nin doğusu ile batısını (Ankara-Adana karayolu gibi) bağlayan ana ulaşım güzergâhlarının birçoğunun üzerinde veya yakınında yer alır, yani sapa kalmış bir bölge kesinlikle değildir (III. öncül yanlış). Genel kural olarak İç Anadolu yörelerindeki seyreklik engebeden değil, tamamen su yetersizliğinden ve karasallıktan kaynaklanır.",
+      "harita_il": "konya",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-018",
+      "soru": "Konya Ovası, Türkiye'de buğday ve şeker pancarı gibi ürünlerde tarımsal üretimin en yüksek olduğu yörelerden biri olmasına rağmen yörenin tarımsal nüfus yoğunluğu Türkiye ortalamasının çok altındadır.\nBu demografik durumun ortaya çıkmasında; Konya Ovası'nın hangi özelliği temel etken olmuştur?",
+      "siklar": [
+        "A) İklimin yarı kurak karasal özellikte olması",
+        "B) Yetiştirilen tarımsal ürün çeşitliliğinin az olması",
+        "C) Tarım alanlarının çok geniş, makineleşmenin çok yaygın olması",
+        "D) Tarıma dayalı gıda sanayisinin yeterince gelişmemiş olması",
+        "E) Doğal nüfus artış hızının eksilerde seyretmesi"
+      ],
+      "dogru": "C) Tarım alanlarının çok geniş, makineleşmenin çok yaygın olması",
+      "aciklama": "C şıkkı doğrudur çünkü tarımsal nüfus yoğunluğu, tarımla uğraşan insan sayısının tarım alanlarına bölünmesiyle bulunur. Konya Ovası, Türkiye'de yüzölçümü ve işlenebilir tarım arazisi en geniş olan bölgedir (bölen çok büyüktür). Üstelik arazinin dümdüz olması tarımda makine (traktör, biçerdöver) kullanımını en üst seviyeye çıkarmıştır. Makinelerin insanların yerini almasıyla tarlada çalışan insan sayısı (pay) azalmıştır. Küçük bir sayının çok büyük bir sayıya bölünmesi sonucu tarımsal yoğunluk çok düşük çıkar. A şıkkı yanlıştır zira yarı kurak iklim ürün çeşidini etkiler, yoğunluk formülünün doğrudan belirleyicisi arazinin düzlüğüdür. B ve D şıkları tarımın ekonomik analiziyle ilgilidir, yoğunluk hesabıyla matematiksel bağları zayıftır. E şıkkı yanlıştır, Konya'da nüfus artışı eksilerde değildir. Genel kural olarak arazi düzleştikçe makineleşme artar, insan gücüne ihtiyaç azalır ve tarımsal yoğunluk doğrudan düşer.",
+      "harita_il": "konya",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-019",
+      "soru": "Türkiye'de yüzölçümü (km²) bakımından en büyük il açık ara farkla Konya olmasına rağmen, kilometrekareye düşen insan sayısını ifade eden aritmetik nüfus yoğunluğunda ilk sırada İstanbul yer almaktadır.\nİstanbul'un nüfus yoğunluğunun diğer tüm illerden katbekat yüksek olmasının en önemli nedeni aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Doğal nüfus artış hızının (doğumların) Türkiye'nin en yükseği olması",
+        "B) Sanayi, ticaret, turizm ve ulaşım gibi ekonomik faaliyetlerin çok gelişmiş olması",
+        "C) Tarım alanlarının son derece verimli ve geniş bir yüzölçümü kaplaması",
+        "D) İl yüzölçümünün diğer tüm illerden çok daha küçük ve dar olması",
+        "E) Karadeniz ile Akdeniz arasında bir geçiş iklimine sahip olması"
+      ],
+      "dogru": "B) Sanayi, ticaret, turizm ve ulaşım gibi ekonomik faaliyetlerin çok gelişmiş olması",
+      "aciklama": "B şıkkı doğrudur çünkü İstanbul, Türkiye ekonomisinin lokomotifidir. Sanayi, ticaret, uluslararası bankacılık, liman işletmeciliği ve turizm gibi alanlarda sunduğu devasa istihdam olanakları, Türkiye'nin dört bir yanından kente milyonlarca insanın göç etmesine neden olmuştur. Dar bir yüzölçümüne böylesine devasa bir nüfusun yığılması aritmetik yoğunluğu patlatmıştır. A şıkkı yanlıştır zira İstanbul'un nüfusu doğumlardan (doğal artış) ziyade dışarıdan aldığı göçlerle (gerçek artış) büyümektedir; en yüksek doğum oranı Doğu ve Güneydoğu'dadır. C şıkkı yanlıştır, İstanbul bir tarım kenti değildir, araziler betonlaşmıştır. D şıkkı çeldiricidir; İstanbul yüzölçümü küçük bir ildir ancak en küçük il Yalova'dır, üstelik salt küçüklük ekonomik cazibe olmadan yoğunluk yaratmaz. E şıkkı yanlıştır zira iklim uygunluğu tek başına milyonları çekmeye yetmez. Genel kural olarak sanayi ve hizmet sektörünün yığıldığı merkezler aritmetik yoğunluğun zirvesini oluşturur.",
+      "harita_il": "istanbul",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-020",
+      "soru": "Akdeniz iklimi genel olarak insan yaşamına oldukça elverişli ılıman bir iklim olmasına karşın, Akdeniz Bölgesi'nde yer alan Teke ve Taşeli platoları Türkiye'nin en seyrek nüfuslanmış yöreleri arasındadır.\nBu durumun ortaya çıkmasında söz konusu platoların aşağıdaki özelliklerinden hangisi temel nedendir?",
+      "siklar": [
+        "A) Bölgede ormanlık ve fundalık alanların çok geniş yer kaplaması",
+        "B) Kış aylarında kar yağışlarının ve don olaylarının çok sık görülmesi",
+        "C) Litolojik yapının karstik (kireç taşı) ve topoğrafyanın çok engebeli olması",
+        "D) İklim koşullarının hiçbir tarımsal faaliyete izin vermeyecek kadar sert olması",
+        "E) Yörenin birinci derece aktif deprem kuşağı üzerinde yer alması"
+      ],
+      "dogru": "C) Litolojik yapının karstik (kireç taşı) ve topoğrafyanın çok engebeli olması",
+      "aciklama": "C şıkkı doğrudur çünkü Teke ve Taşeli platoları, Toros dağ sisteminin bir parçasıdır ve tamamen kireç taşı (kalker) olarak bilinen karstik kayaçlardan oluşur. Karstik yapı yüzey sularını hızla yeraltına sızdırdığı için yüzey suları bakımından fakir ve tarıma elverişsiz çorak alanlar yaratır. Buna yörenin şiddetli engebesi ve ulaşım zorluğu da eklenince elverişli Akdeniz iklimine rağmen nüfus çok seyrek kalmıştır. A şıkkı yanlıştır zira makilik veya ormanlık alanlar insan yerleşimini bu denli engelleyen ana faktör değildir. B ve D şıkları tamamen yanlıştır çünkü bu platolarda tipik ılıman Akdeniz iklimi görülür, don olayları nadirdir ve iklim gayet yumuşaktır. E şıkkı yanlıştır zira Taşeli (Mersin-Karaman) çevresi Türkiye'de deprem riskinin en düşük olduğu güvenli masif alanlarındandır. Genel kural olarak karstik ve sarp araziler tarımı engellediği için nüfusu iter.",
+      "harita_il": "mersin",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-021",
+      "soru": "Yukarıdaki haritada Türkiye'nin bazı illeri numaralandırılarak gösterilmiştir.\nHaritada gösterilen alanlardan hangisinde arazinin dağlık ve engebeli olmasına bağlı olarak tarımsal nüfus yoğunluğu yüksek iken, yöredeki kısıtlı ekonomik faaliyetler nedeniyle toplam nüfusun az olması sebebiyle aritmetik nüfus yoğunluğu düşüktür?",
+      "siklar": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV",
+        "E) V"
+      ],
+      "dogru": "D) IV",
+      "aciklama": "D şıkkı doğrudur çünkü IV numaralı alanda gösterilen Artvin (Doğu Karadeniz), Türkiye'nin en sarp ve dağlık illerinden biridir. Arazi o kadar engebelidir ki tarım yapılacak düzlük alanlar yok denecek kadar azdır. Formül gereği daracık tarım alanlarına bölünen çiftçi sayısı, yörenin tarımsal nüfus yoğunluğunu zirveye çıkarır. Ancak sanayi ve ticaretin gelişememesi nedeniyle il sürekli göç verir ve toplam nüfusu çok azdır; bu da kilometreye düşen insan sayısının (aritmetik yoğunluk) düşük olmasına neden olur. A şıkkı yanlıştır zira I numaralı Bursa'da hem sanayi gelişmiştir hem aritmetik yoğunluk yüksektir. B şıkkı (Aydın) ve C şıkkı (Adana) ovalık ve verimli alanlar olup tarımsal yoğunlukları Artvin'e göre çok daha düşüktür. E şıkkı olan Şanlıurfa da düz GAP arazileri sayesinde tarımsal yoğunluğun düşük olduğu kalabalık bir ildir. Genel kural olarak Doğu Karadeniz illerinde tarımsal yoğunluk çok yüksek, aritmetik yoğunluk ise düşüktür.",
+      "harita_il": "artvin",
+      "zorluk": "orta",
+      "gorsel": "beseri-cografya/beseri-cografya-021.svg",
+      "gorsel_veri": {
+        "I": "bursa",
+        "II": "aydin",
+        "III": "adana",
+        "IV": "artvin",
+        "V": "sanliurfa"
+      }
+    },
+    {
+      "id": "beseri-cografya-022",
+      "soru": "Türkiye'nin nüfus dağılışı incelendiğinde, ekonomik faaliyetlerin çeşitlendiği ve yoğunlaştığı alanların aynı zamanda nüfusun en fazla toplandığı yerler olduğu görülür.\nBuna göre, aşağıda verilen yörelerin hangisinde nüfusun sık olması, büyük ölçüde imalat ve ağır sanayi faaliyetlerinin yoğunluğu ile açıklanır?",
+      "siklar": [
+        "A) Çatalca-Kocaeli Yöresi",
+        "B) Yukarı Murat-Van Bölümü",
+        "C) Taşeli Platosu",
+        "D) Menteşe Yöresi",
+        "E) Teke Platosu"
+      ],
+      "dogru": "A) Çatalca-Kocaeli Yöresi",
+      "aciklama": "A şıkkı doğrudur çünkü Çatalca-Kocaeli Yöresi (İstanbul, İzmit, Adapazarı ekseni), Türkiye'nin sanayi kalbidir. Otomotivden petrokimyaya, tekstilden gıdaya kadar imalat sanayisinin her kolu bu bölgede toplanmıştır. Sağladığı devasa iş imkânları sayesinde Türkiye'nin açık ara en yoğun nüfuslu ve en çok göç alan yöresidir. B şıkkı yanlıştır zira Doğu Anadolu'daki Yukarı Murat-Van Bölümü sanayiden yoksundur, temel geçim kaynağı hayvancılıktır ve seyrek nüfusludur. C şıkkındaki Taşeli Platosu ve E şıkkındaki Teke Platosu, karstik kayaç yapıları ve sarp yer şekilleri nedeniyle ulaşımın zor olduğu, sanayinin giremediği seyrek nüfuslu alanlardır. D şıkkında verilen Menteşe Yöresi (Muğla) ise sanayi ile değil turizm, ormancılık ve arıcılık ile öne çıkar; üstelik dağlık yapısından dolayı yoğun nüfuslu değildir. Genel kural olarak sanayi tesislerinin yığıldığı Marmara kıyıları, aritmetik nüfus yoğunluğunda her zaman ilk sıradadır.",
+      "harita_il": "kocaeli",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-023",
+      "soru": "Türkiye'de aritmetik nüfus yoğunluğunun (km² başına düşen kişi sayısı) en düşük olduğu bölge Doğu Anadolu Bölgesi'dir. Bu durumun ortaya çıkmasında bölgenin yüzölçümünün çok büyük olmasının yanı sıra, bölgede yaşayan toplam nüfusun az olması da etkilidir.\nBuna göre, Doğu Anadolu Bölgesi'nin toplam nüfusunun az olmasında aşağıdakilerden hangisinin etkisi diğerlerinden daha azdır?",
+      "siklar": [
+        "A) Bölgenin ortalama yükseltisinin Türkiye'nin en fazlası olması",
+        "B) Şiddetli karasal iklim koşullarının yılın büyük bölümünde hüküm sürmesi",
+        "C) Sanayi ve ticaret gibi ekonomik faaliyetlerin yeterince gelişememesi",
+        "D) Tarım alanlarının engebeden dolayı parçalı ve dar olması",
+        "E) Yeraltı kaynakları (madenler) bakımından oldukça fakir olması"
+      ],
+      "dogru": "E) Yeraltı kaynakları (madenler) bakımından oldukça fakir olması",
+      "aciklama": "E şıkkı doğrudur zira Doğu Anadolu Bölgesi yeraltı kaynakları bakımından fakir değil, aksine volkanizmanın etkisiyle Türkiye'nin maden çeşidi ve rezervi bakımından en zengin (özellikle Yukarı Fırat Bölümü) bölgesidir. Dolayısıyla yöre halkının göç edip nüfusun seyrek kalmasını maden fakirliği ile açıklamak büyük bir bilgi hatasıdır; madenler göçü engellemeye çalışan tek olumlu faktördür. A şıkkı yanlıştır zira bölge Türkiye'nin çatısı konumundadır, yüksek rakım oksijeni azaltıp yaşamı zorlaştırır ve nüfusu seyrekleştirir. B şıkkı yanlıştır çünkü şiddetli karasal iklim ve uzun süren kar örtüsü tarımsal üretimi sınırlandırarak insanları göçe zorlar. C şıkkı yanlıştır, engebe ve iklim zorlukları sanayinin gelişmesini engellemiş, bu da işsizliğe yol açarak nüfusu azaltmıştır. D şıkkı yanlıştır, engebeli topoğrafya tarım alanlarını parçalı kıldığından verimi düşürür. Genel kural olarak Doğu Anadolu maden potansiyeli çok yüksek ancak iklim kurbanı bir bölgemizdir.",
+      "harita_il": "erzurum",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-024",
+      "soru": "Marmara Bölgesi, Türkiye'de sanayi ve ticaretin en fazla geliştiği, bu sebeple aritmetik nüfus yoğunluğu genel olarak en yüksek olan coğrafi bölgemizdir. Ancak bölge içinde yer alan Yıldız Dağları (Istranca) Bölümü, bu genellemenin aksine oldukça seyrek nüfuslanmıştır.\nYıldız Dağları Bölümü'nün bulunduğu konum dikkate alındığında seyrek nüfuslu olmasında aşağıdakilerden hangisi doğrudan etkili olmuştur?",
+      "siklar": [
+        "A) Şiddetli karasal iklim koşullarının (don ve kar) uzun süre görülmesi",
+        "B) Yeraltı kaynakları bakımından yörenin çok zengin olması",
+        "C) Ana karayolu ulaşım ağlarına sapa kalması ve yer şekillerinin engebeli olması",
+        "D) Tarımsal nüfus yoğunluğunun Türkiye'nin en düşük seviyesinde olması",
+        "E) Arazinin tamamen suyu alta sızdıran karstik kayaçlardan (kalker) oluşması"
+      ],
+      "dogru": "C) Ana karayolu ulaşım ağlarına sapa kalması ve yer şekillerinin engebeli olması",
+      "aciklama": "C şıkkı doğrudur çünkü Kırklareli sınırları içindeki Yıldız Dağları Bölümü, Marmara'nın en dağlık ve ormanlık alanıdır. Bu engebeli yapı hem sanayi tesislerinin kurulmasını zorlaştırmış hem de yöreyi Avrupa'ya bağlanan ana transit yolların (E-80 otoyolu vb.) uzağında (sapa/kör nokta) bırakmıştır. Ulaşımın zor olduğu yerlere sermaye gitmediği için yöre tenhadır. A şıkkı yanlıştır zira yörede şiddetli karasal değil, Karadeniz ve karasal iklimin ılıman bir geçiş tipi görülür. B şıkkı mantıken yanlıştır, yeraltı kaynağı zenginliği nüfusu seyrekleştirmez, aksine toparlar. D şıkkı yanlıştır, tarımsal nüfus yoğunluğunun seyreklikle doğrudan bir orantısı yoktur; engebeli olduğu için tarımsal yoğunluk düşüktür diyemeyiz, aksine yüksek çıkabilir. E şıkkı yanlıştır zira karstik yapı Yıldız Dağları'nın değil Akdeniz Bölgesi'ndeki Taşeli/Teke platolarının temel karakteristiğidir. Genel kural olarak bir yer ulaşıma sapa kalmışsa gelişemez.",
+      "harita_il": "kirklareli",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-025",
+      "soru": "Türkiye'de nüfusun yapısal dağılışı ve yoğunluk türleri ile ilgili,\nI. Türkiye'nin aritmetik nüfus yoğunluğu, nüfus miktarının sürekli artması nedeniyle her sayım döneminde düzenli olarak artış göstermiştir.\nII. Aritmetik nüfus yoğunluğunun en düşük olduğu coğrafi bölge, yüzölçümü en geniş olan Doğu Anadolu Bölgesi'dir.\nIII. Tarımsal nüfus yoğunluğu, tarım alanlarının çok geniş olduğu Konya Ovası ve Çukurova gibi yörelerde Türkiye ortalamasının üzerindedir.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "C şıkkı doğrudur çünkü ülke sınırlarımız (yüzölçümümüz) sabit kalırken, yüksek doğum oranları ve alınan dış göçler sebebiyle toplam nüfusumuz her geçen yıl artmaya devam ettiği için aritmetik nüfus yoğunluğu düzenli bir şekilde artış göstermiştir (I. öncül doğru). Aynı zamanda Doğu Anadolu, Türkiye'nin yüzölçümü en büyük bölgesi olmasına rağmen şiddetli iklim ve engebe nedeniyle göç verdiğinden nüfusu en az olan bölgedir; bölen çok büyük, pay küçük olduğu için aritmetik yoğunluk ülkenin en düşüğüdür (II. öncül doğru). A, B, D ve E şıkları yanlıştır zira tarımsal nüfus yoğunluğu tarım alanlarının engebeli ve dar olduğu (Doğu Karadeniz) yerlerde yüksektir. Çukurova ve Konya Ovası gibi tarım alanlarının devasa boyutlara ulaştığı ovalarda tarımsal yoğunluk Türkiye ortalamasının üzerinde değil, çok altındadır (III. öncül yanlış). Genel kural olarak yüzölçümü büyüdükçe aritmetik yoğunluk azalır.",
+      "harita_il": null,
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-026",
+      "soru": "Türkiye'de tarımda makineleşmenin iç göçler üzerindeki etkisiyle ilgili,\nI. Tarım alanlarının geniş ve engebesiz olduğu yörelerde makineleşme kırsal iş gücü ihtiyacını azaltarak göçü hızlandırır.\nII. Doğu Karadeniz Bölgesi'nde tarımda makineleşmenin göç üzerindeki etkisi, İç Anadolu'ya göre daha azdır.\nIII. Makineleşme ile birlikte tarımsal üretim miktarının azalması kırdan kente göçün temel nedenidir.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "Doğru cevap C şıkkıdır zira I ve II numaralı öncüller tarımda makineleşmenin göç üzerindeki etkisini doğru yansıtmaktadır. I numaralı öncül doğrudur, çünkü tarım alanlarının geniş ve düzlük olduğu yörelerde (örneğin Konya Ovası) traktör ve biçerdöver gibi makinelerin kullanımı kolaydır, bu durum insan gücüne duyulan ihtiyacı azaltarak kırsal nüfusun işsiz kalmasına ve kente göç etmesine neden olur. II numaralı öncül de doğrudur; Doğu Karadeniz Bölgesi oldukça engebeli ve dağlık bir topoğrafyaya sahip olduğundan tarımda makine kullanımı oldukça zordur, bu yüzden bu bölgede göçün temel nedeni makineleşme değil, arazilerin dar ve parçalı olmasıdır. D ve E şıkları yanlıştır zira III numaralı öncül tamamen hatalıdır. Makineleşme tarımsal üretim miktarını azaltmaz, aksine verimi ve üretimi artırır. Ancak insana duyulan ihtiyacı azalttığı için göçe sebep olmaktadır. A ve B şıkları ise eksik oldukları için elenir. Genel kural olarak tarımda makineleşme, düz alanlarda göçü hızlandıran en önemli itici faktörlerden biridir.",
+      "harita_il": "konya",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-027",
+      "soru": "Türkiye'de iç göçlerin sonuçlarıyla ilgili aşağıdaki 'göçün yönü – ortaya çıkan mekânsal sorun' eşleşmelerinden hangisi yanlıştır?",
+      "siklar": [
+        "A) Kırdan kente göç – Şehirlerde altyapı yetersizliklerinin artması",
+        "B) Kırdan kente göç – Tarım alanlarının miras yoluyla parçalanması",
+        "C) Kırdan kente göç – Çarpık kentleşme ve gecekondu sorununun büyümesi",
+        "D) Büyükşehirlere göç – Nüfusun ülke içindeki dağılışının dengesizleşmesi",
+        "E) Kırdan kente göç – Sanayi tesislerinin giderek şehir içinde kalması"
+      ],
+      "dogru": "B) Kırdan kente göç – Tarım alanlarının miras yoluyla parçalanması",
+      "aciklama": "Doğru cevap B şıkkıdır, çünkü tarım alanlarının miras yoluyla parçalanması iç göçlerin bir 'sonucu' değil, aksine göçü başlatan temel 'nedenlerinden' (itici faktörlerden) biridir. Kırsal alanda toprakların giderek küçülmesi, ailelerin geçimini zorlaştırarak onları kentlere göçe mecbur bırakır. A şıkkı yanlıştır zira kente yığılan nüfus, mevcut kanalizasyon, yol ve su gibi altyapı hizmetlerinin yetersiz kalmasına neden olur ve bu durum göçün sonucudur. C şıkkı yanlıştır, plansız yerleşim gecekondu mahallelerini doğurur. D şıkkı yanlıştır, belirli merkezlere yığılma ülke genelinde nüfus dağılımını dengesizleştirir. E şıkkı da yanlıştır zira önceden şehrin dışında kurulan sanayi tesisleri, kentin göçlerle kontrolsüz büyümesi sonucu zamanla şehir merkezinin tam ortasında kalarak çevresel sorunlara yol açar. Genel kural olarak, kırsaldaki yapısal sorunlar göçün nedenini, şehirlerdeki altyapı ve yerleşim sorunları ise göçün sonucunu oluşturmaktadır.",
+      "harita_il": "istanbul",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-028",
+      "soru": "Türkiye'nin son yirmi yılına ait nüfus piramitleri incelendiğinde, piramidin tabanının giderek daraldığı gözlemlenmektedir. Bu demografik değişim, aşağıdakilerden hangisinin kesin bir göstergesidir?",
+      "siklar": [
+        "A) Ortanca yaşın düşmekte olduğunun",
+        "B) Toplam nüfus miktarının azaldığının",
+        "C) Doğum oranlarının düşme eğilimine girdiğinin",
+        "D) Bebek ölüm oranlarının artış gösterdiğinin",
+        "E) Yaşlı bağımlılık oranının hızla azaldığının"
+      ],
+      "dogru": "C) Doğum oranlarının düşme eğilimine girdiğinin",
+      "aciklama": "Doğru cevap C şıkkıdır çünkü nüfus piramitlerinde taban kısmı (0-4 yaş grubu) doğrudan doğum oranlarını yansıtmaktadır. Piramidin tabanının giderek daralması, yeni doğan çocuk sayısının oransal olarak azaldığını, yani doğum oranlarının düşme eğiliminde olduğunu kesin olarak gösterir. A şıkkı yanlıştır zira doğum oranlarının düşmesi ve yaşlı nüfusun artmasıyla birlikte ülkenin ortanca yaşı düşmez, aksine yükselir. B şıkkı yanlıştır, doğum oranları düşse bile nüfus artış hızı sıfırın altına inmediği sürece toplam nüfus miktarı artmaya devam eder. D şıkkı yanlıştır, günümüzde bebek ölüm oranları artmamakta, sağlık sistemindeki gelişmelere bağlı olarak azalmaktadır; tabanın daralmasının temel sebebi ölüm değil doğurganlığın düşmesidir. E şıkkı da yanlıştır çünkü doğum oranları düştüğünde, zamanla üst yaş gruplarının toplam nüfus içindeki payı büyür, bu da yaşlı bağımlılık oranının azalmasına değil artmasına neden olur. Genel kural olarak piramidin tabanı doğrudan doğum oranlarının göstergesidir.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-029",
+      "soru": "Yukarıdaki haritada numaralandırılmış illerin göç alma ve verme durumları dikkate alındığında cinsiyet oranlarıyla ilgili,\nI. I numaralı yörede madencilik faaliyetlerine bağlı göçler nedeniyle erkek nüfus oranı kadın nüfustan fazladır.\nII. II, III ve IV numaralı yöreler net göç verdiği için bu alanlarda kadın nüfus oranı erkek nüfus oranından yüksektir.\nIII. V numaralı yörede sanayileşmeye bağlı göçler sonucunda erkek nüfus oranı kadın nüfus oranını geçmiştir.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) I ve II",
+        "C) I ve III",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "B) I ve II",
+      "aciklama": "Doğru cevap B şıkkıdır, I ve II numaralı öncüller doğru bilgileri içermektedir. I numaralı yöre olan Zonguldak'ta taşkömürü madenciliğine dayalı istihdam genellikle erkek iş gücüne dayandığı için bu bölgede erkek nüfus oranı kadın nüfustan tarihsel olarak daha yüksek seyretmiştir. II numaralı öncül doğrudur; Sinop, Ardahan ve Yozgat gibi iller sanayi ve iş imkânlarının kısıtlı olması sebebiyle dışarıya yoğun göç veren illerdir. Göç hareketlerine genellikle çalışma çağındaki erkekler daha fazla katıldığı için, göç veren bu kırsal alanlarda geride kalan kadın nüfus oranı erkeklerden daha yüksek olmaktadır. D ve E şıkları yanlıştır çünkü III numaralı öncül hatalıdır. V numaralı yöre Hakkari'dir ve sanayileşmeye bağlı bir göç çekim merkezi değildir; oradaki cinsiyet dengesizliği (erkek fazlalığı) sanayileşmeden ziyade ağırlıklı olarak askerî birliklerin varlığından kaynaklanmaktadır. Bu nedenle I ve II öncülleri kesin olarak doğrudur. Genel kural olarak göç alan merkezlerde erkek, göç veren merkezlerde ise kadın nüfus oranı daha fazladır.",
+      "harita_il": "zonguldak",
+      "zorluk": "zor",
+      "gorsel": "beseri-cografya/beseri-cografya-029.svg",
+      "gorsel_veri": {
+        "I": "zonguldak",
+        "II": "sinop",
+        "III": "ardahan",
+        "IV": "yozgat",
+        "V": "hakkari"
+      }
+    },
+    {
+      "id": "beseri-cografya-030",
+      "soru": "Bir araştırmacı, X ilinde 15-64 yaş arası çalışma çağındaki nüfus oranının ülke ortalamasının çok altında olduğunu, buna karşılık 0-14 yaş çocuk ve 65 yaş üzeri yaşlı nüfusun toplam nüfus içindeki payının çok yüksek olduğunu tespit etmiştir. Bu senaryoya göre X ili ile ilgili aşağıdakilerden hangisi kesin olarak söylenebilir?",
+      "siklar": [
+        "A) Nüfus yoğunluğu ülke ortalamasının üzerindedir.",
+        "B) Dışarıdan yoğun göç alarak nüfusunu artırmaktadır.",
+        "C) Toplam bağımlılık oranı oldukça yüksek seviyededir.",
+        "D) Sanayi sektörü, tarım sektöründen daha fazla gelişmiştir.",
+        "E) Eğitim ve sağlık altyapısı gelişmiş bir kenttir."
+      ],
+      "dogru": "C) Toplam bağımlılık oranı oldukça yüksek seviyededir.",
+      "aciklama": "Doğru cevap C şıkkıdır zira bağımlı nüfus, çalışma çağında olmayan ve üretimde doğrudan yer almayan çocuk (0-14 yaş) ile yaşlı (65+ yaş) gruplarını ifade etmektedir. Senaryoda aktif (15-64 yaş) nüfusun az, çocuk ve yaşlı nüfus oranının ise çok yüksek olduğu belirtilmiştir. Bu durum, çalışan nüfusun bakmakla yükümlü olduğu bağımlı kişi sayısının fazla olduğunu, yani 'toplam bağımlılık oranının yüksek olduğunu' kesin olarak gösterir. A şıkkı yanlıştır, nüfus yoğunluğu toplam nüfusun yüzölçümüne bölünmesiyle bulunur, yaş grupları oranından yoğunluk çıkarılamaz. B şıkkı yanlıştır, aksine bu tür iller genellikle çalışma çağındaki nüfusunu dışarıya (göç vererek) kaybeden yerlerdir. D şıkkı yanlıştır, aktif nüfus az olduğuna göre sanayisi gelişmiş bir yer olamaz. E şıkkı yanlıştır, bu demografik tablo genellikle sosyoekonomik açıdan daha az gelişmiş ve göç veren bölgelerde görülmektedir.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-031",
+      "soru": "Türkiye'de iç göçleri tetikleyen aşağıdaki faktörlerden hangisi, itici ve çekici güçler sınıflandırması bakımından diğerlerinden farklıdır?",
+      "siklar": [
+        "A) Tarım arazilerinin miras yoluyla parçalanarak küçülmesi",
+        "B) Kırsal alanlarda eğitim ve sağlık hizmetlerinin yetersiz kalması",
+        "C) Şehirlerdeki sanayi tesislerinin geniş iş imkânları sunması",
+        "D) Tarımda makineleşme sonucunda iş gücüne duyulan ihtiyacın azalması",
+        "E) Kırsal kesimde meydana gelen erozyon ve heyelan gibi doğal afetler"
+      ],
+      "dogru": "C) Şehirlerdeki sanayi tesislerinin geniş iş imkânları sunması",
+      "aciklama": "Doğru cevap C şıkkıdır. Göç hareketlerinde 'itici güçler' insanların bulundukları yeri terk etmelerine yol açan olumsuzluklar iken, 'çekici güçler' göç edilen yerin sunduğu avantajlardır. Şehirlerde sanayi tesislerinin geniş iş imkânları sunması, kentin insanları cezbeden 'çekici' bir özelliğidir. Diğer şıklara bakıldığında; A şıkkındaki mirasla parçalanma köylüyü yoksullaştıran itici bir faktördür. B şıkkındaki hizmet yetersizliği kırsalın yaşam standardını düşüren itici bir güçtür. D şıkkındaki makineleşme işsizliği artıran itici bir kuvvettir. E şıkkındaki doğal afetler yine bulundukları yeri yaşanmaz kılan itici bir nedendir. Sonuç olarak, A, B, D ve E seçenekleri kırsalın itici faktörlerini oluştururken, C seçeneği kentlerin çekici bir özelliğidir ve bu bakımdan sınıflandırmada diğerlerinden tamamen farklıdır.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-032",
+      "soru": "Türkiye'de kırdan kente yönelik hızlı ve plansız göç hareketleri, şehirlerde mekânsal sorunlara yol açmaktadır. Aşağıdakilerden hangisi bu hızlı göçün şehirlerde ortaya çıkardığı doğrudan sonuçlardan biri değildir?",
+      "siklar": [
+        "A) Tarım alanlarının yerleşime açılarak betonlaşması",
+        "B) Sanayi tesislerinin şehir merkezinin içinde kalması",
+        "C) Altyapı hizmetlerinin yetersiz kalarak aksaması",
+        "D) Kırsal alanlarda kadın nüfus oranının artması",
+        "E) Çarpık kentleşme ve gecekondu mahallelerinin yaygınlaşması"
+      ],
+      "dogru": "D) Kırsal alanlarda kadın nüfus oranının artması",
+      "aciklama": "Doğru cevap D şıkkıdır, zira kırsal alanlarda kadın nüfus oranının artması göçün bir sonucu olsa da, bu durum 'şehirlerde ortaya çıkan' bir sonuç veya mekânsal bir sorun değildir; göç veren kırsal kesime ait bir demografik değişimdir. Soru kökünde özellikle 'şehirlerde ortaya çıkan doğrudan sonuçlar' sorulmaktadır. A şıkkı yanlıştır çünkü şehir nüfusu hızla artınca sınırlar genişler ve çevredeki verimli tarım arazileri betonlaşarak kaybolur. B şıkkı yanlıştır, şehrin dış çeperine kurulan sanayi tesisleri, gecekondulaşma ile birlikte şehrin merkezinde kalır. C şıkkı yanlıştır, aşırı yığılma su, elektrik ve ulaşım gibi altyapı hizmetlerini felce uğratır. E şıkkı yanlıştır, plansız göç doğrudan çarpık kentleşme ve altyapısız gecekonduların yaygınlaşmasıyla sonuçlanır. Genel kural olarak soruda mekân bazlı ayrıma (kır/kent) çok dikkat edilmelidir.",
+      "harita_il": "bursa",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-033",
+      "soru": "Yukarıdaki Türkiye haritasında gösterilen yörelerin mevsimlik göç alma nedenleriyle ilgili aşağıdaki eşleşmelerden hangisi yanlıştır?",
+      "siklar": [
+        "A) I — Fındık hasadı nedeniyle tarım işçisi göçü alır.",
+        "B) II — İncir ve zeytin tarımı ile turizm amaçlı göç alır.",
+        "C) III — Yaz aylarında kıyı turizmine bağlı mevsimlik göç alır.",
+        "D) IV — GAP ile pamuk üretiminin artması sonucu mevsimlik işçi göçü alır.",
+        "E) I — Deniz turizmindeki canlılık nedeniyle hizmet sektörü odaklı göç alır."
+      ],
+      "dogru": "E) I — Deniz turizmindeki canlılık nedeniyle hizmet sektörü odaklı göç alır.",
+      "aciklama": "Doğru cevap E şıkkıdır zira I numaralı yöre olan Ordu ve çevresi, deniz turizmindeki canlılık nedeniyle hizmet odaklı göç almaz; aksine yaz aylarında fındık hasadı nedeniyle yoğun tarımsal mevsimlik işçi göçü almaktadır. A şıkkı doğru bir bilgidir, Ordu fındık tarımının merkezidir ve bu amaçla göç alır. B şıkkı doğrudur, II numaralı Aydın yöresi hem önemli bir tarım (incir, pamuk, zeytin) hem de turizm merkezi (Kuşadası, Didim) olduğundan her iki amaçla da mevsimlik göç çekmektedir. C şıkkı doğrudur, III numaralı Antalya yöresi Türkiye'de yaz turizminin en hareketli olduğu ve buna bağlı olarak en çok hizmet sektörü göçü alan merkezidir. D şıkkı da doğrudur, IV numaralı Şanlıurfa, GAP (Güneydoğu Anadolu Projesi) sayesinde sulu tarıma geçmiş ve pamuk üretiminde ilk sıraya yükselerek önemli bir mevsimlik tarım işçisi göçü çekim merkezi olmuştur. Genel kural olarak Karadeniz kıyıları turizmden ziyade tarımsal (çay ve fındık) göçleriyle bilinir.",
+      "harita_il": "ordu",
+      "zorluk": "zor",
+      "gorsel": "beseri-cografya/beseri-cografya-033.svg",
+      "gorsel_veri": {
+        "I": "ordu",
+        "II": "aydin",
+        "III": "antalya",
+        "IV": "sanliurfa"
+      }
+    },
+    {
+      "id": "beseri-cografya-034",
+      "soru": "Türkiye'nin demografik yapısı ve beyin göçüyle ilgili,\nI. Nitelikli ve eğitimli iş gücünün daha iyi imkânlar için gelişmiş ülkelere gitmesi beyin göçü olarak adlandırılır.\nII. Beyin göçü veren ülkelerde ar-ge kapasitesi ve teknolojik gelişim olumsuz yönde etkilenir.\nIII. Türkiye, tarihi boyunca sadece beyin göçü veren bir ülke olmuş, hiçbir dönemde beyin göçü almamıştır.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) I ve II",
+        "C) I ve III",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "B) I ve II",
+      "aciklama": "Doğru cevap B şıkkıdır. I numaralı öncül beyin göçünün doğru tanımıdır; mühendis, doktor ve bilim insanı gibi alanında uzman, yüksek öğrenim görmüş kişilerin daha iyi çalışma şartları ve teknolojik altyapı için gelişmiş ülkelere göç etmesi beyin göçüdür. II numaralı öncül de doğrudur zira nitelikli insan kaynağını kaybeden gelişmekte olan ülkelerde araştırma-geliştirme (ar-ge) kapasitesi düşer, teknolojik ilerleme sekteye uğrar. C, D ve E şıkları yanlıştır çünkü III numaralı öncül kesinlikle hatalıdır. Türkiye genellikle gelişmiş batı ülkelerine beyin göçü veren bir konumda olsa da, özellikle Orta Asya Türk Cumhuriyetleri, Orta Doğu ve bazı Balkan ülkelerinden de nitelikli uzman ve öğrenci alarak zaman zaman beyin göçü alan ülke konumuna da geçmektedir. Yani Türkiye sadece beyin göçü veren değil, aynı zamanda kısmen de olsa beyin göçü alan bir transit ülkedir.",
+      "harita_il": "ankara",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-035",
+      "soru": "Nüfus biliminde 15-64 yaş grubunda yer alan nüfusa aktif (çalışan) nüfus, 0-14 ve 65+ yaş grubuna ise bağımlı nüfus denir. Buna göre, bir ülkede çocuk bağımlılık oranının hızla azalması aşağıdakilerden hangisiyle doğrudan ilişkilidir?",
+      "siklar": [
+        "A) Yaşlı nüfus miktarının azalmasıyla",
+        "B) Doğum oranlarının belirgin şekilde düşmesiyle",
+        "C) Kırdan kente göç hareketlerinin artmasıyla",
+        "D) Nüfusun eğitim seviyesinin düşmesiyle",
+        "E) Ortalama yaşam süresinin kısalmasıyla"
+      ],
+      "dogru": "B) Doğum oranlarının belirgin şekilde düşmesiyle",
+      "aciklama": "Doğru cevap B şıkkıdır. Çocuk bağımlılık oranı, 0-14 yaş grubundaki nüfusun 15-64 yaş grubundaki aktif nüfusa oranını ifade eder. Bir ülkede çocuk nüfus oranının (çocuk bağımlılık oranının) azalmasının en temel ve doğrudan nedeni doğum oranlarındaki düşüştür. Doğumlar azaldığında, tabandan gelen çocuk sayısı daralır ve bu da oransal olarak çocuk bağımlılığını aşağı çeker. A şıkkı yanlıştır, yaşlı nüfusun azalması toplam bağımlılık oranını etkilese de çocuk bağımlılık oranıyla doğrudan ilgili bir sebep değildir. C şıkkı yanlıştır, iç göçler ülkenin genel demografik yapısındaki yaş gruplarının oranını değiştirmez, sadece yer değiştirmesini sağlar. D şıkkı tam tersidir; eğitim seviyesinin düşmesi değil aksine artması ve kadının iş hayatına katılması doğum oranlarını düşüren faktörlerdir. E şıkkı ise yaşlı nüfusla ilgili bir veridir ve çocuk nüfusun azalma nedeni olamaz.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-036",
+      "soru": "Sanayileşmenin hız kazandığı bir il, çevre illerden yoğun şekilde göç almaya başlamıştır. Bu ilin demografik yapısında zamanla bazı değişimler yaşanması beklenmektedir. Buna göre, yoğun göç alan bu ilde aşağıdaki durumlardan hangisinin görülmesi beklenmez?",
+      "siklar": [
+        "A) Nüfus artış hızının, doğal nüfus artış hızından daha yüksek olması",
+        "B) Toplam nüfus içinde erkek nüfus oranının kadın nüfustan fazla olması",
+        "C) 15-64 yaş arası aktif (çalışma çağındaki) nüfus oranının artması",
+        "D) Kırsal nüfus oranının, kentsel nüfus oranını geride bırakması",
+        "E) Demografik yatırımlara ve altyapı hizmetlerine duyulan ihtiyacın artması"
+      ],
+      "dogru": "D) Kırsal nüfus oranının, kentsel nüfus oranını geride bırakması",
+      "aciklama": "Doğru cevap D şıkkıdır, çünkü yoğun göç alan sanayileşmiş merkezlerde göçün yönü kırdan kente doğrudur; dolayısıyla bu merkezlerde 'kentsel nüfus' hızla artarken kırsal nüfus oranı giderek düşer. Kırsal nüfus oranının kentsel nüfusu geçmesi göç alan bir şehir için imkânsız bir durumdur. A şıkkı göç alan yerler için doğrudur, doğal artış (doğum-ölüm) az olsa bile dışarıdan gelen nüfus sayesinde gerçek nüfus artış hızı çok yüksektir. B şıkkı doğrudur, göçlere ağırlıklı olarak erkek iş gücü katıldığı için göç çeken sanayi merkezlerinde erkek nüfus kadın nüfusu geçer. C şıkkı doğrudur, göç edenler genellikle iş arayan genç-yetişkin (15-64) kitle olduğundan aktif nüfus oranı artar. E şıkkı da doğrudur, nüfusun hızla artması okul, hastane, yol gibi demografik yatırımlara ihtiyacı şiddetlendirir. Çeldiricilerin mantığına dikkat edilirse D şıkkının kentleşme olgusuyla çeliştiği görülür.",
+      "harita_il": "gaziantep",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-037",
+      "soru": "Türkiye haritasında işaretli yörelerdeki kırsal göçlerin nedenleriyle ilgili,\nI. I ve II numaralı yörelerde arazinin engebeli olması tarımda makineleşmeyi zorlaştırdığından, göçün temel nedeni makineleşme değildir.\nII. III ve V numaralı yörelerde tarım alanlarının geniş ve düz olması, makineleşmeyi kolaylaştırarak insan gücüne ihtiyacı azaltmış ve göçü hızlandırmıştır.\nIII. IV numaralı yörede sanayi tesislerinin yoğunluğu nedeniyle kırdan kente göç hızı diğerlerinden daha düşüktür.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "Doğru cevap C şıkkıdır, I ve II numaralı öncüller doğrudur. I numaralı yöre (Rize) ve II numaralı yöre (Artvin), Doğu Karadeniz'de yer alan oldukça dağlık ve engebeli arazilerdir. Bu bölgelerde tarımda traktör kullanımı neredeyse imkânsızdır, bu yüzden buradaki göçün sebebi makineleşme değil, arazilerin mirasla parçalanması ve iş imkânlarının yetersizliğidir (I doğru). III numaralı yöre (Afyon) ve V numaralı yöre (Kırşehir) ise İç Anadolu ve Ege'nin iç kısımlarında yer alan, geniş düzlükleri barındıran yerlerdir. Buralarda makineleşme çok kolay olduğu için tarım işçisine duyulan ihtiyaç azalmış ve bu durum kırdan kente göçü tetikleyen ana faktör olmuştur (II doğru). D ve E şıkları elenir zira III numaralı öncül hatalıdır. IV numaralı yöre Hakkari'dir; sanayi tesisleri yoğun değildir, tam tersine sanayi çok cılızdır ve işsizlik ile terör/güvenlik geçmişi gibi nedenlerle göç vermektedir. Genel kural olarak Karadeniz'de makineleşme faktörü aranmaz.",
+      "harita_il": "afyonkarahisar",
+      "zorluk": "orta",
+      "gorsel": "beseri-cografya/beseri-cografya-037.svg",
+      "gorsel_veri": {
+        "I": "rize",
+        "II": "artvin",
+        "III": "afyonkarahisar",
+        "IV": "hakkari",
+        "V": "kirsehir"
+      }
+    },
+    {
+      "id": "beseri-cografya-038",
+      "soru": "İç göçlerin yoğun yaşandığı merkezlerde mekânsal ve sosyoekonomik değişimler hız kazanır. Aşağıdakilerden hangisi yoğun göç alan şehirlerde ortaya çıkan bu değişimler arasında gösterilemez?",
+      "siklar": [
+        "A) Şehir içi ulaşımda aksamalar ve trafik sorunlarının artması",
+        "B) Orman alanları ve verimli tarım arazilerinin yerleşime açılması",
+        "C) Eğitim ve sağlık hizmetleri gibi demografik yatırımların yetersiz kalması",
+        "D) Tarımsal üretimde kadın iş gücünün erkek iş gücüne oranla büyük ölçüde artması",
+        "E) Kültürel çeşitliliğin artarak sosyo-kültürel uyum sorunlarının yaşanabilmesi"
+      ],
+      "dogru": "D) Tarımsal üretimde kadın iş gücünün erkek iş gücüne oranla büyük ölçüde artması",
+      "aciklama": "Doğru cevap D şıkkıdır, zira tarımsal üretimde kadın iş gücünün artması göç alan şehirlerin değil, göç veren kırsal bölgelerin bir sorunudur. Erkek nüfus iş bulmak amacıyla kentlere göç edince, geride kalan tarımsal işlerin yükü kırsaldaki kadınların omuzlarına biner. Dolayısıyla bu durum kentin bir sonucu değildir. A şıkkı yanlıştır, plansız nüfus artışı büyükşehirlerde trafik kaosunu tetikler. B şıkkı yanlıştır, kentin sınırlarının kontrolsüz büyümesi çevredeki tarım ve orman arazilerinin yok olmasına neden olur. C şıkkı yanlıştır, yığılma sebebiyle okul ve hastane gibi yatırımlar ihtiyacı karşılamamaya başlar. E şıkkı yanlıştır, farklı bölgelerden gelen insanların kentte bir araya gelmesi kültürel çeşitliliği artırırken bazen mekânsal ayrışma ve uyum sorunlarını (gecekondulaşma vb.) beraberinde getirebilir.",
+      "harita_il": "kocaeli",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-039",
+      "soru": "Türkiye'de kırsal alanlarda tarım arazilerinin giderek küçülmesi, ailelerin geçimini sağlamada yetersiz kalmasına neden olmaktadır. Bu durumun ortaya çıkmasındaki en temel etken aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Nadas tarımının yaygınlaşması",
+        "B) Tarımda makine kullanımının artması",
+        "C) Toprakların miras yoluyla parçalanması",
+        "D) İklim koşullarının kurak geçmesi",
+        "E) Endüstriyel tarım ürünlerinin tercih edilmesi"
+      ],
+      "dogru": "C) Toprakların miras yoluyla parçalanması",
+      "aciklama": "Doğru cevap C şıkkıdır. Türkiye kırsalında iç göçü tetikleyen en önemli yapısal sorunlardan biri, arazilerin kuşaktan kuşağa geçerken Medeni Kanun hükümleri ve geleneksel miras uygulamaları sebebiyle sürekli bölünerek küçülmesidir. Parçalanan bu küçük araziler tek bir ailenin geçimini sağlayamayacak duruma gelince, aile fertleri çözümü şehre göç etmekte bulur. A şıkkı yanlıştır, nadas tarımı iklim ve sulama eksikliğinden kaynaklanır, arazinin küçülmesinin doğrudan sebebi değildir. B şıkkı yanlıştır, makineleşme insan iş gücüne duyulan ihtiyacı azaltır ancak toprağın parçalanmasına sebep olmaz, tam tersi büyük toprak ister. D şıkkı yanlıştır, iklim koşulları üretim verimini etkiler fakat toprağın fiziksel olarak bölünmesine yol açmaz. E şıkkı yanlıştır, endüstriyel tarım ürünlerinin ekimi kârlılığı artıran bir unsurdur. Genel kural olarak kırsaldaki toprak küçülmesinin temel sebebi mirastır.",
+      "harita_il": "corum",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-040",
+      "soru": "Bir ülkenin nüfus piramidinin şekli, o ülkenin gelişmişlik düzeyiyle yakından ilişkilidir. Geniş tabanlı bir piramitten, tabanı daralan ve orta-üst yaş gruplarında şişkinlik gösteren bir piramide geçiş yapan ülke için aşağıdakilerden hangisi söylenemez?",
+      "siklar": [
+        "A) Ortalama yaşam beklentisi uzamıştır.",
+        "B) Nüfusun ikiye katlanma süresi kısalmıştır.",
+        "C) Genç bağımlılık oranı azalma eğilimi göstermiştir.",
+        "D) Kadınların iş hayatına katılım oranı artmıştır.",
+        "E) Sağlık ve eğitim hizmetlerinin niteliği yükselmiştir."
+      ],
+      "dogru": "B) Nüfusun ikiye katlanma süresi kısalmıştır.",
+      "aciklama": "Doğru cevap B şıkkıdır zira nüfusun ikiye katlanma süresinin kısalması, doğum oranlarının çok yüksek olduğu, hızlı çoğalan geri kalmış ülkelerin bir özelliğidir. Soru kökünde bahsedilen ülke, piramit tabanını daraltmış yani doğum oranlarını düşürmüştür. Doğum oranlarının düştüğü gelişmiş ülkelerde nüfus artış hızı yavaşlar ve böylece nüfusun kendini ikiye katlama süresi kısalmaz, aksine 'uzar'. A şıkkı doğrudur, üst yaş gruplarının şişkinleşmesi sağlık imkânlarının geliştiğini ve ömrün uzadığını gösterir. C şıkkı doğrudur, tabanın daralması genç bağımlı (çocuk) nüfusun azaldığını ifade eder. D şıkkı doğrudur, gelişmekte olan ve gelişmiş toplumlarda kadınların iş hayatına katılımının artması doğurganlığı düşüren ana faktörlerden biridir. E şıkkı doğrudur, piramidin arı kovanı veya çan şekline dönmesi ülkenin ekonomik kalkınmasını ve hizmet kalitesinin yükseldiğini yansıtır.",
+      "harita_il": null,
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-041",
+      "soru": "Yukarıdaki Türkiye haritasında gösterilen numaralı alanlardan hangilerinde, yaz aylarında turizm faaliyetlerine bağlı olarak nüfus miktarında ve yoğunluğunda belirgin bir artış yaşanır?",
+      "siklar": [
+        "A) I ve II",
+        "B) I ve III",
+        "C) II ve IV",
+        "D) III ve IV",
+        "E) I, II ve IV"
+      ],
+      "dogru": "A) I ve II",
+      "aciklama": "Doğru cevap A şıkkıdır. Haritada işaretli merkezlerden I numaralı yöre Antalya ve II numaralı yöre Muğla kıyılarını göstermektedir. Bu alanlar, sahip oldukları uygun iklim koşulları (Akdeniz iklimi), uzun deniz mevsimi ve gelişmiş tesis altyapıları sayesinde Türkiye'de yaz turizminin kalbi konumundadır. Bu nedenle yaz aylarında hem yerli hem yabancı turist akınına uğrarlar ve ayrıca turizm sektöründe çalışmak üzere yoğun mevsimlik göç alırlar; bu da yazın nüfuslarının katlanarak artmasına yol açar. Diğer yandan III numaralı yöre olan Sinop, Karadeniz ikliminin etkisindedir, deniz turizmi süresi kısadır ve böyle bir nüfus patlaması yaşanmaz. IV numaralı yöre olan Erzurum ise yüksek ve karasal bir iklime sahip olduğundan yaz turizminden ziyade kış sporları turizmi potansiyeli taşır. Genel kural olarak yaz aylarındaki mevsimlik nüfus dalgalanması en çok Güneybatı ve Güney Anadolu kıyılarında görülür.",
+      "harita_il": "antalya",
+      "zorluk": "orta",
+      "gorsel": "beseri-cografya/beseri-cografya-041.svg",
+      "gorsel_veri": {
+        "I": "antalya",
+        "II": "mugla",
+        "III": "sinop",
+        "IV": "erzurum"
+      }
+    },
+    {
+      "id": "beseri-cografya-042",
+      "soru": "Türkiye'nin yaş bağımlılık oranlarındaki değişimlerle ilgili,\nI. Ortalama ömrün uzaması ve sağlık koşullarının iyileşmesi yaşlı bağımlılık oranını artırmaktadır.\nII. Doğum oranlarındaki kademeli düşüş, genç bağımlılık oranının azalmasına neden olmaktadır.\nIII. Aktif nüfus oranının artması, toplam bağımlılık oranının düşmesine katkı sağlar.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız II",
+        "B) I ve II",
+        "C) I ve III",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "E) I, II ve III",
+      "aciklama": "Doğru cevap E şıkkıdır, verilen tüm öncüller demografik yapıdaki matematiksel bağıntıları doğru bir şekilde ifade etmektedir. I numaralı öncül doğrudur, çünkü modern tıp ve sağlık hizmetlerinin gelişmesi insanların daha uzun yaşamasını sağlamış, bu da nüfus piramidinin tepe kısmını genişleterek yaşlı bağımlı (65+ yaş) oranını artırmıştır. II numaralı öncül doğrudur, doğum oranlarındaki azalma doğrudan 0-14 yaş çocuk grubunun payını daraltır, bu da genç bağımlılık oranını aşağı çeker. III numaralı öncül de kesinlikle doğrudur zira toplam bağımlılık oranı formülü (Genç Bağımlı + Yaşlı Bağımlı) / Aktif Nüfus şeklindedir. Paydadaki aktif (15-64 yaş) nüfus oranının artması, rasyonel olarak toplam bağımlılık oranının düşmesi anlamına gelir ki Türkiye son yıllarda 'demografik fırsat penceresi' olarak adlandırılan bu dönemi yaşamaktadır.",
+      "harita_il": null,
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-043",
+      "soru": "Türkiye'de iç göçler genellikle doğudan batıya, iç kesimlerden kıyı kesimlere doğru yoğunlaşmaktadır. Bu göç hareketlerinin yönünü belirleyen temel faktör aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Kıyı bölgelerindeki iklimin daha ılıman olması",
+        "B) Batı ve kıyı kesimlerinde sanayi ve ticaretin gelişmiş olması",
+        "C) Doğudaki illerde tarım alanlarının mirasla parçalanması",
+        "D) Batıdaki illerin yüzölçümünün daha geniş olması",
+        "E) Kıyı bölgelerinde eğitim ve sağlık kurumlarının bulunması"
+      ],
+      "dogru": "B) Batı ve kıyı kesimlerinde sanayi ve ticaretin gelişmiş olması",
+      "aciklama": "Doğru cevap B şıkkıdır. Türkiye'de iç göçlerin temel motivasyonu büyük oranda ekonomiktir; insanlar daha iyi iş, aş ve yaşam standartları arayışıyla yer değiştirirler. Batı bölgeleri (Marmara ve Ege) ve kıyı kesimleri, sanayi tesislerinin, ticaret hacminin, ulaşım ağlarının ve turizm faaliyetlerinin yoğunlaştığı yerler olduğu için çok güçlü bir ekonomik çekim gücüne sahiptir. Göçlerin yönünü belirleyen asıl çekici faktör bu ekonomik gelişmişlik farkıdır. A şıkkı çeldiricidir, ılıman iklim tarım ve turizmi desteklese de insanların sadece iklim güzel diye göç etmesi söz konusu değildir; asıl neden iş imkânlarıdır. C şıkkı göçün nedenidir ancak göçün batıya 'yönelmesinin' (rotasının) nedeni batının çekiciliğidir, doğunun iticiliği rotayı belirlemez. D şıkkı yüzölçümü ile ilgili bir yanılgıdır. E şıkkı da etkili olsa da, sanayi ve ticaretin sunduğu istihdamın yanında ikincil planda kalır.",
+      "harita_il": "istanbul",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-044",
+      "soru": "Yapılan bir demografik araştırmada, Bayburt ve Gümüşhane gibi illerde kadın nüfus oranının erkek nüfus oranından yüksek olduğu, İstanbul ve Kocaeli gibi illerde ise erkek nüfus oranının kadınlardan fazla olduğu tespit edilmiştir. Bu farklılığın ortaya çıkmasındaki temel neden aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) İklim koşullarının bölgeler arasındaki farklılığı",
+        "B) Kadınların ortalama yaşam süresinin erkeklerden uzun olması",
+        "C) Gelişmişlik farklarına bağlı olarak yaşanan iş gücü göçleri",
+        "D) Kırsal kesimde tarımsal faaliyetlerin kadınlar tarafından yürütülmesi",
+        "E) Eğitim amaçlı göçlerin büyükşehirlere yönelmesi"
+      ],
+      "dogru": "C) Gelişmişlik farklarına bağlı olarak yaşanan iş gücü göçleri",
+      "aciklama": "Doğru cevap C şıkkıdır. İl bazında cinsiyet oranlarındaki bu tür belirgin sapmaların en büyük nedeni ekonomik gerekçelerle yapılan iç göçlerdir. Göç hareketlerine katılan kitlenin büyük çoğunluğunu çalışma çağındaki erkek nüfus oluşturur. Bayburt ve Gümüşhane gibi iş imkânlarının kısıtlı olduğu illerden erkekler çalışmak için büyükşehirlere göç edince, geride kalan nüfus içinde kadınların oranı yüksek kalır. Öte yandan İstanbul ve Kocaeli gibi sanayi merkezleri bu erkek iş gücünü çektiği için orada erkek nüfus fazlalığı oluşur. A şıkkı yanlıştır, iklim ile cinsiyet dengesi arasında doğrudan bir bağ yoktur. B şıkkı doğru bir biyolojik veri olsa da, il bazındaki keskin ayrımları açıklayamaz zira ömür beklentisi her ilde benzerlik gösterir. D şıkkı kadınların tarlada çalışmasını belirtir ancak göç olmasaydı erkekler de kırsalda olacaktı. Dolayısıyla temel neden göçtür.",
+      "harita_il": "bayburt",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-045",
+      "soru": "Yukarıdaki Türkiye haritasında gösterilen yörelerin sosyoekonomik özellikleri ve göç durumları dikkate alındığında, bu merkezlerden hangisinin net göç hızı bakımından 'göç veren' bir yapıya sahip olması ve nüfus dinamikleri yönüyle diğerlerinden farklı olması beklenir?",
+      "siklar": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV",
+        "E) V"
+      ],
+      "dogru": "D) IV",
+      "aciklama": "Doğru cevap D şıkkıdır. Haritada işaretli merkezlerin ekonomik yapıları incelendiğinde; I numaralı Kayseri, II numaralı Gaziantep, III numaralı Denizli ve V numaralı Kocaeli gelişmiş sanayi tesislerine, güçlü ticaret ağlarına sahip olduklarından çevre illerden sürekli göç çeken (çekici güç) merkezlerdir. Bu illerin net göç hızları pozitiftir. Ancak IV numaralı yöre olan Ağrı, sanayi yatırımlarının yetersiz olduğu, ekonomisi daha çok tarım ve hayvancılığa dayanan, kışların uzun ve sert geçtiği bir Doğu Anadolu ilidir. Bu olumsuz sosyoekonomik şartlar nedeniyle Ağrı, diğer dört merkezin aksine sürekli olarak dışarıya 'göç veren' (itici güç) bir demografik yapıya sahiptir. Soru kalıbı 'hariç tutma' (Kalıp E) mantığıyla kurgulanmış olup, diğerlerinden farklı olan, göç veren karakteriyle Ağrı yöresidir.",
+      "harita_il": "kayseri",
+      "zorluk": "zor",
+      "gorsel": "beseri-cografya/beseri-cografya-045.svg",
+      "gorsel_veri": {
+        "I": "kayseri",
+        "II": "gaziantep",
+        "III": "denizli",
+        "IV": "agri",
+        "V": "kocaeli"
+      }
+    },
+    {
+      "id": "beseri-cografya-046",
+      "soru": "Türkiye'deki mevsimlik iş gücü göçleriyle ilgili,\nI. Çukurova, Söke ve Harran ovaları tarımsal faaliyetlere bağlı mevsimlik göç alan başlıca merkezlerdir.\nII. Antalya ve Muğla gibi iller turizm sektörünün canlanmasıyla yaz aylarında hizmet odaklı göç alır.\nIII. Mevsimlik göçler, katılan nüfusun kalıcı yerleşimini gerektirdiğinden gittikleri illerin demografik yapısını kalıcı olarak değiştirir.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "Doğru cevap C şıkkıdır, I ve II numaralı öncüller doğru bilgileri içermektedir. I numaralı öncül doğrudur zira Çukurova (Adana), Söke (Aydın) ve Harran (Şanlıurfa) ovaları Türkiye'de pamuk tarımının en yoğun yapıldığı ve hasat dönemlerinde dışarıdan yüz binlerce mevsimlik işçiyi çeken önemli tarım merkezleridir. II numaralı öncül de doğrudur; Antalya ve Muğla kıyıları yaz aylarında artan turist sayısına bağlı olarak otellerde, restoranlarda çalışmak üzere hizmet sektörüne dayalı yoğun bir geçici göç yaşar. D ve E şıkları yanlıştır çünkü III numaralı öncül tanımsal bir mantık hatası içerir. Adı üzerinde 'mevsimlik' olan bu göçler, yılın belirli dönemlerinde (hasat veya turizm sezonu) geçici olarak yapılır; işçiler sezon sonunda memleketlerine döndükleri için kalıcı yerleşim gerektirmezler ve demografik yapıyı 'kalıcı' olarak değil sadece 'dönemsel' olarak değiştirirler.",
+      "harita_il": "mardin",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-047",
+      "soru": "Yukarıdaki haritada numaralanmış iller ve demografik özellikleriyle ilgili aşağıdaki eşleşmelerden hangisi yanlıştır?",
+      "siklar": [
+        "A) I — Doğum oranının yüksek olması nedeniyle genç nüfus oranı fazladır.",
+        "B) II — Doğal nüfus artış hızı Türkiye ortalamasının oldukça üzerindedir.",
+        "C) III — Göç vermesine rağmen doğum oranı yüksek olduğundan nüfusu hızla azalmaz.",
+        "D) IV — Nüfus artışında doğal artıştan ziyade dışarıdan aldığı göçler etkilidir.",
+        "E) I — Nüfusun ikiye katlanma süresi IV numaralı merkeze göre daha uzundur."
+      ],
+      "dogru": "E) I — Nüfusun ikiye katlanma süresi IV numaralı merkeze göre daha uzundur.",
+      "aciklama": "Doğru cevap E şıkkıdır zira I numaralı yöre olan Şırnak'ta doğum oranları (doğal nüfus artışı) son derece yüksek olduğu için, nüfusun kendini ikiye katlama süresi oldukça 'kısadır'. Oysa IV numaralı merkez olan İzmir'de eğitim ve gelişmişlik seviyesi yüksek olduğu için doğum oranları düşüktür; dolayısıyla İzmir'in (göçleri hesaba katmazsak) kendi doğal artışıyla ikiye katlanma süresi çok daha uzundur. Yani E şıkkındaki ifade tam tersi olmalıydı. A şıkkı doğrudur, Şırnak genç nüfus oranında üst sıralardadır. B şıkkı doğrudur, II numaralı Şanlıurfa Türkiye'de doğurganlık hızının en yüksek olduğu illerin başında gelir. C şıkkı doğrudur, III numaralı Muş ciddi göç verse de, yüksek doğum oranları sayesinde toplam nüfusu keskin bir düşüş yaşamaz, göçü tolere eder. D şıkkı doğrudur, İzmir'in nüfusunu büyüten temel faktör doğurganlık değil aldığı göçlerdir.",
+      "harita_il": "sirnak",
+      "zorluk": "zor",
+      "gorsel": "beseri-cografya/beseri-cografya-047.svg",
+      "gorsel_veri": {
+        "I": "sirnak",
+        "II": "sanliurfa",
+        "III": "mus",
+        "IV": "izmir"
+      }
+    },
+    {
+      "id": "beseri-cografya-048",
+      "soru": "Bir ülkede veya bölgede aktif nüfusun sektörel dağılımına bakıldığında, hizmet ve sanayi sektörlerinde çalışanların oranının tarım sektöründen çok daha yüksek olduğu görülmektedir. Bu veriye dayanarak söz konusu bölge için aşağıdakilerden hangisine kesin olarak ulaşılabilir?",
+      "siklar": [
+        "A) Dış ticaret dengesinde sürekli açık verdiğine",
+        "B) Sosyoekonomik gelişmişlik düzeyinin yüksek olduğuna",
+        "C) Kırsal nüfus oranının kentsel nüfustan fazla olduğuna",
+        "D) Doğal kaynaklar bakımından son derece fakir olduğuna",
+        "E) Kadın nüfus oranının erkek nüfustan az olduğuna"
+      ],
+      "dogru": "B) Sosyoekonomik gelişmişlik düzeyinin yüksek olduğuna",
+      "aciklama": "Doğru cevap B şıkkıdır. Nüfusun sektörel dağılımı, bir ülkenin veya bölgenin ekonomik kalkınmışlık seviyesini gösteren en temel demografik verilerden biridir. Çalışan nüfusun ağırlıklı olarak tarımda yoğunlaştığı ülkeler genellikle az gelişmiş veya gelişmekte olan ülkeler iken; hizmet, teknoloji ve sanayi sektörlerinde yoğunlaştığı bölgeler (örneğin Batı Avrupa ülkeleri veya Türkiye'de Marmara Bölgesi) sosyoekonomik açıdan gelişmiş düzeydedir. A şıkkı yanlıştır, sektörel dağılımdan ithalat-ihracat rakamları çıkarılamaz. C şıkkı yanlıştır, sanayi ve hizmet sektörleri şehirlerde toplanır, bu yüzden bu tür bölgelerde kırsal nüfus değil kentsel nüfus fazladır. D şıkkı yanlıştır, sanayileşmiş ülkelerin birçoğu doğal kaynak bakımından zengin olabilir (örneğin ABD). E şıkkı yanlıştır, aktif nüfus oranlarından yola çıkarak toplam kadın-erkek dağılımını kesin olarak saptamak mümkün değildir. Genel kural: Sanayi + Hizmet > Tarım = Gelişmişlik.",
+      "harita_il": "izmir",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-049",
+      "soru": "Türkiye'de özellikle üniversite eğitimi almış mühendis, doktor ve bilim insanı gibi nitelikli profesyonellerin yurt dışına göç etmesi beyin göçü olarak adlandırılır. Bu durumun uzun vadede Türkiye'de aşağıdakilerden hangisine yol açması beklenmez?",
+      "siklar": [
+        "A) Bilimsel araştırma ve geliştirme faaliyetlerinin yavaşlamasına",
+        "B) Teknolojik inovasyon ve patent üretiminin olumsuz etkilenmesine",
+        "C) Eğitim ve sağlık hizmetlerinin kalitesinde aksamalar yaşanmasına",
+        "D) Toplam nüfus miktarında çok büyük ve dramatik bir azalma yaşanmasına",
+        "E) Ülkenin uluslararası arenadaki rekabet gücünün zayıflamasına"
+      ],
+      "dogru": "D) Toplam nüfus miktarında çok büyük ve dramatik bir azalma yaşanmasına",
+      "aciklama": "Doğru cevap D şıkkıdır, çünkü beyin göçüne katılan kişi sayısı oransal olarak toplumun ufak bir dilimini (nitelikli ve eğitimli kesimi) kapsar. Bu giden nüfusun niteliksel kaybı ülke ekonomisi için çok ağır sonuçlar doğursa da, niceliksel (sayısal) olarak toplam 85 milyonluk Türkiye nüfusunda dramatik ve belirgin bir nüfus azalışına yol açacak çapta değildir. Diğer şıkların tamamı beyin göçünün yıkıcı sonuçlarıdır. A ve B şıkları doğrudur, beyin göçüyle birlikte ar-ge yapacak, teknoloji üretecek beyinler ülkeyi terk etmiş olur, inovasyon duraklar. C şıkkı doğrudur, doktorların ve akademisyenlerin gitmesi sağlık ve eğitim sisteminin altyapısını zayıflatır ve hizmet kalitesini düşürür. E şıkkı da doğrudur, yüksek teknoloji üretemeyen ve insan kaynağını kaybeden bir ülkenin küresel çapta diğer ülkelerle rekabet edebilme gücü kaçınılmaz olarak zayıflar.",
+      "harita_il": "erzurum",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-050",
+      "soru": "Türkiye'deki köy altı yerleşmelerinden biri olan divanlarla ilgili,\nI. Birbirine uzak birden fazla mahallenin tek bir muhtarlık altında birleşmesiyle oluşurlar.\nII. Karadeniz Bölgesi'nin batısında yaygın olarak görülürler.\nIII. Temel ekonomik fonksiyonları yaz aylarında yapılan küçükbaş hayvancılıktır.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız III",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "Doğru cevap C şıkkıdır. I. öncül doğrudur, divan yerleşmesi birbirinden ayrı konumlanan ancak idari olarak tek muhtarlığa bağlı mahalleler bütününü ifade eder. II. öncül doğrudur, Türkiye'de en karakteristik divan örnekleri Batı Karadeniz'de (Sakarya, Bolu, Zonguldak, Sinop) bulunur. III. öncül yanlıştır, divanlar sürekli yerleşmeler olup ekonomik faaliyet olarak tarım ön plandadır; sadece küçükbaş hayvancılığa dayalı geçici yerleşmeler değillerdir.",
+      "harita_il": "bolu",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-051",
+      "soru": "Kırsal alandaki yerleşmelerin dağılışı doğal çevre koşullarıyla yakından ilişkilidir. Buna göre, aşağıdaki yerleşme türü ve Türkiye'de en yaygın olduğu yöre eşleştirmelerinden hangisi yanlıştır?",
+      "siklar": [
+        "A) Divan — Batı Karadeniz",
+        "B) Kom — Doğu Anadolu",
+        "C) Dalyan — Ege ve Güney Marmara",
+        "D) Mahalle — İç Anadolu",
+        "E) Oba — Toroslar"
+      ],
+      "dogru": "D) Mahalle — İç Anadolu",
+      "aciklama": "Doğru cevap D şıkkıdır, çünkü mahalle yerleşmeleri özellikle Karadeniz, Batı Anadolu ve Marmara'da daha yaygındır; İç Anadolu'da ise kuraklık ve düz arazi nedeniyle toplu köy yerleşmeleri hakimdir, dağınık bir tür olan mahalleye daha az rastlanır. A şıkkı doğrudur, divanlar Batı Karadeniz'dedir. B şıkkı doğrudur, kom yerleşmeleri Doğu Anadolu'ya özgüdür. C şıkkı doğrudur, dalyan deniz kıyısındaki balıkçı yerleşmeleridir (Ege). E şıkkı doğrudur, obalar Toroslar'da yörüklerin çadır yerleşmeleridir.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-052",
+      "soru": "Köy altı yerleşmeleri, fonksiyonlarına göre geçici ve sürekli olmak üzere ikiye ayrılır. Aşağıdakilerden hangisi, sürekli köy altı yerleşmelerinin ortak özelliklerinden biri olarak gösterilebilir?",
+      "siklar": [
+        "A) Sadece hayvancılık faaliyetlerinin yapılması",
+        "B) Yılın belirli dönemlerinde terk edilmeleri",
+        "C) Temel ekonomik faaliyetin büyük ölçüde tarıma dayanması",
+        "D) Göçebe kültürünün bir yansıması olmaları",
+        "E) Yüksek dağlık kesimlerde kurulmaları"
+      ],
+      "dogru": "C) Temel ekonomik faaliyetin büyük ölçüde tarıma dayanması",
+      "aciklama": "Doğru cevap C şıkkıdır. Mezra, mahalle, divan ve çiftlik gibi sürekli köy altı yerleşmelerinde halk yıl boyunca ikamet eder ve temel ekonomik faaliyet olarak tarım (ziraat) ön plandadır. A, B ve D şıkları yanlıştır zira bunlar yayla, oba, kom gibi geçici köy altı yerleşmelerinin özellikleridir. E şıkkı yanlıştır, sürekli yerleşmeler genellikle yüksek dağlardan ziyade tarıma elverişli ovalık veya hafif engebeli arazilerde yer alırlar.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-053",
+      "soru": "İç Anadolu ve Güneydoğu Anadolu bölgelerindeki kırsal yerleşmelerin büyük bir kısmı toplu dokuludur. Bu bölgelerde evlerin birbirine çok yakın inşa edilmesinin temel nedeni aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Tarım arazilerinin dar ve parçalı olması",
+        "B) Güvenlik ihtiyacının fazla olması",
+        "C) Su kaynaklarının kısıtlı ve arazinin düz olması",
+        "D) Orman alanlarının geniş yer kaplaması",
+        "E) Geleneksel kültürün izole yaşamı reddetmesi"
+      ],
+      "dogru": "C) Su kaynaklarının kısıtlı ve arazinin düz olması",
+      "aciklama": "Doğru cevap C şıkkıdır, zira İç Anadolu ve Güneydoğu Anadolu'da su kaynakları sınırlı olduğundan, insanlar mevcut su kaynağının (pınar, kuyu vs.) etrafında toplanmak zorunda kalırlar; ayrıca arazinin düz olması evlerin bir araya toplanmasına fiziki imkan tanır. A şıkkı yanlıştır, tarım arazilerinin dar ve parçalı olması Karadeniz'deki dağınık yerleşmenin sebebidir. B ve E şıkları yanlıştır, sosyolojik faktörler yerleşme dokusunda temel belirleyici değildir. D şıkkı yanlıştır, bu bölgeler orman bakımından fakirdir.",
+      "harita_il": "konya",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-054",
+      "soru": "Türkiye'deki çiftlik yerleşmeleri ile ilgili,\nI. Geniş tarım alanları üzerinde kurulmuş, modern tarım yöntemlerinin uygulandığı sürekli yerleşmelerdir.\nII. Engebe ve yükseltinin fazla olduğu Doğu Anadolu'da sayıları çok fazladır.\nIII. Kurulmalarında düz arazi yapısı ve sulama imkanları önemli rol oynar.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) I ve II",
+        "C) I ve III",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve III",
+      "aciklama": "Doğru cevap C şıkkıdır. I. ve III. öncüller doğrudur; çiftlikler bir veya birkaç ailenin geniş arazilerde tarım ve hayvancılık yaptığı, özellikle düz ovalık alanlarda (Çukurova, Ergene, Söke vb.) kurulan sürekli köy altı yerleşmeleridir. II. öncül yanlıştır, Doğu Anadolu gibi yükselti ve engebenin fazla olduğu, geniş düzlüklerin az bulunduğu bölgelerde çiftlik yerleşmeleri yaygın değildir; aksine kom ve mezralar daha yaygındır.",
+      "harita_il": "edirne",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-055",
+      "soru": "Yüksek kesimlerdeki otlaklardan yararlanmak amacıyla oluşturulan yaylalar, geçmişte yalnızca hayvancılık faaliyetleri için kullanılırken günümüzde bazı yörelerde bu durum değişmiştir. Aşağıdaki yörelerin hangisinde yaylacılık faaliyeti hayvancılıktan daha çok turizm ve rekreasyon amacıyla yapılmaktadır?",
+      "siklar": [
+        "A) Erzurum - Kars Platosu",
+        "B) Hakkari yöresi",
+        "C) Orta Karadeniz",
+        "D) Doğu Karadeniz kıyı dağları",
+        "E) Menteşe Yöresi"
+      ],
+      "dogru": "D) Doğu Karadeniz kıyı dağları",
+      "aciklama": "Doğru cevap D şıkkıdır. Doğu Karadeniz'de (özellikle Rize ve Trabzon) bulunan Ayder, Uzungöl, Ovit gibi yaylalar son yıllarda geleneksel hayvancılık fonksiyonunu yitirerek büyük ölçüde yayla turizmi (rekreasyon) merkezleri haline gelmiştir. A, B ve C şıkları yanlıştır; Erzurum, Kars, Hakkari ve Orta Karadeniz'deki yaylalarda ekonomik temel hala ağırlıklı olarak hayvancılıktır. E şıkkı yanlıştır, Menteşe yöresinde yaylacılık sınırlıdır ve turizm daha çok deniz kıyısı şeridinde gelişmiştir.",
+      "harita_il": "rize",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-056",
+      "soru": "Köy altı yerleşmeleri, yıl boyunca yerleşik kalınıp kalınmamasına göre sürekli ve geçici olarak sınıflandırılır. Aşağıdaki köy altı yerleşmelerinden hangisinin türü yanlış verilmiştir?",
+      "siklar": [
+        "A) Mezra — Sürekli",
+        "B) Yayla — Geçici",
+        "C) Kom — Geçici",
+        "D) Divan — Geçici",
+        "E) Çiftlik — Sürekli"
+      ],
+      "dogru": "D) Divan — Geçici",
+      "aciklama": "Doğru cevap D şıkkıdır, çünkü divan yerleşmeleri tarıma dayalı, birbirine yakın mahallelerden oluşan ve kalıcı olarak yaşanan \"sürekli\" köy altı yerleşmeleridir. A şıkkı doğrudur, mezralar tarım ve hayvancılığın bir arada yapıldığı sürekli yerleşmelerdir. B ve C şıkları doğrudur, yayla ve kom tamamen hayvancılığa dayalı geçici yerleşmelerdir. E şıkkı doğrudur, çiftlikler yıl boyunca yaşanan sürekli yerleşmelerdir.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-057",
+      "soru": "Türkiye'deki köy altı yerleşmeleri, genellikle tarım ve hayvancılık faaliyetleri etrafında şekillenmiştir. Buna göre aşağıdaki yerleşmelerden hangisi temel ekonomik fonksiyonu bakımından diğerlerinden farklıdır?",
+      "siklar": [
+        "A) Kom",
+        "B) Dalyan",
+        "C) Oba",
+        "D) Ağıl",
+        "E) Yayla"
+      ],
+      "dogru": "B) Dalyan",
+      "aciklama": "Doğru cevap B şıkkıdır. Dalyan yerleşmeleri balıkçılık (su ürünleri avcılığı/yetiştiriciliği) fonksiyonuyla ön plana çıkar ve deniz kıyısı kesimlerinde kurulur. A, C, D ve E şıkları yanlıştır çünkü kom, oba, ağıl ve yayla yerleşmelerinin tamamının temel ekonomik fonksiyonu kara hayvancılığıdır (küçükbaş veya büyükbaş) ve iç bölgelerdeki otlak alanlarında kurulurlar.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-058",
+      "soru": "Doğu Anadolu Bölgesi'nde yaygın olan kom yerleşmeleriyle ilgili,\nI. Etrafı taş duvarlarla çevrili üstü açık veya kapalı hayvan barınakları ve çoban evlerinden oluşurlar.\nII. Ekonomik yapı bütünüyle ticari tarım ürünleri yetiştiriciliğine dayanır.\nIII. Genellikle şahıs mülkiyetindeki otlak alanlarında kurulan geçici yerleşmelerdir.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) I ve II",
+        "C) I ve III",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve III",
+      "aciklama": "Doğru cevap C şıkkıdır. I. öncül doğrudur, komlar Doğu Anadolu'da hayvancılık amacıyla kurulan, taştan yapılmış ağıllar ve çoban evlerinden oluşan yapılardır. III. öncül doğrudur, bu alanlar genellikle ailelere ait otlaklarda yaz aylarında kullanılan geçici yerleşmelerdir. II. öncül ise kesinlikle yanlıştır, zira kom yerleşmelerinde tarım faaliyeti çok kısıtlıdır veya hiç yoktur; temel ekonomik faaliyet tamamen büyükbaş hayvancılıktır.",
+      "harita_il": "erzurum",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-059",
+      "soru": "Genellikle bir veya birkaç aileye ait olan, tarım ve hayvancılığın bir arada yürütüldüğü, zamanla büyüyerek bağımsız bir köy haline de gelebilen sürekli köy altı yerleşmesi aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Mezra",
+        "B) Yayla",
+        "C) Ağıl",
+        "D) Dalyan",
+        "E) Oba"
+      ],
+      "dogru": "A) Mezra",
+      "aciklama": "Doğru cevap A şıkkıdır. Mezralar, özellikle Doğu ve Güneydoğu Anadolu'da yaygın olan, hem tarım hem de hayvancılık yapılan sürekli kırsal yerleşmelerdir; nüfuslandıkça bağımsız köy statüsü kazanabilirler. B, C ve E şıkları yanlıştır çünkü yayla, ağıl ve oba sadece hayvancılığın yapıldığı geçici yerleşmelerdir. D şıkkı yanlıştır, dalyanlar balıkçılık amaçlıdır ve köye dönüşme potansiyelleri çok düşüktür.",
+      "harita_il": "diyarbakir",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-060",
+      "soru": "Doğu Karadeniz Bölümü'nde kırsal yerleşmelerdeki evler, birbirini göremeyecek kadar uzak mesafelerde inşa edilerek dağınık bir doku oluşturmuştur. Bu durum üzerinde;\nI. Su kaynaklarının gür olması,\nII. Tarım alanlarının küçük ve parçalı olması,\nIII. Güvenlik sorunlarının fazla olması\nfaktörlerinden hangileri doğrudan etkili olmuştur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "Doğru cevap C şıkkıdır. Karadeniz Bölgesi'nde su kaynaklarının her yerde bulunabilmesi, insanların tek bir çeşme etrafında toplanma zorunluluğunu ortadan kaldırmıştır (I). Ayrıca engebeli arazi nedeniyle tarım alanlarının küçük ve parçalı olması, ailelerin kendi tarlalarının yanına ev yapmasına neden olmuştur (II). III. öncül yanlıştır, dağınık yerleşmenin güvenlik kaygısıyla bir ilgisi yoktur; aksine güvenlik ihtiyacı insanları toplu yerleşmeye iter.",
+      "harita_il": "trabzon",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-061",
+      "soru": "Geçici köy altı yerleşmelerinden biri olan ağıllarla ilgili,\nI. Küçükbaş hayvanların gecelediği, etrafı çit veya taşlarla çevrili basit barınaklardır.\nII. Sadece Akdeniz Bölgesi'nde Yörük kültürüyle özdeşleşmiş çadır yerleşmeleridir.\nIII. Tarım alanlarının ortasında veya köy merkezlerinde kurulan modern kapalı tesislerdir.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) I ve III",
+        "E) II ve III"
+      ],
+      "dogru": "A) Yalnız I",
+      "aciklama": "Doğru cevap A şıkkıdır. I. öncül doğrudur, ağıllar küçükbaş sürülerinin vahşi hayvanlardan korunması için meraya yakın yerlere kurulan üstü genellikle açık veya iptidai barınaklardır. II. öncül yanlıştır, Yörüklere özgü çadır yerleşmesi oba olarak adlandırılır; ağıllar İç Anadolu ve Doğu Anadolu dahil her yerde bulunur. III. öncül yanlıştır, ağıllar köy merkezlerinde veya tarım alanlarında değil, aksine meraların (otlakların) bulunduğu alanlarda kurulan geleneksel ve ilkel yapılardır.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-062",
+      "soru": "Köy altı yerleşmelerinin ortaya çıkmasında coğrafi şartlar kadar yürütülen ekonomik faaliyetlerin de rolü büyüktür. Aşağıdaki köy altı yerleşmesi ve ön planda olan ekonomik faaliyet eşleştirmelerinden hangisi yanlıştır?",
+      "siklar": [
+        "A) Dalyan — Balıkçılık",
+        "B) Kom — Büyükbaş hayvancılık",
+        "C) Çiftlik — Modern tarım",
+        "D) Oba — Madencilik",
+        "E) Yayla — Geleneksel hayvancılık"
+      ],
+      "dogru": "D) Oba — Madencilik",
+      "aciklama": "Doğru cevap D şıkkıdır, çünkü oba yerleşmeleri göçebe Yörük ailelerin çadırlarından oluşan ve temel ekonomik faaliyeti küçükbaş hayvancılık olan geçici yerleşmelerdir; madencilikle hiçbir ilgisi yoktur. A şıkkı doğrudur, dalyanlar balık üretim alanlarıdır. B şıkkı doğrudur, komlar Doğu Anadolu'daki hayvancılık barınaklarıdır. C şıkkı doğrudur, çiftlikler geniş tarım arazilerinde modern yöntemlerle işlenen sürekli alanlardır.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-063",
+      "soru": "Çiftlik yerleşmelerinin kurulabilmesi için geniş ve düz tarım arazilerine ihtiyaç vardır. Bu alanlarda makineli tarım uygulamalarının kolay olması ve ulaşım ağının gelişmişliği çiftlik kültürünün yerleşmesini sağlar. Buna göre aşağıdaki ovaların hangisinde çiftlik yerleşmelerinin diğerlerine göre daha az olması beklenir?",
+      "siklar": [
+        "A) Çukurova",
+        "B) Ergene Ovası",
+        "C) Söke Ovası",
+        "D) Yüksekova",
+        "E) Bafra Ovası"
+      ],
+      "dogru": "D) Yüksekova",
+      "aciklama": "Doğru cevap D şıkkıdır. Hakkari'de yer alan Yüksekova tektonik bir ova olmakla birlikte, çevresi sarp dağlarla kaplıdır, ulaşım imkanları kısıtlıdır, iklim koşulları serttir ve tarım sezonu kısadır. Bu yüzden büyük tarımsal çiftlikler kurmak kârlı ve coğrafi açıdan uygun değildir; hayvancılığa dayalı yerleşmeler görülür. A, B, C ve E şıkları yanlıştır; Çukurova, Ergene, Söke ve Bafra ovaları hem düz hem de verimli alüvyal araziler olduğundan Türkiye'nin en önemli çiftlik yerleşmelerine ev sahipliği yaparlar.",
+      "harita_il": "hakkari",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-064",
+      "soru": "Mahalle tipi köy altı yerleşmeleriyle ilgili,\nI. Nüfuslandıkça bağımsız köy statüsü kazanma potansiyeli en yüksek olan yerleşmelerdir.\nII. Türkiye'de özellikle Batı Karadeniz, Marmara ve Batı Anadolu'da yaygın olarak görülürler.\nIII. Tarım faaliyetlerinin ön planda olduğu, idari olarak tek bir muhtarlığa bağlı sürekli yerleşmelerdir.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) I ve II",
+        "C) I ve III",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "E) I, II ve III",
+      "aciklama": "Doğru cevap E şıkkıdır. I. öncül doğrudur, mahalleler sürekli ve tarım odaklı yerleşmeler oldukları için büyüyüp köy olma ihtimali en yüksek birimlerdir. II. öncül doğrudur, Marmara, Ege ve Batı Karadeniz yörelerinde sıkça mahalle yerleşmelerine rastlanır. III. öncül doğrudur, birkaç mahalle veya tek bir mahalle mevcut köy muhtarlığına bağlı olarak tarımsal faliyetini yürütür ve sürekli yaşanılan yerlerdir.",
+      "harita_il": "sakarya",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-065",
+      "soru": "Kırsal yerleşmelerde evlerin birbirine olan mesafesi yerleşme dokusunu belirler. Buna göre Karadeniz kıyılarındaki dağınık yerleşmeler ile İç Anadolu'daki toplu yerleşmeler karşılaştırıldığında, aşağıdakilerden hangisi yalnızca Karadeniz kıyılarındaki yerleşmeler için söylenebilir?",
+      "siklar": [
+        "A) Ev yapımında doğal çevre şartlarının etkisi belirgindir.",
+        "B) Tarım ve hayvancılık bir arada yürütülür.",
+        "C) Topografik kısıtlamalar nedeniyle tarım makinesi kullanımı güçtür.",
+        "D) Kırsal göç olgusu yoğun olarak yaşanmaktadır.",
+        "E) İklim koşulları yerleşme üst sınırını belirler."
+      ],
+      "dogru": "C) Topografik kısıtlamalar nedeniyle tarım makinesi kullanımı güçtür.",
+      "aciklama": "Doğru cevap C şıkkıdır. Karadeniz kıyılarında arazinin aşırı eğimli ve engebeli olması (dağınık yerleşmenin sebebi) tarımda makine kullanımını kısıtlarken, İç Anadolu'da düzlükler sayesinde makineleşme yaygındır. A, B, D ve E şıkları yanlıştır zira her iki bölgedeki kırsal yerleşmelerde de ev malzemesini doğa belirler (biri ahşap, diğeri kerpiç), her ikisinde tarım ve hayvancılık yapılır, her ikisi de kente göç verir ve her ikisinde de iklim yükselti sınırını etkiler.",
+      "harita_il": null,
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-066",
+      "soru": "Türkiye'deki yayla yerleşmeleriyle ilgili,\nI. Türkiye'de alan olarak en geniş yer kaplayan geçici köy altı yerleşmesi türüdür.\nII. Çoğunlukla ilkbahar ve yaz aylarında kullanılıp kışın terk edilirler.\nIII. Kuruldukları alanlar genellikle vadi tabanlarındaki alüvyal ovalardır.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) I ve II",
+        "C) I ve III",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "B) I ve II",
+      "aciklama": "Doğru cevap B şıkkıdır. I. öncül doğrudur, Türkiye'nin hemen her dağlık bölgesinde görülen yaylalar en yaygın geçici yerleşmelerdir. II. öncül doğrudur, yaylalara karların eridiği ilkbaharda çıkılır, kış başında köye inilir. III. öncül yanlıştır, yaylalar vadi tabanlarındaki alüvyal ovalarda değil, ağaç sınırının üstündeki yüksek plato yüzeylerinde (alpin çayırların bulunduğu alanlarda) kurulurlar.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-067",
+      "soru": "Kural olarak arazinin dağlık ve engebeli, su kaynaklarının bol olduğu yerlerde kırsal yerleşmeler dağınık dokuludur. Ancak bazı yörelerde arazi engebeli olmasına rağmen insanlar güvenlik veya kültür gibi sebeplerle bir arada yaşamayı seçerek toplu yerleşmeler oluşturmuşlardır. Aşağıdaki illerin hangisinde arazinin dağlık olmasına rağmen toplu yerleşme dokusu daha hakimdir?",
+      "siklar": [
+        "A) Rize",
+        "B) Zonguldak",
+        "C) Ordu",
+        "D) Hakkari",
+        "E) Bartın"
+      ],
+      "dogru": "D) Hakkari",
+      "aciklama": "Doğru cevap D şıkkıdır. Hakkari (ve genel olarak Güneydoğu/Doğu Anadolu'nun sarp kesimleri) çok engebeli bir topografyaya sahip olmasına rağmen, su kaynaklarının belirli yerlerde toplanması, sert iklim şartları ve geçmişten gelen aşiret kültürü/güvenlik ihtiyacı gibi nedenlerle evlerin birbirine bitişik yapıldığı toplu veya küme yerleşmeleri hakimdir. A, B, C ve E şıkları yanlıştır; Karadeniz kuşağında yer alan bu illerde coğrafi kurallara uygun olarak dağınık yerleşme dokusu oluşmuştur.",
+      "harita_il": "hakkari",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-068",
+      "soru": "Geçici köy altı yerleşmelerinin zamanla sürekli yerleşmelere dönüşmesinde,\nI. İklimin kuraklaşmasıyla su kaynaklarının azalması,\nII. Göçebe nüfusun yerleşik tarım hayatına geçirilmesi,\nIII. Bölgeye ulaşım imkanlarının artması ve altyapı hizmetlerinin gelmesi\nfaktörlerinden hangileri etkili olmaktadır?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "D) II ve III",
+      "aciklama": "Doğru cevap D şıkkıdır. Geçici barınakların kalıcı köy altı yerleşmelerine (örneğin obaların köylere) dönüşmesinde temel faktör, devlet politikalarıyla veya kendiliğinden göçebe nüfusun tarıma (yerleşik hayata) yönelmesi (II) ile yolların yapılıp elektriğin gitmesi gibi altyapı imkanlarıdır (III). I. öncül yanlıştır, su kaynaklarının azalması yerleşmenin sürekli hale gelmesini sağlamaz, aksine alanın tamamen terk edilmesine ve göçe neden olur.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-069",
+      "soru": "Yukarıdaki Türkiye haritasında I, II, III ve IV numaralı alanlar gösterilmiştir.\n\nBu alanların hangisinde iklim ve bitki örtüsü şartları göz önüne alındığında ahşap meskenlerin daha yaygın olması beklenir?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve IV",
+        "D) II ve III",
+        "E) III ve IV"
+      ],
+      "dogru": "A) Yalnız I",
+      "aciklama": "A şıkkı doğrudur çünkü I numaralı alan Doğu Karadeniz'i (Rize çevresi) göstermektedir; her mevsim yağışlı geçen iklimin yarattığı gür orman örtüsü, geleneksel kırsal meskenlerde ahşap malzemenin yaygın olarak kullanılmasını sağlamıştır. Diğer seçenekler yanlıştır zira II numaralı İç Anadolu'da (Konya) yağış azlığına bağlı olarak kerpiç, III numaralı Güneydoğu Anadolu'da (Şanlıurfa) yine kerpiç ve taş, IV numaralı Akdeniz kıyılarında (Antalya) ise Torosların karstik kayaç yapısından dolayı taş meskenler ön plandadır. Genel kural olarak kırsal meskenlerin yapı malzemesi doğrudan yakın çevreden kolay temin edilen doğal kaynaklara (ağaç, toprak veya taş) bağlıdır.",
+      "harita_il": "rize",
+      "zorluk": "orta",
+      "gorsel": "beseri-cografya/beseri-cografya-069.svg",
+      "gorsel_veri": {
+        "I": "rize",
+        "II": "konya",
+        "III": "sanliurfa",
+        "IV": "antalya"
+      }
+    },
+    {
+      "id": "beseri-cografya-070",
+      "soru": "Kırsal meskenlerde kullanılan yapı malzemesi ile doğal çevre arasında sıkı bir ilişki vardır.\n\nAşağıdaki il ve kırsal kesimde en çok kullanılan yapı malzemesi eşleştirmelerinden hangisi yanlıştır?",
+      "siklar": [
+        "A) Rize — Ahşap",
+        "B) Konya — Kerpiç",
+        "C) Antalya — Taş",
+        "D) Mardin — Taş",
+        "E) Trabzon — Kerpiç"
+      ],
+      "dogru": "E) Trabzon — Kerpiç",
+      "aciklama": "E şıkkı yanlıştır zira Trabzon, Karadeniz ikliminin etkili olduğu ve orman varlığının zengin olduğu bir ildir; bu nedenle kırsal kesimde kerpiç değil ahşap malzeme yaygındır. A şıkkı doğrudur çünkü Rize bol yağışlı ve ormanlıktır, ahşap mesken hakimdir. B şıkkı doğrudur zira Konya kurak iklim ve bozkır örtüsü nedeniyle killi topraktan üretilen kerpiç evlere sahiptir. C ve D şıkları doğrudur zira Antalya ve çevresi karstik yapısından, Mardin ise kalkerli jeolojik temelinden dolayı taş mimarinin yoğun olduğu yerleşmelerdir. Kırsal mimari, her bölgenin kendi doğal ve litolojik şartlarına birebir uyum sağlar.",
+      "harita_il": "konya",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-071",
+      "soru": "Türkiye'de kırsal ve kentsel nüfus oranlarının tarihsel değişimi ile ilgili,\n\nI. 1927 yılından 1950 yılına kadar kırsal nüfus oranı sürekli olarak azalmıştır.\nII. 1980'li yıllardan itibaren kent nüfus oranı, kır nüfus oranını geçmiştir.\nIII. Günümüzde kentleşme oranının en yüksek olduğu bölge Marmara'dır.\n\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) I ve II",
+        "C) I ve III",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "D) II ve III",
+      "aciklama": "D şıkkı doğrudur çünkü Türkiye'de kentsel nüfus oranı 1985 sayımında %53'e ulaşarak ilk kez kırsal nüfusu geride bırakmıştır ve günümüzde sanayi-ticaretin merkezi olan Marmara Bölgesi kentleşmede ilk sıradadır. A, B, C ve E şıkları yanlıştır zira I. öncüldeki ifade hatalıdır; 1927 ile 1950 arasındaki dönemde Türkiye'de tarımsal faaliyetler hakim olduğu için kırsal nüfus oranı belirgin bir şekilde azalmamış, %75-80 bandında kalarak üstünlüğünü sürdürmüştür. Kırsal nüfusun oransal olarak hızlı azalması asıl 1950 sonrası tarımda makineleşme ve sanayileşmeyle birlikte başlamıştır. Genel kural olarak, bir ülkede sanayileşme hızlandıkça kırsal nüfus oranı azalır.",
+      "harita_il": "istanbul",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-072",
+      "soru": "Kerpiç, killi toprağın saman ile karıştırılarak kurutulmasıyla elde edilen bir yapı malzemesidir. Kurak ve yarı kurak iklim bölgelerinde, özellikle yaz aylarında yalıtım sağlaması nedeniyle kırsal kesimde yaygın olarak tercih edilmektedir.\n\nBuna göre, aşağıdaki yörelerin hangisinde kırsal meskenlerde kerpiç kullanımının temel nedeni bitki örtüsünün cılız olması ve yağış azlığıdır?",
+      "siklar": [
+        "A) Doğu Karadeniz Bölümü",
+        "B) Teke Yöresi",
+        "C) Hakkâri Bölümü",
+        "D) Orta Fırat Bölümü",
+        "E) Menteşe Yöresi"
+      ],
+      "dogru": "D) Orta Fırat Bölümü",
+      "aciklama": "D şıkkı doğrudur çünkü Güneydoğu Anadolu'da yer alan Orta Fırat Bölümü (Şanlıurfa çevresi) karasal iklimin etkisi altındadır, yazları çok sıcak ve kuraktır, orman örtüsü cılız olduğu için kerpiç ana yapı malzemesidir. A şıkkı yanlıştır zira Doğu Karadeniz'de ahşap kullanılır. B ve E şıkları yanlıştır zira Teke ve Menteşe yörelerinde taş evler yaygındır. C şıkkı yanlıştır zira Hakkâri çok dağlık bir yapıya sahip olduğundan kırsal alanda daha çok taş ve bazen toprak karışımı yapılar görülür, kerpicin en tipik mekanı değildir. İklim ile mesken tipi arasındaki uyum, kurak bölgelerde kerpici zorunlu kılar.",
+      "harita_il": "sanliurfa",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-073",
+      "soru": "Geleneksel Türk sivil mimarisinde önemli bir yeri olan hımış yapı tekniğiyle ilgili,\n\nI. Taşıyıcı sistemin ahşap karkasla oluşturulup aralarının kerpiç veya tuğla gibi malzemelerle doldurulmasıyla inşa edilir.\nII. En tipik örneklerine Karadeniz ile İç Anadolu'nun geçiş kuşağında yer alan Safranbolu ve Beypazarı'nda rastlanır.\nIII. Yaz aylarının çok sıcak ve kurak geçtiği Güneydoğu Anadolu'da kırsal meskenlerin tamamına yakınını oluşturur.\n\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "C şıkkı doğrudur çünkü hımış tekniği, ahşap iskelet (karkas) yapılıp boşlukların kerpiç, tuğla veya taş gibi malzemelerle doldurulması işlemidir ve nemli Karadeniz ikliminden karasal iklime geçiş alanlarında (Safranbolu, Beypazarı, Göynük) en güzel sivil mimari örneklerini verir. Diğer seçenekler yanlıştır zira III. öncüldeki ifade hatalıdır; Güneydoğu Anadolu Bölgesi'nde yaz sıcaklıkları ve ahşap malzemenin eksikliği nedeniyle meskenlerin tamamına yakını hımış değil, taş ve kerpiç kullanılarak inşa edilmiş kalın duvarlı, küçük pencereli, düz damlı yapılardan oluşur. Yöresel mimari doğrudan iklimsel geçişlerin izlerini taşır.",
+      "harita_il": "karabuk",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-074",
+      "soru": "Yukarıdaki Türkiye haritasında I, II, III ve IV numaralı yöreler gösterilmiştir.\n\nBu yörelerden hangilerinde kırsal kesimdeki mesken yapımında taş malzemenin yaygın olarak kullanılması yörenin karstik kayaç yapısıyla doğrudan ilişkilidir?",
+      "siklar": [
+        "A) I ve II",
+        "B) I ve III",
+        "C) II ve IV",
+        "D) III ve IV",
+        "E) I ve IV"
+      ],
+      "dogru": "A) I ve II",
+      "aciklama": "A şıkkı doğrudur çünkü I numaralı Antalya (Teke Yöresi) ve II numaralı Mersin (Taşeli Platosu) çevreleri, Akdeniz Bölgesi'nde yer alan ve karstik kayaçların (kalker/kireçtaşı) çok geniş alan kapladığı yörelerdir; yüzeyden kolayca sağlanan bu kayaçlar kırsal meskenlerin ana malzemesidir. Diğer şıklar yanlıştır zira III numaralı alanda (Konya çevresi) orman ve taş eksikliği nedeniyle kerpiç yaygındır, IV numaralı yörede (Samsun) ise ahşap veya tuğla-betonarme yapılar öne çıkar. Karstik veya volkanik alanlar (Nevşehir, Erzurum vb.) her zaman taş mimariyi beraberinde getirir ancak kalker kökenli taş evlerin merkezi Akdeniz havzasıdır.",
+      "harita_il": "antalya",
+      "zorluk": "orta",
+      "gorsel": "beseri-cografya/beseri-cografya-074.svg",
+      "gorsel_veri": {
+        "I": "antalya",
+        "II": "mersin",
+        "III": "konya",
+        "IV": "samsun"
+      }
+    },
+    {
+      "id": "beseri-cografya-075",
+      "soru": "Kışların uzun ve sert, yazların ise serin geçtiği yüksek ve dağlık bölgelerde, çevreden kolaylıkla temin edilebilen volkanik veya diğer sert kayaçlar kırsal mesken yapımında sıkça kullanılır.\n\nAşağıdaki illerin hangisinde, belirtilen doğal çevre şartlarına bağlı olarak taş meskenlerin daha yaygın olması beklenir?",
+      "siklar": [
+        "A) Edirne",
+        "B) Erzurum",
+        "C) Trabzon",
+        "D) Konya",
+        "E) Manisa"
+      ],
+      "dogru": "B) Erzurum",
+      "aciklama": "B şıkkı doğrudur çünkü Erzurum, Doğu Anadolu Bölgesi'nde yüksek bir plato üzerinde kurulu olup, çevresinde volkanik arazilerin (bazalt, andezit gibi) yaygın olması kırsal alanlarda taş meskenlerin hakimiyet kurmasına neden olmuştur. A şıkkı yanlıştır zira Edirne'de daha çok tuğla, hımış veya kerpiç görülür. C şıkkı yanlıştır zira Trabzon bol yağış aldığından ahşap evlerin merkezi konumundadır. D şıkkı yanlıştır zira Konya düz, ormansız bir alandır ve kerpiç kullanılır. E şıkkı yanlıştır zira Manisa genelinde taş görülmekle beraber Ege tipi ahşap-kagir veya kerpiç karışımları ve günümüzde betonarme daha yaygındır.",
+      "harita_il": "erzurum",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-076",
+      "soru": "İç Anadolu Bölgesi'ndeki kırsal meskenlerle Karadeniz Bölgesi'ndeki kırsal meskenler yapı malzemesi açısından karşılaştırıldığında, aşağıdakilerden hangisi yalnızca İç Anadolu'daki meskenler için söylenebilir?",
+      "siklar": [
+        "A) Yapımında ağaç gövdeleri ve kerestelerin taşıyıcı olarak kullanılması",
+        "B) Doğal çevrede kolay bulunan malzemelerin tercih edilmesi",
+        "C) Çatıların kar ve yağmur sularını kaydırmak için oldukça dik yapılması",
+        "D) Meskenlerin inşasında killi toprak ve samandan elde edilen malzemenin ana öge olması",
+        "E) Kırsal yerleşmelerin genellikle dağınık dokulu bir yapı sergilemesi"
+      ],
+      "dogru": "D) Meskenlerin inşasında killi toprak ve samandan elde edilen malzemenin ana öge olması",
+      "aciklama": "D şıkkı doğrudur çünkü İç Anadolu Bölgesi kurak iklimi nedeniyle orman bakımından fakirdir ve kırsal meskenlerde killi toprağın samanla harmanlandığı kerpiç malzemesi kullanılır; bu durum Karadeniz'de görülmez. A ve C şıkları yanlıştır zira Karadeniz Bölgesi'nin özellikleridir (ahşap kullanım ve dik çatı). B şıkkı yanlıştır zira her iki bölge için de ortaktır; insanlar en yakınlarındaki malzemeyi kullanırlar. E şıkkı yanlıştır zira dağınık yerleşme Karadeniz'e özgüdür, İç Anadolu'da ise su kaynaklarının kısıtlı olması sebebiyle toplu yerleşme dokusu hakimdir.",
+      "harita_il": "yozgat",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-077",
+      "soru": "Kırsal mesken tipleri ve yerleşme dokusu üzerinde doğal çevre faktörlerinin belirleyici bir etkisi bulunmaktadır.\n\nAşağıdakilerden hangisi kırsal meskenlerde kullanılan yapı malzemesini belirleyen doğal çevre faktörlerinden biri olarak değerlendirilemez?",
+      "siklar": [
+        "A) Bölgenin orman varlığı ve ağaç türleri",
+        "B) Yüzeydeki kayaçların litolojik yapısı",
+        "C) Yıllık ortalama yağış miktarı ve rejimi",
+        "D) Hâkim ekonomik faaliyetin türü",
+        "E) Karstik veya volkanik arazilerin varlığı"
+      ],
+      "dogru": "D) Hâkim ekonomik faaliyetin türü",
+      "aciklama": "D şıkkı doğrudur çünkü hakim ekonomik faaliyet (tarım, hayvancılık, ormancılık) beşeri bir faktördür ve meskenin ahır, depo veya samanlık gibi eklentilerini etkilese de binanın temel 'yapı malzemesini' belirleyen 'doğal çevre' faktörlerinden biri değildir. A, C şıkları yanlıştır zira iklim, yağış ve bitki örtüsü ahşap kullanımını doğrudan belirler. B ve E şıkları yanlıştır zira litolojik yapı, arazinin kalker veya tüf olması taş malzemenin kullanımını tayin eden fiziki coğrafya (doğal çevre) özellikleridir. Kırsal mimaride çevresel determinizm esastır.",
+      "harita_il": "izmir",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-078",
+      "soru": "Türkiye'de kırsal meskenlerde kullanılan geleneksel yapı malzemeleri, yörenin iklim ve bitki örtüsü özellikleriyle büyük bir uyum içindedir.\n\nAşağıdaki yöre ve kırsal meskenlerde en çok tercih edilen yapı malzemesi eşleştirmelerinden hangisi yanlıştır?",
+      "siklar": [
+        "A) Doğu Karadeniz — Ahşap",
+        "B) Teke Yöresi — Taş",
+        "C) Ergene Havzası — Ahşap",
+        "D) Tuz Gölü Çevresi — Kerpiç",
+        "E) Volkanik Kapadokya — Taş"
+      ],
+      "dogru": "C) Ergene Havzası — Ahşap",
+      "aciklama": "C şıkkı yanlıştır zira Marmara Bölgesi'ndeki Ergene Havzası yarı kurak karasal iklimin görüldüğü, orman örtüsünün çok cılız olduğu, genellikle bozkırların yer aldığı bir alandır; bu nedenle yapı malzemesi olarak ahşap değil, kerpiç ve günümüzde tuğla-betonarme daha yaygındır. A şıkkı doğrudur çünkü Doğu Karadeniz yağışlı ve gür ormanlıktır. B şıkkı doğrudur zira Teke Yöresi karstik kalkerli yapısı nedeniyle taşı bol barındır. D şıkkı doğrudur zira Tuz Gölü çevresi kurak bir bölgedir. E şıkkı doğrudur zira Kapadokya tüf ve andezit gibi volkanik taşlarla ünlüdür.",
+      "harita_il": "artvin",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-079",
+      "soru": "Türkiye'de cumhuriyetin ilanından günümüze kadar geçen süreçte kırsal ve kentsel nüfus oranlarındaki değişimle ilgili,\n\nI. 1950'li yıllardan itibaren tarımda makineleşmenin artması kırdan kente göçleri hızlandırmıştır.\nII. 2012 yılında çıkarılan Büyükşehir Yasası, resmi verilere göre kent nüfusu oranında ani bir artışa neden olmuştur.\nIII. Kentsel nüfus oranının artmasında yalnızca dış göçler belirleyici olmuştur.\n\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "C şıkkı doğrudur çünkü I. öncüldeki gibi 1950'lerde traktör kullanımının yaygınlaşması tarımsal işgücü ihtiyacını azaltmış ve yoğun köyden kente göçlere sebep olmuştur. Ayrıca II. öncüldeki gibi 2012'de çıkarılan 6360 sayılı yasa ile 30 ilde belde ve köylerin tüzel kişiliği kaldırılarak mahalleye dönüştürüldüğünden, istatistiksel olarak kentsel nüfus oranı bir anda %90'ların üzerine çıkmıştır. III. öncül yanlıştır zira Türkiye'de kentleşme oranını artıran temel etken dış göçler değil, kırdan kente olan iç göçler, sınır değişimleri ve doğal nüfus artışıdır.",
+      "harita_il": "ankara",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-080",
+      "soru": "Doğu Karadeniz Bölümü'nde kırsal meskenlerin yapımında yapı malzemesi olarak ahşabın ağırlıklı şekilde kullanılması, aşağıdakilerden hangisinin doğrudan bir sonucudur?",
+      "siklar": [
+        "A) Arazinin dağlık ve engebeli olması",
+        "B) Toprakların yıkanmış ve asidik karakter taşıması",
+        "C) Her mevsim yağışlı geçen iklimin orman örtüsünü gür kılması",
+        "D) Tarım alanlarının dar ve parçalı olması",
+        "E) Bölgede dağınık yerleşme dokusunun yaygınlık göstermesi"
+      ],
+      "dogru": "C) Her mevsim yağışlı geçen iklimin orman örtüsünü gür kılması",
+      "aciklama": "C şıkkı doğrudur çünkü bir yöredeki kırsal meskenin temel yapı malzemesi, o yörenin hakim iklimi ve bitki örtüsü tarafından belirlenir. Doğu Karadeniz, Türkiye'nin en fazla yağış alan ve orman varlığı en yoğun olan bölümüdür; dolayısıyla ahşap evlerin yaygın olmasının doğrudan sebebi budur. A ve D şıkları yanlıştır zira arazinin dağlık ve tarım alanlarının parçalı olması evlerin ahşap olmasını değil, yerleşmelerin dağınık dokulu olmasını etkiler. B şıkkı yanlıştır zira toprak özellikleri mesken malzemesini doğrudan etkilemez, bitki örtüsü üzerinden dolaylı etkilidir. E şıkkı yerleşme dokusu ile ilgilidir, mimari malzeme ile değil.",
+      "harita_il": "trabzon",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-081",
+      "soru": "Geleneksel kırsal meskenler inşa edilirken bölgenin iklim şartlarına uyum sağlamak amacıyla farklı yapısal çözümler geliştirilmiştir. Düz damlı toprak çatılar yaz aylarının sıcak ve kurak geçtiği yörelerde yaygındır. Çatıların eğimli ve sac ile kaplı olduğu meskenler ise kar ve yağmur sularının birikmesini önlemek amacıyla tasarlanmıştır.\n\nBuna göre; I. Mardin, II. Rize, III. Şanlıurfa, IV. Giresun illerinin hangilerinde kırsal meskenlerin düz damlı olması beklenir?",
+      "siklar": [
+        "A) I ve II",
+        "B) I ve III",
+        "C) II ve IV",
+        "D) III ve IV",
+        "E) I ve IV"
+      ],
+      "dogru": "B) I ve III",
+      "aciklama": "B şıkkı doğrudur çünkü I numaralı Mardin ve III numaralı Şanlıurfa illeri Güneydoğu Anadolu Bölgesi'nde yer alır. Yazları çok sıcak ve kurak, kış yağışları ise genellikle yağmur şeklinde olan bu bölgede kar birikme riski düşük olduğundan ve damın yazın yaşam alanı (kurutma, yatma) olarak kullanılmasından ötürü çatılar düz damlı (toprak) yapılır. Diğer seçenekler yanlıştır zira II numaralı Rize ve IV numaralı Giresun, Doğu Karadeniz kıyılarında yoğun kar ve yağmur alan illerdir; bu illerde suların birikmesini ve çatıların çökmesini önlemek için çatılar mecburen eğimli ve dik yapılır.",
+      "harita_il": "mardin",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-082",
+      "soru": "Türkiye'de farklı coğrafi özelliklere sahip illerde, kırsal meskenlerde kullanılan yaygın yapı malzemeleri çeşitlilik gösterir.\n\nAşağıdaki il - yaygın kırsal mesken malzemesi eşleştirmelerinden hangisi yanlıştır?",
+      "siklar": [
+        "A) Zonguldak — Ahşap",
+        "B) Hakkâri — Taş",
+        "C) Nevşehir — Taş",
+        "D) Şanlıurfa — Kerpiç",
+        "E) Rize — Kerpiç"
+      ],
+      "dogru": "E) Rize — Kerpiç",
+      "aciklama": "E şıkkı yanlıştır zira Rize, Türkiye'de yağış miktarının en yüksek olduğu ildir ve gür orman örtüsüne sahiptir. Bu nedenle kırsal yerleşimlerde ağırlıklı olarak ahşap yapı malzemesi kullanılır, kerpiç yüksek neme ve yağışa dayanamayacağı için asla tercih edilmez. A şıkkı doğrudur çünkü Zonguldak da orman yönünden zengindir. B şıkkı doğrudur zira Hakkâri'nin dağlık litolojik yapısı taşa elverişlidir. C şıkkı doğrudur zira Nevşehir volkanik tüflerden oluşan taş evleriyle bilinir. D şıkkı doğrudur zira Şanlıurfa kurak iklimine bağlı olarak kerpiç mimari barındır.",
+      "harita_il": "zonguldak",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-083",
+      "soru": "Yukarıdaki haritada I ve II numaralı alanlar gösterilmiştir. Bu alanlarda son yıllarda yoğunlaşan hızlı kentleşme süreciyle ilgili,\n\nI. Tarım alanlarının yerleşmeye ve sanayiye açılması\nII. Gecekondu ve çarpık kentleşme sorunlarının yaşanması\nIII. Altyapı ve çevre sorunlarının artması\n\nyargılarından hangilerinin ortak bir mekânsal sorun olduğu söylenebilir?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) I ve II",
+        "C) I ve III",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "E) I, II ve III",
+      "aciklama": "E şıkkı doğrudur çünkü haritadaki I numaralı alan İzmir ve çevresi, II numaralı alan ise Bursa ve çevresidir. Her iki ilimiz de sanayileşmeye paralel olarak yoğun iç göç alan, hızlı nüfus artışı yaşayan büyükşehirlerdir. Bu illerde göçle gelen nüfusun yarattığı baskı nedeniyle verimli tarım alanları maalesef sanayi ve konut işgaline uğramakta (I), planlı konut üretiminin yetersiz kalması çarpık kentleşmeyi körüklemekte (II) ve ani nüfus yığılmaları mevcut altyapının yetersiz kalmasına yol açarak trafik, çöp ve kirlilik gibi sorunları doğurmaktadır (III). Dolayısıyla üç öncül de bu büyükşehirlerin ortak kentleşme sorunlarıdır.",
+      "harita_il": "bursa",
+      "zorluk": "kolay",
+      "gorsel": "beseri-cografya/beseri-cografya-083.svg",
+      "gorsel_veri": {
+        "I": "izmir",
+        "II": "bursa",
+        "III": "kars",
+        "IV": "bayburt"
+      }
+    },
+    {
+      "id": "beseri-cografya-084",
+      "soru": "Volkanik arazilerin geniş yer kapladığı bölgelerde, işlenmesi ve kesilmesi kolay olan tüf veya bazalt gibi kayaçlar mesken yapımında sıkça kullanılır. Özellikle Kapadokya yöresi ve yakın çevresi bu durumun en tipik örneklerini barındır.\n\nBuna göre, aşağıdaki illerin hangisinde volkanik kayaçların (tüflerin) kırsal mesken yapımında yaygın olarak kullanılması beklenir?",
+      "siklar": [
+        "A) Edirne",
+        "B) Zonguldak",
+        "C) Kayseri",
+        "D) Sinop",
+        "E) Aydın"
+      ],
+      "dogru": "C) Kayseri",
+      "aciklama": "C şıkkı doğrudur çünkü Kayseri, Erciyes Dağı'nın volkanik faaliyetleri sonucunda oluşan geniş tüf platolarının ve bazalt akıntılarının yer aldığı bir ildir. Bu litolojik özellik, yörede taş işçiliğinin gelişmesini ve kırsal alanlarda taş meskenlerin inşa edilmesini sağlamıştır. A, B ve D şıkları yanlıştır zira Edirne, Zonguldak ve Sinop illerinde geniş volkanik örtüler bulunmaz; buralarda daha çok tortul araziler veya bitki örtüsüne bağlı ahşap/kerpiç yapılar hakimdir. E şıkkı yanlıştır zira Aydın'da Menderes masifi ve tortul araziler yaygındır, doğrudan tüf yapı taşları hakim değildir.",
+      "harita_il": "kayseri",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-085",
+      "soru": "İç ve Güneydoğu Anadolu'da yaygın olan kerpiç meskenlerle ilgili,\n\nI. Yüksek yalıtım özelliği sayesinde yapı içini kışın sıcak, yazın serin tutma avantajına sahiptir.\nII. Yağış sularına ve neme karşı dayanımı düşük olduğu için bol yağışlı bölgelerde tercih edilmezler.\nIII. Ülkemizde sadece ovalık alanlarda görülür, eğimli arazilerde kesinlikle inşa edilemezler.\n\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) I ve III",
+        "E) II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "C şıkkı doğrudur çünkü kerpiç kalın duvarlarıyla mükemmel bir ısı yalıtımı sağlar; kışın soğuğu, yazın da kavurucu sıcağı dışarıda tutarak iç mekan konforunu artırır (I. öncül doğru). Ayrıca kerpiç güneşte kurutulmuş topraktan yapıldığı için suyla temasında erime ve göçme tehlikesi yaşar, bu nedenle Karadeniz gibi yağışlı yerlerde hiç kullanılmaz (II. öncül doğru). III. öncül yanlıştır zira kerpiç yapılar sadece ovalarda değil, iklimin kurak olduğu pek çok eğimli veya dağlık arazide, yamaç yerleşmelerinde de teraslama yöntemiyle rahatlıkla inşa edilebilir.",
+      "harita_il": "diyarbakir",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-086",
+      "soru": "Karadeniz'in gür ormanlarıyla İç Anadolu'nun kurak stepleri arasındaki geçiş kuşağında, ahşap karkas iskelet yapılıp arasına kerpiç veya tuğla doldurularak inşa edilen hımış evler görülür.\n\nAşağıdaki yerleşmelerden hangisi, hımış yapı tekniğiyle inşa edilmiş tarihi sivil mimari örnekleriyle tanınan ve UNESCO Dünya Mirası Listesi'nde yer alan merkezlerden biridir?",
+      "siklar": [
+        "A) Göbeklitepe",
+        "B) Çatalhöyük",
+        "C) Safranbolu",
+        "D) Zeugma",
+        "E) Hasankeyf"
+      ],
+      "dogru": "C) Safranbolu",
+      "aciklama": "C şıkkı doğrudur çünkü Karabük iline bağlı Safranbolu, geleneksel Türk sivil mimarisinin en özgün hımış ev örneklerini barındıran, tarihi dokusunu koruduğu için UNESCO Dünya Mirası Listesi'ne alınmış bir ilçemizdir. Karadeniz ile İç Anadolu'nun iklimsel geçiş noktasında yer alması, hem ahşabın hem de kerpiç/taş malzemenin bir arada kullanılmasına olanak tanımıştır. A, B ve D şıkları yanlıştır zira Göbeklitepe, Çatalhöyük ve Zeugma antik kazı ve arkeoloji alanlarıdır, Osmanlı sivil mimari dokusunu yansıtmazlar. E şıkkı yanlıştır zira Hasankeyf taş oymacılığı ve mağara meskenleriyle ön plandadır.",
+      "harita_il": "karabuk",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-087",
+      "soru": "Türkiye'de 1950'li yıllardan sonra tarımda makineleşmenin yaygınlaşması, kırsal kesimdeki iş gücü ihtiyacını azaltmış ve kırdan kente göç dalgasını başlatmıştır.\n\nBuna göre, kırsal kesimden kentlere doğru yaşanan bu göç hareketinin kentlerde yol açtığı demografik sonuç aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Kentlerde yaşlı nüfus oranının artması",
+        "B) Kent nüfusunun artış hızının kır nüfusundan yüksek olması",
+        "C) Kırsal alanlarda doğum oranlarının kentlerden daha düşük hâle gelmesi",
+        "D) Şehirlerde kadın nüfus oranının erkeklerden daha fazla olması",
+        "E) Kentleşme oranının kıyı bölgelerden iç bölgelere doğru artış göstermesi"
+      ],
+      "dogru": "B) Kent nüfusunun artış hızının kır nüfusundan yüksek olması",
+      "aciklama": "B şıkkı doğrudur çünkü köyden kente olan bu büyük göç hareketi, kent nüfusunun sadece doğal artışla değil, mekanik (göçle gelen) artışla da büyümesini sağlayarak kentlerin nüfus artış hızını kır nüfus artış hızının çok üzerine çıkarmıştır. A şıkkı yanlıştır zira göç edenler genellikle genç ve çalışabilir yaştaki kitlelerdir. C şıkkı yanlıştır zira Türkiye'de kırsal alanlarda doğum oranları her zaman kentlerden yüksektir. D şıkkı yanlıştır zira iç göçlere daha çok erkekler katıldığı için göç alan şehirlerde erkek nüfus oranı kadından fazladır. E şıkkı yanlıştır, kentleşme kıyılarda daha yüksektir.",
+      "harita_il": "adana",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-088",
+      "soru": "Yukarıdaki haritada numaralandırılarak gösterilen alanların hangisinde dağlık ve engebeli arazi şartları ile bölgenin karstik litolojik yapısı, kırsal meskenlerde yapı malzemesi olarak taş kullanımını zorunlu kılmıştır?",
+      "siklar": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV",
+        "E) V"
+      ],
+      "dogru": "B) II",
+      "aciklama": "B şıkkı doğrudur çünkü II numaralı alan Batı ve Orta Toroslar (Antalya-Mersin arası) kuşağıdır. Bu bölgenin litolojik yapısını oluşturan karstik kireçtaşları (kalker), kırsal alanda insanların temel barınaklarını taştan inşa etmesine neden olmuştur. A şıkkı yanlıştır zira I numaralı yöre ahşap meskenin hakim olduğu Rize'dir. C ve D şıkları yanlıştır zira III (Trakya) ve IV (İç Anadolu) alanlarında kerpiç ve tuğla yaygındır. E şıkkı yanlıştır zira V numaralı alanda (Güneydoğu) taş kullanılsa da arazinin geneli dağlık değil, düz plato görünümündedir ve kerpiçle karışık kullanılır.",
+      "harita_il": "mersin",
+      "zorluk": "kolay",
+      "gorsel": "beseri-cografya/beseri-cografya-088.svg",
+      "gorsel_veri": {
+        "I": "rize",
+        "II": "antalya",
+        "III": "edirne",
+        "IV": "ankara",
+        "V": "sanliurfa"
+      }
+    },
+    {
+      "id": "beseri-cografya-089",
+      "soru": "Türkiye'de coğrafi çevre, insanların barınma şekillerine ve yapı malzemesi seçimine doğrudan etki etmiştir. Özellikle bazı yörelerde kolay kazılabilen yumuşak kayaçların içleri oyularak 'kaya meskenler' oluşturulmuştur.\n\nKaya meskenlerin yaygın olarak görüldüğü Ürgüp ve Göreme çevrelerinde bu yerleşim tipinin gelişmesinde aşağıdakilerden hangisi doğrudan etkili olmuştur?",
+      "siklar": [
+        "A) Bölgedeki geniş karstik platolar",
+        "B) Volkanik faaliyetler sonucu oluşan kalın tüf tabakaları",
+        "C) Orman örtüsünün tamamen tahrip edilmiş olması",
+        "D) Yaz aylarında sıcaklık ortalamalarının çok yüksek olması",
+        "E) Killi toprakların bölge genelinde yaygınlık göstermesi"
+      ],
+      "dogru": "B) Volkanik faaliyetler sonucu oluşan kalın tüf tabakaları",
+      "aciklama": "B şıkkı doğrudur çünkü Nevşehir'de yer alan Ürgüp, Göreme (Kapadokya) yöresi, Erciyes, Hasan ve Melendiz dağlarının püskürttüğü tüflerin birikmesiyle oluşmuştur. Tüf kayası yumuşak yapısıyla kazma, kürek gibi aletlerle bile kolayca oyulabildiğinden tarih boyunca barınak (kaya meskenler), kilise ve depo olarak kullanılmıştır. A şıkkı yanlıştır zira bölge karstik (kireçtaşı) değil, volkaniktir. C ve D şıkları dolaylı etken olsalar da doğrudan kayanın oyulabilme özelliğini açıklamazlar. E şıkkı yanlıştır zira killi topraklardan mağara değil, kerpiç ev yapılır.",
+      "harita_il": "nevsehir",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-090",
+      "soru": "Kırsal yerleşmeler genellikle temel geçim kaynağının tarım ve hayvancılık olduğu alanlardır. Kırsal meskenlerdeki mimari özellikler büyük ölçüde doğal çevreden temin edilen malzemelere bağlıdır.\n\nTürkiye'deki kırsal meskenlerle ilgili aşağıdakilerden hangisi söylenemez?",
+      "siklar": [
+        "A) Doğal çevreden sağlanan ahşap, taş ve kerpiç gibi malzemeler yaygındır.",
+        "B) Geleneksel yapı malzemeleri, yörenin iklim koşullarına uygun bir yalıtım sağlar.",
+        "C) Karadeniz kıyılarında ahşap evlerin çatıları aşırı yağış nedeniyle eğimli yapılır.",
+        "D) Doğu Anadolu'da kış soğuklarından korunmak için evlerin pencereleri genellikle büyük ve geniştir.",
+        "E) Güneydoğu Anadolu'da yaz sıcaklıklarına karşı yalıtımlı olan toprak damlı evler görülür."
+      ],
+      "dogru": "D) Doğu Anadolu'da kış soğuklarından korunmak için evlerin pencereleri genellikle büyük ve geniştir.",
+      "aciklama": "D şıkkı yanlıştır zira Doğu Anadolu Bölgesi'nde kış mevsimi çok sert ve uzun geçer. Yalıtımı artırmak ve ısı kaybını en aza indirmek için geleneksel taş meskenlerin duvarları oldukça kalın, pencereleri ise çok küçüktür. Büyük pencereler ısı kaybını hızlandıracağı için karasal ve soğuk iklim mimarisine aykırıdır. A, B ve C şıkları kesinlikle doğrudur; doğal malzeme kullanımı çevresel determinizme uyar. E şıkkı doğrudur zira Güneydoğu'nun düz damlı kalın duvarlı evleri, kavurucu yaz sıcağında iç mekanı serin tutmayı başarır.",
+      "harita_il": "agri",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-091",
+      "soru": "Türkiye'de son yıllarda kırsal alanlardaki geleneksel yapı malzemelerinin yerini giderek artan bir oranda betonarme, tuğla ve briket gibi malzemeler almaktadır. Bu değişim, kırsal meskenlerin çevresel uyumunu azaltırken tipik yöresel mimarinin de kaybolmasına neden olmaktadır.\n\nBu değişimin yaşanmasında aşağıdakilerden hangisinin etkisi en azdır?",
+      "siklar": [
+        "A) Ulaşım imkânlarının gelişmesiyle modern yapı malzemelerinin köylere ulaştırılabilmesi",
+        "B) Geleneksel ustalık gerektiren mimari teknikleri uygulayacak kişilerin azalması",
+        "C) Kırsal kesimde yaşayanların ekonomik gelir düzeyindeki değişmeler",
+        "D) Doğal çevredeki ahşap, taş veya toprak gibi yapı malzemesi kaynaklarının tamamen tükenmesi",
+        "E) Betonarme yapıların daha uzun ömürlü olması ve prestij unsuru olarak görülmesi"
+      ],
+      "dogru": "D) Doğal çevredeki ahşap, taş veya toprak gibi yapı malzemesi kaynaklarının tamamen tükenmesi",
+      "aciklama": "D şıkkı doğrudur çünkü Türkiye'nin kırsal alanlarında taş, orman (ahşap) veya toprak gibi doğal malzemeler tükenmemiştir; değişim tamamen sosyo-ekonomik nedenlere dayanır. A şıkkı yanlıştır zira yol ağının gelişmesi tuğla ve çimentoyu köye sokmuştur. B şıkkı yanlıştır zira taş işçiliği veya hımış yapımını bilen ustalar giderek kaybolmaktadır. C ve E şıkları yanlıştır zira şehirden etkilenme, gelirin artması ve betonarme evin bir 'statü' veya sağlamlık göstergesi sayılması, kırsal mimarideki dönüşümün temel nedenleridir.",
+      "harita_il": "kastamonu",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-092",
+      "soru": "Türkiye'de sanayi, ticaret ve hizmet sektörlerinin geliştiği merkezlerde kent nüfus oranı oldukça yüksektir.\n\nYukarıdaki haritada işaretli alanların hangisinde, bahsedilen ekonomik faaliyetlerin yetersizliğine bağlı olarak kır nüfus oranı diğerlerinden daha fazladır?",
+      "siklar": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV",
+        "E) V"
+      ],
+      "dogru": "D) IV",
+      "aciklama": "D şıkkı doğrudur çünkü IV numaralı alan Doğu Anadolu'nun yüksek kesimlerinde yer alan Ardahan çevresini göstermektedir. Sanayi yatırımlarının sınırlı olduğu, geçimin ağırlıklı olarak mera hayvancılığına dayandığı bu yörede kırsal nüfus oranı diğer işaretli merkezlere göre çok daha yüksektir. Diğer seçenekler yanlıştır zira I (İstanbul), II (İzmir), III (Ankara) ve V (Gaziantep) sanayinin, ticaretin, eğitimin ve hizmet sektörünün son derece geliştiği; bu nedenle yoğun göç alan ve kentsel nüfus oranının Türkiye ortalamasının çok üzerinde olduğu büyükşehirlerimizdir.",
+      "harita_il": "ardahan",
+      "zorluk": "orta",
+      "gorsel": "beseri-cografya/beseri-cografya-092.svg",
+      "gorsel_veri": {
+        "I": "istanbul",
+        "II": "izmir",
+        "III": "ankara",
+        "IV": "ardahan",
+        "V": "gaziantep"
+      }
+    },
+    {
+      "id": "beseri-cografya-093",
+      "soru": "Türkiye'de nüfusun dağılışı üzerinde doğal ve beşerî faktörler etkili olmaktadır. Bazı bölgeler yoğun nüfuslanırken, bazı bölgeler seyrek nüfuslu kalmıştır. Özellikle dağlık ve engebeli araziler, iklim koşullarının elverişsizliği gibi doğal faktörler nüfusun seyrek olmasına neden olurken, sanayileşme ve tarımsal verimlilik gibi beşerî faktörler nüfusun yoğunlaşmasında etkilidir.\n\nBuna göre, aşağıdaki illerden hangisi, coğrafi özellikleri itibarıyla diğerlerine göre daha seyrek nüfuslu bir yapıya sahiptir?",
+      "siklar": [
+        "A) Kocaeli",
+        "B) Bursa",
+        "C) Hakkari",
+        "D) Adana",
+        "E) İzmir"
+      ],
+      "dogru": "C) Hakkari",
+      "aciklama": "Hakkari, Türkiye'nin en dağlık ve engebeli illerinden biridir. Yüksek rakımlı araziler, sert kış koşulları ve ulaşım zorlukları gibi doğal faktörler, bu ilde nüfusun seyrek kalmasına neden olmuştur. Sanayi ve tarımsal faaliyetlerin sınırlı olması da beşerî faktörler açısından nüfus yoğunluğunu düşürmektedir. Kocaeli, Bursa, Adana ve İzmir ise sanayi, ticaret, tarım ve ulaşım imkanları açısından gelişmiş, dolayısıyla nüfus yoğunluğu yüksek illerdir. Bu iller, elverişli iklim ve coğrafi konumları sayesinde yoğun nüfuslanmıştır. Genel kural olarak, Türkiye'de dağlık ve engebeli araziler ile iklim koşullarının sert olduğu bölgeler, ekonomik faaliyetlerin kısıtlı olması nedeniyle seyrek nüfuslu olma eğilimindedir.",
+      "harita_il": "hakkari",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-094",
+      "soru": "Türkiye'de kırsal yerleşmelerin dağılışı ve özellikleri, coğrafi koşullara göre büyük farklılıklar gösterir. Özellikle su kaynaklarının bolluğu veya kıtlığı, tarım arazilerinin yapısı ve topografya, yerleşme dokusunu doğrudan etkiler.\n\nBuna göre, aşağıdaki bölgelerin hangisinde dağınık yerleşme tipinin yaygın olması beklenir?",
+      "siklar": [
+        "A) İç Anadolu Bölgesi",
+        "B) Güneydoğu Anadolu Bölgesi",
+        "C) Doğu Karadeniz Bölümü",
+        "D) Konya Ovası",
+        "E) Ergene Havzası"
+      ],
+      "dogru": "C) Doğu Karadeniz Bölümü",
+      "aciklama": "Dağınık yerleşme tipi, genellikle su kaynaklarının bol olduğu, tarım arazilerinin parçalı ve engebeli olduğu bölgelerde görülür. Doğu Karadeniz Bölümü, bol yağış alması nedeniyle su kaynakları açısından zengindir. Ayrıca, engebeli arazi yapısı ve vadilerle parçalanmış topografya, tarım arazilerinin küçük ve birbirinden uzak olmasından dolayı evlerin de dağınık bir şekilde kurulmasına yol açmıştır. İç Anadolu, Güneydoğu Anadolu, Konya Ovası ve Ergene Havzası gibi bölgeler ise genellikle su kaynaklarının sınırlı olduğu, geniş ve düz tarım alanlarına sahip yerlerdir. Bu bölgelerde su kaynaklarına yakınlık ve tarım arazilerinin bütünlüğü nedeniyle toplu yerleşme tipi daha yaygındır. Genel kural olarak, su kaynaklarının bol ve arazinin engebeli olduğu yerlerde dağınık yerleşmeler, su kaynaklarının kısıtlı ve arazinin düz olduğu yerlerde ise toplu yerleşmeler görülür.",
+      "harita_il": "rize",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-095",
+      "soru": "Aşağıdaki haritada Türkiye'deki bazı iller numaralandırılarak gösterilmiştir. Bu illerden hangisi, son yıllarda aldığı yoğun göçlerle birlikte hızlı bir kentleşme süreci yaşamış ve nüfus yapısında önemli değişimler göstermiştir?",
+      "siklar": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV",
+        "E) V"
+      ],
+      "dogru": "D) IV",
+      "aciklama": "Haritada IV numaralı alan İstanbul'u temsil etmektedir. İstanbul, Türkiye'nin en büyük metropolü olup, sanayi, ticaret, hizmet ve eğitim gibi birçok sektörde sunduğu iş imkanları nedeniyle ülkenin her yerinden yoğun göç almaktadır. Bu durum, İstanbul'da hızlı bir kentleşme sürecine, nüfus artışına ve demografik yapıda önemli değişimlere yol açmıştır. I numaralı alan Erzurum, II numaralı alan Sivas, III numaralı alan Van ve V numaralı alan ise Sinop'u temsil etmektedir. Bu iller, İstanbul'a kıyasla daha az göç alan veya göç veren iller olup, nüfus artış hızları ve kentleşme oranları İstanbul kadar yüksek değildir. Genel kural olarak, sanayi, ticaret ve hizmet sektörlerinin yoğunlaştığı büyük şehirler, ülkenin diğer bölgelerinden sürekli göç alarak hızlı bir kentleşme ve nüfus artışı yaşarlar.",
+      "harita_il": "istanbul",
+      "zorluk": "orta",
+      "gorsel": "beseri-cografya/beseri-cografya-095.svg",
+      "gorsel_veri": {
+        "I": "erzurum",
+        "II": "sivas",
+        "III": "van",
+        "IV": "istanbul",
+        "V": "sinop"
+      }
+    },
+    {
+      "id": "beseri-cografya-096",
+      "soru": "Türkiye'de nüfus piramitleri, ülkenin demografik yapısı hakkında önemli bilgiler sunar. Bir ülkenin nüfus piramidine bakılarak doğum ve ölüm oranları, ortalama yaşam süresi, genç ve yaşlı nüfusun oranı gibi demografik özellikler hakkında çıkarımlar yapılabilir.\n\nBuna göre, Türkiye'nin güncel nüfus piramidi incelendiğinde aşağıdaki yargılardan hangisine ulaşılamaz?",
+      "siklar": [
+        "A) Doğum oranlarında belirgin bir azalma eğilimi vardır.",
+        "B) Ortalama yaşam süresi uzamaktadır.",
+        "C) Genç bağımlılık oranı azalmaktadır.",
+        "D) Yaşlı bağımlılık oranı artmaktadır.",
+        "E) Gelişmiş ülkelerdeki gibi dar tabanlı bir piramit yapısına sahiptir."
+      ],
+      "dogru": "E) Gelişmiş ülkelerdeki gibi dar tabanlı bir piramit yapısına sahiptir.",
+      "aciklama": "Türkiye'nin güncel nüfus piramidi, doğum oranlarında belirgin bir azalma eğilimi gösterse de, hala gelişmiş ülkelerin dar tabanlı piramit yapısına tam olarak ulaşmamıştır. Piramidin tabanı geçmişe göre daralmış olsa da, gelişmiş ülkelerdeki kadar keskin bir daralma söz konusu değildir. A, B, C ve D şıkları ise Türkiye'nin demografik yapısındaki güncel eğilimleri doğru bir şekilde yansıtmaktadır. Doğum oranları azalmakta, sağlık hizmetlerinin gelişmesiyle ortalama yaşam süresi uzamakta, genç nüfusun toplam nüfusa oranı azaldığı için genç bağımlılık oranı düşmekte ve yaşlı nüfusun oranı arttığı için yaşlı bağımlılık oranı yükselmektedir. Genel kural olarak, bir ülkenin nüfus piramidinin tabanının daralması doğum oranlarının azaldığını, üst kısımlarının genişlemesi ise ortalama yaşam süresinin uzadığını ve yaşlı nüfusun arttığını gösterir.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-097",
+      "soru": "Türkiye'de kırsal yerleşmeler arasında köy altı yerleşmeleri önemli bir yere sahiptir. Bu yerleşmeler, genellikle köylerden ayrı, daha küçük ve dağınık birimler halinde bulunur. Bazıları sürekli yerleşme özelliği gösterirken, bazıları mevsimlik olarak kullanılır.\n\nBuna göre, aşağıdaki köy altı yerleşmelerinden hangisi genellikle hayvancılık faaliyetleri için kullanılan, geçici bir yerleşme türüdür?",
+      "siklar": [
+        "A) Mahalle",
+        "B) Divan",
+        "C) Mezra",
+        "D) Yayla",
+        "E) Çiftlik"
+      ],
+      "dogru": "D) Yayla",
+      "aciklama": "Yayla, genellikle yaz aylarında hayvan otlatmak ve serinlemek amacıyla yüksek dağlık alanlarda kurulan geçici köy altı yerleşmeleridir. Temel geçim kaynağı hayvancılıktır ve insanlar kış aylarında daha alçak kesimlerdeki köylerine geri dönerler. Mahalle, Divan ve Mezra ise genellikle tarım ve hayvancılığın birlikte yapıldığı, köyden ayrılmış ancak sürekli ikamet edilen yerleşmelerdir. Çiftlik ise genellikle geniş tarım arazileri üzerinde tek bir aile veya birkaç ailenin yaşadığı, tarım ağırlıklı sürekli bir yerleşme türüdür. Bu nedenle, hayvancılık için kullanılan ve geçici nitelikte olan yerleşme türü yayladır. Genel kural olarak, Türkiye'de köy altı yerleşmelerinin fonksiyonları ve süreklilikleri, bulundukları coğrafi bölgenin iklim, topografya ve ekonomik faaliyet türlerine göre farklılık gösterir.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-098",
+      "soru": "Aşağıdaki haritada Türkiye'deki bazı bölgeler numaralandırılarak gösterilmiştir. Bu bölgelerden hangisi, özellikle son yıllarda 'beyin göçü' olarak adlandırılan nitelikli iş gücü kaybını en yoğun yaşayan alanlardan biridir?",
+      "siklar": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV",
+        "E) V"
+      ],
+      "dogru": "A) I",
+      "aciklama": "Haritada I numaralı alan, Türkiye'nin batısında, özellikle Marmara Bölgesi'nin sanayi ve eğitim merkezlerini (İstanbul, Kocaeli gibi) ve Ege Bölgesi'nin büyük şehirlerini (İzmir) kapsayan bir bölgeyi temsil etmektedir. Beyin göçü, genellikle eğitimli ve nitelikli kişilerin daha iyi yaşam koşulları, kariyer fırsatları veya araştırma imkanları bulmak amacıyla başka ülkelere göç etmesidir. Türkiye'de beyin göçü, özellikle büyük şehirlerdeki üniversitelerden mezun olan veya yüksek nitelikli iş gücüne sahip bireyler arasında yaygındır. Bu bölgeler, ülkenin en gelişmiş ve eğitimli nüfusunun yoğunlaştığı yerler olduğundan, uluslararası göç hareketlerinde nitelikli iş gücü kaybı riski en yüksek olan alanlardır. Diğer numaralı alanlar (II: Doğu Karadeniz, III: Doğu Anadolu, IV: Güneydoğu Anadolu, V: İç Anadolu'nun doğusu) ise genellikle daha az gelişmiş ve beyin göçünden ziyade iç göç veren veya daha farklı uluslararası göç profillerine sahip bölgelerdir. Genel kural olarak, bir ülkenin eğitim ve sanayi merkezleri, nitelikli iş gücünün yoğunlaştığı yerler olduğundan, beyin göçü riskinin de en yüksek olduğu alanlardır.",
+      "harita_il": "istanbul",
+      "zorluk": "zor",
+      "gorsel": "beseri-cografya/beseri-cografya-098.svg",
+      "gorsel_veri": {
+        "I": "istanbul",
+        "II": "trabzon",
+        "III": "erzurum",
+        "IV": "gaziantep",
+        "V": "sivas"
+      }
+    },
+    {
+      "id": "beseri-cografya-099",
+      "soru": "Türkiye'de kentleşme süreci, beraberinde birçok sosyal ve ekonomik değişimi getirmiştir. Özellikle büyük şehirlerde yaşanan hızlı nüfus artışı ve plansız yapılaşma, çeşitli sorunlara yol açmaktadır.\n\nBu sorunlar arasında aşağıdakilerden hangileri yer alır?\n\nI. Altyapı hizmetlerinin yetersiz kalması\nII. Çevre kirliliğinin artması\nIII. Kırsal nüfus oranının yükselmesi",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "Hızlı kentleşme ve plansız yapılaşma, büyük şehirlerde birçok soruna neden olmaktadır. I. Altyapı hizmetlerinin (yol, su, kanalizasyon, elektrik vb.) yetersiz kalması, artan nüfusun ihtiyaçlarını karşılayamaması bu sorunların başında gelir. II. Sanayileşme, trafik ve yoğun insan faaliyetleri nedeniyle hava, su ve toprak kirliliği gibi çevre kirliliği sorunları artar. III. Kırsal nüfus oranının yükselmesi ise hızlı kentleşmenin bir sonucu değil, tam tersine kentleşmenin neden olduğu bir durumdur. Kentleşme, kırsal alanlardan kentlere göçü tetiklediği için kırsal nüfus oranının düşmesine, kentsel nüfus oranının ise yükselmesine yol açar. Bu nedenle III. öncül doğru bir ifade değildir. Genel kural olarak, hızlı ve plansız kentleşme, altyapı yetersizlikleri, çevre sorunları, konut sıkıntısı ve sosyal uyum problemleri gibi olumsuz sonuçları beraberinde getirir.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-100",
+      "soru": "Türkiye'de nüfusun yaş yapısı, demografik geçiş süreciyle birlikte önemli değişimler göstermektedir. Özellikle son yıllarda doğum oranlarındaki düşüş ve ortalama yaşam süresindeki artış, nüfusun yaşlanmasına yol açmaktadır.\n\nBu durumun gelecekte Türkiye'nin demografik yapısı üzerinde yaratacağı olası etkiler arasında aşağıdakilerden hangisi gösterilemez?",
+      "siklar": [
+        "A) Çalışma çağındaki nüfusun bağımlılık oranının artması",
+        "B) Sosyal güvenlik sistemleri üzerindeki yükün artması",
+        "C) Sağlık hizmetlerine olan talebin artması",
+        "D) Genç nüfusun toplam nüfus içindeki payının azalması",
+        "E) İş gücü piyasasında yaşlı iş gücünün oranının artması"
+      ],
+      "dogru": "A) Çalışma çağındaki nüfusun bağımlılık oranının artması",
+      "aciklama": "Nüfusun yaşlanması, genç bağımlılık oranının azalmasına karşın yaşlı bağımlılık oranının artmasına neden olur. Çalışma çağındaki nüfusun bağımlılık oranı, genç ve yaşlı nüfusun toplamının çalışma çağındaki nüfusa oranıdır. Nüfus yaşlandıkça, genç nüfus azalırken yaşlı nüfus artar. Bu durumda, çalışma çağındaki nüfusun bakmakla yükümlü olduğu yaşlı nüfusun oranı artar, ancak genel bağımlılık oranı (genç+yaşlı / çalışma çağı) her zaman artmayabilir, genç nüfusun azalmasıyla dengelenebilir veya hatta düşebilir. Ancak şıkta 'çalışma çağındaki nüfusun bağımlılık oranının artması' ifadesi, genel bağımlılık oranını değil, özellikle yaşlı bağımlılık oranının artışını ima edebilir. Ancak daha net bir ifadeyle, genç nüfusun azalmasıyla birlikte toplam bağımlılık oranı her zaman artmaz. B, C, D ve E şıkları ise nüfusun yaşlanmasının doğrudan sonuçlarıdır. Sosyal güvenlik sistemleri (emeklilik, sağlık) üzerindeki yük artar, sağlık hizmetlerine olan talep artar, genç nüfusun payı azalır ve iş gücü piyasasında yaşlı iş gücünün oranı artar. Genel kural olarak, bir ülkenin nüfusunun yaşlanması, genç nüfusun azalması, yaşlı nüfusun artması ve bunun sonucunda sosyal güvenlik, sağlık ve iş gücü piyasalarında önemli yapısal değişimlere yol açar.",
+      "harita_il": null,
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    }
+  ]
 }

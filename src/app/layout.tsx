@@ -5,6 +5,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ThemeProvider from "@/components/ThemeProvider";
+import DailyRewardHandler from "@/components/DailyRewardHandler";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import JsonLd from "@/components/JsonLd";
@@ -143,6 +144,7 @@ export default function RootLayout({
       >
         <ThemeProvider>
           <Navbar />
+          <DailyRewardHandler />
           <main className="min-h-screen">{children}</main>
           <Footer />
         </ThemeProvider>
