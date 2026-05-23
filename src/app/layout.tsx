@@ -139,7 +139,7 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`${inter.variable} ${outfit.variable} font-sans antialiased bg-[var(--background)] text-ink-800 selection:bg-focus-100 selection:text-focus-800`}
+        className={`${inter.variable} ${outfit.variable} font-sans antialiased bg-[var(--background)] text-ink-800 dark:text-ink-200 selection:bg-focus-100 selection:text-focus-800`}
       >
         <ThemeProvider>
           <Navbar />

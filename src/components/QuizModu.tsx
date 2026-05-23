@@ -30,9 +30,10 @@ function sonucuKaydet(yeniSonuc: QuizSonuc) {
 }
 
 const zorluKRenk: Record<string, string> = {
-  kolay: "bg-green-50 text-green-700 border-green-200",
-  orta: "bg-amber-50 text-amber-700 border-amber-200",
-  zor: "bg-red-50 text-red-700 border-red-200",
+  kolay:
+    "bg-green-50 dark:bg-green-950/20 text-green-700 dark:text-green-400 border-green-200 dark:border-green-800/50",
+  orta: "bg-amber-50 dark:bg-amber-950/20 text-amber-700 dark:text-amber-400 border-amber-200 dark:border-amber-800/50",
+  zor: "bg-red-50 dark:bg-red-950/20 text-red-700 dark:text-red-400 border-red-200 dark:border-red-800/50",
 };
 
 interface QuizModuProps {
@@ -155,13 +156,13 @@ export default function QuizModu({ konuSlug, konuMeta, sorular = [] }: QuizModuP
     const topSkor = topMap[konuSlug] ?? null;
 
     return (
-      <div className="max-w-xl mx-auto text-center py-10 px-4">
+      <div className="max-w-xl mx-auto text-center py-10 px-4 text-ink-800 dark:text-ink-200">
         <div className="text-6xl mb-4">{konuMeta.icon}</div>
-        <h2 className="text-3xl font-bold text-ink-900 mb-2">{konuMeta.baslik}</h2>
-        <p className="text-ink-500 mb-2">Quiz Modu — Sınava Hazırlık</p>
+        <h2 className="text-3xl font-bold text-ink-900 dark:text-white mb-2">{konuMeta.baslik}</h2>
+        <p className="text-ink-500 dark:text-ink-450 mb-2">Quiz Modu — Sınava Hazırlık</p>
 
         {topSkor !== null && (
-          <div className="inline-block bg-glow-50 border border-glow-200 rounded-xl px-4 py-2 mb-4 text-glow-800 text-sm font-semibold shadow-glow">
+          <div className="inline-block bg-glow-50 dark:bg-glow-950/20 border border-glow-200 dark:border-glow-800/80 rounded-xl px-4 py-2 mb-4 text-glow-800 dark:text-glow-300 text-sm font-semibold shadow-glow">
             🏆 En yüksek skorum: {topSkor}/100
           </div>
         )}
@@ -183,27 +184,29 @@ export default function QuizModu({ konuSlug, konuMeta, sorular = [] }: QuizModuP
         </div>
 
         {gecmisler.length > 0 && (
-          <div className="text-left bg-paper-100 rounded-xl p-4 border border-ink-100">
-            <p className="text-xs font-bold uppercase text-ink-400 mb-3">Son Denemelerim</p>
+          <div className="text-left bg-paper-100 dark:bg-ink-800 rounded-xl p-4 border border-ink-100 dark:border-ink-700">
+            <p className="text-xs font-bold uppercase text-ink-400 dark:text-ink-500 mb-3">
+              Son Denemelerim
+            </p>
             {gecmisler.map((s, i) => (
               <div
                 key={i}
-                className="flex justify-between items-center py-1.5 border-b border-ink-100 last:border-0 text-sm"
+                className="flex justify-between items-center py-1.5 border-b border-ink-100 dark:border-ink-700 last:border-0 text-sm"
               >
-                <span className="text-ink-500">
+                <span className="text-ink-500 dark:text-ink-400">
                   {new Date(s.tarih).toLocaleDateString("tr-TR")}
                 </span>
-                <span className="font-semibold text-ink-700">
+                <span className="font-semibold text-ink-700 dark:text-ink-350">
                   {s.dogruSayisi}/{s.toplamSoru}
                 </span>
                 <span
                   className={clsx(
                     "font-bold",
                     s.skor >= 70
-                      ? "text-green-600"
+                      ? "text-green-600 dark:text-green-400"
                       : s.skor >= 40
-                        ? "text-amber-600"
-                        : "text-red-600"
+                        ? "text-amber-600 dark:text-amber-405"
+                        : "text-red-600 dark:text-red-400"
                   )}
                 >
                   {s.skor}/100
@@ -221,18 +224,19 @@ export default function QuizModu({ konuSlug, konuMeta, sorular = [] }: QuizModuP
     const ilerleme = toplamSoru > 0 ? (soruIndex / toplamSoru) * 100 : 0;
 
     return (
-      <div className="max-w-2xl mx-auto px-4 py-8">
+      <div className="max-w-2xl mx-auto px-4 py-8 text-ink-800 dark:text-ink-200">
         {/* Top Bar */}
         <div className="flex items-center justify-between mb-4">
-          <span className="text-sm font-semibold text-ink-500">
-            Soru <span className="text-ink-900">{soruIndex + 1}</span> / {toplamSoru}
+          <span className="text-sm font-semibold text-ink-500 dark:text-ink-400">
+            Soru <span className="text-ink-900 dark:text-white">{soruIndex + 1}</span> /{" "}
+            {toplamSoru}
           </span>
-          <span className="text-sm font-mono font-semibold text-ink-600 bg-ink-50 px-3 py-1 rounded-lg">
+          <span className="text-sm font-mono font-semibold text-ink-600 dark:text-ink-300 bg-ink-50 dark:bg-ink-800 px-3 py-1 rounded-lg">
             ⏱ {sureFmt(gecenSure)}
           </span>
           <span
             className={clsx(
-              "text-xs font-bold px-2.5 py-1 rounded-full border",
+              "text-xs font-bold px-2.5 py-1 rounded-full border uppercase font-mono",
               zorluKRenk[mevcutSoru.zorluk]
             )}
           >
@@ -241,7 +245,7 @@ export default function QuizModu({ konuSlug, konuMeta, sorular = [] }: QuizModuP
         </div>
 
         {/* Progress Bar */}
-        <div className="w-full bg-ink-100 rounded-full h-2 mb-8 overflow-hidden">
+        <div className="w-full bg-ink-100 dark:bg-ink-800 rounded-full h-2 mb-8 overflow-hidden">
           <div
             className="h-full bg-gradient-to-r from-focus-400 to-focus-500 rounded-full transition-all duration-500"
             style={{ width: `${ilerleme}%` }}
@@ -249,10 +253,12 @@ export default function QuizModu({ konuSlug, konuMeta, sorular = [] }: QuizModuP
         </div>
 
         {/* Question */}
-        <div className="bg-white rounded-2xl border border-ink-100 shadow-card p-6 mb-6">
-          <p className="text-lg font-semibold text-ink-900 leading-relaxed">{mevcutSoru.soru}</p>
+        <div className="bg-white dark:bg-ink-850 rounded-2xl border border-ink-100 dark:border-ink-700/80 shadow-card p-6 mb-6">
+          <p className="text-lg font-semibold text-ink-900 dark:text-white leading-relaxed">
+            {mevcutSoru.soru}
+          </p>
           {mevcutSoru.gorsel && (
-            <div className="mt-4 overflow-hidden rounded-xl border border-ink-100 bg-ink-50/50 flex justify-center p-2">
+            <div className="mt-4 overflow-hidden rounded-xl border border-ink-100 dark:border-ink-700/80 bg-ink-50/50 dark:bg-ink-900/50 flex justify-center p-2">
               <img
                 src={mevcutSoru.gorsel}
                 alt="Soru Harita Görseli"
@@ -268,12 +274,18 @@ export default function QuizModu({ konuSlug, konuMeta, sorular = [] }: QuizModuP
             const isDogru = sik === mevcutSoru.dogru;
             const isSecilen = sik === secilenSik;
             let renk =
-              "bg-white border-ink-200 text-ink-800 hover:border-focus-300 hover:bg-focus-50";
+              "bg-white dark:bg-ink-800 border-ink-200 dark:border-ink-700 text-ink-800 dark:text-ink-200 hover:border-focus-300 dark:hover:border-focus-700 hover:bg-focus-50 dark:hover:bg-focus-950/20";
 
             if (cevapDurumu !== "bekleniyor") {
-              if (isDogru) renk = "bg-emerald-50 border-emerald-400 text-emerald-800";
-              else if (isSecilen && !isDogru) renk = "bg-rose-50 border-rose-400 text-rose-800";
-              else renk = "bg-white border-ink-100 text-ink-400";
+              if (isDogru)
+                renk =
+                  "bg-emerald-50 dark:bg-emerald-950/20 border-emerald-400 dark:border-emerald-700/80 text-emerald-800 dark:text-emerald-300";
+              else if (isSecilen && !isDogru)
+                renk =
+                  "bg-rose-50 dark:bg-rose-950/20 border-rose-400 dark:border-rose-700/80 text-rose-800 dark:text-rose-300";
+              else
+                renk =
+                  "bg-white dark:bg-ink-800 border-ink-100 dark:border-ink-850 text-ink-400 dark:text-ink-600";
             }
 
             return (
@@ -304,8 +316,8 @@ export default function QuizModu({ konuSlug, konuMeta, sorular = [] }: QuizModuP
             className={clsx(
               "rounded-xl p-4 border-l-4 mb-6 animate-fade-in",
               cevapDurumu === "dogru"
-                ? "bg-emerald-50 border-emerald-500 text-emerald-800"
-                : "bg-rose-50 border-rose-500 text-rose-800"
+                ? "bg-emerald-50 dark:bg-emerald-950/20 border-emerald-500 text-emerald-800 dark:text-emerald-300"
+                : "bg-rose-50 dark:bg-rose-950/20 border-rose-500 text-rose-800 dark:text-rose-300"
             )}
           >
             <p className="font-bold text-sm mb-1">
@@ -348,13 +360,13 @@ export default function QuizModu({ konuSlug, konuMeta, sorular = [] }: QuizModuP
           : "💪 Hayal kırıklığına uğrama, tekrar dene!";
 
   return (
-    <div className="max-w-xl mx-auto text-center py-10 px-4">
+    <div className="max-w-xl mx-auto text-center py-10 px-4 text-ink-800 dark:text-ink-200">
       <div className="text-6xl mb-4">{finalSkor >= 70 ? "🏆" : "📊"}</div>
-      <h2 className="text-3xl font-bold text-ink-900 mb-1">Quiz Bitti!</h2>
-      <p className="text-ink-500 mb-6">{konuMeta.baslik}</p>
+      <h2 className="text-3xl font-bold text-ink-900 dark:text-white mb-1">Quiz Bitti!</h2>
+      <p className="text-ink-500 dark:text-ink-450 mb-6">{konuMeta.baslik}</p>
 
       {/* Score Card */}
-      <div className="bg-white rounded-2xl border border-ink-100 shadow-card p-8 mb-6">
+      <div className="bg-white dark:bg-ink-850 rounded-2xl border border-ink-100 dark:border-ink-700/80 shadow-card p-8 mb-6">
         <p
           className={clsx(
             "text-7xl font-black mb-2",
@@ -365,27 +377,33 @@ export default function QuizModu({ konuSlug, konuMeta, sorular = [] }: QuizModuP
         >
           {finalSkor}
         </p>
-        <p className="text-ink-400 text-sm mb-4">/ 100 puan</p>
+        <p className="text-ink-400 dark:text-ink-550 text-sm mb-4">/ 100 puan</p>
         <div className="grid grid-cols-3 gap-4 text-sm">
-          <div className="bg-emerald-50 rounded-xl p-3 border border-emerald-100">
-            <p className="text-2xl font-bold text-emerald-600">{sonFinalDogru}</p>
-            <p className="text-emerald-700 text-xs">Doğru</p>
+          <div className="bg-emerald-50 dark:bg-emerald-950/20 rounded-xl p-3 border border-emerald-100 dark:border-emerald-850/30">
+            <p className="text-2xl font-bold text-emerald-600 dark:text-emerald-450">
+              {sonFinalDogru}
+            </p>
+            <p className="text-emerald-700 dark:text-emerald-400 text-xs">Doğru</p>
           </div>
-          <div className="bg-rose-50 rounded-xl p-3 border border-rose-100">
-            <p className="text-2xl font-bold text-rose-600">{toplamSoru - sonFinalDogru}</p>
-            <p className="text-rose-700 text-xs">Yanlış</p>
+          <div className="bg-rose-50 dark:bg-rose-950/20 rounded-xl p-3 border border-rose-100 dark:border-rose-850/30">
+            <p className="text-2xl font-bold text-rose-600 dark:text-rose-450">
+              {toplamSoru - sonFinalDogru}
+            </p>
+            <p className="text-rose-700 dark:text-rose-400 text-xs">Yanlış</p>
           </div>
-          <div className="bg-focus-50 rounded-xl p-3 border border-focus-100">
-            <p className="text-2xl font-bold text-focus-600">{sureFmt(sonSureSn)}</p>
-            <p className="text-focus-700 text-xs">Süre</p>
+          <div className="bg-focus-50 dark:bg-focus-950/20 rounded-xl p-3 border border-focus-100 dark:border-focus-850/30">
+            <p className="text-2xl font-bold text-focus-600 dark:text-focus-400">
+              {sureFmt(sonSureSn)}
+            </p>
+            <p className="text-focus-700 dark:text-focus-400 text-xs">Süre</p>
           </div>
         </div>
       </div>
 
-      <p className="text-ink-600 mb-6 text-lg">{sonucMesaj}</p>
+      <p className="text-ink-600 dark:text-ink-350 mb-6 text-lg">{sonucMesaj}</p>
 
       {enYuksekSkor !== null && (
-        <p className="text-sm text-glow-700 font-semibold mb-4 shadow-glow inline-block px-3 py-1 rounded-lg bg-glow-50 border border-glow-200">
+        <p className="text-sm text-glow-700 dark:text-glow-400 font-semibold mb-4 shadow-glow inline-block px-3 py-1 rounded-lg bg-glow-50 dark:bg-glow-950/20 border border-glow-200 dark:border-glow-800/80">
           🏅 En yüksek skorum: {enYuksekSkor}/100
         </p>
       )}
@@ -399,7 +417,7 @@ export default function QuizModu({ konuSlug, konuMeta, sorular = [] }: QuizModuP
         </button>
         <a
           href={`/konu/${konuSlug}`}
-          className="flex-1 bg-ink-50 hover:bg-ink-100 text-ink-800 font-bold py-3.5 rounded-xl transition-colors border border-ink-100"
+          className="flex-1 bg-ink-50 dark:bg-ink-800 hover:bg-ink-100 dark:hover:bg-ink-700 text-ink-800 dark:text-ink-200 font-bold py-3.5 rounded-xl transition-colors border border-ink-100 dark:border-ink-700"
         >
           📖 Konuya Git
         </a>
@@ -407,20 +425,22 @@ export default function QuizModu({ konuSlug, konuMeta, sorular = [] }: QuizModuP
 
       {/* Past Results */}
       {sonSonuclar.filter((s) => s.konuSlug === konuSlug).length > 1 && (
-        <div className="mt-8 text-left bg-paper-100 rounded-xl p-4 border border-ink-100">
-          <p className="text-xs font-bold uppercase text-ink-400 mb-3">Geçmiş Denemelerim</p>
+        <div className="mt-8 text-left bg-paper-100 dark:bg-ink-850 rounded-xl p-4 border border-ink-100 dark:border-ink-700">
+          <p className="text-xs font-bold uppercase text-ink-400 dark:text-ink-500 mb-3">
+            Geçmiş Denemelerim
+          </p>
           {sonSonuclar
             .filter((s) => s.konuSlug === konuSlug)
             .slice(0, 5)
             .map((s, i) => (
               <div
                 key={i}
-                className="flex justify-between items-center py-1.5 border-b border-ink-100 last:border-0 text-sm"
+                className="flex justify-between items-center py-1.5 border-b border-ink-100 dark:border-ink-700 last:border-0 text-sm"
               >
-                <span className="text-ink-500">
+                <span className="text-ink-500 dark:text-ink-400">
                   {new Date(s.tarih).toLocaleDateString("tr-TR")}
                 </span>
-                <span className="text-ink-600">
+                <span className="text-ink-600 dark:text-ink-300">
                   {s.dogruSayisi}/{s.toplamSoru}
                 </span>
                 <span

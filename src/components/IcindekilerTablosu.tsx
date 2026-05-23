@@ -39,10 +39,8 @@ export default function IcindekilerTablosu({ items }: IcindekilerTablosuProps) {
 
   return (
     <nav className="hidden xl:block sticky top-24 max-h-[calc(100vh-6rem)] overflow-y-auto w-64 shrink-0">
-      <div className="bg-white border border-gray-200 rounded-xl p-4 shadow-sm">
-        <p className="text-xs font-bold uppercase tracking-widest text-gray-400 mb-3">
-          İçindekiler
-        </p>
+      <div className="bg-white dark:bg-ink-800 border border-ink-150 dark:border-ink-700 rounded-xl p-4 shadow-sm">
+        <p className="text-xs font-bold uppercase tracking-widest text-ink-400 mb-3">İçindekiler</p>
         <ul className="space-y-1">
           {items.map((item) => (
             <li key={item.id}>
@@ -50,10 +48,12 @@ export default function IcindekilerTablosu({ items }: IcindekilerTablosuProps) {
                 href={`#${item.id}`}
                 className={clsx(
                   "block text-sm py-1 rounded transition-colors leading-snug",
-                  item.level === 3 ? "pl-4 text-gray-500" : "pl-2 font-medium",
+                  item.level === 3
+                    ? "pl-4 text-ink-500"
+                    : "pl-2 font-medium text-ink-750 dark:text-ink-200",
                   activeId === item.id
-                    ? "text-blue-600 bg-blue-50 font-semibold"
-                    : "text-gray-600 hover:text-gray-900"
+                    ? "text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-950/20 font-semibold"
+                    : "text-ink-500 dark:text-ink-450 hover:text-ink-800 dark:hover:text-ink-100"
                 )}
                 onClick={(e) => {
                   e.preventDefault();

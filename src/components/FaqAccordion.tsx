@@ -26,8 +26,8 @@ export default function FaqAccordion({ faqs }: FaqAccordionProps) {
             key={`${keyStr}-${idx}`}
             className={`border rounded-xl transition-all duration-200 ${
               isOpen
-                ? "border-blue-500 bg-blue-50/30"
-                : "border-gray-200 bg-white hover:border-gray-300"
+                ? "border-blue-500 bg-blue-50/30 dark:bg-blue-950/20"
+                : "border-ink-200 dark:border-ink-700 bg-white dark:bg-ink-800 hover:border-ink-350 dark:hover:border-ink-650"
             }`}
           >
             <button
@@ -37,10 +37,13 @@ export default function FaqAccordion({ faqs }: FaqAccordionProps) {
               onClick={() => toggle(idx)}
               className="w-full text-left px-5 py-4 flex items-center justify-between gap-4"
             >
-              <span className="font-bold text-gray-800 text-sm md:text-base flex-1">{faq.q}</span>
+              <span className="font-bold text-ink-800 dark:text-ink-100 text-sm md:text-base flex-1">
+                {faq.q}
+              </span>
               <span
                 aria-hidden="true"
-                className={`text-blue-500 transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`}
+                className="text-blue-500 dark:text-blue-400 transition-transform duration-200"
+                style={{ transform: isOpen ? "rotate(180deg)" : "rotate(0deg)" }}
               >
                 ▼
               </span>
@@ -53,8 +56,10 @@ export default function FaqAccordion({ faqs }: FaqAccordionProps) {
                 aria-labelledby={headerId}
                 className="px-5 pb-5 animate-in fade-in slide-in-from-top-2 duration-200"
               >
-                <div className="h-px bg-gray-100 mb-4" />
-                <p className="text-gray-700 leading-relaxed text-sm md:text-base">{faq.a}</p>
+                <div className="h-px bg-ink-100 dark:bg-ink-700 mb-4" />
+                <p className="text-ink-750 dark:text-ink-350 leading-relaxed text-sm md:text-base">
+                  {faq.a}
+                </p>
               </div>
             )}
           </div>

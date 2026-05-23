@@ -19,8 +19,8 @@ export default function GorselHafizaKarti({ konu }: GorselHafizaKartiProps) {
         onClick={() => setIsOpen(true)}
       >
         <div className="absolute inset-0 bg-blue-500 rounded-3xl blur-2xl opacity-10 group-hover:opacity-20 transition-opacity"></div>
-        <div className="relative bg-white p-4 rounded-3xl border border-gray-100 shadow-xl transform group-hover:-rotate-1 group-hover:scale-[1.02] transition-all duration-500">
-          <div className="relative aspect-square w-full rounded-2xl overflow-hidden bg-gray-50 border border-gray-100">
+        <div className="relative bg-white dark:bg-ink-800 p-4 rounded-3xl border border-ink-100 dark:border-ink-700 shadow-xl transform group-hover:-rotate-1 group-hover:scale-[1.02] transition-all duration-500">
+          <div className="relative aspect-square w-full rounded-2xl overflow-hidden bg-ink-50 dark:bg-ink-900 border border-ink-100/60 dark:border-ink-700/60">
             <Image
               src={imageUrl}
               alt={`${konu.baslik} Görsel Hafıza Kartı`}
@@ -34,15 +34,17 @@ export default function GorselHafizaKarti({ konu }: GorselHafizaKartiProps) {
               }}
             />
             {/* Fallback Icon (Absolute center, shown if image fails or before it loads) */}
-            <div className="absolute inset-0 flex items-center justify-center -z-10 bg-gray-50">
+            <div className="absolute inset-0 flex items-center justify-center -z-10 bg-ink-50 dark:bg-ink-900">
               <span className="text-7xl animate-pulse">{konu.icon}</span>
             </div>
           </div>
           <div className="mt-4 text-center">
-            <span className="text-xs font-black tracking-widest text-blue-600 uppercase">
+            <span className="text-xs font-black tracking-widest text-blue-600 dark:text-blue-400 uppercase">
               🧠 Görsel Hafıza Kartı
             </span>
-            <h3 className="text-sm font-bold text-gray-800 mt-1">Büyütmek için Tıkla</h3>
+            <h3 className="text-sm font-bold text-ink-800 dark:text-ink-200 mt-1">
+              Büyütmek için Tıkla
+            </h3>
           </div>
         </div>
       </div>
