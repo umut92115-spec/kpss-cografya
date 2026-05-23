@@ -6,6 +6,7 @@ export interface QuizSoru {
   aciklama: string;
   harita_il: string | null;
   zorluk: "kolay" | "orta" | "zor";
+  gorsel?: string | null;
 }
 
 export interface QuizData {

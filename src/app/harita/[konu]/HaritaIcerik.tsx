@@ -9,9 +9,9 @@ import IlPaneli from "@/components/IlPaneli";
 const HaritaGoruntule = dynamic(() => import("@/components/HaritaGoruntule"), {
   ssr: false,
   loading: () => (
-    <div className="w-full h-full min-h-[500px] md:min-h-[600px] bg-slate-50 animate-pulse rounded-2xl flex flex-col items-center justify-center border border-slate-200 shadow-inner">
-      <div className="w-12 h-12 border-4 border-blue-500 border-t-transparent rounded-full animate-spin mb-4"></div>
-      <span className="text-slate-500 font-bold tracking-tight">Harita Modülü Hazırlanıyor...</span>
+    <div className="w-full h-full min-h-[500px] md:min-h-[600px] bg-ink-800/50 animate-pulse rounded-2xl flex flex-col items-center justify-center border border-ink-700">
+      <div className="w-10 h-10 border-3 border-focus-400 border-t-transparent rounded-full animate-spin mb-3"></div>
+      <span className="text-ink-400 text-sm font-medium">Harita yükleniyor...</span>
     </div>
   ),
 });
@@ -38,38 +38,36 @@ export default function HaritaIcerik({
   const ilKonuVerisi = secilenIlSlug && matrisData ? matrisData[secilenIlSlug] || null : null;
 
   return (
-    <div className="flex flex-col space-y-8 animate-fade-in">
-      {/* Konu Seçici Tablar */}
-      <div className="relative">
-        <div className="flex flex-wrap gap-2.5 pb-2">
-          {tumKonular.map((k) => {
-            const isActive = k.slug === konuMeta.slug;
-            return (
-              <button
-                key={k.slug}
-                onClick={() => router.push(`/harita/${k.slug}`)}
-                className={`group flex items-center gap-2.5 px-5 py-2.5 rounded-xl text-sm font-bold transition-all duration-300 transform active:scale-95 ${
-                  isActive
-                    ? "bg-blue-600 text-white shadow-lg shadow-blue-200 -translate-y-0.5"
-                    : "bg-white text-gray-600 hover:bg-gray-50 border border-gray-200 hover:border-gray-300"
-                }`}
-              >
-                <span
-                  className={`text-lg transition-transform group-hover:scale-125 ${isActive ? "scale-110" : ""}`}
+    <div className="flex flex-col h-[calc(100vh-4rem)] animate-fade-in">
+      {/* Konu Seçici — Üst Bar */}
+      <div className="bg-ink-900 border-b border-ink-700/50 px-4 py-3">
+        <div className="max-w-7xl mx-auto">
+          <div className="flex items-center gap-2 overflow-x-auto pb-1 scrollbar-hide">
+            {tumKonular.map((k) => {
+              const isActive = k.slug === konuMeta.slug;
+              return (
+                <button
+                  key={k.slug}
+                  onClick={() => router.push(`/harita/${k.slug}`)}
+                  className={`flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-semibold whitespace-nowrap transition-all ${
+                    isActive
+                      ? "bg-focus-600 text-white shadow-lg shadow-focus-600/20"
+                      : "bg-ink-800 text-ink-300 hover:bg-ink-700 hover:text-ink-100 border border-ink-700"
+                  }`}
                 >
-                  {k.icon}
-                </span>
-                <span>{k.kisa_baslik}</span>
-              </button>
-            );
-          })}
+                  <span className="text-base">{k.icon}</span>
+                  <span>{k.kisa_baslik}</span>
+                </button>
+              );
+            })}
+          </div>
         </div>
-        <div className="h-px w-full bg-gradient-to-r from-gray-200 via-gray-100 to-transparent mt-4"></div>
       </div>
 
-      <div className="flex flex-col lg:flex-row gap-8">
-        {/* Sol Harita Alanı (60%) */}
-        <div className="w-full lg:w-3/5 h-[500px] md:h-[650px] relative">
+      {/* Harita + Panel */}
+      <div className="flex-1 flex flex-col lg:flex-row min-h-0">
+        {/* Harita Alanı */}
+        <div className="flex-1 relative min-h-[400px] lg:min-h-0">
           <HaritaGoruntule
             konuSlug={konuMeta.slug}
             secilenIl={secilenIlSlug}
@@ -79,8 +77,8 @@ export default function HaritaIcerik({
           />
         </div>
 
-        {/* Sağ Panel Alanı (40%) */}
-        <div className="w-full lg:w-2/5 h-auto lg:h-[650px]">
+        {/* Sağ Panel */}
+        <div className="w-full lg:w-[380px] lg:border-l border-t lg:border-t-0 border-ink-700/50 bg-ink-900 overflow-y-auto">
           <IlPaneli il={secilenIlData} konuData={ilKonuVerisi} />
         </div>
       </div>

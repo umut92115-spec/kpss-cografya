@@ -9,9 +9,7 @@ import IlgiliBaglantilar from "@/components/IlgiliBaglantilar";
 import FaqAccordion from "@/components/FaqAccordion";
 import { getIlJsonLd } from "@/lib/geoMeta";
 import MiniIlHaritasi from "@/components/MiniIlHaritasi";
-import { MapPin, Info, BookOpen, Layers, Star } from "lucide-react";
 
-// ─── Statik Param Üretimi ──────────────────────────────────────────────────
 export async function generateStaticParams() {
   const iller = getAllIller();
   return iller.map((il) => ({
@@ -78,7 +76,6 @@ export default function IlPage({ params }: { params: { bolge: string; slug: stri
     tumKonularFiltreli.map((konu) => [konu.slug, getIlKonuData(il.slug, konu.slug)])
   );
 
-  // GÖREV 2 ✅ — İl FAQPage: faq-konular.json'dan konu başına 2 soru → toplam ~10 soru/il
   const ilFaqs = tumKonularFiltreli
     .flatMap((k) => getKonuFaq(k.slug).slice(0, 2))
     .filter((f) => f?.q && f?.a)
@@ -88,7 +85,7 @@ export default function IlPage({ params }: { params: { bolge: string; slug: stri
   const alanFormatli = new Intl.NumberFormat("tr-TR").format(il.yuzolcumu_km2);
 
   return (
-    <div className="bg-gray-50 min-h-screen pb-20">
+    <div className="min-h-screen bg-[var(--background)]">
       <JsonLd tip="AdministrativeArea" veri={getIlJsonLd(il)} />
       <JsonLd
         tip="BreadcrumbList"
@@ -115,7 +112,6 @@ export default function IlPage({ params }: { params: { bolge: string; slug: stri
           ],
         }}
       />
-      {/* GÖREV 2 ✅ — İl FAQPage JSON-LD (81 il × 10 soru = 810 FAQ görünür) */}
       {ilFaqs.length > 0 && (
         <JsonLd
           tip="FAQPage"
@@ -144,211 +140,127 @@ export default function IlPage({ params }: { params: { bolge: string; slug: stri
         }}
       />
 
-      <div className="max-w-7xl mx-auto px-4 py-8">
-        {/* Wiki Breadcrumb */}
-        <nav className="mb-6 text-xs text-gray-500 border-b border-gray-200 pb-4 flex items-center gap-2">
-          <Link href="/" className="hover:underline">
+      <div className="max-w-6xl mx-auto px-4 py-10">
+        {/* Breadcrumb */}
+        <nav className="mb-6 text-xs text-ink-400 flex items-center gap-1.5">
+          <Link href="/" className="hover:text-focus-600 transition-colors">
             Ana Sayfa
           </Link>
-          <span>/</span>
-          <Link href={`/${params.bolge}`} className="hover:underline">
+          <span className="text-ink-300">/</span>
+          <Link href={`/${params.bolge}`} className="hover:text-focus-600 transition-colors">
             {il.bolge}
           </Link>
-          <span>/</span>
-          <span className="text-gray-900 font-bold">{il.ad}</span>
+          <span className="text-ink-300">/</span>
+          <span className="text-ink-700 font-semibold">{il.ad}</span>
         </nav>
 
-        <div className="grid grid-cols-1 gap-12">
-          {/* Main Wiki Content */}
-          <main className="space-y-12">
-            <div className="bg-white rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-gray-100 p-8 md:p-12 overflow-hidden relative">
-              {/* Dekoratif Arka Plan */}
-              <div className="absolute top-0 right-0 w-64 h-64 bg-blue-50/50 rounded-full blur-3xl -mr-32 -mt-32 pointer-events-none"></div>
-
-              <div className="relative z-10">
-                <div className="flex items-center gap-3 mb-4">
-                  <span className="px-3 py-1 bg-blue-100 text-blue-700 text-[10px] font-black uppercase tracking-widest rounded-full">
-                    {il.bolge} BÖLGESİ
-                  </span>
-                  <div className="h-px flex-1 bg-gray-100"></div>
-                </div>
-
-                <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 tracking-tight">
-                  {il.ad}
-                </h1>
-
-                {/* Wiki Abstract */}
-                <p className="text-lg text-gray-600 leading-relaxed mb-10 max-w-3xl">
-                  {il.ad}, Türkiye&apos;nin <strong>{il.bolge}</strong> Bölgesi&apos;nde yer alan,
-                  nüfusu <strong>{nufusFormatli}</strong> ve yüzölçümü{" "}
-                  <strong>{alanFormatli} km²</strong> olan stratejik bir şehrimizdir.
-                </p>
-
-                {/* Table of Contents - Modernized */}
-                <div className="inline-block bg-slate-50/80 backdrop-blur-sm rounded-2xl p-6 mb-12 border border-slate-100">
-                  <div className="flex items-center gap-2 mb-4">
-                    <Layers className="w-4 h-4 text-blue-500" />
-                    <h2 className="text-xs font-black uppercase tracking-widest text-slate-500">
-                      İçindekiler
-                    </h2>
-                  </div>
-                  <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-2 text-sm">
-                    <li>
-                      <a
-                        href="#ozellikler"
-                        className="flex items-center gap-2 text-slate-600 hover:text-blue-600 transition-colors"
-                      >
-                        <span className="w-4 h-4 flex items-center justify-center bg-white rounded-md border border-slate-200 text-[10px] font-bold">
-                          1
-                        </span>{" "}
-                        Akademik Kimlik Kartı
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#matris"
-                        className="flex items-center gap-2 text-slate-600 hover:text-blue-600 transition-colors"
-                      >
-                        <span className="w-4 h-4 flex items-center justify-center bg-white rounded-md border border-slate-200 text-[10px] font-bold">
-                          2
-                        </span>{" "}
-                        Coğrafi Konu Matrisi
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#bolgesel"
-                        className="flex items-center gap-2 text-slate-600 hover:text-blue-600 transition-colors"
-                      >
-                        <span className="w-4 h-4 flex items-center justify-center bg-white rounded-md border border-slate-200 text-[10px] font-bold">
-                          3
-                        </span>{" "}
-                        Bölgesel Yakınlık
-                      </a>
-                    </li>
-                    {ilFaqs.length > 0 && (
-                      <li>
-                        <a
-                          href="#sss"
-                          className="flex items-center gap-2 text-slate-600 hover:text-blue-600 transition-colors"
-                        >
-                          <span className="w-4 h-4 flex items-center justify-center bg-white rounded-md border border-slate-200 text-[10px] font-bold">
-                            4
-                          </span>{" "}
-                          Sıkça Sorulan Sorular
-                        </a>
-                      </li>
-                    )}
-                  </ul>
-                </div>
+        {/* Hero */}
+        <div className="bg-white dark:bg-ink-800 rounded-2xl border border-ink-100 dark:border-ink-700 shadow-card p-6 md:p-10 mb-8">
+          <div className="flex flex-col lg:flex-row gap-8">
+            {/* Sol: Bilgi */}
+            <div className="flex-1">
+              <div className="flex items-center gap-3 mb-4">
+                <span className="px-2.5 py-1 bg-focus-50 text-focus-700 text-[10px] font-bold uppercase tracking-widest rounded-full border border-focus-100">
+                  {il.bolge}
+                </span>
+                <span className="text-ink-300 text-xs">Plaka: {il.plaka}</span>
               </div>
 
-              {/* Section 1: Ozet & Harita */}
-              <section id="ozellikler" className="scroll-mt-20 mb-16">
-                <div className="flex items-center gap-3 mb-6">
-                  <div className="w-10 h-10 rounded-xl bg-blue-600 flex items-center justify-center shadow-lg shadow-blue-100">
-                    <Info className="w-5 h-5 text-white" />
-                  </div>
-                  <h2 className="text-2xl font-bold text-gray-900">
-                    Akademik Kimlik Kartı ve Konum
-                  </h2>
-                </div>
+              <h1 className="text-3xl md:text-4xl font-bold text-ink-900 dark:text-white mb-4 tracking-tight">
+                {il.ad}
+              </h1>
 
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-stretch">
-                  {/* Sol Taraf: Kimlik Kartı Maddeleri - Premium Cards */}
-                  <div className="flex flex-col gap-4">
-                    {ilOzet?.map((not, idx) => (
-                      <div
-                        key={idx}
-                        className="group bg-white p-5 rounded-2xl border border-gray-100 shadow-sm hover:shadow-md hover:border-blue-100 transition-all duration-300 flex items-start gap-4"
-                      >
-                        <div className="w-8 h-8 shrink-0 rounded-lg bg-slate-50 group-hover:bg-blue-50 flex items-center justify-center transition-colors">
-                          <Star className="w-4 h-4 text-slate-300 group-hover:text-blue-500 transition-colors" />
-                        </div>
-                        <p className="text-sm leading-relaxed text-gray-600 group-hover:text-gray-900 transition-colors">
-                          {not}
-                        </p>
-                      </div>
-                    ))}
-                  </div>
+              <p className="text-ink-500 leading-relaxed mb-6">
+                {il.ad}, Türkiye&apos;nin <strong className="text-ink-700">{il.bolge}</strong>{" "}
+                Bölgesi&apos;nde yer alan, nüfusu{" "}
+                <strong className="text-ink-700">{nufusFormatli}</strong> ve yüzölçümü{" "}
+                <strong className="text-ink-700">{alanFormatli} km²</strong> olan şehrimizdir.
+              </p>
 
-                  {/* Sağ Taraf: Vektörel Siyasi Harita - Glassmorphism Container */}
-                  <div className="bg-slate-50 rounded-3xl border border-slate-200/60 p-1 shadow-inner relative overflow-hidden flex items-center justify-center">
-                    <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(59,130,246,0.03)_0%,transparent_100%)]"></div>
-                    <div className="w-full h-full min-h-[400px] relative z-10">
-                      <MiniIlHaritasi
-                        secilenIlSlug={il.slug}
-                        bolgeIlleri={getAllIller()
-                          .filter((i) => i.bolge_slug === il.bolge_slug)
-                          .map((i) => i.slug)}
-                        ilAdi={il.ad}
-                        bolgeAdi={il.bolge}
-                      />
+              {/* Özet Maddeleri */}
+              {ilOzet && ilOzet.length > 0 && (
+                <div className="space-y-2.5">
+                  {ilOzet.map((not, idx) => (
+                    <div
+                      key={idx}
+                      className="flex items-start gap-3 p-3 rounded-xl bg-ink-50 dark:bg-ink-700/50 border border-ink-100 dark:border-ink-700"
+                    >
+                      <span className="w-5 h-5 shrink-0 rounded-md bg-focus-100 flex items-center justify-center text-[10px] font-bold text-focus-700 mt-0.5">
+                        {idx + 1}
+                      </span>
+                      <p className="text-sm text-ink-600 leading-relaxed">{not}</p>
                     </div>
-                  </div>
+                  ))}
                 </div>
-              </section>
-
-              {/* Section 2: Konu Matrisi (Tabs) */}
-              <section id="matris" className="scroll-mt-20 mb-16">
-                <div className="flex items-center gap-3 mb-6">
-                  <div className="w-10 h-10 rounded-xl bg-indigo-600 flex items-center justify-center shadow-lg shadow-indigo-100">
-                    <BookOpen className="w-5 h-5 text-white" />
-                  </div>
-                  <h2 className="text-2xl font-bold text-gray-900">Coğrafi Konu Matrisi</h2>
-                </div>
-                <div className="mt-4">
-                  <IlTablar
-                    params_slug={params.slug}
-                    bolge_slug={params.bolge}
-                    tumKonular={tumKonularFiltreli}
-                    konuVerileri={konuVerileri}
-                  />
-                </div>
-              </section>
-
-              {/* Section 3: Regional Connections */}
-              <section id="bolgesel" className="scroll-mt-20 mb-16">
-                <div className="flex items-center gap-3 mb-6">
-                  <div className="w-10 h-10 rounded-xl bg-emerald-600 flex items-center justify-center shadow-lg shadow-emerald-100">
-                    <MapPin className="w-5 h-5 text-white" />
-                  </div>
-                  <h2 className="text-2xl font-bold text-gray-900">Bölgesel Yakınlık</h2>
-                </div>
-                <div className="flex flex-wrap gap-3">
-                  {getAllIller()
-                    .filter((i) => i.bolge === il.bolge && i.slug !== il.slug)
-                    .map((komsu) => (
-                      <Link
-                        key={komsu.slug}
-                        href={`/${params.bolge}/il/${komsu.slug}`}
-                        className="text-xs bg-white text-slate-600 hover:bg-emerald-600 hover:text-white px-5 py-3 rounded-xl transition-all duration-300 font-bold border border-slate-100 shadow-sm hover:shadow-emerald-100"
-                      >
-                        {komsu.ad}
-                      </Link>
-                    ))}
-                </div>
-              </section>
-
-              {/* Section 4: SSS */}
-              {ilFaqs.length > 0 && (
-                <section id="sss" className="scroll-mt-20 mb-8">
-                  <h2 className="text-2xl font-bold text-gray-900 mb-6">Sıkça Sorulan Sorular</h2>
-                  <div className="bg-slate-50/50 rounded-3xl p-4 md:p-8 border border-slate-100 mt-4">
-                    <FaqAccordion faqs={ilFaqs} />
-                  </div>
-                </section>
               )}
-
-              <div className="mt-12 pt-6 border-t border-gray-100 flex items-center justify-center gap-4 text-xs text-gray-500">
-                <span>Yayın Tarihi: 15 Mayıs 2026</span>
-                <span>Son Güncelleme: 17 Mayıs 2026</span>
-              </div>
             </div>
 
-            <IlgiliBaglantilar tip="il" slug={il.slug} />
-          </main>
+            {/* Sağ: Mini Harita */}
+            <div className="w-full lg:w-[360px] shrink-0">
+              <div className="bg-ink-50 rounded-xl border border-ink-100 overflow-hidden h-[320px] lg:h-full min-h-[320px]">
+                <MiniIlHaritasi
+                  secilenIlSlug={il.slug}
+                  bolgeIlleri={getAllIller()
+                    .filter((i) => i.bolge_slug === il.bolge_slug)
+                    .map((i) => i.slug)}
+                  ilAdi={il.ad}
+                  bolgeAdi={il.bolge}
+                />
+              </div>
+            </div>
+          </div>
         </div>
+
+        {/* Konu Matrisi */}
+        <section id="matris" className="mb-8">
+          <div className="bg-white dark:bg-ink-800 rounded-2xl border border-ink-100 dark:border-ink-700 shadow-card p-6 md:p-8">
+            <h2 className="text-xl font-bold text-ink-900 dark:text-white mb-5">
+              Coğrafi Konu Matrisi
+            </h2>
+            <IlTablar
+              params_slug={params.slug}
+              bolge_slug={params.bolge}
+              tumKonular={tumKonularFiltreli}
+              konuVerileri={konuVerileri}
+            />
+          </div>
+        </section>
+
+        {/* Bölgesel Yakınlık */}
+        <section id="bolgesel" className="mb-8">
+          <div className="bg-white dark:bg-ink-800 rounded-2xl border border-ink-100 dark:border-ink-700 shadow-card p-6 md:p-8">
+            <h2 className="text-xl font-bold text-ink-900 dark:text-white mb-4">
+              Aynı Bölgedeki İller
+            </h2>
+            <div className="flex flex-wrap gap-2">
+              {getAllIller()
+                .filter((i) => i.bolge === il.bolge && i.slug !== il.slug)
+                .map((komsu) => (
+                  <Link
+                    key={komsu.slug}
+                    href={`/${params.bolge}/il/${komsu.slug}`}
+                    className="text-sm bg-ink-50 dark:bg-ink-700 text-ink-600 dark:text-ink-300 hover:bg-focus-50 dark:hover:bg-focus-900/20 hover:text-focus-700 dark:hover:text-focus-400 px-4 py-2 rounded-lg transition-colors font-medium border border-ink-100 dark:border-ink-600 hover:border-focus-200 dark:hover:border-focus-700"
+                  >
+                    {komsu.ad}
+                  </Link>
+                ))}
+            </div>
+          </div>
+        </section>
+
+        {/* SSS */}
+        {ilFaqs.length > 0 && (
+          <section id="sss" className="mb-8">
+            <div className="bg-white dark:bg-ink-800 rounded-2xl border border-ink-100 dark:border-ink-700 shadow-card p-6 md:p-8">
+              <h2 className="text-xl font-bold text-ink-900 dark:text-white mb-5">
+                Sık Sorulan Sorular
+              </h2>
+              <FaqAccordion faqs={ilFaqs} />
+            </div>
+          </section>
+        )}
+
+        <IlgiliBaglantilar tip="il" slug={il.slug} />
       </div>
     </div>
   );

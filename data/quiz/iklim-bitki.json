@@ -1,15 +1,4 @@
-[
-  {
-    "question": "Türkiye'de etkili olan fön rüzgarlarının coğrafi sonuçlarından biri aşağıdaki seçeneklerden hangisinde doğru olarak verilmiştir?",
-    "options": [
-      "Rize'de turunçgil tarımının yapılabilmesini sağlaması",
-      "İç Anadolu'da yaz kuraklığının şiddetini artırması",
-      "Kuzey Anadolu Dağları'nda kar yağışlarını artırması",
-      "Ege kıyılarında denizel iklimin iç kesimlere yayılmasını kolaylaştırması"
-    ],
-    "correct_index": 0,
-    "explanation": "Metinde 'Fön rüzgarı' başlığı altında belirtildiği üzere, dağdan aşağı hızla inen kuru ve sıcak Fön rüzgarları, Rize'de turunçgil yetişmesi gibi mikroklima alanları oluşturur. Normalde Akdeniz iklimi isteyen turunçgilin Karadeniz'de yetişmesi, fön rüzgarlarının yarattığı sıcak bölgeciklerin bir sonucudur.",
-    "suggested_image": "/images/konu/fon-ruzgari-diyagram.png",
-    "created_at": "2026-05-04T18:17:26.014Z"
-  }
-]
+{
+  "konu": "iklim-bitki",
+  "sorular": []
+}

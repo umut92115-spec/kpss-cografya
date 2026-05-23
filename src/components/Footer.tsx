@@ -11,36 +11,40 @@ export default function Footer() {
   const konular = getAllKonular();
 
   return (
-    <footer className="bg-surface-950 text-surface-300">
-      <div className="max-w-7xl mx-auto px-6 py-20">
+    <footer className="bg-ink-900 text-ink-300">
+      <div className="max-w-7xl mx-auto px-6 py-16">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
-          {/* ─── Sütun 1: Logo & Açıklama ─── */}
+          {/* Logo & Description */}
           <div className="md:col-span-1">
-            <Link href="/" className="flex items-center gap-2 mb-6 group w-fit">
-              <div className="w-8 h-8 bg-brand-600 rounded-lg flex items-center justify-center text-white text-lg shadow-lg shadow-brand-500/20">
-                🗺️
+            <Link href="/" className="flex items-center gap-2 mb-5 group w-fit">
+              <div className="w-9 h-9 bg-gradient-to-br from-focus-500 to-focus-600 rounded-lg flex items-center justify-center text-white text-sm shadow-md">
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
+                  <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
+                </svg>
               </div>
-              <span className="font-bold text-white text-xl tracking-tight leading-none">
-                kpss<span className="text-brand-500">coğrafya</span>
+              <span className="font-bold text-white text-lg tracking-tight leading-none">
+                KPSS <span className="text-focus-400">Coğrafya</span>
               </span>
             </Link>
-            <p className="text-sm text-surface-400 leading-relaxed mb-6">
+            <p className="text-sm text-ink-400 leading-relaxed mb-5">
               Türkiye&apos;nin en interaktif KPSS Coğrafya hazırlık platformu. 81 ilin tüm
               verilerini harita üzerinde keşfedin.
             </p>
-            <div className="flex gap-4">
-              <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-surface-900 border border-surface-800 text-white hover:bg-brand-600 transition-colors cursor-pointer">
-                📱
-              </span>
-              <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-surface-900 border border-surface-800 text-white hover:bg-brand-600 transition-colors cursor-pointer">
-                📧
-              </span>
-            </div>
           </div>
 
-          {/* ─── Sütun 2: KPSS Konuları ─── */}
+          {/* Topics */}
           <div className="md:col-span-2">
-            <h3 className="text-xs font-bold uppercase tracking-widest text-surface-500 mb-6">
+            <h3 className="text-xs font-bold uppercase tracking-widest text-ink-500 mb-5">
               Müfredat Konuları
             </h3>
             <ul className="grid grid-cols-1 sm:grid-cols-2 gap-y-3 gap-x-6">
@@ -48,9 +52,9 @@ export default function Footer() {
                 <li key={k.slug}>
                   <Link
                     href={`/konu/${k.slug}`}
-                    className="text-sm text-surface-400 hover:text-white transition-colors flex items-center gap-3 group"
+                    className="text-sm text-ink-400 hover:text-focus-300 transition-colors flex items-center gap-3 group"
                   >
-                    <span className="w-6 h-6 flex items-center justify-center bg-surface-900 rounded-md group-hover:bg-brand-600 transition-colors">
+                    <span className="w-6 h-6 flex items-center justify-center bg-ink-800 rounded-md group-hover:bg-focus-600/20 transition-colors text-xs">
                       {k.icon}
                     </span>
                     <span className="group-hover:translate-x-1 transition-transform">
@@ -62,17 +66,17 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* ─── Sütun 3: Hızlı Linkler ─── */}
+          {/* Quick Links */}
           <div>
-            <h3 className="text-xs font-bold uppercase tracking-widest text-surface-500 mb-6">
+            <h3 className="text-xs font-bold uppercase tracking-widest text-ink-500 mb-5">
               Hızlı Erişim
             </h3>
-            <ul className="space-y-4">
+            <ul className="space-y-3">
               {hizliLinkler.map((l) => (
                 <li key={l.href}>
                   <Link
                     href={l.href}
-                    className="text-sm text-surface-400 hover:text-white transition-colors block"
+                    className="text-sm text-ink-400 hover:text-white transition-colors block"
                   >
                     {l.label}
                   </Link>
@@ -81,7 +85,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/harita"
-                  className="text-sm text-brand-500 font-bold hover:text-brand-400 transition-colors block"
+                  className="text-sm text-focus-400 font-bold hover:text-focus-300 transition-colors block"
                 >
                   İnteraktif Harita →
                 </Link>
@@ -89,7 +93,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/quiz"
-                  className="text-sm text-brand-500 font-bold hover:text-brand-400 transition-colors block"
+                  className="text-sm text-focus-400 font-bold hover:text-focus-300 transition-colors block"
                 >
                   Soru Bankası →
                 </Link>
@@ -98,13 +102,13 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* ─── Alt Bar ─── */}
-        <div className="mt-20 pt-8 border-t border-surface-900 flex flex-col md:flex-row justify-between items-center gap-6 text-xs text-surface-500 font-medium">
-          <div className="flex items-center gap-6">
+        {/* Bottom Bar */}
+        <div className="mt-16 pt-8 border-t border-ink-800 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-ink-500">
+          <div className="flex items-center gap-4">
             <span>© 2026 kpsscografya.com.tr</span>
             <span>Tüm hakları saklıdır.</span>
           </div>
-          <div className="flex items-center gap-6">
+          <div className="flex items-center gap-4">
             <Link href="/gizlilik" className="hover:text-white transition-colors">
               Gizlilik
             </Link>

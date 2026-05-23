@@ -1,15 +1,4 @@
-[
-  {
-    "question": "Türkiye'de şeker fabrikalarının genellikle deniz kıyısında kurulmamasının temel nedeni aşağıdakilerden hangisidir?",
-    "options": [
-      "A. Deniz kıyısı iklim koşullarının şeker pancarı üretimi için elverişli olmaması.",
-      "B. Şeker pancarının hasat sonrası kısa sürede işlenmesi gerektiği için taşıma maliyetlerinin yüksek olması.",
-      "C. Kıyı bölgelerindeki tarım arazilerinin ekonomik değeri daha yüksek ürünlerin üretimine ayrılması.",
-      "D. Şeker fabrikaları için gerekli olan su kaynaklarına kıyı bölgelerinde yeterince ulaşılamaması."
-    ],
-    "correct_index": 2,
-    "explanation": "KPSS kritik notlarda belirtildiği üzere, Türkiye'de deniz kıyısında şeker fabrikası bulunmamasının nedeni iklimin uygun olmaması değil, kıyı bölgelerinde pamuk ve turunçgil gibi ekonomik değeri daha yüksek ürünlerin tarımına öncelik verilmesidir. Şeker pancarı, genellikle iç bölgelerde, ekonomik değeri daha düşük olan arazilerde ve su kaynaklarına yakın yerlerde yetiştirilir ve işlenir.",
-    "suggested_image": "sanayi.png",
-    "created_at": "2026-05-05T06:18:21.774Z"
-  }
-]
+{
+  "konu": "sanayi",
+  "sorular": []
+}

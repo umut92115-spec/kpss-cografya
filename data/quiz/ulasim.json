@@ -1,15 +1,4 @@
-[
-  {
-    "question": "Yukarıdaki metinde verilen bilgilere göre, aşağıdaki illerden hangisinde demir yolu ulaşımı bulunmamaktadır?",
-    "options": [
-      "Antalya",
-      "Eskişehir",
-      "Sivas",
-      "Adana"
-    ],
-    "correct_index": 0,
-    "explanation": "Metinde 'Demir Yolu Olmayan Kritik İller' başlığı altında, dağlık yapısı nedeniyle demir yolu ağına sahip olmayan iller arasında Antalya açıkça belirtilmiştir. Eskişehir ve Sivas, Yüksek Hızlı Tren (YHT) merkezleri arasında gösterilerek demir yolu bağlantıları olduğu vurgulanmıştır. Adana ise önemli bir sanayi ve ticaret şehri olup, metinde Gülek Boğazı ile İç Anadolu'ya bağlanan en işlek geçit olarak geçmekte ve demir yolu ağına sahiptir.",
-    "suggested_image": "/images/konu/yht-tren.png",
-    "created_at": "2026-05-05T16:28:25.028Z"
-  }
-]
+{
+  "konu": "ulasim",
+  "sorular": []
+}

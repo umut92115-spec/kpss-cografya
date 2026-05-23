@@ -1,15 +1,4 @@
-[
-  {
-    "question": "Aşağıdaki toprak tiplerinden hangisi, yaygın olarak görüldüğü bölge ve temel özelliği ile yanlış eşleştirilmiştir?",
-    "options": [
-      "A) Vertisol - Trakya - Eski göl tabanlarında killi topraklardır ve ayçiçeği tarımına uygundur.",
-      "B) Terra Rossa - Akdeniz Bölgesi - Akdeniz iklim bölgelerinin karakteristik kırmızı renkli toprağıdır.",
-      "C) Çernezyom - Erzurum-Kars - Dünyanın en verimli yerli toprağı olup, sert iklim nedeniyle büyükbaş hayvancılık için elverişlidir.",
-      "D) Regosol - Karadeniz Bölgesi - Volkanik kumlu topraklar olup, patates tarımı için idealdir."
-    ],
-    "correct_index": 3,
-    "explanation": "Regosoller, metinde belirtildiği üzere volkanik kumlu topraklar olup, Nevşehir ve çevresinde yaygındır. Geçirgen yapısı sayesinde patates tarımı için mükemmeldir. Karadeniz Bölgesi ile ilişkilendirilmesi yanlıştır.",
-    "suggested_image": "/images/konu/toprak-cevre.png",
-    "created_at": "2026-05-04T20:37:15.041Z"
-  }
-]
+{
+  "konu": "toprak-cevre",
+  "sorular": []
+}

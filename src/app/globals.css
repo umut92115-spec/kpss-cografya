@@ -3,8 +3,13 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #020617;
+  --background: #fafbfd;
+  --foreground: #1e293b;
+}
+
+.dark {
+  --background: #0f172a;
+  --foreground: #e2e8f0;
 }
 
 @layer base {
@@ -13,21 +18,20 @@
   }
 
   body {
-    @apply antialiased text-surface-900 bg-white;
+    @apply antialiased text-ink-800 dark:text-ink-200 bg-[var(--background)];
     font-feature-settings: "cv11", "ss01";
   }
 
-  /* Premium Scrollbar */
   ::-webkit-scrollbar {
-    width: 10px;
+    width: 8px;
   }
 
   ::-webkit-scrollbar-track {
-    @apply bg-surface-50;
+    @apply bg-transparent;
   }
 
   ::-webkit-scrollbar-thumb {
-    @apply bg-surface-200 border-4 border-surface-50 rounded-full hover:bg-surface-300 transition-colors;
+    @apply bg-ink-200 dark:bg-ink-700 border-2 border-transparent rounded-full hover:bg-focus-300 dark:hover:bg-focus-600 transition-colors;
   }
 }
 
@@ -37,6 +41,29 @@
   }
 
   .glass {
-    @apply bg-white/70 backdrop-blur-xl border border-white/20;
+    @apply bg-white/85 dark:bg-ink-900/85 backdrop-blur-xl border border-ink-100/60 dark:border-ink-700/60;
+  }
+
+  .study-gradient {
+    background: linear-gradient(180deg, #f8fafc 0%, #fafbfd 50%, #fbf9f6 100%);
+  }
+
+  .dark .study-gradient {
+    background: linear-gradient(180deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
+  }
+
+  .progress-shimmer {
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+    background-size: 200% 100%;
+    animation: shimmer 2s infinite;
+  }
+
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
   }
 }

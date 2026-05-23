@@ -1,15 +1,4 @@
-[
-  {
-    "question": "Türkiye'nin günümüzdeki kara sınırları içerisinde, Osmanlı Devleti döneminde Kasr-ı Şirin Antlaşması (1639) ile büyük ölçüde çizilen ve bu tarihten itibaren belirgin bir değişiklik göstermeyen en eski sınırımız aşağıdaki ülkelerden hangisiyle olan sınırdır?",
-    "options": [
-      "Suriye",
-      "Irak",
-      "İran",
-      "Gürcistan"
-    ],
-    "correct_index": 2,
-    "explanation": "Verilen bilgilere göre, Türkiye'nin İran sınırı, 1639 yılında Osmanlı Devleti ile Safevi Devleti arasında imzalanan Kasr-ı Şirin Antlaşması ile belirlenmiş olup, günümüze ulaşan en eski sınırımızdır.",
-    "suggested_image": "/images/konu/bolge-jeopolitik.png",
-    "created_at": "2026-05-05T23:51:45.120Z"
-  }
-]
+{
+  "konu": "bolge-jeopolitik",
+  "sorular": []
+}

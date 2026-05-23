@@ -40,7 +40,7 @@ export async function generateMetadata({
   };
 }
 
-export default function HaritaPage({ params }: { params: { konu: string } }) {
+export default function HaritaKonuPage({ params }: { params: { konu: string } }) {
   const konuMeta = getKonu(params.konu);
   if (!konuMeta) notFound();
 
@@ -75,15 +75,7 @@ export default function HaritaPage({ params }: { params: { konu: string } }) {
           ],
         }}
       />
-      <div className="max-w-7xl mx-auto px-4 py-8">
-        <div className="mb-8">
-          <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2 flex items-center gap-3">
-            <span>{konuMeta.icon}</span>
-            Türkiye {konuMeta.baslik} Haritası
-          </h1>
-          <p className="text-gray-600 text-lg">{konuMeta.aciklama}</p>
-        </div>
-
+      <div className="min-h-screen bg-ink-900">
         <HaritaIcerik
           konuMeta={konuMeta}
           tumKonular={tumKonular}

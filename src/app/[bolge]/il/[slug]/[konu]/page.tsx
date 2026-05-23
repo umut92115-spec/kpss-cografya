@@ -88,7 +88,6 @@ export default function IlKonuDetayPage({
 
   const data = getIlKonuData(il.slug, konu.slug);
 
-  // Tüm iller için bu konunun matris verisini topla (Harita boyaması için)
   const iller = getAllIller();
   const matrisData = iller.reduce(
     (acc, curr) => {
@@ -99,7 +98,6 @@ export default function IlKonuDetayPage({
     {} as Record<string, any>
   );
 
-  // GÖREV 3 ✅ — FAQ Fallback: matris boşsa faq-konular.json'dan genel soruları kullan
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const matrisFaqs: { q: string; a: string }[] = ((data as any)?.faqs ?? []).filter(
     (f: { q?: string; a?: string }) => f.q && f.a
@@ -112,14 +110,164 @@ export default function IlKonuDetayPage({
       ? matrisFaqs
       : superDetayFaqs.length > 0
         ? superDetayFaqs
-        : getKonuFaq(konu.slug).filter((f) => f.q && f.a); // ← faq-konular.json fallback
+        : getKonuFaq(konu.slug).filter((f) => f.q && f.a);
 
   if (!data?.super_detay) {
-    // super_detay olmasa bile FAQPage + Breadcrumb schema'sını gönder
-    // ÖNEMLI: Google FAQPage rich result için görünür içerik de zorunlu — accordion ekliyoruz
     return (
-      <div className="max-w-3xl mx-auto px-4 py-12">
-        {/* BreadcrumbList schema */}
+      <div className="min-h-screen bg-[var(--background)]">
+        <div className="max-w-3xl mx-auto px-4 py-10">
+          <JsonLd
+            tip="BreadcrumbList"
+            veri={{
+              itemListElement: [
+                {
+                  "@type": "ListItem",
+                  position: 1,
+                  name: "Ana Sayfa",
+                  item: "https://kpsscografya.com.tr",
+                },
+                {
+                  "@type": "ListItem",
+                  position: 2,
+                  name: il.bolge,
+                  item: `https://kpsscografya.com.tr/${params.bolge}`,
+                },
+                {
+                  "@type": "ListItem",
+                  position: 3,
+                  name: il.ad,
+                  item: `https://kpsscografya.com.tr/${params.bolge}/il/${il.slug}`,
+                },
+                {
+                  "@type": "ListItem",
+                  position: 4,
+                  name: konu.kisa_baslik,
+                  item: `https://kpsscografya.com.tr/${params.bolge}/il/${il.slug}/${konu.slug}`,
+                },
+              ],
+            }}
+          />
+          <JsonLd
+            tip="DiscussionForumPosting"
+            veri={{
+              headline: `${il.ad} ${konu.baslik} Analizi`,
+              articleBody: `${il.ad} ili için ${konu.baslik.toLowerCase()} konusundaki KPSS hazırlık içeriği`,
+              author: {
+                "@type": "Organization",
+                name: "kpsscografya.com.tr",
+                url: "https://kpsscografya.com.tr",
+              },
+              datePublished: "2026-05-15T08:00:00+03:00",
+              dateModified: "2026-05-17T08:00:00+03:00",
+            }}
+          />
+          {effectiveFaqs.length > 0 && (
+            <JsonLd
+              tip="FAQPage"
+              veri={{
+                mainEntity: effectiveFaqs
+                  .filter((f) => f.q && f.a)
+                  .map((f) => ({
+                    "@type": "Question",
+                    name: f.q,
+                    acceptedAnswer: { "@type": "Answer", text: f.a },
+                  })),
+              }}
+            />
+          )}
+
+          {/* Breadcrumb */}
+          <nav className="mb-6 text-xs text-ink-400 flex flex-wrap items-center gap-1.5">
+            <Link href="/" className="hover:text-focus-600 transition-colors">
+              Ana Sayfa
+            </Link>
+            <span className="text-ink-300">/</span>
+            <Link href={`/${params.bolge}`} className="hover:text-focus-600 transition-colors">
+              {il.bolge}
+            </Link>
+            <span className="text-ink-300">/</span>
+            <Link
+              href={`/${params.bolge}/il/${il.slug}`}
+              className="hover:text-focus-600 transition-colors"
+            >
+              {il.ad}
+            </Link>
+            <span className="text-ink-300">/</span>
+            <span className="text-ink-700 font-semibold">{konu.kisa_baslik}</span>
+          </nav>
+
+          {/* Header */}
+          <div className="mb-8">
+            <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-focus-50 text-focus-700 text-xs font-bold rounded-full mb-3 border border-focus-100">
+              {konu.icon} {konu.kisa_baslik}
+            </span>
+            <h1 className="text-2xl md:text-3xl font-bold text-ink-900 mb-3">
+              {il.ad} {konu.baslik}
+            </h1>
+            <p className="text-ink-500 text-sm leading-relaxed">
+              {il.ad} ili için {konu.baslik.toLowerCase()} konusundaki KPSS hazırlık içeriği
+              hazırlanıyor.
+            </p>
+          </div>
+
+          {/* FAQ */}
+          {effectiveFaqs.length > 0 && (
+            <section className="mb-10">
+              <div className="bg-white rounded-2xl border border-ink-100 shadow-card p-6">
+                <h2 className="text-lg font-bold text-ink-900 mb-4 flex items-center gap-2">
+                  <span className="w-7 h-7 bg-focus-600 text-white rounded-lg flex items-center justify-center text-xs">
+                    ?
+                  </span>
+                  Sık Sorulan Sorular
+                </h2>
+                <FaqAccordion faqs={effectiveFaqs} />
+              </div>
+            </section>
+          )}
+
+          {/* Links */}
+          <div className="flex gap-3 flex-wrap">
+            <Link
+              href={`/${params.bolge}/il/${il.slug}`}
+              className="text-sm font-semibold text-focus-700 bg-focus-50 px-4 py-2 rounded-lg border border-focus-100 hover:bg-focus-100 transition-colors"
+            >
+              ← {il.ad}
+            </Link>
+            <Link
+              href={`/konu/${konu.slug}`}
+              className="text-sm font-semibold text-ink-600 bg-ink-50 px-4 py-2 rounded-lg border border-ink-100 hover:bg-ink-100 transition-colors"
+            >
+              {konu.baslik} Konu Anlatımı →
+            </Link>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <div className="min-h-screen bg-[var(--background)]">
+      <div className="max-w-4xl mx-auto px-4 py-10">
+        {/* Breadcrumb */}
+        <nav className="mb-6 text-xs text-ink-400 flex flex-wrap items-center gap-1.5">
+          <Link href="/" className="hover:text-focus-600 transition-colors">
+            Ana Sayfa
+          </Link>
+          <span className="text-ink-300">/</span>
+          <Link href={`/${params.bolge}`} className="hover:text-focus-600 transition-colors">
+            {il.bolge}
+          </Link>
+          <span className="text-ink-300">/</span>
+          <Link
+            href={`/${params.bolge}/il/${il.slug}`}
+            className="hover:text-focus-600 transition-colors"
+          >
+            {il.ad}
+          </Link>
+          <span className="text-ink-300">/</span>
+          <span className="text-ink-700 font-semibold">{konu.kisa_baslik}</span>
+        </nav>
+
         <JsonLd
           tip="BreadcrumbList"
           veri={{
@@ -151,200 +299,38 @@ export default function IlKonuDetayPage({
             ],
           }}
         />
-        <JsonLd
-          tip="DiscussionForumPosting"
-          veri={{
-            headline: `${il.ad} ${konu.baslik} Analizi`,
-            articleBody: `${il.ad} ili için ${konu.baslik.toLowerCase()} konusundaki KPSS hazırlık içeriği`,
-            author: {
-              "@type": "Organization",
-              name: "kpsscografya.com.tr",
-              url: "https://kpsscografya.com.tr",
-            },
-            datePublished: "2026-05-15T08:00:00+03:00",
-            dateModified: "2026-05-17T08:00:00+03:00",
+
+        <SuperDetayRender
+          data={{
+            ...data.super_detay,
+            faqs: effectiveFaqs,
           }}
+          ilAd={il.ad}
+          konuBaslik={konu.baslik}
+          konuSlug={konu.slug}
+          ilSlug={il.slug}
+          matrisData={matrisData}
+          temaRenk={konu.harita_renk}
         />
-        {/* FAQPage schema — görünür accordion ile eşleşiyor (Google uyumlu) */}
-        {effectiveFaqs.length > 0 && (
-          <JsonLd
-            tip="FAQPage"
-            veri={{
-              mainEntity: effectiveFaqs
-                .filter((f) => f.q && f.a)
-                .map((f) => ({
-                  "@type": "Question",
-                  name: f.q,
-                  acceptedAnswer: { "@type": "Answer", text: f.a },
-                })),
-            }}
-          />
-        )}
 
-        {/* Breadcrumb nav */}
-        <nav
-          aria-label="Breadcrumb"
-          className="mb-8 text-sm text-gray-400 flex flex-wrap items-center gap-2"
-        >
-          <Link href="/" className="hover:text-blue-600 transition-colors">
-            Ana Sayfa
-          </Link>
-          <span>›</span>
-          <Link href={`/${params.bolge}`} className="hover:text-blue-600 transition-colors">
-            {il.bolge} Bölgesi
-          </Link>
-          <span>›</span>
-          <Link
-            href={`/${params.bolge}/il/${il.slug}`}
-            className="hover:text-blue-600 transition-colors"
-          >
-            {il.ad}
-          </Link>
-          <span>›</span>
-          <span className="text-gray-700 font-medium">{konu.kisa_baslik}</span>
-        </nav>
-
-        {/* Sayfa başlığı */}
-        <div className="mb-10">
-          <span className="inline-block px-3 py-1 bg-blue-100 text-blue-700 text-xs font-bold rounded-full mb-3 uppercase tracking-wider">
-            {konu.icon} {konu.kisa_baslik}
-          </span>
-          <h1 className="text-3xl font-bold text-gray-900 mb-3">
-            {il.ad} {konu.baslik}
-          </h1>
-          <p className="text-gray-500 leading-relaxed">
-            {il.ad} ili için {konu.baslik.toLowerCase()} konusundaki KPSS hazırlık içeriği
-            hazırlanıyor. Bu aşamada konuya dair sık sorulan sorular aşağıda listelenmiştir.
-          </p>
-        </div>
-
-        {/* Görünür FAQ Accordion — Google rich result için zorunlu */}
-        {effectiveFaqs.length > 0 && (
-          <section id="sss" className="mb-12">
-            <h2 className="text-xl font-bold text-gray-900 mb-5 flex items-center gap-2">
-              <span className="w-8 h-8 bg-blue-600 text-white rounded-lg flex items-center justify-center text-sm">
-                ?
-              </span>
-              {il.ad} {konu.kisa_baslik} — Sıkça Sorulan Sorular
-            </h2>
-            <div className="bg-slate-50 rounded-2xl p-4 md:p-6 border border-slate-100">
-              <FaqAccordion faqs={effectiveFaqs} />
-            </div>
-          </section>
-        )}
-
-        {/* İl sayfasına geri dön */}
-        <div className="flex flex-col gap-4">
-          <div className="flex gap-4 flex-wrap">
-            <Link
-              href={`/${params.bolge}/il/${il.slug}`}
-              className="inline-flex items-center gap-2 text-sm font-bold text-blue-600 hover:text-blue-800 bg-blue-50 px-4 py-2 rounded-lg border border-blue-100 transition-colors"
-            >
-              ← {il.ad} Ana Sayfası
-            </Link>
-            <Link
-              href={`/konu/${konu.slug}`}
-              className="inline-flex items-center gap-2 text-sm font-bold text-gray-600 hover:text-gray-900 bg-gray-50 px-4 py-2 rounded-lg border border-gray-200 transition-colors"
-            >
-              📖 {konu.baslik} Konu Anlatımı →
-            </Link>
+        {/* Diğer Konular */}
+        <div className="mt-12 pt-8 border-t border-ink-100">
+          <h3 className="text-lg font-bold text-ink-900 mb-4">{il.ad} — Diğer Konular</h3>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+            {getAllKonular()
+              .filter((k) => k.slug !== konu.slug && k.slug !== "sozluk")
+              .slice(0, 4)
+              .map((k) => (
+                <Link
+                  key={k.slug}
+                  href={`/${params.bolge}/il/${il.slug}/${k.slug}`}
+                  className="p-3 rounded-xl border border-ink-100 hover:border-focus-200 hover:bg-focus-50 transition-all text-center bg-white"
+                >
+                  <span className="text-xl mb-1 block">{k.icon}</span>
+                  <span className="text-xs font-semibold text-ink-700">{k.kisa_baslik}</span>
+                </Link>
+              ))}
           </div>
-          <div className="flex items-center gap-3 text-xs text-gray-400 mt-4 border-t border-gray-100 pt-4">
-            <span>Yayın Tarihi: 15 Mayıs 2026</span>
-            <span>Son Güncelleme: 17 Mayıs 2026 | 2026 KPSS Müfredatı</span>
-          </div>
-        </div>
-      </div>
-    );
-  }
-
-  return (
-    <div className="max-w-4xl mx-auto px-4 py-12">
-      {/* Breadcrumb */}
-      <nav
-        aria-label="Breadcrumb"
-        className="mb-8 text-sm text-gray-500 flex flex-wrap items-center gap-2"
-      >
-        <Link href="/" className="hover:text-blue-600 transition-colors">
-          Ana Sayfa
-        </Link>
-        <span>›</span>
-        <Link href={`/${params.bolge}`} className="hover:text-blue-600 transition-colors">
-          {il.bolge} Bölgesi
-        </Link>
-        <span>›</span>
-        <Link
-          href={`/${params.bolge}/il/${il.slug}`}
-          className="hover:text-blue-600 transition-colors"
-        >
-          {il.ad}
-        </Link>
-        <span>›</span>
-        <span className="text-gray-800 font-medium">{konu.kisa_baslik}</span>
-      </nav>
-
-      <JsonLd
-        tip="BreadcrumbList"
-        veri={{
-          itemListElement: [
-            {
-              "@type": "ListItem",
-              position: 1,
-              name: "Ana Sayfa",
-              item: "https://kpsscografya.com.tr",
-            },
-            {
-              "@type": "ListItem",
-              position: 2,
-              name: il.bolge,
-              item: `https://kpsscografya.com.tr/${params.bolge}`,
-            },
-            {
-              "@type": "ListItem",
-              position: 3,
-              name: il.ad,
-              item: `https://kpsscografya.com.tr/${params.bolge}/il/${il.slug}`,
-            },
-            {
-              "@type": "ListItem",
-              position: 4,
-              name: konu.kisa_baslik,
-              item: `https://kpsscografya.com.tr/${params.bolge}/il/${il.slug}/${konu.slug}`,
-            },
-          ],
-        }}
-      />
-
-      <SuperDetayRender
-        data={{
-          ...data.super_detay,
-          faqs: effectiveFaqs,
-        }}
-        ilAd={il.ad}
-        konuBaslik={konu.baslik}
-        konuSlug={konu.slug}
-        ilSlug={il.slug}
-        matrisData={matrisData}
-        temaRenk={konu.harita_renk}
-      />
-
-      {/* İlgili Diğer Konular */}
-      <div className="mt-16 pt-8 border-t border-gray-100">
-        <h3 className="text-lg font-bold text-gray-800 mb-6">{il.ad} İçin Diğer Konular</h3>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          {getAllKonular()
-            .filter((k) => k.slug !== konu.slug && k.slug !== "sozluk")
-            .slice(0, 4)
-            .map((k) => (
-              <Link
-                key={k.slug}
-                href={`/${params.bolge}/il/${il.slug}/${k.slug}`}
-                className="p-4 rounded-xl border border-gray-200 hover:border-blue-500 hover:shadow-md transition-all text-center"
-              >
-                <span className="text-2xl mb-2 block">{k.icon}</span>
-                <span className="text-sm font-medium text-gray-700">{k.kisa_baslik}</span>
-              </Link>
-            ))}
         </div>
       </div>
     </div>

@@ -1,15 +1,4 @@
-[
-  {
-    "question": "Aşağıdaki göllerden hangisi, oluşum türü bakımından yanlış eşleştirilmiştir?",
-    "options": [
-      "A) Salda Gölü - Karstik",
-      "B) Tortum Gölü - Heyelan Set",
-      "C) Manyas (Kuş) Gölü - Tektonik",
-      "D) Erçek Gölü - Kıyı Set"
-    ],
-    "correct_index": 3,
-    "explanation": "Metinde yer alan bilgilere göre, Salda Gölü karstik, Tortum Gölü heyelan set ve Manyas Gölü tektonik oluşumludur. Erçek Gölü ise Doğu Anadolu Bölgesi'nde lavların set çekmesiyle oluşan bir volkanik set gölüdür. Kıyı set gölleri (lagünler) Büyükçekmece, Küçükçekmece ve Terkos gibi göllerdir.",
-    "suggested_image": "/images/konu/goller.png",
-    "created_at": "2026-05-04T16:03:41.679Z"
-  }
-]
+{
+  "konu": "goller",
+  "sorular": []
+}

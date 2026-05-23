@@ -15,86 +15,68 @@ export default function QuizPage() {
   const konular = getAllKonular();
 
   return (
-    <div className="min-h-screen bg-gray-50 py-12 md:py-20">
-      <div className="max-w-6xl mx-auto px-4">
-        {/* Başlık Bölümü */}
-        <div className="text-center mb-16">
-          <div className="inline-flex items-center gap-2 bg-kpss-turuncu/10 text-kpss-turuncu px-4 py-2 rounded-full text-xs font-bold mb-6">
-            <span className="animate-pulse">✍️</span> 200+ Güncel Soru
-          </div>
-          <h1 className="text-4xl md:text-5xl font-black text-kpss-koyu mb-6 leading-tight">
-            Coğrafya <span className="text-kpss-turuncu">Sınav Modu</span>
+    <div className="min-h-screen bg-[var(--background)] py-14 md:py-20">
+      <div className="max-w-5xl mx-auto px-4">
+        {/* Header */}
+        <div className="mb-14">
+          <h1 className="text-3xl md:text-4xl font-bold text-ink-900 dark:text-white mb-3 tracking-tight">
+            Soru Bankası
           </h1>
-          <p className="text-gray-500 text-lg max-w-2xl mx-auto leading-relaxed">
-            Hangi konuda ne kadar iyisin? İstediğin konuyu seç, testi başlat ve performansını analiz
-            et.
+          <p className="text-ink-500 text-base max-w-xl leading-relaxed">
+            200+ özgün soru. Konunu seç, testini çöz, eksiklerini keşfet.
           </p>
         </div>
 
-        {/* Konu Izgarası */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {/* Topic Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {konular.map((k) => (
-            <Link
+            <div
               key={k.slug}
-              href={`/quiz/${k.slug}`}
-              className="group bg-white rounded-3xl border border-gray-100 p-8 hover:border-kpss-turuncu/30 hover:shadow-2xl transition-all duration-300 flex flex-col items-center text-center"
+              className="group bg-white dark:bg-ink-800 rounded-xl border border-ink-100 dark:border-ink-700 p-5 hover:border-focus-200 dark:hover:border-focus-700 hover:shadow-card-hover transition-all duration-200"
             >
-              <div className="w-20 h-20 bg-gray-50 rounded-full flex items-center justify-center text-4xl mb-6 group-hover:bg-kpss-turuncu/5 group-hover:scale-110 transition-all duration-300">
-                {k.icon}
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-11 h-11 rounded-lg bg-focus-50 border border-focus-100/50 flex items-center justify-center text-xl group-hover:scale-105 transition-transform">
+                  {k.icon}
+                </div>
+                <div>
+                  <h3 className="font-bold text-ink-900 dark:text-white text-sm group-hover:text-focus-700 dark:group-hover:text-focus-400 transition-colors">
+                    {k.baslik}
+                  </h3>
+                  <p className="text-xs text-ink-400">~{k.kpss_soru_sayisi_ort} soru/yıl</p>
+                </div>
               </div>
 
-              <h3 className="font-black text-kpss-koyu text-xl mb-2 group-hover:text-kpss-turuncu transition-colors">
-                {k.baslik}
-              </h3>
-
-              <p className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-4">
-                {k.kpss_soru_sayisi_ort} Soru Beklentisi
-              </p>
-
-              <div className="mt-auto w-full pt-6 border-t border-gray-50 flex gap-2">
+              <div className="flex gap-2">
                 <Link
                   href={`/quiz/${k.slug}`}
-                  className="flex-1 bg-gray-50 text-gray-700 hover:bg-kpss-koyu hover:text-white transition-all py-2.5 rounded-xl text-xs font-bold"
+                  className="flex-1 text-center py-2.5 rounded-lg bg-focus-600 text-white text-xs font-bold hover:bg-focus-700 transition-colors"
                 >
                   Tam Quiz
                 </Link>
                 <Link
                   href={`/quiz/${k.slug}?mode=quick`}
-                  className="flex-1 bg-kpss-turuncu/10 text-kpss-turuncu hover:bg-kpss-turuncu hover:text-white transition-all py-2.5 rounded-xl text-xs font-bold"
+                  className="flex-1 text-center py-2.5 rounded-lg bg-glow-50 text-glow-700 text-xs font-bold border border-glow-200 hover:bg-glow-100 transition-colors"
                 >
-                  Hızlı Çöz (10)
+                  Hızlı (10)
                 </Link>
               </div>
-            </Link>
+            </div>
           ))}
         </div>
 
-        {/* Bilgi Kutusu */}
-        <div className="mt-20 grid grid-cols-1 md:grid-cols-3 gap-8">
+        {/* Features row */}
+        <div className="mt-14 grid grid-cols-3 gap-4">
           {[
-            {
-              icon: "⏱️",
-              title: "Süreli Sınav",
-              desc: "Gerçek sınav atmosferi için her soruya özel süre.",
-            },
-            {
-              icon: "📊",
-              title: "Detaylı Analiz",
-              desc: "Hangi konuda hata yaptığını anında gör.",
-            },
-            {
-              icon: "🏆",
-              title: "Skor Tablosu",
-              desc: "En yüksek skorunu yap ve kendini geliştir.",
-            },
-          ].map((item) => (
+            { icon: "⏱️", label: "Süreli mod" },
+            { icon: "📊", label: "Anlık analiz" },
+            { icon: "🏆", label: "Skor takibi" },
+          ].map((f) => (
             <div
-              key={item.title}
-              className="bg-white p-8 rounded-3xl border border-gray-100 flex flex-col items-center text-center"
+              key={f.label}
+              className="flex items-center gap-2.5 bg-white dark:bg-ink-800 rounded-lg border border-ink-100 dark:border-ink-700 px-4 py-3"
             >
-              <div className="text-4xl mb-4">{item.icon}</div>
-              <h4 className="font-bold text-kpss-koyu mb-2">{item.title}</h4>
-              <p className="text-gray-500 text-sm">{item.desc}</p>
+              <span className="text-lg">{f.icon}</span>
+              <span className="text-xs font-semibold text-ink-600">{f.label}</span>
             </div>
           ))}
         </div>

@@ -1,15 +1,4 @@
-[
-  {
-    "question": "Türkiye'deki köy altı yerleşme tipleri ve özellikleri göz önüne alındığında, aşağıdaki yerleşmelerden hangisiyle ilgili verilen bilgi doğrudur?",
-    "options": [
-      "A) Kom: Batı Karadeniz'de yaygın olup sürekli yerleşmelerdir ve temel geçim kaynağı tarımdır.",
-      "B) Oba: Toroslar ve Ege Bölgesi'nde (Yörükler) görülen, geçici ve hayvancılık (çadır) faaliyetleri yapılan yerleşmelerdir.",
-      "C) Çiftlik: Doğu Anadolu ve Güneydoğu'da yoğunlaşmış, sürekli ve tarım ile hayvancılığın bir arada yapıldığı yerleşmelerdir.",
-      "D) Yayla: Ege ve Akdeniz kıyılarında, geçici olarak kültür balıkçılığı faaliyetleri için kurulan yerleşmelerdir."
-    ],
-    "correct_index": 1,
-    "explanation": "Verilen bilgilerde, Oba yerleşmelerinin Toroslar ve Ege Bölgesi'nde Yörükler tarafından hayvancılık (çadır) faaliyetleri amacıyla kurulan geçici yerleşmeler olduğu belirtilmiştir. A şıkkındaki 'Kom' için verilen özellikler 'Divan'a, C şıkkındaki 'Çiftlik' için verilen özellikler 'Mahalle/Mezra'ya daha yakındır. D şıkkındaki 'Yayla' için verilen özellikler ise 'Dalyan'a aittir.",
-    "suggested_image": "Kapadokya'da eski bir köy evi veya taş mimarili bir yayla evi görseli.",
-    "created_at": "2026-05-04T22:04:14.371Z"
-  }
-]
+{
+  "konu": "beseri-cografya",
+  "sorular": []
+}

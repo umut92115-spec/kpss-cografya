@@ -1,15 +1,1505 @@
-[
-  {
-    "question": "Türkiye'nin dağlık yapısı ve oluşum özellikleri dikkate alındığında, aşağıda verilen dağ-oluşum türü eşleştirmelerinden hangisi **yanlıştır**?",
-    "options": [
-      "A) Bolkar Dağları - Kıvrım Dağ",
-      "B) Kaz Dağları - Kırık Dağ",
-      "C) Süphan Dağı - Volkanik Dağ",
-      "D) Nur (Amanos) Dağları - Kıvrım Dağ"
-    ],
-    "correct_index": 3,
-    "explanation": "Verilen eşleştirmelerde A, B ve C seçenekleri doğrudur. Bolkar Dağları (Akdeniz) kıvrım, Kaz Dağları (Ege) kırık ve Süphan Dağı (Doğu Anadolu) volkanik oluşumlu dağlardır. Ancak D seçeneğinde verilen Nur (Amanos) Dağları, Akdeniz Bölgesi'nde yer almasına ve çevresindeki Toroslar gibi kıvrım dağlarla birlikte bulunmasına rağmen, fay hatları boyunca yükselmiş **kırık** yapılı bir dağdır. Bu özelliği, onu bulunduğu bölgenin genel tektonik özelliklerine göre bir istisna haline getirir ve KPSS'de sıklıkla karıştırılan bir bilgi noktasıdır.",
-    "suggested_image": "/images/konu/daglar.png",
-    "created_at": "2026-05-04T15:16:29.441Z"
-  }
-]
+{
+  "konu": "daglar",
+  "sorular": [
+    {
+      "id": "daglar-001",
+      "soru": "Türkiye'deki dağların büyük bir kısmı, yan basınçların etkisiyle tortul tabakaların sıkışması sonucu oluşmuştur. Sıkışan tabakaların esnek olduğu alanlarda kıvrılmalar meydana gelmiş; yüksekte kalan kısımlar ile alçakta kalan kısımlar jeomorfolojik birer ünite oluşturmuştur.\n\nBu orojenez sürecinde kıvrılarak yükselen kubbe şeklindeki yapılara ve alçalarak çanaklaşan yapılara verilen isimler aşağıdakilerin hangisinde sırasıyla doğru olarak verilmiştir?",
+      "siklar": [
+        "A) Horst - Graben",
+        "B) Antiklinal - Senklinal",
+        "C) Senklinal - Antiklinal",
+        "D) Kaldera - Maar",
+        "E) Batolit - Dayk"
+      ],
+      "dogru": "B) Antiklinal - Senklinal",
+      "aciklama": "Orojenez (dağ oluşumu) sürecinde yan basınçlara maruz kalan tortul tabakalar eğer esnek yapıdaysa kıvrılırlar. Bu kıvrılma sonucunda yüksekte kalan (kubbemsi) kısımlara 'antiklinal', alçakta kalan (çukur) kısımlara ise 'senklinal' adı verilir. Horst ve graben kırıklı dağ oluşumuna aittir (A). Kaldera ve maar volkanik şekillerdir (D). Batolit ve dayk ise derinlik volkanizması şekilleridir (E).",
+      "harita_il": "ankara",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "daglar-002",
+      "soru": "Türkiye'nin ana orografik omurgasını oluşturan Kuzey Anadolu Dağları ve Toros Dağları, yeryüzünün en büyük dağ kuşaklarından birinin parçasıdır. Bu dağ sistemleri, Avrasya ile Afrika-Arap levhalarının birbirine doğru hareket etmesi ve aradaki Tethys (Tetis) geosinklinalindeki tortulların sıkışmasıyla meydana gelmiştir.\n\nBu dağ kuşaklarının ana oluşum süreci olan Alp Orojenezi, ağırlıklı olarak aşağıdaki jeolojik zamanların hangisinde gerçekleşmiştir?",
+      "siklar": [
+        "A) Paleozoik (I. Jeolojik Zaman)",
+        "B) Mezozoik (II. Jeolojik Zaman)",
+        "C) Tersiyer (III. Jeolojik Zaman)",
+        "D) Kuvaterner (IV. Jeolojik Zaman)",
+        "E) Prekambriyen (İlkel Zaman)"
+      ],
+      "dogru": "C) Tersiyer (III. Jeolojik Zaman)",
+      "aciklama": "Kuzey Anadolu Dağları ve Toroslar, Senozoik'in Tersiyer (Üçüncü) jeolojik döneminde gerçekleşen Alp-Himalaya orojenezinin etkisiyle kıvrılarak su yüzeyine çıkmış ve bugünkü dağlık karakterini kazanmıştır. I. Zaman'da masifler oluşmuş (A), II. Zaman'da hazırlık/tortullanma gerçekleşmiş (B), IV. Zaman'da ise toptan yükselme ve buzul dönemleri yaşanmıştır (D).",
+      "harita_il": "antalya",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "daglar-003",
+      "soru": "Batı Karadeniz Bölümü'nde yer alan Küre Dağları, kıyı çizgisine paralel uzanan ve jeomorfolojik açıdan karstik şekillerin, kanyonların ve mağara sistemlerinin son derece yaygın olduğu bir kıvrım dağıdır.\n\nKüre Dağları'nda bu tür kanyon (örn. Valla Kanyonu) ve mağara gibi jeomorfolojik şekillerin yaygın olması, dağın aşağıdaki özelliklerinden hangisiyle doğrudan ilgilidir?",
+      "siklar": [
+        "A) Ortalama yükseltisinin 3000 metrenin üzerinde olmasıyla",
+        "B) Litolojik yapısında çözünebilen kireçtaşlarının (kalker) egemen olmasıyla",
+        "C) Buzul aşındırmasına (glasyal topoğrafya) maruz kalmasıyla",
+        "D) Fiziksel ufalanma süreçlerinin kimyasal çözünmeye göre daha hızlı olmasıyla",
+        "E) Yan basınçlara maruz kaldığında kırılmaya uğramış olmasıyla"
+      ],
+      "dogru": "B) Litolojik yapısında çözünebilen kireçtaşlarının (kalker) egemen olmasıyla",
+      "aciklama": "Küre Dağları, Kastamonu-Bartın sınırında yer alır ve kireçtaşlarından (kalker) oluşan kalın tortul tabakalardan meydana gelmiştir. Kalker çözünebilen bir kayaç olduğu için suyun etkisiyle erir ve lapya, dolin, mağara, kanyon gibi karstik şekiller oluşturur. Küre Dağları'nın yükseltisi 3000 metreden azdır (yaklaşık 1800 m) ve üzerinde buzul izi bulunmaz. Kırıklı değil kıvrımlıdır.",
+      "harita_il": "kastamonu",
+      "zorluk": "zor"
+    },
+    {
+      "id": "daglar-004",
+      "soru": "Karadeniz Bölgesi'nde dağların kıyıya paralel uzanması, kıyı ile iç kesimler arasındaki ulaşımın ancak belirli doğal geçitler vasıtasıyla sağlanmasına yol açmıştır.\n\nDoğu Karadeniz Bölümü'nde kıyıdaki Trabzon limanını iç kesimdeki Gümüşhane'ye bağlayan, hem ticari hem de askeri açıdan tarih boyunca büyük önem taşımış olan ünlü dağ geçidi aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Kop Geçidi",
+        "B) Ilgaz Geçidi",
+        "C) Zigana Geçidi",
+        "D) Sertavul Geçidi",
+        "E) Gülek Geçidi"
+      ],
+      "dogru": "C) Zigana Geçidi",
+      "aciklama": "Trabzon'u Gümüşhane'ye bağlayan ve Doğu Karadeniz Dağları'nı aşan geçit Zigana (Kalkanlı) Geçidi'dir. Kop Geçidi Gümüşhane/Bayburt'u Erzurum'a (A), Ilgaz Geçidi Kastamonu'yu Çankırı'ya (B), Sertavul Geçidi Karaman'ı Mersin'e (D), Gülek Geçidi ise Adana'yı İç Anadolu'ya (E) bağlar.",
+      "harita_il": "trabzon",
+      "zorluk": "orta"
+    },
+    {
+      "id": "daglar-005",
+      "soru": "Doğu Anadolu ile Karadeniz arasındaki karayolu koridorunda yer alan Kop Geçidi, kış aylarında kar yağışı, tipi ve buzlanma nedeniyle sık sık ulaşıma kapanan kritik bir geçittir.\n\nKop Geçidi, aşağıdaki şehirlerin hangileri arasındaki karayolu bağlantısını sağlamak amacıyla Doğu Anadolu Dağları üzerinde konumlanmıştır?",
+      "siklar": [
+        "A) Rize - Erzurum",
+        "B) Trabzon - Gümüşhane",
+        "C) Bayburt - Erzurum",
+        "D) Kastamonu - Çankırı",
+        "E) Sivas - Erzincan"
+      ],
+      "dogru": "C) Bayburt - Erzurum",
+      "aciklama": "Kop Geçidi (Kop Dağı üzerinde, 2392 m), Bayburt ile Erzurum arasındaki karayolu bağlantısını sağlar ve Doğu Anadolu ile Karadeniz'i bağlayan ana akslardan biridir. Rize-Erzurum arasında Ovit Geçidi bulunur (A), Trabzon-Gümüşhane arası Zigana'dır (B), Kastamonu-Çankırı arası Ilgaz'dır (D).",
+      "harita_il": "bayburt",
+      "zorluk": "orta"
+    },
+    {
+      "id": "daglar-006",
+      "soru": "Batı Karadeniz'de kıyı ardındaki dağ sıralarını aşarak Kastamonu'yu Çankırı ve dolayısıyla Ankara'ya bağlayan, kış turizmi açısından da önem kazanan kıvrım dağ kütlesi üzerindeki geçit aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Belen Geçidi",
+        "B) Ilgaz Geçidi",
+        "C) Ecevit Geçidi",
+        "D) Sertavul Geçidi",
+        "E) Sakaltutan Geçidi"
+      ],
+      "dogru": "B) Ilgaz Geçidi",
+      "aciklama": "Kastamonu'yu Çankırı'ya (ve Ankara aksına) bağlayan geçit Ilgaz Dağları üzerindeki Ilgaz Geçidi'dir. Ecevit Geçidi Kastamonu ile İnebolu arasındadır (C). Belen Hatay'dadır (A), Sertavul Akdeniz'dedir (D), Sakaltutan ise Erzincan-Sivas arasındadır (E).",
+      "harita_il": "cankiri",
+      "zorluk": "zor"
+    },
+    {
+      "id": "daglar-007",
+      "soru": "Akdeniz Bölgesi'nde Orta Toroslar üzerinde yer alan ve tarih boyunca 'Kilikya Geçidi' olarak anılan geçit, İç Anadolu'nun karasal düzlükleri ile Çukurova'nın tarımsal ve sanayi merkezini birbirine bağlar. Demiryolu bağlantısının da bulunduğu bu geçit son derece stratejik bir konuma sahiptir.\n\nYukarıda coğrafi özellikleri belirtilen ve Adana'yı İç Anadolu'ya bağlayan geçit aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Çubuk Geçidi",
+        "B) Belen Geçidi",
+        "C) Sertavul Geçidi",
+        "D) Gülek Geçidi",
+        "E) Kop Geçidi"
+      ],
+      "dogru": "D) Gülek Geçidi",
+      "aciklama": "Adana'yı Pozantı üzerinden İç Anadolu'ya (Niğde/Konya yönü) bağlayan stratejik geçit Gülek Geçidi'dir. Çubuk Geçidi Antalya'yı Göller Yöresi'ne (A), Belen Geçidi Hatay'da İskenderun'u Antakya'ya (B), Sertavul Geçidi ise Karaman'ı Mersin'e (Silifke) (C) bağlar.",
+      "harita_il": "adana",
+      "zorluk": "orta"
+    },
+    {
+      "id": "daglar-008",
+      "soru": "İç Anadolu Bölgesi'nden Mersin limanına veya Silifke kıyılarına inmek isteyen bir yük kamyonunun, Orta Toroslar üzerinde yer alan ve Karaman ile Mersin illeri arasında doğal bir eşik oluşturan hangi geçidi kullanması en uygundur?",
+      "siklar": [
+        "A) Gülek Geçidi",
+        "B) Sertavul Geçidi",
+        "C) Çubuk Geçidi",
+        "D) Ovit Geçidi",
+        "E) Zigana Geçidi"
+      ],
+      "dogru": "B) Sertavul Geçidi",
+      "aciklama": "Karaman ile Mersin (Mut-Silifke aksı) arasında yer alan ve İç Anadolu'yu Akdeniz'e bağlayan Orta Toroslar üzerindeki geçit Sertavul Geçidi'dir. Gülek Adana-Niğde arasındadır (A), Çubuk Antalya-Burdur arasındadır (C), Ovit Rize-Erzurum arasındadır (D).",
+      "harita_il": "karaman",
+      "zorluk": "orta"
+    },
+    {
+      "id": "daglar-009",
+      "soru": "Türkiye'deki geçitlerin büyük bir kısmı kıvrımlı dağ sıralarının enine yarılmasıyla oluşan boğaz vadilerden geçerken, Hatay'da yer alan Belen Geçidi bu genellemeye tam olarak uymaz.\n\nBelen Geçidi'nin oluşumu ve yapısıyla ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+      "siklar": [
+        "A) Tamamen karstik erimelerle oluşmuş bir polye tabanıdır.",
+        "B) Uludağ gibi derinlik volkanizması sonucu yükselmiş bir batolit kütlesidir.",
+        "C) Amanos (Nur) Dağları graben-horst kırılma kuşağındaki tektonik bir alçalma alanıdır.",
+        "D) Çoruh Nehri'nin dağları enine yarmasıyla oluşmuş dik duvarlı bir kanyondur.",
+        "E) Buzul aşındırması sonucu oluşmuş yüksek rakımlı bir sirk vadisidir."
+      ],
+      "dogru": "C) Amanos (Nur) Dağları graben-horst kırılma kuşağındaki tektonik bir alçalma alanıdır.",
+      "aciklama": "Amanos (Nur) Dağları kırıklı dağ yapısındadır (horst). Belen Geçidi, bu kırılma kuşağı içindeki tektonik bir çöküntü / alçalma alanından (transversal oluk) yararlanılarak oluşturulmuştur. Bu yönüyle kıvrım dağlarındaki akarsu aşındırmalı boğaz vadilerden ayrılır. Karstik erime (A), buzul (E) veya derinlik volkanizması (B) ile ilgisi yoktur.",
+      "harita_il": "hatay",
+      "zorluk": "zor"
+    },
+    {
+      "id": "daglar-010",
+      "soru": "Marmara Bölgesi'nin Trakya kesiminde yer alan Yıldız Dağları (Istranca), Karadeniz kıyı şeridine paralel olarak uzanan bir kıvrım dağıdır. Ancak bu dağ sırası, Doğu Karadeniz veya Batı Toroslar'daki dağlarla karşılaştırıldığında oldukça farklı özelliklere sahiptir.\n\nYıldız Dağları ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+      "siklar": [
+        "A) Ortalama yükseltisi az olup en yüksek noktası yaklaşık 1030 metredir.",
+        "B) Jeolojik açıdan yaşlı kütlelerden (masif arazi) oluştuğu için deprem riski görece azdır.",
+        "C) Yükseltisinin az olması nedeniyle üzerinde glasyal (buzul) aşınım şekillerine rastlanmaz.",
+        "D) Nemli Karadeniz rüzgarlarına açık olan kuzey yamaçlarında gür ormanlar yer alır.",
+        "E) Akdeniz ikliminin İç Anadolu karasallığına geçişini engelleyen devasa bir set oluşturur."
+      ],
+      "dogru": "E) Akdeniz ikliminin İç Anadolu karasallığına geçişini engelleyen devasa bir set oluşturur.",
+      "aciklama": "Yıldız Dağları Karadeniz Bölümü'nde değil Trakya'dadır ve Karadeniz ikliminin Trakya'nın iç kısımlarına (Ergene Havzası karasallığına) geçişini engeller. Akdeniz iklimi ile İç Anadolu arasında set oluşturan dağlar Toroslar'dır (E). Yıldız Dağları masiftir (B), yükseltisi azdır (A), buzul şekli barındırmaz (C) ve kuzey yamaçları gür ormandır (D).",
+      "harita_il": "kirklareli",
+      "zorluk": "orta"
+    },
+    {
+      "id": "daglar-011",
+      "soru": "Karadeniz Bölgesi'nde dağların kıyıya yakınlığı ve yükseltisi bölümler arasında büyük farklılıklar gösterir. Batı ve Doğu Karadeniz dağları kıyıya çok yakın ve yüksekken, Orta Karadeniz'de yer alan Canik Dağları daha alçaktır ve kıyının oldukça gerisinde uzanır.\n\nCanik Dağları'nın bu uzanış ve yükseklik özelliğinin Orta Karadeniz'de yol açtığı sonuçlar arasında aşağıdakilerden hangisi gösterilemez?",
+      "siklar": [
+        "A) Kıyı ile iç kesimler arasındaki ulaşımın daha kolay sağlanması ve geçit ihtiyacının az olması",
+        "B) Denizel iklim etkilerinin iç kesimlere (Yeşilırmak vadisi boyunca) daha kolay sokulabilmesi",
+        "C) Yamaç (orografik) yağışlarının Doğu Karadeniz'e göre çok daha az gerçekleşmesi",
+        "D) Kıyı şeridinde Çarşamba ve Bafra gibi geniş delta ovalarının oluşabilmesi",
+        "E) Kıyı kesiminde falez (yalıyar) oluşumunun çok yaygın ve yüksek olması"
+      ],
+      "dogru": "E) Kıyı kesiminde falez (yalıyar) oluşumunun çok yaygın ve yüksek olması",
+      "aciklama": "Canik Dağları'nın kıyının gerisinde ve alçak (ortalama 1000-1500 m) olması, kıyıda falez (yalıyar) oluşumunu zorlaştırır. Falezler dağların kıyıya çok yakın ve dik indiği Doğu/Batı Karadeniz ile Teke/Taşeli kıyılarında yaygındır. Orta Karadeniz'de kıyı sığ olduğu için deltalar (D) kolay oluşur, ulaşım kolaydır (A), denizellik içeri girer (B) ve orografik yağış azdır (C).",
+      "harita_il": "samsun",
+      "zorluk": "zor"
+    },
+    {
+      "id": "daglar-012",
+      "soru": "Orta Toroslar'ın en yüksek ve görkemli kütlesini oluşturan, Niğde, Adana ve Kayseri illerinin sınırlarında yükselen Aladağlar, dağcılık ve kaya tırmanışı açısından Türkiye'nin en önemli merkezlerinden biridir.\n\nAladağlar'ın en yüksek zirvesi ve bu zirvenin yüksekliği aşağıdakilerin hangisinde doğru olarak verilmiştir?",
+      "siklar": [
+        "A) Medetsiz Tepe - 3524 m",
+        "B) Demirkazık Zirvesi - 3756 m",
+        "C) Uludoruk Zirvesi - 4168 m",
+        "D) Büyük Ağrı - 5137 m",
+        "E) Verçenik Tepe - 3711 m"
+      ],
+      "dogru": "B) Demirkazık Zirvesi - 3756 m",
+      "aciklama": "Aladağlar'ın en yüksek noktası Niğde sınırlarında yer alan Demirkazık Zirvesi'dir (3756 m). Medetsiz Tepe Bolkar Dağları'nın en yüksek yeridir (A). Uludoruk Cilo Dağları'ndadır (C), Büyük Ağrı en yüksek volkandır (D), Verçenik ise Rize Dağları'ndadır (E).",
+      "harita_il": "nigde",
+      "zorluk": "orta"
+    },
+    {
+      "id": "daglar-013",
+      "soru": "Orta Toroslar segmentinde yer alan Bolkar Dağları, kalın kalker tabakalarından oluşan yapısı, derin buzul gölleri (örn. Karagöl, Çiniligöl) ve endemik flora türleriyle (örn. Toros kurbağası - Rana holtzi) bilinir.\n\nBolkar Dağları üzerinde glasyal (buzul) aşındırma şekillerinin ve sirk göllerinin bulunması, bu dağ sırasının aşağıdaki özelliklerinden hangisiyle doğrudan ilgilidir?",
+      "siklar": [
+        "A) Ekvator'a olan kuş uçuşu uzaklığının (enleminin) az olmasıyla",
+        "B) Litolojik yapısında jips ve kaya tuzu gibi kolay eriyen kayaçların bulunmasıyla",
+        "C) Zirve kesimlerinin yüksekliğinin buzul dönemlerinde buzullaşma sınırının üzerinde yer almasıyla",
+        "D) Akdeniz iklimi etkisinde kalması nedeniyle kış yağışlarının aşırı fazla olmasıyla",
+        "E) Fay hatlarına yakın olup deprem aktivitesinin yüksek olmasıyla"
+      ],
+      "dogru": "C) Zirve kesimlerinin yüksekliğinin buzul dönemlerinde buzullaşma sınırının üzerinde yer almasıyla",
+      "aciklama": "Türkiye'de dağlarda buzul (glasyal) şekillerinin bulunması yükseltiyle doğrudan ilgilidir. Bolkar Dağları 3500 metreyi aşan yükseltisi nedeniyle (Medetsiz Zirvesi 3524 m), Pleistosen buzul dönemlerinde buzullaşmaya maruz kalmış ve sirk gölleri (Karagöl, Çiniligöl) oluşmuştur. Karstik kayaçlar (B) veya Akdeniz iklimi (D) buzul oluşumunun nedeni değildir.",
+      "harita_il": "mersin",
+      "zorluk": "zor"
+    },
+    {
+      "id": "daglar-014",
+      "soru": "Karadeniz'den gelen nemli hava kütlelerinin Doğu Karadeniz Dağları'nın (Giresun, Rize, Kaçkar) kuzey yamaçlarına çarparak yükselmesi, bu yamaçlarda Türkiye'nin en yüksek yıllık yağış değerlerinin (yıllık 2000 mm üzeri) görülmesine yol açar.\n\nBu yağış türü ve oluşum mekanizması coğrafya literatüründe aşağıdakilerden hangisiyle adlandırılır?",
+      "siklar": [
+        "A) Konveksiyonel (Yükselim) Yağış",
+        "B) Cephesel (Frontal) Yağış",
+        "C) Orografik (Yamaç) Yağış",
+        "D) Tektonik Yağış",
+        "E) Karstik Yağış"
+      ],
+      "dogru": "C) Orografik (Yamaç) Yağış",
+      "aciklama": "Nemli bir hava kütlesinin bir dağ yamacı boyunca yükselerek soğuması sonucu bıraktığı yağışlara 'orografik' veya 'yamaç' yağışları denir. Karadeniz ve Toros Dağları'nın denize bakan yamaçlarında yaygındır. Konveksiyonel yağışlar İç Anadolu'da ilkbaharda görülür (A), cephesel yağışlar ise orta kuşakta sıcak ve soğuk havanın karşılaşmasıyla oluşur (B).",
+      "harita_il": "giresun",
+      "zorluk": "orta"
+    },
+    {
+      "id": "daglar-015",
+      "soru": "Batı Toroslar kuşağında yer alan Bey Dağları, Antalya Körfezi'nin batısında, kıyı çizgisine paralel olarak uzanır. Dağların eteklerinde Akdeniz iklimi hakimken, yüksek kesimlerde karasal etkiler görülür ve bu durum yaylacılık faaliyetlerinin gelişmesini sağlamıştır.\n\nBey Dağları üzerinde yer alan ve teleferik hattıyla zirvesine ulaşılabilen, milli park sınırları içerisindeki ünlü zirve aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Tahtalı Dağı",
+        "B) Honaz Dağı",
+        "C) Spil Dağı",
+        "D) Madra Dağı",
+        "E) Sandıras Dağı"
+      ],
+      "dogru": "A) Tahtalı Dağı",
+      "aciklama": "Antalya Kemer yakınlarında yer alan, teleferik ile çıkılabilen ve Bey Dağları milli parkı sınırlarında bulunan ünlü zirve Tahtalı Dağı'dır (2366 m). Honaz Denizli'dedir (B), Spil Manisa'dadır (C), Madra Ege kırık dağıdır (D), Sandıras ise Muğla'dadır (E).",
+      "harita_il": "antalya",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "daglar-016",
+      "soru": "Doğu Anadolu Bölgesi'nde Tunceli ile Erzincan illeri arasında sınır oluşturan, yüksek zirveleri (Akbaba: 3462 m), buzul gölleri, dik vadileri ve zengin biyoçeşitliliği ile bilinen, bir kısmı milli park olarak koruma altına alınan kıvrım dağ sırası aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Palandöken Dağları",
+        "B) Munzur (Mercan) Dağları",
+        "C) Bingöl Dağları",
+        "D) Allahuekber Dağları",
+        "E) Şerafettin Dağları"
+      ],
+      "dogru": "B) Munzur (Mercan) Dağları",
+      "aciklama": "Tunceli ile Erzincan sınırında yer alan, Akbaba (3462 m) zirvesine sahip olan ve buzul gölleri ile karstik kaynakları (Munzur Gözeleri) barındıran ünlü dağ sırası Munzur (Mercan) Dağları'dır. Palandöken Erzurum'dadır (A), Bingöl Dağları Muş/Bingöl sınırındadır (C).",
+      "harita_il": "tunceli",
+      "zorluk": "orta"
+    },
+    {
+      "id": "daglar-017",
+      "soru": "Erzurum şehrinin hemen güneyinde yükselen Palandöken Dağları, Türkiye'nin kış turizmi lokomotiflerinden biridir. Dağların kuzey yamaçlarında inşa edilen kayak pistleri, yüksek kar kalitesi ve uzun süren kış mevsimi sayesinde uluslararası organizasyonlara ev sahipliği yapmaktadır.\n\nPalandöken Dağları'nın kış turizmine bu denli elverişli olmasında aşağıdakilerden hangisinin etkisi bulunmaz?",
+      "siklar": [
+        "A) Ortalama yükseltisinin fazla olması (en yüksek noktası 3176 m)",
+        "B) Doğu Anadolu'nun şiddetli karasal iklim koşullarına sahip olması",
+        "C) Karın yerde kalma süresinin 150 günü aşması",
+        "D) Litolojik yapısında aktif volkanik lavların çıkmaya devam etmesi",
+        "E) Nem oranının az olması sayesinde kar kristallerinin toz kar özelliğini koruması"
+      ],
+      "dogru": "D) Litolojik yapısında aktif volkanik lavların çıkmaya devam etmesi",
+      "aciklama": "Palandöken Dağları kıvrımlı yapıya sahip, yer yer volkanik kütlelerle örtülü olsa da aktif bir volkan değildir. Türkiye'de günümüzde aktif, lav çıkaran hiçbir volkanik dağ bulunmamaktadır. Dolayısıyla lav çıkışının kış turizmiyle ilgisi yoktur (D). Diğer seçenekler kış turizminin gelişiminde doğrudan etkilidir.",
+      "harita_il": "erzurum",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "daglar-018",
+      "soru": "Bolu ve Ankara illeri arasında uzanan Köroğlu Dağları, Kuzey Anadolu Dağları'nın iç sırasını oluşturur. Bu dağ sırasının jeolojik yapısı incelendiğinde kıvrım tabakalarının yanı sıra Tersiyer dönemine ait yoğun volkano-sedimanter (tuff, bazalt, andezit) kayaçların da geniş yer kapladığı görülür.\n\nKöroğlu Dağları'nın bu karmaşık litolojik yapısı ve konumu göz önüne alındığında, aşağıdaki ifadelerden hangisi yanlıştır?",
+      "siklar": [
+        "A) Köroğlu Dağları üzerinde buzul aşındırma şekillerine (sirk gölü) rastlanmaz.",
+        "B) En yüksek noktası Köroğlu Tepesi (2399 m) civarındadır.",
+        "C) Kuzey yamaçları Batı Karadeniz ikliminin etkisiyle gür ormanlarla kaplıdır.",
+        "D) Güney yamaçlarında İç Anadolu karasallığına bağlı olarak antropojen bozkırlar yaygındır.",
+        "E) Karadeniz ile İç Anadolu arasında önemli bir iklimsel ve hidrografik sınır oluşturur."
+      ],
+      "dogru": "A) Köroğlu Dağları üzerinde buzul aşındırma şekillerine (sirk gölü) rastlanmaz.",
+      "aciklama": "Köroğlu Dağları'nın en yüksek zirvesi olan Köroğlu Tepesi (2399 m) üzerinde Pleistosen döneminde küçük çaplı buzul izleri (sirkler ve buzul aşınım şekilleri) gelişmiştir. Türkiye'de buzul izleri genellikle 2200-2400 m üzerindeki yüksek dağlarda görülebilmektedir. Dolayısıyla A şıkkı yanlıştır. Diğer şıklar doğrudur.",
+      "harita_il": "bolu",
+      "zorluk": "zor"
+    },
+    {
+      "id": "daglar-019",
+      "soru": "Rize ve Artvin sınırlarında yer alan Kaçkar Dağları, Doğu Karadeniz Bölümü'nün en yüksek kıvrım dağ kütlesidir. Alp orojeneziyle şekillenen bu dağ sırası, Türkiye'de aktif buzul aşındırmasının ve güncel buzulların (glasyal sistem) en yaygın olduğu alanlardan biridir.\n\nKaçkar Dağları'nın en yüksek zirvesi aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Verçenik Tepe",
+        "B) Kaçkar Kavrun Zirvesi (3937 m)",
+        "C) Medetsiz Tepe",
+        "D) Akbaba Tepesi",
+        "E) Demirkazık Zirvesi"
+      ],
+      "dogru": "B) Kaçkar Kavrun Zirvesi (3937 m)",
+      "aciklama": "Kaçkar Dağları'nın en yüksek noktası Kaçkar Kavrun Zirvesi'dir (3937 m). Verçenik Tepe (3711 m) aynı dağ silsilesi içindeki ikinci yüksek zirvedir (A). Medetsiz Bolkar'dadır (C), Demirkazık Aladağlar'dadır (E), Akbaba Munzur'dadır (D).",
+      "harita_il": "rize",
+      "zorluk": "orta"
+    },
+    {
+      "id": "daglar-020",
+      "soru": "Batı Toroslar'da yer alan Geyik Dağları, Antalya ve Konya sınırında uzanan kıvrımlı ve yoğun karstik yapılı bir dağ sırasıdır.\n\nGeyik Dağları'nın bu yoğun karstik yapısının dağ üzerindeki su kaynakları ve topoğrafya üzerindeki temel etkisi aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Yüzey sularının (akarsuların) çok zengin olması ve büyük göller oluşturması",
+        "B) Yağış sularının düdenlerden yeraltına sızması nedeniyle yüzeyde kurak, yeraltında ise devasa mağara ve karstik su sistemlerinin gelişmesi",
+        "C) Toprak örtüsünün çok kalın ve humus bakımından zengin kahverengi orman toprakları olması",
+        "D) Fiziksel ufalanmanın kimyasal çözünmeye göre çok daha şiddetli olması",
+        "E) Aktif lav akıntıları nedeniyle verimli volkanik toprakların bulunması"
+      ],
+      "dogru": "B) Yağış sularının düdenlerden yeraltına sızması nedeniyle yüzeyde kurak, yeraltında ise devasa mağara ve karstik su sistemlerinin gelişmesi",
+      "aciklama": "Geyik Dağları karstik kalker yapıda olduğu için, çatlaklı ve eriyebilen yapısı yüzey sularının hızla düdenler vasıtasıyla yer altına sızmasına sebep olur. Bu durum dağlık alanda yüzey sularının kıt olmasına (yüzey kuruluğu) ancak yer altında zengin karstik akiferlerin ve mağara sistemlerinin (örn. Dim Mağarası) oluşmasına yol açar.",
+      "harita_il": "antalya",
+      "zorluk": "orta"
+    },
+    {
+      "id": "daglar-021",
+      "soru": "Doğu Anadolu Bölgesi'ndeki kıvrım dağları (Allahuekber, Mescit, Yalnızçam Dağları), çok yüksek su bölümü çizgileri oluşturarak nehir havzalarını birbirinden ayırırlar.\n\nBu dağların kuzey yamaçlarından doğan sular Çoruh Nehri vasıtasıyla Karadeniz'e dökülürken; güney ve doğu yamaçlarından doğan sular Hazar Denizi'ne dökülen hangi nehirlerin kaynağını oluşturur?",
+      "siklar": [
+        "A) Fırat - Dicle",
+        "B) Aras - Kura",
+        "C) Yeşilırmak - Kızılırmak",
+        "D) Seyhan - Ceyhan",
+        "E) Göksu - Manavgat"
+      ],
+      "dogru": "B) Aras - Kura",
+      "aciklama": "Mescit, Allahuekber ve Yalnızçam dağlarının kuzey yamaçları Çoruh (Karadeniz) havzasına aittir. Güney ve doğu yamaçlarındaki sular ise Hazar Denizi'ne dökülen kapalı havza nehirleri olan Aras ve Kura nehirlerini besler. Fırat-Dicle Basra Körfezi'ne dökülür (A).",
+      "harita_il": "kars",
+      "zorluk": "zor"
+    },
+    {
+      "id": "daglar-022",
+      "soru": "Orta Toroslar'ın doğu uzantısını oluşturan Tahtalı Dağları (Adana-Kayseri sınırında), kıvrımlı yapısı ve kalker litolojisi ile dikkat çeker. Dağın kıyıya paralel uzanması Akdeniz iklim etkisinin iç kesimlere sokulmasını engeller.\n\nTahtalı Dağları'nın bu orografik yapısının aşağıdaki durumlardan hangisine yol açması beklenmez?",
+      "siklar": [
+        "A) Dağın güney yamaçlarında Akdeniz makilerinin ve kızılçam ormanlarının görülmesine",
+        "B) Kuzey yamaçlarında karasal bozkırların ve soğuğa dayanıklı iğne yapraklıların yaygın olmasına",
+        "C) Dağın her iki yamacı arasında belirgin sıcaklık ve nem farkı oluşmasına",
+        "D) Dağ yamaçlarında yüksek miktarda orografik (yamaç) yağışlarının görülmesine",
+        "E) Ulaşımın dağ yamaçlarından enine geçen geniş ovalar üzerinden kesintisiz yapılmasına"
+      ],
+      "dogru": "E) Ulaşımın dağ yamaçlarından enine geçen geniş ovalar üzerinden kesintisiz yapılmasına",
+      "aciklama": "Tahtalı Dağları orografik bir bariyer oluşturduğu için kıyı ile iç kesimler arasındaki ulaşımı zorlaştırır. Ulaşım kesintisiz ve kolay değil, ancak zorlu virajlar ve derin vadiler/geçitler vasıtasıyla sağlanabilir. Diğer şıklar dağın orografik bariyer rolünün ve yamaçlar arası iklim farklarının doğal sonuçlarıdır.",
+      "harita_il": "adana",
+      "zorluk": "orta"
+    },
+    {
+      "id": "daglar-023",
+      "soru": "İç Anadolu Bölgesi ile Göller Yöresi (Ege-Akdeniz geçiş kuşağı) arasında doğal bir duvar gibi uzanan Sultan Dağları, Afyonkarahisar, Konya ve Isparta illeri sınırında yer alan önemli bir kıvrım dağıdır.\n\nSultan Dağları'nın bu konumu, aşağıdaki göllerden hangilerinin havzalarını birbirinden ayıran doğal bir su bölümü çizgisi oluşturur?",
+      "siklar": [
+        "A) Van Gölü - Tuz Gölü",
+        "B) Beyşehir Gölü - Akşehir Gölü",
+        "C) Manyas Gölü - Ulubat Gölü",
+        "D) Eğirdir Gölü - Salda Gölü",
+        "E) Bafa Gölü - Köyceğiz Gölü"
+      ],
+      "dogru": "B) Beyşehir Gölü - Akşehir Gölü",
+      "aciklama": "Sultan Dağları, kuzeydoğusundaki Akşehir ve Eber gölleri havzası ile güneybatısındaki Beyşehir Gölü havzasını birbirinden ayıran doğal bir su bölümü çizgisi ve orografik engeldir. Diğer şıklar coğrafi olarak farklı bölgelerdedir.",
+      "harita_il": "afyonkarahisar",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "daglar-024",
+      "soru": "Kocaeli Yarımadası'nın güneyinde, İzmit Körfezi ile Sapanca Gölü'nün hemen güneyinde uzanan Samanlı Dağları, Marmara Bölgesi'nin önemli kıvrım dağlarındandır.\n\nSamanlı Dağları'nın jeomorfolojik ve sismik özellikleri göz önüne alındığında aşağıdaki ifadelerden hangisi doğrudur?",
+      "siklar": [
+        "A) Aktif bir volkan konisi olup üzerinde krater gölü bulunur.",
+        "B) Kuzey Anadolu Fay Hattı'nın (KAF) kuzey kolu bu dağ sırasının hemen kuzey eteğindeki tektonik oluktan (İzmit Körfezi - Sapanca oluğu) geçer.",
+        "C) Ortalama yükseltisi 3000 metrenin üzerinde olup güncel buzul izleri taşır.",
+        "D) Ege tipi kırıklı horst sistemine ait bir dağdır.",
+        "E) Litolojik yapısında tamamen jipslerden oluşan karstik boşluklar bulunur."
+      ],
+      "dogru": "B) Kuzey Anadolu Fay Hattı'nın (KAF) kuzey kolu bu dağ sırasının hemen kuzey eteğindeki tektonik oluktan (İzmit Körfezi - Sapanca oluğu) geçer.",
+      "aciklama": "Samanlı Dağları kıvrımlı yapıda bir dağ sırasıdır ve kuzey eteğinde İzmit Körfezi-Sapanca Gölü-Adapazarı Ovası tektonik çöküntü alanı yer alır. Kuzey Anadolu Fay Hattı (KAF) bu çöküntü oluğundan geçmektedir. Dağın yüksekliği 1601 m olup üzerinde buzul izi yoktur (C), volkanik değildir (A) ve kırıklı (horst) değildir (D).",
+      "harita_il": "kocaeli",
+      "zorluk": "zor"
+    },
+    {
+      "id": "daglar-025",
+      "soru": "Orta Toroslar'ın batı kısmında, Antalya ile Konya illeri sınırında yer alan Akdağlar, yüksek alpin çayırları ve karstik düzlükleriyle bilinir. Yaz aylarında hem Akdeniz kıyısından hem de İç Anadolu karasallığından gelen göçerlerin yaylacılık ve küçükbaş hayvancılık yaptığı önemli bir alandır.\n\nAkdağlar'da küçükbaş hayvancılık ve yaylacılık faaliyetlerinin yaygın olmasında aşağıdakilerden hangisinin payı en azdır?",
+      "siklar": [
+        "A) Yüksek rakıma bağlı olarak yaz aylarında havanın serin kalması",
+        "B) Yaz yağışları ve eriyen kar sularıyla beslenen alpin çayırlarının (otlakların) geniş yer kaplaması",
+        "C) Karstik kaynakların (voklüzlerin) gür su temin etmesi",
+        "D) Dağlık alanların eğim ve engebe nedeniyle makineli tarıma elverişsiz olması",
+        "E) Litolojik yapısında yer alan taş kömürü yataklarının zenginliği"
+      ],
+      "dogru": "E) Litolojik yapısında yer alan taş kömürü yataklarının zenginliği",
+      "aciklama": "Akdağlar karstik tortul yapıda (Alp orojenezi) bir dağ olup litolojik yapısında taş kömürü (I. Zaman) yatakları bulunmaz. Taş kömürü Zonguldak çevresine özgüdür. Dolayısıyla taş kömürü zenginliğinin yaylacılık ve hayvancılıkla hiçbir ilgisi yoktur (E). Diğer şıklar yaylacılık ve hayvancılığı doğrudan destekleyen jeomorfolojik, klimatolojik ve hidrolojik faktörlerdir.",
+      "harita_il": "konya",
+      "zorluk": "orta"
+    },
+    {
+      "id": "daglar-026",
+      "soru": "Türkiye'de dağ oluşum (orojenez) süreçlerinde tortul tabakaların esneklik durumları dağların yapısal karakterini belirler. Jeolojik açıdan yaşlı, sertleşmiş ve esnekliğini kaybetmiş tortul tabakalar yan basınçlara maruz kaldıklarında kıvrılamazlar ve kırılmaya uğrarlar. Bu kırılma düzlemleri (fay hatları) boyunca bazı kütleler yükselirken, bazı kütleler çöker.\n\nBu kırıklı dağ oluşum sürecinde yükselen sert kütlelere ve çöken tektonik alanlara verilen isimler aşağıdakilerin hangisinde sırasıyla doğru olarak verilmiştir?",
+      "siklar": [
+        "A) Horst - Graben",
+        "B) Antiklinal - Senklinal",
+        "C) Graben - Horst",
+        "D) Kaldera - Maar",
+        "E) Sill - Dayk"
+      ],
+      "dogru": "A) Horst - Graben",
+      "aciklama": "Kırıklı dağ oluşumunda (faylanma), yan basınçlar sonucu yükselen kütlelere 'horst' (dağ), çöken alanlara ise 'graben' (çöküntü ovası) denir. Antiklinal ve senklinal kıvrımlı dağ oluşumuna aittir (B). Kaldera ve maar volkaniktir (D). Sill ve dayk ise derinlik volkanizması şekilleridir (E).",
+      "harita_il": "izmir",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "daglar-027",
+      "soru": "Ege Bölgesi, Türkiye'de kırıklı dağ oluşumunun (horst-graben sistemleri) en tipik ve yaygın görüldüğü coğrafi alandır. Bölgede kuzeyden güneye doğru bir dizi horst dağ kütlesi ve bunların arasında uzanan graben ovaları yer alır.\n\nAşağıdakilerden hangisi Ege Bölgesi'nde yer alan bu horst (kırıklı dağ) kütlelerinden biri değildir?",
+      "siklar": [
+        "A) Madra Dağı",
+        "B) Yunt Dağı",
+        "C) Bozdağlar",
+        "D) Aydın Dağları",
+        "E) Canik Dağları"
+      ],
+      "dogru": "E) Canik Dağları",
+      "aciklama": "Canik Dağları, Orta Karadeniz Bölümü'nde yer alan alçak karakterli bir kıvrım dağıdır (E). Ege Bölgesi'ndeki başlıca horstlar ise Madra (A), Yunt (B), Bozdağlar (C), Aydın Dağları (D) ve Menteşe Dağları'dır.",
+      "harita_il": "manisa",
+      "zorluk": "orta"
+    },
+    {
+      "id": "daglar-028",
+      "soru": "Ege Bölgesi'ndeki dağların büyük bir kısmı kıyı çizgisine dik uzanırken, bölgenin güneyindeki Menteşe Yöresi'nde yer alan Menteşe Dağları bu kurala uymaz ve kıyı çizgisine paralel bir uzanış gösterir.\n\nMenteşe Dağları'nın bu farklı uzanış doğrultusunun Muğla ve çevresinde yol açtığı sonuçlar arasında aşağıdakilerden hangisi gösterilemez?",
+      "siklar": [
+        "A) Kıyı şeridinde girinti-çıkıntı, koy ve körfez sayısının Ege'nin kuzeyine göre daha az olması",
+        "B) Kıyı ile iç kesimler arasındaki ulaşımın zorlaşması ve geçitlere ihtiyaç duyulması",
+        "C) Denizden gelen nemli rüzgarların dağ yamaçlarına çarparak bol miktarda yamaç (orografik) yağışı bırakması",
+        "D) Kıyı gerisinde geniş düzlüklerin (graben ovalarının) kıyıya kadar kesintisiz uzanması",
+        "E) Ege'nin genelindeki enine kıyı tipinin aksine, yer yer boyuna kıyı tipi özellikleri sergilenmesi"
+      ],
+      "dogru": "D) Kıyı gerisinde geniş düzlüklerin (graben ovalarının) kıyıya kadar kesintisiz uzanması",
+      "aciklama": "Menteşe Dağları kıyıya paralel uzandığı için kıyı gerisinde geniş graben ovaları kıyıya kadar kesintisiz uzanamaz; aksine dağlık ve engebeli kütleler kıyıyı hemen bloke eder. Bu yüzden yörede enine kıyı tipi değil boyuna kıyı tipi özellikleri baskındır, ulaşım zordur (B), yağış fazladır (C), girinti-çıkıntı ve delta oluşumu daha zordur (A, E).",
+      "harita_il": "mugla",
+      "zorluk": "zor"
+    },
+    {
+      "id": "daglar-029",
+      "soru": "Türkiye'de kırıklı dağ oluşumu (horst-graben sistemi) sadece Ege Bölgesi ile sınırlı değildir. Akdeniz Bölgesi'nde de tektonik kırılmalarla oluşmuş çok belirgin bir horst kütlesi yer alır. Bu dağ sırası, İskenderun Körfezi'nin doğusunda adeta bir duvar gibi yükselir.\n\nAkdeniz Bölgesi'ndeki bu kırıklı dağ sırası aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Bolkar Dağları",
+        "B) Aladağlar",
+        "C) Amanos (Nur) Dağları",
+        "D) Geyik Dağları",
+        "E) Bey Dağları"
+      ],
+      "dogru": "C) Amanos (Nur) Dağları",
+      "aciklama": "Akdeniz Bölgesi'ndeki kıvrım dağları kuşağının (Toroslar) aksine, Hatay'da yer alan Amanos (Nur) Dağları tektonik kırılmayla oluşmuş bir horst kütlesidir. Bu kütlenin hemen doğusundaki Amik Ovası ise graben alanıdır. Bolkar, Aladağlar, Geyik ve Bey Dağları kıvrımlı Toroslar kuşağındadır.",
+      "harita_il": "hatay",
+      "zorluk": "orta"
+    },
+    {
+      "id": "daglar-030",
+      "soru": "Ege Bölgesi'ndeki horst-graben sistemleri, yer kabuğunun dikey yönlü hareketleriyle oluşan derin fay hatları ile sınırlandırılmıştır.\n\nBu jeolojik durumun bir sonucu olarak Ege Bölgesi'ndeki dağların eteklerinde ve graben sınırlarında aşağıdaki coğrafi unsurlardan hangisinin en yaygın olması beklenir?",
+      "siklar": [
+        "A) Aktif buzul vadileri ve sirk göllerinin",
+        "B) Sıcak su kaynakları, kaplıcalar ve jeotermal alanların",
+        "C) Geniş karstik polye ovalarının ve obrukların",
+        "D) Aktif stratovolkan konilerinin ve maar çukurlarının",
+        "E) Taş kömürü yataklarının ve derin kömür ocaklarının"
+      ],
+      "dogru": "B) Sıcak su kaynakları, kaplıcalar ve jeotermal alanların",
+      "aciklama": "Horst ve grabenleri sınırlayan fay hatları, yer kabuğunda derin çatlaklar oluşturur. Bu çatlaklardan sızan sular yerin derinliklerinde ısınıp basınçla yeryüzüne kaplıca, ılıca ve jeotermal kaynaklar olarak çıkar. Ege Bölgesi bu kaynaklar (fay kaynakları) yönünden Türkiye'nin en zengin bölgesidir. Buzul (A), karstik polye (C - Akdeniz), aktif volkan (D) veya taş kömürü (E) bu durumla ilgili değildir.",
+      "harita_il": "aydin",
+      "zorluk": "orta"
+    },
+    {
+      "id": "daglar-031",
+      "soru": "Ege Bölgesi'nde yer alan Aydın Dağları, kuzey ve güney sınırlarında Türkiye'nin en verimli tarım havzalarını oluşturan iki büyük graben ovası ile komşudur. Bu dağ sırasının sınırlandığı fay hatları, zengin jeotermal akiferlere ev sahipliği yapar.\n\nAydın Dağları horstunun kuzeyinde ve güneyinde yer alan graben ovaları aşağıdakilerin hangisinde sırasıyla doğru olarak verilmiştir?",
+      "siklar": [
+        "A) Gediz Grabeni - Bakırçay Grabeni",
+        "B) Küçük Menderes Grabeni - Büyük Menderes Grabeni",
+        "C) Büyük Menderes Grabeni - Gediz Grabeni",
+        "D) Amik Grabeni - Küçük Menderes Grabeni",
+        "E) Bakırçay Grabeni - Küçük Menderes Grabeni"
+      ],
+      "dogru": "B) Küçük Menderes Grabeni - Büyük Menderes Grabeni",
+      "aciklama": "Aydın Dağları horst kütlesinin kuzeyinde Küçük Menderes Grabeni (Ödemiş, Tire ovaları), güneyinde ise Büyük Menderes Grabeni (Aydın, Söke ovaları) yer alır. Gediz Grabeni Manisa-İzmir arasındadır (Bozdağlar'ın kuzeyi).",
+      "harita_il": "aydin",
+      "zorluk": "zor"
+    },
+    {
+      "id": "daglar-032",
+      "soru": "Ege Bölgesi'nin en önemli kırıklı dağ kütlelerinden biri olan Bozdağlar, 2159 metrelik yükseltisiyle bölgede kış sporlarının yapılabildiği ender alanlardan biridir. İzmir'in Ödemiş ilçesi sınırlarında yer alan Bozdağ Kayak Merkezi, bölge halkı için önemli bir rekreasyon alanıdır.\n\nBozdağlar üzerinde kış sporlarının yapılabilmesi, bu dağ kütlesinin aşağıdaki özelliklerinden hangisiyle doğrudan açıklanabilir?",
+      "siklar": [
+        "A) Kıyı çizgisine dik uzanmasıyla",
+        "B) Çevresinde aktif fay hatlarının ve jeotermal kaynakların yaygın olmasıyla",
+        "C) Ege Bölgesi standartlarına göre yükseltisinin fazla olması ve karın yerde kalma süresinin uzamasıyla",
+        "D) Litolojik yapısında metamorfik şistlerin geniş yer tutmasıyla",
+        "E) Batı rüzgarlarının getirdiği nemi doğrudan alarak bol miktarda cephesel yağış almasıyla"
+      ],
+      "dogru": "C) Ege Bölgesi standartlarına göre yükseltisinin fazla olması ve karın yerde kalma süresinin uzamasıyla",
+      "aciklama": "Normalde kıyı Ege'de kar yağışı ve karın yerde kalması çok zordur. Ancak Bozdağlar'ın zirvesinin 2000 metrenin üzerinde olması (2159 m), sıcaklığın düşmesine ve kış aylarında karın yerde kalarak kayak turizmine elverişli bir zemin oluşturmasına imkan tanır. Bu durum tamamen yükselti faktörüyle açıklanır.",
+      "harita_il": "izmir",
+      "zorluk": "orta"
+    },
+    {
+      "id": "daglar-033",
+      "soru": "Ege Bölgesi'nin en kuzeyinde yer alan horst kütlesidir. Balıkesir'in Edremit ilçesi ile İzmir'in Bergama ilçesi arasında doğal bir sınır çizer. Granitik intrüzyonlar barındıran yapısı ve zeytin bahçeleriyle kaplı yamaçlarıyla bilinir.\n\nYukarıda coğrafi özellikleri verilen kırıklı dağ kütlesi aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Madra Dağı",
+        "B) Yunt Dağı",
+        "C) Aydın Dağları",
+        "D) Spil Dağı",
+        "E) Biga Dağları"
+      ],
+      "dogru": "A) Madra Dağı",
+      "aciklama": "Edremit Körfezi'nin güneyinde, Balıkesir-İzmir sınırında yer alan Ege'nin en kuzeyindeki horst kütlesi Madra Dağı'dır (1339 m). Yunt Dağı onun hemen güneyindedir (B). Spil Manisa'da (D), Biga Marmara'dadır (E).",
+      "harita_il": "balikesir",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "daglar-034",
+      "soru": "İzmir ile Manisa illeri arasında yer alan Yunt Dağı, Ege'nin önemli kırıklı dağ kütlelerindendir. Son yıllarda dağın yüksek sırtlarında kurulan rüzgar enerjisi santralleri (RES), Türkiye'nin yeşil enerji üretimine önemli katkılar sunmaktadır.\n\nYunt Dağı'nın rüzgar enerjisi potansiyelinin yüksek olmasında aşağıdakilerden hangisi doğrudan etkilidir?",
+      "siklar": [
+        "A) Fay hatlarından sıcak buhar çıkışının olması",
+        "B) Dağın kıyıya dik uzanması sayesinde denizden gelen hakim rüzgarların ve hava akımlarının dağ sırtları boyunca yoğunlaşması",
+        "C) Jeolojik açıdan çok yaşlı masif arazilerden oluşması",
+        "D) Akdeniz iklimi nedeniyle yaz aylarında havanın sürekli kuru olması",
+        "E) Litolojik yapısında bazaltik lav akıntılarının bulunması"
+      ],
+      "dogru": "B) Dağın kıyıya dik uzanması sayesinde denizden gelen hakim rüzgarların ve hava akımlarının dağ sırtları boyunca yoğunlaşması",
+      "aciklama": "Yunt Dağı'nın kıyıya dik uzanışı, denizden esen hakim rüzgarların graben koridorlarından içeri girerken dağ sırtlarında yükselmesine ve hız kazanmasına yol açar. Bu orografik ve rüzgar koridoru yapısı, rüzgar enerjisi santralleri (RES) için mükemmel bir potansiyel sunar. Termal buhar (A) jeotermal enerji ile ilgilidir, rüzgarla ilgisi yoktur.",
+      "harita_il": "manisa",
+      "zorluk": "orta"
+    },
+    {
+      "id": "daglar-035",
+      "soru": "Ege Bölgesi'nde (Menteşe Yöresi hariç) dağların kıyı çizgisine dik uzanması (Enine kıyı tipi), bölgenin hem fiziki hem de beşeri coğrafya özelliklerini derinden etkilemiştir.\n\nAşağıdakilerden hangisi Ege'de dağların kıyıya dik uzanmasının doğrudan sonuçlarından biri olamaz?",
+      "siklar": [
+        "A) Denizel iklim etkilerinin iç kesimlere kadar kolayca sokulabilmesi",
+        "B) Kıyı şeridinde koy, körfez, doğal liman ve yarımada sayısının çok fazla olması",
+        "C) Kıyı ile iç kesimler arasındaki ulaşımın doğal graben ovaları üzerinden kolayca sağlanması",
+        "D) Dağların denize bakan yamaçlarında Türkiye'nin en yüksek orografik (yamaç) yağışlarının görülmesi",
+        "E) Limanların (özellikle İzmir Limanı) hinterlandının (ard bölgesinin) son derece geniş olması"
+      ],
+      "dogru": "D) Dağların denize bakan yamaçlarında Türkiye'nin en yüksek orografik (yamaç) yağışlarının görülmesi",
+      "aciklama": "Ege Bölgesi'nde dağlar kıyıya dik uzandığı için nemli hava kütleleri bir engel ile karşılaşmadan grabenlerden iç kesimlere sokulur. Bu nedenle Ege kıyılarında orografik (yamaç) yağışlar yaygın değildir ve yağış miktarı Doğu Karadeniz veya Batı Toroslar'a göre çok düşüktür. En yüksek yamaç yağışları dağların paralel uzandığı Karadeniz ve Toroslar'da görülür. A, B, C ve E şıkları dik uzanmanın doğrudan sonuçlarıdır.",
+      "harita_il": "izmir",
+      "zorluk": "zor"
+    },
+    {
+      "id": "daglar-036",
+      "soru": "Hatay sınırlarında yer alan Amik Ovası, Suriye sınırından gelen Asi Nehri'nin sularıyla beslenen, son derece verimli alüvyonal topraklarla kaplı tektonik bir graben alanıdır. Bu graben, batıdan ve doğudan fay hatlarıyla sınırlanan yüksek dağ kütleleri tarafından kuşatılmıştır.\n\nAmik Ovası grabeninin batı sınırını oluşturan ve Akdeniz kıyısı boyunca uzanan kırıklı dağ sırası aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Tahtalı Dağları",
+        "B) Amanos (Nur) Dağları",
+        "C) Bolkar Dağları",
+        "D) Binboğa Dağları",
+        "E) Menteşe Dağları"
+      ],
+      "dogru": "B) Amanos (Nur) Dağları",
+      "aciklama": "Amik Ovası grabeninin batısında Akdeniz kıyısı boyunca uzanan horst kütlesi Amanos (Nur) Dağları'dır. Dağ ile ova arasındaki kırık hattı (fay) tektonik olarak son derece aktiftir. Tahtalı ve Bolkar kıvrımlı Toroslar'dadır. Binboğa Kahramanmaraş'tadır. Menteşe ise Muğla'dadır.",
+      "harita_il": "hatay",
+      "zorluk": "orta"
+    },
+    {
+      "id": "daglar-037",
+      "soru": "Ege Bölgesi'nin iç kısımlarında yer alan Denizli ve çevresi, jeolojik olarak horst-graben sistemlerinin ve aktif fay hatlarının en yoğun kesiştiği alanlardandır. Bu durum bölgede sık sık tektonik sarsıntıların yaşanmasına neden olur.\n\nDenizli çevresindeki kırıklı dağ yapıları ve fay hatları, aşağıdaki turistik ve jeolojik oluşumlardan hangisinin ortaya çıkmasında temel etkendir?",
+      "siklar": [
+        "A) Pamukkale Travertenleri ve termal sıcak sularının",
+        "B) Nemrut Kaldera Gölü'nün",
+        "C) Tortum Heyelan Set Gölü'nün",
+        "D) Karapınar Kumul Şekillerinin",
+        "E) Damlataş Karstik Mağarası'nın"
+      ],
+      "dogru": "A) Pamukkale Travertenleri ve termal sıcak sularının",
+      "aciklama": "Pamukkale travertenleri, fay hatlarından çıkan kalsiyum bikarbonat yönünden zengin sıcak termal suların yeryüzüne ulaştığında içindeki karbondioksitin uçması ve kalsiyum karbonatın çökelmesiyle oluşmuştur. Bu oluşum tamamen kırıklı yapı, fay hatları ve jeotermal sismik aktiviteyle doğrudan ilişkilidir. Nemrut volkaniktir (B), Tortum heyelan settir (C), Damlataş ise kalker erimesiyle oluşan karstik bir mağaradır (E).",
+      "harita_il": "denizli",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "daglar-038",
+      "soru": "Kırıklı dağların oluşumunda tortul tabakaların sertlik derecesi kilit rol oynar. Metamorfizmaya uğramış eski kütleler (masifler) kırılmaya en yatkın alanlardır.\n\nEge Bölgesi'ndeki hangi horst kütlesi, aynı zamanda I. Jeolojik Zaman'da oluşmuş eski bir masif kütlenin (Menteşe-Saruhan Masifi) sertleşmiş tabakalarının kırılmasıyla bugünkü engebeli yapısını kazanmıştır?",
+      "siklar": [
+        "A) Yunt Dağı",
+        "B) Aydın Dağları",
+        "C) Menteşe Dağları",
+        "D) Spil Dağı",
+        "E) Madra Dağı"
+      ],
+      "dogru": "C) Menteşe Dağları",
+      "aciklama": "Menteşe Dağları, I. Jeolojik Zaman'a tarihlenen yaşlı Menteşe-Saruhan masifinin çekirdeğini oluşturur. Bu masif kütle, Tersiyer'deki Alp yan basınçlarıyla kıvrılamamış, kırılmaya uğrayarak Menteşe horst ve graben sistemini oluşturmuştur. Dolayısıyla masif kökenli kırıklı yapıya en net örnektir.",
+      "harita_il": "mugla",
+      "zorluk": "zor"
+    },
+    {
+      "id": "daglar-039",
+      "soru": "Ege Bölgesi genel olarak nüfusun yoğun olduğu, sanayi ve tarımın geliştiği bir bölgedir. Ancak bölgenin güneybatısındaki Menteşe Yöresi, dağlık ve engebeli yapısı nedeniyle bu genellemeye uymayarak 'seyrek nüfuslu alanlar' arasında yer alır.\n\nMenteşe Dağlık Yöresi'nde nüfusun seyrek olmasında aşağıdakilerden hangisinin etkisi en azdır?",
+      "siklar": [
+        "A) Engebeli topoğrafyanın tarımsal faaliyetleri ve makineli tarımı sınırlandırması",
+        "B) Ulaşım yollarının ana kavşak noktalarına uzak ve sapa kalması",
+        "C) Yağış miktarının tarım yapılmasına izin vermeyecek kadar az olması",
+        "D) Sanayi tesislerinin engebe nedeniyle gelişememiş olması",
+        "E) Dağlık alanların ormanlarla kaplı olması nedeniyle yerleşim yeri açmanın zorluğu"
+      ],
+      "dogru": "C) Yağış miktarının tarım yapılmasına izin vermeyecek kadar az olması",
+      "aciklama": "Menteşe Yöresi, dağların kıyıya paralel uzanması nedeniyle nemli hava kütlelerini yakalar ve yıllık 1000 mm'yi aşan yağışla Ege'nin en çok yağış alan yeridir. Yağış azlığı söz konusu değildir, aksine yağış oldukça fazladır. Nüfusun seyrek olmasının temel nedeni yağış azlığı değil, engebeli topoğrafya (A), ulaşıma sapa kalması (B) ve sanayinin gelişmemesidir (D).",
+      "harita_il": "mugla",
+      "zorluk": "orta"
+    },
+    {
+      "id": "daglar-040",
+      "soru": "Türkiye'de jeotermal enerji üretimi, özellikle kırıklı dağ oluşumunun ve aktif fay hatlarının yoğun olduğu graben alanlarında büyük gelişim göstermiştir. Denizli'nin Sarayköy ve Aydın'ın Germencik ilçeleri, Türkiye'nin ilk ve en büyük jeotermal enerji santrallerine (JES) ev sahipliği yapar.\n\nSarayköy ve Germencik'teki bu jeotermal enerji potansiyeli, hangi horst-graben sistemlerinin fay hatlarıyla doğrudan ilişkilidir?",
+      "siklar": [
+        "A) Amik Grabeni - Nur Dağları",
+        "B) Gediz Grabeni - Bozdağlar",
+        "C) Büyük Menderes Grabeni - Aydın Dağları",
+        "D) Bakırçay Grabeni - Madra Dağı",
+        "E) Sapanca Grabeni - Samanlı Dağları"
+      ],
+      "dogru": "C) Büyük Menderes Grabeni - Aydın Dağları",
+      "aciklama": "Denizli-Sarayköy ve Aydın-Germencik, Büyük Menderes Grabeni sınırlarında yer alır. Bu graben, kuzeydeki Aydın Dağları horstu ile sınırlandırılan aktif kırık hatlarına sahiptir ve zengin sıcak buhar/termal su barındırır. Bu durum jeotermal santrallerin kurulmasına imkan tanımıştır.",
+      "harita_il": "denizli",
+      "zorluk": "orta"
+    },
+    {
+      "id": "daglar-041",
+      "soru": "Çanakkale ve Balıkesir sınırlarında yer alan Kazdağı (İda Dağı), zengin orman örtüsü, yüksek oksijen oranı ve mitolojik geçmişiyle bilinir. Jeolojik olarak incelendiğinde bu dağ sırasının hem kıvrımlı yapı unsurları barındırdığı hem de Edremit Grabeni'nin kuzeyinde bir fay dikliğiyle (horst) sınırlandığı görülür.\n\nKazdağı yamaçlarında yer alan ve Türkiye'nin en önemli zeytin üretim merkezlerinden biri olan körfez aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Güllük Körfezi",
+        "B) İzmir Körfezi",
+        "C) Saros Körfezi",
+        "D) Edremit Körfezi",
+        "E) İskenderun Körfezi"
+      ],
+      "dogru": "D) Edremit Körfezi",
+      "aciklama": "Kazdağı'nın güney yamaçları, Edremit Körfezi'ne bakar. Bu körfezin kıyılarında ve dağın eteklerinde zeytin tarımı son derece gelişmiştir. Güllük Muğla'dadır (A), Saros Çanakkale'nin kuzeyindedir (C), Edremit ise Kazdağı eteklerindedir.",
+      "harita_il": "canakkale",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "daglar-042",
+      "soru": "Ege Bölgesi'nde dağların kıyıya dik uzanması, graben düzlüklerinin deniz etkisini iç kesimlere taşıyan birer klimatolojik koridor vazifesi görmesine imkan tanır.\n\nBu durumun bir sonucu olarak, normal şartlarda kıyı kuşağına özgü olan aşağıdaki tarım ürünlerinden hangisinin Ege Bölgesi'nde kıyıdan yaklaşık 100-150 km iç kesimlere kadar yayılış gösterebildiği gözlemlenir?",
+      "siklar": [
+        "A) Çay",
+        "B) Fındık",
+        "C) Zeytin",
+        "D) Muz",
+        "E) Ananas"
+      ],
+      "dogru": "C) Zeytin",
+      "aciklama": "Ege'de dağların kıyıya dik uzanması sayesinde Akdeniz iklimi ve denizel etkiler graben vadileri boyunca iç kesimlere kolayca sokulur. Bu sayede Akdeniz ikliminin tanıtıcı ürünü olan zeytin (ve incir), kıyıdan 100-150 km içerideki Denizli sınırlarına kadar yetişme alanı bulabilir. Çay (A) ve fındık (B) Karadeniz iklimine özgüdür, muz ise mikroklima olarak sadece Akdeniz kıyısındadır (D).",
+      "harita_il": "aydin",
+      "zorluk": "zor"
+    },
+    {
+      "id": "daglar-043",
+      "soru": "Ege Bölgesi'nin en yüksek noktası, Denizli yakınlarında yükselen ve milli park statüsünde korunan Honaz Dağı'dır (2528 m). Jeolojik yapısı incelendiğinde bu kütlenin kıvrımlı Toros kuşağı ile kırıklı Ege horst sistemleri arasında bir geçiş alanı oluşturduğu görülür.\n\nHonaz Dağı ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+      "siklar": [
+        "A) Ortalama yükseltisi Ege Bölgesi'ndeki tüm horst dağlarından daha fazladır.",
+        "B) Zirve kesimlerinde Pleistosen buzul dönemlerine ait glasyal aşınım şekillerine rastlanır.",
+        "C) Litolojik yapısında kireçtaşları yaygın olup karstik şekiller barındırır.",
+        "D) Türkiye'nin en genç aktif volkanı olup çevresinde lav akıntıları yaygındır.",
+        "E) Dağ eteğindeki Denizli Ovası tektonik bir graben alanıdır."
+      ],
+      "dogru": "D) Türkiye'nin en genç aktif volkanı olup çevresinde lav akıntıları yaygındır.",
+      "aciklama": "Honaz Dağı volkanik bir dağ değildir, kıvrımlı/kırıklı tektonik bir dağ kütlesidir. Türkiye'nin en genç volkanik alanı Manisa Kula'dadır. Dolayısıyla D seçeneği yanlıştır. Honaz Dağı 2528 m ile Ege'nin en yükseğidir (A), buzul izleri taşır (B) ve karstiktir (C).",
+      "harita_il": "denizli",
+      "zorluk": "orta"
+    },
+    {
+      "id": "daglar-044",
+      "soru": "Manisa şehrinin hemen güneyinde bir duvar gibi yükselen Spil Dağı, hem mitolojik geçmişi ('Ağlayan Kaya' Niobe) hem de endemik Manisa lalesi ve yılkı atlarıyla ünlüdür. Kırıklı yapının üzerinde yer alan bu dağ kütlesi milli park statüsündedir.\n\nSpil Dağı'nın litolojik ve morfolojik yapısında kalkerlerin (kireçtaşı) yaygın olması, dağ üzerinde aşağıdaki şekillerden hangisinin yaygın olarak gelişmesini sağlamıştır?",
+      "siklar": [
+        "A) Volkanik maar gölleri ve kraterlerin",
+        "B) Lapya, dolin, mağara gibi karstik erime şekillerinin",
+        "C) Buzul vadileri ve sirklerin",
+        "D) Fiyort tipi derin kıyıların",
+        "E) Geniş kumul örtülerinin"
+      ],
+      "dogru": "B) Lapya, dolin, mağara gibi karstik erime şekillerinin",
+      "aciklama": "Spil Dağı kalkerli (kireçtaşı) bir litolojiye sahiptir. Suyun etkisiyle kolay eriyen bu kayaçlar üzerinde lapya, dolin, mağara gibi karstik şekiller gelişmiştir. Örneğin Spil Dağı'nda çok sayıda mağara ve dolin bulunur. Volkanik (A) veya glasyal (C) yapıda değildir.",
+      "harita_il": "manisa",
+      "zorluk": "orta"
+    },
+    {
+      "id": "daglar-045",
+      "soru": "Ege Bölgesi'ndeki horst dağlarının (Madra, Yunt, Bozdağlar, Aydın Dağları) yüksek kesimlerinden doğan akarsular, eğimli yamaçlardan akarak graben ovalarına ulaşırlar. Bu süreçte dağlardan aşındırılan bol miktarda sedimenter malzeme graben düzlüklerinde birikir.\n\nBu durum graben ovalarının aşağıdaki özelliklerinden hangisini kazanmasında temel etkendir?",
+      "siklar": [
+        "A) Karstik erime çukurlarıyla kaplanmasında",
+        "B) Tarımsal açıdan son derece verimli alüvyonal toprakların (graben tabanlarının) oluşmasında",
+        "C) Linyit yataklarının tamamen yok olmasında",
+        "D) Bölgede sismik hareketliliğin tamamen son bulmasında",
+        "E) Göllerin sularının tamamen tuzlu hale gelmesinde"
+      ],
+      "dogru": "B) Tarımsal açıdan son derece verimli alüvyonal toprakların (graben tabanlarının) oluşmasında",
+      "aciklama": "Horst dağlarından aşınarak taşınan malzemeler graben ovalarının tabanlarında birikerek kalın alüvyonal toprak tabakaları oluşturur. Gediz, Büyük ve Küçük Menderes ile Bakırçay ovalarının tarımsal açıdan son derece verimli olmasının temel sebebi bu alüvyon birikimidir.",
+      "harita_il": "izmir",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "daglar-046",
+      "soru": "Ege'deki horst dağlarının dik kenarlarını sınırlayan aktif fay hatları boyunca dik yamaçlar (fay diklikleri) oluşmuştur. Bu dikliklerden graben düzlüklerine inen küçük akarsular yataklarında ani eğim kırıklıklarıyla karşılaşırlar.\n\nBu jeomorfolojik durumun dağ yamaçlarında aşağıdaki fiziki oluşumlardan hangisine yol açması beklenir?",
+      "siklar": [
+        "A) Akarsuların menderesler çizerek akmasına",
+        "B) Çağlayanlar (şelaleler) ve debisi yüksek küçük derelerin oluşmasına",
+        "C) Geniş delta ovalarının dağ yamacında gelişmesine",
+        "D) Akarsuların yataklarında derin boğaz vadiler oluşturmasına",
+        "E) Akarsuların boy kimyasal aşındırmasının tamamen durmasına"
+      ],
+      "dogru": "B) Çağlayanlar (şelaleler) ve debisi yüksek küçük derelerin oluşmasına",
+      "aciklama": "Fay diklikleri ani eğim kırıklıkları yaratır. Bu dik yamaçlardan grabene dökülen sular çağlayanlar (şelaleler) oluştururlar. Menderesler eğimin azaldığı ova tabanlarında görülür (A). Delta deniz kıyısındadır (C). Boğaz vadiler kıvrım dağlarının yarılmasıyla oluşur (D).",
+      "harita_il": "denizli",
+      "zorluk": "zor"
+    },
+    {
+      "id": "daglar-047",
+      "soru": "Amanos (Nur) Dağları, Akdeniz kıyısında İskenderun Körfezi'ne paralel olarak uzanır. Dağın bu uzanış doğrultusu, İskenderun Limanı'nın iç kesimlerle bağlantısını sınırlandırabilecekken, Belen Geçidi bu sınırı ortadan kaldırmıştır.\n\nAmanos Dağları'nın İskenderun Körfezi kıyısına paralel uzanması, kıyı şeridinde aşağıdaki jeomorfolojik özelliklerden hangisinin görülmesine yol açmıştır?",
+      "siklar": [
+        "A) Kıyı şeridinin çok sığ olmasına ve deltaların hemen deniz kıyısında devasa boyuta ulaşmasına",
+        "B) Kıyı boyunca dik yamaçların, falezlerin (yalıyar) ve dar kıyı düzlüklerinin oluşmasına",
+        "C) Enine kıyı tipinin tüm körfez boyunca hakim olmasına",
+        "D) Deniz suyunun tuzluluk oranının Karadeniz'den daha az olmasına",
+        "E) Liman arkasında demiryolu tüneli ihtiyacının tamamen ortadan kalkmasına"
+      ],
+      "dogru": "B) Kıyı boyunca dik yamaçların, falezlerin (yalıyar) ve dar kıyı düzlüklerinin oluşmasına",
+      "aciklama": "Amanos Dağları kıyıya paralel ve dik indiği için İskenderun Körfezi'nin doğusunda dar bir kıyı şeridi, dik yamaçlar ve falezler (yalıyar) oluşmuştur. Bu durum boyuna kıyı özellikleridir. Deniz suyunun tuzluluğu enlem nedeniyle fazladır (D).",
+      "harita_il": "hatay",
+      "zorluk": "orta"
+    },
+    {
+      "id": "daglar-048",
+      "soru": "Ege Bölgesi'ndeki horst dağlarının yamaçlarında tarımsal faaliyetler engebeye rağmen devam eder. Özellikle zeytinlikler dağ yamaçlarını kaplarken, yüksek düzlüklerde hayvancılık yapılır.\n\nAşağıdaki dağ yamaçlarının hangisinde zeytinliklerin dikey dağılış sınırı enlemin sıcaklık etkisiyle diğerlerine göre daha yükseğe (yaklaşık 700-800 m) çıkabilir?",
+      "siklar": [
+        "A) Madra Dağı'nın kuzey yamaçlarında",
+        "B) Yunt Dağı'nın kuzey yamaçlarında",
+        "C) Kazdağı'nın kuzey yamaçlarında",
+        "D) Aydın Dağları'nın güney yamaçlarında",
+        "E) Samanlı Dağları'nın kuzey yamaçlarında"
+      ],
+      "dogru": "D) Aydın Dağları'nın güney yamaçlarında",
+      "aciklama": "Zeytin Akdeniz iklimi bitkisidir. Enlem olarak daha güneyde yer alan ve güneş ışınlarını daha dik alan Aydın Dağları'nın güney yamaçları (Bakı etkisi), Ege'nin kuzeyindeki Madra (A), Yunt (B) veya Kazdağı'na (C) göre zeytin üst sınırının daha yüksek olmasına imkan tanır. Samanlı Dağları (E) ise zaten Marmara'dadır ve sıcaklık sınırı çok daha düşüktür.",
+      "harita_il": "izmir",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "daglar-049",
+      "soru": "Marmara Bölgesi'nin Biga Yarımadası kesiminde yer alan Biga Dağları, jeolojik açıdan oldukça karmaşık bir yapıya sahiptir. Kısmen kıvrımlı tortulların kısmen de neotektonik kırılmalarla oluşan fay bloklarının (horst) yer aldığı bu dağlık alan, görece düşük yükseltisiyle bilinir.\n\nBiga Dağları'nın ortalama yükseltisinin az olması ve engebeli yapısının özellikleri dikkate alındığında, aşağıdaki ifadelerden hangisi yanlıştır?",
+      "siklar": [
+        "A) Dağlar üzerinde Pleistosen buzul dönemine ait hiçbir glasyal iz bulunmaz.",
+        "B) Çanakkale Boğazı'nın güneyinde yer alarak ulaşım hatlarını etkiler.",
+        "C) Zengin metalik maden yataklarına (altın, gümüş, bakır) ev sahipliği yapar.",
+        "D) Kıyıya dik uzanan çok yüksek ve dik duvarlı fiyort tipi kıyılar oluşturur.",
+        "E) Deprem sismik aktivitesi açısından aktif fay hatları barındırır."
+      ],
+      "dogru": "D) Kıyıya dik uzanan çok yüksek ve dik duvarlı fiyort tipi kıyılar oluşturur.",
+      "aciklama": "Türkiye'de fiyort tipi kıyı asla bulunmaz, çünkü fiyortlar yüksek enlemlerde (kutuplara yakın) buzul vadilerinin deniz suları altında kalmasıyla oluşan kıyı tipidir. Türkiye ise orta kuşakta yer aldığı için fiyort kıyı tipi mutlak konum nedeniyle görülemez. Biga Dağları yükseltisi azdır ve buzul izi yoktur (A). Metalik madenler yönünden zengindir (C).",
+      "harita_il": "canakkale",
+      "zorluk": "zor"
+    },
+    {
+      "id": "daglar-050",
+      "soru": "Türkiye'nin kaplıca ve termal turizm haritası incelendiğinde Afyonkarahisar ve çevresinin termal tesisler ve sıcak sular yönünden son derece zengin olduğu görülür. Bu durum ilin çevresindeki dağlık alanların sınırlandığı aktif fay hatlarının varlığı ile açıklanır.\n\nAfyonkarahisar çevresindeki bu zengin jeotermal ve termal kaynakların bulunması, aşağıdaki dağ oluşum süreçlerinden hangisinin bölgedeki yaygınlığıyla doğrudan ilgilidir?",
+      "siklar": [
+        "A) Volkanik maar püskürmelerinin günümüzde de sürmesiyle",
+        "B) Kuzey Anadolu Kıvrım Dağları'nın altından geçen derin levha dalma-batma zonuyla",
+        "C) Batı Anadolu kırıklı dağ oluşumu (horst-graben) ve aktif tektonik fay hatlarının varlığıyla",
+        "D) Karstik erime boşluklarının yeraltı sularını aşırı ısıtmasıyla",
+        "E) Bölgenin buzul döneminde tamamen buzullarla kaplanıp erimesiyle"
+      ],
+      "dogru": "C) Batı Anadolu kırıklı dağ oluşumu (horst-graben) ve aktif tektonik fay hatlarının varlığıyla",
+      "aciklama": "Afyonkarahisar, Batı Anadolu kırıklı dağ ve fay sistemlerinin (Ege graben sisteminin iç kesimlerdeki uzantısı) üzerinde yer alır. Aktif fay hatları yer altındaki suların ısınarak yüzeye çıkmasını sağlar. Bu durum tamamen kırıklı tektonik yapı ve fay hatlarıyla ilgilidir.",
+      "harita_il": "afyonkarahisar",
+      "zorluk": "orta"
+    },
+    {
+      "id": "daglar-051",
+      "soru": "Volkanizma, magma materyalinin yer kabuğunun zayıf kısımlarından yeryüzüne doğru hareket etmesi sürecidir. Magma her zaman yeryüzüne ulaşamaz; bazen yer kabuğunun çatlaklarında soğuyarak derinlik volkanizması şekillerini oluşturur. Üstteki tabakalar dış kuvvetlerce aşındırıldığında bu iç püskürük kütleler yüzeye çıkar.\n\nMarmara Bölgesi'nde yer alan Uludağ, bu şekilde magma odasının yer kabuğunun derinliklerinde soğumasıyla oluşan hangi jeolojik yapının (derinlik volkanizması şeklinin) aşınarak yüzeylenmesiyle meydana gelmiştir?",
+      "siklar": [
+        "A) Sill",
+        "B) Dayk",
+        "C) Lakolit",
+        "D) Batolit",
+        "E) Maar"
+      ],
+      "dogru": "D) Batolit",
+      "aciklama": "Uludağ, yer kabuğunun derinliklerinde magmanın yavaş yavaş soğumasıyla oluşan devasa bir granit 'batolit' kütlesidir. Zamanla üstteki tortul tabakaların dış kuvvetlerce aşındırılması sonucu bu batolit yüzeye çıkmış ve bugünkü dağ kütlesini oluşturmuştur. Sill (A) tabakalar arasında yatay sokulma, dayk (B) dikey kesen çatlak dolgusu, lakolit (C) mantar biçimli sokulma, maar ise gaz patlaması çukurudur (E).",
+      "harita_il": "bursa",
+      "zorluk": "zor"
+    },
+    {
+      "id": "daglar-052",
+      "soru": "İç Anadolu Bölgesi'nde yer alan Karadağ, Karacadağ, Hasan Dağı, Melendiz Dağı ve Erciyes Dağı, kuzeydoğu-güneybatı doğrultulu bir hat üzerinde adeta bir cetvelle çizilmiş gibi sıralanmışlardır.\n\nBu sönmüş volkanik dağların İç Anadolu'da böyle doğrusal bir hat üzerinde sıralanmasının temel jeolojik nedeni aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Bölgede orografik yamaç yağışlarının bu hat boyunca yoğunlaşması",
+        "B) Magmanın yer kabuğundaki derin bir kırık (fay) hattı boyunca yeryüzüne sızması",
+        "C) Akarsuların bu hat boyunca derin boğaz vadiler aşındırmış olması",
+        "D) Masif arazilerin bu doğrultuda sert engeller oluşturması",
+        "E) Egeid karasının çökmesiyle oluşan çöküntü alanının sınırını çizmesi"
+      ],
+      "dogru": "B) Magmanın yer kabuğundaki derin bir kırık (fay) hattı boyunca yeryüzüne sızması",
+      "aciklama": "Volkanik dağların doğrusal hatlar halinde sıralanması, magmanın yer kabuğundaki derin bir fay (kırık) hattını veya zayıf kuşağı takip ederek yüzeye çıktığının kesin kanıtıdır. İç Anadolu'daki volkanlar (Karadağ'dan Erciyes'e uzanan hat) da bu tektonik kırık hattı boyunca püskürmüşlerdir. İklim (A) veya akarsu aşındırması (C) volkanik çıkış hatlarını belirleyemez.",
+      "harita_il": "kayseri",
+      "zorluk": "orta"
+    },
+    {
+      "id": "daglar-053",
+      "soru": "Doğu Anadolu Bölgesi, Türkiye'de volkanik arazilerin ve volkanik dağların en geniş alan kapladığı bölgedir. Bölgedeki sönmüş volkanlar, tıpkı İç Anadolu'da olduğu gibi, Van Gölü'nün kuzeybatısından itibaren doğrusal bir hat boyunca sıralanırlar.\n\nAşağıdaki volkanik dağlardan hangisi bu Doğu Anadolu volkanik kuşağı (Nemrut, Süphan, Tendürek, Ağrı) içerisinde yer almaz?",
+      "siklar": [
+        "A) Ağrı Dağı",
+        "B) Süphan Dağı",
+        "C) Nemrut Dağı",
+        "D) Tendürek Dağı",
+        "E) Karacadağ (Şanlıurfa-Diyarbakır)"
+      ],
+      "dogru": "E) Karacadağ (Şanlıurfa-Diyarbakır)",
+      "aciklama": "Ağrı (A), Süphan (B), Nemrut (C) ve Tendürek (D) Doğu Anadolu Bölgesi'ndeki doğrusal volkanik kuşakta yer alır. Ancak Karacadağ, Güneydoğu Anadolu Bölgesi'nde (Şanlıurfa, Diyarbakır, Mardin sınırında) tek başına yükselen kalkan biçimli bir volkandır. Doğu Anadolu'daki bu hatta dahil değildir.",
+      "harita_il": "bitlis",
+      "zorluk": "orta"
+    },
+    {
+      "id": "daglar-054",
+      "soru": "Güneydoğu Anadolu Bölgesi'nde yer alan Karacadağ, Türkiye'deki diğer volkanik dağlardan morfolojik (şekilsel) özellikleri yönüyle belirgin şekilde ayrılır. Dik bir volkan konisi oluşturmak yerine, son derece yayvan, kubbe benzeri, çok düşük eğimli ve geniş alan kaplayan bir yapıya sahiptir. Coğrafya literatüründe bu tür volkanlara 'kalkan volkanı' adı verilir.\n\nKaracadağ'ın bu şekilde kalkan biçimli (yayvan ve düşük eğimli) bir yapı kazanmasının temel nedeni aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Magmadan çıkan lavların bazaltik karakterde, akıcı ve vizkozitesinin (akışkanlığa karşı direncinin) çok düşük olması",
+        "B) Dağın Pleistosen buzul döneminde tamamen buzullarla aşındırılmış olması",
+        "C) Püskürmelerin tamamen yer altında gerçekleşmesi ve yeryüzüne hiç kül çıkmaması",
+        "D) Karstik kireçtaşlarının volkanik koniyi eritmeyle çökertmiş olması",
+        "E) Orojenez sırasında yan basınçlarla şiddetle kıvrılmış olması"
+      ],
+      "dogru": "A) Magmadan çıkan lavların bazaltik karakterde, akıcı ve vizkozitesinin (akışkanlığa karşı direncinin) çok düşük olması",
+      "aciklama": "Güneydoğu Anadolu Karacadağ'ı oluşturan bazaltik lavlar silis oranı düşük, demir ve magnezyum oranı yüksek, son derece akışkan (düşük vizkoziteli) lavlardır. Bu akıcı lavlar yeryüzüne ulaştığında dik bir koni oluşturamadan çevreye hızla yayılmış ve çok geniş alan kaplayan, eğimi %1-2 civarında olan yayvan bir 'kalkan volkanı' oluşturmuştur. Buzul (B) veya karstik çökme (D) ile ilgisi yoktur.",
+      "harita_il": "diyarbakir",
+      "zorluk": "zor"
+    },
+    {
+      "id": "daglar-055",
+      "soru": "Kayseri sınırlarında yer alan Erciyes Dağı (3917 m), İç Anadolu Bölgesi'nin en yüksek dağıdır. Bu dağ sırasının patlamaları sırasında çevreye yayılan devasa tüf tabakaları, dış kuvvetlerin (rüzgar, akarsu aşındırması) etkisiyle zamanla aşınarak Kapadokya bölgesinin dünyaca ünlü turistik şekillerini oluşturmuştur.\n\nErciyes ve Hasan Dağı'ndan çıkan bu tüflerin aşınmasıyla oluşan jeomorfolojik şekiller aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Traverten basamakları",
+        "B) Peri bacaları",
+        "C) Obruk çukurları",
+        "D) Dev kazanları",
+        "E) Barkan kumulları"
+      ],
+      "dogru": "B) Peri bacaları",
+      "aciklama": "Erciyes, Hasan Dağı ve Melendiz'in püskürttüğü volkanik tüf ve bazalt tabakaları, sel suları ve rüzgar aşındırmasıyla şekillenerek Kapadokya'daki peri bacalarını oluşturmuştur. Traverten karstiktir (A), obruk karstik çöküntüdür (C), dev kazanı akarsu şelale tabanıdır (D), barkan ise rüzgar biriktirmeli kumuldur (E).",
+      "harita_il": "kayseri",
+      "zorluk": "orta"
+    },
+    {
+      "id": "daglar-056",
+      "soru": "Doğu Anadolu Bölgesi'nde Van Gölü'nün batısında yer alan Nemrut Dağı, Türkiye'nin en karakteristik volkanik dağlarındandır. Dağın zirve kısmında, son büyük patlama sırasında meydana gelen göçme sonucunda çapı yaklaşık 8-10 km olan devasa bir çöküntü havzası oluşmuştur. Bu havzanın içinde günümüzde Türkiye'nin en büyük kaldera gölü yer alır.\n\nBahsi geçen bu devasa volkanik çöküntü alanı ve içindeki göl aşağıdakilerden hangisiyle adlandırılır?",
+      "siklar": [
+        "A) Meke Maarı Göleği",
+        "B) Nemrut Kalderası ve Nemrut Krater Gölü",
+        "C) Tortum Heyelan Gölü",
+        "D) Acıgöl Maar Çukuru",
+        "E) Salda Tektonik Gölü"
+      ],
+      "dogru": "B) Nemrut Kalderası ve Nemrut Krater Gölü",
+      "aciklama": "Nemrut Dağı'nın (Bitlis) zirvesinde patlamalar sonrası oluşan devasa çöküntü alanı bir 'kaldera'dır. Burada yer alan göl ise Nemrut Kaldera (Krater) Gölü'dür ve dünyanın en büyük ikinci, Türkiye'nin ise en büyük kaldera gölüdür. Meke Konya'dadır ve maardır (A). Salda karstik-tektoniktir (E).",
+      "harita_il": "bitlis",
+      "zorluk": "orta"
+    },
+    {
+      "id": "daglar-057",
+      "soru": "Doğu Anadolu'daki Nemrut Dağı'nın (Bitlis) jeolojik geçmişteki püskürmeleri, bölgenin hidrografik (akarsu ve göl) ağını kökten değiştirmiştir. Dağdan çıkan devasa lav akıntıları, Muş Havzası'na doğru akan nehirlerin önünü kapatarak geniş bir havzada su birikmesine yol açmıştır.\n\nNemrut Dağı'nın lavlarının oluşturduğu bu setleme süreci sonucunda meydana gelen, Türkiye'nin en geniş yüzölçümlü gölü aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Beyşehir Gölü",
+        "B) Tuz Gölü",
+        "C) Van Gölü",
+        "D) Çıldır Gölü",
+        "E) Eğirdir Gölü"
+      ],
+      "dogru": "C) Van Gölü",
+      "aciklama": "Nemrut Dağı'ndan çıkan lavlar, eski bir akarsu vadisinin ve çöküntü alanının önünü kapatarak volkanik set oluşturmuştur. Bu setlemenin ardında su birikmesiyle Türkiye'nin en büyük gölü olan Van Gölü meydana gelmiştir. Bu yüzden Van Gölü volkanik set (lav seti) göllerinin en klasik örneğidir. Beyşehir ve Eğirdir karstik-tektoniktir (A, E). Tuz Gölü tektoniktir (B).",
+      "harita_il": "van",
+      "zorluk": "zor"
+    },
+    {
+      "id": "daglar-058",
+      "soru": "Ege Bölgesi'nde yer alan Kula Volkanik Alanı (Manisa), jeolojik açıdan Türkiye'nin en genç volkanik sahasıdır. Yaklaşık olarak Kuvaterner (IV. Zaman) döneminde gerçekleşen püskürmelerle şekillenen bu alanda çok sayıda küçük volkan konisi, lav akıntıları ve kül konileri bulunur. Antik çağ coğrafyacısı Strabon, burayı simsiyah lav örtüsü nedeniyle 'Yanık Ülke' olarak adlandırmıştır.\n\nStrabon'un eserlerinde geçen ve Kula Volkanik Alanı'nı tanımlayan bu ünlü antik isim aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Kilikya",
+        "B) Katakekaumene",
+        "C) Kapadokya",
+        "D) Pamfilya",
+        "E) Bithynia"
+      ],
+      "dogru": "B) Katakekaumene",
+      "aciklama": "Antik çağ coğrafyacısı Strabon, Manisa Kula'daki simsiyah bazaltik lavların kapladığı genç volkanik alanı 'Katakekaumene' (Yanık Ülke) olarak adlandırmıştır. Burası günümüzde UNESCO tescilli Türkiye'nin ilk ve tek jeoparkıdır. Kilikya Adana çevresidir (A), Kapadokya Nevşehir çevresidir (C), Pamfilya Antalya çevresidir (D).",
+      "harita_il": "manisa",
+      "zorluk": "orta"
+    },
+    {
+      "id": "daglar-059",
+      "soru": "Konya'nın Karapınar ilçesi sınırlarında yer alan Meke Gölü, çift patlamalı bir maar özelliğine sahiptir. Dıştaki geniş maar çukurunun içinde su bulunurken, ortada daha sonraki bir püskürmeyle oluşan küçük bir volkanik koni yükselir. Bu estetik görüntüsü nedeniyle 'Dünyanın Nazar Boncuğu' olarak nitelendirilmiştir.\n\nBu gölün oluşum tipi olan 'maar' teriminin jeolojik tanımı aşağıdakilerden hangisinde doğru olarak verilmiştir?",
+      "siklar": [
+        "A) Magmanın yer altında yavaşça soğuyarak oluşturduğu kubbe",
+        "B) Volkanik patlama sırasında gaz birikmesi ve gaz patlaması sonucu yer kabuğunda açılan derin çukurluklar",
+        "C) Lav akıntılarının bir nehir vadisinin önünü kapatmasıyla oluşan set",
+        "D) Karstik erime sonucu çöken tavanların oluşturduğu derin obruk",
+        "E) Buzul aşındırmasıyla dağ zirvesinde açılan sirk çanağı"
+      ],
+      "dogru": "B) Volkanik patlama sırasında gaz birikmesi ve gaz patlaması sonucu yer kabuğunda açılan derin çukurluklar",
+      "aciklama": "Maar, volkanik alanlarda magmadan ayrışan gazların yüksek basınçla patlaması sonucu yer kabuğunda açtığı daire veya elips şeklindeki patlama çukurlarıdır. Zamanla bu çukurların suyla dolmasıyla maar gölleri oluşur (Meke ve Acıgöl maarları gibi). Lav seti (C), obruk (D) ve sirk (E) farklı oluşumlardır.",
+      "harita_il": "konya",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "daglar-060",
+      "soru": "Aksaray ve Niğde sınırlarında yer alan Hasan Dağı (3268 m), İç Anadolu'nun en belirgin çift tepeli stratovolkan konilerinden biridir. Konya Çatalhöyük Neolitik yerleşmesinde bulunan ve yaklaşık M.Ö. 7000 yıllarına tarihlenen bir duvar resminde, Hasan Dağı'nın patlama anının resmedildiği iddia edilmektedir. Bu durum, insanlık tarihindeki ilk manzara resmi veya volkanik patlama kaydı olarak kabul edilir.\n\nHasan Dağı'nın püskürttüğü lavlar ve tüfler, aşağıdaki jeomorfolojik alanların hangisinin litolojik alt yapısını oluşturmuştur?",
+      "siklar": [
+        "A) Pamukkale Traverten Alanı'nın",
+        "B) Ihlara Vadisi ve Kapadokya Tüf Platosu'nun",
+        "C) Çukurova Deltası Alüvyonunun",
+        "D) Konya Obruk Platosu'nun",
+        "E) Teke Yarımadası Karstik Bölgesi'nin"
+      ],
+      "dogru": "B) Ihlara Vadisi ve Kapadokya Tüf Platosu'nun",
+      "aciklama": "Hasan Dağı ve Melendiz Dağları'ndan çıkan volkanik kül ve tüfler, Aksaray-Nevşehir-Niğde çevresindeki geniş tüf platolarını oluşturmuştur. Melendiz Çayı bu tüf tabakalarını aşındırarak ünlü derin kanyon olan Ihlara Vadisi'ni açmıştır. Dolayısıyla bu alanların litolojik altyapısı bu volkanlara dayanır. Pamukkale karstiktir (A).",
+      "harita_il": "aksaray",
+      "zorluk": "zor"
+    },
+    {
+      "id": "daglar-061",
+      "soru": "Ağrı ile Van illeri sınırında yer alan Tendürek Dağı (3542 m), sönmüş bir volkanik dağ olarak kabul edilse de zirve kesimindeki kraterlerinde halen sıcak kükürt gazı ve su buharı çıkışları (solfatara/fumarol) gözlemlenmektedir. Bu durum dağın henüz tamamen sönmediğini, yarı-aktif karakterde olduğunu gösterir.\n\nTendürek Dağı ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+      "siklar": [
+        "A) Ege Bölgesi'ndeki kırıklı fay sistemlerine aittir.",
+        "B) İki ayrı krateri ve bu kraterlerin çevresinde geniş bazaltik lav örtüleri (leçelikler) bulunur.",
+        "C) Üzerinde glasyal örtü buzulu yer alan Türkiye'nin en yüksek zirvesidir.",
+        "D) Orojenez sırasında yan basınçlarla kıvrılarak yükselmiş bir antiklinaldir.",
+        "E) Karstik erime sonucu oluşmuş devasa bir polye tabanına sahiptir."
+      ],
+      "dogru": "B) İki ayrı krateri ve bu kraterlerin çevresinde geniş bazaltik lav örtüleri (leçelikler) bulunur.",
+      "aciklama": "Tendürek Dağı, Doğu Anadolu'da yer alan, iki ayrı krater konisine (Büyük ve Küçük Tendürek) sahip bir volkandır. Çevresinde 'leçe' adı verilen pürüzlü, aşırı taşlık bazalt lav örtüleri geniş yer tutar. Zirvesinde gaz çıkışları devam eder. En yüksek zirve Ağrı'dır (C). Kıvrımlı değildir (D).",
+      "harita_il": "agri",
+      "zorluk": "orta"
+    },
+    {
+      "id": "daglar-062",
+      "soru": "Türkiye'nin ve Avrupa'nın en yüksek zirvesini (5137 m) oluşturan Büyük Ağrı Dağı, Doğu Anadolu'da yer alan devasa bir stratovulkandır. Zirve kesiminde yükseltinin fazla olması nedeniyle, Türkiye'nin en büyük güncel örtü buzulu (şapka buzulu) yer almaktadır.\n\nAğrı Dağı'nın zirvesindeki bu kalıcı örtü buzulunun varlığı ve korunabilmesi, dağın aşağıdaki özelliklerinden hangisinin doğrudan bir sonucudur?",
+      "siklar": [
+        "A) Ekvator'a en yakın yüksek dağ kütlesi olmasıyla",
+        "B) Zirve kesiminin kalıcı kar sınırının (yaklaşık 4000 m) çok üzerinde yer almasıyla",
+        "C) Litolojik yapısında silis oranının aşırı yüksek olmasıyla",
+        "D) Çevresinde aktif volkanik lav çıkışlarının buzları eritmesiyle",
+        "E) Karadeniz'den gelen nemli hava kütlelerini doğrudan karşılamasıyla"
+      ],
+      "dogru": "B) Zirve kesiminin kalıcı kar sınırının (yaklaşık 4000 m) çok üzerinde yer almasıyla",
+      "aciklama": "Ağrı Dağı'nın zirvesi 5137 metredir. Türkiye'de kalıcı kar (toktağan kar) sınırı yaklaşık 3500-4000 metreden başlar. Ağrı Dağı bu sınırın çok üzerinde yükseldiği için zirvesinde kar eriyemez ve yaklaşık 10 kilometrekarelik kalıcı bir şapka (örtü) buzulu oluşturur. Bu durum tamamen yüksekliği (mutlak konumu ve yükseltisi) ile ilgilidir.",
+      "harita_il": "agri",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "daglar-063",
+      "soru": "Derinlik volkanizması, yeryüzüne çıkamayan magmanın yer kabuğunun farklı derinliklerindeki çatlaklara sokularak soğumasıdır. Bu sokulma şekilleri litolojik yapıya ve soğuma biçimine göre adlandırılır.\n\nAşağıdakilerden hangisi derinlik volkanizması sonucu yer kabuğunun içinde oluşan sokulma şekillerinden biri değildir?",
+      "siklar": [
+        "A) Sill",
+        "B) Lakolit",
+        "C) Dayk",
+        "D) Maar",
+        "E) Batolit"
+      ],
+      "dogru": "D) Maar",
+      "aciklama": "Maar, yer kabuğunun altında biriken gazların şiddetli bir patlamayla yeryüzünü yırtması sonucu oluşan yüzeysel bir volkanik şekildir (patlama çukuru). Yani yüzey volkanizmasına aittir. Batolit, lakolit, sill ve dayk ise yer kabuğunun içinde soğuyan derinlik volkanizması (iç püskürük) şekilleridir.",
+      "harita_il": "bursa",
+      "zorluk": "zor"
+    },
+    {
+      "id": "daglar-064",
+      "soru": "İç Anadolu Bölgesi'ndeki Melendiz Dağları (Niğde yakınları), Hasan Dağı volkanik kütlesinin hemen doğusunda yer alan sönmüş bir volkan grubudur. Melendiz Dağları'ndan çıkan aşınmaya karşı dayanıksız tüflü malzemeler, akarsu aşındırmasına uğramıştır.\n\nBu tüflü yapıların aşındırılması sonucunda ortaya çıkan, Aksaray sınırlarında yer alan ve dik yamaçlarıyla ünlü doğa harikası kanyon vadi aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Valla Kanyonu",
+        "B) Saklıkent Kanyonu",
+        "C) Ihlara Vadisi",
+        "D) Köprülü Kanyon",
+        "E) Şahinkaya Kanyonu"
+      ],
+      "dogru": "C) Ihlara Vadisi",
+      "aciklama": "Hasan ve Melendiz dağlarından çıkan volkanik tüflerin oluşturduğu kalın tabakalar, Melendiz Çayı tarafından dikey yönde derinlemesine aşındırılarak ünlü Ihlara Vadisi kanyonunu oluşturmuştur. Valla Kastamonu'dadır (A), Saklıkent Muğla-Antalya arasındadır (B), Köprülü Antalya'dadır (D), Şahinkaya ise Samsun'dadır (E).",
+      "harita_il": "aksaray",
+      "zorluk": "orta"
+    },
+    {
+      "id": "daglar-065",
+      "soru": "Konya Ovası'nın güneyinde, Karaman ili sınırlarında tek başına yükselen Karadağ, sönmüş bir volkanik dağdır. Volkanik toprakların mineral yönünden zengin olması, tarih boyunca dağ yamaçlarında tarımsal faaliyetlerin, özellikle bağcılığın gelişmesini sağlamıştır. Ayrıca dağ üzerinde erken Hristiyanlık dönemine ait çok sayıda kilise kalıntısı (Binbirkilise) yer alır.\n\nVolkanik dağ yamaçlarında tarımsal faaliyetlerin ve yerleşmelerin tarih boyunca yoğun olmasının temel nedeni aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Deprem riskinin bu alanlarda sıfır olması",
+        "B) Volkanik küllerin ve toprakların mineralce son derece zengin, verimli yapıda olması",
+        "C) Bu alanlarda yıllık yağış miktarının çevresine göre çok az olması",
+        "D) Dağ yamaçlarında düzlüklerin ova tabanlarından daha geniş yer kaplaması",
+        "E) Karstik erimenin dağ üzerinde geniş düzlükler oluşturması"
+      ],
+      "dogru": "B) Volkanik küllerin ve toprakların mineralce son derece zengin, verimli yapıda olması",
+      "aciklama": "Volkanik dağların yamaçları, püskürmeler sırasında yayılan küller ve lavların ayrışmasıyla oluşan, mineral ve besin elementleri (potasyum, fosfor vb.) yönünden son derece zengin topraklara sahiptir. Bu durum tehlikeli olmasına rağmen insanların tarih boyunca volkanik yamaçlara yerleşmesine ve buralarda verimli tarım (bağcılık, patates tarımı vb.) yapmasına yol açmıştır.",
+      "harita_il": "karaman",
+      "zorluk": "orta"
+    },
+    {
+      "id": "daglar-066",
+      "soru": "Türkiye'de volkanik arazilerin toprak özellikleri incelendiğinde, bu toprakların kumlu, gözenekli ve süzek yapıda olduğu görülür. Bu fiziksel yapı, belirli tarım ürünlerinin yumrularını toprak altında rahatça büyütebilmesine imkan tanır.\n\nBu toprak özelliğine bağlı olarak, İç Anadolu'da Hasan Dağı ve Melendiz tüfleriyle kaplı Nevşehir ve Niğde yörelerinde en fazla gelişen tarımsal faaliyet aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Çeltik (Pirinç) Tarımı",
+        "B) Patates Tarımı ve Bağcılık",
+        "C) Çay Tarımı",
+        "D) Tütün Üretimi",
+        "E) Pamuk Tarımı"
+      ],
+      "dogru": "B) Patates Tarımı ve Bağcılık",
+      "aciklama": "Volkanik tüflü topraklar gözenekli ve kumlu yapılarıyla patates gibi yumrulu bitkilerin köklerinin rahatça genişlemesine ve büyümesine imkan tanır. Bu yüzden Türkiye'de patates tarımının en geliştiği yerler volkanik arazileri barındıran Niğde ve Nevşehir yöreleridir. Ayrıca bu topraklarda bağcılık (üzüm üretimi) da son derece yaygındır.",
+      "harita_il": "nevsehir",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "daglar-067",
+      "soru": "Peri bacaları, volkanik tüflerle kaplı arazilerde sel sularının ve rüzgarların aşındırmasıyla oluşan sütun biçimli jeomorfolojik şekillerdir. Üstte yer alan sert bazalt şapkalar alttaki yumuşak tüflerin aşınmasını geciktirerek bu kulelerin oluşmasını sağlar. Türkiye'de peri bacaları dendiğinde akla ilk olarak Kapadokya (Nevşehir) gelse de Doğu Anadolu Bölgesi'nde de çok karakteristik kırmızı renkli peri bacaları yaygındır.\n\nErzurum'un Narman ilçesinde yer alan ve demir oksit oranının yüksekliği nedeniyle kırmızı renkli olan bu ünlü peri bacası alanı aşağıdakilerden hangisiyle adlandırılır?",
+      "siklar": [
+        "A) Kuladokya Peri Bacaları",
+        "B) Narman Peri Bacaları (Kırmızı Periler)",
+        "C) Vanadokya Peri Bacaları",
+        "D) Spil Laleli Kanyonu",
+        "E) Frig Vadisi Kayaçları"
+      ],
+      "dogru": "B) Narman Peri Bacaları (Kırmızı Periler)",
+      "aciklama": "Erzurum'un Narman ilçesinde yer alan, kırmızı renkli kumtaşı ve tüflü tabakaların aşınmasıyla oluşan turistik alan 'Narman Peri Bacaları' (Kırmızı Periler Vadisi) olarak adlandırılır. Kuladokya Manisa Kula'dadır (A), Vanadokya ise Van Başkale'dedir (C).",
+      "harita_il": "erzurum",
+      "zorluk": "zor"
+    },
+    {
+      "id": "daglar-068",
+      "soru": "Doğu Anadolu Bölgesi'nde, Van Gölü'nün hemen kuzeyinde yükselen sönmüş volkanik dağ kütlesidir. 4058 metrelik zirvesiyle Türkiye'nin en yüksek dağlarından biridir. Dağın yüksek kesimlerinde Pleistosen buzul döneminden kalma küçük sirk gölleri ve buzul aşınım şekilleri yer alır.\n\nYukarıda coğrafi özellikleri verilen volkanik dağ aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Süphan Dağı",
+        "B) Nemrut Dağı",
+        "C) Tendürek Dağı",
+        "D) Erciyes Dağı",
+        "E) Karadağ"
+      ],
+      "dogru": "A) Süphan Dağı",
+      "aciklama": "Van Gölü'nün hemen kuzeyinde yer alan ve 4058 m yüksekliğe sahip olan sönmüş volkanik dağ Süphan Dağı'dır. Üzerinde buzul izleri barındırır. Nemrut Gölü batıdadır ve 2948 m'dir (B). Tendürek 3542 m'dir (C).",
+      "harita_il": "bitlis",
+      "zorluk": "orta"
+    },
+    {
+      "id": "daglar-069",
+      "soru": "Akdeniz Bölgesi'nin Hatay ili sınırlarında, Hassa ilçesi yakınlarında yer alan bazaltik lav örtüleri üzerinde yapılan araştırmalarda, Türkiye'nin ilk ve en uzun lav tüpü mağaraları (Hassa Lav Tüpü Mağaraları) keşfedilmiştir. Bu alan jeolojik açıdan son derece nadir bazaltik leçeliklerden oluşur.\n\nHassa'daki bu genç lav tüplerinin varlığı, bölgede jeolojik geçmişte hangi dağın veya volkanik sahanın püskürmeleriyle doğrudan ilgilidir?",
+      "siklar": [
+        "A) Erciyes Dağı",
+        "B) Amanos Dağları'nın derinlik intrüzyonları",
+        "C) Suriye sınırına yakın olan Karadağ-Hassa volkanik çatlak çıkışları",
+        "D) Nemrut Kalderası lavları",
+        "E) Kula Volkan konileri"
+      ],
+      "dogru": "C) Suriye sınırına yakın olan Karadağ-Hassa volkanik çatlak çıkışları",
+      "aciklama": "Hatay Hassa'daki lav tüpleri ve bazaltik leçelik alanlar, Amanos Dağları'nın hemen doğusundaki Suriye sınırında yer alan genç lokal volkanik çatlak çıkışları ve Karadağ-Hassa volkanik sahasının bazaltik püskürmeleri sonucu oluşmuştur. Amanos Dağları horsttur, kendisi aktif volkanik çıkış yapmaz (B).",
+      "harita_il": "hatay",
+      "zorluk": "zor"
+    },
+    {
+      "id": "daglar-070",
+      "soru": "Türkiye'de metalik maden yataklarının (demir, bakır, kurşun, çinko) dağılımı incelendiğinde, bu yatakların volkanik ve magmatik arazilerle son derece paralel olduğu görülür. Özellikle Doğu Anadolu'da Yukarı Fırat Bölümü bu madenler yönünden en zengin alandır.\n\nYukarı Fırat Bölümü'nde metalik madenlerin bu denli zengin olmasında aşağıdaki jeolojik faktörlerden hangisinin etkisi en fazladır?",
+      "siklar": [
+        "A) Karstik aşınmanın yaygın olması",
+        "B) Doğu Anadolu'da glasyal buzulların erimesi",
+        "C) Yoğun volkanik, magmatik ve tektonik faaliyetlerin metalik mineralleri yüzeye yakın katmanlarda yoğunlaştırması",
+        "D) Geniş alüvyonal delta ovalarının bulunması",
+        "E) Arazinin tamamen I. Zaman masiflerinden oluşması"
+      ],
+      "dogru": "C) Yoğun volkanik, magmatik ve tektonik faaliyetlerin metalik mineralleri yüzeye yakın katmanlarda yoğunlaştırması",
+      "aciklama": "Metalik madenler (cevherler), magmanın soğuması ve tektonik süreçlerdeki hidrotermal akışkanların etkisiyle yer kabuğunun çatlaklarında birikirler. Doğu Anadolu ve özellikle Elazığ-Malatya yöresi (Yukarı Fırat), jeolojik geçmişte çok yoğun volkanik, intrüzif ve tektonik süreçlere maruz kaldığı için metalik maden yönünden Türkiye'nin en zengin alanıdır.",
+      "harita_il": "elazig",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "daglar-071",
+      "soru": "Güneydoğu Anadolu Karacadağ'ı, geniş alanlara yayılan bazaltik lavların soğumasıyla oluşmuş taşlık ve pürüzlü bir yüzeye sahiptir. Bu taşlık arazi yerel dilde 'leçelik' veya 'bazaltik taşlık' olarak bilinir.\n\nKaracadağ'ın bu bazaltik ve taşlık yapısının yöredeki tarım ve beşeri yaşam üzerindeki olumsuz etkisi aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Su kaynaklarının tamamen yok olmasına yol açması",
+        "B) Makineli tarımı engellemesi ve tarla açma süreçlerini son derece zorlaştırması",
+        "C) Bölgede sıcaklığın kış aylarında aşırı derecede düşmesine neden olması",
+        "D) Karstik erime sonucu devasa obrukların oluşmasına zemin hazırlaması",
+        "E) Heyelan riskini Türkiye'de en yüksek seviyeye çıkarması"
+      ],
+      "dogru": "B) Makineli tarımı engellemesi ve tarla açma süreçlerini son derece zorlaştırması",
+      "aciklama": "Karacadağ bazaltik taşlığı, arazinin milyonlarca keskin, sert bazalt taşıyla kaplı olmasına yol açar. Bu durum makineli tarımı (traktör kullanımı, biçerdöver) imkansız hale getirir. Yöre halkı tarla açabilmek için yüzyıllardır bu bazalt taşlarını elle toplayıp tarlaların kenarlarına duvar (taş duvar) olarak yığmışlardır. Su kıtlığı (A) veya heyelanla (E - heyelan Karadeniz'dedir) ilgisi yoktur.",
+      "harita_il": "sanliurfa",
+      "zorluk": "orta"
+    },
+    {
+      "id": "daglar-072",
+      "soru": "Nevşehir'in Acıgöl ilçesi yakınlarında yer alan Acıgöl Maar Çukurluğu, Kapadokya volkanik platosunun batı sınırında yer alan karakteristik bir gaz patlaması şeklidir. Bu çöküntünün tabanında zaman zaman su birikintileri oluşur.\n\nAcıgöl ve Meke gibi maar oluşumlarının yeraltı sularının kimyasal özellikleri üzerindeki etkisi genel olarak nasıldır?",
+      "siklar": [
+        "A) Suların son derece tatlı ve içilebilir olmasını sağlar.",
+        "B) Volkanik gazların etkisiyle suların kükürt, sodyum ve diğer minerallerce zengin, acı veya sodalı olmasına yol açar.",
+        "C) Suların kalsiyum bikarbonat oranını düşürerek kireçsiz hale getirir.",
+        "D) Yeraltı sularının sıcaklığını yıl boyu 0 derecenin altında tutar.",
+        "E) Suların içinde hiçbir mineralin erimesine izin vermez."
+      ],
+      "dogru": "B) Volkanik gazların etkisiyle suların kükürt, sodyum ve diğer minerallerce zengin, acı veya sodalı olmasına yol açar.",
+      "aciklama": "Maarlar volkanik gaz patlamalarıyla oluştukları ve volkanik baca sistemlerine yakın oldukları için, bu çukurluklarda biriken veya yer altından sızan sular çözünmüş volkanik mineraller (kükürt, sülfat, sodyum vb.) yönünden zengindir. Bu nedenle bu göllerin suları genellikle acı, tuzlu veya sodalıdır (örn. Acıgöl ve Meke Tuzlası).",
+      "harita_il": "nevsehir",
+      "zorluk": "orta"
+    },
+    {
+      "id": "daglar-073",
+      "soru": "Van Gölü'nün suları yüksek oranda sodyum karbonat (soda) ve tuz içerir. Bu kimyasal bileşim, göl sularının pH değerinin yaklaşık 9.8 (aşırı alkali) olmasına yol açar ve dünyada bu büyüklükteki tek sodalı göldür.\n\nVan Gölü sularının bu denli yoğun sodalı (alkali) olmasının jeolojik yapıyla ilişkisi aşağıdakilerin hangisinde doğru açıklanmıştır?",
+      "siklar": [
+        "A) Kıyı şeridindeki geniş delta ovalarının alüvyon biriktirmesiyle",
+        "B) Van Gölü havzasını çevreleyen Nemrut ve Süphan gibi volkanik dağlardan aşınan bazaltik ve alkali minerallerin akarsularla göle taşınması ve gölün dışarıya akışının (gideğeninin) bulunmamasıyla",
+        "C) Karstik erime sonucu göl tabanından yoğun jips (alçıtaşı) sızmasıyla",
+        "D) Akdeniz iklimi nedeniyle göl suyunun aşırı buharlaşmasıyla",
+        "E) Hazar Denizi ile göl arasında yer altından tuzlu su sızıntısının olmasıyla"
+      ],
+      "dogru": "B) Van Gölü havzasını çevreleyen Nemrut ve Süphan gibi volkanik dağlardan aşınan bazaltik ve alkali minerallerin akarsularla göle taşınması ve gölün dışarıya akışının (gideğeninin) bulunmamasıyla",
+      "aciklama": "Van Gölü havzası Nemrut, Süphan gibi volkanik dağlarla çevrilidir. Bu volkanik kayaçlar alkali ve sodyum yönünden son derece zengindir. Akarsular bu mineralleri göle taşır. Ayrıca Nemrut lavlarının önünü kapatmasıyla gölün dışa akışı (gideğeni) kalmamış, kapalı havza haline gelmiştir. Yoğun buharlaşmayla soda ve tuz gölde birikerek bu kimyasal yapıyı oluşturmuştur.",
+      "harita_il": "van",
+      "zorluk": "zor"
+    },
+    {
+      "id": "daglar-074",
+      "soru": "Türkiye sınırları içerisindeki volkanik dağlar günümüzde sönmüş (aktif olmayan) dağlar olarak sınıflandırılmaktadır. Ancak jeolojik haritalar incelendiğinde bu dağların deprem haritaları ve sıcak su kaynaklarının dağılımıyla büyük bir coğrafi paralellik gösterdiği görülür.\n\nBu durumun temel nedeni aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Volkanik dağların yükseltisinin fazla olması",
+        "B) Deprem, sıcak su ve volkanizmanın yer kabuğunun kırıklı (faylı) aktif tektonik kuşaklarıyla doğrudan ilişkili olması",
+        "C) Bu alanlarda orografik yağışların aşırı fazla olması",
+        "D) Masif arazilerin bu alanlarda geniş yer kaplaması",
+        "E) Akarsuların bu alanlarda yoğun aşındırma yapması"
+      ],
+      "dogru": "B) Deprem, sıcak su ve volkanizmanın yer kabuğunun kırıklı (faylı) aktif tektonik kuşaklarıyla doğrudan ilişkili olması",
+      "aciklama": "Depremler, sıcak su kaynakları (jeotermal) ve volkanik faaliyetler yer kabuğundaki levha sınırları, kırık hatları (faylar) ve aktif tektonik kuşaklar boyunca yoğunlaşır. Türkiye de Alp-Himalaya aktif tektonik kuşağında yer aldığı için bu üç unsurun coğrafi dağılışı birbiriyle son derece paraleldir.",
+      "harita_il": "kayseri",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "daglar-075",
+      "soru": "Marmara Bölgesi'nde yer alan Uludağ, derinlik volkanizması ürünü olan granitik kütlelerin dış kuvvetlerce aşındırılmasıyla yüzeye çıkmıştır. Granit bloklarının fiziksel ve kimyasal ayrışmaya uğramasıyla, üst üste yığılmış yuvarlak köşeli granit bloklarından oluşan özgün bir topoğrafya meydana gelir.\n\nCoğrafya literatüründe granit arazilerine özgü olan bu çatlaklı ve yuvarlak bloklu topoğrafya türü aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Karstik Topoğrafya",
+        "B) Tor Topoğrafyası",
+        "C) Badlands (Kırgıbayır) Topoğrafyası",
+        "D) Glasyal (Buzul) Topoğrafya",
+        "E) Eolyen (Rüzgar) Topoğrafyası"
+      ],
+      "dogru": "B) Tor Topoğrafyası",
+      "aciklama": "Granit kayaçlarının fiziksel ve kimyasal ayrışmasıyla oluşan, üst üste yığılmış bloklardan meydana gelen özgün yer şekillerine 'Tor Topoğrafyası' denir. Türkiye'de bu topoğrafyanın en belirgin örnekleri Uludağ (Bursa) ve Aydın Çine çevresindeki granitik alanlarda görülür. Karstik kalkerlerde görülür (A). Badlands tüflerde görülür (C).",
+      "harita_il": "bursa",
+      "zorluk": "zor"
+    },
+    {
+      "id": "daglar-076",
+      "soru": "Türkiye'de dağların kıyı çizgisine paralel uzandığı alanlarda kıyı ile iç kesimler arasında iklim, bitki örtüsü ve ulaşım açısından büyük farklılıklar oluşurken; dağların kıyıya dik uzandığı alanlarda bu farklılıklar oldukça azdır.\n\nDağların uzanış doğrultusunun kıyı çizgisiyle yaptığı bu ilişki, aşağıdaki coğrafi özelliklerden hangisi üzerinde belirleyici bir etkiye sahip değildir?",
+      "siklar": [
+        "A) Kıyı kesimlerinde görülen kıyı tiplerinin (enine, boyuna) belirlenmesinde",
+        "B) Denizsel etkilerin iç kesimlere sokulabilme derecesinde",
+        "C) Kıta sahanlığının (şelf alanının) genişliği ve delta ovalarının oluşma hızında",
+        "D) Dağların zirve kesimlerinde görülen volkanik kayaç türlerinde",
+        "E) Limanların hinterland (art bölge) genişliğinde ve ulaşım maliyetlerinde"
+      ],
+      "dogru": "D) Dağların zirve kesimlerinde görülen volkanik kayaç türlerinde",
+      "aciklama": "Dağların kıyıya paralel ya da dik uzanması, jeomorfolojik ve klimatolojik yansımalara (kıyı tipleri, denizellik, ulaşım, kıta sahanlığı, hinterland) doğrudan etki eder. Ancak bir dağın zirvesinde yer alan kayaç türünün volkanik (bazalt, andezit, tüf) veya tortul olması tamamen o dağın litolojik yapısı ve kökeni (volkanizma veya tortullanma) ile ilgilidir. Uzanış doğrultusunun kayaç cinsiyle ilgisi yoktur.",
+      "harita_il": "trabzon",
+      "zorluk": "orta"
+    },
+    {
+      "id": "daglar-077",
+      "soru": "Dağ yamaçları boyunca yükseldikçe sıcaklık her 200 metrede yaklaşık 1°C azalır. Bu durum, bitki örtüsünün dikey bir doğrultuda kuşaklar oluşturarak değişmesine yol açar. Örneğin Doğu Karadeniz Dağları'nın denize bakan kuzey yamaçlarında kıyıdan zirveye doğru gidildikçe orman yapısı değişir.\n\nDoğu Karadeniz Dağları'nın kuzey yamacı boyunca kıyıdan itibaren dikey yönde bitki topluluklarının sıralanışı aşağıdakilerin hangisinde sırasıyla doğru olarak verilmiştir?",
+      "siklar": [
+        "A) Bozkır - Geniş yapraklı orman - İğne yapraklı orman - Alpin çayırlar",
+        "B) Geniş yapraklı orman - Karışık orman - İğne yapraklı orman - Alpin çayırlar",
+        "C) Maki - Geniş yapraklı orman - Alpin çayırlar - İğne yapraklı orman",
+        "D) İğne yapraklı orman - Geniş yapraklı orman - Karışık orman - Bozkır",
+        "E) Alpin çayırlar - İğne yapraklı orman - Karışık orman - Geniş yapraklı orman"
+      ],
+      "dogru": "B) Geniş yapraklı orman - Karışık orman - İğne yapraklı orman - Alpin çayırlar",
+      "aciklama": "Doğu Karadeniz'de kıyıdan itibaren nemli ve ılık Akdeniz/Karadeniz geçiş etkisiyle geniş yapraklı ormanlar (kestane, kayın, meşe) yer alır. Yükseldikçe (soğumayla) geniş ve iğne yapraklılardan oluşan karışık orman kuşağı başlar. Daha yukarıda sadece soğuğa dayanıklı iğne yapraklılar (ladin, göknar, çam) görülür. Orman üst sınırından (yaklaşık 2000-2200 m) sonra ise ormanın yetişemediği yüksek alpin çayırları başlar.",
+      "harita_il": "rize",
+      "zorluk": "zor"
+    },
+    {
+      "id": "daglar-078",
+      "soru": "Türkiye'de Pleistosen buzul döneminde dağ zirvelerinde oluşan kalıcı buzullar (glasyal sistem), geride sirk çanakları, sirk gölleri ve moren yığınları bırakmıştır. Günümüzde buzul izlerinin başladığı alt sınır (buzullaşma alt sınırı) dağlarımızın konumuna göre değişiklik gösterir.\n\nBuzullaşma sınırının Türkiye'nin güneyindeki Toroslar'da yaklaşık 3000 metreden başlamasına rağmen, kuzeydeki Doğu Karadeniz Dağları'nda 2200-2400 metrelere kadar inmesinin temel nedeni aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Toroslar'ın litolojik yapısının karstik olması",
+        "B) Karadeniz dağlarının daha genç orojenezle oluşması",
+        "C) Enlem etkisi nedeniyle kuzeye gidildikçe sıcaklıkların düşmesi ve nemliliğin kalıcı kar sınırını alçaltması",
+        "D) Toroslar'da deprem sismik riskinin daha az olması",
+        "E) Karadeniz'de rüzgar erozyonunun daha şiddetli olması"
+      ],
+      "dogru": "C) Enlem etkisi nedeniyle kuzeye gidildikçe sıcaklıkların düşmesi ve nemliliğin kalıcı kar sınırını alçaltması",
+      "aciklama": "Ekvator'dan kutuplara doğru gidildikçe sıcaklığın azalmasına bağlı olarak kalıcı kar ve buzullaşma sınırı deniz seviyesine doğru alçalır. Türkiye'nin güneyinde (Toroslar) enlem sıcaklık etkisiyle bu sınır yüksekteyken (3000 m), kuzeyinde (Karadeniz dağları) enlem soğukluğu ve nemlilik etkisiyle bu sınır daha aşağılara (2200-2400 m) iner. Bu durum enlem ve nemlilik ile doğrudan ilgilidir.",
+      "harita_il": "rize",
+      "zorluk": "zor"
+    },
+    {
+      "id": "daglar-079",
+      "soru": "Türkiye'de Pleistosen buzul döneminde buzullaşmaya maruz kalarak buzul aşınım ve birikim şekilleri (sirk, moren, hörgüçkaya) kazanmış çok sayıda dağ kütlesi bulunurken, yükseltisi az olan dağlarda buzul izlerine rastlanmaz.\n\nAşağıdaki dağ kütlelerinin hangisinde jeolojik geçmişte buzul (glasyal) aşındırma şekillerinin oluştuğu söylenemez?",
+      "siklar": [
+        "A) Cilo Dağları (Hakkari)",
+        "B) Bolkar Dağları (Orta Toroslar)",
+        "C) Uludağ (Bursa)",
+        "D) Yıldız Dağları (Trakya)",
+        "E) Kaçkar Dağı (Rize)"
+      ],
+      "dogru": "D) Yıldız Dağları (Trakya)",
+      "aciklama": "Türkiye'de buzul izlerinin görülebilmesi için dağın yüksekliğinin buzul dönemindeki kalıcı kar sınırının üzerinde olması gerekir. Yıldız Dağları'nın en yüksek zirvesi sadece 1031 metredir. Bu düşük yükseltisi nedeniyle Yıldız Dağları üzerinde buzul izine rastlanması imkansızdır. Cilo (4168 m), Kaçkar (3937 m), Bolkar (3524 m) ve Uludağ'da (2543 m) belirgin buzul izleri mevcuttur.",
+      "harita_il": "kirklareli",
+      "zorluk": "orta"
+    },
+    {
+      "id": "daglar-080",
+      "soru": "Karadeniz'den gelen nemli hava kütlelerinin Doğu Karadeniz Dağları'nın kuzey yamaçlarına çarparak yükselmesi bol yağış bırakır. Bu hava kütlesi dağ zirvelerini aşıp güney yamaçlarından iç kesimlere (Çoruh-Kelkit vadilerine) doğru inerken sürtünmenin etkisiyle her 100 metrede 1°C ısınır. Bu sıcak ve kuru rüzgar, ulaştığı vadi tabanlarında yerel mikroklimatik alanlar oluşturur.\n\nYukarıda oluşum mekanizması açıklanan ve Doğu Karadeniz ile Toroslar'ın dulda (arkada kalan) yamaçlarında görülen bu rüzgar türü aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Meltem Rüzgarı",
+        "B) Föhn (Fön) Rüzgarı",
+        "C) Poyraz",
+        "D) Lodos",
+        "E) Karayel"
+      ],
+      "dogru": "B) Föhn (Fön) Rüzgarı",
+      "aciklama": "Dağ yamacını aşarak aşağı doğru inen hava kütlesinin sürtünmeyle her 100 metrede 1°C ısınmasıyla oluşan kuru ve sıcak rüzgarlara 'Föhn' (Fön) rüzgarları denir. Bu rüzgar ulaştığı vadi ve ovalarda sıcaklığı aniden yükselterek tarım ürünlerinin erken olgunlaşmasına veya kurumasına sebep olur (örn. Rize'de turunçgil, Artvin'de zeytin mikrokliması oluşumunu destekler).",
+      "harita_il": "rize",
+      "zorluk": "zor"
+    },
+    {
+      "id": "daglar-081",
+      "soru": "Türkiye'de dağların kıyıya paralel uzandığı Karadeniz ve Akdeniz kıyılarında, kıyıdaki liman kentlerini iç kesimlere bağlayan demiryolu ve karayolu güzergahları inşa edilirken topoğrafya büyük engeller çıkarır. Ulaşım ancak çok yüksek maliyetli tüneller ve viyadüklerle sağlanabilir.\n\nAşağıdaki tünellerden hangisi Karadeniz Bölgesi'nde kıyı ile iç kesimler arasındaki bu orografik engeli aşmak amacıyla inşa edilmiş en uzun karayolu tünellerinden biri değildir?",
+      "siklar": [
+        "A) Ovit Dağı Tüneli",
+        "B) Ilgaz 15 Temmuz İstiklal Tüneli",
+        "C) Cankurtaran Tüneli",
+        "D) Zigana Tüneli",
+        "E) Sabuncubeli Tüneli"
+      ],
+      "dogru": "E) Sabuncubeli Tüneli",
+      "aciklama": "Sabuncubeli Tüneli, Ege Bölgesi'nde İzmir ile Manisa arasındaki ulaşımı kolaylaştırmak için inşa edilmiştir. Karadeniz Bölgesi'nde değildir (E). Ovit (Rize-Erzurum) (A), Ilgaz (Kastamonu-Çankırı) (B), Cankurtaran (Hopa-Borçka/Artvin) (C) ve Zigana (Trabzon-Gümüşhane) (D) Karadeniz dağlarını aşan devasa tünellerdir.",
+      "harita_il": "artvin",
+      "zorluk": "orta"
+    },
+    {
+      "id": "daglar-082",
+      "soru": "Türkiye'de dağlık alanların beşeri ve ekonomik coğrafya üzerindeki olumlu etkilerinden biri de alternatif turizm potansiyelidir. Özellikle yaz aylarında serin havası, gür otlakları ve geleneksel şenlikleriyle yayla turizmi ile dağcılık faaliyetleri kırsal kalkınmaya katkı sunar.\n\nDoğu Karadeniz Bölümü'nde Kaçkar Dağları eteklerinde yer alan, Türkiye'nin en ünlü yayla turizmi merkezlerinden biri olan lokasyon aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Ayder Yaylası (Rize)",
+        "B) Perşembe Yaylası (Ordu)",
+        "C) Bürücek Yaylası (Adana)",
+        "D) Kadırga Yaylası (Gümüşhane)",
+        "E) Tekir Yaylası (Kayseri)"
+      ],
+      "dogru": "A) Ayder Yaylası (Rize)",
+      "aciklama": "Rize Çamlıhemşin sınırlarında, Kaçkar Dağları'nın kuzey eteklerinde yer alan ünlü yayla turizm merkezi Ayder Yaylası'dır. Perşembe Yaylası Ordu Canik dağlarındadır (B), Bürücek Toroslar'dadır (C), Tekir Erciyes eteklerindedir (E).",
+      "harita_il": "rize",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "daglar-083",
+      "soru": "Türkiye, Kuzey Yarım Küre'de Yengeç Dönencesi'nin kuzeyinde yer aldığı için dağların güney yamaçları yıl boyunca güneş ışınlarını daha büyük açıyla alır (Bakı etkisi). Bu durum yamaçlar arasında belirgin fiziki farklar yaratır.\n\nBakı etkisinin bir sonucu olarak Türkiye'deki dağların güney yamaçlarında, kuzey yamaçlarına kıyasla aşağıdaki durumlardan hangisinin görülmesi beklenmez?",
+      "siklar": [
+        "A) Kalıcı kar sınırının daha yüksek kotlardan başlaması",
+        "B) Tarım ürünlerinin olgunlaşma süresinin daha kısa olması",
+        "C) Aynı tür bitkilerin çiçek açma süresinin daha geç olması",
+        "D) Tarım ve yerleşme üst sınırlarının daha yüksekte yer alması",
+        "E) Karların daha erken erimesi ve buharlaşmanın daha fazla olması"
+      ],
+      "dogru": "C) Aynı tür bitkilerin çiçek açma süresinin daha geç olması",
+      "aciklama": "Güney yamaçlar güneş ışınlarını daha dik açıyla aldığı için daha sıcaktır. Sıcak yamaçta bitkiler daha erken uyanır ve çiçek açma süresi daha erken (geç değil) gerçekleşir. Bu yüzden C şıkkı yanlıştır. Güney yamaçta karlar erken erir (E), kalıcı kar sınırı yüksektedir (A), tarım üst sınırı yüksektedir (D) ve olgunlaşma erken olur (B).",
+      "harita_il": "nigde",
+      "zorluk": "zor"
+    },
+    {
+      "id": "daglar-084",
+      "soru": "Doğu Karadeniz Dağları kıyıya paralel uzanarak Karadeniz'den gelen nemli hava kütlelerini kuzey yamaçta tutar. Bu nedenle dağların kuzey yamaçları bol yağışlı ve gür ormanlarla kaplıyken, güney yamaçları (iç kesimler) kuru, karasal ve bozkır örtüsüyle kaplıdır. Bu durum dağların adeta klimatolojik bir perde rolü oynamasının sonucudur.\n\nBu duruma en iyi örnek, aşağıdaki il eşleştirmelerinin hangisinde, kıyıdaki ilin gür ormanlık, iç kesimdeki ilin ise kuru bozkır karakteriyle belirgin şekilde gözlemlenir?",
+      "siklar": [
+        "A) Trabzon - Gümüşhane",
+        "B) İzmir - Manisa",
+        "C) Samsun - Ordu",
+        "D) Antalya - Mersin",
+        "E) Adana - Hatay"
+      ],
+      "dogru": "A) Trabzon - Gümüşhane",
+      "aciklama": "Kıyı Karadeniz'de yer alan ve dağların kuzey yamacında kalan Trabzon bol yağışlı ve gür ormanlık iken; Doğu Karadeniz Dağları'nın arkasında (güney yamacında) kalan Gümüşhane çok daha az yağış alan karasal, bozkır örtülü bir yapıya sahiptir. Bu iki komşu il arasındaki bu keskin fark dağların iklim bariyeri rolünü mükemmel şekilde kanıtlar. Ege'de dağlar dik uzandığı için İzmir-Manisa arasında böyle keskin bir bariyer etkisi yoktur (B).",
+      "harita_il": "gumushane",
+      "zorluk": "orta"
+    },
+    {
+      "id": "daglar-085",
+      "soru": "Akdeniz Bölgesi'nde Toros Dağları'nın kıyıya paralel yükselmesi, kıyıdaki nemli Akdeniz havasının iç kesimlere geçmesini engeller. Bu nedenle Antalya kıyılarında Akdeniz iklimi görülürken, hemen kuzeyindeki Isparta ve Burdur (Göller Yöresi) havzalarında karasal iklim etkileri baskın hale gelir.\n\nToros Dağları'nın bu iklim bariyeri rolünün iç kesimlerdeki Isparta ve Burdur'da yol açtığı klimatolojik sonuç aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Yıllık ve günlük sıcaklık farklarının kıyıya göre azalması",
+        "B) Kış aylarında kar yağışlı ve donlu gün sayısının kıyıya göre çok daha fazla olması",
+        "C) Yıllık toplam yağış miktarının kıyı Antalya'dan daha fazla olması",
+        "D) Tarım ürünlerinin olgunlaşma süresinin kıyıya göre daha kısa olması",
+        "E) Nem oranının kıyı şeridine göre çok daha yüksek olması"
+      ],
+      "dogru": "B) Kış aylarında kar yağışlı ve donlu gün sayısının kıyıya göre çok daha fazla olması",
+      "aciklama": "Toroslar denizel ılık havayı engellediği için arkada kalan Isparta ve Burdur'da karasallık artar. Karasallığın bir sonucu olarak kışlar daha soğuk geçer, kar yağışı ve don olayı gün sayısı Antalya kıyılarına göre çok daha fazladır. Nem oranı azdır (E), sıcaklık farkları fazladır (A), yağış ise kıyıdan çok daha azdır (C).",
+      "harita_il": "isparta",
+      "zorluk": "orta"
+    },
+    {
+      "id": "daglar-086",
+      "soru": "Aşağıdaki Türkiye haritasında bazı dağlık alanlar numaralandırılarak gösterilmiştir.\n\n(Görsel referansı: /images/quizzes/daglar-map-a.svg)\n\nHaritada numaralandırılmış bu alanların hangisinde yer alan dağlar, yan basınçlar karşısında kıvrılamayarak tektonik kırılmalarla (horst-graben sistemi) oluşmuş bir yapıya sahiptir?",
+      "siklar": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV",
+        "E) V"
+      ],
+      "dogru": "B) II",
+      "aciklama": "Harita A'da II numara ile gösterilen yer, Ege Bölgesi'nde kırıklı dağ oluşumunun (horst-graben sistemleri) yer aldığı Bozdağlar kütlesini ifade eder. I numara Yıldız Dağları kıvrım kütlesi (A), III Aladağlar kıvrım kütlesi (C), IV Kaçkar kıvrım dağı (D), V ise Cilo kıvrımlı dağ silsilesidir (E).",
+      "gorsel": "/images/quizzes/daglar-map-a.svg",
+      "zorluk": "orta"
+    },
+    {
+      "id": "daglar-087",
+      "soru": "Aşağıdaki Türkiye haritasında bazı dağlık alanlar numaralandırılarak gösterilmiştir.\n\n(Görsel referansı: /images/quizzes/daglar-map-a.svg)\n\nHaritada numaralandırılmış alanların yükseltileri ve glasyal (buzul) topoğrafya özellikleri dikkate alındığında, hangisinde güncel buzul aşınım ve birikim şekilleri (sirk, moren) ile güncel buzullar en yaygın olarak yer almaktadır?",
+      "siklar": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV",
+        "E) V"
+      ],
+      "dogru": "E) V",
+      "aciklama": "Harita A'da V numara ile gösterilen Hakkari Cilo Dağları (Uludoruk zirvesi 4168 m), Türkiye'nin en yüksek ikinci dağ kütlesidir. Çok yüksek olması nedeniyle üzerinde güncel vadi buzulları ve en yaygın glasyal topoğrafya şekilleri yer alır. I (Yıldız) ve II'de (Bozdağlar) buzul izi yoktur. IV'te (Kaçkar) buzul izleri vardır ancak Cilo (V) kadar büyük ve güncel vadi buzulları yoğun değildir.",
+      "gorsel": "/images/quizzes/daglar-map-a.svg",
+      "zorluk": "zor"
+    },
+    {
+      "id": "daglar-088",
+      "soru": "Aşağıdaki Türkiye haritasında bazı dağlık alanlar numaralandırılarak gösterilmiştir.\n\n(Görsel referansı: /images/quizzes/daglar-map-a.svg)\n\nHaritadaki numaralı alanların hangisinde yer alan dağ kütlesi, hem ortalama yükseltisinin en az olmasıyla (en yüksek noktası yaklaşık 1030 m) hem de I. Jeolojik Zaman'a tarihlenen yaşlı masif kristalin temel arazi (Yıldız Masifi) çekirdeği barındırmasıyla bilinir?",
+      "siklar": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV",
+        "E) V"
+      ],
+      "dogru": "A) I",
+      "aciklama": "Harita A'da I numara ile gösterilen yer Trakya'daki Yıldız Dağları'dır (Istranca). Bu dağlar hem yaşlı masif arazi yapısındadır hem de ortalama yükseltisi diğer numaralı dağlara göre çok düşüktür (en yüksek yeri 1031 m). Diğer dağların tamamı 2000 metrenin çok üzerindedir.",
+      "gorsel": "/images/quizzes/daglar-map-a.svg",
+      "zorluk": "orta"
+    },
+    {
+      "id": "daglar-089",
+      "soru": "Aşağıdaki Türkiye haritasında bazı dağlık alanlar numaralandırılarak gösterilmiştir.\n\n(Görsel referansı: /images/quizzes/daglar-map-a.svg)\n\nHaritadaki numaralandırılmış alanların iklimsel özellikleri göz önüne alındığında, hangi dağların kuzey yamaçları denizden gelen nemli rüzgarları doğrudan yakalayan orografik (yamaç) yağışların ve gür iğne yapraklı ladin ormanlarının en yoğun görüldüğü alandır?",
+      "siklar": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV",
+        "E) V"
+      ],
+      "dogru": "D) IV",
+      "aciklama": "Harita A'da IV numara ile gösterilen Doğu Karadeniz'deki Kaçkar Dağları'dır. Kaçkarlar'ın Karadeniz'e bakan kuzey yamaçları nemli rüzgarları doğrudan yakalayarak Türkiye'nin en yüksek yamaç yağışlarını alır ve burada ladin, göknar gibi gür nemli iğne yapraklı orman kuşakları gelişir. III (Aladağlar) Akdeniz iklimindedir, ladin yerine sedir yaygındır.",
+      "gorsel": "/images/quizzes/daglar-map-a.svg",
+      "zorluk": "zor"
+    },
+    {
+      "id": "daglar-090",
+      "soru": "Aşağıdaki Türkiye haritasında bazı dağlık alanlar numaralandırılarak gösterilmiştir.\n\n(Görsel referansı: /images/quizzes/daglar-map-b.svg)\n\nHaritada V numarayla gösterilen dağ kütlesi, çok akıcı (bazaltik) lavların geniş düzlüklere yayılmasıyla oluşan ve Türkiye'nin en belirgin 'kalkan volkanı' örneğini sunan hangi dağdır?",
+      "siklar": [
+        "A) Erciyes Dağı",
+        "B) Hasan Dağı",
+        "C) Nemrut Dağı",
+        "D) Karacadağ",
+        "E) Ağrı Dağı"
+      ],
+      "dogru": "D) Karacadağ",
+      "aciklama": "Harita B'de V numara ile gösterilen Güneydoğu Anadolu'daki Karacadağ volkanıdır. Karacadağ akıcı bazaltik lavların geniş alanlara yayılmasıyla oluşmuş son derece yayvan yapılı bir 'kalkan volkanı'dır. Erciyes (III) stratovulkandır.",
+      "gorsel": "/images/quizzes/daglar-map-b.svg",
+      "zorluk": "orta"
+    },
+    {
+      "id": "daglar-091",
+      "soru": "Aşağıdaki Türkiye haritasında bazı dağlık alanlar numaralandırılarak gösterilmiştir.\n\n(Görsel referansı: /images/quizzes/daglar-map-b.svg)\n\nHaritada II numarayla gösterilen Muğla ve çevresindeki engebeli Menteşe Yöresi dağları ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+      "siklar": [
+        "A) Tamamen sönmüş aktif stratovolkan konilerinden oluşur.",
+        "B) Kıyıya dik uzandığı için deniz etkisinin iç kesimlere en kolay girdiği alandır.",
+        "C) Kırıklı yapıdaki horst kütleleridir ve kıyı çizgisine paralel uzandığı için yöreye bol orografik yağış bırakır.",
+        "D) Ortalama yükseltisi 4000 metrenin üzerinde olup örtü buzulu taşır.",
+        "E) Marmara'nın düzlük arazileriyle benzer ulaşım kolaylığına sahiptir."
+      ],
+      "dogru": "C) Kırıklı yapıdaki horst kütleleridir ve kıyı çizgisine paralel uzandığı için yöreye bol orografik yağış bırakır.",
+      "aciklama": "Harita B'de II numara ile gösterilen Muğla'daki Menteşe Dağları'dır. Menteşe Dağları kırıklı horst yapısındadır ancak Ege'deki diğer dağların aksine kıyıya paralel uzanırlar. Bu paralel uzanış denizden gelen nemli rüzgarları dik keserek yamaç yağışlarına (orografik yağışlara) sebep olur ve Muğla'yı Ege'nin en çok yağış alan yeri yapar.",
+      "gorsel": "/images/quizzes/daglar-map-b.svg",
+      "zorluk": "zor"
+    },
+    {
+      "id": "daglar-092",
+      "soru": "Aşağıdaki Türkiye haritasında bazı dağlık alanlar numaralandırılarak gösterilmiştir.\n\n(Görsel referansı: /images/quizzes/daglar-map-b.svg)\n\nHaritada III numarayla gösterilen İç Anadolu'daki dağ kütlesi aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Hasan Dağı",
+        "B) Karadağ",
+        "C) Erciyes Dağı",
+        "D) Melendiz Dağı",
+        "E) Karacadağ"
+      ],
+      "dogru": "C) Erciyes Dağı",
+      "aciklama": "Harita B'de III numara ile gösterilen Kayseri yakınındaki Erciyes Dağı'dır (3917 m). İç Anadolu'nun en yüksek stratovolkanıdır. Hasan Dağı (A) daha batıda Aksaray'dadır.",
+      "gorsel": "/images/quizzes/daglar-map-b.svg",
+      "zorluk": "orta"
+    },
+    {
+      "id": "daglar-093",
+      "soru": "Aşağıdaki Türkiye haritasında bazı dağlık alanlar numaralandırılarak gösterilmiştir.\n\n(Görsel referansı: /images/quizzes/daglar-map-b.svg)\n\nHaritada IV numarayla gösterilen Orta Karadeniz'deki Canik Dağları'nın alçak olması ve kıyı çizgisinin gerisinde uzanmasının bölgeye sağladığı yansımalar arasında aşağıdakilerden hangisi yer almaz?",
+      "siklar": [
+        "A) Kıyı şeridinde Bafra ve Çarşamba gibi geniş delta ovalarının rahatça oluşabilmesi",
+        "B) Kıyı ile iç kesimler arasındaki ulaşımın geçit ihtiyacı olmadan kolayca sağlanması",
+        "C) Denizel iklim etkilerinin iç kısımlara kadar kolayca sokulabilmesi",
+        "D) Doğu Karadeniz'e göre kıyı şeridinde falez (yalıyar) oluşumunun son derece yaygın ve yüksek olması",
+        "E) Samsun Limanı'nın hinterlandının (art bölgesinin) çok geniş olması"
+      ],
+      "dogru": "D) Doğu Karadeniz'e göre kıyı şeridinde falez (yalıyar) oluşumunun son derece yaygın ve yüksek olması",
+      "aciklama": "Canik Dağları kıyının gerisinde ve alçak olduğu için kıyıda falez (yalıyar) oluşumu çok zordur ve azdır. Falezler kıyının hemen gerisinden dik yükselen Doğu ve Batı Karadeniz dağlarında yaygındır. Dolayısıyla D şıkkı yanlıştır. Diğer şıklar alçak ve geride uzanmanın doğal sonuçlarıdır.",
+      "gorsel": "/images/quizzes/daglar-map-b.svg",
+      "zorluk": "zor"
+    },
+    {
+      "id": "daglar-094",
+      "soru": "Aşağıdaki Türkiye haritasında bazı dağlık alanlar numaralandırılarak gösterilmiştir.\n\n(Görsel referansı: /images/quizzes/daglar-map-c.svg)\n\nHaritada IV numarayla gösterilen dağın zirvesinde, jeolojik geçmişteki şiddetli patlamalar sonucu oluşan dünyanın en büyük ikinci kalderası ve bu kalderanın içindeki geniş krater gölü yer almaktadır. Bu dağ aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Nemrut Dağı",
+        "B) Süphan Dağı",
+        "C) Tendürek Dağı",
+        "D) Ağrı Dağı",
+        "E) Erciyes Dağı"
+      ],
+      "dogru": "A) Nemrut Dağı",
+      "aciklama": "Harita C'de IV numara ile gösterilen yer Van Gölü'nün batısında Bitlis sınırlarında yer alan Nemrut Dağı'dır (2948 m). Zirvesinde Nemrut Kalderası ve Krater Gölü yer alır. Ağrı Dağı (V) daha kuzeydoğudadır.",
+      "gorsel": "/images/quizzes/daglar-map-c.svg",
+      "zorluk": "orta"
+    },
+    {
+      "id": "daglar-095",
+      "soru": "Aşağıdaki Türkiye haritasında bazı dağlık alanlar numaralandırılarak gösterilmiştir.\n\n(Görsel referansı: /images/quizzes/daglar-map-c.svg)\n\nHaritada V numarayla gösterilen, Türkiye'nin en yüksek noktası (5137 m) olan ve üzerinde örtü buzulu yer alan sönmüş volkanik dağ aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Süphan Dağı",
+        "B) Ağrı Dağı",
+        "C) Tendürek Dağı",
+        "D) Kaçkar Dağı",
+        "E) Cilo Dağı"
+      ],
+      "dogru": "B) Ağrı Dağı",
+      "aciklama": "Harita C'de V numara ile gösterilen, Türkiye'nin Iğdır-Ağrı sınırındaki en yüksek dağı olan Ağrı Dağı'dır (5137 m). Süphan Dağı (A) daha güneybatıda, Van Gölü kuzeyindedir.",
+      "gorsel": "/images/quizzes/daglar-map-c.svg",
+      "zorluk": "kolay"
+    },
+    {
+      "id": "daglar-096",
+      "soru": "Aşağıdaki Türkiye haritasında bazı dağlık alanlar numaralandırılarak gösterilmiştir.\n\n(Görsel referansı: /images/quizzes/daglar-map-c.svg)\n\nHaritada II numarayla gösterilen Aydın Dağları horst kütlesinin sınırlandığı aktif kırık hatları boyunca kurulan jeotermal santraller elektrik üretir.\n\nAydın Dağları horstunun hemen güney sınırını çizen ve Türkiye'nin en zengin incir tarımı alanını barındıran graben ovası aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Gediz Grabeni",
+        "B) Küçük Menderes Grabeni",
+        "C) Büyük Menderes Grabeni",
+        "D) Bakırçay Grabeni",
+        "E) Amik Grabeni"
+      ],
+      "dogru": "C) Büyük Menderes Grabeni",
+      "aciklama": "Aydın Dağları'nın (II) güneyinde yer alan çöküntü alanı Büyük Menderes Grabeni'dir (Aydın Ovası). Kuzeyinde ise Küçük Menderes Grabeni yer alır. Gediz Grabeni daha kuzeyde Manisa'dadır. Büyük Menderes incir tarımıyla dünyaca ünlüdür.",
+      "gorsel": "/images/quizzes/daglar-map-c.svg",
+      "zorluk": "zor"
+    },
+    {
+      "id": "daglar-097",
+      "soru": "Aşağıdaki Türkiye haritasında bazı dağlık alanlar numaralandırılarak gösterilmiştir.\n\n(Görsel referansı: /images/quizzes/daglar-map-c.svg)\n\nHaritada III numarayla gösterilen Bolkar Dağları üzerinde karstik aşınım şekilleri (lapya, dolin) ile buzul (glasyal) şekillerinin bir arada görülmesi, dağın aşağıdaki özelliklerinden hangileriyle sırasıyla açıklanabilir?",
+      "siklar": [
+        "A) Volkanik kayaç yapısı - Ekvator'a yakın olması",
+        "B) Kireçtaşı (kalker) litolojisi - Ortalama yükseltisinin fazla olması",
+        "C) Deprem riskinin yüksek olması - Batı rüzgarları kuşağında kalması",
+        "D) Kırıklı yapıda olması - Kuzey rüzgarlarına açık olması",
+        "E) Heyelan riski - Taş kömürü yataklarının bulunması"
+      ],
+      "dogru": "B) Kireçtaşı (kalker) litolojisi - Ortalama yükseltisinin fazla olması",
+      "aciklama": "Bolkar Dağları'nda (III) karstik şekillerin görülmesi ana kayacının kireçtaşı (kalker) litolojisine sahip olmasıyla; buzul (glasyal) şekillerinin (sirk gölleri) görülmesi ise dağın yüksekliğinin fazla olması (3524 m) ve buzul dönemlerinde buzullaşma sınırının üzerinde yer almasıyla açıklanır.",
+      "gorsel": "/images/quizzes/daglar-map-c.svg",
+      "zorluk": "orta"
+    },
+    {
+      "id": "daglar-098",
+      "soru": "Aşağıdaki Türkiye haritasında bazı dağlık alanlar numaralandırılarak gösterilmiştir.\n\n(Görsel referansı: /images/quizzes/daglar-map-d.svg)\n\nHaritada II numarayla gösterilen, Hatay'da İskenderun Körfezi boyunca uzanan ve orojenik olarak Türkiye'deki kıvrımlı Toros kuşağının aksine tektonik kırılmayla oluşmuş horst dağ kütlesi aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Bolkar Dağları",
+        "B) Amanos (Nur) Dağları",
+        "C) Küre Dağları",
+        "D) Yalnızçam Dağları",
+        "E) Melendiz Dağları"
+      ],
+      "dogru": "B) Amanos (Nur) Dağları",
+      "aciklama": "Harita D'de II numara ile gösterilen yer Hatay'daki Amanos (Nur) Dağları'dır. Amanoslar Akdeniz Bölgesi'ndeki tek horst kütlesidir. Küre Dağları (I) Batı Karadeniz'dedir.",
+      "gorsel": "/images/quizzes/daglar-map-d.svg",
+      "zorluk": "orta"
+    },
+    {
+      "id": "daglar-099",
+      "soru": "Aşağıdaki Türkiye haritasında bazı dağlık alanlar numaralandırılarak gösterilmiştir.\n\n(Görsel referansı: /images/quizzes/daglar-map-d.svg)\n\nHaritada I numarayla gösterilen, Batı Karadeniz'de Kastamonu ve Bartın sınırlarında yer alan, kireçtaşları üzerinde gelişen kanyonları (Valla) ve mağara sistemleriyle ünlü milli park statüsündeki kıvrım dağ sırası aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Köroğlu Dağları",
+        "B) Küre Dağları",
+        "C) Samanlı Dağları",
+        "D) Canik Dağları",
+        "E) Amanos Dağları"
+      ],
+      "dogru": "B) Küre Dağları",
+      "aciklama": "Harita D'de I numara ile gösterilen dağ sırası Batı Karadeniz'deki Küre (İsfendiyar) Dağları'dır. Küre Dağları karstik kanyonları, mağara sistemleri ve gür ormanlarıyla Kastamonu-Bartın sınırında yer alan kıvrım dağlarıdır.",
+      "gorsel": "/images/quizzes/daglar-map-d.svg",
+      "zorluk": "zor"
+    },
+    {
+      "id": "daglar-100",
+      "soru": "Aşağıdaki Türkiye haritasında bazı dağlık alanlar numaralandırılarak gösterilmiştir.\n\n(Görsel referansı: /images/quizzes/daglar-map-d.svg)\n\nHaritadaki numaralandırılmış alanların hangilerinde yer alan dağ kütleleri, yükseltilerinin 3000 metrenin üzerinde olması nedeniyle üzerinde Pleistosen buzul dönemine ait belirgin glasyal aşınım şekilleri ve sirk çanakları barındırır?",
+      "siklar": [
+        "A) I ve II",
+        "B) II ve III",
+        "C) I ve IV",
+        "D) III ve IV",
+        "E) IV ve V"
+      ],
+      "dogru": "E) IV ve V",
+      "aciklama": "Harita D'de IV numara Yalnızçam Dağları (Ardahan-Karadeniz sınırı, yaklaşık 3000 m) ve V numara Hakkari Sat Dağları'nı (yaklaşık 3800 m) temsil eder. Her iki dağ kütlesi de 3000 metrenin üzerinde yükseltilere sahip oldukları için Pleistosen buzul döneminde buzullaşmaya uğramış ve üzerlerinde buzul gölleri (sirkler) oluşmuştur. Küre (I) 1800 m, Amanos (II) ise 2240 m olup belirgin buzul şekli taşımazlar.",
+      "gorsel": "/images/quizzes/daglar-map-d.svg",
+      "zorluk": "zor"
+    }
+  ]
+}

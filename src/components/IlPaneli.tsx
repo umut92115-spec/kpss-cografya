@@ -9,55 +9,48 @@ interface IlPaneliProps {
 export default function IlPaneli({ il, konuData }: IlPaneliProps) {
   if (!il) {
     return (
-      <div className="h-full flex flex-col items-center justify-center p-12 text-center bg-white rounded-2xl shadow-xl border border-slate-100 animate-fade-in">
-        <div className="w-24 h-24 bg-slate-50 rounded-full flex items-center justify-center mb-6 border border-slate-100">
-          <span className="text-5xl opacity-40">📍</span>
+      <div className="h-full flex flex-col items-center justify-center p-10 text-center">
+        <div className="w-16 h-16 bg-ink-800 rounded-2xl flex items-center justify-center mb-5 border border-ink-700">
+          <span className="text-3xl opacity-50">📍</span>
         </div>
-        <h3 className="text-xl font-bold text-slate-800 mb-2">Keşfetmeye Hazır mısın?</h3>
-        <p className="text-slate-500 text-sm leading-relaxed max-w-[240px]">
-          Detaylı coğrafya analizlerini ve KPSS notlarını görmek için haritadan bir şehir seçin.
+        <h3 className="text-lg font-bold text-ink-200 mb-2">Bir İl Seçin</h3>
+        <p className="text-ink-400 text-sm leading-relaxed max-w-[220px]">
+          Haritadan bir ile tıklayarak detaylı coğrafya bilgilerini görüntüleyin.
         </p>
       </div>
     );
   }
 
   return (
-    <div className="h-full flex flex-col bg-white rounded-2xl shadow-xl border border-slate-200 overflow-hidden animate-slide-down">
-      {/* Üst Bilgi Alanı */}
-      <div className="p-6 bg-gradient-to-br from-slate-50 to-white border-b border-slate-100">
-        <div className="flex justify-between items-start mb-2">
-          <h2 className="text-4xl font-black text-slate-900 tracking-tight">{il.ad}</h2>
-          <span className="bg-slate-900 text-white px-3 py-1 rounded-lg font-bold text-lg shadow-md">
+    <div className="h-full flex flex-col">
+      {/* Başlık */}
+      <div className="p-5 border-b border-ink-700/50">
+        <div className="flex items-center justify-between mb-1">
+          <h2 className="text-2xl font-bold text-white">{il.ad}</h2>
+          <span className="bg-ink-700 text-ink-200 px-2.5 py-1 rounded-lg font-bold text-sm">
             {il.plaka}
           </span>
         </div>
-
-        <div className="flex items-center gap-3 text-sm">
-          <span className="flex items-center gap-1.5 px-2.5 py-1 bg-blue-50 text-blue-700 rounded-md font-bold uppercase tracking-wider text-[10px]">
-            <span className="text-sm">🌍</span> {il.bolge}
-          </span>
-          <span className="text-slate-300">|</span>
-          <span className="text-slate-500 font-medium italic">Türkiye&apos;nin İncisi</span>
-        </div>
+        <span className="text-xs text-ink-400 font-medium">{il.bolge} Bölgesi</span>
       </div>
 
-      <div className="p-6 flex-1 overflow-y-auto custom-scrollbar">
+      {/* İçerik */}
+      <div className="flex-1 overflow-y-auto p-5 space-y-5">
         {konuData ? (
-          <div className="space-y-8">
-            {/* Maden Bilgisi */}
+          <>
             {"maden_turleri" in konuData && (
-              <div className="animate-fade-in delay-100">
+              <div>
                 <div className="flex items-center gap-2 mb-3">
-                  <span className="text-xl">⛏️</span>
-                  <h3 className="font-bold text-slate-800 uppercase tracking-wide text-xs">
-                    Yeraltı Zenginlikleri
+                  <span className="text-sm">⛏️</span>
+                  <h3 className="text-xs font-bold text-ink-300 uppercase tracking-wider">
+                    Madenler
                   </h3>
                 </div>
-                <div className="flex flex-wrap gap-2">
+                <div className="flex flex-wrap gap-1.5">
                   {konuData.maden_turleri.map((m) => (
                     <span
                       key={m}
-                      className="px-4 py-1.5 bg-amber-50 text-amber-900 border border-amber-100 rounded-xl text-sm font-bold shadow-sm"
+                      className="px-3 py-1.5 bg-glow-500/10 text-glow-300 border border-glow-500/20 rounded-lg text-xs font-semibold"
                     >
                       {m}
                     </span>
@@ -66,20 +59,19 @@ export default function IlPaneli({ il, konuData }: IlPaneliProps) {
               </div>
             )}
 
-            {/* Tarım Bilgisi */}
             {"ana_urunler" in konuData && (
-              <div className="animate-fade-in delay-200">
+              <div>
                 <div className="flex items-center gap-2 mb-3">
-                  <span className="text-xl">🌾</span>
-                  <h3 className="font-bold text-slate-800 uppercase tracking-wide text-xs">
-                    Öne Çıkan Üretim
+                  <span className="text-sm">🌾</span>
+                  <h3 className="text-xs font-bold text-ink-300 uppercase tracking-wider">
+                    Tarım Ürünleri
                   </h3>
                 </div>
-                <div className="flex flex-wrap gap-2">
+                <div className="flex flex-wrap gap-1.5">
                   {konuData.ana_urunler.map((m) => (
                     <span
                       key={m}
-                      className="px-4 py-1.5 bg-emerald-50 text-emerald-900 border border-emerald-100 rounded-xl text-sm font-bold shadow-sm"
+                      className="px-3 py-1.5 bg-emerald-500/10 text-emerald-300 border border-emerald-500/20 rounded-lg text-xs font-semibold"
                     >
                       {m}
                     </span>
@@ -88,64 +80,56 @@ export default function IlPaneli({ il, konuData }: IlPaneliProps) {
               </div>
             )}
 
-            {/* Kritik Not */}
             {"onemli_not" in konuData && konuData.onemli_not && (
-              <div className="bg-slate-50 p-4 rounded-2xl border border-slate-100 animate-fade-in delay-300">
-                <h3 className="font-bold text-slate-700 mb-1 text-xs uppercase tracking-widest">
-                  Coğrafi Not
+              <div className="bg-ink-800 p-4 rounded-xl border border-ink-700">
+                <h3 className="text-xs font-bold text-ink-300 uppercase tracking-wider mb-2">
+                  Not
                 </h3>
-                <p className="text-slate-600 text-sm leading-relaxed">{konuData.onemli_not}</p>
+                <p className="text-ink-200 text-sm leading-relaxed">{konuData.onemli_not}</p>
               </div>
             )}
 
-            {/* KPSS Vurgusu */}
             {konuData.kpss_notu && (
-              <div className="bg-orange-500 text-white p-5 rounded-2xl shadow-lg shadow-orange-100 relative overflow-hidden group animate-fade-in delay-400">
-                <div className="absolute -right-4 -top-4 text-6xl opacity-10 rotate-12 transition-transform group-hover:rotate-45 duration-500">
-                  🎓
-                </div>
-                <h4 className="font-black text-sm mb-2 flex items-center gap-2 uppercase tracking-tighter">
-                  <span className="bg-white text-orange-600 w-5 h-5 rounded-full flex items-center justify-center text-[10px]">
+              <div className="bg-focus-600/10 p-4 rounded-xl border border-focus-500/20">
+                <div className="flex items-center gap-2 mb-2">
+                  <span className="w-5 h-5 bg-focus-500 rounded-full flex items-center justify-center text-[9px] text-white font-bold">
                     !
                   </span>
-                  KPSS Odaklı Bilgi
-                </h4>
-                <p className="text-sm font-medium leading-relaxed drop-shadow-sm">
-                  {konuData.kpss_notu}
-                </p>
+                  <h4 className="text-xs font-bold text-focus-300 uppercase tracking-wider">
+                    KPSS Notu
+                  </h4>
+                </div>
+                <p className="text-focus-100 text-sm leading-relaxed">{konuData.kpss_notu}</p>
               </div>
             )}
 
-            {/* Nasıl Sorulur? */}
             {"sik_soru" in konuData && konuData.sik_soru && (
-              <div className="bg-blue-600 text-white p-5 rounded-2xl shadow-lg shadow-blue-100 relative overflow-hidden group animate-fade-in delay-500">
-                <div className="absolute -right-4 -top-4 text-6xl opacity-10 rotate-12 transition-transform group-hover:rotate-45 duration-500">
-                  ❓
-                </div>
-                <h4 className="font-black text-sm mb-2 flex items-center gap-2 uppercase tracking-tighter">
+              <div className="bg-glow-500/10 p-4 rounded-xl border border-glow-500/20">
+                <h4 className="text-xs font-bold text-glow-300 uppercase tracking-wider mb-2">
                   Soru Potansiyeli
                 </h4>
-                <p className="text-sm font-medium leading-relaxed italic drop-shadow-sm">
+                <p className="text-glow-100 text-sm leading-relaxed italic">
                   &quot;{konuData.sik_soru}&quot;
                 </p>
               </div>
             )}
-          </div>
+          </>
         ) : (
-          <div className="h-40 flex flex-col items-center justify-center text-slate-400 text-sm italic border-2 border-dashed border-slate-100 rounded-3xl p-8 text-center bg-slate-50/50">
-            <span className="text-3xl mb-3 grayscale opacity-50">📑</span>
-            Bu konu başlığında {il.ad} için henüz spesifik bir veri kaydedilmedi.
+          <div className="flex flex-col items-center justify-center py-10 text-center">
+            <span className="text-2xl opacity-40 mb-3">📑</span>
+            <p className="text-ink-400 text-sm">Bu konuda {il.ad} için veri bulunamadı.</p>
           </div>
         )}
       </div>
 
-      <div className="p-6 mt-auto bg-slate-50/80 backdrop-blur-sm border-t border-slate-100">
+      {/* Alt Link */}
+      <div className="p-4 border-t border-ink-700/50">
         <Link
           href={`/${il.bolge_slug}bolgesi/il/${il.slug}`}
-          className="group flex items-center justify-between w-full bg-slate-900 hover:bg-black text-white font-bold py-4 px-6 rounded-2xl transition-all duration-300 shadow-xl shadow-slate-200"
+          className="flex items-center justify-between w-full bg-ink-800 hover:bg-ink-700 text-white font-semibold py-3 px-4 rounded-xl transition-colors text-sm border border-ink-700"
         >
-          <span className="tracking-tight">{il.ad} Şehir Rehberi</span>
-          <span className="transition-transform group-hover:translate-x-1">→</span>
+          <span>{il.ad} Detay Sayfası</span>
+          <span>→</span>
         </Link>
       </div>
     </div>

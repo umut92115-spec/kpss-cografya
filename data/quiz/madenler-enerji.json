@@ -1,15 +1,4 @@
-[
-  {
-    "question": "Türkiye'deki önemli maden ve enerji kaynakları dikkate alındığında, aşağıdaki eşleştirmelerden hangisi doğru bir bilgi içermemektedir?",
-    "options": [
-      "Demir madeninin işlendiği Karabük ve Ereğli tesislerinin kuruluşunda taş kömürü yataklarına yakınlık etkili olmuştur.",
-      "Bor madeninin dünya rezervlerinin büyük bir kısmına Türkiye sahip olup, bu madenin işlendiği yerlerden biri Bandırma'dır.",
-      "Bakır madeninin işleme tesislerinden biri olan Samsun'daki tesisin kuruluş nedeni, Karadeniz Bölgesi'nin ulaşım (liman) imkanlarından faydalanmaktır.",
-      "Türkiye'de en çok ithal edilen enerji kaynaklarından olan petrolün ilk çıkarıldığı yer Raman Dağı (Batman) iken, doğal gazın en büyük rezerv alanı Afşin-Elbistan'dır."
-    ],
-    "correct_index": 3,
-    "explanation": "D seçeneğinde verilen bilgi yanlıştır. Türkiye'de en çok ithal edilen enerji kaynakları doğal gaz ve petroldür ve ilk petrol kuyusu Raman Dağı (Batman)'dadır. Ancak, doğal gazın en büyük rezerv alanı olarak Afşin-Elbistan gösterilmiştir ki bu bilgi hatalıdır. Afşin-Elbistan, Türkiye'nin önemli linyit yataklarının ve termik santrallerinin bulunduğu bir bölgedir. Türkiye'deki başlıca doğal gaz çıkarım yerleri Hamitabat (Kırklareli), Ambarlı (İstanbul) ve Ovaakça (Bursa)'dır.",
-    "suggested_image": "/images/konu/madenler-enerji.png",
-    "created_at": "2026-05-05T03:25:37.201Z"
-  }
-]
+{
+  "konu": "madenler-enerji",
+  "sorular": []
+}

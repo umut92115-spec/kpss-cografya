@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
+import ThemeToggle from "./ThemeToggle";
 
 const navLinks = [
   { href: "/harita", label: "Harita", icon: "🗺️" },
@@ -22,61 +23,74 @@ export default function Navbar() {
   };
 
   return (
-    <header className="sticky top-0 z-50 w-full bg-white/70 backdrop-blur-xl border-b border-surface-100 transition-all duration-300">
-      <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between gap-8">
-        {/* ─── Sol: Logo ─────────────────────────────────────── */}
+    <header className="sticky top-0 z-50 w-full bg-white/90 dark:bg-ink-900/90 backdrop-blur-xl border-b border-ink-100 dark:border-ink-800 transition-all duration-300">
+      <div className="max-w-7xl mx-auto px-6 h-18 flex items-center justify-between gap-8">
+        {/* Logo */}
         <div className="flex shrink-0">
-          <Link href="/" className="flex items-center gap-2 group">
-            <div className="w-10 h-10 bg-brand-600 rounded-xl flex items-center justify-center text-white text-xl shadow-lg shadow-brand-500/20 group-hover:scale-110 transition-transform duration-300">
-              🗺️
+          <Link href="/" className="flex items-center gap-3 group">
+            <div className="w-10 h-10 bg-gradient-to-br from-focus-600 to-focus-700 rounded-xl flex items-center justify-center text-white text-lg shadow-md shadow-focus-600/20 group-hover:scale-110 group-hover:shadow-lg group-hover:shadow-focus-600/30 transition-all duration-300">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
+                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
+              </svg>
             </div>
             <div className="flex flex-col">
-              <span className="font-bold text-surface-900 text-xl tracking-tight leading-none">
-                kpss<span className="text-brand-600">coğrafya</span>
+              <span className="font-bold text-ink-900 dark:text-white text-lg tracking-tight leading-none">
+                KPSS <span className="text-focus-600 dark:text-focus-400">Coğrafya</span>
               </span>
-              <span className="text-[10px] text-surface-400 font-bold uppercase tracking-[0.2em]">
-                Platformu
+              <span className="text-[10px] text-ink-400 font-medium tracking-wide">
+                Eğitim Platformu
               </span>
             </div>
           </Link>
         </div>
 
-        {/* ─── Orta: Masaüstü Nav ────────────────────────────── */}
-        <nav className="hidden md:flex items-center bg-surface-50/50 p-1.5 rounded-2xl border border-surface-100 gap-1">
+        {/* Desktop Nav */}
+        <nav className="hidden md:flex items-center gap-1 bg-ink-50 dark:bg-ink-800 p-1.5 rounded-xl border border-ink-100 dark:border-ink-700">
           {navLinks.map(({ href, label, icon }) => (
             <Link
               key={href}
               href={href}
               className={`
-                flex items-center gap-2 px-5 py-2.5 rounded-xl text-sm font-bold transition-all duration-200
+                flex items-center gap-2 px-4 py-2.5 rounded-lg text-sm font-semibold transition-all duration-200
                 ${
                   isActive(href)
-                    ? "bg-white text-brand-600 shadow-sm ring-1 ring-surface-100"
-                    : "text-surface-500 hover:text-surface-900 hover:bg-white/50"
+                    ? "bg-white dark:bg-ink-700 text-focus-600 dark:text-focus-400 shadow-sm ring-1 ring-focus-100 dark:ring-focus-800"
+                    : "text-ink-500 dark:text-ink-400 hover:text-ink-900 dark:hover:text-ink-100 hover:bg-white/60 dark:hover:bg-ink-700/60"
                 }
               `}
             >
-              <span className="text-base group-hover:scale-110 transition-transform">{icon}</span>
+              <span className="text-base">{icon}</span>
               {label}
             </Link>
           ))}
         </nav>
 
-        {/* ─── Sağ: Aksiyon Butonu ────────────────────────────── */}
-        <div className="hidden md:flex items-center">
+        {/* CTA + Theme Toggle */}
+        <div className="hidden md:flex items-center gap-3">
+          <ThemeToggle />
           <Link
             href="/harita"
-            className="px-6 py-2.5 bg-surface-900 text-white text-sm font-bold rounded-xl hover:bg-surface-800 transition-all hover:scale-[1.02] active:scale-95 shadow-lg shadow-surface-900/10"
+            className="px-6 py-2.5 bg-focus-600 text-white text-sm font-bold rounded-lg hover:bg-focus-700 transition-all hover:scale-[1.02] active:scale-95 shadow-md shadow-focus-600/20"
           >
             Hemen Başla
           </Link>
         </div>
 
-        {/* ─── Mobil Toggle ──────────────────────── */}
+        {/* Mobile Toggle */}
         <div className="md:hidden flex items-center">
           <button
             onClick={() => setMenuAcik(!menuAcik)}
-            className="p-2.5 rounded-xl bg-surface-50 text-surface-900 border border-surface-100 hover:bg-surface-100 transition-colors"
+            className="p-2.5 rounded-xl bg-focus-50 text-focus-700 border border-focus-100 hover:bg-focus-100 transition-colors"
           >
             {menuAcik ? (
               <svg
@@ -107,9 +121,9 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* ─── Mobil Dropdown Menü ────────────────────────────── */}
+      {/* Mobile Menu */}
       {menuAcik && (
-        <div className="md:hidden absolute top-full left-0 w-full bg-white border-b border-surface-100 p-6 animate-fade-in shadow-2xl">
+        <div className="md:hidden absolute top-full left-0 w-full bg-white/95 dark:bg-ink-900/95 backdrop-blur-xl border-b border-ink-100 dark:border-ink-800 p-6 animate-fade-in shadow-xl">
           <nav className="flex flex-col gap-2">
             {navLinks.map(({ href, label, icon }) => (
               <Link
@@ -117,11 +131,11 @@ export default function Navbar() {
                 href={href}
                 onClick={() => setMenuAcik(false)}
                 className={`
-                  flex items-center gap-4 px-6 py-4 rounded-2xl text-base font-bold transition-all
+                  flex items-center gap-4 px-6 py-4 rounded-2xl text-base font-semibold transition-all
                   ${
                     isActive(href)
-                      ? "bg-brand-50 text-brand-600"
-                      : "text-surface-700 hover:bg-surface-50"
+                      ? "bg-focus-50 text-focus-700 border border-focus-100"
+                      : "text-ink-700 hover:bg-ink-50"
                   }
                 `}
               >
@@ -129,11 +143,12 @@ export default function Navbar() {
                 {label}
               </Link>
             ))}
-            <div className="mt-4 pt-4 border-t border-surface-100">
+            <div className="mt-4 pt-4 border-t border-ink-100 dark:border-ink-700 flex items-center gap-3">
+              <ThemeToggle />
               <Link
                 href="/harita"
                 onClick={() => setMenuAcik(false)}
-                className="flex items-center justify-center w-full py-4 bg-surface-900 text-white rounded-2xl font-bold text-lg"
+                className="flex-1 flex items-center justify-center py-4 bg-focus-600 text-white rounded-2xl font-bold text-lg shadow-md shadow-focus-600/20"
               >
                 Hemen Başla
               </Link>

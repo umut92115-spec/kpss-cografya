@@ -20,41 +20,68 @@ export const metadata: Metadata = {
   },
 };
 
-const renkler: Record<string, string> = {
-  blue: "bg-blue-50 border-blue-200 hover:border-blue-500 text-blue-700",
-  green: "bg-green-50 border-green-200 hover:border-green-500 text-green-700",
-  amber: "bg-amber-50 border-amber-200 hover:border-amber-500 text-amber-700",
-  indigo: "bg-indigo-50 border-indigo-200 hover:border-indigo-500 text-indigo-700",
-  rose: "bg-rose-50 border-rose-200 hover:border-rose-500 text-rose-700",
+const renkler: Record<string, { card: string; badge: string }> = {
+  blue: {
+    card: "border-blue-100 dark:border-blue-800 hover:border-blue-300 dark:hover:border-blue-600 bg-white dark:bg-ink-800",
+    badge: "bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300",
+  },
+  green: {
+    card: "border-green-100 dark:border-green-800 hover:border-green-300 dark:hover:border-green-600 bg-white dark:bg-ink-800",
+    badge: "bg-green-50 dark:bg-green-900/30 text-green-700 dark:text-green-300",
+  },
+  amber: {
+    card: "border-amber-100 dark:border-amber-800 hover:border-amber-300 dark:hover:border-amber-600 bg-white dark:bg-ink-800",
+    badge: "bg-amber-50 dark:bg-amber-900/30 text-amber-700 dark:text-amber-300",
+  },
+  indigo: {
+    card: "border-indigo-100 dark:border-indigo-800 hover:border-indigo-300 dark:hover:border-indigo-600 bg-white dark:bg-ink-800",
+    badge: "bg-indigo-50 dark:bg-indigo-900/30 text-indigo-700 dark:text-indigo-300",
+  },
+  rose: {
+    card: "border-rose-100 dark:border-rose-800 hover:border-rose-300 dark:hover:border-rose-600 bg-white dark:bg-ink-800",
+    badge: "bg-rose-50 dark:bg-rose-900/30 text-rose-700 dark:text-rose-300",
+  },
 };
 
 export default function HazirlikPage() {
   return (
-    <div className="min-h-screen bg-gray-50 py-16">
+    <div className="min-h-screen bg-[var(--background)] py-14 md:py-20">
       <div className="max-w-4xl mx-auto px-4">
-        <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-5xl font-black text-gray-900 mb-6">
-            Hangi Seviyeden Hazırlanıyorsun?
+        {/* Header */}
+        <div className="mb-14">
+          <h1 className="text-3xl md:text-4xl font-bold text-ink-900 dark:text-white mb-3 tracking-tight">
+            Sınav Hazırlığı
           </h1>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            KPSS ve YKS (TYT/AYT) coğrafya hazırlığı için seviyene özel konu anlatımı, soru dağılımı
-            ve interaktif quiz.
+          <p className="text-ink-500 text-base max-w-xl leading-relaxed">
+            Hedefine göre seç. Her seviyeye özel konu kapsamı, soru dağılımı ve quiz.
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {seviyeler.map((s) => (
-            <Link
-              key={s.slug}
-              href={`/hazirlik/${s.slug}`}
-              className={`group block border-2 rounded-2xl p-8 transition-all duration-200 hover:shadow-lg ${renkler[s.renk]}`}
-            >
-              <div className="text-5xl mb-4">{s.favicon}</div>
-              <h2 className="text-xl font-black mb-2">{s.baslik}</h2>
-              <p className="text-sm opacity-80 mb-4">{s.aciklama}</p>
-              <div className="text-sm font-bold">{s.bankaSoruSayisi}+ Soru Bankası →</div>
-            </Link>
-          ))}
+        {/* Cards */}
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {seviyeler.map((s) => {
+            const stil = renkler[s.renk] ?? renkler.blue;
+            return (
+              <Link
+                key={s.slug}
+                href={`/hazirlik/${s.slug}`}
+                className={`group block border rounded-xl p-6 transition-all duration-200 hover:shadow-card-hover ${stil.card}`}
+              >
+                <div className="flex items-center gap-3 mb-4">
+                  <span className="text-3xl">{s.favicon}</span>
+                  <span
+                    className={`text-[10px] font-bold uppercase px-2 py-0.5 rounded-full ${stil.badge}`}
+                  >
+                    {s.bankaSoruSayisi}+ soru
+                  </span>
+                </div>
+                <h2 className="text-lg font-bold text-ink-900 mb-1 group-hover:text-focus-700 transition-colors">
+                  {s.baslik}
+                </h2>
+                <p className="text-sm text-ink-500 leading-relaxed">{s.aciklama}</p>
+              </Link>
+            );
+          })}
         </div>
       </div>
     </div>
