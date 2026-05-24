@@ -129,7 +129,25 @@ export default function QuizModu({ konuSlug, konuMeta, sorular = [] }: QuizModuP
     if (feedbackMode === "aninda") {
       const dogru = sik === mevcutSoru.dogru;
       setCevapDurumu(dogru ? "dogru" : "yanlis");
-      if (dogru) setDogruSayisi((p) => p + 1);
+    }
+  };
+
+  const oncekiSoru = () => {
+    if (soruIndex > 0) {
+      const prevIdx = soruIndex - 1;
+      setSoruIndex(prevIdx);
+      const prevSecilen = tumCevaplar[prevIdx];
+      setSecilenSik(prevSecilen);
+      if (feedbackMode === "aninda") {
+        if (prevSecilen) {
+          const dogru = prevSecilen === aktifSorular[prevIdx].dogru;
+          setCevapDurumu(dogru ? "dogru" : "yanlis");
+        } else {
+          setCevapDurumu("bekleniyor");
+        }
+      } else {
+        setCevapDurumu("bekleniyor");
+      }
     }
   };
 
@@ -140,16 +158,14 @@ export default function QuizModu({ konuSlug, konuMeta, sorular = [] }: QuizModuP
 
       let finalDogru = 0;
       let finalYanlis = 0;
-      if (feedbackMode === "aninda") {
-        finalDogru = dogruSayisi + (cevapDurumu === "dogru" ? 1 : 0);
-        finalYanlis = toplamSoru - finalDogru;
-      } else {
-        aktifSorular.forEach((soru, idx) => {
-          if (tumCevaplar[idx] === soru.dogru) finalDogru++;
-          else finalYanlis++;
-        });
-        setDogruSayisi(finalDogru);
-      }
+      aktifSorular.forEach((soru, idx) => {
+        if (tumCevaplar[idx] === soru.dogru) {
+          finalDogru++;
+        } else {
+          finalYanlis++;
+        }
+      });
+      setDogruSayisi(finalDogru);
 
       const skor = Math.round((finalDogru / toplamSoru) * 100);
 
@@ -173,12 +189,18 @@ export default function QuizModu({ konuSlug, konuMeta, sorular = [] }: QuizModuP
       setEnYuksekSkor(topMap[konuSlug] ?? skor);
       setFaz("sonuc");
     } else {
-      setSoruIndex((p) => p + 1);
+      const nextIdx = soruIndex + 1;
+      setSoruIndex(nextIdx);
+      const nextSecilen = tumCevaplar[nextIdx];
+      setSecilenSik(nextSecilen);
       if (feedbackMode === "aninda") {
-        setSecilenSik(null);
-        setCevapDurumu("bekleniyor");
+        if (nextSecilen) {
+          const dogru = nextSecilen === aktifSorular[nextIdx].dogru;
+          setCevapDurumu(dogru ? "dogru" : "yanlis");
+        } else {
+          setCevapDurumu("bekleniyor");
+        }
       } else {
-        setSecilenSik(tumCevaplar[soruIndex + 1] || null);
         setCevapDurumu("bekleniyor");
       }
     }
@@ -338,9 +360,9 @@ export default function QuizModu({ konuSlug, konuMeta, sorular = [] }: QuizModuP
     const ilerleme = toplamSoru > 0 ? (soruIndex / toplamSoru) * 100 : 0;
 
     return (
-      <div className="max-w-2xl mx-auto px-4 py-8 text-ink-800 dark:text-ink-200">
+      <div className="max-w-2xl mx-auto px-4 py-4 md:py-6 text-ink-800 dark:text-ink-200">
         {/* Top Bar */}
-        <div className="flex items-center justify-between mb-4">
+        <div className="flex items-center justify-between mb-3">
           <span className="text-sm font-semibold text-ink-500 dark:text-ink-400">
             Soru <span className="text-ink-900 dark:text-white">{soruIndex + 1}</span> /{" "}
             {toplamSoru}
@@ -359,7 +381,7 @@ export default function QuizModu({ konuSlug, konuMeta, sorular = [] }: QuizModuP
         </div>
 
         {/* Progress Bar */}
-        <div className="w-full bg-ink-100 dark:bg-ink-800 rounded-full h-2 mb-8 overflow-hidden">
+        <div className="w-full bg-ink-100 dark:bg-ink-800 rounded-full h-2 mb-4 overflow-hidden">
           <div
             className="h-full bg-gradient-to-r from-focus-400 to-focus-500 rounded-full transition-all duration-500"
             style={{ width: `${ilerleme}%` }}
@@ -367,8 +389,8 @@ export default function QuizModu({ konuSlug, konuMeta, sorular = [] }: QuizModuP
         </div>
 
         {/* Question */}
-        <div className="bg-white dark:bg-ink-850 rounded-2xl border border-ink-100 dark:border-ink-700/80 shadow-card p-6 mb-6">
-          <div className="text-lg font-semibold text-ink-900 dark:text-white leading-relaxed space-y-3">
+        <div className="bg-white dark:bg-ink-850 rounded-2xl border border-ink-100 dark:border-ink-700/80 shadow-card p-4 md:p-5 mb-4">
+          <div className="text-base md:text-lg font-semibold text-ink-900 dark:text-white leading-relaxed space-y-2">
             {mevcutSoru.soru.split("\n").map((line, index, arr) => {
               const trimmed = line.trim();
               if (!trimmed) return null;
@@ -386,7 +408,7 @@ export default function QuizModu({ konuSlug, konuMeta, sorular = [] }: QuizModuP
                   key={index}
                   className={clsx(
                     "text-ink-900 dark:text-white",
-                    isLastLine ? "font-bold pt-3" : "font-normal",
+                    isLastLine ? "font-bold pt-2" : "font-normal",
                     isStatement && !isLastLine && "pl-4"
                   )}
                 >
@@ -396,7 +418,7 @@ export default function QuizModu({ konuSlug, konuMeta, sorular = [] }: QuizModuP
             })}
           </div>
           {mevcutSoru.gorsel && (
-            <div className="mt-4 overflow-hidden rounded-xl border border-ink-100 dark:border-ink-700/80 bg-ink-50/50 dark:bg-ink-900/50 flex justify-center p-2">
+            <div className="mt-3 overflow-hidden rounded-xl border border-ink-100 dark:border-ink-700/80 bg-ink-50/50 dark:bg-ink-900/50 flex justify-center p-2">
               <img
                 src={
                   mevcutSoru.gorsel.startsWith("/")
@@ -404,17 +426,20 @@ export default function QuizModu({ konuSlug, konuMeta, sorular = [] }: QuizModuP
                     : `/images/quizzes/${mevcutSoru.gorsel}`
                 }
                 alt="Soru Harita Görseli"
-                className="max-h-[320px] object-contain rounded-lg shadow-sm"
+                className="max-h-[140px] sm:max-h-[180px] md:max-h-[220px] object-contain rounded-lg shadow-sm"
               />
             </div>
           )}
         </div>
 
         {/* Options */}
-        <div className="grid grid-cols-1 gap-3 mb-6">
-          {mevcutSoru.siklar.map((sik) => {
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4">
+          {mevcutSoru.siklar.map((sik, index) => {
             const isDogru = sik === mevcutSoru.dogru;
             const isSecilen = sik === secilenSik;
+            const isLastOptionAndOdd =
+              index === mevcutSoru.siklar.length - 1 && mevcutSoru.siklar.length % 2 !== 0;
+
             let renk =
               "bg-white dark:bg-ink-800 border-ink-200 dark:border-ink-700 text-ink-800 dark:text-ink-200 hover:border-focus-300 dark:hover:border-focus-700 hover:bg-focus-50 dark:hover:bg-focus-950/20";
 
@@ -444,14 +469,15 @@ export default function QuizModu({ konuSlug, konuMeta, sorular = [] }: QuizModuP
                 onClick={() => sikasTikla(sik)}
                 disabled={cevapDurumu !== "bekleniyor" && feedbackMode === "aninda"}
                 className={clsx(
-                  "w-full text-left px-5 py-4 rounded-xl border-2 font-medium transition-all duration-200",
+                  "w-full text-left px-4 py-3 rounded-xl border-2 font-medium transition-all duration-200 text-xs sm:text-sm md:text-base",
                   renk,
+                  isLastOptionAndOdd && "sm:col-span-2",
                   (cevapDurumu === "bekleniyor" || feedbackMode === "sonunda") &&
                     "cursor-pointer active:scale-[0.98]",
                   cevapDurumu !== "bekleniyor" && feedbackMode === "aninda" && "cursor-default"
                 )}
               >
-                <span className="flex items-center gap-3">
+                <span className="flex items-center gap-2">
                   {feedbackMode === "aninda" && cevapDurumu !== "bekleniyor" && isDogru && (
                     <span>✅</span>
                   )}
@@ -470,7 +496,7 @@ export default function QuizModu({ konuSlug, konuMeta, sorular = [] }: QuizModuP
         {feedbackMode === "aninda" && cevapDurumu !== "bekleniyor" && (
           <div
             className={clsx(
-              "rounded-xl p-4 border-l-4 mb-6 animate-fade-in",
+              "rounded-xl p-3 border-l-4 mb-4 animate-fade-in text-xs sm:text-sm",
               cevapDurumu === "dogru"
                 ? "bg-emerald-50 dark:bg-emerald-950/20 border-emerald-500 text-emerald-800 dark:text-emerald-300"
                 : "bg-rose-50 dark:bg-rose-950/20 border-rose-500 text-rose-800 dark:text-rose-300"
@@ -485,15 +511,36 @@ export default function QuizModu({ konuSlug, konuMeta, sorular = [] }: QuizModuP
           </div>
         )}
 
-        {/* Next Button */}
-        {(cevapDurumu !== "bekleniyor" || (feedbackMode === "sonunda" && secilenSik !== null)) && (
+        {/* Navigation Buttons */}
+        <div className="flex items-center gap-3 mt-4">
+          <button
+            onClick={oncekiSoru}
+            disabled={soruIndex === 0}
+            className={clsx(
+              "flex-1 font-bold py-3 px-4 rounded-xl border transition-all text-center text-sm md:text-base cursor-pointer",
+              soruIndex === 0
+                ? "bg-ink-50 dark:bg-ink-800 text-ink-300 dark:text-ink-650 border-ink-150 dark:border-ink-750/30 cursor-not-allowed opacity-40"
+                : "bg-ink-100 dark:bg-ink-800 hover:bg-ink-150 dark:hover:bg-ink-700 text-ink-800 dark:text-ink-200 border-ink-200 dark:border-ink-700"
+            )}
+          >
+            ← Önceki Soru
+          </button>
+
           <button
             onClick={sonrakiSoru}
-            className="w-full bg-focus-600 hover:bg-focus-700 text-white font-bold py-3.5 px-6 rounded-xl transition-all shadow-sm"
+            disabled={
+              feedbackMode === "sonunda" ? secilenSik === null : cevapDurumu === "bekleniyor"
+            }
+            className={clsx(
+              "flex-1 text-white font-bold py-3 px-4 rounded-xl transition-all shadow-sm text-center text-sm md:text-base cursor-pointer",
+              (feedbackMode === "sonunda" ? secilenSik === null : cevapDurumu === "bekleniyor")
+                ? "bg-focus-300 dark:bg-focus-800/40 text-focus-100 dark:text-focus-500 cursor-not-allowed"
+                : "bg-focus-600 hover:bg-focus-700"
+            )}
           >
             {soruIndex + 1 >= toplamSoru ? "Sonuçları Gör →" : "Sonraki Soru →"}
           </button>
-        )}
+        </div>
       </div>
     );
   }

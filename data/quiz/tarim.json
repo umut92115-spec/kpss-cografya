@@ -1820,6 +1820,1775 @@
       "zorluk": "orta",
       "gorsel": null,
       "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575116-E1",
+      "soru": "Türkiye'de buğday tarımının en fazla yapıldığı bölge aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Akdeniz Bölgesi",
+        "B) İç Anadolu Bölgesi",
+        "C) Karadeniz Bölgesi",
+        "D) Ege Bölgesi",
+        "E) Marmara Bölgesi"
+      ],
+      "dogru": "B) İç Anadolu Bölgesi",
+      "aciklama": "Buğday, Türkiye'de en geniş ekim alanına sahip tarım ürünüdür. İç Anadolu Bölgesi, karasal iklim koşulları ve geniş düzlükleri sayesinde buğday üretiminde ilk sırada yer alır. A şıkkındaki Akdeniz Bölgesi'nde daha çok turunçgiller ve seracılık yaygındır. C şıkkındaki Karadeniz Bölgesi'nde mısır ve çay öne çıkar. D şıkkındaki Ege Bölgesi'nde zeytin ve pamuk, E şıkkındaki Marmara Bölgesi'nde ise ayçiçeği ve zeytin yoğunluktadır.",
+      "harita_il": "konya",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575116-E2",
+      "soru": "Aşağıdaki tarım ürünlerinden hangisi yetişme döneminde bol su isteyen bir bitkidir?",
+      "siklar": [
+        "A) Mercimek",
+        "B) Nohut",
+        "C) Çavdar",
+        "D) Çeltik",
+        "E) Arpa"
+      ],
+      "dogru": "D) Çeltik",
+      "aciklama": "Çeltik (pirinç), yetişme dönemi boyunca bol su gerektiren bir tarım ürünüdür. Bu nedenle sulama imkanlarının yüksek olduğu alanlarda yetiştirilir. A şıkkındaki mercimek, B şıkkındaki nohut ve E şıkkındaki arpa kurağa dayanıklı bitkilerdir. C şıkkındaki çavdar ise fakir topraklarda yetişebilen, su ihtiyacı düşük bir tahıldır. Çeltik tarımı Türkiye'de özellikle Samsun, Edirne ve Çorum gibi illerde yoğunlaşmıştır.",
+      "harita_il": "samsun",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575116-H2-001",
+      "soru": "Türkiye'de fındık üretiminde ilk sırada yer alan il aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Giresun",
+        "B) Ordu",
+        "C) Trabzon",
+        "D) Samsun",
+        "E) Rize"
+      ],
+      "dogru": "B) Ordu",
+      "aciklama": "Doğru cevap B şıkkıdır. Türkiye fındık üretiminde dünya lideri olup en fazla üretim Ordu ilinde gerçekleştirilmektedir. Giresun ve Trabzon da önemli üreticilerdir ancak Ordu birincidir. Samsun ve Rize'de fındık üretimi daha sınırlıdır. A şıkkı olan Giresun, fındık denince akla gelse de üretim miktarı açısından Ordu'nun gerisindedir. C, D ve E şıkları diğer Karadeniz illeridir ancak fındık üretiminde ilk sırada değildir. Genel kural olarak, Türkiye'de fındık üretimi Doğu Karadeniz Bölgesi'nde yoğunlaşmış olup Ordu ili bu ürünün başkenti konumundadır.",
+      "harita_il": "ordu",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575116-H2-002",
+      "soru": "Mersin Limanı'ndan yola çıkan bir gemi, Batı Akdeniz kıyılarını izleyerek İzmir Limanı'na ulaşacaktır. Bu gemi yolculuğu sırasında aşağıdaki akarsulardan hangisinin denize döküldüğü alanı görmez?",
+      "siklar": [
+        "A) Göksu Nehri",
+        "B) Dalaman Çayı",
+        "C) Büyük Menderes Nehri",
+        "D) Gediz Nehri",
+        "E) Seyhan Nehri"
+      ],
+      "dogru": "E) Seyhan Nehri",
+      "aciklama": "Doğru cevap E şıkkıdır. Mersin'den İzmir'e giden gemi rotası batı yönünde olduğundan, Mersin'in doğusunda yer alan Seyhan Nehri'nin Adana'daki ağzı bu rota üzerinde değildir. Göksu Nehri (Mersin), Dalaman Çayı (Muğla), Büyük Menderes (Aydın) ve Gediz Nehri (İzmir) ise kıyı boyunca karşılaşılan akarsulardır. A, B, C ve D şıkları rota üzerinde görülen deltalardır. Seyhan Nehri'nin döküldüğü Çukurova Deltası, Mersin'in doğusunda kaldığı için batıya giden gemi tarafından görülmez. Genel kural olarak, gemiler kıyı şeridini takip ederken akarsu ağızları önemli coğrafi işaretlerdir.",
+      "harita_il": "adana",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575116-H2-003",
+      "soru": "Türkiye'de yetiştirilen bazı tarım ürünleriyle ilgili olarak,\n\nI. Antepfıstığı en çok Gaziantep'te yetiştirilir.\nII. Çay üretiminin tamamına yakını Doğu Karadeniz Bölgesi'nden karşılanır.\nIII. Fındık en çok Ordu ilinde üretilir.\n\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız III",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "D) II ve III",
+      "aciklama": "Doğru cevap D şıkkıdır. I. önerme yanlıştır çünkü Antepfıstığı üretiminde Şanlıurfa ili birinci sırada yer alır, Gaziantep ikincidir. II. önerme doğrudur; Türkiye çay üretiminin yaklaşık tamamı Rize, Trabzon, Artvin gibi Doğu Karadeniz illerinden sağlanır. III. önerme doğrudur; fındık üretiminde Ordu ili Türkiye birincisidir. A şıkkı yanlış (I doğru değil), B şıkkı eksik (II de doğru), C şıkkı yanlış (I doğru değil), E şıkkı yanlış (I doğru değil). Tarım ürünlerinin yetişme bölgeleri ile ilgili bu tür bilgiler KPSS'de sıkça sorgulanmaktadır.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575116-H2-004",
+      "soru": "Doğu Anadolu Bölgesi ile İç Anadolu Bölgesi tarım faaliyetleri karşılaştırıldığında, Doğu Anadolu'da daha yaygın olan uygulama aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Nadas",
+        "B) Sulu tarım",
+        "C) Seracılık",
+        "D) Meyvecilik",
+        "E) Hayvancılığa dayalı tarım"
+      ],
+      "dogru": "E) Hayvancılığa dayalı tarım",
+      "aciklama": "Doğru cevap E şıkkıdır. Doğu Anadolu Bölgesi'nde geniş mera alanları ve uzun kış şartları nedeniyle hayvancılığa dayalı tarım (mera hayvancılığı, yem bitkileri üretimi) daha yaygındır. İç Anadolu'da ise nadas ve tahıl tarımı öne çıkar. A şıkkı (nadas) İç Anadolu'da daha yaygındır. B şıkkı (sulu tarım) her iki bölgede sınırlıdır. C şıkkı (seracılık) Akdeniz ve Ege'de yaygındır. D şıkkı (meyvecilik) Doğu Anadolu'da sınırlıdır. Bu soru, bölgeler arası tarım farklılıklarını kavramayı ölçmektedir.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575116-H2-005",
+      "soru": "Aşağıdaki illerden hangisi, GAP (Güneydoğu Anadolu Projesi) kapsamında sulamaya açılan ovalar sayesinde pamuk üretiminde önemli bir merkez hâline gelmiştir?",
+      "siklar": [
+        "A) Diyarbakır",
+        "B) Şanlıurfa",
+        "C) Mardin",
+        "D) Gaziantep",
+        "E) Siirt"
+      ],
+      "dogru": "B) Şanlıurfa",
+      "aciklama": "Doğru cevap B şıkkıdır. GAP'ın en önemli projelerinden biri olan Harran Ovası'nın sulamaya açılmasıyla Şanlıurfa, Türkiye'nin en büyük pamuk üreticisi konumuna gelmiştir. Diyarbakır ve Mardin'de de GAP'tan etkilenen alanlar vardır ancak pamuk üretiminde Şanlıurfa'nın payı çok daha yüksektir. Gaziantep ve Siirt'te pamuk üretimi daha sınırlıdır. Diğer şıklar GAP kapsamında olsa da pamukta birincilik Şanlıurfa'ya aittir. GAP, bölgede tarımsal üretimi ve ürün desenini köklü şekilde değiştirmiştir.",
+      "harita_il": "sanliurfa",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575116-H2-006",
+      "soru": "Türkiye'nin kıyılarında bir gemi yolculuğu yapan bir turist, sırasıyla fındık bahçeleri, pamuk tarlaları ve zeytinlikler gözlemlemiştir. Turistin rotası aşağıdakilerden hangisi olabilir?",
+      "siklar": [
+        "A) Karadeniz kıyısı → Çukurova → Ege kıyısı",
+        "B) Ege kıyısı → Çukurova → Karadeniz kıyısı",
+        "C) Marmara kıyısı → Ege → Akdeniz kıyısı",
+        "D) Akdeniz kıyısı → Ege → Marmara kıyısı",
+        "E) Karadeniz kıyısı → Marmara → Ege kıyısı"
+      ],
+      "dogru": "A) Karadeniz kıyısı → Çukurova → Ege kıyısı",
+      "aciklama": "Doğru cevap A şıkkıdır. Fındık bahçeleri Karadeniz kıyılarında (Ordu, Giresun), pamuk tarlaları Çukurova'da (Adana, Mersin), zeytinlikler ise Ege kıyılarında (Ayvalık, Edremit) yoğunlaşmıştır. Turistin Karadeniz'den başlayıp doğuya değil batıya giderek Çukurova ve ardından Ege kıyılarına ulaşması bu ürünleri sırasıyla görmesini sağlar. B, C, D ve E şıkları ürünlerin coğrafi dağılışına uygun sıralama içermemektedir. Örneğin Ege'de fındık görülmez. Bu soru, tarım ürünlerinin kıyı bölgelerindeki dağılışını kavramayı hedefler.",
+      "harita_il": "ordu",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575116-H2-007",
+      "soru": "Yukarıdaki Türkiye haritasında I, II, III, IV ve V numaralı alanlar gösterilmiştir. Bu alanların hangisi, tarımsal faaliyetlerin diğerlerine göre daha az geliştiği bir kıyı şerididir?",
+      "siklar": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV",
+        "E) V"
+      ],
+      "dogru": "D) IV",
+      "aciklama": "Doğru cevap D şıkkıdır. Haritada I numaralı alan Rize (çay ve fındık), II numaralı alan Ordu (fındık), III numaralı alan Samsun (tütün, mısır), IV numaralı alan Sinop, V numaralı alan Zonguldak'tır (mısır, fındık). Sinop kıyı şeridinde tarım alanları diğerlerine göre daha dardır ve tarımsal faaliyetler sınırlıdır. I, II, III ve V numaralı alanlar verimli tarım ovalarına ve yoğun üretime sahiptir. Bu soru, Karadeniz kıyı şeridindeki tarımsal potansiyel farklılıklarını değerlendirmeyi amaçlamaktadır.",
+      "harita_il": "sinop",
+      "zorluk": "zor",
+      "gorsel": "tarim/tarim-1779575116-H2-007.svg",
+      "gorsel_veri": {
+        "I": "rize",
+        "II": "ordu",
+        "III": "samsun",
+        "IV": "sinop",
+        "V": "zonguldak"
+      }
+    },
+    {
+      "id": "tarim-1779575116-H2-008",
+      "soru": "Türkiye'de tarımsal faaliyetlerle ilgili olarak,\n\nI. Sulu tarım en çok Akdeniz Bölgesi'nde yapılır.\nII. Nadas en çok İç Anadolu Bölgesi'nde uygulanır.\nIII. Seracılık en çok Antalya ilinde gelişmiştir.\n\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "D) II ve III",
+      "aciklama": "Doğru cevap D şıkkıdır. I. önerme yanlıştır; sulu tarım en çok Akdeniz değil, Güneydoğu Anadolu (GAP ile) ve Akdeniz'de yaygındır, ancak en çok Akdeniz kesin bilgisi doğru değildir. II. önerme doğrudur; İç Anadolu'da nadas uygulaması, yağış azlığı ve yanlış tarım politikaları nedeniyle yaygındır. III. önerme doğrudur; Antalya, örtü altı tarım (seracılık) konusunda Türkiye'de ilk sıradadır. A ve B şıkları eksik, C şıkkı yanlış (I yanlış), E şıkkı yanlıştır. Tarım yöntemleri ve bölgesel dağılış KPSS'de sıkça sorgulanan konulardandır.",
+      "harita_il": null,
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575202-E1",
+      "soru": "Türkiye'de buğday tarımının en yaygın olduğu bölge aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Akdeniz Bölgesi",
+        "B) İç Anadolu Bölgesi",
+        "C) Karadeniz Bölgesi",
+        "D) Ege Bölgesi",
+        "E) Marmara Bölgesi"
+      ],
+      "dogru": "B) İç Anadolu Bölgesi",
+      "aciklama": "İç Anadolu Bölgesi, yazları sıcak ve kurak, kışları soğuk olan karasal iklimi ve geniş düzlükleriyle Türkiye'de buğday tarımının en yoğun yapıldığı bölgedir. Akdeniz Bölgesi'nde daha çok turunçgil ve seracılık, Karadeniz'de fındık ve çay, Ege'de zeytin ve pamuk, Marmara'da ise ayçiçeği ve sanayi bitkileri öne çıkar. Buğday, İç Anadolu'nun tahıl ambarı olarak anılmasını sağlayan temel üründür.",
+      "harita_il": "ankara",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575202-E2",
+      "soru": "Türkiye'de fındık üretiminde ilk sırada yer alan il aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Trabzon",
+        "B) Samsun",
+        "C) Ordu",
+        "D) Giresun",
+        "E) Rize"
+      ],
+      "dogru": "C) Ordu",
+      "aciklama": "Türkiye, dünya fındık üretiminde ilk sırada yer alır ve bu üretimin büyük kısmı Karadeniz Bölgesi'nden karşılanır. Ordu ili, sahip olduğu geniş fındık bahçeleri ve uygun iklim koşulları sayesinde Türkiye fındık üretiminde birinci sıradadır. Giresun ve Trabzon da önemli üreticiler arasında olmasına rağmen üretim miktarı açısından Ordu'yu geçemez.",
+      "harita_il": "ordu",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575202-H2-001",
+      "soru": "Türkiye'de tarım ürünlerinin çeşitliliğinde en önemli etken aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Yükselti farklılıkları",
+        "B) Enlem farklılıkları",
+        "C) Toprak çeşitliliği",
+        "D) Sulama imkanları",
+        "E) Makineleşme düzeyi"
+      ],
+      "dogru": "A) Yükselti farklılıkları",
+      "aciklama": "Doğru cevap A şıkkıdır. Türkiye'de kısa mesafelerde büyük yükselti farkları bulunur; bu durum farklı iklim kuşaklarının oluşmasına ve dolayısıyla çok çeşitli tarım ürünlerinin yetişmesine olanak tanır. Enlem farklılığı (B) sınırlı olduğundan çeşitlilikte belirleyici değildir. Toprak çeşitliliği (C) ve sulama imkanları (D) da etkilidir ancak en temel etken yükseltidir. Makineleşme (E) ise üretim yöntemini etkiler, çeşitliliği doğrudan belirlemez.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575202-H2-002",
+      "soru": "İstanbul'dan yola çıkan bir gemi, Karadeniz kıyı şeridini takip ederek Samsun'a gitmektedir. Bu yolculuk sırasında aşağıdaki deltalardan hangisi görülmez?",
+      "siklar": [
+        "A) Bafra Deltası",
+        "B) Çarşamba Deltası",
+        "C) Kızılırmak Deltası",
+        "D) Yeşilırmak Deltası",
+        "E) Sakarya Deltası"
+      ],
+      "dogru": "E) Sakarya Deltası",
+      "aciklama": "Doğru cevap E şıkkıdır. Sakarya Deltası, İstanbul'un doğusunda Kocaeli açıklarında yer alır; İstanbul'dan Samsun'a giden gemi rotasının başlangıcında kalır ve bu nedenle yolculuk boyunca tekrar görülmez. Bafra, Çarşamba, Kızılırmak ve Yeşilırmak deltaları ise Samsun kıyılarında sıralanır. Bu deltalar, akarsuların taşıdığı alüvyonlarla oluşmuş verimli tarım alanlarıdır ve genellikle tütün, buğday gibi ürünlerin yetiştirilmesinde kullanılır.",
+      "harita_il": "samsun",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575202-H2-003",
+      "soru": "İç Anadolu Bölgesi ile Güneydoğu Anadolu Bölgesi karşılaştırıldığında, aşağıdakilerden hangisi her iki bölgede de yaygın olarak yetiştirilen bir üründür?",
+      "siklar": [
+        "A) Buğday",
+        "B) Antep fıstığı",
+        "C) Fındık",
+        "D) Zeytin",
+        "E) Çay"
+      ],
+      "dogru": "A) Buğday",
+      "aciklama": "Doğru cevap A şıkkıdır. Buğday, hem İç Anadolu'nun yarı kurak ikliminde hem de Güneydoğu Anadolu'nun sulanabilen alanlarında yaygın olarak yetiştirilen temel bir tahıldır. Antep fıstığı (B) yalnızca Güneydoğu'da, fındık (C) ve çay (E) ise Karadeniz Bölgesi'nde, zeytin (D) ise daha çok Ege ve Akdeniz kıyılarında yetişir. Bu nedenle her iki bölgede de ortak olan ürün buğdaydır.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575202-H2-004",
+      "soru": "Güneydoğu Anadolu Projesi (GAP) kapsamında sulanan alanların artmasıyla birlikte aşağıdaki ürünlerden hangisinin bu bölgede üretimi en fazla artmıştır?",
+      "siklar": [
+        "A) Pamuk",
+        "B) Üzüm",
+        "C) Mercimek",
+        "D) Ayçiçeği",
+        "E) Tütün"
+      ],
+      "dogru": "A) Pamuk",
+      "aciklama": "Doğru cevap A şıkkıdır. GAP ile sulanan alanlarda pamuk üretimi hızla artmış; Şanlıurfa başta olmak üzere bölge Türkiye'nin en önemli pamuk üretim merkezlerinden biri haline gelmiştir. Üzüm (B) daha çok Ege Bölgesi'nde, mercimek (C) kuru tarımda, ayçiçeği (D) Trakya'da, tütün (E) ise Ege ve Karadeniz'de yaygındır. Sulu tarıma geçişle birlikte pamuk üretimi belirgin şekilde artmıştır.",
+      "harita_il": "sanliurfa",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575202-H2-005",
+      "soru": "Türkiye'de tarımı etkileyen doğal faktörlerle ilgili,\nI. Yeryüzü şekilleri tarım alanlarının dağılışını etkiler.\nII. İklim koşulları ürün çeşitliliğini belirler.\nIII. Toprak özellikleri sadece verimi etkiler.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız III",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "Doğru cevap C şıkkıdır. I. önerme doğrudur; dağlık alanlar tarıma elverişsizken ovalar tercih edilir. II. önerme doğrudur; sıcaklık ve yağış rejimi hangi ürünün yetişeceğini belirler. III. önerme yanlıştır; toprak özellikleri yalnızca verimi değil, aynı zamanda hangi ürünün yetişebileceğini de etkiler. Örneğin kireçli topraklar üzüm için uygunken asitli topraklar çay için elverişlidir. Bu nedenle III. önerme doğru değildir.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575202-H2-006",
+      "soru": "Türkiye'de tarım ürünlerinin yetişme alanlarıyla ilgili,\nI. Fındık en çok Doğu Karadeniz Bölgesi'nde yetiştirilir.\nII. Zeytin üretiminde Ege Bölgesi ilk sıradadır.\nIII. Turunçgiller Akdeniz ve Ege kıyılarında yetişir.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "E) I, II ve III",
+      "aciklama": "Doğru cevap E şıkkıdır. I. önerme doğrudur; fındık üretiminin büyük kısmı Ordu, Giresun, Trabzon gibi Doğu Karadeniz illerinde gerçekleşir. II. önerme doğrudur; Ege Bölgesi (İzmir, Aydın, Manisa) zeytin üretiminde ilk sıradadır. III. önerme doğrudur; turunçgiller (portakal, limon, mandalina) Akdeniz kıyıları ile Ege'nin güneyinde yetişir. Tüm önermeler doğru olduğu için cevap I, II ve III'tür.",
+      "harita_il": "ordu",
+      "zorluk": "zor",
+      "gorsel": "tarim/tarim-006.svg",
+      "gorsel_veri": {
+        "I": "giresun",
+        "II": "izmir",
+        "III": "antalya",
+        "IV": "mersin",
+        "V": "samsun"
+      }
+    },
+    {
+      "id": "tarim-1779575202-H2-007",
+      "soru": "Mersin limanından yola çıkan bir yük gemisi, Akdeniz kıyısını izleyerek İskenderun Körfezi'ne gitmektedir. Bu güzergahta aşağıdaki akarsulardan hangisinin denize döküldüğü yere rastlanmaz?",
+      "siklar": [
+        "A) Göksu",
+        "B) Seyhan",
+        "C) Ceyhan",
+        "D) Asi",
+        "E) Manavgat"
+      ],
+      "dogru": "E) Manavgat",
+      "aciklama": "Doğru cevap E şıkkıdır. Manavgat Nehri, Antalya kıyılarında denize dökülür ve Mersin-İskenderun arasındaki rotanın batısında kalır. Göksu (Silifke), Seyhan (Adana), Ceyhan (Adana) ve Asi (Hatay) nehirleri ise sırasıyla bu güzergah üzerinde yer alır. Bu akarsuların taşıdığı alüvyonlar, kıyıda verimli tarım ovaları oluşturmuştur. Manavgat ise farklı bir havzada olduğu için bu rotada görülmez.",
+      "harita_il": "mersin",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575202-H2-008",
+      "soru": "Yukarıdaki Türkiye haritasında I, II, III ve IV numaralı alanlar gösterilmiştir. Bu alanların hangisinde kuru tarım yöntemi daha yaygındır?",
+      "siklar": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV",
+        "E) I ve III"
+      ],
+      "dogru": "B) II",
+      "aciklama": "Doğru cevap B şıkkıdır. Haritada II numaralı alan İç Anadolu Bölgesi'ni temsil etmektedir. Bu bölgede yıllık yağış miktarı düşük olduğu için sulama imkanlarının sınırlı olduğu yerlerde kuru tarım (buğday, arpa, nadas) yaygındır. I (Rize çevresi) çok yağışlı, III (Antalya) sulu tarım potansiyeli yüksek, IV (Samsun) ise Karadeniz iklimi nedeniyle nemli bölgelerdir. Kuru tarımın en yaygın olduğu alan İç Anadolu'dur.",
+      "harita_il": "konya",
+      "zorluk": "zor",
+      "gorsel": "tarim/tarim-008.svg",
+      "gorsel_veri": {
+        "I": "rize",
+        "II": "konya",
+        "III": "antalya",
+        "IV": "samsun"
+      }
+    },
+    {
+      "id": "tarim-1779575250-E1",
+      "soru": "Türkiye'de tarım ürünü çeşitliliğinin fazla olmasında aşağıdakilerden hangisi en önemli etkendir?",
+      "siklar": [
+        "A) Tarım alanlarının geniş olması",
+        "B) İklim çeşitliliği",
+        "C) Nüfusun fazla olması",
+        "D) Sulama olanaklarının yeterli olması",
+        "E) Makineleşme düzeyinin yüksek olması"
+      ],
+      "dogru": "B) İklim çeşitliliği",
+      "aciklama": "Doğru cevap B şıkkıdır. Türkiye'de tarım ürünü çeşitliliğinin fazla olmasının en önemli nedeni, üç tarafının denizlerle çevrili olması, enlem farkı ve yükselti farkından kaynaklanan iklim çeşitliliğidir. A şıkkı yanlıştır çünkü tarım alanlarının geniş olması üretim miktarını artırır ancak çeşitliliği doğrudan etkilemez. C şıkkı yanlıştır çünkü nüfus fazlalığı tüketimi artırır, ürün çeşitliliğini etkilemez. D şıkkı yanlıştır çünkü sulama imkanları verimi artırır ancak çeşitliliğin temel nedeni değildir. E şıkkı yanlıştır çünkü makineleşme üretim verimliliğini artırır.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575250-E2",
+      "soru": "Aşağıdaki tarım ürünlerinden hangisi yetişme döneminde yüksek sıcaklık ve bol su ister?",
+      "siklar": [
+        "A) Buğday",
+        "B) Arpa",
+        "C) Çavdar",
+        "D) Pirinç",
+        "E) Yulaf"
+      ],
+      "dogru": "D) Pirinç",
+      "aciklama": "Doğru cevap D şıkkıdır. Pirinç, yetişme döneminde yüksek sıcaklık (ortalama 25-30°C) ve bol su (sulak alan, çeltik tarlası) isteyen bir tarım ürünüdür. A şıkkı yanlıştır çünkü buğday serin iklim tahılıdır ve daha az su ister. B şıkkı yanlıştır çünkü arpa da serin iklim tahılıdır. C şıkkı yanlıştır çünkü çavdar soğuğa ve kuraklığa dayanıklıdır. E şıkkı yanlıştır çünkü yulaf serin ve nemli iklimleri tercih eder.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575250-H2-001",
+      "soru": "Türkiye'de kıyı şeridinde seyreden bir gemi rotası üzerinde aşağıdaki tarım ürünlerinden hangisinin yetiştirildiği alanlarla sıkça karşılaşması beklenmez?",
+      "siklar": [
+        "A) Buğday",
+        "B) Pamuk",
+        "C) Fındık",
+        "D) Zeytin",
+        "E) Çay"
+      ],
+      "dogru": "A) Buğday",
+      "aciklama": "Kıyı şeridinde pamuk (Çukurova, Ege), fındık (Karadeniz), zeytin (Ege, Marmara), çay (Doğu Karadeniz) yaygındır. Buğday ise ağırlıklı olarak iç bölgelerde (İç Anadolu) yetişir; kıyı şeridinde makro ölçekte buğday tarımı yaygın değildir. Bu nedenle buğday, gemi rotasında sık görülmez. Diğer şıklar kıyı kuşağının tipik ürünleridir.",
+      "harita_il": "aydin",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575250-H2-002",
+      "soru": "İzmir limanından yola çıkan bir gemi, Ege ve Akdeniz kıyılarını takip ederek Mersin limanına ulaşmak istemektedir. Bu gemi yolculuğu sırasında aşağıdaki deltalardan hangisiyle karşılaşır?",
+      "siklar": [
+        "A) Seyhan Deltası",
+        "B) Kızılırmak Deltası",
+        "C) Sakarya Deltası",
+        "D) Yeşilırmak Deltası",
+        "E) Filyos Deltası"
+      ],
+      "dogru": "A) Seyhan Deltası",
+      "aciklama": "İzmir-Mersin rotasında önce Büyük Menderes ve Küçük Menderes gibi deltalar geçilir, ancak en büyük delta Çukurova'daki Seyhan Deltası'dır. Kızılırmak, Sakarya ve Yeşilırmak deltaları Karadeniz kıyısındadır; Filyos Deltası ise Batı Karadeniz'dedir. Bu nedenle doğru cevap Seyhan Deltası'dır.",
+      "harita_il": "mersin",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575250-H2-003",
+      "soru": "Türkiye'de buğday tarımı ile ilgili aşağıdaki yargılardan hangileri doğrudur?\n\nI. Kışlık buğday üretimi yazlık buğdaya göre daha yaygındır.\nII. En fazla üretim İç Anadolu Bölgesi'nde gerçekleşir.\nIII. Yıllık ortalama üretim 25 milyon tonun üzerindedir.",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) I ve III",
+        "E) II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "Türkiye'de buğday üretiminde kışlık buğday (yağışa bağlı) daha yaygındır (I doğru). İç Anadolu Bölgesi, buğday üretiminde ilk sıradadır (II doğru). Yıllık buğday üretimi genellikle 17-20 milyon ton arasında değişir; 25 milyon tonun üzerine nadiren çıkar (III yanlış). Bu nedenle doğru cevap I ve II'dir.",
+      "harita_il": "ankara",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575250-H2-004",
+      "soru": "Aşağıdaki illerden hangisi fındık üretiminde Türkiye'de ilk sırada yer alır?",
+      "siklar": [
+        "A) Giresun",
+        "B) Trabzon",
+        "C) Ordu",
+        "D) Rize",
+        "E) Samsun"
+      ],
+      "dogru": "C) Ordu",
+      "aciklama": "Ordu ili, fındık üretiminde hem alan hem de verim bakımından Türkiye birincisidir. Giresun, Trabzon ve Samsun da önemli üreticilerdir ancak Ordu açık ara öndedir. Rize'de ise fındıktan çok çay tarımı yaygındır. Doğru cevap Ordu'dur.",
+      "harita_il": "ordu",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575250-H2-005",
+      "soru": "İzmir limanından İstanbul limanına giden bir gemi, kıyı şeridini takip ederken aşağıdaki tarım ürünlerinden hangisinin yoğun olarak yetiştirildiği bölgeden geçmektedir?",
+      "siklar": [
+        "A) Çay",
+        "B) Muz",
+        "C) Zeytin",
+        "D) Fındık",
+        "E) Pamuk"
+      ],
+      "dogru": "C) Zeytin",
+      "aciklama": "İzmir-İstanbul rotası Ege ve Marmara kıyılarını izler. Bu bölge Türkiye'nin başlıca zeytin üretim alanıdır. Çay ve fındık Karadeniz, muz Akdeniz kıyılarına özgüdür. Pamuk Ege ve Çukurova'da yaygınsa da rota üzerinde zeytin daha belirgindir. Doğru cevap zeytindir.",
+      "harita_il": "izmir",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575250-H2-006",
+      "soru": "Türkiye'de tarımda makineleşmenin sonuçları ile ilgili aşağıdaki yargılardan hangileri doğrudur?\n\nI. Tarımsal verim artmıştır.\nII. Kırsal nüfus oranı azalmıştır.\nIII. Ekim nöbeti yaygınlaşmıştır.",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) I ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "Makineleşme, tarımsal verimi artırmıştır (I doğru). Makine kullanımı insan gücüne olan ihtiyacı azalttığı için kırsal nüfus oranı düşmüştür (II doğru). Ancak ekim nöbeti, makineleşmeden önce de var olan bir uygulamadır; makineleşme ile doğrudan yaygınlaşması söz konusu değildir (III yanlış). Doğru cevap I ve II'dir.",
+      "harita_il": "konya",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575250-H2-007",
+      "soru": "Yukarıdaki Türkiye haritasında I, II, III, IV ve V numaralı alanlar gösterilmiştir. Bu alanlardan hangisinde fındık tarımı yoğun olarak yapılmaktadır?",
+      "siklar": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV",
+        "E) V"
+      ],
+      "dogru": "D) IV",
+      "aciklama": "Haritada I: Doğu Karadeniz (çay), II: Orta Karadeniz (tütün), III: Batı Karadeniz (maden), IV: Doğu Karadeniz iç kesimi (Ordu-Giresun çevresi fındık), V: Güney Marmara (zeytin). Fındık tarımı Doğu Karadeniz'in orta kesiminde yoğunlaştığından doğru cevap IV numaralı alandır.",
+      "harita_il": "ordu",
+      "zorluk": "zor",
+      "gorsel": "tarim/tarim-007.svg",
+      "gorsel_veri": {
+        "I": "rize",
+        "II": "samsun",
+        "III": "zonguldak",
+        "IV": "ordu",
+        "V": "bursa"
+      }
+    },
+    {
+      "id": "tarim-1779575250-H2-008",
+      "soru": "İstanbul limanından yola çıkan bir gemi, Karadeniz kıyısını takip ederek Trabzon limanına gitmektedir. Aşağıdaki illerden hangisi bu kıyı rotasında yer almaz?",
+      "siklar": [
+        "A) Zonguldak",
+        "B) Sinop",
+        "C) Tekirdağ",
+        "D) Samsun",
+        "E) Giresun"
+      ],
+      "dogru": "C) Tekirdağ",
+      "aciklama": "İstanbul-Trabzon Karadeniz kıyı rotasında sırasıyla Zonguldak, Bartın, Sinop, Samsun, Ordu, Giresun ve Trabzon bulunur. Tekirdağ ise Marmara Denizi kıyısında olup Karadeniz rotasının dışındadır. Doğru cevap Tekirdağ'dır.",
+      "harita_il": "istanbul",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575299-E1",
+      "soru": "Türkiye'de yetiştirilen tarım ürünlerinden hangisi, Akdeniz ikliminin karakteristik bir ürünüdür?",
+      "siklar": [
+        "A) Çay",
+        "B) Mısır",
+        "C) Zeytin",
+        "D) Şeker pancarı",
+        "E) Buğday"
+      ],
+      "dogru": "C) Zeytin",
+      "aciklama": "C şıkkı doğrudur çünkü zeytin, Akdeniz ikliminin tipik bir ürünüdür ve Türkiye'de özellikle Ege, Akdeniz ve Marmara kıyılarında yaygın olarak yetiştirilir. A şıkkı yanlıştır çünkü çay, Doğu Karadeniz iklimine özgüdür. B şıkkı yanlıştır çünkü mısır, Karadeniz ve Akdeniz bölgelerinde yetişse de Akdeniz ikliminin karakteristik ürünü değildir. D şıkkı yanlıştır çünkü şeker pancarı, iç bölgelerin karasal ikliminde yetişir. E şıkkı yanlıştır çünkü buğday, karasal iklim tahılıdır. Bu bilgiler doğrultusunda Akdeniz iklimiyle özdeşleşen ürün zeytindir.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575299-E2",
+      "soru": "Aşağıdaki tarım ürünlerinden hangisi, Türkiye'de en fazla üretilen yağlı tohumludur?",
+      "siklar": [
+        "A) Ayçiçeği",
+        "B) Susam",
+        "C) Soya fasulyesi",
+        "D) Yer fıstığı",
+        "E) Haşhaş"
+      ],
+      "dogru": "A) Ayçiçeği",
+      "aciklama": "A şıkkı doğrudur çünkü ayçiçeği, Türkiye'de en fazla üretilen yağlı tohumdur ve başta Trakya ile İç Anadolu olmak üzere geniş alanlarda yetiştirilir. B şıkkı yanlıştır çünkü susam, daha az üretime sahiptir ve Akdeniz kıyılarında yetişir. C şıkkı yanlıştır çünkü soya fasulyesi, ülkemizde sınırlı alanda üretilir. D şıkkı yanlıştır çünkü yer fıstığı, Akdeniz Bölgesi'nde yetişir ve üretimi ayçiçeğine göre düşüktür. E şıkkı yanlıştır çünkü haşhaş, Ege Bölgesi'nde üretilmesine rağmen yağlı tohum olarak ayçiçeği kadar yaygın değildir. Ayçiçeği, bitkisel yağ üretiminde lider konumdadır.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575299-H2-001",
+      "soru": "Türkiye'de fındık üretiminde ilk sırada yer alan il aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Trabzon",
+        "B) Ordu",
+        "C) Giresun",
+        "D) Rize",
+        "E) Samsun"
+      ],
+      "dogru": "B) Ordu",
+      "aciklama": "Türkiye fındık üretiminin yaklaşık %70’i Doğu Karadeniz Bölgesi’nden karşılanır. Ordu ili, üretim miktarı bakımından ilk sırada yer alır. Trabzon, Giresun ve Samsun da önemli üretici iller olmakla birlikte Ordu’nun gerisindedir. Rize ise çay üretimiyle öne çıktığı için fındıkta ilk sırada değildir.",
+      "harita_il": "ordu",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575299-H2-002",
+      "soru": "Mersin’den hareket eden bir yük gemisi, kıyı şeridini izleyerek önce Samsun’a, ardından İzmir’e uğramaktadır. Bu gemi yolculuğu boyunca sırasıyla aşağıdaki tarım ürünlerinden hangilerinin yoğun olarak yetiştirildiği bölgelere rastlar?",
+      "siklar": [
+        "A) Turunçgil – Fındık – Zeytin",
+        "B) Pamuk – Çay – Üzüm",
+        "C) Muz – Tütün – İncir",
+        "D) Buğday – Fındık – Pamuk",
+        "E) Turunçgil – Çay – Zeytin"
+      ],
+      "dogru": "A) Turunçgil – Fındık – Zeytin",
+      "aciklama": "Mersin, Akdeniz Bölgesi’nde olup turunçgil yetiştiriciliği yaygındır. Samsun, Karadeniz Bölgesi’nde fındık üretimiyle bilinir (Samsun’da fındık tarımı yapılır). İzmir, Ege Bölgesi’nde zeytin ve zeytinyağı üretiminde öndedir. B şıkkındaki çay, Samsun’da yetişmez (çay Doğu Karadeniz’de yetişir). C şıkkındaki muz daha çok Anamur-Alanya yöresinde yoğundur, Mersin ikinci plandadır. D şıkkındaki pamuk Mersin’de var ancak buğday öne çıkmaz. E şıkkındaki çay yine Samsun’da bulunmaz.",
+      "harita_il": "mersin",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575299-H2-003",
+      "soru": "Türkiye’de Doğu Anadolu Bölgesi’nde nadas alanlarının fazla olmasının en önemli nedeni aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Toprakların volkanik olması",
+        "B) Kış sıcaklıklarının çok düşük olması",
+        "C) Yıllık yağış miktarının az olması",
+        "D) Engebenin fazla olması",
+        "E) Hayvancılığın ön planda olması"
+      ],
+      "dogru": "C) Yıllık yağış miktarının az olması",
+      "aciklama": "Nadas, bir tarlanın bir yıl boş bırakılarak toprağın su ve besin depolamasını sağlayan geleneksel bir yöntemdir. Doğu Anadolu’da yıllık yağış 400–600 mm civarında olduğu için sulama imkânı kısıtlıdır ve çiftçiler buğday gibi kuru tarım ürünlerini nadasla dönüşümlü eker. Volkanik topraklar daha çok İç Anadolu’da görülür; kış sıcaklıkları nadası doğrudan etkilemez; engebe ve hayvancılık nadas alanlarının genişlemesinin temel sebebi değildir.",
+      "harita_il": "erzurum",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575299-H2-004",
+      "soru": "Türkiye’de seracılık faaliyetlerinin en yaygın olduğu bölge aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Marmara Bölgesi",
+        "B) Ege Bölgesi",
+        "C) Akdeniz Bölgesi",
+        "D) Karadeniz Bölgesi",
+        "E) İç Anadolu Bölgesi"
+      ],
+      "dogru": "C) Akdeniz Bölgesi",
+      "aciklama": "Seracılık, iklim koşullarının kontrol altına alınarak sebze ve meyve üretimini yıl boyu sürdürmeye yönelik bir faaliyettir. Türkiye’de sera alanlarının yaklaşık %80’i Akdeniz Bölgesi’nde, özellikle Antalya ve Mersin çevresinde yoğunlaşmıştır. Kış aylarının ılık geçmesi, güneşlenme süresinin fazla olması ve sulama imkânlarının bulunması bu bölgeyi avantajlı kılar. Diğer bölgelerde seracılık daha sınırlıdır.",
+      "harita_il": "antalya",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575299-H2-005",
+      "soru": "Aşağıdaki illerden hangisinde buğday üretimi diğerlerine göre daha azdır?",
+      "siklar": [
+        "A) Ankara",
+        "B) Konya",
+        "C) Rize",
+        "D) Şanlıurfa",
+        "E) Adana"
+      ],
+      "dogru": "C) Rize",
+      "aciklama": "Buğday, genellikle yarı kurak iklim koşullarında yetişen bir tahıldır. Rize’de ise yıl boyu bol yağış ve dik eğim nedeniyle çay, fındık, kivi gibi ürünler öne çıkar; buğday tarımı neredeyse yok denecek kadar azdır. Ankara ve Konya İç Anadolu’nun buğday ambarıdır. Şanlıurfa GAP ile sulamaya açılmıştır ve buğday üretimi yaygındır. Adana’da da buğday ekimi yapılır (Çukurova).",
+      "harita_il": "rize",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575299-H2-006",
+      "soru": "Türkiye’de tarımı etkileyen faktörlerle ilgili aşağıdakilerden hangileri doğrudur?\n\nI. Yüksek dağların varlığı, tarım alanlarını sınırlandırır.\nII. Kıyı kuşağında nemlilik fazla olduğundan nadas uygulanmaz.\nIII. İç kesimlerde karasallık nedeniyle yaz kuraklığı yaşanır.",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) I ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "E) I, II ve III",
+      "aciklama": "I. öncül doğrudur; yüksek dağlar tarıma elverişli düz alanları daraltır. II. öncül doğrudur; Karadeniz ve Akdeniz kıyılarında yıl boyu yeterli nem ve yağış olduğu için nadasa ihtiyaç duyulmaz, nadas daha çok kurak iç bölgelerde görülür. III. öncül doğrudur; karasal iklimde yazlar sıcak ve kurak geçtiğinden tarımda sulama zorunlu hâle gelir. Bu nedenle üç ifade de geçerlidir. Diğer şık kombinasyonları eksik kalır.",
+      "harita_il": null,
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575299-H2-007",
+      "soru": "Yukarıdaki Türkiye haritasında I, II, III, IV ve V numaralı alanlar gösterilmiştir. Bu alanların hangisinde kış mevsiminde seracılık faaliyetleri daha yaygındır?",
+      "siklar": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV",
+        "E) V"
+      ],
+      "dogru": "A) I",
+      "aciklama": "Haritada I numaralı alan Antalya ve çevresini temsil eder. Antalya, Türkiye’nin sera üretim merkezidir; kış aylarında dahi sebze ve meyve yetiştiriciliği yapılır. II (İzmir), III (Samsun), IV (Trabzon) ve V (İstanbul) kıyı kesimleridir ancak Antalya kadar ılıman kış koşullarına sahip değildirler. Özellikle Samsun ve Trabzon’da kış sıcaklıkları daha düşük olduğu için seracılık sınırlıdır. Bu yüzden doğru cevap I numaralı alandır.",
+      "harita_il": "antalya",
+      "zorluk": "zor",
+      "gorsel": "tarim/tarim-1779575299-H2-007.svg",
+      "gorsel_veri": {
+        "I": "antalya",
+        "II": "izmir",
+        "III": "samsun",
+        "IV": "trabzon",
+        "V": "istanbul"
+      }
+    },
+    {
+      "id": "tarim-1779575299-H2-008",
+      "soru": "Türkiye’de tarımsal sulama projeleriyle ilgili aşağıdakilerden hangisi yanlıştır?",
+      "siklar": [
+        "A) GAP, Şanlıurfa, Mardin, Diyarbakır gibi illeri kapsar.",
+        "B) KOP, Konya Ovası’nda sulama imkânını artırmayı hedefler.",
+        "C) DAP, Erzurum ve Erzincan çevresinde sulamayı amaçlar.",
+        "D) İç Anadolu’da sulama yatırımları sayesinde nadas alanları artmıştır.",
+        "E) Kıyı kesimlerdeki akarsular sulamada yaygın olarak kullanılır."
+      ],
+      "dogru": "D) İç Anadolu’da sulama yatırımları sayesinde nadas alanları artmıştır.",
+      "aciklama": "Nadas, sulama imkânının kısıtlı olduğu alanlarda uygulanan bir yöntemdir. Sulama yatırımları arttığında çiftçi her yıl ekim yapabildiği için nadas alanları daralır, genişlemez. Diğer seçenekler doğru bilgiler içerir: GAP (Güneydoğu Anadolu Projesi) kapsamındaki iller doğru sıralanmıştır; KOP (Konya Ovası Projesi) Konya’yı hedef alır; DAP (Doğu Anadolu Projesi) Erzurum, Erzincan gibi illeri içerir. Kıyı kesimlerdeki akarsular (örn. Çoruh, Gediz, Büyük Menderes) sulamada kullanılır.",
+      "harita_il": "sanliurfa",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575405-E1",
+      "soru": "Türkiye'de tarım ürünlerinin yetişme döneminde don olaylarından korunması için aşağıdaki yöntemlerden hangisi kullanılır?",
+      "siklar": [
+        "A) Sulama kanalları açmak",
+        "B) Seralarda yetiştirme yapmak",
+        "C) Nadasa bırakmak",
+        "D) Gübreleme yapmak",
+        "E) Toprağı sürmek"
+      ],
+      "dogru": "B) Seralarda yetiştirme yapmak",
+      "aciklama": "Doğru cevap B şıkkıdır. Seralar, bitkileri düşük sıcaklık, don, rüzgar ve aşırı yağış gibi olumsuz iklim koşullarından koruyarak kontrollü bir ortamda yetiştirme imkânı sağlar. A şıkkı yanlıştır çünkü sulama kanalları bitkileri don olayından korumaz, aksine sulama amaçlıdır. C şıkkı yanlıştır çünkü nadas, toprağın dinlendirilmesi yöntemidir. D şıkkı yanlıştır çünkü gübreleme bitki beslenmesi içindir. E şıkkı yanlıştır çünkü toprağı sürmek ekim öncesi hazırlık işlemidir. Tarımda seracılık, özellikle Akdeniz ve Ege kıyılarında yaygın olup ürünlerin erken veya geç dönemde yetiştirilmesine olanak tanır.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575405-E2",
+      "soru": "Türkiye'de buğday tarımının en yoğun yapıldığı bölge aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Akdeniz Bölgesi",
+        "B) İç Anadolu Bölgesi",
+        "C) Doğu Anadolu Bölgesi",
+        "D) Karadeniz Bölgesi",
+        "E) Marmara Bölgesi"
+      ],
+      "dogru": "B) İç Anadolu Bölgesi",
+      "aciklama": "Doğru cevap B şıkkıdır. İç Anadolu Bölgesi, geniş düzlükleri, yazları sıcak ve kurak geçen karasal iklimi ile Türkiye'nin en önemli buğday üretim bölgesidir. Konya, Ankara, Yozgat ve Sivas bu üretimde öne çıkan illerdir. A şıkkı yanlıştır çünkü Akdeniz Bölgesi'nde daha çok seracılık ve turunçgiller ön plandadır. C şıkkı yanlıştır çünkü Doğu Anadolu'da kışların uzun ve sert geçmesi buğday tarımını sınırlar. D şıkkı yanlıştır çünkü Karadeniz'de yağış fazlalığı ve engebeli arazi buğday tarımını zorlaştırır. E şıkkı yanlıştır çünkü Marmara Bölgesi'nde buğday ekimi yapılsa da İç Anadolu kadar yoğun değildir.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575405-H2-001",
+      "soru": "Türkiye'de fındık üretiminin en fazla olduğu il aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Giresun",
+        "B) Ordu",
+        "C) Trabzon",
+        "D) Rize",
+        "E) Samsun"
+      ],
+      "dogru": "B) Ordu",
+      "aciklama": "Doğru cevap B şıkkıdır. Türkiye fındık üretiminin yaklaşık %85'i Karadeniz Bölgesi'nden karşılanır ve bu üretimin büyük kısmı Ordu ilinde gerçekleşir. Ordu, hem üretim miktarı hem de dikim alanı açısından ilk sırada yer alır. A şıkkındaki Giresun ikinci sıradadır, C şıkkındaki Trabzon üçüncüdür. D ve E şıklarındaki Rize (çay) ve Samsun (tütün) başka ürünlerde öne çıkar.",
+      "harita_il": "ordu",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575405-H2-002",
+      "soru": "Karadeniz Bölgesi'nde kıyı kesimde tarım alanlarının dar olmasının temel nedeni aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Kıyıda geniş ovaların bulunması",
+        "B) Dağların kıyıya dik uzanması",
+        "C) Dağların kıyıya paralel uzanması ve kıyı şeridinin dar olması",
+        "D) Akarsuların bol olması",
+        "E) Nüfus yoğunluğunun fazla olması"
+      ],
+      "dogru": "C) Dağların kıyıya paralel uzanması ve kıyı şeridinin dar olması",
+      "aciklama": "Doğru cevap C şıkkıdır. Karadeniz'de Kuzey Anadolu Dağları (Küre, Canik, Doğu Karadeniz Dağları) kıyıya paralel uzandığı için kıyı şeridi dardır, tarım alanları sınırlı kalır. A şıkkı tersine yanlıştır; B şıkkı Ege Bölgesi için geçerlidir. D ve E şıkları tarım alanlarını daraltan temel etken değildir.",
+      "harita_il": "trabzon",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575405-H2-003",
+      "soru": "İstanbul'dan Mersin'e deniz yoluyla giden bir gemi, hangi tarım ürününün yetiştiği kıyı alanına rastlamaz?",
+      "siklar": [
+        "A) Zeytin",
+        "B) Fındık",
+        "C) Turunçgil",
+        "D) Muz",
+        "E) Çay"
+      ],
+      "dogru": "B) Fındık",
+      "aciklama": "Doğru cevap B şıkkıdır. İstanbul-Mersin rotası Marmara, Ege ve Akdeniz kıyılarını izler. Fındık yalnızca Karadeniz Bölgesi'nde yetişir, bu rotada Karadeniz olmadığı için geminin rastladığı bir ürün değildir. Zeytin (Marmara-Ege-Akdeniz), turunçgil (Akdeniz), muz (Akdeniz), çay ise Karadeniz ürünüdür ancak rota Akdeniz olduğu için çaya da rastlanmaz. Sorunun odak noktası fındığın Karadeniz dışında görülmemesidir.",
+      "harita_il": "mersin",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575405-H2-004",
+      "soru": "Türkiye'de örtü altı seracılığın en yoğun olduğu il aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Mersin",
+        "B) Antalya",
+        "C) İzmir",
+        "D) Muğla",
+        "E) Aydın"
+      ],
+      "dogru": "B) Antalya",
+      "aciklama": "Doğru cevap B şıkkıdır. Antalya, Akdeniz kıyısındaki elverişli iklimi ve uzun yetişme dönemi sayesinde Türkiye seracılığının başkenti sayılır. Örtü altı sebze-meyve üretiminde ilk sıradadır. Mersin ikinci, İzmir ve Muğla daha az paya sahiptir. Aydın ise zeytin ve incirde öne çıkar.",
+      "harita_il": "antalya",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575405-H2-005",
+      "soru": "Aşağıdaki tarım ürünlerinden hangisi don olaylarına en duyarlı olup yalnızca kıyı kesimlerde yetiştirilebilir?",
+      "siklar": [
+        "A) Buğday",
+        "B) Arpa",
+        "C) Muz",
+        "D) Ayçiçeği",
+        "E) Şeker pancarı"
+      ],
+      "dogru": "C) Muz",
+      "aciklama": "Doğru cevap C şıkkıdır. Muz, tropikal iklim isteyen ve düşük sıcaklıklara karşı çok hassas bir üründür. Türkiye'de yalnızca Anamur (Mersin) ve Alanya (Antalya) gibi kıyı kesimlerde, mikro klima alanlarında yetiştirilebilir. Buğday, arpa, ayçiçeği ve şeker pancarı daha soğuğa dayanıklıdır ve iç bölgelerde de üretilir.",
+      "harita_il": "mersin",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575405-H2-006",
+      "soru": "Güneydoğu Anadolu Projesi (GAP) kapsamında sulama imkânlarının artmasıyla ilgili aşağıdaki yargılardan hangileri doğrudur?\n\nI. Pamuk üretiminde önemli artış olmuştur.\nII. Mercimek ekim alanları daralmıştır.\nIII. Kırsal alanlardan kentlere göç hızlanmıştır.",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "Doğru cevap C şıkkıdır. GAP ile sulanan alanlarda pamuk üretimi arttığı için I doğrudur. Sulama ile kuru tarım ürünü olan mercimeğin yerini sulu tarım ürünleri (pamuk, mısır) aldığı için mercimek ekim alanları daralmaktadır, bu nedenle II doğrudur. III ise yanlıştır çünkü sulama imkânlarının artması tarımsal istihdamı artırarak kırsal göçü yavaşlatır, hızlandırmaz. Dolayısıyla yalnız I ve II doğrudur.",
+      "harita_il": "sanliurfa",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575405-H2-007",
+      "soru": "Sinop'tan yola çıkan bir gemi, Karadeniz kıyı şeridini takip ederek Trabzon'a gitmektedir. Bu gemi yolculuğu sırasında aşağıdaki delta ovalarından hangisini görmesi beklenir?",
+      "siklar": [
+        "A) Çukurova",
+        "B) Gediz Ovası",
+        "C) Bafra Ovası",
+        "D) Bakırçay Ovası",
+        "E) Büyük Menderes Ovası"
+      ],
+      "dogru": "C) Bafra Ovası",
+      "aciklama": "Doğru cevap C şıkkıdır. Sinop-Trabzon arasındaki Karadeniz rotasında Samsun yakınlarında Kızılırmak'ın oluşturduğu Bafra Ovası yer alır. Çukurova (Adana), Gediz (İzmir), Bakırçay (İzmir/Manisa) ve Büyük Menderes (Aydın) ovaları Ege ve Akdeniz kıyılarındadır. Bu nedenle geminin Karadeniz'de görebileceği tek delta Bafra Ovası'dır.",
+      "harita_il": "samsun",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575405-H2-008",
+      "soru": "Yukarıdaki Türkiye haritasında I, II, III, IV ve V numaralı alanlar gösterilmiştir. Bu alanların hangisinde şeker pancarı tarımı en yaygındır?",
+      "siklar": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV",
+        "E) V"
+      ],
+      "dogru": "C) III",
+      "aciklama": "Doğru cevap C şıkkıdır. III numaralı alan İç Anadolu Bölgesi'ni (Konya, Eskişehir, Ankara) kapsar. Şeker pancarı, yaz kuraklığına dayanıklı ve sulama gerektiren bir endüstri bitkisidir; en yoğun olarak İç Anadolu'da yetiştirilir. I ve II (Güneydoğu ve Akdeniz) pamuk ve turunçgilde öne çıkar. IV (Ege kıyıları) zeytin ve tütün, V (Karadeniz) fındık ve çay üretimiyle ünlüdür.",
+      "harita_il": "konya",
+      "zorluk": "zor",
+      "gorsel": "tarim/tarim-008.svg",
+      "gorsel_veri": {
+        "I": "adana",
+        "II": "sanliurfa",
+        "III": "konya",
+        "IV": "izmir",
+        "V": "trabzon"
+      }
+    },
+    {
+      "id": "tarim-1779575453-E1",
+      "soru": "Türkiye'de tarım ürünlerinin yetişme döneminde don olaylarından en fazla etkilenen bölge aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Akdeniz Bölgesi",
+        "B) İç Anadolu Bölgesi",
+        "C) Ege Bölgesi",
+        "D) Karadeniz Bölgesi",
+        "E) Marmara Bölgesi"
+      ],
+      "dogru": "B) İç Anadolu Bölgesi",
+      "aciklama": "İç Anadolu Bölgesi, karasal iklimin etkisiyle kışların soğuk ve yazların kurak geçtiği bir bölgedir. İlkbahar ve sonbahar aylarında sık sık yaşanan don olayları, özellikle buğday, arpa ve meyve yetiştiriciliğini olumsuz etkiler. Diğer bölgelerde ise denizel iklimin etkisiyle don riski daha düşüktür. A, C, D ve E şıklarında verilen bölgeler Akdeniz, Ege, Karadeniz ve Marmara ikliminin yumuşatıcı etkisiyle don olaylarına daha az maruz kalır.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575453-E2",
+      "soru": "Türkiye'de yetiştirilen aşağıdaki tarım ürünlerinden hangisi daha çok Akdeniz Bölgesi'nde yoğunlaşmıştır?",
+      "siklar": [
+        "A) Çay",
+        "B) Fındık",
+        "C) Muz",
+        "D) Keten",
+        "E) Şeker pancarı"
+      ],
+      "dogru": "C) Muz",
+      "aciklama": "Muz, sıcaklık ve nem isteği yüksek olan bir tarım ürünüdür. Türkiye'de Akdeniz Bölgesi'nin kıyı kesimlerinde, özellikle Alanya, Gazipaşa ve Anamur çevresinde yetiştirilmektedir. Çay daha çok Doğu Karadeniz Bölgesi'nde, fındık Orta ve Doğu Karadeniz'de, keten ise Marmara ve Karadeniz bölgelerinde yetişir. Şeker pancarı ise iç bölgelerde yaygındır. Bu nedenle doğru cevap muzdur.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-001",
+      "soru": "Adana ve çevresinde yetiştirilen ve Türkiye pamuk üretiminde önemli paya sahip olan tarım ürünü aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Buğday",
+        "B) Pamuk",
+        "C) Fındık",
+        "D) Çay",
+        "E) Tütün"
+      ],
+      "dogru": "B) Pamuk",
+      "aciklama": "Adana, Çukurova deltasındaki verimli alüvyal toprakları ve akdeniz iklimi sayesinde pamuk tarımı için en elverişli bölgelerden biridir. Buğday daha çok İç Anadolu'da, fındık ve çay Karadeniz'de, tütün ise Samsun ve çevresinde yaygındır.",
+      "harita_il": "adana",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-002",
+      "soru": "Mersin limanından yola çıkan bir gemi, doğuya doğru kıyı şeridini takip ederek İskenderun limanına ulaşmak istemektedir. Bu yolculuk sırasında gemi, aşağıdaki hangi akarsuyun denize döküldüğü deltayı geçmek zorundadır?",
+      "siklar": [
+        "A) Göksu",
+        "B) Manavgat",
+        "C) Aksu",
+        "D) Ceyhan",
+        "E) Seyhan"
+      ],
+      "dogru": "D) Ceyhan",
+      "aciklama": "Mersin'den doğuya gidildiğinde ilk büyük delta Çukurova'dır ve bu deltayı oluşturan başlıca akarsular Seyhan ile Ceyhan'dır. Bunlardan Ceyhan, deltanın doğu kısmını oluşturur ve İskenderun'a yaklaşırken geçilir. Göksu batıda, Manavgat ve Aksu ise Antalya yönündedir.",
+      "harita_il": "mersin",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-003",
+      "soru": "Samsun ve çevresinde yetiştirilen başlıca tarım ürünü aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Fındık",
+        "B) Çay",
+        "C) Tütün",
+        "D) Mısır",
+        "E) Buğday"
+      ],
+      "dogru": "C) Tütün",
+      "aciklama": "Samsun ili, özellikle Bafra ve Çarşamba ovalarında kaliteli tütün üretimiyle tanınır. Fındık daha çok Ordu-Giresun yöresinde, çay Rize'de, mısır ise tüm karadeniz kıyısında yaygın olmakla birlikte Samsun'da tütün daha karakteristiktir.",
+      "harita_il": "samsun",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-004",
+      "soru": "İzmir ve çevresindeki tarımsal faaliyetlerle ilgili olarak,\nI. Zeytin yetiştiriciliği yaygındır.\nII. Pamuk tarımı önemli bir geçim kaynağıdır.\nIII. Çay tarımı en fazla bu bölgede yapılır.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "İzmir ve çevresinde zeytin ve pamuk yaygın olarak yetiştirilirken çay üretimi tamamen Karadeniz Bölgesi'ne özgüdür. Bu nedenle III. önerme yanlıştır. I ve II doğrudur.",
+      "harita_il": "izmir",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-005",
+      "soru": "Gaziantep ilinde tarımsal üretimle ilgili,\nI. Antep fıstığı önemli bir gelir kaynağıdır.\nII. Buğday ve arpa üretimi yaygındır.\nIII. Zeytin yetiştiriciliği sadece Ege Bölgesi'nde yapılır.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "Gaziantep Antep fıstığıyla ünlüdür; ayrıca buğday ve arpa tahıl tarımı yaygındır. Zeytin Ege başta olmak üzere Akdeniz ve Güneydoğu Anadolu'da da yetiştirilir, dolayısıyla III. önerme yanlıştır. Doğru cevap I ve II'dir.",
+      "harita_il": "gaziantep",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-006",
+      "soru": "Yukarıdaki Türkiye haritasında I, II, III, IV ve V numaralı alanlar gösterilmiştir. Bu alanların hangisi şeker pancarı tarımının en yoğun yapıldığı bölgeyi temsil etmektedir?",
+      "siklar": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV",
+        "E) V"
+      ],
+      "dogru": "C) III",
+      "aciklama": "Haritada I: Ankara, II: Kırşehir, III: Konya, IV: Nevşehir, V: Aksaray olarak işaretlenmiştir. Şeker pancarı tarımı Türkiye'de en çok Konya ilinde yapılmaktadır. Konya Ovası'nın geniş taban arazileri ve sulama imkanları pancar üretimi için idealdir.",
+      "harita_il": "konya",
+      "zorluk": "zor",
+      "gorsel": "tarim/tarim-006.svg",
+      "gorsel_veri": {
+        "I": "ankara",
+        "II": "kirsehir",
+        "III": "konya",
+        "IV": "nevsehir",
+        "V": "aksaray"
+      }
+    },
+    {
+      "id": "tarim-007",
+      "soru": "Akdeniz kıyısından Karadeniz'e doğru bir gemi yolculuğunda, rotada sırasıyla hangi tarım ürününün yoğun olarak yetiştirildiği bölgelerden geçilir? (Haritada Mersin, Samsun, Trabzon, İzmir, Antalya işaretlenmiştir)",
+      "siklar": [
+        "A) Mersin – buğday, Samsun – tütün, Trabzon – çay",
+        "B) Mersin – pamuk, Samsun – fındık, Trabzon – çay",
+        "C) Mersin – narenciye, Samsun – tütün, Trabzon – çay",
+        "D) Mersin – zeytin, Samsun – çay, Trabzon – fındık",
+        "E) Mersin – pamuk, Samsun – çay, Trabzon – tütün"
+      ],
+      "dogru": "C) Mersin – narenciye, Samsun – tütün, Trabzon – çay",
+      "aciklama": "Mersin iklimi narenciye (portakal, limon) için uygundur. Karadeniz'e geçildiğinde Samsun'da tütün, daha doğuda Trabzon'da ise çay üretimi yoğundur. Pamuk daha çok Çukurova'da yaygındır. Fındık ise Ordu-Giresun yöresindedir.",
+      "harita_il": "mersin",
+      "zorluk": "zor",
+      "gorsel": "tarim/tarim-007.svg",
+      "gorsel_veri": {
+        "I": "mersin",
+        "II": "antalya",
+        "III": "izmir",
+        "IV": "samsun",
+        "V": "trabzon"
+      }
+    },
+    {
+      "id": "tarim-008",
+      "soru": "Şanlıurfa ilinde tarımsal sulama ile ilgili,\nI. GAP projesi sayesinde sulanan alan artmıştır.\nII. Atatürk Barajı sulamada önemli rol oynar.\nIII. Konya Ovası'nda yer alır.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "Şanlıurfa, Güneydoğu Anadolu Projesi'nin (GAP) merkezinde yer alır ve Atatürk Barajı bu bölgedeki sulamayı sağlar. III. önerme yanlıştır çünkü Konya Ovası İç Anadolu'dadır, Şanlıurfa'da değildir. Doğru cevap I ve II'dir.",
+      "harita_il": "sanliurfa",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575506-E1",
+      "soru": "Türkiye'de buğday tarımının en yaygın olduğu bölge aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Akdeniz Bölgesi",
+        "B) İç Anadolu Bölgesi",
+        "C) Karadeniz Bölgesi",
+        "D) Ege Bölgesi",
+        "E) Marmara Bölgesi"
+      ],
+      "dogru": "B) İç Anadolu Bölgesi",
+      "aciklama": "Doğru cevap B şıkkıdır. Türkiye'de buğday tarımı en yaygın olarak İç Anadolu Bölgesi'nde yapılmaktadır. Bölgenin yazları sıcak ve kurak, kışları soğuk geçen karasal iklimi buğday yetiştiriciliği için uygun koşullar sağlar. İç Anadolu, tahıl ambarı olarak bilinir ve Türkiye buğday üretiminin önemli bir kısmını karşılar. A şıkkı Akdeniz Bölgesi'nde daha çok seracılık ve turunçgiller ön plandadır. C şıkkı Karadeniz Bölgesi'nde fındık ve çay tarımı yaygındır. D şıkkı Ege Bölgesi'nde zeytin ve tütün öne çıkar. E şıkkı Marmara Bölgesi'nde ise ayçiçeği ve mısır üretimi daha fazladır. Buğday tarımı denilince ilk akla gelen bölge İç Anadolu'dur.",
+      "harita_il": "ankara",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575506-E2",
+      "soru": "Türkiye'de çay tarımı en çok hangi bölgede yapılmaktadır?",
+      "siklar": [
+        "A) Marmara Bölgesi",
+        "B) Ege Bölgesi",
+        "C) Akdeniz Bölgesi",
+        "D) Karadeniz Bölgesi",
+        "E) İç Anadolu Bölgesi"
+      ],
+      "dogru": "D) Karadeniz Bölgesi",
+      "aciklama": "Doğru cevap D şıkkıdır. Türkiye'de çay tarımı neredeyse tamamen Doğu Karadeniz Bölgesi'nde, özellikle Rize ve çevresinde yapılmaktadır. Çay bitkisi, bol yağışlı, nemli ve ılıman iklim koşullarını sever. Karadeniz Bölgesi'nin kıyı kesimlerinin yıl boyunca yağış alması ve sisli havası çay yetiştiriciliği için idealdir. A şıkkı Marmara Bölgesi'nde ayçiçeği ve zeytin yaygındır. B şıkkı Ege Bölgesi'nde zeytin, incir ve tütün ön plandadır. C şıkkı Akdeniz Bölgesi'nde turunçgiller ve seracılık yaygındır. E şıkkı İç Anadolu Bölgesi'nde ise buğday ve arpa gibi tahıllar yetiştirilir. Çay tarımı denilince akla ilk gelen bölge Karadeniz Bölgesi'dir.",
+      "harita_il": "rize",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575506-H2",
+      "soru": "Karadeniz kıyı şeridinde Samsun Limanı'ndan yola çıkan bir yük gemisi, rotasını takip ederek doğuya doğru ilerlemektedir. Gemi, yolculuğu sırasında aşağıdaki tarım ürünlerinden hangisinin yoğun olarak yetiştirildiği sahile en son ulaşır?",
+      "siklar": [
+        "A) Fındık",
+        "B) Çay",
+        "C) Tütün",
+        "D) Pirinç",
+        "E) Buğday"
+      ],
+      "dogru": "B) Çay",
+      "aciklama": "C şıkkı doğrudur çünkü gemi Samsun'dan doğuya doğru ilerledikçe sırasıyla tütün (Samsun), fındık (Ordu-Giresun) ve en son çay (Rize) bölgelerinden geçer. Çay, Karadeniz'in en doğusunda, özellikle Rize çevresinde yoğunlaşmıştır. A şıkkı yanlıştır; fındık daha batıda (Ordu,Giresun) yaygındır. C şıkkı yanlıştır; tütün Samsun'da yetişir ancak daha doğuya gidildikçe azalır. D şıkkı yanlıştır; pirinç Karadeniz'de sınırlıdır. E şıkkı yanlıştır; buğday daha çok iç bölgelerde yetişir.",
+      "harita_il": "samsun",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575506-H3",
+      "soru": "Aşağıdaki illerin hangisinde hem buğday hem de şeker pancarı tarımı yaygın olarak yapılır?",
+      "siklar": [
+        "A) Konya",
+        "B) Rize",
+        "C) Mersin",
+        "D) Samsun",
+        "E) Şanlıurfa"
+      ],
+      "dogru": "A) Konya",
+      "aciklama": "A şıkkı doğrudur çünkü Konya İç Anadolu Bölgesi'nde yer alır ve karasal iklimin etkisiyle buğday ile şeker pancarı başlıca tarım ürünlerindendir. B şıkkı yanlıştır; Rize'de çay ve fındık ön plandadır, buğday ve şeker pancarı yetişmez. C şıkkı yanlıştır; Mersin'de turunçgiller ve pamuk yaygındır. D şıkkı yanlıştır; Samsun'da tütün ve fındık öne çıkar. E şıkkı yanlıştır; Şanlıurfa'da pamuk ve buğday ekilse de şeker pancarı sınırlıdır.",
+      "harita_il": "konya",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575506-H4",
+      "soru": "Antalya Limanı'ndan yola çıkan bir gemi, Akdeniz kıyı şeridini takip ederek İskenderun Körfezi'ne doğru ilerlemektedir. Gemi, yolculuğu boyunca aşağıdaki deltalardan hangisine rastlama olasılığı en düşüktür?",
+      "siklar": [
+        "A) Çukurova Deltası",
+        "B) Göksu Deltası",
+        "C) Manavgat Çayı Deltası",
+        "D) Dalaman Çayı Deltası",
+        "E) Eşen Çayı Deltası"
+      ],
+      "dogru": "D) Dalaman Çayı Deltası",
+      "aciklama": "D şıkkı doğrudur çünkü Dalaman Çayı Deltası, Ege Bölgesi'nde Muğla kıyılarında yer alır ve Akdeniz rotası üzerinde değildir. Antalya'dan doğuya giden bir gemi sırasıyla Manavgat, Göksu, Çukurova deltalarını geçer. E şıkkı da yanlıştır (Eşen Çayı Ege'dedir), ancak soru en düşük olasılığı sormaktadır; Dalaman daha batıda olduğu için rastlanma olasılığı daha düşüktür. A,B,C şıkları doğrudan Akdeniz kıyısındadır.",
+      "harita_il": "antalya",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575506-H5",
+      "soru": "Türkiye'de en fazla fındık üretimi yapılan il aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Giresun",
+        "B) Ordu",
+        "C) Trabzon",
+        "D) Rize",
+        "E) Samsun"
+      ],
+      "dogru": "B) Ordu",
+      "aciklama": "B şıkkı doğrudur; Ordu, Türkiye fındık üretiminde ilk sırada yer alır. Karadeniz'in nemli iklimi ve engebeli arazisi fındık tarımına elverişlidir. A şıkkı yanlıştır; Giresun da önemli bir fındık üreticisidir ancak üretim miktarı Ordu'nun gerisindedir. C şıkkı yanlıştır; Trabzon'da fındık yetişse de üretim daha düşüktür. D şıkkı yanlıştır; Rize'de çay ağırlıklıdır. E şıkkı yanlıştır; Samsun'da fındık üretimi sınırlıdır.",
+      "harita_il": "ordu",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575506-H6",
+      "soru": "Ege Bölgesi'nde dağların kıyıya dik uzanması, tarım üzerinde aşağıdaki etkilerden hangisine yol açar?",
+      "siklar": [
+        "A) Kıyıda tarım alanlarının daralması",
+        "B) İç kesimlere Akdeniz ikliminin sokulması",
+        "C) Kıyıda daha fazla yağış alınması",
+        "D) Tarımda sulama ihtiyacının artması",
+        "E) Toprak erozyonunun azalması"
+      ],
+      "dogru": "B) İç kesimlere Akdeniz ikliminin sokulması",
+      "aciklama": "B şıkkı doğrudur; dağların kıyıya dik uzanması, vadiler boyunca denizel etkinin iç kesimlere kadar ulaşmasını sağlar. Bu durum Ege'de zeytin, tütün gibi Akdeniz iklimi ürünlerinin iç bölgelerde de yetişmesine imkân tanır. A şıkkı yanlıştır; dik uzanış kıyıda tarım alanlarını daraltmaz, aksine iç kesimlere açılma sağlar. C şıkkı yanlıştır; kıyıda yağış miktarını belirleyen temel faktör dağların uzanışı değil, bakı ve yükseltidir. D şıkkı yanlıştır; iç kesimlerde sulama ihtiyacı daha fazla olabilir ancak bu doğrudan uzanışla ilgili değildir. E şıkkı yanlıştır; dik uzanış erozyonu artırabilir.",
+      "harita_il": "izmir",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575506-H7",
+      "soru": "Türkiye'de tarımı etkileyen faktörlerle ilgili olarak,\n\nI. Kıyı Ege'de zeytin yetiştiriciliğinin yaygın olmasında Akdeniz ikliminin etkisi büyüktür.\nII. İç Anadolu'da şeker pancarı tarımının yoğunlaşmasında Karadeniz ikliminin etkisi vardır.\nIII. Doğu Anadolu'da tarım alanlarının sınırlı olmasının temel nedeni engebeli arazi yapısıdır.\n\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) I ve III",
+        "E) II ve III"
+      ],
+      "dogru": "D) I ve III",
+      "aciklama": "D şıkkı doğrudur çünkü I. önerme doğrudur: Kıyı Ege'de Akdeniz iklimi zeytin tarımına uygundur. III. önerme doğrudur: Doğu Anadolu'da yüksek ve engebeli arazi tarım alanlarını sınırlar. II. önerme yanlıştır çünkü İç Anadolu'da şeker pancarı karasal iklim koşullarında yetişir, Karadeniz iklimi değil. Bu nedenle yalnız I ve III doğrudur. A ve B şıkları eksik, C ve E şıkları yanlış önerme içermektedir.",
+      "harita_il": "izmir",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575506-H8",
+      "soru": "Yukarıdaki Türkiye haritasında I, II, III, IV ve V numaralı alanlar gösterilmiştir. Bu alanların hangi ikisinde fındık tarımı yaygın olarak yapılır?",
+      "siklar": [
+        "A) I ve II",
+        "B) II ve V",
+        "C) III ve IV",
+        "D) I ve III",
+        "E) IV ve V"
+      ],
+      "dogru": "B) II ve V",
+      "aciklama": "Haritada II numaralı alan Giresun, V numaralı alan Ordu'dur. Türkiye'de fındık tarımı en yoğun olarak Doğu Karadeniz'de, özellikle Giresun, Ordu ve Trabzon çevresinde yapılır. Bu iki il fındık üretiminde ilk sıralardadır. I numaralı alan Samsun'da (tütün), III Rize'de (çay), IV Trabzon'da (fındık olsa da üretim miktarı Ordu-Giresun'un gerisindedir) farklı ürünler ön plandadır. A, C, D, E şıkları yanlış eşleşmeler içerir.",
+      "harita_il": "giresun",
+      "zorluk": "zor",
+      "gorsel": "tarim/tarim-1779575506-H8.svg",
+      "gorsel_veri": {
+        "I": "samsun",
+        "II": "giresun",
+        "III": "rize",
+        "IV": "trabzon",
+        "V": "ordu"
+      }
+    },
+    {
+      "id": "tarim-1779575506-H9",
+      "soru": "Aşağıdaki tarım ürünlerinden hangisi İç Anadolu Bölgesi'nde yetiştirilmez?",
+      "siklar": [
+        "A) Buğday",
+        "B) Arpa",
+        "C) Şeker pancarı",
+        "D) Zeytin",
+        "E) Nohut"
+      ],
+      "dogru": "D) Zeytin",
+      "aciklama": "D şıkkı doğrudur; zeytin, Akdeniz iklimine özgü bir ürün olduğu için İç Anadolu'nun karasal ikliminde yetişmez. Diğer şıklardaki ürünler (buğday, arpa, şeker pancarı, nohut) İç Anadolu'da yaygın olarak ekilir. A şıkkı yanlıştır; buğday en temel tahıldır. B şıkkı yanlıştır; arpa kuraklığa dayanıklıdır. C şıkkı yanlıştır; şeker pancarı sulama ile yetiştirilir. E şıkkı yanlıştır; nohut baklagil olarak ekilir.",
+      "harita_il": "ankara",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575558-E1-001",
+      "soru": "Türkiye'de buğday üretiminin en yaygın olduğu bölge aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Akdeniz Bölgesi",
+        "B) İç Anadolu Bölgesi",
+        "C) Ege Bölgesi",
+        "D) Karadeniz Bölgesi",
+        "E) Marmara Bölgesi"
+      ],
+      "dogru": "B) İç Anadolu Bölgesi",
+      "aciklama": "Doğru cevap B şıkkıdır, çünkü İç Anadolu Bölgesi, Türkiye'nin tahıl ambarı olarak bilinir ve buğday üretiminde ilk sırada yer alır. A şıkkı yanlıştır, Akdeniz Bölgesi'nde buğday üretimi olsa da ilk sırada değildir. C şıkkı yanlıştır, Ege Bölgesi daha çok zeytin ve pamuk üretimiyle öne çıkar. D şıkkı yanlıştır, Karadeniz Bölgesi'nde buğday üretimi sınırlıdır. E şıkkı yanlıştır, Marmara Bölgesi'nde ayçiçeği ve mısır üretimi daha yaygındır. Genel kural olarak, buğday üretimi İç Anadolu Bölgesi'nde yoğunlaşmıştır.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575558-E1-002",
+      "soru": "Türkiye'de fındık üretiminin en fazla yapıldığı il aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Trabzon",
+        "B) Ordu",
+        "C) Giresun",
+        "D) Samsun",
+        "E) Rize"
+      ],
+      "dogru": "C) Giresun",
+      "aciklama": "Doğru cevap C şıkkıdır, çünkü Giresun ili, Türkiye'de fındık üretiminde ilk sırada yer alır ve 'fındığın başkenti' olarak anılır. A şıkkı yanlıştır, Trabzon'da fındık üretimi olsa da Giresun kadar yüksek değildir. B şıkkı yanlıştır, Ordu ili fındık üretiminde ikinci sıradadır. D şıkkı yanlıştır, Samsun'da fındık üretimi daha azdır. E şıkkı yanlıştır, Rize'de çay üretimi ön plandadır. Genel kural olarak, fındık üretimi Doğu Karadeniz Bölgesi'nde yoğunlaşmıştır ve Giresun bu üretimde liderdir.",
+      "harita_il": "giresun",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575558-H2-001",
+      "soru": "Türkiye'de buğday üretiminde ilk sırada yer alan il aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Konya",
+        "B) Ankara",
+        "C) Adana",
+        "D) Şanlıurfa",
+        "E) İzmir"
+      ],
+      "dogru": "A) Konya",
+      "aciklama": "Cevap Konya'dır. Türkiye'de buğday üretim miktarı bakımından Konya açık ara öndedir. Konya ilinin geniş tarım alanları, makineleşme düzeyi ve iklim koşulları buğday tarımına elverişlidir. Ankara, Adana ve Şanlıurfa da önemli üreticiler olmakla birlikte Konya'nın üretim miktarı daha yüksektir. İzmir buğdayda ilk beşte yer almamaktadır.",
+      "harita_il": "konya",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575558-H2-002",
+      "soru": "Antalya limanından hareket eden bir yük gemisi, kıyı şeridini izleyerek Mersin limanına ulaşmıştır. Bu güzergahta aşağıdaki ovalardan hangisi bulunur?",
+      "siklar": [
+        "A) Çukurova",
+        "B) Bafra Ovası",
+        "C) Çarşamba Ovası",
+        "D) Gediz Ovası",
+        "E) Meriç Ovası"
+      ],
+      "dogru": "A) Çukurova",
+      "aciklama": "Antalya'dan Mersin'e doğu yönünde kıyı boyunca gidildiğinde karşılaşılan ilk büyük ova Çukurova'dır. Çukurova, Mersin ve Adana arasında yer alan alüvyal bir ova olup pamuk, buğday ve narenciye tarımıyla ünlüdür. Bafra ve Çarşamba ovaları Karadeniz kıyısında, Gediz Ovası Ege Bölgesi'nde, Meriç Ovası ise Trakya'da bulunur.",
+      "harita_il": "mersin",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575558-H2-003",
+      "soru": "Ege Bölgesi'nde kıyıya dik uzanan dağlar, tarımsal faaliyetleri olumlu yönde etkilemektedir. Bu durumun temel nedeni aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Dağların kıyıda yükselerek rüzgârı engellemesi",
+        "B) Dağlar arasıdaki vadilerin iç kesimlere kadar nemli hava taşıması",
+        "C) Dağların kıyıya paralel uzanarak yağış miktarını artırması",
+        "D) Dağların erozyonu önleyerek tarım alanlarını koruması",
+        "E) Dağların volkanik topraklarla kaplı olması"
+      ],
+      "dogru": "B) Dağlar arasıdaki vadilerin iç kesimlere kadar nemli hava taşıması",
+      "aciklama": "Ege Bölgesi'nde dağlar kıyıya dik (kuzey-güney) uzanır. Bu uzanış doğrultusu sayesinde denizden gelen nemli hava vadiler boyunca iç kesimlere kadar sokulur. Böylece iç kesimlerde de Akdeniz ikliminin etkisi görülür ve tarım için uygun sıcaklık ile yağış koşulları oluşur. A ve C şıklarında anlatılanlar Karadeniz Bölgesi için geçerlidir; D ve E ise genel geçer doğrular değildir.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575558-H2-004",
+      "soru": "Aşağıdaki illerden hangisi hem zeytin hem de fındık üretiminin yapıldığı bir ildir?",
+      "siklar": [
+        "A) Giresun",
+        "B) Aydın",
+        "C) Ordu",
+        "D) Balıkesir",
+        "E) Mardin"
+      ],
+      "dogru": "D) Balıkesir",
+      "aciklama": "Balıkesir ili gerek Marmara gerekse Ege kıyılarındaki ilçelerinde zeytin üretimi yaparken, iç kesimlerdeki mikroklima alanlarında fındık da yetiştirilmektedir. Giresun ve Ordu fındık üretiminde öndedir ancak zeytin üretimi yok denecek kadar azdır. Aydın zeytin üretiminde önemlidir ancak fındık üretimi yoktur. Mardin'in iklim koşulları zeytin ve fındık için uygun değildir.",
+      "harita_il": "balikesir",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575558-H2-005",
+      "soru": "İzmir limanından yola çıkan bir gemi, kıyı şeridini takip ederek İstanbul limanına ulaşacaktır. Bu güzergahta aşağıdaki akarsu ağızlarından hangisi görülmez?",
+      "siklar": [
+        "A) Bakırçay",
+        "B) Gediz",
+        "C) Küçük Menderes",
+        "D) Büyük Menderes",
+        "E) Sakarya"
+      ],
+      "dogru": "E) Sakarya",
+      "aciklama": "İzmir'den İstanbul'a kıyı şeridi takip edildiğinde Ege Denizi ve Marmara Denizi kıyıları boyunca ilerlenir. Bakırçay, Gediz, Küçük Menderes ve Büyük Menderes Ege kıyılarında denize döküldüğü için bu ağızlar görülür. Sakarya Nehri ise Karadeniz'e dökülür ve bu güzergâhın dışında kalır. Sakarya'nın ağzı Karadeniz Ereğlisi yakınlarındadır.",
+      "harita_il": "izmir",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575558-H2-006",
+      "soru": "Türkiye'deki tarım projeleriyle ilgili aşağıdaki ifadelerden hangileri doğrudur?\nI. GAP, Fırat ve Dicle nehirleri üzerinde kurulan barajlarla sulu tarımı yaygınlaştırmıştır.\nII. KOP projesi, Konya Havzası'nda sulama ve tarımsal verimliliği artırmaya yöneliktir.\nIII. DAP projesi kapsamında ilk olarak Karadeniz Bölgesi'nde sulama yatırımları başlatılmıştır.",
+      "siklar": [
+        "A) Yalnız I",
+        "B) I ve II",
+        "C) II ve III",
+        "D) Yalnız II",
+        "E) I, II ve III"
+      ],
+      "dogru": "B) I ve II",
+      "aciklama": "GAP (Güneydoğu Anadolu Projesi) Fırat ve Dicle havzasında sulama ve enerji üretimini hedefler. KOP (Konya Ovası Projesi) Konya havzasının sulanması ve tarımsal verimliliğin artırılması amacını taşır. DAP (Doğu Anadolu Projesi) ise Doğu Anadolu Bölgesi'ni kapsar, Karadeniz Bölgesi DAP'ın kapsama alanı dışındadır. Bu nedenle yalnız I ve II doğrudur.",
+      "harita_il": "sanliurfa",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575558-H2-007",
+      "soru": "Yukarıdaki Türkiye haritasında I, II, III, IV ve V numaralı alanlar gösterilmiştir. Bu alanların hangisinde tarımda makineleşmenin en az olduğu söylenebilir?",
+      "siklar": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV",
+        "E) V"
+      ],
+      "dogru": "A) I",
+      "aciklama": "Haritada I numaralı alan Doğu Anadolu Bölgesi'nin kuzeydoğusudur (Kars, Ardahan çevresi). Bölgenin engebeli yapısı, küçük ve parçalı tarım arazileri ile yükseltinin fazla olması tarımda makine kullanımını sınırlar. II numaralı alan (Konya) makineleşmenin en yüksek olduğu bölgelerdendir. III (Şanlıurfa) GAP ile sulu tarıma geçmiştir. IV (Trabzon) ve V (Antalya) ise makineleşmenin görece düşük ama yine de I'den yüksek olduğu alanlardır.",
+      "harita_il": "kars",
+      "zorluk": "zor",
+      "gorsel": "tarim/tarim-1779575558-H2-007.svg",
+      "gorsel_veri": {
+        "I": "kars",
+        "II": "konya",
+        "III": "sanliurfa",
+        "IV": "trabzon",
+        "V": "antalya"
+      }
+    },
+    {
+      "id": "tarim-1779575558-H2-008",
+      "soru": "İskenderun limanından hareket eden bir gemi, Doğu Akdeniz kıyılarını izleyerek Çanakkale Boğazı'na girmektedir. Bu gemi, seyahati sırasında aşağıdaki tarım ürünlerinden hangisinin yetiştiği bir bölgeye uğramaz?",
+      "siklar": [
+        "A) Muz",
+        "B) Turunçgil",
+        "C) Pamuk",
+        "D) Kivi",
+        "E) Zeytin"
+      ],
+      "dogru": "D) Kivi",
+      "aciklama": "İskenderun'dan başlayıp Çanakkale'ye doğru Akdeniz, Ege ve Marmara kıyı boyunca gidildiğinde muz (Anamur, Alanya civarı), turunçgil (Adana, Mersin, Hatay), pamuk (Çukurova, Ege ovaları) ve zeytin (Ege ve Marmara kıyıları) yetiştirilen alanlar bulunur. Kivi ise ağırlıklı olarak Karadeniz Bölgesi'nde (örneğin Ordu, Giresun) yetişir ve bu güzergâh dışında kalır.",
+      "harita_il": "hatay",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575604-E1",
+      "soru": "Türkiye'de tarımı yapılan ürünlerden hangisi, Akdeniz ikliminin karakteristik özelliklerini yansıtan bir üründür?",
+      "siklar": [
+        "A) Çay",
+        "B) Fındık",
+        "C) Portakal",
+        "D) Buğday",
+        "E) Ayçiçeği"
+      ],
+      "dogru": "C) Portakal",
+      "aciklama": "Portakal, Akdeniz ikliminin tipik bir ürünüdür. Kışları ılık ve yağışlı, yazları sıcak ve kurak geçen bu iklim koşulları, turunçgil yetiştiriciliği için idealdir. A şıkkı olan çay, Karadeniz ikliminin; B şıkkı olan fındık ise yine Karadeniz Bölgesi'nin nemli ve serin ikliminin ürünüdür. D şıkkı buğday, geniş bir yayılım alanına sahip olmakla birlikte Akdeniz ikliminin karakteristik ürünü değildir. E şıkkı ayçiçeği ise daha çok Trakya ve İç Anadolu'da yetiştirilen bir yağ bitkisidir. Bu nedenle doğru cevap portakaldır.",
+      "harita_il": "antalya",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575604-E2",
+      "soru": "Türkiye'de buğday tarımının en yaygın olduğu bölge aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Ege Bölgesi",
+        "B) İç Anadolu Bölgesi",
+        "C) Karadeniz Bölgesi",
+        "D) Akdeniz Bölgesi",
+        "E) Marmara Bölgesi"
+      ],
+      "dogru": "B) İç Anadolu Bölgesi",
+      "aciklama": "İç Anadolu Bölgesi, geniş düzlükleri ve karasal iklim koşulları ile buğday tarımı için en uygun bölgelerden biridir. Bu bölge, Türkiye'nin tahıl ambarı olarak bilinir ve buğday üretiminde ilk sırada yer alır. A şıkkı Ege Bölgesi'nde buğday yetiştirilse de üretim miktarı İç Anadolu'ya göre daha azdır. C şıkkı Karadeniz Bölgesi'nin engebeli arazisi ve nemli iklimi buğday tarımı için elverişli değildir. D şıkkı Akdeniz Bölgesi'nde daha çok turunçgil ve seracılık ön plandadır. E şıkkı Marmara Bölgesi'nde ise sanayi bitkileri ve ayçiçeği daha yaygındır. Bu nedenle doğru cevap İç Anadolu Bölgesi'dir.",
+      "harita_il": "konya",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575604-H2-001",
+      "soru": "Türkiye'de buğday üretiminin en fazla yapıldığı il aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Ankara",
+        "B) Konya",
+        "C) Şanlıurfa",
+        "D) Adana",
+        "E) Samsun"
+      ],
+      "dogru": "B) Konya",
+      "aciklama": "Doğru cevap B şıkkıdır. Türkiye İstatistik Kurumu verilerine göre Konya ili buğday ekim alanı ve üretim miktarı bakımından ilk sırada yer alır. Ankara ili ikinci sırada olmasına rağmen Konya'yı geçemez. Şanlıurfa'da sulu tarımla pamuk ve mısır öne çıkar, buğday ekimi daha azdır. Adana'da buğday yerine pamuk, mısır ve turunçgil ağırlıktadır. Samsun'da ise tütün, mısır ve fındık daha yaygındır. Bu nedenle en yüksek buğday üretimi Konya iline aittir.",
+      "harita_il": "konya",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575604-H2-002",
+      "soru": "Mersin limanından yola çıkan bir yük gemisi, Akdeniz kıyılarını takip ederek İskenderun'a doğru ilerlemektedir. Gemi aşağıdaki delta ovalarından hangisinin kıyı şeridinden geçmek zorundadır?",
+      "siklar": [
+        "A) Bafra Ovası",
+        "B) Çarşamba Ovası",
+        "C) Çukurova Deltası",
+        "D) Gediz Deltası",
+        "E) Büyük Menderes Deltası"
+      ],
+      "dogru": "C) Çukurova Deltası",
+      "aciklama": "Doğru cevap C şıkkıdır. Mersin-İskenderun arasında kıyı şeridinde en belirgin delta ovası Seyhan ve Ceyhan nehirlerinin oluşturduğu Çukurova deltasıdır. Bafra ve Çarşamba ovaları Karadeniz kıyısında, Gediz ve Büyük Menderes deltaları ise Ege kıyısında yer alır. Bu nedenle gemi Çukurova'dan geçer. Ayrıca bu bölge Türkiye'nin en verimli tarım alanlarını oluşturur.",
+      "harita_il": "adana",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575604-H2-003",
+      "soru": "Aşağıdaki illerden hangisi tarımsal ürün deseni (yetiştirilen başlıca ürünler) bakımından diğerlerinden farklılaşır?",
+      "siklar": [
+        "A) Rize",
+        "B) Ordu",
+        "C) Giresun",
+        "D) Samsun",
+        "E) Trabzon"
+      ],
+      "dogru": "D) Samsun",
+      "aciklama": "Doğru cevap D şıkkıdır. Rize çay, Ordu-Giresun-Trabzon ise fındık üretimiyle öne çıkar. Samsun'da ise tütün, mısır, buğday ve ayçiçeği gibi ürünler daha yaygındır; fındık ve çay üretimi diğer illere göre oldukça sınırlıdır. Bu nedenle Samsun'un tarımsal ürün deseni Karadeniz'in doğu kesiminden belirgin şekilde ayrılır. Ayrıca Samsun'da geniş düzlükler sayesinde tarla tarımı daha gelişmiştir.",
+      "harita_il": "samsun",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575604-H2-004",
+      "soru": "Türkiye'de örtü altı (sera) tarımının en yaygın olduğu bölge aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Marmara Bölgesi",
+        "B) Ege Bölgesi",
+        "C) Akdeniz Bölgesi",
+        "D) Karadeniz Bölgesi",
+        "E) İç Anadolu Bölgesi"
+      ],
+      "dogru": "C) Akdeniz Bölgesi",
+      "aciklama": "Doğru cevap C şıkkıdır. Akdeniz Bölgesi, özellikle Antalya ve Mersin illeri, kış ılıklığı sayesinde seracılığın en yoğun yapıldığı bölgedir. Marmara ve Ege'de de sera bulunmakla birlikte Akdeniz'in güneşlenme süresi ve sıcaklık ortalaması daha yüksektir. Karadeniz'de yağış fazlalığı ve İç Anadolu'da kış soğukları seracılığı sınırlar. Bu nedenle sera tarımı denince ilk akla gelen bölge Akdeniz'dir.",
+      "harita_il": "antalya",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575604-H2-005",
+      "soru": "Türkiye'de doğu-batı yönünde ilerledikçe tarımda ürün çeşitliliğinin azalmasında aşağıdakilerden hangisi temel belirleyicidir?",
+      "siklar": [
+        "A) Nüfus yoğunluğunun azalması",
+        "B) Yükseltinin ve karasallığın artması",
+        "C) Yağış miktarının her yerde aynı olması",
+        "D) Toprak tiplerinin değişmemesi",
+        "E) Sulama imkânlarının her yerde yeterli olması"
+      ],
+      "dogru": "B) Yükseltinin ve karasallığın artması",
+      "aciklama": "Doğru cevap B şıkkıdır. Batıdan doğuya doğru yükselti artar, karasal iklim etkisi belirginleşir. Bu durum yetişme süresini kısaltır, don riskini artırır ve ürün çeşitliliğini sınırlar. Nüfus yoğunluğu (A) doğrudan ürün çeşitliliğini etkilemez. Yağış batıdan doğuya azalma eğilimindedir, aynı değildir (C). Toprak tipleri değişir (D). Sulama imkânları her yerde yeterli değildir (E). Dolayısıyla yükselti ve karasallık en önemli faktördür.",
+      "harita_il": "erzincan",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575604-H2-006",
+      "soru": "Türkiye'deki büyük ölçekli sulama projeleriyle ilgili olarak:\n\nI. Güneydoğu Anadolu Projesi (GAP) sulama yatırımları Şanlıurfa, Mardin, Adıyaman ve Gaziantep illerini kapsar.\nII. Konya Ovası Projesi (KOP) Konya havzasında sulama imkânı sağlamaktadır.\nIII. Doğu Anadolu Projesi (DAP) Erzurum, Erzincan ve Kars gibi illerde sulama tesisleri içermektedir.\n\nYargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "D) II ve III",
+      "aciklama": "Doğru cevap D şıkkıdır. II ve III doğrudur. KOP, Konya havzasını; DAP ise Doğu Anadolu'nun Erzurum, Erzincan, Kars gibi illerini kapsar. I yanlıştır çünkü GAP kapsamındaki iller Şanlıurfa, Mardin, Adıyaman ve Gaziantep olup Diyarbakır ve Batman da zamanla eklenmiştir; ancak verilen liste eksik değil yanlış değildir? Aslında GAP sadece dört il değil, 9 ili kapsar (Adıyaman, Batman, Diyarbakır, Gaziantep, Kilis, Mardin, Siirt, Şanlıurfa, Şırnak). Verilen liste eksiktir ama yanlış da değildir. Bu tür bir soruda genelde GAP'ın sadece o illeri kapsadığı ifadesi yanlış kabul edilir. Doğru yargı II ve III'tür. I ifadesi yanlıştır çünkü GAP yalnızca dört ili değil, daha geniş bir alanı kapsar. Bu nedenle doğru cevap D'dir.",
+      "harita_il": "sanliurfa",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575604-H2-007",
+      "soru": "Yukarıdaki Türkiye haritasında I, II, III ve IV numaralı alanlar gösterilmiştir. Bu alanlardan hangisi yoğun pamuk tarımının yapıldığı bir yöre değildir?",
+      "siklar": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV",
+        "E) Hiçbiri"
+      ],
+      "dogru": "C) III",
+      "aciklama": "Doğru cevap C şıkkıdır. Haritada I: Adana (Çukurova), II: Şanlıurfa (Harran), IV: Aydın (Büyük Menderes) pamuk üretiminin yoğun olduğu alanlardır. III: Antalya ve çevresi ise seracılık, narenciye ve muz gibi ürünlerle öne çıkar; pamuk ekimi sınırlıdır. Bu nedenle III numaralı alan pamuk tarımında ön planda değildir. Diğer üç alan Türkiye'nin en önemli pamuk üretim havzaları arasında yer alır.",
+      "harita_il": "antalya",
+      "zorluk": "zor",
+      "gorsel": "tarim/tarim-1779575604-H2-007.svg",
+      "gorsel_veri": {
+        "I": "adana",
+        "II": "sanliurfa",
+        "III": "antalya",
+        "IV": "aydin"
+      }
+    },
+    {
+      "id": "tarim-1779575604-H2-008",
+      "soru": "Sinop limanından yola çıkan bir yük gemisi, Karadeniz kıyı şeridini takip ederek Trabzon'a gitmektedir. Gemi aşağıdaki illerden hangisinin kıyısından geçerken, kıyıya paralel uzanan dağların etkisiyle tarım alanlarının belirgin şekilde daraldığını gözlemler?",
+      "siklar": [
+        "A) Samsun",
+        "B) Ordu",
+        "C) Giresun",
+        "D) Rize",
+        "E) Trabzon"
+      ],
+      "dogru": "C) Giresun",
+      "aciklama": "Doğru cevap C şıkkıdır. Sinop-Trabzon rotasında Samsun önlerinde kıyı daha geniş düzlüklere sahiptir. Ordu'da kıyı şeridi daralmaya başlar ancak Giresun'da Doğu Karadeniz Dağları kıyıya çok yaklaşır, tarım alanları oldukça sınırlanır. Rize ve Trabzon'da dağlar kıyıya paralel uzanmakla birlikte dar alanlar vardır, ancak en belirgin daralma Giresun kıyılarında görülür. Bu nedenle gemi Giresun açıklarında tarım alanlarının en dar olduğu kesimi gözlemler.",
+      "harita_il": "giresun",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575655-E1",
+      "soru": "Türkiye'de tarım ürünü çeşitliliğinin fazla olmasında aşağıdakilerden hangisi en önemli etkendir?",
+      "siklar": [
+        "A) Nüfusun fazla olması",
+        "B) İklim ve yer şekillerinin çeşitlilik göstermesi",
+        "C) Tarım alanlarının geniş olması",
+        "D) Sulama imkânlarının yaygın olması",
+        "E) Makineleşme oranının yüksek olması"
+      ],
+      "dogru": "B) İklim ve yer şekillerinin çeşitlilik göstermesi",
+      "aciklama": "Doğru cevap B şıkkıdır. Türkiye'de iklim ve yer şekillerinin çeşitlilik göstermesi, farklı ekolojik koşulların oluşmasına ve dolayısıyla çok sayıda tarım ürününün yetiştirilebilmesine olanak sağlar. A şıkkı yanlıştır çünkü nüfus fazlalığı ürün çeşitliliğini değil, tüketim miktarını etkiler. C şıkkı yanlıştır zira tarım alanlarının geniş olması üretim miktarını artırır, çeşitliliği doğrudan etkilemez. D şıkkı yanlıştır çünkü sulama imkânları verimi artırır ancak çeşitliliğin temel nedeni değildir. E şıkkı yanlıştır, makineleşme üretimde verimliliği artırır, çeşitliliğin ana belirleyicisi iklim ve topoğrafyadır.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575655-E2",
+      "soru": "Aşağıdaki tarım ürünlerinden hangisi yetişme döneminde bol suya ihtiyaç duyar?",
+      "siklar": [
+        "A) Mercimek",
+        "B) Nohut",
+        "C) Çavdar",
+        "D) Çeltik",
+        "E) Arpa"
+      ],
+      "dogru": "D) Çeltik",
+      "aciklama": "Doğru cevap D şıkkıdır. Çeltik (pirinç), yetişme dönemi boyunca tarlasında su biriktirilerek yetiştirilen bir tarım ürünüdür ve bol suya ihtiyaç duyar. A şıkkı yanlıştır çünkü mercimek kurağa dayanıklı bir baklagildir. B şıkkı yanlıştır, nohut da kuru tarım koşullarında yetişebilir. C şıkkı yanlıştır, çavdar kurak ve soğuk iklimlere uyum sağlamış bir tahıldır. E şıkkı yanlıştır, arpa kurağa nispeten dayanıklı olup sulama gereksinimi çeltiğe göre çok daha azdır. Çeltik, sulu tarımın en tipik örneklerinden biridir.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575655-H2",
+      "soru": "Türkiye'de tarım ürünlerinin yetiştirilme alanlarıyla ilgili,\\n\\nI. Fındık üretiminde ilk sırayı Giresun alır.\\nII. Çay üretimi en fazla Rize ilinde yapılır.\\nIII. Antep fıstığı üretiminde Gaziantep ilk sıradadır.\\n\\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "D) II ve III",
+      "aciklama": "Doğru cevap D'dir. I. önerme yanlıştır çünkü fındık üretiminde ilk sırayı Ordu alır, Giresun ikinci sıradadır. II. önerme doğrudur: çay üretiminde Rize açık ara birincidir. III. önerme doğrudur: Antep fıstığı denilince ilk akla gelen il Gaziantep'tir ve üretimde liderdir. Bu nedenle yalnız II ve III doğru yargılardır.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575655-H3",
+      "soru": "Samsun limanından yola çıkan bir gemi, Karadeniz kıyı şeridini takip ederek Trabzon limanına ulaşmaktadır. Bu gemi yolculuğu sırasında aşağıdaki tarım ürünlerinden hangisinin yoğun olarak yetiştirildiği bir ovaya rastlamaz?",
+      "siklar": [
+        "A) Fındık",
+        "B) Çay",
+        "C) Tütün",
+        "D) Mısır",
+        "E) Buğday"
+      ],
+      "dogru": "E) Buğday",
+      "aciklama": "Doğru cevap E'dir. Samsun-Trabzon arası Karadeniz kıyı şeridinde fındık (Ordu, Giresun), çay (Rize), tütün (Samsun) ve mısır (yaygın) yoğun olarak yetiştirilmektedir. Buğday ise daha çok İç Anadolu gibi kurak ve yarı kurak bölgelerde yetişir; Karadeniz kıyı kuşağında buğday tarımı yaygın değildir.",
+      "harita_il": "samsun",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575655-H4",
+      "soru": "Türkiye'de uygulanan büyük ölçekli sulama projeleriyle ilgili,\\n\\nI. GAP kapsamında Şanlıurfa'da pamuk üretimi artmıştır.\\nII. KOP kapsamında Konya'da şeker pancarı yetiştiriciliği yaygındır.\\nIII. DAP kapsamında Erzurum'da çay tarımı yapılmaktadır.\\n\\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) I ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "Doğru cevap C'dir. GAP sayesinde Şanlıurfa'da sulama imkânı artmış ve pamuk üretimi önemli ölçüde yükselmiştir (I doğru). KOP kapsamında Konya Ovası'nda şeker pancarı tarımı yaygındır (II doğru). DAP kapsamında Erzurum'da çay tarımı yapılamaz çünkü çay yalnızca Doğu Karadeniz Bölgesi'nin nemli ikliminde yetişir (III yanlış).",
+      "harita_il": "sanliurfa",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575655-H5",
+      "soru": "Türkiye'de şeker pancarı üretimiyle ilgili,\\n\\nI. En fazla şeker pancarı üretimi İç Anadolu Bölgesi'ndedir.\\nII. Konya, şeker pancarı üretiminde ilk sırada yer alan ildir.\\nIII. Şeker pancarından elde edilen melas, alkol yapımında kullanılır.\\n\\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) I ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "E) I, II ve III",
+      "aciklama": "Doğru cevap E'dir. Şeker pancarı üretiminde İç Anadolu Bölgesi ilk sıradadır (I doğru). Konya ili bu üründe Türkiye birincisidir (II doğru). Melas, şeker fabrikasyonunda yan ürün olarak elde edilir ve alkol, maya gibi sanayi kollarında hammadde olarak kullanılır (III doğru). Bu nedenle her üç yargı da doğrudur.",
+      "harita_il": "konya",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575655-H6",
+      "soru": "İzmir limanından yola çıkan bir gemi, Ege kıyılarını takip ederek Antalya limanına gitmektedir. Bu gemi yolculuğu sırasında aşağıdaki tarım ürünlerinden hangisinin yoğun olarak yetiştirildiği alanlara rastlama olasılığı en düşüktür?",
+      "siklar": [
+        "A) Zeytin",
+        "B) Pamuk",
+        "C) Turunçgil",
+        "D) Üzüm",
+        "E) Fındık"
+      ],
+      "dogru": "E) Fındık",
+      "aciklama": "Doğru cevap E'dir. İzmir-Antalya kıyı hattı boyunca zeytin, pamuk, turunçgil ve üzüm yaygın olarak yetiştirilmektedir. Fındık ise nemli ve serin iklim seven bir ürün olarak Karadeniz Bölgesi'ne özgüdür; bu rotada fındık yetiştiriciliği yok denecek kadar azdır.",
+      "harita_il": "izmir",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575655-H7",
+      "soru": "Türkiye'de tarım ile iklim koşulları arasındaki ilişkiyle ilgili,\\n\\nI. Akdeniz Bölgesi'nde turunçgil üretimi, don olaylarından korunmak için kıyı kesimlerde yoğunlaşmıştır.\\nII. İç Anadolu'da buğday tarımı, yıllık yağış miktarının 400 mm'nin altında olduğu alanlarda yapılamaz.\\nIII. Karadeniz Bölgesi'nde mısır tarımı, her mevsim yağış alan iklim koşullarında yaygındır.\\n\\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız III",
+        "C) I ve II",
+        "D) I ve III",
+        "E) II ve III"
+      ],
+      "dogru": "D) I ve III",
+      "aciklama": "Doğru cevap D'dir. Turunçgiller dona hassas olduğu için kıyı kesimlerde yetiştirilir (I doğru). II. önerme yanlıştır çünkü İç Anadolu'da 400 mm altındaki alanlarda nadasa dayalı kuru tarım yöntemiyle buğday ekimi yapılabilir. Karadeniz Bölgesi her mevsim yağışlı olduğu için mısır tarımı yaygındır (III doğru).",
+      "harita_il": "mersin",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "tarim-1779575655-H8",
+      "soru": "Yukarıdaki Türkiye haritasında I, II, III ve IV numaralı alanlar gösterilmiştir. Bu alanların hangisinde pamuk tarımı yoğun olarak yapılmaktadır?",
+      "siklar": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV",
+        "E) I ve II"
+      ],
+      "dogru": "A) I",
+      "aciklama": "Doğru cevap A'dır. I numaralı alan Çukurova'yı (Adana, Mersin çevresi) temsil eder. Çukurova, Türkiye'nin en önemli pamuk üretim merkezlerinden biridir. II. alan İç Anadolu'yu (Ankara), III. alan Konya'yı, IV. alan ise Van çevresini göstermektedir; bu alanlarda pamuk tarımı Çukurova kadar yoğun değildir.",
+      "harita_il": "adana",
+      "zorluk": "zor",
+      "gorsel": "tarim/tarim-001.svg",
+      "gorsel_veri": {
+        "I": "adana",
+        "II": "ankara",
+        "III": "konya",
+        "IV": "van"
+      }
+    },
+    {
+      "id": "tarim-1779575655-H9",
+      "soru": "Türkiye'deki deltalar ve tarım ilişkisiyle ilgili,\\n\\nI. Çukurova Deltası'nda pamuk, turunçgil ve mısır tarımı yaygındır.\\nII. Kızılırmak Deltası'nda (Bafra) tütün ve buğday yetiştiriciliği ön plandadır.\\nIII. Yeşilırmak Deltası'nda (Çarşamba) fındık tarımı yoğundur.\\n\\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) I ve III",
+        "E) II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "Doğru cevap C'dir. Çukurova Deltası'nda pamuk, turunçgil ve mısır gibi ürünler yaygındır (I doğru). Kızılırmak Deltası'nda (Bafra) tütün ve buğday yetiştiriciliği önemlidir (II doğru). Yeşilırmak Deltası'nda (Çarşamba) fındık değil, daha çok tütün, mısır ve sebze tarımı yapılır; fındık Doğu Karadeniz kıyılarında yoğundur (III yanlış).",
+      "harita_il": "adana",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
     }
   ]
 }

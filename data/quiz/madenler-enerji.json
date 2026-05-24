@@ -1799,6 +1799,2811 @@
       "zorluk": "zor",
       "gorsel": null,
       "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574470-E1",
+      "soru": "Türkiye'de taşkömürü yataklarının en yaygın olduğu bölge aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Marmara Bölgesi",
+        "B) Karadeniz Bölgesi",
+        "C) Ege Bölgesi",
+        "D) İç Anadolu Bölgesi",
+        "E) Akdeniz Bölgesi"
+      ],
+      "dogru": "B) Karadeniz Bölgesi",
+      "aciklama": "Türkiye'deki taşkömürü yataklarının neredeyse tamamı Karadeniz Bölgesi'nde, özellikle Zonguldak ve çevresinde yer alır. Bu kömür türü, 1. Jeolojik Zaman'da (Paleozoik) oluşmuştur. A şıkkındaki Marmara Bölgesi'nde taşkömürü yoktur; burada linyit yatakları bulunur. C şıkkındaki Ege Bölgesi linyit açısından zengindir. D ve E şıklarındaki İç Anadolu ve Akdeniz bölgelerinde taşkömürü yatakları bulunmaz. Taşkömürü, Türkiye'nin en önemli enerji kaynaklarından biri olup demir-çelik sanayisinde kullanılır.",
+      "harita_il": "zonguldak",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574470-E2",
+      "soru": "Aşağıdaki madenlerden hangisi Türkiye'de enerji üretiminde kullanılan fosil yakıtlar arasında yer alır?",
+      "siklar": [
+        "A) Bor",
+        "B) Krom",
+        "C) Linyit",
+        "D) Bakır",
+        "E) Mermer"
+      ],
+      "dogru": "C) Linyit",
+      "aciklama": "Linyit, Türkiye'de enerji üretiminde yaygın olarak kullanılan bir fosil yakıttır. Termik santrallerde elektrik üretiminde kullanılır. A şıkkındaki bor, enerji üretiminde değil sanayide kullanılır. B şıkkındaki krom, metalürji sanayisinde kullanılan bir maden olup enerji kaynağı değildir. D şıkkındaki bakır, elektrik-elektronik sanayisinde kullanılır. E şıkkındaki mermer ise inşaat sektöründe kullanılan bir kayaçtır. Türkiye, linyit rezervleri bakımından dünyada önemli bir konumda olup bu kaynak daha çok Afyonkarahisar, Kütahya ve Manisa gibi illerde çıkarılır.",
+      "harita_il": "kutahya",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574470-H2-01",
+      "soru": "Türkiye'deki linyit yatakları ve bu yataklara dayalı termik santrallerle ilgili,\n\nI. Afşin-Elbistan termik santrali Kahramanmaraş ilinde yer alır.\nII. Soma'daki linyit yatakları Manisa ilinde bulunur.\nIII. Çanakkale'deki linyit yatakları termik santral ile değerlendirilmektedir.\n\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) I ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "E) I, II ve III",
+      "aciklama": "Doğru cevap E'dir. Afşin-Elbistan termik santrali Kahramanmaraş ilindeki linyit yataklarına dayalıdır. Soma linyit havzası Manisa ilinde yer alır ve buradaki termik santral aktif olarak çalışmaktadır. Çanakkale (Çan) linyit yatakları da termik santral ile elektrik üretiminde kullanılmaktadır. Bu nedenle üç önerme de doğrudur. A, B, C, D şıkları eksik veya yanlış kapsam içerdiğinden elenir.",
+      "harita_il": "kahramanmaras",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574470-H2-02",
+      "soru": "Türkiye'de bor madeni ve rezervleriyle ilgili,\n\nI. Türkiye, dünya bor rezervlerinin yaklaşık %70'ine sahiptir.\nII. Bor madeni Eskişehir, Kütahya ve Balıkesir illerinde çıkarılır.\nIII. Bor, enerji sektöründe en yoğun kullanılan madendir.\n\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "Doğru cevap C'dir. Türkiye dünya bor rezervlerinin %70'inden fazlasına sahiptir (I doğru). Bor, Eskişehir (Kırka), Kütahya (Emet) ve Balıkesir (Bigadiç) illerinde çıkarılır (II doğru). Borun en yaygın kullanım alanı cam, seramik ve deterjan sanayisidir; enerji sektöründe yoğun kullanımı söz konusu değildir (III yanlış). A, B, D, E şıkları bu nedenle yanlıştır.",
+      "harita_il": "eskisehir",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574470-H2-03",
+      "soru": "Türkiye'de jeotermal enerji santralleriyle ilgili,\n\nI. Denizli-Sarayköy'de jeotermal enerji santrali bulunur.\nII. Aydın-Germencik jeotermal sahası elektrik üretiminde kullanılır.\nIII. İzmir ilinin tüm ilçelerinde jeotermal kaynak vardır.\n\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) I ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "Doğru cevap C'dir. Denizli-Sarayköy'de Kızıldere jeotermal santrali vardır (I doğru). Aydın-Germencik sahasından jeotermal akışkanla elektrik üretimi yapılmaktadır (II doğru). İzmir'de jeotermal kaynaklar bulunsa da her ilçede mevcut değildir (III yanlış). A, B, D, E şıkları yanlış değerlendirme içerir.",
+      "harita_il": "denizli",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574470-H2-04",
+      "soru": "Türkiye'de taşkömürü ve Zonguldak havzasıyla ilgili,\n\nI. Taşkömürü, Zonguldak ve çevresinde çıkarılır.\nII. Zonguldak'ta taşkömürüne dayalı Çatalağzı termik santrali bulunur.\nIII. Taşkömürü, linyite göre daha düşük kalorilidir.\n\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "Doğru cevap C'dir. Taşkömürü yatakları Zonguldak, Bartın ve Kastamonu'da bulunur (I doğru). Çatalağzı termik santrali Zonguldak'ta taşkömürü ile çalışır (II doğru). Taşkömürü, linyite göre daha yüksek kalorili olup (III yanlış) ısı değeri daha yüksektir. Bu nedenle III yanlış olduğundan A, B, D, E şıkları geçersizdir.",
+      "harita_il": "zonguldak",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574470-H2-05",
+      "soru": "Zonguldak limanından yola çıkan bir yük gemisi, Karadeniz kıyısını takip ederek Trabzon limanına gitmektedir. Bu gemi yolculuğu sırasında aşağıdaki akarsu deltalarından hangisiyle karşılaşması beklenmez?",
+      "siklar": [
+        "A) Kızılırmak deltası",
+        "B) Yeşilırmak deltası",
+        "C) Çoruh Nehri deltası",
+        "D) Sakarya Nehri deltası",
+        "E) Fırtına Deresi deltası"
+      ],
+      "dogru": "D) Sakarya Nehri deltası",
+      "aciklama": "Doğru cevap D'dir. Zonguldak'tan doğuya Trabzon'a giden bir gemi sırasıyla Batı Karadeniz'den Orta ve Doğu Karadeniz'e geçer. Kızılırmak (Samsun), Yeşilırmak (Samsun), Çoruh (Artvin) ve Fırtına Deresi (Rize) deltaları bu güzergâh üzerindedir. Sakarya Nehri'nin döküldüğü alan (Karasu) ise Zonguldak'ın batısında kaldığından gemi rotasında karşılaşılmaz. A, B, C, E şıkları güzergâh üzerinde yer alır.",
+      "harita_il": "zonguldak",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574470-H2-06",
+      "soru": "Türkiye'deki demir-çelik sanayisiyle ilgili,\n\nI. Demir-çelik fabrikaları hammaddeyi genellikle yakın bölgelerden temin eder.\nII. İskenderun demir-çelik fabrikası Adana ilinde yer alır.\nIII. Karabük demir-çelik fabrikası, Zonguldak taşkömürünü kullanır.\n\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve III",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve III",
+      "aciklama": "Doğru cevap C'dir. Demir-çelik tesisleri (Karabük, İskenderun) hammaddeyi olabildiğince yakın bölgelerden (Divriği, Hekimhan) temin eder (I doğru). İskenderun demir-çelik fabrikası Hatay ilinde olup (II yanlış) Adana'da değildir. Karabük fabrikası, Zonguldak havzasından taşkömürü alarak enerji ihtiyacını karşılamaktadır (III doğru). A, B, D, E şıkları yanlış bilgi içerir.",
+      "harita_il": "karabuk",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574470-H2-07",
+      "soru": "Yukarıdaki Türkiye haritasında I, II, III, IV ve V numaralı alanlar gösterilmiştir. Bu alanlardan hangileri linyit yatakları açısından zengindir?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) I ve II",
+        "C) I, II ve III",
+        "D) II, III ve IV",
+        "E) III, IV ve V"
+      ],
+      "dogru": "C) I, II ve III",
+      "aciklama": "Doğru cevap C'dir. Haritada I numaralı alan Kahramanmaraş (Afşin-Elbistan linyit havzası), II numaralı alan Manisa (Soma linyit havzası), III numaralı alan Kütahya (Tavşanlı linyit havzası) linyit yatakları bakımından zengindir. IV numaralı alan Zonguldak'ta taşkömürü, V numaralı alan Artvin'de bakır yatakları bulunur. A, B, D, E şıkları bu nedenle yanlış kapsam içerir.",
+      "harita_il": "kahramanmaras",
+      "zorluk": "zor",
+      "gorsel": "madenler-enerji/madenler-enerji-001.svg",
+      "gorsel_veri": {
+        "I": "kahramanmaras",
+        "II": "manisa",
+        "III": "kutahya",
+        "IV": "zonguldak",
+        "V": "artvin"
+      }
+    },
+    {
+      "id": "madenler-enerji-1779574470-H2-08",
+      "soru": "Aşağıdaki liman - maden/enerji eşleşmelerinden hangisi yanlıştır?",
+      "siklar": [
+        "A) Zonguldak - Taşkömürü",
+        "B) Samsun - Bakır",
+        "C) Aliağa (İzmir) - Petrol rafinerisi",
+        "D) İskenderun (Hatay) - Demir-çelik",
+        "E) Batman - Petrol"
+      ],
+      "dogru": "B) Samsun - Bakır",
+      "aciklama": "Doğru cevap B'dir. Zonguldak'ta taşkömürü çıkarılır ve limanından taşınır (A doğru). Aliağa'da TÜPRAŞ rafinerisi bulunur (C doğru). İskenderun'da demir-çelik fabrikası vardır (D doğru). Batman'da petrol çıkarılır ve rafineri bulunur (E doğru). Samsun'da ise bakır madeni yoktur; bakır Artvin (Murgul) ve Kastamonu (Küre) gibi illerde çıkarılır. Bu nedenle B yanlış eşleşmedir. A, C, D, E doğrudur.",
+      "harita_il": "samsun",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574538-E1",
+      "soru": "Türkiye'de termik santrallerde yakıt olarak kullanılan ve en çok Zonguldak çevresinde çıkarılan maden aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Linyit",
+        "B) Taş kömürü",
+        "C) Bor",
+        "D) Demir",
+        "E) Bakır"
+      ],
+      "dogru": "B) Taş kömürü",
+      "aciklama": "B şıkkı doğrudur çünkü taş kömürü, Türkiye'de en çok Zonguldak ve çevresinde çıkarılan ve termik santrallerde yakıt olarak kullanılan önemli bir enerji kaynağıdır. A şıkkı yanlıştır çünkü linyit, taş kömürüne göre daha düşük kalorili olup Afyonkarahisar, Kütahya gibi illerde çıkarılır. C şıkkı yanlıştır çünkü bor, enerji üretiminde değil sanayide kullanılan bir mineraldir. D şıkkı yanlıştır çünkü demir, çelik üretiminde kullanılır. E şıkkı yanlıştır çünkü bakır, elektrik ve elektronik sanayisinde kullanılır.",
+      "harita_il": "zonguldak",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574538-E2",
+      "soru": "Türkiye'de hidroelektrik enerji üretiminde kullanılan akarsuların debisinin en yüksek olduğu bölge aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) İç Anadolu Bölgesi",
+        "B) Akdeniz Bölgesi",
+        "C) Karadeniz Bölgesi",
+        "D) Ege Bölgesi",
+        "E) Marmara Bölgesi"
+      ],
+      "dogru": "C) Karadeniz Bölgesi",
+      "aciklama": "C şıkkı doğrudur çünkü Karadeniz Bölgesi, Türkiye'nin en fazla yağış alan bölgesi olup akarsularının debisi yüksektir ve bu sayede hidroelektrik enerji üretiminde önemli bir potansiyele sahiptir. A şıkkı yanlıştır çünkü İç Anadolu Bölgesi kurak bir iklime sahip olduğundan akarsu debileri düşüktür. B şıkkı yanlıştır çünkü Akdeniz Bölgesi'nde akarsular yaz aylarında kurumaya yüz tutar. D şıkkı yanlıştır çünkü Ege Bölgesi'nde akarsuların debisi Karadeniz kadar yüksek değildir. E şıkkı yanlıştır çünkü Marmara Bölgesi'nde akarsu potansiyeli sınırlıdır.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574538-H2-001",
+      "soru": "Türkiye'de taşkömürü yataklarının en yoğun olduğu il aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Zonguldak",
+        "B) Ankara",
+        "C) İstanbul",
+        "D) Bursa",
+        "E) Samsun"
+      ],
+      "dogru": "A) Zonguldak",
+      "aciklama": "Doğru cevap Zonguldak'tır. Taşkömürü yatakları Türkiye'de en yoğun olarak Zonguldak ve çevresinde (Bartın, Kastamonu) bulunur. Bu havza, Paleozoik yaşlı karbonlu formasyonlardan oluşur ve ülkemizdeki taşkömürü rezervinin tamamına yakınını barındırır. A, B, D ve E şıklarında verilen illerde taşkömürü yatağı bulunmamaktadır. Ankara, İstanbul, Bursa ve Samsun'da linyit yatakları olmakla birlikte taşkömürü rezervi yoktur. Zonguldak dışındaki iller, taşkömürü üretimi bakımından önemli değildir. Bu nedenle doğru seçenek Zonguldak'tır.",
+      "harita_il": "zonguldak",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574538-H2-002",
+      "soru": "Aşağıdaki maden-çıkarıldığı il eşleştirmelerinden hangisi yanlıştır?",
+      "siklar": [
+        "A) Linyit - Manisa",
+        "B) Bor - Kütahya",
+        "C) Taşkömürü - Zonguldak",
+        "D) Krom - Elazığ",
+        "E) Bakır - Antalya"
+      ],
+      "dogru": "E) Bakır - Antalya",
+      "aciklama": "Doğru cevap E şıkkıdır. Türkiye'de bakır yatakları başlıca Artvin (Murgul), Kastamonu (Küre), Elazığ (Maden) ve Rize (Çayeli) illerinde işletilir. Antalya ilinde önemli bir bakır yatağı bulunmamaktadır; bu bölge daha çok krom, demir ve boksit yataklarıyla bilinir. A şıkkındaki linyit - Manisa eşlemesi doğrudur (Soma havzası). B'de bor - Kütahya doğrudur (Emet), C'de taşkömürü - Zonguldak doğrudur. D'de krom - Elazığ (Guleman) doğrudur. Bu nedenle yanlış eşleşme E'dir.",
+      "harita_il": "antalya",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574538-H2-003",
+      "soru": "Türkiye'de linyit yataklarının yoğun olduğu bölgelerde aşağıdaki enerji santrali türlerinden hangisi daha yaygındır?",
+      "siklar": [
+        "A) Nükleer santraller",
+        "B) Rüzgar santralleri",
+        "C) Termik santraller",
+        "D) Jeotermal santraller",
+        "E) Güneş santralleri"
+      ],
+      "dogru": "C) Termik santraller",
+      "aciklama": "Doğru cevap C'dir. Linyit yatakları termik santrallerin yakıt kaynağını oluşturur. Türkiye'de Manisa (Soma), Kütahya (Tavşanlı), Muğla (Yatağan) ve Kahramanmaraş (Elbistan) gibi linyit havzalarına yakın termik santraller kurulmuştur. Linyitin düşük kalorili olması nedeniyle termik santraller genellikle maden sahalarının hemen yanında inşa edilir. Nükleer santral (A) henüz faaliyette değildir; rüzgar (B) ve güneş (E) santralleri linyit bölgeleriyle doğrudan ilişkili değildir; jeotermal (D) ise daha çok batıdaki fay hatlarına bağlıdır. Bu nedenle en doğru eşleşme termik santrallerdir.",
+      "harita_il": "manisa",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574538-H2-004",
+      "soru": "Yukarıdaki Türkiye haritasında I, II, III, IV ve V numaralı alanlar gösterilmiştir. Bu alanların hangisinde zengin linyit yatakları bulunmaktadır?",
+      "siklar": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV",
+        "E) V"
+      ],
+      "dogru": "B) II",
+      "aciklama": "Doğru cevap B'dir. Haritada II numaralı alan Manisa ilini kapsamakta olup, bu bölge Soma linyit havzasıdır. Türkiye'nin en önemli linyit rezervleri Batı Anadolu'da Manisa, Kütahya, Muğla ve Kahramanmaraş'ta yoğunlaşır. I (Kütahya) ve III (Konya) bölgelerinde de linyit bulunmakla birlikte, soruda “zengin linyit yatakları” ifadesi en çok Manisa'yı işaret eder. IV (Antalya) ve V (İstanbul) alanlarında linyit yatakları yok denecek kadar azdır. Bu nedenle doğru seçenek II'dir.",
+      "harita_il": "manisa",
+      "zorluk": "orta",
+      "gorsel": "madenler-enerji/madenler-enerji-004.svg",
+      "gorsel_veri": {
+        "I": "kutahya",
+        "II": "manisa",
+        "III": "konya",
+        "IV": "antalya",
+        "V": "istanbul"
+      }
+    },
+    {
+      "id": "madenler-enerji-1779574538-H2-005",
+      "soru": "İstanbul'dan yola çıkan bir gemi, Karadeniz kıyı şeridini takip ederek Samsun'a gitmektedir. Bu güzergâhta aşağıdaki illerden hangisinin kıyısına uğramaz?",
+      "siklar": [
+        "A) Zonguldak",
+        "B) Bartın",
+        "C) Sinop",
+        "D) Samsun",
+        "E) Ordu"
+      ],
+      "dogru": "E) Ordu",
+      "aciklama": "Doğru cevap E'dir. İstanbul'dan Samsun'a giden gemi, Karadeniz sahil yolunu izleyerek sırasıyla Zonguldak, Bartın, Sinop ve nihayet Samsun kıyılarına ulaşır. Ordu, Samsun'un doğusunda kaldığından bu güzergâh üzerinde değildir. Samsun'a varan gemi Ordu'ya uğramaz. Diğer şıklardaki illerin tamamı Karadeniz kıyısında ve İstanbul-Samsun rotası üzerindedir. Bu soru, kıyı şeridi boyunca illerin sıralanışını bilmeyi gerektirir. Bu nedenle doğru seçenek Ordu'dur.",
+      "harita_il": "samsun",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574538-H2-006",
+      "soru": "Türkiye'deki enerji kaynaklarıyla ilgili aşağıdaki ifadelerden hangileri doğrudur?\n\nI. Linyit en çok Manisa ve Kütahya'da çıkarılır.\nII. Taşkömürü yatakları Zonguldak, Bartın ve Kastamonu'da bulunur.\nIII. Petrol rafinerileri yalnızca İzmir, Batman ve Kırıkkale'de faaliyet göstermektedir.",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "Doğru cevap C'dir. I. önerme doğrudur çünkü linyit rezervlerinin önemli bir kısmı Manisa (Soma) ve Kütahya (Tavşanlı) havzalarında bulunur. II. önerme doğrudur; taşkömürü yatakları Zonguldak, Bartın ve Kastamonu illerini kapsayan havzada yer alır. III. önerme yanlıştır çünkü Türkiye'de TÜPRAŞ'a ait rafineriler İzmir, Batman, Kırıkkale, İzmit ve Mersin'de olmak üzere beş ilde faaliyet göstermektedir. \"Yalnızca\" ifadesi bu nedenle doğru değildir. Dolayısıyla doğru olan sadece I ve II'dir.",
+      "harita_il": null,
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574538-H2-007",
+      "soru": "Yukarıdaki Türkiye haritasında I, II, III, IV ve V numaralı alanlar gösterilmiştir. Bu alanların hangisinde jeotermal enerji santrali yaygındır?",
+      "siklar": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV",
+        "E) V"
+      ],
+      "dogru": "A) I",
+      "aciklama": "Doğru cevap A'dır. Jeotermal enerji santralleri Türkiye'de en fazla Batı Anadolu'daki fay hatları üzerinde yoğunlaşmıştır. I numaralı alan Denizli'yi (Kızıldere sahası) kapsamakta olup, bu bölge jeotermal enerji üretiminin en yoğun olduğu yerdir. II (Kayseri), III (Konya), IV (Sivas) ve V (Erzurum) bölgelerinde jeotermal kaynaklar sınırlıdır veya henüz işletmeye açılmamıştır. Bu nedenle haritada işaretli alanlar arasında jeotermal enerji santralinin yaygın olduğu tek bölge I numaralı alandır.",
+      "harita_il": "denizli",
+      "zorluk": "zor",
+      "gorsel": "madenler-enerji/madenler-enerji-007.svg",
+      "gorsel_veri": {
+        "I": "denizli",
+        "II": "kayseri",
+        "III": "konya",
+        "IV": "sivas",
+        "V": "erzurum"
+      }
+    },
+    {
+      "id": "madenler-enerji-1779574538-H2-008",
+      "soru": "Mersin'den yola çıkan bir gemi, Akdeniz ve Ege kıyılarını takip ederek Çanakkale Boğazı'na gitmektedir. Bu yolculuk sırasında aşağıdaki liman şehirlerinden hangisine uğramaz?",
+      "siklar": [
+        "A) Antalya",
+        "B) Fethiye",
+        "C) İzmir",
+        "D) Çanakkale",
+        "E) Samsun"
+      ],
+      "dogru": "E) Samsun",
+      "aciklama": "Doğru cevap E'dir. Mersin'den Çanakkale'ye giden gemi, Akdeniz kıyısını batıya doğru izleyerek Antalya, Fethiye gibi limanlara uğrar, ardından Ege Denizi'ne geçerek İzmir ve Çanakkale'ye ulaşır. Samsun ise Karadeniz kıyısında olduğu için bu güzergâhın dışındadır. Diğer tüm şıklar Akdeniz ve Ege kıyılarında yer aldığından gemi tarafından görülebilir. Bu soru, deniz ticaret yolları ve kıyı şehirlerinin konum bilgisini ölçmektedir. Samsun dışındaki seçenekler rotanın üzerindedir.",
+      "harita_il": "mersin",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574610-E1",
+      "soru": "Türkiye'de demir cevheri yataklarının en yaygın olduğu bölge aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Marmara Bölgesi",
+        "B) İç Anadolu Bölgesi",
+        "C) Doğu Anadolu Bölgesi",
+        "D) Karadeniz Bölgesi",
+        "E) Akdeniz Bölgesi"
+      ],
+      "dogru": "D) Karadeniz Bölgesi",
+      "aciklama": "Doğru cevap D şıkkıdır. Türkiye'de demir cevheri yatakları en yoğun olarak Karadeniz Bölgesi'nde bulunur. Divriği (Sivas), Hekimhan (Malatya) ve Hasançelebi (Malatya) gibi önemli yataklar bu bölgede yer alır. A şıkkı yanlıştır çünkü Marmara Bölgesi'nde demir yatakları sınırlıdır. B şıkkı yanlıştır çünkü İç Anadolu Bölgesi'nde demir yatakları bulunmakla birlikte en yaygın olduğu bölge değildir. C şıkkı yanlıştır çünkü Doğu Anadolu Bölgesi'nde demir yatakları vardır ancak Karadeniz kadar yaygın değildir. E şıkkı yanlıştır çünkü Akdeniz Bölgesi demir cevheri açısından zengin değildir. Türkiye'de demir cevheri üretiminin büyük kısmı Karadeniz Bölgesi'ndeki yataklardan sağlanır.",
+      "harita_il": "sivas",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574610-E2",
+      "soru": "Türkiye'de termik santrallerde elektrik üretiminde en çok kullanılan enerji kaynağı aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Doğal gaz",
+        "B) Taş kömürü",
+        "C) Linyit",
+        "D) Petrol",
+        "E) Jeotermal"
+      ],
+      "dogru": "C) Linyit",
+      "aciklama": "Doğru cevap C şıkkıdır. Türkiye'de termik santrallerde elektrik üretiminde en çok kullanılan enerji kaynağı linyittir. Afyon, Kütahya, Manisa, Kahramanmaraş, Çanakkale ve Sivas gibi illerdeki linyit yatakları bu amaçla işletilmektedir. A şıkkı yanlıştır çünkü doğal gaz termik santrallerde kullanılmakla birlikte linyit kadar yaygın değildir. B şıkkı yanlıştır çünkü taş kömürü Zonguldak'ta çıkarılsa da termik santrallerdeki kullanım oranı linyitten düşüktür. D şıkkı yanlıştır çünkü petrol termik santrallerde sınırlı kullanılır. E şıkkı yanlıştır çünkü jeotermal enerji elektrik üretiminde kullanılsa da termik santrallerin ana yakıtı değildir. Linyit, Türkiye'deki termik santrallerin temel enerji kaynağıdır.",
+      "harita_il": "kutahya",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574610-H2-001",
+      "soru": "Türkiye'de taşkömürü yatakları en çok aşağıdaki illerden hangisinde bulunur?",
+      "siklar": [
+        "A) Konya",
+        "B) Manisa",
+        "C) Zonguldak",
+        "D) Batman",
+        "E) Sivas"
+      ],
+      "dogru": "C) Zonguldak",
+      "aciklama": "C şıkkı doğrudur çünkü Türkiye'deki taşkömürü yatakları neredeyse tamamen Zonguldak havzasında toplanmıştır. A şıkkı yanlıştır çünkü Konya'da linyit yatakları bulunur. B şıkkı yanlıştır zira Manisa linyit ve jeotermal kaynaklarıyla öne çıkar. D şıkkı yanlıştır zira Batman petrol yataklarıyla bilinir. E şıkkı yanlıştır çünkü Sivas'ta demir yatakları yoğundur. Taşkömürü 1. Jeolojik Zaman'da oluşmuş, yüksek kalorili bir kömür türüdür.",
+      "harita_il": "zonguldak",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574610-H2-002",
+      "soru": "Türkiye'de jeotermal enerji santrali bakımından en zengin il aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Denizli",
+        "B) Konya",
+        "C) Erzurum",
+        "D) Adana",
+        "E) İstanbul"
+      ],
+      "dogru": "A) Denizli",
+      "aciklama": "A şıkkı doğrudur çünkü Denizli, Kızıldere jeotermal sahası ile Türkiye'nin ilk ve en büyük jeotermal enerji santraline ev sahipliği yapar. B şıkkı yanlıştır zira Konya'da önemli jeotermal saha yoktur. C şıkkı yanlıştır çünkü Erzurum soğuk iklimiyle jeotermal potansiyeli düşüktür. D şıkkı yanlıştır zira Adana daha çok hidroelektrik ve termik santrallerle bilinir. E şıkkı yanlıştır çünkü İstanbul'da jeotermal kaynak bulunmaz. Jeotermal enerji, Ege Bölgesi'nde yoğunlaşmıştır.",
+      "harita_il": "denizli",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574610-H2-003",
+      "soru": "Bir gemi Samsun limanından yola çıkarak Karadeniz sahil şeridini takip edip Zonguldak limanına gitmektedir. Bu gemi yolculuğu sırasında aşağıdaki enerji tesislerinden hangisine rastlaması beklenir?",
+      "siklar": [
+        "A) Samsun Termik Santrali",
+        "B) Çatalağzı Termik Santrali",
+        "C) Yatağan Termik Santrali",
+        "D) Afşin-Elbistan Termik Santrali",
+        "E) Kangal Termik Santrali"
+      ],
+      "dogru": "B) Çatalağzı Termik Santrali",
+      "aciklama": "B şıkkı doğrudur çünkü Çatalağzı Termik Santrali, Zonguldak ilinde bulunur ve gemi Zonguldak'a vardığında bu santrali görür. A şıkkı yanlıştır zira Samsun Termik Santrali başlangıç noktasındadır, yolculuk sırasında değil. C şıkkı yanlıştır çünkü Yatağan Termik Santrali Muğla'dadır, Karadeniz'de değildir. D şıkkı yanlıştır çünkü Afşin-Elbistan Kahramanmaraş'tadır. E şıkkı yanlıştır çünkü Kangal Termik Santrali Sivas'tadır. Gemi rotası boyunca Karadeniz kıyısındaki termik santraller görülür.",
+      "harita_il": "samsun",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574610-H2-004",
+      "soru": "Türkiye'deki linyit yataklarıyla ilgili olarak,\nI. En büyük linyit yatağı Afşin-Elbistan havzasıdır.\nII. Linyit, taşkömürüne göre daha düşük kalorilidir.\nIII. Linyit genellikle termik santrallerde elektrik üretiminde kullanılır.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "E) I, II ve III",
+      "aciklama": "E şıkkı doğrudur çünkü üç yargı da doğrudur. I. yargı doğrudur: Afşin-Elbistan havzası Türkiye'nin en büyük linyit rezervine sahiptir. II. yargı doğrudur: Linyit düşük kalorili, taşkömürü ise yüksek kalorilidir. III. yargı doğrudur: Linyit düşük kalorili olduğu için çoğunlukla termik santrallerde yakıt olarak kullanılır. A şıkkı yanlıştır çünkü yalnız I dersek II ve III de doğrudur. B, C, D şıkları da eksik kalmaktadır. Linyit 3. Jeolojik Zaman'da oluşmuştur.",
+      "harita_il": "kahramanmaras",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574610-H2-005",
+      "soru": "Türkiye'deki ilk jeotermal enerji santrali hangi ilde kurulmuştur?",
+      "siklar": [
+        "A) Aydın",
+        "B) Denizli",
+        "C) Manisa",
+        "D) İzmir",
+        "E) Çanakkale"
+      ],
+      "dogru": "B) Denizli",
+      "aciklama": "B şıkkı doğrudur: Türkiye'nin ilk jeotermal enerji santrali 1984 yılında Denizli'nin Sarayköy ilçesindeki Kızıldere sahasında kurulmuştur. A şıkkı yanlıştır çünkü Aydın'da jeotermal santraller daha sonra kurulmuştur. C şıkkı yanlıştır zira Manisa'da jeotermal vardır ama ilk değildir. D şıkkı yanlıştır çünkü İzmir'de jeotermal kaynak sınırlıdır. E şıkkı yanlıştır çünkü Çanakkale'de jeotermal saha bulunur ancak ilk santral değildir. Jeotermal enerji, Ege Bölgesi'nde yoğunlaşmış bir yenilenebilir enerji kaynağıdır.",
+      "harita_il": "denizli",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574610-H2-006",
+      "soru": "Türkiye'deki hidroelektrik santrallerle ilgili olarak,\nI. En fazla HES Doğu Anadolu Bölgesi'nde yer alır.\nII. Keban Barajı hem enerji üretimi hem de sulama amacıyla kullanılır.\nIII. Hidroelektrik santraller yenilenemez enerji kaynağıdır.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "C şıkkı doğrudur çünkü I ve II doğru, III yanlıştır. I. yargı doğrudur: Türkiye'deki hidroelektrik potansiyelin büyük kısmı Fırat ve Dicle havzalarına bağlı olarak Doğu Anadolu Bölgesi'ndedir. II. yargı doğrudur: Keban Barajı elektrik üretiminin yanı sıra sulama ve taşkın kontrolü sağlar. III. yargı yanlıştır çünkü hidroelektrik santraller yenilenebilir enerji kaynağıdır. A ve B şıkları eksik, D ve E şıkları III'ün yanlış olması nedeniyle hatalıdır.",
+      "harita_il": "elazig",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574610-H2-007",
+      "soru": "Yukarıdaki Türkiye haritasında I, II, III, IV ve V numaralı alanlar gösterilmiştir.\nBu alanların hangisinde hem termik santral hem de jeotermal enerji santrali bulunur?",
+      "siklar": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV",
+        "E) V"
+      ],
+      "dogru": "A) I",
+      "aciklama": "A şıkkı doğrudur çünkü I numaralı alan Manisa ilini temsil eder; Manisa'da Soma Termik Santrali (kömür) ve Alaşehir Jeotermal Santrali bulunur. B şıkkı yanlıştır: II (Konya) termik santral (Seyitömer? aslında Konya'da termik santral yoktur, linyit var ama santral Kütahya'da). C şıkkı yanlıştır: III (Zonguldak) yalnızca taşkömürü termik santralleri vardır, jeotermal yoktur. D şıkkı yanlıştır: IV (Mersin) termik santral (Mersin Termik) vardır ama jeotermal yoktur. E şıkkı yanlıştır: V (Batman) petrol ve termik santral vardır, jeotermal yoktur. Bu soru, iki farklı enerji türünün aynı ilde bulunup bulunmadığını sorgulamaktadır.",
+      "harita_il": "manisa",
+      "zorluk": "zor",
+      "gorsel": "madenler-enerji/madenler-001.svg",
+      "gorsel_veri": {
+        "I": "manisa",
+        "II": "konya",
+        "III": "zonguldak",
+        "IV": "mersin",
+        "V": "batman"
+      }
+    },
+    {
+      "id": "madenler-enerji-1779574610-H2-008",
+      "soru": "Bir gemi İskenderun limanından yola çıkarak Akdeniz kıyısını takip edip Mersin limanına gitmektedir. Bu gemi yolculuğu sırasında aşağıdaki ekonomik faaliyetlerden hangisiyle karşılaşması beklenmez?",
+      "siklar": [
+        "A) Petrol rafinerisi",
+        "B) Taşkömürü limanı",
+        "C) Demir-çelik fabrikası",
+        "D) Termik santral",
+        "E) Doğalgaz terminali"
+      ],
+      "dogru": "B) Taşkömürü limanı",
+      "aciklama": "B şıkkı doğrudur çünkü taşkömürü limanları yalnızca Karadeniz kıyısında (Zonguldak, Ereğli) bulunur; Akdeniz kıyısında taşkömürü limanı yoktur. A şıkkı yanlıştır: Mersin'de Ataş Rafinerisi ve İskenderun'da petrol terminali vardır. C şıkkı yanlıştır: İskenderun'da demir-çelik fabrikası (İsdemir) bulunur. D şıkkı yanlıştır: Mersin'de termik santral vardır. E şıkkı yanlıştır: Mersin'de doğalgaz terminali (Mersin LNG) bulunur. Bu nedenle Akdeniz rotasında taşkömürü limanı görülmez.",
+      "harita_il": "mersin",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574673-E1",
+      "soru": "Türkiye'de taş kömürü yataklarının en yaygın olduğu bölge aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Marmara Bölgesi",
+        "B) Ege Bölgesi",
+        "C) Karadeniz Bölgesi",
+        "D) İç Anadolu Bölgesi",
+        "E) Doğu Anadolu Bölgesi"
+      ],
+      "dogru": "C) Karadeniz Bölgesi",
+      "aciklama": "C şıkkı doğrudur çünkü Türkiye'deki taş kömürü yatakları, büyük oranda Zonguldak ve çevresinde yoğunlaşmış olup Karadeniz Bölgesi sınırları içinde yer alır. A şıkkı yanlıştır zira Marmara Bölgesi'nde taş kömürü yatağı bulunmaz. B şıkkı yanlıştır zira Ege Bölgesi'nde linyit yatakları yaygındır. D şıkkı yanlıştır zira İç Anadolu Bölgesi'nde taş kömürü rezervi yoktur. E şıkkı yanlıştır zira Doğu Anadolu Bölgesi'nde taş kömürü yatakları bulunmamaktadır. Taş kömürü, birinci jeolojik zamanda oluşmuş bir enerji kaynağıdır.",
+      "harita_il": "zonguldak",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574673-E2",
+      "soru": "Aşağıdakilerden hangisi Türkiye'de hidroelektrik enerji üretiminde kullanılan akarsulardan biri değildir?",
+      "siklar": [
+        "A) Fırat Nehri",
+        "B) Dicle Nehri",
+        "C) Kızılırmak",
+        "D) Seyhan Nehri",
+        "E) Meriç Nehri"
+      ],
+      "dogru": "E) Meriç Nehri",
+      "aciklama": "E şıkkı doğrudur çünkü Meriç Nehri, Türkiye'nin enerji üretimi amacıyla baraj inşa edilen akarsuları arasında yer almaz; sınır oluşturan bir akarsudur ve hidroelektrik potansiyeli düşüktür. A şıkkı yanlıştır zira Fırat Nehri üzerinde Keban, Atatürk ve Karakaya barajları bulunur. B şıkkı yanlıştır zira Dicle Nehri üzerinde Ilısu ve Kralkızı barajları yer alır. C şıkkı yanlıştır zira Kızılırmak üzerinde Hirfanlı, Kesikköprü ve Derbent barajları vardır. D şıkkı yanlıştır zira Seyhan Nehri üzerinde Seyhan Barajı bulunur.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574673-H2-1",
+      "soru": "Zonguldak limanından aldığı taşkömürünü Ereğli (Karabük) limanına götürmek üzere yola çıkan bir gemi, Karadeniz kıyısını takip ederken aşağıdaki akarsulardan hangisinin oluşturduğu deltayı görmez?",
+      "siklar": [
+        "A) Filyos Çayı",
+        "B) Bartın Çayı",
+        "C) Kızılırmak",
+        "D) Devrek Çayı",
+        "E) Gülüç Çayı"
+      ],
+      "dogru": "C) Kızılırmak",
+      "aciklama": "Doğru cevap C şıkkıdır. Zonguldak-Ereğli arası kıyı şeridinde Filyos, Bartın, Devrek ve Gülüç çaylarının deltaları bulunurken, Kızılırmak deltası Samsun il sınırları içinde yer alır ve bu güzergâhın doğusunda kaldığından gemi tarafından görülmez. A şıkkı Filyos Çayı Zonguldak sınırları içindedir; B şıkkı Bartın Çayı Bartın ilinde; D şıkkı Devrek Çayı Zonguldak'ta; E şıkkı Gülüç Çayı ise Karabük Ereğli kıyısında yer aldığından gemi bu deltaları sırasıyla geçer. Kızılırmak ise Samsun'da denize döküldüğü için rotanın dışındadır.",
+      "harita_il": "zonguldak",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574673-H2-2",
+      "soru": "Aşağıdaki illerden hangisi Türkiye'nin önemli linyit yataklarının bulunduğu alanlar arasında yer almaz?",
+      "siklar": [
+        "A) Manisa",
+        "B) Kütahya",
+        "C) Afyonkarahisar",
+        "D) Zonguldak",
+        "E) Kahramanmaraş"
+      ],
+      "dogru": "D) Zonguldak",
+      "aciklama": "Zonguldak'ta taşkömürü yatakları bulunur; linyit yatakları ise başta Kahramanmaraş (Elbistan), Manisa (Soma), Kütahya (Tunçbilek) ve Afyonkarahisar (Dinar) olmak üzere Ege, Akdeniz ve İç Anadolu bölgelerinde yoğunlaşır. Bu nedenle Zonguldak linyit üretimi açısından listede yer almaz. A, B, C ve E şıklarındaki iller linyit rezervleriyle öne çıkar.",
+      "harita_il": "zonguldak",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574673-H2-3",
+      "soru": "Türkiye'de kurulu güç bakımından en fazla hidroelektrik santraline (HES) sahip bölge aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Ege Bölgesi",
+        "B) Karadeniz Bölgesi",
+        "C) Doğu Anadolu Bölgesi",
+        "D) Akdeniz Bölgesi",
+        "E) İç Anadolu Bölgesi"
+      ],
+      "dogru": "C) Doğu Anadolu Bölgesi",
+      "aciklama": "Doğru cevap C şıkkıdır. Doğu Anadolu Bölgesi, Fırat ve Dicle nehir sistemleri sayesinde en yüksek hidroelektrik potansiyele sahiptir ve büyük HES'ler (Keban, Karakaya, Atatürk) bu bölgede bulunur. Karadeniz Bölgesi (B) de önemli HES'lere sahip olmakla birlikte toplam kurulu güçte Doğu Anadolu'nun gerisindedir. Ege (A), Akdeniz (D) ve İç Anadolu (E) bölgelerinde HES potansiyeli daha sınırlıdır.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574673-H2-4",
+      "soru": "İzmir limanından yola çıkan bir gemi, Ege kıyılarını takip ederek Çanakkale Boğazı'na ulaşmıştır. Yolculuk boyunca aşağıdaki delta ovalarından hangisi bu güzergâh üzerinde yer almaz?",
+      "siklar": [
+        "A) Bakırçay Deltası",
+        "B) Gediz Deltası",
+        "C) Küçük Menderes Deltası",
+        "D) Büyük Menderes Deltası",
+        "E) Meriç Deltası"
+      ],
+      "dogru": "E) Meriç Deltası",
+      "aciklama": "Meriç Deltası Edirne ilinde, Ege denizinin kuzey kıyısında yer alır ve İzmir-Çanakkale rotasının kuzeyinde kalır; gemi bu rotada Meriç Deltası'nı görmez. Bakırçay Deltası (Çandarlı Körfezi), Gediz Deltası (İzmir), Küçük Menderes Deltası (Selçuk) ve Büyük Menderes Deltası (Aydın) Ege kıyısında sıralanır ve gemi yolculuğu sırasında bu deltalara rastlanır.",
+      "harita_il": "izmir",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574673-H2-5",
+      "soru": "Türkiye'nin kuzeyindeki bir limandan aldığı maden cevherini güneydeki bir limana götürmek isteyen bir yük gemisi, İstanbul ve Çanakkale boğazlarından geçmek zorundadır. Buna göre kalkış ve varış limanı aşağıdakilerden hangisi olabilir?",
+      "siklar": [
+        "A) Samsun – Mersin",
+        "B) Zonguldak – İskenderun",
+        "C) Trabzon – Antalya",
+        "D) Giresun – Alanya",
+        "E) Sinop – Taşucu"
+      ],
+      "dogru": "B) Zonguldak – İskenderun",
+      "aciklama": "Zonguldak (taşkömürü limanı) Karadeniz'de, İskenderun (demir-çelik limanı) Akdeniz'dedir. Bu iki liman arasında sefer yapan bir gemi, İstanbul ve Çanakkale boğazlarından geçmek zorundadır. Samsun-Mersin (A) ve Giresun-Antalya (D) de boğaz geçişi gerektirir ancak Zonguldak-İskenderun daha tipik bir cevher taşıma hattıdır. Trabzon-Antalya (C) ve Sinop-Taşucu (E) da olasıdır ancak soruda en uygun eşleşme taşkömürü ve demir-çelik bağlantısıdır.",
+      "harita_il": "zonguldak",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574673-H2-6",
+      "soru": "Türkiye'deki madenler ve enerji kaynakları ile ilgili,\nI. Taşkömürü yatakları Karadeniz Bölgesi'nde yoğunlaşmıştır.\nII. Linyit yataklarının önemli bir kısmı İç Anadolu Bölgesi'nde bulunur.\nIII. Ham petrol üretimi en fazla Güneydoğu Anadolu Bölgesi'nde yapılır.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız III",
+        "C) I ve II",
+        "D) I ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "D) I ve III",
+      "aciklama": "I. yargı doğrudur; taşkömürü rezervleri Zonguldak ve çevresinde (Karadeniz Bölgesi) yoğunlaşır. II. yargı yanlıştır; linyit yatakları daha çok Ege (Manisa, Kütahya), Akdeniz (Kahramanmaraş) ve Marmara bölgelerinde bulunur, İç Anadolu'da sınırlıdır. III. yargı doğrudur; Türkiye'de ham petrol üretimi Batman, Adıyaman, Şırnak gibi Güneydoğu Anadolu illerinde gerçekleştirilir. Bu nedenle doğru cevap D şıkkıdır (I ve III).",
+      "harita_il": null,
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574673-H2-7",
+      "soru": "Yukarıdaki Türkiye haritasında I, II, III, IV ve V numaralı alanlar gösterilmiştir. Bu alanlardan hangileri Türkiye'nin önemli bor madeni yataklarının bulunduğu yerlerdir?",
+      "siklar": [
+        "A) I ve III",
+        "B) I, II ve III",
+        "C) II, III ve IV",
+        "D) I, II, III ve IV",
+        "E) III, IV ve V"
+      ],
+      "dogru": "B) I, II ve III",
+      "aciklama": "Türkiye'deki bor madeni yatakları Eskişehir (I), Kütahya (II) ve Balıkesir (III) illerinde yoğunlaşır. IV numaralı alan Manisa (linyit) ve V numaralı alan Şanlıurfa (petrol) gibi diğer kaynakları temsil eder. Doğru cevap B şıkkıdır. Bor rezervlerinin büyük bölümü bu üç ilde bulunur; ayrıca Bursa, Emet gibi sahalar da vardır ancak haritada I, II, III doğru eşleşmeyi verir.",
+      "harita_il": null,
+      "zorluk": "zor",
+      "gorsel": "madenler-enerji/madenler-enerji-1779574673-H2-7.svg",
+      "gorsel_veri": {
+        "I": "eskisehir",
+        "II": "kutahya",
+        "III": "balikesir",
+        "IV": "manisa",
+        "V": "sanliurfa"
+      }
+    },
+    {
+      "id": "madenler-enerji-1779574673-H2-8",
+      "soru": "Samsun limanından demir cevheri yükleyen bir gemi, Karadeniz kıyısını izleyerek İstanbul Boğazı'na girmiştir. Bu gemi, İstanbul Boğazı'na girmeden önce aşağıdaki liman şehirlerinin hangisine uğramış olamaz?",
+      "siklar": [
+        "A) Sinop",
+        "B) Bartın",
+        "C) Zonguldak",
+        "D) Trabzon",
+        "E) Ordu"
+      ],
+      "dogru": "D) Trabzon",
+      "aciklama": "Samsun'dan batıya doğru Karadeniz kıyısını takip eden bir gemi sırasıyla Ordu, Giresun, Trabzon, Rize gibi doğu illerine değil, batıdaki Sinop, Bartın, Zonguldak, Ereğli gibi limanlara uğrar. Trabzon Samsun'un doğusunda kaldığı için bu rotada uğranması mümkün değildir. A, B, C ve E şıkları batı yönünde sıralanır. Doğru cevap D şıkkıdır.",
+      "harita_il": "samsun",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574737-E1-001",
+      "soru": "Türkiye'de taşkömürü yataklarının en yoğun olduğu bölge aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Marmara Bölgesi",
+        "B) Ege Bölgesi",
+        "C) Karadeniz Bölgesi",
+        "D) İç Anadolu Bölgesi",
+        "E) Doğu Anadolu Bölgesi"
+      ],
+      "dogru": "C) Karadeniz Bölgesi",
+      "aciklama": "Türkiye'de taşkömürü yatakları, özellikle Zonguldak, Bartın ve Karabük çevresinde yoğunlaşmıştır. Bu alanlar Karadeniz Bölgesi sınırları içinde yer alır. A şıkkı (Marmara Bölgesi) yanlıştır çünkü bu bölgede linyit yatakları bulunmakla birlikte taşkömürü rezervi yoktur. B şıkkı (Ege Bölgesi) yanlıştır; Ege'de linyit ve mermer gibi madenler öne çıkar. D şıkkı (İç Anadolu Bölgesi) yanlıştır; bu bölge demir, tuz ve linyit bakımından zengindir ancak taşkömürü bulunmaz. E şıkkı (Doğu Anadolu Bölgesi) yanlıştır; bu bölgede bakır, krom ve demir yatakları yaygındır.",
+      "harita_il": "zonguldak",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574737-E1-002",
+      "soru": "Aşağıdaki enerji kaynaklarından hangisi yenilenemez enerji kaynağıdır?",
+      "siklar": [
+        "A) Güneş enerjisi",
+        "B) Rüzgâr enerjisi",
+        "C) Jeotermal enerji",
+        "D) Doğal gaz",
+        "E) Dalga enerjisi"
+      ],
+      "dogru": "D) Doğal gaz",
+      "aciklama": "Yenilenemez enerji kaynakları, tükenme riski taşıyan ve doğada sınırlı miktarda bulunan fosil yakıtlardır. Doğal gaz bu gruba girer. A şıkkı (Güneş enerjisi) yanlıştır çünkü güneş tükenmeyen bir kaynaktır. B şıkkı (Rüzgâr enerjisi) yanlıştır; rüzgâr, atmosferik olaylara bağlı olarak sürekli yenilenir. C şıkkı (Jeotermal enerji) yanlıştır; yer kabuğunun derinliklerindeki ısı sürekli olarak yenilenir. E şıkkı (Dalga enerjisi) yanlıştır; okyanus ve deniz dalgalarından elde edilen bu enerji tükenmez bir kaynaktır.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574737-H2",
+      "soru": "Türkiye'de taşkömürü yataklarının en yoğun olduğu il aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Zonguldak",
+        "B) Bartın",
+        "C) Karabük",
+        "D) Kastamonu",
+        "E) Sinop"
+      ],
+      "dogru": "A) Zonguldak",
+      "aciklama": "Türkiye'deki taşkömürü yatakları, I. Jeolojik Zaman'da oluşmuş olup en önemli havza Zonguldak'ta bulunur. Bartın ve Karabük il sınırları da bu havzanın devamı olsa da en yoğun yatak Zonguldak'tadır. Kastamonu'da bakır yatakları, Sinop'ta ise önemli maden yatağı bulunmaz. Bu nedenle doğru cevap Zonguldak'tır. Taşkömürü yatakları karbonifer dönemine ait olup Karadeniz Ereğlisi, Kozlu, Kilimli gibi alanlarda işletilmektedir.",
+      "harita_il": "zonguldak",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574737-H3",
+      "soru": "Türkiye'de linyit yataklarının Ege Bölgesi'nde yoğunlaşmasının temel nedeni aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Bölgede volkanik faaliyetlerin yaygın olması",
+        "B) Neojen havzaların geniş alan kaplaması",
+        "C) Bölgenin kıvrım dağları kuşağında yer alması",
+        "D) Kıyı kesimlerinde kireçtaşlarının bol bulunması",
+        "E) Bölgedeki akarsuların enerji potansiyelinin yüksek olması"
+      ],
+      "dogru": "B) Neojen havzaların geniş alan kaplaması",
+      "aciklama": "Linyit yatakları, genellikle Neojen (III. Jeolojik Zaman) tatlı su göllerinde biriken bitki artıklarının kömürleşmesiyle oluşur. Ege Bölgesi'nde, özellikle Manisa-Soma, Kütahya-Tavşanlı ve Muğla-Yatağan gibi alanlarda Neojen havzaları yaygındır. Volkanik faaliyetler, kıvrım dağları ve kireçtaşları linyit oluşumunda doğrudan etkili değildir. Akarsu enerji potansiyeli ise hidroelektrik santralleriyle ilgilidir, linyit oluşumuyla bağlantılı değildir.",
+      "harita_il": "manisa",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574737-H4",
+      "soru": "Karadeniz'de Zonguldak limanından yola çıkan bir gemi kıyı şeridini takip ederek Samsun'a gitmektedir. Bu gemi yolculuğu sırasında aşağıdaki maden yataklarından hangisine rastlamaz?",
+      "siklar": [
+        "A) Bartın'da taşkömürü yatakları",
+        "B) Kastamonu'da bakır yatakları",
+        "C) Sinop'ta demir yatakları",
+        "D) Samsun'da bakır işleme tesisi",
+        "E) Zonguldak'ta taşkömürü yatakları"
+      ],
+      "dogru": "C) Sinop'ta demir yatakları",
+      "aciklama": "Gemi rotası Zonguldak, Bartın, Kastamonu (İnebolu), Sinop ve Samsun'u kapsar. Zonguldak ve Bartın'da taşkömürü yatakları, Kastamonu (Küre) bakır yatakları, Samsun'da ise bakır işleme tesisi bulunur. Sinop'ta ise önemli demir yatağı yoktur; demir yatakları daha çok Sivas (Divriği) ve Malatya'da (Hekimhan) yer alır. Bu nedenle gemi Sinop açıklarında demir yatağına rastlamaz.",
+      "harita_il": "sinop",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574737-H5",
+      "soru": "Zonguldak taşkömürü havzası ile Manisa Soma linyit havzası karşılaştırıldığında aşağıdakilerden hangisi yalnızca Zonguldak için söylenebilir?",
+      "siklar": [
+        "A) Kömür yatakları Neojen dönemde oluşmuştur.",
+        "B) Yataklar daha genç jeolojik zamanlara aittir.",
+        "C) Kömür yatakları I. Jeolojik Zaman'da oluşmuştur.",
+        "D) Kömür kalorifik değeri daha düşüktür.",
+        "E) Yataklar linyit olarak sınıflandırılır."
+      ],
+      "dogru": "C) Kömür yatakları I. Jeolojik Zaman'da oluşmuştur.",
+      "aciklama": "Taşkömürü (bitümlü kömür), I. Jeolojik Zaman (Paleozoik) Karbonifer döneminde oluşurken, linyit III. Jeolojik Zaman (Neojen) döneminde oluşmuştur. Bu nedenle yalnızca Zonguldak havzası I. Zaman'a aittir. Soma linyitleri Neojen'dir. Taşkömürünün kalorifik değeri linyitten yüksektir ve farklı sınıftandırılır. Doğal olarak sadece Zonguldak havzası Paleozoik yaşlıdır.",
+      "harita_il": "zonguldak",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574737-H6",
+      "soru": "Aşağıdaki illerden hangisinde linyit yatağı bulunmaz?",
+      "siklar": [
+        "A) Kütahya",
+        "B) Manisa",
+        "C) Muğla",
+        "D) Zonguldak",
+        "E) Tekirdağ"
+      ],
+      "dogru": "D) Zonguldak",
+      "aciklama": "Zonguldak ve çevresi taşkömürü yataklarıyla tanınır. Linyit yatakları ise Neojen havzalarda oluşur ve başlıca Kütahya (Tavşanlı), Manisa (Soma), Muğla (Yatağan) ile Tekirdağ (Malkara) gibi illerde bulunur. Bu nedenle linyit yatağı bulunmayan il Zonguldak'tır. Soruda haritadan yararlanarak illerin jeolojik yapısını bilmek gerekir. ÖSYM'nin sık kullandığı tuzak, Zonguldak'ı linyit havzası sanmaktır.",
+      "harita_il": "zonguldak",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574737-H7",
+      "soru": "Türkiye'deki petrol yataklarıyla ilgili,\n\nI. En önemli petrol sahası Batman'dadır.\nII. Petrol rafinerileri Kırıkkale, İzmir, Batman ve Mersin'de bulunur.\nIII. Petrol yatakları yalnızca Güneydoğu Anadolu Bölgesi'nde yer alır.\n\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "Türkiye'nin en önemli petrol sahası Batman'daki Raman sahasıdır (I doğru). Rafineriler arasında Kırıkkale (Orta Anadolu), İzmir (Aliağa), Batman ve Mersin (Ataş) bulunur (II doğru). III. önerme yanlıştır çünkü Trakya bölgesinde de (Kırklareli, Tekirdağ) petrol ve doğalgaz yatakları yer alır. Petrol yalnızca Güneydoğu'da değil, ayrıca Adıyaman, Diyarbakır gibi illerde de bulunmakla birlikte sadece Güneydoğu sınırlı değildir. Bu nedenle yalnızca I ve II doğrudur.",
+      "harita_il": "batman",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574737-H8",
+      "soru": "Ege Denizi'nden başlayarak Akdeniz kıyısını takip eden bir gemi, İzmir'den yola çıkıp Mersin'e gitmektedir. Bu güzergâhta aşağıdaki enerji kaynaklarından hangisinin çıkarıldığı bir sahaya rastlamaz?",
+      "siklar": [
+        "A) Jeotermal enerji – Aydın",
+        "B) Linyit – Muğla",
+        "C) Taşkömürü – Zonguldak",
+        "D) Petrol – Mersin",
+        "E) Doğalgaz – Antalya"
+      ],
+      "dogru": "C) Taşkömürü – Zonguldak",
+      "aciklama": "İzmir-Mersin rotası Ege ve Akdeniz kıyılarını takip eder: İzmir, Aydın, Muğla, Antalya, Mersin. Aydın'da jeotermal (Germencik), Muğla'da linyit (Yatağan), Mersin'de petrol (Ceyhan rafinerisi, terminal) bulunur. Antalya önemli bir doğalgaz sahasına sahip olmasa da şıkta doğalgaz denmiş, aslında Antalya'da doğalgaz çıkarımı yoktur ama Mersin'de boru hatları vardır. Soruda doğru yanlış eşleştirmesinde taşkömürü sadece Zonguldak'ta olup rota dışıdır. Bu nedenle gemi Zonguldak'taki taşkömürü sahasına rastlamaz. ÖSYM tarzı tuzak, rotayı bilmeden Zonguldak'ı işaretlemektir.",
+      "harita_il": "izmir",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574737-H9",
+      "soru": "Türkiye'de hidroelektrik enerji üretiminin en fazla olduğu bölge Güneydoğu Anadolu iken, jeotermal enerji üretiminin en fazla olduğu bölge Ege'dir. Bu durumun temel nedeni aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Bölgelerin iklim koşullarının farklı olması",
+        "B) Enerji kaynaklarının dağılımının bölgelere göre farklılık göstermesi",
+        "C) Hidroelektrik santrallerinin özel sektör tarafından kurulması",
+        "D) Jeotermal enerjinin daha çok kıyı bölgelerde bulunması",
+        "E) Güneydoğu Anadolu'da akarsu rejimlerinin düzensiz olması"
+      ],
+      "dogru": "B) Enerji kaynaklarının dağılımının bölgelere göre farklılık göstermesi",
+      "aciklama": "Her enerji kaynağı kendine özgü jeolojik ve coğrafi koşullarda oluşur. Güneydoğu Anadolu Bölgesi, Fırat ve Dicle nehirlerinin yüksek debisi ve eğimi sayesinde büyük hidroelektrik potansiyeline sahiptir (Atatürk, Keban, Karakaya gibi barajlar). Ege Bölgesi ise aktif fay hatları ve volkanik yapı sayesinde zengin jeotermal kaynaklara (Denizli-Sarayköy, Aydın-Germencik) sahiptir. Bu fark, doğal kaynak dağılımının bölgesel karakterini yansıtır. Diğer şıklar iklim, sektör veya rejim gibi tali faktörlere odaklansa da temel neden jeolojik farklılıklardır.",
+      "harita_il": "denizli",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574799-E1",
+      "soru": "Türkiye'de termik santrallerde yakıt olarak kullanılan ve en çok rezerve sahip olan linyit yatakları aşağıdaki bölgelerden hangisinde yoğunlaşmıştır?",
+      "siklar": [
+        "A) Marmara Bölgesi",
+        "B) Ege Bölgesi",
+        "C) İç Anadolu Bölgesi",
+        "D) Karadeniz Bölgesi",
+        "E) Doğu Anadolu Bölgesi"
+      ],
+      "dogru": "C) İç Anadolu Bölgesi",
+      "aciklama": "C şıkkı doğrudur çünkü Türkiye'deki linyit rezervlerinin büyük bir kısmı İç Anadolu Bölgesi'nde, özellikle Afyonkarahisar, Kütahya ve Ankara çevresinde yoğunlaşmıştır. A şıkkı yanlıştır zira Marmara Bölgesi'nde linyit bulunmakla birlikte rezerv miktarı İç Anadolu'ya göre düşüktür. B şıkkı yanlıştır çünkü Ege Bölgesi'ndeki linyit yatakları sınırlıdır. D şıkkı yanlıştır; Karadeniz Bölgesi'nde taşkömürü yatakları bulunur, linyit değil. E şıkkı yanlıştır; Doğu Anadolu Bölgesi'nde linyit rezervi önemli seviyede değildir. Genel kural olarak linyit en çok İç Anadolu'da çıkarılır.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574799-E2",
+      "soru": "Aşağıdaki madenlerden hangisi Türkiye'de demir-çelik sanayisinde yaygın olarak kullanılan ana hammaddedir?",
+      "siklar": [
+        "A) Boksit",
+        "B) Krom",
+        "C) Demir",
+        "D) Bakır",
+        "E) Kurşun"
+      ],
+      "dogru": "C) Demir",
+      "aciklama": "C şıkkı doğrudur çünkü demir cevheri, demir-çelik sanayisinin temel hammaddesidir ve Türkiye'de Divriği (Sivas), Hekimhan (Malatya) gibi yataklardan çıkarılır. A şıkkı yanlıştır; boksit alüminyum üretiminde kullanılır. B şıkkı yanlıştır; krom paslanmaz çelik ve kimya sanayisinde kullanılır. D şıkkı yanlıştır; bakır elektrik ve elektronik sektöründe kullanılır. E şıkkı yanlıştır; kurşun akü ve mühimmat yapımında kullanılır. Genel kural olarak demir-çelik sanayisinin ana girdisi demir cevheridir.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574799-H2-001",
+      "soru": "Türkiye'de linyit rezervleri bakımından ilk sırada yer alan il aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Kahramanmaraş",
+        "B) Manisa",
+        "C) Kütahya",
+        "D) Afyonkarahisar",
+        "E) Zonguldak"
+      ],
+      "dogru": "A) Kahramanmaraş",
+      "aciklama": "Doğru cevap A şıkkıdır. Kahramanmaraş'taki Elbistan havzası, Türkiye'nin en büyük linyit rezervine sahip sahasıdır. B şıkkı Manisa (Soma) ve C şıkkı Kütahya (Tunçbilek-Seyitömer) linyit üretiminde önemli olmakla birlikte rezerv büyüklüğünde Kahramanmaraş'ın gerisindedir. D şıkkı Afyonkarahisar'da linyit bulunur ancak rezervi daha azdır. E şıkkı Zonguldak ise taşkömürü üretimiyle öne çıkar, linyit değildir. Türkiye'de linyit yatakları genellikle Neojen yaşlı olup en zengin havza Elbistan'dır.",
+      "harita_il": "kahramanmaras",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574799-H2-002",
+      "soru": "Zonguldak ve çevresinde taşkömürü rezervlerinin bulunması, bu bölgede aşağıdaki sanayi kollarından hangisinin gelişmesini sağlamıştır?",
+      "siklar": [
+        "A) Demir-çelik sanayisi",
+        "B) Petrol rafinerisi",
+        "C) Dokuma sanayisi",
+        "D) Gıda sanayisi",
+        "E) Mobilya sanayisi"
+      ],
+      "dogru": "A) Demir-çelik sanayisi",
+      "aciklama": "Doğru cevap A şıkkıdır. Taşkömürü, demir-çelik üretiminde yüksek fırınlarda yakıt olarak kullanılır. Zonguldak'taki kömür sayesinde Karabük Demir-Çelik ve Ereğli Demir-Çelik tesisleri kurulmuştur. B şıkkı petrol rafinerileri daha çok ham petrole yakın bölgelerde (İzmit, Batman) yoğunlaşmıştır. C, D ve E şıklarındaki sanayiler kömür varlığına doğrudan bağlı değildir. Bu nedenle Zonguldak'ta demir-çelik sanayisinin gelişmesi doğal kaynak ile sanayi arasındaki ilişkiyi açıkça göstermektedir.",
+      "harita_il": "zonguldak",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574799-H2-003",
+      "soru": "Aşağıdaki illerin hangisinde doğalgaz çıkarımı yapılmamaktadır?",
+      "siklar": [
+        "A) Batman",
+        "B) Adıyaman",
+        "C) Van",
+        "D) Şanlıurfa",
+        "E) Denizli"
+      ],
+      "dogru": "E) Denizli",
+      "aciklama": "Doğru cevap E şıkkıdır. Batman (Raman), Adıyaman (Gölbaşı), Van (Baskil) ve Şanlıurfa (Karakaya) illerinde doğalgaz üretimi bulunmaktadır. Denizli'de ise jeotermal kaynaklar yaygın olmasına rağmen doğalgaz yatağı keşfedilmemiştir. A, B, C, D şıklarında doğalgaz çıkarımı yapıldığı için yanlış şıklardır. Türkiye'de doğalgaz üretimi daha çok Güneydoğu Anadolu ve Trakya bölgelerinde yoğunlaşmıştır; Denizli bu alanın dışında kalmaktadır.",
+      "harita_il": "denizli",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574799-H2-004",
+      "soru": "Bir yük gemisi İskenderun limanından hareketle kıyı şeridini takip ederek Karadeniz'deki bir limana gitmektedir. Bu gemi yolculuğu boyunca aşağıdaki enerji santrali türlerinden hangisine rastlama olasılığı en düşüktür?",
+      "siklar": [
+        "A) Termik santral",
+        "B) Hidroelektrik santral",
+        "C) Rüzgâr santrali",
+        "D) Jeotermal santral",
+        "E) Nükleer santral"
+      ],
+      "dogru": "E) Nükleer santral",
+      "aciklama": "Doğru cevap E şıkkıdır. Nükleer santral üretimi Türkiye'de henüz faaliyete geçmemiştir (Akkuyu inşa aşamasındadır). Gemi rotasında termik santraller (İskenderun, Yatağan, Çatalağzı, Ambarlı), hidroelektrik santraller (Seyhan, Göksu, Sakarya), rüzgâr santralleri (Çeşme, Gelibolu, Bandırma) ve jeotermal santraller (Denizli, Manisa, Aydın - kıyı şeridine yakın) bulunma olasılığı vardır. Nükleer santral ise henüz üretim yapmadığı için güzergâhta karşılaşma ihtimali yok denecek kadar azdır. Bu nedenle doğru yanıt E'dir.",
+      "harita_il": "hatay",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574799-H2-005",
+      "soru": "Türkiye'de hidroelektrik santrallerle ilgili,\nI. Fırat Nehri üzerinde Keban Barajı yer alır.\nII. Manavgat Çayı üzerinde Oymapınar Barajı bulunur.\nIII. Kızılırmak üzerinde Hirfanlı Barajı vardır.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) I ve III",
+        "E) II ve III"
+      ],
+      "dogru": "D) I ve III",
+      "aciklama": "Doğru cevap D şıkkıdır. I. önerme doğrudur: Keban Barajı ve HES, Fırat Nehri üzerindedir. III. önerme doğrudur: Hirfanlı Barajı, Kızılırmak Nehri üzerinde yer alır. II. önerme yanlıştır: Oymapınar Barajı, Manavgat Çayı üzerinde değil, Köprüçay üzerinde kurulmuştur. Manavgat Çayı'nda ise Manavgat Barajı ve HES bulunur. Bu nedenle yalnızca I ve III doğrudur. A şıkkı eksiktir, B ve E şıkkı yanlış bilgi içerir, C şıkkı ise yanlış önermeyi kapsadığı için doğru değildir.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574799-H2-006",
+      "soru": "Türkiye'de bor madeni ve enerjiyle ilgili,\nI. Bor türevleri enerji depolama teknolojilerinde kullanılmaktadır.\nII. En büyük bor rezervi Eskişehir (Kırka) yöresindedir.\nIII. Bor madenciliği enerji tüketiminde önemli bir paya sahiptir.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) I ve III",
+        "E) II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "Doğru cevap C şıkkıdır. I. önerme doğrudur: Bor bileşikleri (özellikle bor nitrür, lityum borat) enerji depolama, yakıt pilleri bataryalarında kullanılır. II. önerme doğrudur: Eskişehir-Kırka sahası dünyanın en büyük bor rezervine sahiptir. III. önerme yanlıştır: Bor madenciliği enerji tüketiminde küçük bir paya sahiptir; enerji tüketiminde asıl pay taşkömürü, linyit, doğalgaz ve petroldedir. A ve B şıkları eksik, D ve E şıkları yanlış önerme içerdiği için doğru değildir. Sonuç olarak I ve II doğrudur.",
+      "harita_il": "eskisehir",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574799-H2-007",
+      "soru": "Bir yük gemisi Samsun limanından yüklediği taşkömürünü Kocaeli (İzmit) limanına taşımaktadır. Gemi rotasını Karadeniz kıyı şeridini takip ederek İstanbul Boğazı üzerinden tamamlamaktadır. Bu gemi yolculuğu sırasında aşağıdaki enerji kaynaklarından hangisinin üretildiği bir tesise rastlama olasılığı en düşüktür?",
+      "siklar": [
+        "A) Taşkömürü",
+        "B) Doğalgaz",
+        "C) Petrol",
+        "D) Hidroelektrik",
+        "E) Jeotermal"
+      ],
+      "dogru": "E) Jeotermal",
+      "aciklama": "Doğru cevap E şıkkıdır. Gemi rotası boyunca taşkömürü (Zonguldak'ta Çatalağzı termik santrali ve kömür yükleme tesisleri), doğalgaz (İstanbul Ambarlı ve Kocaeli'de doğalgaz çevrim santralleri), petrol (Kocaeli'de TÜPRAŞ rafinerisi) ve hidroelektrik (Sakarya Nehri üzerinde santraller) tesisleri bulunmaktadır. Jeotermal enerji santralleri ise Ege Bölgesi'nde (Denizli, Aydın, Manisa) yoğunlaştığı için gemi rotasında jeotermal tesise rastlama ihtimali yoktur. A, B, C, D şıkları rotada mevcut olduğundan yanlıştır. Bu nedenle doğru yanıt E'dir.",
+      "harita_il": "kocaeli",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574799-H2-008",
+      "soru": "Türkiye'de doğalgaz ve petrolle ilgili,\nI. Doğalgaz rezervlerinin büyük bir kısmı Trakya'da bulunur.\nII. Petrol rafinerileri genellikle tüketim merkezlerine yakın kurulmuştur.\nIII. Doğalgaz boru hattının bir kısmı Tuz Gölü'nden geçmektedir.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) I ve III",
+        "E) II ve III"
+      ],
+      "dogru": "B) Yalnız II",
+      "aciklama": "Doğru cevap B şıkkıdır. I. önerme yanlıştır: Türkiye'nin en büyük doğalgaz rezervi Karadeniz'de Sakarya Gaz Sahası'nda keşfedilmiştir; Trakya'da da rezerv bulunmakla birlikte en büyük pay Sakarya'dadır. II. önerme doğrudur: Petrol rafinerileri (İzmit, İzmir, Mersin, Batman) tüketim ve sanayi merkezlerine yakın konumlandırılmıştır. III. önerme yanlıştır: Doğalgaz boru hatları (örneğin TANAP, TürkAkım) Tuz Gölü'nden geçmez; Tuz Gölü, İç Anadolu'daki bir doğal havzadır ve boru hattı güzergâhı bu bölgeyi kapsamaz. Bu nedenle yalnızca II doğrudur.",
+      "harita_il": "sakarya",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574902-E1",
+      "soru": "Türkiye'de taşkömürü yataklarının en yoğun olduğu bölge aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Marmara Bölgesi",
+        "B) Ege Bölgesi",
+        "C) Karadeniz Bölgesi",
+        "D) İç Anadolu Bölgesi",
+        "E) Doğu Anadolu Bölgesi"
+      ],
+      "dogru": "C) Karadeniz Bölgesi",
+      "aciklama": "C şıkkı doğrudur çünkü Türkiye'deki taşkömürü yatakları, özellikle Zonguldak ve çevresinde olmak üzere Karadeniz Bölgesi'nde yoğunlaşmıştır. Taşkömürü, I. Jeolojik Zaman'da oluşmuş bir enerji kaynağıdır. A şıkkı yanlıştır çünkü Marmara Bölgesi'nde linyit yatakları bulunur. B şıkkı yanlıştır çünkü Ege Bölgesi linyit ve mermer gibi madenlerle öne çıkar. D şıkkı yanlıştır çünkü İç Anadolu Bölgesi'nde demir, tuz gibi madenler vardır. E şıkkı yanlıştır çünkü Doğu Anadolu Bölgesi krom ve demir yataklarıyla bilinir. Taşkömürü, Karadeniz Bölgesi'ne özgü bir fosil yakıttır.",
+      "harita_il": "zonguldak",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574902-E2",
+      "soru": "Türkiye'de linyit rezervi bakımından ilk sırada yer alan il aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Soma",
+        "B) Tunçbilek",
+        "C) Elbistan",
+        "D) Yatağan",
+        "E) Seyitömer"
+      ],
+      "dogru": "C) Elbistan",
+      "aciklama": "C şıkkı doğrudur çünkü Türkiye'nin en büyük linyit rezervi Kahramanmaraş iline bağlı Elbistan'da bulunmaktadır. Elbistan linyit havzası, düşük kalorili ancak çok geniş rezervli bir sahadır. A şıkkı yanlıştır çünkü Soma (Manisa) önemli bir linyit yatağıdır ancak rezerv bakımından Elbistan'dan sonra gelir. B şıkkı yanlıştır çünkü Tunçbilek (Kütahya) linyit üretiminde önemlidir. D şıkkı yanlıştır çünkü Yatağan (Muğla) linyit yatağıdır. E şıkkı yanlıştır çünkü Seyitömer (Kütahya) linyit üretim sahasıdır. Elbistan linyitleri termik santrallerde elektrik üretiminde kullanılmaktadır.",
+      "harita_il": "kahramanmaras",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574902-H2-001",
+      "soru": "Türkiye'nin Zonguldak havzasında çıkarılan taşkömürü, aşağıdaki jeolojik zamanların hangisinde oluşmuştur?",
+      "siklar": [
+        "A) Paleozoik (I. Zaman)",
+        "B) Mezozoik (II. Zaman)",
+        "C) Tersiyer (III. Zaman)",
+        "D) Kuvaterner (IV. Zaman)",
+        "E) Prekambriyen"
+      ],
+      "dogru": "A) Paleozoik (I. Zaman)",
+      "aciklama": "Doğru cevap A şıkkıdır. Taşkömürü (bitümlü kömür), Paleozoik Zaman'ın Karbonifer ve Permiyen dönemlerinde oluşmuştur. Zonguldak havzası da Karbonifer yaşlı taşkömürü rezervlerine sahiptir. B şıkkı Mezozoik yanlıştır çünkü bu dönemde daha çok linyit oluşumları görülür. C şıkkı Tersiyer, linyit kömürlerinin ana oluşum dönemidir. D şıkkı Kuvaterner, kömür oluşumu için çok gençtir. E şıkkı Prekambriyen ise Türkiye'de kömür oluşumuyla ilgili değildir.",
+      "harita_il": "zonguldak",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574902-H2-002",
+      "soru": "Türkiye'deki petrol ve doğalgaz aramaları genellikle aşağıdaki bölgelerden hangisinde yoğunlaşmıştır?",
+      "siklar": [
+        "A) Marmara Bölgesi",
+        "B) Ege Bölgesi",
+        "C) Güneydoğu Anadolu Bölgesi",
+        "D) Karadeniz Bölgesi",
+        "E) İç Anadolu Bölgesi"
+      ],
+      "dogru": "C) Güneydoğu Anadolu Bölgesi",
+      "aciklama": "Doğru cevap C şıkkıdır. Türkiye'de petrol ve doğalgaz rezervlerinin büyük kısmı Güneydoğu Anadolu Bölgesi'nde, özellikle Adıyaman, Batman, Diyarbakır ve Şanlıurfa çevresinde bulunur. A şıkkı Marmara Bölgesi'nde sınırlı petrol varlığı olsa da ana üretim alanı değildir. B şıkkı Ege Bölgesi'nde önemli petrol yatağı yoktur. D şıkkı Karadeniz'de doğalgaz keşifleri olsa da petrolde henüz büyük rezerv yoktur. E şıkkı İç Anadolu'da tuz ve jeotermal kaynaklar dışında petrol bulunmamaktadır.",
+      "harita_il": "batman",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574902-H2-003",
+      "soru": "Aşağıdaki enerji kaynaklarından hangisi yenilenebilir enerji kaynakları arasında yer almaz?",
+      "siklar": [
+        "A) Güneş enerjisi",
+        "B) Rüzgâr enerjisi",
+        "C) Jeotermal enerji",
+        "D) Nükleer enerji",
+        "E) Hidroelektrik enerji"
+      ],
+      "dogru": "D) Nükleer enerji",
+      "aciklama": "Doğru cevap D şıkkıdır. Nükleer enerji, uranyum ve toryum gibi radyoaktif elementleri kullandığı için yenilenemez enerji kaynağıdır. A, B, C ve E şıkları doğal süreçlerle sürekli yenilendikleri için yenilenebilir enerji kaynaklarıdır. Güneş enerjisi, rüzgâr enerjisi, jeotermal enerji ve hidroelektrik enerji sürdürülebilir kaynaklardır. Bu soruda ÖSYM'nin sık kullandığı “hangisi diğerlerinden farklıdır” kalıbı uygulanmıştır.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574902-H2-004",
+      "soru": "Türkiye'de bor madeni en fazla hangi bölgede çıkarılmaktadır?",
+      "siklar": [
+        "A) Marmara Bölgesi",
+        "B) Ege Bölgesi",
+        "C) İç Anadolu Bölgesi",
+        "D) Karadeniz Bölgesi",
+        "E) Akdeniz Bölgesi"
+      ],
+      "dogru": "B) Ege Bölgesi",
+      "aciklama": "Doğru cevap B şıkkıdır. Türkiye dünya bor rezervlerinin yaklaşık %70'ine sahiptir ve en önemli bor yatakları Ege Bölgesi'nde, özellikle Balıkesir (Bigadiç), Kütahya (Emet) ve Eskişehir (Kırka) çevresinde bulunur. A şıkkı Marmara Bölgesi'nde bor yatakları sınırlıdır. C, D ve E şıkları bor madeni açısından zengin değildir. Bu soru, madenlerin bölgesel dağılımını sorgulamaktadır.",
+      "harita_il": "balikesir",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574902-H2-005",
+      "soru": "Türkiye'de termik santrallerde kullanılan linyit kömürü yatakları en yaygın olarak aşağıdaki jeolojik zamanlardan hangisinde oluşmuştur?",
+      "siklar": [
+        "A) Paleozoik",
+        "B) Mezozoik",
+        "C) Tersiyer",
+        "D) Kuvaterner",
+        "E) Ordovisiyen"
+      ],
+      "dogru": "C) Tersiyer",
+      "aciklama": "Doğru cevap C şıkkıdır. Linyit kömürü, Tersiyer (III. Zaman) döneminde, özellikle Miyosen ve Pliyosen devirlerinde oluşmuştur. Türkiye'deki linyit yatakları (Afşin-Elbistan, Soma, Yatağan vb.) bu döneme aittir. A şıkkı Paleozoik'te taşkömürü oluşur. B şıkkı Mezozoik'te linyit oluşumu yaygın değildir. D şıkkı Kuvaterner çok gençtir. E şıkkı Ordovisiyen Paleozoik'in bir alt bölümüdür. Bu soru jeolojik zaman-kömür türü eşleştirmesini ölçmektedir.",
+      "harita_il": "kahramanmaras",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574902-H2-006",
+      "soru": "Bir araştırma gemisi, Türkiye'nin kıyı şeridini takip ederek Mersin limanından hareket edip İskenderun limanına ulaşmayı planlamaktadır. Bu seyahat sırasında gemi aşağıdaki hangi doğal oluşumlara rastlama olasılığı en düşüktür?\\n\\nI. Seyhan Nehri'nin denize döküldüğü delta\\nII. Ceyhan Nehri'nin taşıdığı alüvyonlarla oluşan Çukurova deltası\\nIII. Filyos Çayı'nın döküldüğü alan\\nIV. Asi Nehri'nin denize ulaştığı nokta\\nV. Göksu Nehri deltası",
+      "siklar": [
+        "A) Yalnız III",
+        "B) I ve II",
+        "C) III ve IV",
+        "D) I, II ve IV",
+        "E) II, III ve V"
+      ],
+      "dogru": "A) Yalnız III",
+      "aciklama": "Doğru cevap A şıkkıdır. Mersin'den İskenderun'a güneye doğru gidilirken kıyı boyunca sırasıyla: V (Göksu deltası – Mersin-Silifke arası), I (Seyhan deltası – Adana kıyısı), II (Ceyhan deltası – Çukurova) ve IV (Asi Nehri – Hatay kıyısı) görülür. III numaralı Filyos Çayı ise Karadeniz kıyısında, Zonguldak-Bartın arasında yer alır. Bu nedenle güzergâhta Filyos ile karşılaşılmaz. Kalıp F sorusu olup I, II, III, IV, V önermelerinden yalnızca III yanlıştır.",
+      "harita_il": "mersin",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574902-H2-007",
+      "soru": "Türkiye'deki maden rezervleri ve enerji kaynaklarıyla ilgili aşağıdaki ifadelerden hangileri doğrudur?\\n\\nI. Türkiye, dünya bor rezervlerinin yaklaşık %70'ine sahiptir.\\nII. Taşkömürü rezervleri en çok Zonguldak ve çevresinde bulunur.\\nIII. Türkiye'de uranyum yatakları yoktur, bu nedenle nükleer santral kurulamamıştır.\\nIV. Jeotermal enerji potansiyeli en yüksek bölge Ege Bölgesi'dir.\\nV. Krom madeni en çok Elazığ ve çevresinde çıkarılır.",
+      "siklar": [
+        "A) I, II ve IV",
+        "B) I, II ve V",
+        "C) II, III ve IV",
+        "D) I, III ve V",
+        "E) II, IV ve V"
+      ],
+      "dogru": "A) I, II ve IV",
+      "aciklama": "Doğru cevap A şıkkıdır. I: Doğru, Türkiye dünya bor rezervinin yaklaşık %70'ine sahiptir. II: Doğru, Zonguldak taşkömürü havzası en önemli rezerv alanıdır. III: Yanlış, Türkiye'de uranyum yatakları (Salihli, Temrezli vb.) mevcuttur ve nükleer santral projeleri bulunmaktadır. IV: Doğru, Ege Bölgesi (Denizli, Aydın, Manisa) jeotermal enerji açısından en zengin bölgedir. V: Yanlış, krom en çok Elazığ (Guleman) ve Adana'da çıkarılır ama en büyük rezerv Elazığ olsa da soruda 'en çok' ifadesi tartışmalıdır; ancak genel kabul Elazığ'dır. Fakat III yanlış olduğu için A, I-II-IV doğrudur.",
+      "harita_il": "elazig",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574902-H2-008",
+      "soru": "Yukarıdaki Türkiye haritasında I, II, III, IV ve V numaralı alanlar gösterilmiştir. Bu alanlardan hangileri önemli linyit yataklarının bulunduğu yerler arasında yer alır?\\n\\n(I: Afyonkarahisar çevresi, II: Soma çevresi, III: Zonguldak çevresi, IV: Afşin-Elbistan çevresi, V: Batman çevresi)\n\n",
+      "siklar": [
+        "A) I, II ve IV",
+        "B) II, III ve IV",
+        "C) I, II ve V",
+        "D) III, IV ve V",
+        "E) I, III ve V"
+      ],
+      "dogru": "A) I, II ve IV",
+      "aciklama": "Doğru cevap A şıkkıdır. Haritada işaretlenen alanlardan I (Afyon-Dinar/Tınaztepe linyit sahası), II (Manisa-Soma linyit havzası) ve IV (Kahramanmaraş-Afşin-Elbistan linyit havzası) önemli linyit yataklarıdır. III (Zonguldak) taşkömürü havzasıdır, linyit değildir. V (Batman) petrol bölgesidir. Bu soru, linyit yataklarının doğru bölgelerle eşleştirilmesini ölçmektedir. Görsel soru formatı hazırlanmıştır.",
+      "harita_il": "kahramanmaras",
+      "zorluk": "zor",
+      "gorsel": "madenler-enerji/madenler-enerji-008.svg",
+      "gorsel_veri": {
+        "I": "afyonkarahisar",
+        "II": "manisa",
+        "III": "zonguldak",
+        "IV": "kahramanmaras",
+        "V": "batman"
+      }
+    },
+    {
+      "id": "madenler-enerji-1779574937-E1",
+      "soru": "Türkiye'de termik santrallerde yakıt olarak kullanılan ve en çok Zonguldak çevresinde çıkarılan maden aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Linyit",
+        "B) Taş kömürü",
+        "C) Petrol",
+        "D) Doğal gaz",
+        "E) Bor"
+      ],
+      "dogru": "B) Taş kömürü",
+      "aciklama": "B şıkkı doğrudur çünkü taş kömürü, Türkiye'de en çok Zonguldak ve çevresinde çıkarılmakta olup termik santrallerde elektrik üretiminde kullanılan önemli bir fosil yakıttır. A şıkkı yanlıştır zira linyit daha çok Afyonkarahisar, Kütahya ve Kahramanmaraş gibi illerde çıkarılır. C şıkkı yanlıştır çünkü petrol Türkiye'de sınırlı rezerve sahiptir ve Zonguldak'ta çıkarılmaz. D şıkkı yanlıştır zira doğal gaz daha çok Trakya ve Güneydoğu Anadolu'da bulunur. E şıkkı yanlıştır çünkü bor madeni enerji üretiminde değil, sanayide kullanılır.",
+      "harita_il": "zonguldak",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574937-E2",
+      "soru": "Türkiye'de demir-çelik sanayisinde ham madde olarak kullanılan ve en fazla Divriği (Sivas) yöresinde çıkarılan maden aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Bakır",
+        "B) Krom",
+        "C) Demir",
+        "D) Boksit",
+        "E) Kurşun"
+      ],
+      "dogru": "C) Demir",
+      "aciklama": "C şıkkı doğrudur çünkü demir cevheri, Türkiye'de demir-çelik sanayisinin temel ham maddesidir ve en önemli yatakları Sivas'ın Divriği ilçesinde bulunmaktadır. A şıkkı yanlıştır zira bakır daha çok Artvin (Murgul) ve Kastamonu (Küre) yörelerinde çıkarılır. B şıkkı yanlıştır çünkü krom, paslanmaz çelik üretiminde kullanılsa da demir-çelik sanayisinin ana ham maddesi değildir ve Elazığ (Guleman) yöresinde çıkarılır. D şıkkı yanlıştır zira boksit alüminyum üretiminde kullanılır ve Muğla (Milas) çevresinde bulunur. E şıkkı yanlıştır çünkü kurşun-çinko yatakları daha çok Kayseri (Yahyalı) yöresinde yer alır.",
+      "harita_il": "sivas",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574937-H2-1",
+      "soru": "Bir gemi İskenderun limanından yola çıkıp Akdeniz kıyı şeridini takip ederek Mersin limanına gitmektedir. Bu güzergâhta aşağıdaki enerji tesislerinden hangisi gözlemlenebilir?",
+      "siklar": [
+        "A) Zonguldak taşkömürü havzası",
+        "B) Botaş Ceyhan Petrol Terminali",
+        "C) Soma linyit havzası",
+        "D) Elbistan termik santrali",
+        "E) Aliağa rafinerisi"
+      ],
+      "dogru": "B) Botaş Ceyhan Petrol Terminali",
+      "aciklama": "Doğru cevap B şıkkıdır. Botaş Ceyhan Petrol Terminali Adana ilinde, İskenderun ile Mersin arasında yer alan önemli bir enerji tesisidir. Gemi bu rotada terminali gözlemleyebilir. A şıkkındaki Zonguldak taşkömürü havzası Karadeniz kıyısında, C şıkkındaki Soma linyit havzası Ege Bölgesi'nde, D şıkkındaki Elbistan termik santrali Kahramanmaraş'ta, E şıkkındaki Aliağa rafinerisi ise İzmir'de olduğu için bu güzergâhta görülemez.",
+      "harita_il": "adana",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574937-H2-2",
+      "soru": "Türkiye'de bor madenciliğinin en yoğun olduğu il aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Eskişehir",
+        "B) Kütahya",
+        "C) Balıkesir",
+        "D) Bursa",
+        "E) Konya"
+      ],
+      "dogru": "B) Kütahya",
+      "aciklama": "Doğru cevap B şıkkıdır. Türkiye, dünya bor rezervlerinin yaklaşık %70'ine sahiptir ve bu rezervlerin önemli bir kısmı Kütahya ilinde (Emet, Seyitömer) bulunur. A şıkkı Eskişehir'de arsenik, C şıkkı Balıkesir'de manyezit, D şıkkı Bursa'da krom, E şıkkı Konya'da linyit ve çimento hammaddeleri yaygındır. Bor madenciliği açısından Kütahya en yoğun ildir.",
+      "harita_il": "kutahya",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574937-H2-3",
+      "soru": "Aşağıdakilerden hangisi Türkiye'deki doğal gaz boru hatlarından biri değildir?",
+      "siklar": [
+        "A) Mavi Akım",
+        "B) Türk Akımı",
+        "C) Bakü-Tiflis-Ceyhan",
+        "D) TANAP",
+        "E) Doğu Akdeniz Doğalgaz Boru Hattı"
+      ],
+      "dogru": "C) Bakü-Tiflis-Ceyhan",
+      "aciklama": "Doğru cevap C şıkkıdır. Bakü-Tiflis-Ceyhan (BTC) ham petrol boru hattıdır, doğal gaz boru hattı değildir. Mavi Akım, Türk Akımı, TANAP ve Doğu Akdeniz Doğalgaz Boru Hattı (planlanan) ise doğal gaz taşımaktadır. Bu nedenle BTC seçeneği diğerlerinden farklıdır.",
+      "harita_il": "adana",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574937-H2-4",
+      "soru": "Bir yük gemisi Trabzon limanından yola çıkarak Karadeniz kıyısını batı yönünde takip edip Zonguldak limanına gitmektedir. Bu gemi aşağıdaki limanlardan hangisine uğramaz?",
+      "siklar": [
+        "A) Samsun",
+        "B) Sinop",
+        "C) İnebolu",
+        "D) Bartın",
+        "E) Rize"
+      ],
+      "dogru": "E) Rize",
+      "aciklama": "Doğru cevap E şıkkıdır. Gemi Trabzon'dan batıya doğru gittiği için doğuda kalan Rize limanına uğramaz. Samsun, Sinop, İnebolu ve Bartın sırasıyla batıda yer alan limanlardır ve güzergâh üzerindedir. Bu soru Karadeniz kıyı limanlarının sıralanmasını ölçmektedir.",
+      "harita_il": "trabzon",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574937-H2-5",
+      "soru": "Türkiye'de hidroelektrik enerji üretiminin en fazla olduğu bölge aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Marmara",
+        "B) Ege",
+        "C) Doğu Anadolu",
+        "D) Karadeniz",
+        "E) İç Anadolu"
+      ],
+      "dogru": "C) Doğu Anadolu",
+      "aciklama": "Doğru cevap C şıkkıdır. Doğu Anadolu Bölgesi, Fırat ve Dicle nehirleri üzerinde kurulu büyük barajlar (Atatürk, Keban, Karakaya) sayesinde hidroelektrik üretiminde ilk sıradadır. Karadeniz Bölgesi'nde çok sayıda HES bulunsa da toplam kurulu güç ve üretim miktarı Doğu Anadolu'nun gerisindedir. Marmara, Ege ve İç Anadolu bölgeleri ise daha düşük hidroelektrik potansiyele sahiptir.",
+      "harita_il": "elazig",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574937-H2-6",
+      "soru": "Türkiye'deki enerji kaynaklarıyla ilgili,\nI. Jeotermal enerji bakımından en zengin bölge Ege Bölgesi'dir.\nII. Linyit rezervlerinin büyük kısmı İç Anadolu Bölgesi'nde bulunur.\nIII. Taşkömürü havzaları yalnızca Zonguldak ve çevresinde yer alır.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) I ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "D) I ve III",
+      "aciklama": "Doğru cevap D şıkkıdır. I. önerme doğrudur çünkü Ege Bölgesi (Denizli, Aydın, Manisa) jeotermal kaynaklar açısından en zengin bölgedir. II. önerme yanlıştır; linyit rezervleri en çok Ege (Kütahya, Manisa) ve Akdeniz (Kahramanmaraş) bölgelerinde yoğunlaşmıştır, İç Anadolu'da ise sınırlıdır. III. önerme doğrudur; taşkömürü havzaları Zonguldak, Bartın ve Kastamonu'yu kapsayan dar bir alanda bulunur. Bu nedenle I ve III doğrudur.",
+      "harita_il": "zonguldak",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574937-H2-7",
+      "soru": "Yukarıdaki Türkiye haritasında I, II ve III numaralı alanlar gösterilmiştir. Bir gemi I nolu limandan (Mersin) hareket ederek III nolu limana (İskenderun) giderken kıyı şeridini takip etmektedir. Bu güzergâh üzerinde aşağıdaki enerji tesislerinden hangisi bulunur?",
+      "siklar": [
+        "A) İstanbul Ataköy Doğalgaz terminali",
+        "B) Aliağa Rafinerisi",
+        "C) Botaş Ceyhan Deniz Terminali",
+        "D) Samsun Bakır İşletmeleri",
+        "E) Zonguldak Taşkömürü limanı"
+      ],
+      "dogru": "C) Botaş Ceyhan Deniz Terminali",
+      "aciklama": "Doğru cevap C şıkkıdır. Haritada Mersin (I) ile İskenderun (III) arasında kalan alan Adana kıyılarını kapsar. Botaş Ceyhan Deniz Terminali bu bölgede, Ceyhan ilçesi kıyısında yer alır. Diğer seçenekler farklı kıyılarda olduğu için gemi bu güzergâhta yalnızca Ceyhan terminaline rastlar. Bu soru, Akdeniz kıyısındaki enerji altyapısını bilmeyi gerektirir.",
+      "harita_il": "mersin",
+      "zorluk": "zor",
+      "gorsel": "madenler-enerji/madenler-enerji-001.svg",
+      "gorsel_veri": {
+        "I": "mersin",
+        "II": "adana",
+        "III": "hatay"
+      }
+    },
+    {
+      "id": "madenler-enerji-1779574937-H2-8",
+      "soru": "Türkiye'de petrol ve doğalgaz üretimiyle ilgili,\nI. En fazla petrol üretimi Batman ilinde yapılmaktadır.\nII. Doğalgaz üretiminin büyük kısmı Trakya bölgesinden sağlanır.\nIII. Petrol rafinerilerinden İzmir Aliağa Rafinerisi Ege Bölgesi'ndedir.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) I ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "D) I ve III",
+      "aciklama": "Doğru cevap D şıkkıdır. I. önerme doğrudur; Türkiye'de en fazla petrol üretimi Batman (Raman, Garzan sahaları) ilinde yapılır. II. önerme yanlıştır; doğalgaz üretimi en çok Güneydoğu Anadolu (Batman, Siirt, Diyarbakır) bölgesinde yoğunlaşmıştır, Trakya'da üretim sınırlıdır. III. önerme doğrudur; Aliağa Rafinerisi İzmir ilinde, Ege Bölgesi'nde yer alır. Bu nedenle I ve III doğrudur.",
+      "harita_il": "batman",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574994-E1-01",
+      "soru": "Türkiye'de termik santrallerde yakıt olarak kullanılan ve en çok linyit rezervine sahip bölge aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Marmara Bölgesi",
+        "B) Ege Bölgesi",
+        "C) Akdeniz Bölgesi",
+        "D) İç Anadolu Bölgesi",
+        "E) Karadeniz Bölgesi"
+      ],
+      "dogru": "B) Ege Bölgesi",
+      "aciklama": "Doğru cevap B şıkkıdır. Türkiye'deki linyit rezervlerinin büyük bir kısmı Ege Bölgesi'nde, özellikle Kütahya-Tavşanlı, Manisa-Soma ve Muğla-Yatağan çevresinde yoğunlaşmıştır. A şıkkı (Marmara) linyit bakımından zengin değildir. C şıkkı (Akdeniz) ve D şıkkı (İç Anadolu) belirli yataklar içerse de Ege Bölgesi kadar yüksek rezerve sahip değildir. E şıkkı (Karadeniz) taşkömürü rezervleriyle öne çıkar, linyit üretiminde ise Ege Bölgesi birincidir.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574994-E1-02",
+      "soru": "Aşağıdaki madenlerden hangisi Türkiye'de en fazla rezerve sahip olan ve dünya rezervinin önemli bir kısmını oluşturan bor minerallerinin çıkarıldığı bölgedir?",
+      "siklar": [
+        "A) Marmara Bölgesi",
+        "B) Ege Bölgesi",
+        "C) İç Anadolu Bölgesi",
+        "D) Doğu Anadolu Bölgesi",
+        "E) Karadeniz Bölgesi"
+      ],
+      "dogru": "C) İç Anadolu Bölgesi",
+      "aciklama": "Doğru cevap C şıkkıdır. Bor mineralleri Türkiye'de en çok İç Anadolu Bölgesi'nde, özellikle Eskişehir-Kırka, Kütahya-Emet ve Balıkesir-Bigadiç çevresinde çıkarılmaktadır. Türkiye, dünya bor rezervlerinin yaklaşık %70'ine sahiptir. A şıkkı (Marmara) bor yatakları içermez. B şıkkı (Ege) ve D şıkkı (Doğu Anadolu) bu maden açısından zengin değildir. E şıkkı (Karadeniz) ise bakır ve çinko gibi cevherlerle öne çıkar.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574994-H2-001",
+      "soru": "Karadeniz kıyısında seyreden bir gemi, aşağıdaki limanlardan hangisinde taşkömürü yüklemesi yapabilir?",
+      "siklar": [
+        "A) Mersin",
+        "B) İzmir",
+        "C) Antalya",
+        "D) Zonguldak",
+        "E) Samsun"
+      ],
+      "dogru": "D) Zonguldak",
+      "aciklama": "Taşkömürü yatakları Türkiye'de yalnızca Zonguldak ve çevresinde (Bartın-Karabük) bulunur. Zonguldak limanı bu kömürün ihracatında ve termik santrallere naklinde kullanılır. Mersin, İzmir, Antalya ve Samsun limanları ise taşkömürü yataklarına sahip değildir. Samsun'da linyit bulunmamakta, diğer limanlar ise farklı maden veya tarım ürünleri ihracatına yöneliktir.",
+      "harita_il": "zonguldak",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574994-H2-002",
+      "soru": "Türkiye'de jeotermal enerji santrallerinin en yoğun olduğu il aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Denizli",
+        "B) İzmir",
+        "C) Aydın",
+        "D) Manisa",
+        "E) Afyonkarahisar"
+      ],
+      "dogru": "A) Denizli",
+      "aciklama": "Denizli, Kızıldere Jeotermal Santrali başta olmak üzere yüksek sıcaklıklı jeotermal kaynaklara sahiptir ve kurulu güç bakımından Türkiye'de ilk sıradadır. Aydın ve Manisa da önemli jeotermal sahalar içerse de Denizli bu alanda en yoğun üretime sahiptir. İzmir'de jeotermal kaynaklar daha düşük sıcaklıklıdır; Afyonkarahisar'da ise jeotermal seracılık yaygındır ancak elektrik üretimi sınırlıdır.",
+      "harita_il": "denizli",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574994-H2-003",
+      "soru": "Türkiye'de linyit yataklarının en geniş alana yayıldığı bölge aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Marmara Bölgesi",
+        "B) Ege Bölgesi",
+        "C) İç Anadolu Bölgesi",
+        "D) Karadeniz Bölgesi",
+        "E) Doğu Anadolu Bölgesi"
+      ],
+      "dogru": "B) Ege Bölgesi",
+      "aciklama": "Ege Bölgesi'nde Manisa (Soma), Kütahya (Tavşanlı), Çanakkale (Çan) ve Afyonkarahisar'da geniş linyit havzaları bulunur. Bu iller Türkiye linyit rezervlerinin büyük kısmını oluşturur. İç Anadolu'da Ankara, Çorum, Sivas; Marmara'da Bursa; Karadeniz'de Kastamonu'da linyit bulunsa da yaygınlık ve rezerv büyüklüğü açısından Ege Bölgesi öndedir.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574994-H2-004",
+      "soru": "Türkiye'de hidroelektrik santrallerinin kurulu gücünün en yüksek olduğu bölge aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Karadeniz Bölgesi",
+        "B) Doğu Anadolu Bölgesi",
+        "C) Güneydoğu Anadolu Bölgesi",
+        "D) Akdeniz Bölgesi",
+        "E) İç Anadolu Bölgesi"
+      ],
+      "dogru": "C) Güneydoğu Anadolu Bölgesi",
+      "aciklama": "Güneydoğu Anadolu Bölgesi, Fırat ve Dicle nehirleri üzerinde inşa edilen Atatürk, Karakaya, Keban, Ilısu gibi büyük barajlarla Türkiye'nin en yüksek hidroelektrik kurulu gücüne sahiptir. Karadeniz Bölgesi'nde Çoruh Havzası'nda çok sayıda santral bulunsa da toplam güç Güneydoğu'nun gerisindedir. Doğu Anadolu'da da barajlar bulunur ancak kurulu güç daha düşüktür.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574994-H2-005",
+      "soru": "Türkiye'de rüzgar enerjisi santrallerinin kurulu güç bakımından en fazla olduğu il aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) İzmir",
+        "B) Balıkesir",
+        "C) Çanakkale",
+        "D) İstanbul",
+        "E) Manisa"
+      ],
+      "dogru": "B) Balıkesir",
+      "aciklama": "Balıkesir, Marmara ve Ege kıyılarında yüksek rüzgar potansiyeli sayesinde rüzgar enerjisi kurulu gücünde Türkiye'de ilk sıradadır. İzmir ve Çanakkale de önemli üreticilerdir ancak Balıkesir'in gücü daha yüksektir. İstanbul'da sınırlı sayıda santral bulunur; Manisa'da rüzgar santrali yok denecek kadar azdır.",
+      "harita_il": "balikesir",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574994-H2-006",
+      "soru": "Türkiye'nin enerji kaynakları ile ilgili olarak,\n\nI. Taşkömürü yatakları Zonguldak ve Bartın'da bulunur.\nII. Linyit yatakları en çok Afyonkarahisar'da çıkarılır.\nIII. Türkiye'deki ilk nükleer santral Mersin'de (Akkuyu) inşa edilmektedir.\n\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız III",
+        "C) I ve II",
+        "D) I ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "D) I ve III",
+      "aciklama": "I. önerme doğrudur; Zonguldak ve Bartın (Amasra havzası) Türkiye'nin taşkömürü yataklarının bulunduğu iki ildir. II. önerme yanlıştır; linyit en çok Manisa (Soma), Kütahya (Tavşanlı) ve Çanakkale'de (Çan) çıkarılır, Afyonkarahisar daha düşük rezerve sahiptir. III. önerme doğrudur; Akkuyu Nükleer Santrali Mersin ilinde inşa halindedir. Bu nedenle doğru cevap I ve III'tür.",
+      "harita_il": null,
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779574994-H2-007",
+      "soru": "Yukarıdaki Türkiye haritasında I, II, III, IV ve V numaralı alanlar gösterilmiştir.\n\nBu alanlardan hangisi, hem önemli linyit yataklarına hem de büyük ölçekli bir hidroelektrik santraline ev sahipliği yapmaktadır?",
+      "siklar": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV",
+        "E) V"
+      ],
+      "dogru": "C) III",
+      "aciklama": "Haritada III numaralı alan Sivas ilini göstermektedir. Sivas, Kangal linyit havzası ile önemli linyit rezervlerine sahiptir ve Kangal Termik Santrali bu kaynağı kullanır. Ayrıca Kızılırmak Nehri üzerinde inşa edilen barajlar (Karaören, Yamula gibi) hidroelektrik üretimi sağlar. I numaralı alan (Manisa) linyit bakımından zengindir ancak büyük HES barındırmaz. II (Adana), IV (Zonguldak) ve V (Şanlıurfa) alanları ise bu iki özelliği birlikte taşımaz.",
+      "harita_il": "sivas",
+      "zorluk": "zor",
+      "gorsel": "madenler-enerji/madenler-enerji-1779574994-H2-007.svg",
+      "gorsel_veri": {
+        "I": "manisa",
+        "II": "adana",
+        "III": "sivas",
+        "IV": "zonguldak",
+        "V": "sanliurfa"
+      }
+    },
+    {
+      "id": "madenler-enerji-1779574994-H2-008",
+      "soru": "Türkiye'nin enerji stratejisi ile ilgili,\n\nI. Türkiye'nin ilk nükleer santrali Akkuyu, Mersin ilinde inşa edilmektedir.\nII. Türkiye'de petrol rafinerilerinin tamamı kıyı kesimlerde kurulmuştur.\nIII. Doğalgaz iletim hatlarının en önemli güzergâhlarından biri Rusya-Türkiye arasındaki Mavi Akım hattıdır.\n\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) I ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "D) I ve III",
+      "aciklama": "I. önerme doğrudur; Akkuyu NGS Mersin'de yapılmaktadır. II. önerme yanlıştır; Batman rafinerisi iç kesimde, Kırıkkale rafinerisi İç Anadolu'da yer alır, kıyıdakiler İzmit, İzmir, Kırıklareli rafinerileridir ancak hepsi kıyıda değildir. III. önerme doğrudur; Mavi Akım doğalgaz boru hattı Rusya'dan Karadeniz üzerinden Türkiye'ye gaz ulaştırır. Bu nedenle doğru cevap I ve III'tür.",
+      "harita_il": null,
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575072-E1",
+      "soru": "Türkiye'de termik santrallerde yakıt olarak kullanılan ve en çok linyit rezervine sahip bölge aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Marmara Bölgesi",
+        "B) Ege Bölgesi",
+        "C) Doğu Anadolu Bölgesi",
+        "D) İç Anadolu Bölgesi",
+        "E) Akdeniz Bölgesi"
+      ],
+      "dogru": "B) Ege Bölgesi",
+      "aciklama": "Doğru cevap Ege Bölgesi'dir çünkü Türkiye'deki linyit rezervlerinin yaklaşık %40'ı Ege Bölgesi'nde yer alır. Özellikle Kütahya-Tavşanlı, Manisa-Soma ve Muğla-Yatağan havzaları en büyük linyit yataklarını oluşturur. A şıkkındaki Marmara Bölgesi'nde taşkömürü yoğunlaşmıştır, linyit rezervi sınırlıdır. C şıkkındaki Doğu Anadolu Bölgesi'nde ise linyit yatakları bulunmakla birlikte rezerv bakımından Ege Bölgesi'nin gerisindedir. D ve E şıklarındaki İç Anadolu ve Akdeniz bölgelerinde linyit varlığı daha düşük seviyededir.",
+      "harita_il": "kutahya",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575072-E2",
+      "soru": "Türkiye'de demir-çelik sanayisinde kullanılan taşkömürü rezervleri en fazla hangi ilimizde bulunur?",
+      "siklar": [
+        "A) Zonguldak",
+        "B) Bartın",
+        "C) Karabük",
+        "D) Kastamonu",
+        "E) Bolu"
+      ],
+      "dogru": "A) Zonguldak",
+      "aciklama": "Doğru cevap Zonguldak'tır çünkü Türkiye'deki taşkömürü rezervlerinin tamamına yakını Zonguldak ve çevresinde yer alır. Türkiye Taşkömürü Kurumu (TTK) bu bölgede faaliyet göstermektedir. B şıkkındaki Bartın'da taşkömürü yatakları bulunsa da Zonguldak kadar zengin değildir. C şıkkındaki Karabük'te demir-çelik fabrikası olmasına rağmen taşkömürü rezervi yoktur; bu fabrika Zonguldak'tan kömür temin eder. D ve E şıklarındaki Kastamonu ve Bolu illerinde ise önemli taşkömürü yatakları bulunmamaktadır.",
+      "harita_il": "zonguldak",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575072-H2-001",
+      "soru": "Türkiye'de linyit rezervleri bakımından ilk sırada yer alan il aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Manisa",
+        "B) Kütahya",
+        "C) Soma",
+        "D) Çanakkale",
+        "E) Elbistan"
+      ],
+      "dogru": "D) Çanakkale",
+      "aciklama": "Doğru cevap D şıkkıdır. Türkiye linyit rezervlerinin büyük kısmı Afşin-Elbistan havzasında (Kahramanmaraş) ve Çanakkale'de bulunur. Ancak en büyük rezerv Çanakkale-Çan bölgesinde yer alır. A) Manisa (Soma) önemli bir linyit bölgesidir ama rezerv büyüklüğünde Çanakkale'den sonra gelir. B) Kütahya (Tavşanlı) da linyit üretir ancak ilk sırada değildir. C) Soma bir ilçedir, il değildir. E) Elbistan (Kahramanmaraş) büyük rezerve sahiptir, ancak Çanakkale daha fazla rezerve sahiptir.",
+      "harita_il": "canakkale",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575072-H2-002",
+      "soru": "Türkiye'de taşkömürü çıkarılan tek bölge olan Zonguldak'ta kömürün oluşumu hangi jeolojik zamanda gerçekleşmiştir?",
+      "siklar": [
+        "A) Paleozoyik (I. Zaman)",
+        "B) Mezozoyik (II. Zaman)",
+        "C) Tersiyer (III. Zaman)",
+        "D) Kuvaterner (IV. Zaman)",
+        "E) Prekambriyen"
+      ],
+      "dogru": "A) Paleozoyik (I. Zaman)",
+      "aciklama": "Doğru cevap A şıkkıdır. Taşkömürü yatakları Paleozoyik (I. Zaman) döneminde oluşmuştur. Türkiye'deki tek taşkömürü havzası Zonguldak'ta bulunur ve bu kömürler Karbonifer dönemine aittir. B) Mezozoyik döneminde daha çok jips, tuz gibi evaporitler oluşur. C) Tersiyer dönemi linyit kömürlerinin oluştuğu dönemdir. D) Kuvaterner turba ve genç tortulların oluştuğu dönemdir. E) Prekambriyen Türkiye'de kömür oluşumu için uygun değildir.",
+      "harita_il": "zonguldak",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575072-H2-003",
+      "soru": "Aşağıdaki illerden hangisi krom yatakları bakımından daha zengindir?",
+      "siklar": [
+        "A) Eskişehir",
+        "B) Elazığ",
+        "C) Muğla",
+        "D) Bursa",
+        "E) Ankara"
+      ],
+      "dogru": "C) Muğla",
+      "aciklama": "Doğru cevap C şıkkıdır. Türkiye'de krom yatakları en çok Muğla (Fethiye, Köyceğiz), Denizli, Erzincan ve Kayseri civarında bulunur. Özellikle Muğla çevresi krom rezervleriyle öne çıkar. A) Eskişehir daha çok bor ve mermer yataklarıyla bilinir. B) Elazığ demir yatakları (Divriği) ile ünlüdür. D) Bursa'da krom önemli ölçüde çıkarılmaz. E) Ankara çevresinde linyit ve tuz yatakları vardır.",
+      "harita_il": "mugla",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575072-H2-004",
+      "soru": "Türkiye'de petrol ve doğal gaz arama ve çıkarma faaliyetleri aşağıdaki şirketlerden hangisi tarafından yürütülmektedir?",
+      "siklar": [
+        "A) BOTAŞ",
+        "B) TPAO",
+        "C) MTA",
+        "D) EÜAŞ",
+        "E) TEİAŞ"
+      ],
+      "dogru": "B) TPAO",
+      "aciklama": "Doğru cevap B şıkkıdır. Türkiye Petrolleri Anonim Ortaklığı (TPAO) petrol ve doğal gaz arama, sondaj ve üretim faaliyetlerini yürüten kamu kuruluşudur. A) BOTAŞ boru hatları ile petrol ve doğal gaz taşımacılığından sorumludur. C) MTA maden ve jeolojik araştırmalar yapar. D) EÜAŞ elektrik üretiminden sorumludur. E) TEİAŞ elektrik iletiminden sorumludur.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575072-H2-005",
+      "soru": "Türkiye'de bir gemi İskenderun Limanı'ndan yola çıkarak kıyı şeridini takip edip Batı limanlarına doğru seyretmektedir. Gemi yolculuğu sırasında aşağıdaki limanlardan hangisine uğraması beklenmez?",
+      "siklar": [
+        "A) Mersin Limanı",
+        "B) Alanya Limanı",
+        "C) Antalya Limanı",
+        "D) Fethiye Limanı",
+        "E) İzmir Limanı"
+      ],
+      "dogru": "B) Alanya Limanı",
+      "aciklama": "Doğru cevap B şıkkıdır. İskenderun'dan batıya doğru giden bir gemi sırasıyla Mersin, Antalya (Kemer/Eski liman bölgesi) ardından Fethiye ve İzmir limanlarına uğrayabilir. Alanya'da uluslararası büyük bir liman değil, küçük bir balıkçı barınağı bulunur; bu nedenle ticari gemi rotasında Alanya Limanı bulunmaz. Mersin, Antalya, Fethiye ve İzmir önemli liman kentleridir.",
+      "harita_il": "mersin",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575072-H2-006",
+      "soru": "Aşağıdaki maden-çıkarıldığı il eşleştirmelerinden hangisi yanlıştır?",
+      "siklar": [
+        "A) Bor - Kütahya",
+        "B) Linyit - Manisa",
+        "C) Demir - Sivas",
+        "D) Bakır - Artvin",
+        "E) Cıva - İzmir"
+      ],
+      "dogru": "E) Cıva - İzmir",
+      "aciklama": "Doğru cevap E şıkkıdır. Türkiye'de cıva yatakları en çok (Ödemiş) İzmir ve Konya bölgesinde bulunur, ancak İzmir doğru bir eşleştirme gibi görünse de en önemli cıva yatakları Niğde (Ulukışla) ve Tokat'ta da vardır. ÖSYM'de sıklıkla cıva-Niğde ilişkisi sorulur. Bu soruda diğer eşleştirmeler doğrudur: Bor Kütahya (Emet), linyit Manisa (Soma), demir Sivas (Divriği), bakır Artvin (Murgul).",
+      "harita_il": "nigde",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575072-H2-007",
+      "soru": "Türkiye'deki enerji kaynakları ile ilgili,\n\nI. Hidroelektrik potansiyeli en yüksek bölge Doğu Anadolu Bölgesi'dir.\nII. Rüzgâr enerjisi potansiyeli en fazla olan bölge Marmara Bölgesi'dir.\nIII. Jeotermal enerji kaynakları bakımından en zengin il İzmir'dir.\n\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "Doğru cevap C şıkkıdır. I. öncül doğrudur: Doğu Anadolu Bölgesi, yüksek dağlar ve derin vadiler sayesinde en fazla hidroelektrik potansiyeline sahiptir (Fırat, Dicle havzaları). II. öncül doğrudur: Rüzgâr enerjisi potansiyeli en yüksek bölge Marmara'dır (Balıkesir, Çanakkale, Edirne). III. öncül yanlıştır: Jeotermal enerji kaynakları en zengin il Aydın'dır (Germencik, Sultanhisar) ve ikinci sırada Denizli (Kızıldere) gelir; İzmir üçüncü sıradadır.",
+      "harita_il": null,
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575072-H2-008",
+      "soru": "Yukarıdaki Türkiye haritasında I, II, III ve IV numaralı alanlar işaretlenmiştir. Bu alanlardan hangilerinde termik santral yoğunluğunun daha fazla olması beklenir?\n\nI. Zonguldak\nII. Afyonkarahisar\nIII. Kahramanmaraş\nIV. Denizli",
+      "siklar": [
+        "A) I ve II",
+        "B) II ve III",
+        "C) III ve IV",
+        "D) I ve III",
+        "E) II ve IV"
+      ],
+      "dogru": "D) I ve III",
+      "aciklama": "Doğru cevap D şıkkıdır. Termik santraller genellikle kömür yataklarının bulunduğu bölgelere kurulur. I. Zonguldak taşkömürü havzasına sahiptir ve burada termik santraller (Çatalağzı) bulunur. III. Kahramanmaraş (Afşin-Elbistan) linyit yatakları ile termik santral bölgesidir. II. Afyonkarahisar'da önemli bir kömür havzası yoktur (jeotermal var). IV. Denizli'de jeotermal enerji yaygındır, termik santral bulunmaz. Bu nedenle termik santral yoğunluğu I ve III numaralı alanlarda daha fazladır.",
+      "harita_il": null,
+      "zorluk": "zor",
+      "gorsel": "madenler-enerji/madenler-enerji-1779575072-H2-008.svg",
+      "gorsel_veri": {
+        "I": "zonguldak",
+        "II": "afyonkarahisar",
+        "III": "kahramanmaras",
+        "IV": "denizli"
+      }
+    },
+    {
+      "id": "madenler-enerji-1779575585-E1",
+      "soru": "Türkiye'de taşkömürü yataklarının en yaygın olduğu bölge aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Marmara Bölgesi",
+        "B) Ege Bölgesi",
+        "C) Karadeniz Bölgesi",
+        "D) İç Anadolu Bölgesi",
+        "E) Doğu Anadolu Bölgesi"
+      ],
+      "dogru": "C) Karadeniz Bölgesi",
+      "aciklama": "Doğru cevap C şıkkıdır. Türkiye'de taşkömürü yatakları, I. Jeolojik Zaman'da (Paleozoik) oluşmuş olup en zengin rezervler Karadeniz Bölgesi'nde, özellikle Zonguldak ve çevresinde bulunur. A şıkkındaki Marmara Bölgesi'nde taşkömürü yoktur; burada linyit yatakları mevcuttur. B şıkkındaki Ege Bölgesi linyit rezervleriyle öne çıkar. D şıkkındaki İç Anadolu Bölgesi'nde taşkömürü bulunmaz. E şıkkındaki Doğu Anadolu Bölgesi'nde ise taşkömürü yatakları yoktur, linyit ve asfaltit gibi kaynaklar vardır. Taşkömürü, yüksek kalorili bir fosil yakıttır ve Türkiye'nin enerji üretiminde önemli bir yere sahiptir.",
+      "harita_il": "zonguldak",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575585-E2",
+      "soru": "Türkiye'de jeotermal enerji santrallerinin en yoğun olduğu il aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) İzmir",
+        "B) Denizli",
+        "C) Manisa",
+        "D) Aydın",
+        "E) Afyonkarahisar"
+      ],
+      "dogru": "D) Aydın",
+      "aciklama": "Doğru cevap D şıkkıdır. Türkiye'de jeotermal enerji santralleri en fazla Aydın ilinde bulunmaktadır. Aydın, Büyük Menderes Grabeni içinde yer alan zengin jeotermal kaynaklara sahiptir ve burada birçok jeotermal enerji santrali faaliyet göstermektedir. A şıkkındaki İzmir'de jeotermal kaynaklar bulunmakla birlikte santral yoğunluğu daha düşüktür. B şıkkındaki Denizli'de (Kızıldere) önemli jeotermal sahalar vardır ancak Aydın kadar fazla santral bulunmaz. C şıkkındaki Manisa'da jeotermal kaynaklar sınırlıdır. E şıkkındaki Afyonkarahisar'da jeotermal kaynaklar mevcut olsa da enerji üretimi Aydın'a kıyasla daha azdır. Jeotermal enerji, yenilenebilir enerji kaynakları arasında yer alır ve Türkiye bu alanda dünyada önemli bir potansiyele sahiptir.",
+      "harita_il": "aydin",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575585-H1",
+      "soru": "Türkiye'de bor madeni ile ilgili,\nI. Dünya bor rezervlerinin yaklaşık %70'i Türkiye'de bulunur.\nII. Bor madeni enerji üretiminde yakıt olarak kullanılır.\nIII. Bor yatakları en çok Eskişehir, Kütahya ve Balıkesir'de yer alır.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) I ve III",
+        "E) II ve III"
+      ],
+      "dogru": "D) I ve III",
+      "aciklama": "Doğru cevap D şıkkıdır. Bor madeni enerji yakıtı olarak kullanılmaz; cam, seramik, deterjan, savunma sanayi ve nükleer teknoloji gibi alanlarda hammadde olarak değerlendirilir. Bu nedenle II. önerme yanlıştır. I ve III önermeleri ise doğrudur. Dünya bor rezervinin yaklaşık yüzde 70'i Türkiye'de bulunmakta ve başlıca yataklar Eskişehir (Seyitgazi), Kütahya (Emet) ve Balıkesir (Bigadiç) illerinde yer almaktadır. Bor ülkemiz için stratejik öneme sahip bir madendir.",
+      "harita_il": "eskisehir",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575585-H2",
+      "soru": "Türkiye'de taşkömürü ve linyitle ilgili,\nI. Taşkömürü yatakları Zonguldak ve Bartın çevresinde bulunur.\nII. Linyitin kalorifik değeri taşkömüründen yüksektir.\nIII. Linyit daha çok termik santrallerde kullanılır.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız III",
+        "C) I ve II",
+        "D) I ve III",
+        "E) II ve III"
+      ],
+      "dogru": "D) I ve III",
+      "aciklama": "Doğru cevap D şıkkıdır. Taşkömürü yatakları Zonguldak ve Bartın'da bulunur. Linyitin kalorifik değeri taşkömürüne göre düşüktür. Linyit ülkemizde termik santrallerde elektrik üretiminde yaygın olarak kullanılmaktadır. Bu nedenle I ve III doğru, II yanlıştır. Linyit yatakları Afyon, Kütahya, Manisa, Sivas gibi illerde yaygındır ve düşük kalorili olmasına rağmen bol rezervi sayesinde enerji üretiminde önemli bir paya sahiptir.",
+      "harita_il": "zonguldak",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575585-H3",
+      "soru": "Türkiye'de jeotermal enerji potansiyeli en fazla olan il aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Manisa",
+        "B) Denizli",
+        "C) İzmir",
+        "D) Afyonkarahisar",
+        "E) Aydın"
+      ],
+      "dogru": "B) Denizli",
+      "aciklama": "Doğru cevap B şıkkıdır. Türkiye jeotermal enerji potansiyeli bakımından dünyada 7. sırada yer almaktadır. Denizli (Kızıldere) yüksek sıcaklık ve kapasiteye sahip jeotermal sahalarıyla öne çıkar. Manisa, İzmir, Afyon ve Aydın'da da önemli jeotermal kaynaklar bulunmakla birlikte en yüksek potansiyel Denizli'ye aittir.",
+      "harita_il": "denizli",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575585-H4",
+      "soru": "Türkiye'de petrol ve doğal gaz ile ilgili,\nI. Petrol üretiminde Batman ili ilk sırada yer alır.\nII. Doğal gaz rezervlerinin büyük kısmı Karadeniz'de keşfedilmiştir.\nIII. Trakya'da petrol üretimi yapılamamaktadır.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız III",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "Doğru cevap C şıkkıdır. Türkiye'nin en önemli petrol sahası Batman'dır. 2020'den itibaren Karadeniz'de Sakarya Gaz Sahası'nda büyük doğal gaz keşifleri yapılmıştır. Trakya'da (Kırklareli) da sınırlı miktarda petrol üretimi mevcuttur, bu nedenle III. önerme yanlıştır. Petrol üretiminin yanı sıra doğal gaz arama faaliyetleri de hızla devam etmektedir.",
+      "harita_il": "batman",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575585-H5",
+      "soru": "Aşağıda verilen maden-çıkarıldığı il eşleşmelerinden hangisi yanlıştır?",
+      "siklar": [
+        "A) Linyit – Manisa",
+        "B) Demir – Sivas",
+        "C) Bor – Balıkesir",
+        "D) Bakır – Artvin",
+        "E) Kükürt – İzmir"
+      ],
+      "dogru": "E) Kükürt – İzmir",
+      "aciklama": "Doğru cevap E şıkkıdır. Linyit Manisa'da (Soma), demir Sivas'ta (Divriği), bor Balıkesir'de (Bigadiç), bakır Artvin'de (Murgul) çıkarılmaktadır. Kükürt yatakları ise Isparta (Keçiborlu) ve Muğla'da bulunur; İzmir'de kükürt üretimi yoktur. Bu nedenle E şıkkı yanlıştır.",
+      "harita_il": "izmir",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575585-H6",
+      "soru": "Yukarıdaki Türkiye haritasında I, II, III, IV ve V numaralı alanlar gösterilmiştir.\nBu alanlarla ilgili,\nI. I numaralı alanda taşkömürü üretimi yapılmaktadır.\nII. II numaralı alan Türkiye'nin önemli petrol üretim sahalarındandır.\nIII. III numaralı alan jeotermal enerji kaynakları bakımından zengindir.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız III",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "E) I, II ve III",
+      "aciklama": "Doğru cevap E şıkkıdır. Haritada I numaralı alan Zonguldak çevresidir ve taşkömürü üretimi yapılır. II numaralı alan Batman ve çevresini kapsar, bu bölge Türkiye'nin en önemli petrol sahasıdır. III numaralı alan Denizli yöresidir ve Kızıldere jeotermal sahasına ev sahipliği yapar. IV numaralı alan Eskişehir bor yataklarını, V numaralı alan ise Artvin bakır madenini temsil etmektedir. Bu nedenle I, II ve III önermelerinin tamamı doğrudur.",
+      "harita_il": null,
+      "zorluk": "zor",
+      "gorsel": "madenler-enerji/madenler-enerji-1779575585-H6.svg",
+      "gorsel_veri": {
+        "I": "zonguldak",
+        "II": "batman",
+        "III": "denizli",
+        "IV": "eskisehir",
+        "V": "artvin"
+      }
+    },
+    {
+      "id": "madenler-enerji-1779575585-H7",
+      "soru": "Türkiye'de enerji kaynaklarının dağılımı ile ilgili,\nI. Rüzgar enerjisi santralleri en çok Marmara ve Ege kıyılarında yoğunlaşmıştır.\nII. Hidroelektrik santrallerin büyük kısmı Doğu Anadolu ve Karadeniz bölgelerinde yer alır.\nIII. Güneş enerjisi potansiyeli en yüksek bölge Karadeniz'dir.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız III",
+        "C) I ve II",
+        "D) I ve III",
+        "E) II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "Doğru cevap C şıkkıdır. Rüzgar enerjisi potansiyeli en yüksek bölgeler Marmara ve Ege kıyılarıdır. Hidroelektrik potansiyel ise engebeli ve akarsu bakımından zengin olan Doğu Anadolu ile Karadeniz'de yoğundur. Güneş enerjisi potansiyeli en yüksek bölgeler Güneydoğu Anadolu ve Akdeniz'dir; Karadeniz'de bulutluluk oranı yüksek olduğundan potansiyel düşüktür. Dolayısıyla I ve II doğru, III yanlıştır.",
+      "harita_il": null,
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575585-H8",
+      "soru": "Türkiye'de bor madeninin işlenmesi sırasında ortaya çıkan atıkların çevreye verdiği zararın azaltılması amacıyla aşağıdakilerden hangisi yapılmalıdır?",
+      "siklar": [
+        "A) Bor üretiminin durdurulması",
+        "B) Atıkların denize boşaltılması",
+        "C) Geri dönüşüm ve arıtma tesislerinin kurulması",
+        "D) Bor madeninin yurt dışına satılması",
+        "E) Alternatif maden arayışına gidilmesi"
+      ],
+      "dogru": "C) Geri dönüşüm ve arıtma tesislerinin kurulması",
+      "aciklama": "Doğru cevap C şıkkıdır. Bor işleme tesislerinden çıkan atıklar (borlu killer, flotasyon atıkları) çevre kirliliğine yol açmaktadır. Bu sorunun çözümü için atıkların geri dönüştürülmesi ve arıtma tesislerinin kurulması en uygun yöntemdir. Üretimin durdurulması veya atıkların denize boşaltılması sürdürülebilir değildir. Yurt dışına satış veya alternatif maden arayışı doğrudan atık sorununu çözmez. Bu nedenle en etkili çözüm geri dönüşüm ve arıtmadır.",
+      "harita_il": "eskisehir",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575667-E1",
+      "soru": "Türkiye'de taş kömürü yataklarının en yaygın olduğu bölge aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Marmara Bölgesi",
+        "B) Ege Bölgesi",
+        "C) Karadeniz Bölgesi",
+        "D) İç Anadolu Bölgesi",
+        "E) Akdeniz Bölgesi"
+      ],
+      "dogru": "C) Karadeniz Bölgesi",
+      "aciklama": "C şıkkı doğrudur çünkü Türkiye'deki taş kömürü rezervlerinin neredeyse tamamı Zonguldak ve çevresinde, yani Karadeniz Bölgesi'nde bulunmaktadır. A şıkkı yanlıştır çünkü Marmara Bölgesi'nde taş kömürü yatakları yoktur; bu bölgede linyit ve bor yatakları öne çıkar. B şıkkı yanlıştır zira Ege Bölgesi linyit ve mermer gibi madenlerle bilinir. D şıkkı yanlıştır; İç Anadolu Bölgesi'nde tuz, jips ve linyit bulunur ancak taş kömürü yoktur. E şıkkı yanlıştır; Akdeniz Bölgesi'nde krom, demir ve linyit yatakları mevcuttur, taş kömürü yoktur.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575667-E2",
+      "soru": "Türkiye'de elektrik enerjisi üretiminde kullanılan akarsuların debisinin en yüksek olduğu mevsim aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) İlkbahar",
+        "B) Yaz",
+        "C) Sonbahar",
+        "D) Kış",
+        "E) Tüm mevsimler eşit"
+      ],
+      "dogru": "A) İlkbahar",
+      "aciklama": "A şıkkı doğrudur çünkü Türkiye'de akarsuların debisi, karların erimesi ve yağışların artmasıyla birlikte ilkbahar aylarında en yüksek seviyeye ulaşır. Bu dönem, hidroelektrik santrallerin en verimli çalıştığı zaman dilimidir. B şıkkı yanlıştır; yaz mevsimi kurak geçtiği için akarsu debileri düşer. C şıkkı yanlıştır; sonbaharda yağışlar başlasa da debi ilkbahar kadar yüksek değildir. D şıkkı yanlıştır; kış aylarında yağışlar kar şeklinde olduğu için akarsu debisi düşük kalır. E şıkkı yanlıştır; mevsimler arasında debi açısından belirgin fark vardır.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575667-H1",
+      "soru": "Türkiye'de bor madeni en yaygın olarak hangi bölgede çıkarılır?",
+      "siklar": [
+        "A) Marmara",
+        "B) Ege",
+        "C) İç Anadolu",
+        "D) Karadeniz",
+        "E) Akdeniz"
+      ],
+      "dogru": "B) Ege",
+      "aciklama": "B şıkkı doğrudur çünkü Türkiye dünya bor rezervlerinin %73'üne sahiptir ve başlıca bor yatakları Ege Bölgesi'nde (Eskişehir, Kütahya, Balıkesir) bulunur. A şıkkı yanlıştır, Marmara'da önemli bor yatağı yoktur. C şıkkı yanlıştır, İç Anadolu'da bor çıkarımı sınırlıdır. D şıkkı yanlıştır, Karadeniz Bölgesi bor rezervi bakımından fakirdir. E şıkkı yanlıştır, Akdeniz Bölgesi'nde bor madenciliği gelişmemiştir. Genel kural olarak Türkiye'de bor madeni ağırlıklı olarak Ege Bölgesi'ndeki Neojen göllerinde oluşmuştur.",
+      "harita_il": "kutahya",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575667-H2",
+      "soru": "Taşkömürü ile linyit karşılaştırıldığında, aşağıdakilerden hangisi yalnızca taşkömürü için söylenebilir?",
+      "siklar": [
+        "A) Daha düşük kalorilidir",
+        "B) 3. Jeolojik dönemde oluşmuştur",
+        "C) Termik santrallerde yakıt olarak kullanılır",
+        "D) Yalnızca Zonguldak ve çevresinde çıkarılır",
+        "E) Daha genç yaştadır"
+      ],
+      "dogru": "D) Yalnızca Zonguldak ve çevresinde çıkarılır",
+      "aciklama": "D şıkkı doğrudur çünkü taşkömürü Türkiye'de yalnızca Zonguldak havzasında (Zonguldak, Bartın, Karabük) çıkarılır. A şıkkı yanlıştır, taşkömürü linyite göre daha yüksek kalorilidir. B şıkkı yanlıştır, taşkömürü 1. Jeolojik dönemde, linyit 3. dönemde oluşmuştur. C şıkkı her ikisi için de geçerlidir. E şıkkı yanlıştır, taşkömürü daha yaşlıdır. Bu fark oluşum yaşı ve metamorfizma derecesinden kaynaklanır.",
+      "harita_il": "zonguldak",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575667-H3",
+      "soru": "Türkiye'de hidroelektrik santrallerinin en yoğun olduğu bölge Doğu Anadolu'dur. Bu durum aşağıdakilerden hangisinin sonucudur?",
+      "siklar": [
+        "A) En fazla yağış alan bölge olması",
+        "B) Yer altı kaynaklarının zengin olması",
+        "C) Yükselti ve engebenin fazla olması",
+        "D) Nüfus yoğunluğunun az olması",
+        "E) Sanayinin gelişmiş olması"
+      ],
+      "dogru": "C) Yükselti ve engebenin fazla olması",
+      "aciklama": "C şıkkı doğrudur çünkü hidroelektrik santraller için su düşüş yüksekliği (potansiyel enerji) ve debi önemlidir. Doğu Anadolu'da yükseltinin fazla olması ve akarsuların derin vadilerden akması bu potansiyeli artırır. A şıkkı yanlıştır, en fazla yağış Karadeniz Bölgesi'nde düşer. B şıkkı ilgisizdir. D şıkkı nüfus azlığı santral yapımını kolaylaştırsa da temel neden değildir. E şıkkı yanlıştır, sanayi gelişmemiştir. Bu nedenle yükselti ve engebe en belirleyici faktördür.",
+      "harita_il": "van",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575667-H4",
+      "soru": "Türkiye'deki enerji kaynaklarıyla ilgili olarak,\nI. Jeotermal enerji en çok İç Anadolu Bölgesi'nde kullanılır.\nII. Rüzgar enerjisi santralleri en fazla Ege Bölgesi'nde bulunur.\nIII. Güneş enerjisi potansiyelinde Akdeniz Bölgesi ilk sıradadır.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) I ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "B) Yalnız II",
+      "aciklama": "B şıkkı doğrudur, yalnızca II. öncül doğrudur. I yanlıştır çünkü jeotermal enerji en çok Ege Bölgesi'nde (Denizli, Aydın, Manisa) kullanılır. III yanlıştır, güneş enerjisi potansiyeli en yüksek bölge Güneydoğu Anadolu (GAP) ve Akdeniz değildir. II doğrudur, rüzgar enerjisi santralleri Ege kıyılarında (İzmir, Balıkesir, Çanakkale) yoğunlaşmıştır. Jeotermal kaynaklar Ege'deki graben alanlarında yüzeye çıkar, rüzgar ise kıyılardaki yüksek hızlardan yararlanır.",
+      "harita_il": "izmir",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575667-H5",
+      "soru": "Türkiye'de petrol rafinerilerinin en yoğun olduğu bölge aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Marmara",
+        "B) Ege",
+        "C) Akdeniz",
+        "D) Karadeniz",
+        "E) Güneydoğu Anadolu"
+      ],
+      "dogru": "E) Güneydoğu Anadolu",
+      "aciklama": "E şıkkı doğrudur çünkü Türkiye'deki petrol rezervleri ağırlıklı olarak Güneydoğu Anadolu Bölgesi'nde (Batman, Diyarbakır, Adıyaman) bulunur ve burada Batman, Diyarbakır rafinerileri faaliyet gösterir. A şıkkı yanlıştır, Marmara'da Kocaeli'de rafineri olsa da ham petrol üretimi yoktur. B şıkkı yanlıştır, Ege'de petrol yoktur. C şıkkı yanlıştır, Akdeniz'de Mersin rafinerisi ithal petrole dayalıdır. D şıkkı yanlıştır, Karadeniz'de petrol üretimi bulunmamaktadır. Bu nedenle Güneydoğu Anadolu ham petrol üretiminin merkezidir.",
+      "harita_il": "batman",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575667-H6",
+      "soru": "Aşağıdaki illerden hangisi Türkiye'nin önemli demir-çelik sanayi merkezlerinden biri değildir?",
+      "siklar": [
+        "A) Karabük",
+        "B) Zonguldak",
+        "C) Hatay",
+        "D) Sivas",
+        "E) Kayseri"
+      ],
+      "dogru": "E) Kayseri",
+      "aciklama": "E şıkkı doğrudur, Kayseri'de demir-çelik tesisi bulunmamaktadır. A şıkkı Karabük Demir Çelik İşletmesi ile önemli bir merkezdir. B şıkkı Zonguldak (Ereğli) Erdemir ile öne çıkar. C şıkkı Hatay (İskenderun) İsdemir ile büyük bir üretim merkezidir. D şıkkı Sivas'ta Divriği demir madeni olmasına rağmen entegre tesis yoktur, ancak demir cevheri üretimi açısından önemlidir. Kayseri ise ne demir cevheri üretimi ne de demir-çelik fabrikasına sahiptir. Bu nedenle Kayseri listede yer almaz.",
+      "harita_il": "kayseri",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575667-H7",
+      "soru": "Türkiye'deki madenlerle ilgili aşağıdaki ifadelerden hangileri doğrudur?\nI. Krom yatakları en çok Elazığ ve çevresinde bulunur.\nII. Bakır madeni en fazla Murgul (Artvin) ve Küre (Kastamonu)'de çıkarılır.\nIII. Demir cevheri en çok Malatya (Hekimhan) ve Sivas (Divriği)'da çıkarılır.",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) I ve III",
+        "E) II ve III"
+      ],
+      "dogru": "E) II ve III",
+      "aciklama": "E şıkkı doğrudur, II ve III. öncüller doğrudur. I yanlıştır çünkü krom yatakları Elazığ (Guleman) ve Muğla (Fethiye) olmak üzere iki ana bölgede yoğunlaşmıştır. II doğrudur, bakır madeni Artvin Murgul ve Kastamonu Küre'de işletilir. III doğrudur, demir cevheri üretimi Malatya Hekimhan ve Sivas Divriği'de yoğunlaşmıştır. Murgul ve Küre Türkiye'nin en büyük bakır yataklarıdır. Divriği demiri ise yüksek tenörlü olup Karabük ve Ereğli'ye gönderilir.",
+      "harita_il": "artvin",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575667-H8",
+      "soru": "Bir araştırmacı, Türkiye'de kurulacak bir termik santral için en uygun yeri belirlemektedir. Santralin kömür yakıtlı olması ve yakıtın yerli kaynaklardan sağlanması planlandığına göre, aşağıdaki illerden hangisi bu santral için daha uygundur?",
+      "siklar": [
+        "A) İstanbul",
+        "B) Muğla",
+        "C) Ankara",
+        "D) İzmir",
+        "E) Trabzon"
+      ],
+      "dogru": "B) Muğla",
+      "aciklama": "B şıkkı doğrudur çünkü Muğla'da Yatağan, Milas ve Yeniköy'de önemli linyit yatakları bulunur ve bu yataklar termik santrallerle işletilmektedir. A şıkkı yanlıştır, İstanbul'da yerli kömür rezervi yoktur. C şıkkı yanlıştır, Ankara'da linyit yoktur. D şıkkı yanlıştır, İzmir çevresinde önemli kömür sahası bulunmamaktadır. E şıkkı yanlıştır, Trabzon'da taşkömürü veya linyit rezervi mevcut değildir. Bu nedenle yerli kömüre dayalı termik santral için Muğla en uygun ildir.",
+      "harita_il": "mugla",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575724-E1",
+      "soru": "Türkiye'de taş kömürü yataklarının en yaygın olduğu bölge aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Marmara Bölgesi",
+        "B) Ege Bölgesi",
+        "C) Karadeniz Bölgesi",
+        "D) İç Anadolu Bölgesi",
+        "E) Doğu Anadolu Bölgesi"
+      ],
+      "dogru": "C) Karadeniz Bölgesi",
+      "aciklama": "C şıkkı doğrudur çünkü Türkiye'deki taş kömürü yatakları büyük ölçüde Zonguldak ve çevresinde, yani Karadeniz Bölgesi'nde yer almaktadır. Taş kömürü, karbonifer döneminde oluşmuş ve Türkiye'deki en önemli rezervleri Zonguldak, Bartın ve Kastamonu illerini kapsayan havzada bulunmaktadır. A şıkkı yanlıştır; Marmara Bölgesi'nde taş kömürü yatakları yok denecek kadar azdır. B, D ve E şıkları da yanlıştır; bu bölgelerde linyit yatakları yaygın olmakla birlikte taş kömürü rezervi bulunmamaktadır. Genel kural olarak taş kömürü, birinci jeolojik zamanın karbonifer döneminde oluşmuş ve Türkiye'de yalnızca Karadeniz Bölgesi'nde ekonomik anlamda işletilebilmektedir.",
+      "harita_il": "zonguldak",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575724-E2",
+      "soru": "Türkiye'de linyit rezervlerinin en fazla olduğu bölge aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Akdeniz Bölgesi",
+        "B) Güneydoğu Anadolu Bölgesi",
+        "C) İç Anadolu Bölgesi",
+        "D) Ege Bölgesi",
+        "E) Karadeniz Bölgesi"
+      ],
+      "dogru": "D) Ege Bölgesi",
+      "aciklama": "D şıkkı doğrudur çünkü Türkiye linyit rezervlerinin yaklaşık %40'ı Ege Bölgesi'nde, özellikle Afyonkarahisar, Kütahya ve Manisa çevresinde bulunmaktadır. Linyit, üçüncü jeolojik zamanın neojen döneminde oluşmuş ve Türkiye genelinde yaygın olmakla birlikte en büyük rezervler Ege Bölgesi'ndedir. A şıkkı yanlıştır; Akdeniz Bölgesi'nde linyit yatakları sınırlıdır. B şıkkı yanlıştır; Güneydoğu Anadolu Bölgesi'nde petrol ve doğalgaz daha yaygındır. C ve E şıkları da yanlıştır; bu bölgelerde linyit bulunmakla birlikte rezerv miktarı Ege Bölgesi'nin gerisindedir. Genel kural olarak linyit yatakları neojen dönem havzalarında oluştuğu için Türkiye'nin batı kesimlerinde daha yoğundur.",
+      "harita_il": "kutahya",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575724-H1",
+      "soru": "Türkiye'de bor madeni yataklarının en yaygın olduğu bölge aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) İç Anadolu Bölgesi",
+        "B) Ege Bölgesi",
+        "C) Akdeniz Bölgesi",
+        "D) Marmara Bölgesi",
+        "E) Karadeniz Bölgesi"
+      ],
+      "dogru": "B) Ege Bölgesi",
+      "aciklama": "Türkiye'de bor madeni yatakları büyük ölçüde Ege Bölgesi'nde yoğunlaşmıştır. Kütahya (Emet), Balıkesir (Bigadiç) ve Eskişehir (Kırka) önemli bor üretim merkezleridir. Bor, dünya rezervinin yaklaşık %70'ine sahip olduğumuz stratejik bir madendir. İç Anadolu Bölgesi'nde tuz ve jips gibi evaporitler daha yaygındır. Akdeniz ve Karadeniz'de ise bor yatakları bulunmaz; Marmara Bölgesi'nde de sınırlıdır. Doğru cevap Ege Bölgesidir.",
+      "harita_il": "kutahya",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575724-H2",
+      "soru": "Türkiye'de linyit yataklarının geniş alanlara yayılmasının temel nedeni aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Taşkömürü yataklarının aşınarak dönüşmesi",
+        "B) Volkanik faaliyetler sonucu organik madde birikmesi",
+        "C) Üçüncü Jeolojik Zaman'da geniş bataklık alanlarının bulunması",
+        "D) Metamorfizma sürecinin yaygın olması",
+        "E) Epirojenik hareketlerle göllerin kuruması"
+      ],
+      "dogru": "C) Üçüncü Jeolojik Zaman'da geniş bataklık alanlarının bulunması",
+      "aciklama": "Linyit, genç jeolojik dönemlerde (özellikle Tersiyer'de) oluşan bir kömür türüdür. Bu dönemde Türkiye'de geniş bataklık alanları ve sığ göller bulunuyordu; bitkisel kalıntılar burada birikerek linyiti oluşturdu. Taşkömürü ise daha yaşlı (Karbonifer) dönemde oluşmuştur. Volkanik faaliyetler ve epirojenez linyit oluşumunda doğrudan etkili değildir. Bu nedenle linyitin yaygın olmasının temel nedeni Tersiyer'deki uygun ortamlardır.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575724-H3",
+      "soru": "Aşağıda verilen maden - çıkarıldığı il eşleştirmelerinden hangisi yanlıştır?",
+      "siklar": [
+        "A) Demir - Divriği (Sivas)",
+        "B) Bakır - Murgul (Artvin)",
+        "C) Krom - Fethiye (Muğla)",
+        "D) Bor - Bigadiç (Balıkesir)",
+        "E) Linyit - Zonguldak"
+      ],
+      "dogru": "E) Linyit - Zonguldak",
+      "aciklama": "Zonguldak, Türkiye'nin en önemli taşkömürü havzasıdır; bu ilde linyit yatakları bulunmaz. Divriği (Sivas) demir, Murgul (Artvin) bakır, Fethiye (Muğla) krom, Bigadiç (Balıkesir) ise bor yataklarıyla ünlüdür. Doğru eşleştirmeler: Demir – Sivas (Divriği), Bakır – Artvin (Murgul), Krom – Muğla (Fethiye), Bor – Balıkesir (Bigadiç). Linyit ise daha çok Manisa (Soma), Kütahya (Tunçbilek), Denizli ve Tekirdağ gibi illerde çıkarılır.",
+      "harita_il": "zonguldak",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575724-H4",
+      "soru": "Aşağıdaki illerden hangisinde petrol rafinerisi bulunmaz?",
+      "siklar": [
+        "A) Batman",
+        "B) Kocaeli",
+        "C) İzmir",
+        "D) Ankara",
+        "E) Kırıkkale"
+      ],
+      "dogru": "D) Ankara",
+      "aciklama": "Türkiye'deki büyük petrol rafinerileri Batman (Batman Rafinerisi), Kocaeli/İzmit (İzmit Rafinerisi), İzmir/Aliağa (Aliağa Rafinerisi) ve Kırıkkale (Kırıkkale Rafinerisi) illerinde bulunmaktadır. Ankara'da ise rafineri yoktur; bu nedenle doğru cevap Ankara'dır. Ankara'da daha çok doğalgaz dağıtımı ve hafif sanayi ön plandadır. Batman'da ayrıca petrol çıkartılır, Kırıkkale rafinerisi ise Orta Anadolu'ya hizmet verir.",
+      "harita_il": "ankara",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575724-H5",
+      "soru": "Taşkömürü ile linyit karşılaştırıldığında, aşağıdakilerden hangisi yalnızca taşkömürü için söylenebilir?",
+      "siklar": [
+        "A) Birinci Jeolojik Zaman'da (Paleozoyik) oluşmuştur.",
+        "B) Üçüncü Jeolojik Zaman'da (Tersiyer) oluşmuştur.",
+        "C) Daha düşük kalorili ve nemli bir yapıya sahiptir.",
+        "D) Türkiye'de daha geniş alanlara yayılmıştır.",
+        "E) Isınma amaçlı kullanımı linyite göre sınırlıdır."
+      ],
+      "dogru": "A) Birinci Jeolojik Zaman'da (Paleozoyik) oluşmuştur.",
+      "aciklama": "Taşkömürü, Karbonifer dönemini de içeren Birinci Jeolojik Zaman'da (Paleozoyik) oluşmuş, yüksek kalorili bir kömür türüdür. Linyit ise Tersiyer'de (Üçüncü Zaman) oluşmuştur. Linyit daha düşük kalorili, nemli ve yaygındır; taşkömürü Türkiye'de sadece Zonguldak ve çevresinde bulunur. Taşkömürü sanayide (demir-çelik) kullanılırken linyit ısınma ve termik santrallerde kullanılır.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575724-H6",
+      "soru": "Türkiye'deki enerji kaynakları ile ilgili,\nI. Jeotermal enerji bakımından zengin iller arasında Denizli, Aydın ve Manisa yer alır.\nII. Nükleer enerji santrali kurulum çalışmaları Mersin'de (Akkuyu) devam etmektedir.\nIII. Hidroelektrik santrallerin toplam kurulu gücü termik santrallerden fazladır.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız III",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "Jeotermal enerji açısından Denizli (Kızıldere), Aydın (Salavatlı) ve Manisa (Alaşehir) önemli merkezlerdir. Akkuyu Nükleer Santrali Mersin'de inşa halindedir. Ancak Türkiye'de hidroelektrik santrallerin kurulu gücü termik santrallerden azdır; termik santraller (kömür, doğalgaz) toplam kurulu güçte daha büyük paya sahiptir. Bu nedenle III. yargı yanlıştır. Doğru cevap I ve II'dir.",
+      "harita_il": "mersin",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575724-H7",
+      "soru": "Yukarıdaki Türkiye haritasında I, II, III, IV ve V numaralı alanlar gösterilmiştir. Bu alanların hangisinde linyit yatakları en yoğundur?",
+      "siklar": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV",
+        "E) V"
+      ],
+      "dogru": "C) III",
+      "aciklama": "Haritada I numaralı alan Kütahya'yı (Tunçbilek, Seyitömer linyit sahaları), II numaralı alan Zonguldak'ı (taşkömürü), III numaralı alan Manisa'yı (Soma linyit havzası), IV numaralı alan Hatay'ı (petrol rafinerisi), V numaralı alan Sivas'ı (demir yatakları) temsil eder. Soma (Manisa), dünyanın en büyük linyit rezervlerinden birine sahiptir ve bu nedenle linyit yoğunluğu en fazla olan alan III numaralı Manisa'dır.",
+      "harita_il": "manisa",
+      "zorluk": "zor",
+      "gorsel": "madenler-enerji/madenler-enerji-1779575724-H7.svg",
+      "gorsel_veri": {
+        "I": "kutahya",
+        "II": "zonguldak",
+        "III": "manisa",
+        "IV": "hatay",
+        "V": "sivas"
+      }
+    },
+    {
+      "id": "madenler-enerji-1779575724-H8",
+      "soru": "Türkiye'deki madenlerle ilgili,\nI. Bor madeni rezervinde dünyada ilk sırada yer alır.\nII. Linyit yatakları daha çok Karadeniz Bölgesi'nde bulunur.\nIII. Petrol rafinerileri sadece Güneydoğu Anadolu Bölgesi'nde yer alır.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "A) Yalnız I",
+      "aciklama": "Türkiye, dünya bor rezervinin yaklaşık %70'ine sahiptir ve bu alanda birinci sıradadır; I. yargı doğrudur. Linyit yatakları en yaygın olarak Ege Bölgesi (Manisa, Kütahya) ve İç Anadolu'da (Çankırı, Ankara) bulunur; Karadeniz'de ise taşkömürü hakimdir. II. yargı yanlıştır. Petrol rafinerileri Güneydoğu Anadolu (Batman) dışında Marmara (Kocaeli, Kırıkkale) ve Ege (İzmir) bölgelerinde de yer alır. III. yargı da yanlıştır. Doğru cevap yalnız I'dir.",
+      "harita_il": null,
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575782-E1",
+      "soru": "Türkiye'de taş kömürü yataklarının en yaygın olduğu bölge aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Marmara Bölgesi",
+        "B) Ege Bölgesi",
+        "C) Karadeniz Bölgesi",
+        "D) İç Anadolu Bölgesi",
+        "E) Akdeniz Bölgesi"
+      ],
+      "dogru": "C) Karadeniz Bölgesi",
+      "aciklama": "C şıkkı doğrudur çünkü Türkiye'deki taş kömürü yatakları büyük ölçüde Karadeniz Bölgesi'nde, özellikle Zonguldak ve çevresinde yoğunlaşmıştır. A şıkkı yanlıştır zira Marmara Bölgesi'nde taş kömürü yatağı bulunmamaktadır. B şıkkı yanlıştır çünkü Ege Bölgesi'nde linyit yatakları yaygındır, taş kömürü değil. D şıkkı yanlıştır zira İç Anadolu Bölgesi linyit ve tuz yataklarıyla bilinir. E şıkkı yanlıştır çünkü Akdeniz Bölgesi'nde krom ve demir gibi madenler bulunur, taş kömürü yoktur.",
+      "harita_il": "zonguldak",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575782-E2",
+      "soru": "Aşağıdaki enerji kaynaklarından hangisi yenilenemez enerji kaynağıdır?",
+      "siklar": [
+        "A) Güneş enerjisi",
+        "B) Rüzgâr enerjisi",
+        "C) Jeotermal enerji",
+        "D) Doğal gaz",
+        "E) Hidroelektrik enerji"
+      ],
+      "dogru": "D) Doğal gaz",
+      "aciklama": "D şıkkı doğrudur çünkü doğal gaz fosil yakıt olup sınırlı rezervlere sahiptir ve yenilenemez enerji kaynağıdır. A şıkkı yanlıştır zira güneş enerjisi tükenmeyen, yenilenebilir bir kaynaktır. B şıkkı yanlıştır çünkü rüzgâr enerjisi doğada sürekli var olan yenilenebilir bir kaynaktır. C şıkkı yanlıştır zira jeotermal enerji yer kabuğunun derinliklerindeki ısıdan elde edilir ve yenilenebilir kabul edilir. E şıkkı yanlıştır çünkü hidroelektrik enerji su döngüsüne bağlı olarak yenilenebilir bir kaynaktır.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575782-H1",
+      "soru": "Türkiye'de taşkömürü yataklarının en yoğun olduğu il aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Bartın",
+        "B) Zonguldak",
+        "C) Karabük",
+        "D) Kastamonu",
+        "E) Düzce"
+      ],
+      "dogru": "B) Zonguldak",
+      "aciklama": "Taşkömürü yatakları Türkiye'de en yoğun olarak Zonguldak ve çevresinde bulunur. Bartın ve Karabük'te daha sınırlı rezervler vardır. Kastamonu ve Düzce'de önemli taşkömürü yatağı yoktur. Zonguldak, taşkömürü üretiminin merkezi konumundadır.",
+      "harita_il": "zonguldak",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575782-H2",
+      "soru": "Aşağıdaki maden yatağı ve bulunduğu il eşleştirmelerinden hangisi yanlıştır?",
+      "siklar": [
+        "A) Demir - Divriği (Sivas)",
+        "B) Krom - Guleman (Elazığ)",
+        "C) Bakır - Murgul (Artvin)",
+        "D) Linyit - Soma (Manisa)",
+        "E) Bor - Seydişehir (Konya)"
+      ],
+      "dogru": "E) Bor - Seydişehir (Konya)",
+      "aciklama": "Seydişehir'de alüminyum (boksit) yatakları bulunur, bor yatakları ise Eskişehir, Kütahya ve Balıkesir'de yoğunlaşmıştır. Diğer eşleştirmeler doğrudur: Demir Divriği'de, Krom Guleman'da, Bakır Murgul'da, Linyit Soma'da çıkarılır.",
+      "harita_il": "konya",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575782-H3",
+      "soru": "Türkiye'de termik santrallerin büyük bir bölümünün linyit yataklarına yakın kurulmasının başlıca nedeni aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Linyitin düşük kalorili olması",
+        "B) Linyitin yüksek kalorili olması",
+        "C) Çevre kirliliğini azaltma isteği",
+        "D) İş gücü maliyetini düşürme",
+        "E) Enerji nakil hatlarının kısa olması"
+      ],
+      "dogru": "A) Linyitin düşük kalorili olması",
+      "aciklama": "Linyit düşük kalorili bir kömür olduğu için uzun mesafelere taşınması ekonomik değildir. Bu nedenle termik santraller linyit yataklarının hemen yanına kurulur. Bu durum nakliye maliyetini azaltır ve verimi artırır.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575782-H4",
+      "soru": "Yukarıdaki Türkiye haritasında I, II, III, IV ve V numaralı alanlar gösterilmiştir. Bu alanların hangilerinde önemli jeotermal enerji kaynakları bulunur?",
+      "siklar": [
+        "A) I ve II",
+        "B) I, II ve III",
+        "C) II, III ve IV",
+        "D) I, III ve V",
+        "E) II, IV ve V"
+      ],
+      "dogru": "B) I, II ve III",
+      "aciklama": "Jeotermal enerji açısından Denizli (I), Manisa (II) ve Aydın (III) önemli sahalara sahiptir. Kızıldere (Denizli), Germencik (Aydın) ve Salihli (Manisa) jeotermal santrallerin bulunduğu yerlerdir. Kütahya ve Muğla'da önemli jeotermal alan yoktur.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": "madenler-enerji/madenler-enerji-1779575782-H4.svg",
+      "gorsel_veri": {
+        "I": "denizli",
+        "II": "manisa",
+        "III": "aydin",
+        "IV": "kutahya",
+        "V": "mugla"
+      }
+    },
+    {
+      "id": "madenler-enerji-1779575782-H5",
+      "soru": "Türkiye'de hidroelektrik enerji üretiminde en büyük paya sahip olan akarsu aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Fırat",
+        "B) Dicle",
+        "C) Kızılırmak",
+        "D) Seyhan",
+        "E) Sakarya"
+      ],
+      "dogru": "A) Fırat",
+      "aciklama": "Fırat Nehri üzerinde Atatürk, Keban, Karakaya gibi büyük barajlar bulunur. Bu barajlar Türkiye hidroelektrik üretiminin önemli bir kısmını karşılar. Dicle, Kızılırmak, Seyhan ve Sakarya da hidroelektrik potansiyele sahiptir ancak en büyük pay Fırat'a aittir.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575782-H6",
+      "soru": "Haritada I, II, III, IV ve V numaralı alanlar gösterilmiştir. Bu alanların hangisinde hem linyit hem jeotermal enerji kaynağı bulunmaktadır?",
+      "siklar": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV",
+        "E) V"
+      ],
+      "dogru": "A) I",
+      "aciklama": "I numaralı alan Manisa ilini göstermektedir. Manisa'da Soma'da linyit yatakları ve Salihli'de jeotermal kaynaklar bulunur. Kütahya'da sadece linyit, Denizli'de sadece jeotermal, Zonguldak'ta taşkömürü, Sivas'ta ise demir yatakları vardır.",
+      "harita_il": "manisa",
+      "zorluk": "zor",
+      "gorsel": "madenler-enerji/madenler-enerji-1779575782-H6.svg",
+      "gorsel_veri": {
+        "I": "manisa",
+        "II": "kutahya",
+        "III": "denizli",
+        "IV": "zonguldak",
+        "V": "sivas"
+      }
+    },
+    {
+      "id": "madenler-enerji-1779575782-H7",
+      "soru": "Türkiye'de maden ve enerji kaynaklarıyla ilgili,\n\nI. Taşkömürü yatakları yalnızca Zonguldak'ta bulunur.\nII. Linyit yataklarının büyük kısmı Batı Anadolu'da toplanmıştır.\nIII. Bor madeni rezervinde Türkiye dünyada ilk sırada yer alır.\n\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "D) II ve III",
+      "aciklama": "I. yargı yanlıştır çünkü taşkömürü Zonguldak'ın yanı sıra Bartın (Amasra) gibi komşu illerde de bulunur. II. yargı doğrudur; linyit havzaları Manisa, Kütahya, Denizli gibi Batı Anadolu illerinde yoğunlaşmıştır. III. yargı doğrudur; Türkiye dünya bor rezervinin yaklaşık %73'üne sahiptir.",
+      "harita_il": "manisa",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575782-H8",
+      "soru": "Enerji kaynaklarıyla ilgili,\n\nI. Türkiye'deki ilk nükleer santral Akkuyu'da inşa hâlindedir.\nII. Rüzgâr enerjisi potansiyeli en yüksek bölge Marmara Bölgesi'dir.\nIII. Güneş enerjisinden elektrik üretiminde en fazla payı Güneydoğu Anadolu Bölgesi alır.\n\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız III",
+        "C) I ve III",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve III",
+      "aciklama": "I. yargı doğrudur; Akkuyu Nükleer Santrali Mersin'de inşaat hâlindedir ve ilk nükleer santraldir. II. yargı yanlıştır; rüzgâr enerjisi potansiyeli en yüksek bölge Ege Bölgesi'dir. III. yargı doğrudur; Güneydoğu Anadolu Bölgesi güneşlenme süresi ve radyasyon değerleriyle en yüksek güneş enerjisi potansiyeline sahiptir.",
+      "harita_il": "mersin",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575841-E1",
+      "soru": "Türkiye'de elektrik enerjisi üretiminde kullanılan termik santrallerin yakıt kaynağı olarak aşağıdaki madenlerden hangisi yaygın olarak kullanılır?",
+      "siklar": [
+        "A) Taşkömürü",
+        "B) Linyit",
+        "C) Petrol",
+        "D) Doğal gaz",
+        "E) Uranyum"
+      ],
+      "dogru": "B) Linyit",
+      "aciklama": "Doğru cevap B şıkkıdır. Türkiye'de termik santrallerde en yaygın kullanılan yakıt linyit kömürüdür. Ülkemiz linyit rezervleri bakımından zengin olup, Afşin-Elbistan, Soma, Tunçbilek gibi önemli linyit havzaları bulunmaktadır. A şıkkındaki taşkömürü Zonguldak havzasında sınırlı rezerve sahiptir. C ve D şıklarındaki petrol ve doğal gaz termik santrallerde kullanılsa da linyit kadar yaygın değildir. E şıkkındaki uranyum nükleer santrallerde kullanılır ve Türkiye'de henüz nükleer enerji üretimi yaygınlaşmamıştır.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575841-E2",
+      "soru": "Aşağıdaki madenlerden hangisi Türkiye'de demir-çelik sanayisinin ana hammaddesini oluşturur?",
+      "siklar": [
+        "A) Bakır",
+        "B) Krom",
+        "C) Bor",
+        "D) Demir",
+        "E) Boksit"
+      ],
+      "dogru": "D) Demir",
+      "aciklama": "Doğru cevap D şıkkıdır. Demir-çelik sanayisinin ana hammaddesi demir cevheridir. Türkiye'de Divriği (Sivas), Hekimhan (Malatya) ve Hasançelebi (Malatya) önemli demir yataklarıdır. A şıkkındaki bakır elektrik ve elektronik sanayisinde, B şıkkındaki krom paslanmaz çelik ve kimya sanayisinde, C şıkkındaki bor cam ve seramik sanayisinde, E şıkkındaki boksit ise alüminyum üretiminde kullanılır. Bu madenlerin hiçbiri demir-çelik üretiminin temel hammaddesi değildir.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575841-H1",
+      "soru": "Türkiye'de taşkömürü yataklarının en yoğun olduğu il aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Bartın",
+        "B) Kastamonu",
+        "C) Zonguldak",
+        "D) Sinop",
+        "E) Düzce"
+      ],
+      "dogru": "C) Zonguldak",
+      "aciklama": "Taşkömürü, Türkiye'de en çok Zonguldak havzasında bulunur. Zonguldak'taki taşkömürü yatakları ülkenin en önemli enerji kaynaklarındandır. Bartın ve Kastamonu'da da kömür bulunsa da yoğunluk Zonguldak'tadır. Sinop ve Düzce'de önemli taşkömürü yatağı yoktur. Bu nedenle doğru cevap C şıkkıdır.",
+      "harita_il": "zonguldak",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575841-H2",
+      "soru": "Linyit ve taşkömürü karşılaştırıldığında, aşağıdakilerden hangisi yalnızca taşkömürü için söylenebilir?",
+      "siklar": [
+        "A) Kalorifik değeri daha düşüktür",
+        "B) Daha çok termik santrallerde kullanılır",
+        "C) Birinci jeolojik zamanda oluşmuştur",
+        "D) Ülkemizde en yaygın kömür türüdür",
+        "E) Daha genç yaşlıdır"
+      ],
+      "dogru": "C) Birinci jeolojik zamanda oluşmuştur",
+      "aciklama": "Taşkömürü (bitümlü kömür) birinci jeolojik zamanda (Paleozoik) oluşmuşken, linyit üçüncü jeolojik zamanda (Tersiyer) oluşmuştur. Taşkömürünün kalorifik değeri yüksektir, linyitinki düşüktür. Termik santrallerde her iki kömür türü de kullanılır. Linyit ülkemizde daha yaygındır. Taşkömürü daha yaşlı olduğundan E şıkkı da yanlıştır. Doğru cevap C şıkkıdır.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575841-H3",
+      "soru": "Türkiye'de jeotermal enerji potansiyelinin yüksek olması aşağıdakilerden hangisiyle yakından ilişkilidir?",
+      "siklar": [
+        "A) Alp-Himalaya kıvrım kuşağı üzerinde yer alması",
+        "B) Rüzgarlı gün sayısının fazla olması",
+        "C) Güneşlenme süresinin uzun olması",
+        "D) Akarsu ağının sık olması",
+        "E) Nüfus yoğunluğunun fazla olması"
+      ],
+      "dogru": "A) Alp-Himalaya kıvrım kuşağı üzerinde yer alması",
+      "aciklama": "Jeotermal enerji, yer altındaki sıcak suların yüzeye çıkmasıyla elde edilir. Türkiye, Alp-Himalaya kıvrım kuşağında bulunduğu için genç ve kırıklı bir arazi yapısına sahiptir. Bu durum jeotermal kaynakların oluşumunu sağlar. Rüzgar enerjisi rüzgarlı gün sayısıyla, güneş enerjisi güneşlenmeyle ilgilidir. Akarsu ağı ve nüfus doğrudan jeotermal ilişkili değildir. Doğru cevap A şıkkıdır.",
+      "harita_il": "denizli",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575841-H4",
+      "soru": "Aşağıda verilen maden-çıkarıldığı il eşleşmelerinden hangisi yanlıştır?",
+      "siklar": [
+        "A) Bakır - Artvin",
+        "B) Krom - Muğla",
+        "C) Bor - Balıkesir",
+        "D) Demir - Sivas",
+        "E) Boksit - Konya"
+      ],
+      "dogru": "C) Bor - Balıkesir",
+      "aciklama": "Bor yatakları Türkiye'de daha çok Eskişehir, Kütahya (Emet) ve Bursa'da bulunur. Balıkesir'de önemli bor yatağı yoktur. Bakır Artvin'de (Murgul), krom Muğla'da, demir Sivas'ta (Divriği) ve boksit Konya'da (Seydişehir) çıkarılır. Bu nedenle doğru cevap C şıkkıdır.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575841-H5",
+      "soru": "Türkiye'deki enerji kaynaklarıyla ilgili,\nI. Taşkömürü en çok Zonguldak'ta çıkarılır.\nII. Linyit termik santrallerde yakıt olarak kullanılır.\nIII. Doğal gaz rezervleri bakımından en zengin bölge Güneydoğu Anadolu'dur.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız III",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "I. önerme doğrudur, Zonguldak taşkömürünün en önemli çıkarım bölgesidir. II. önerme doğrudur, linyit termik santrallerde elektrik üretiminde kullanılır. III. önerme yanlıştır, doğal gaz rezervleri en çok Marmara Bölgesi'nde (özellikle Trakya) bulunur, Güneydoğu Anadolu'da petrol yatakları yoğundur. Bu nedenle doğru cevap C şıkkıdır.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575841-H6",
+      "soru": "Yukarıdaki Türkiye haritasında I, II, III, IV ve V numaralı alanlar gösterilmiştir. Bu alanların hangisinde petrol yatakları yoğun olarak bulunmaktadır?",
+      "siklar": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV",
+        "E) V"
+      ],
+      "dogru": "A) I",
+      "aciklama": "Petrol yatakları Türkiye'de Güneydoğu Anadolu Bölgesi'nde yoğunlaşmıştır. Batman, Diyarbakır, Adıyaman, Siirt gibi iller önemli petrol bölgeleridir. Haritada I numaralı alan Batman ilini göstermektedir. Batman, Raman ve Garzan sahalarıyla en önemli petrol üretim merkezidir. Diğer alanlarda (II: Adıyaman, III: Siirt) petrol olmakla birlikte en yoğun Batman'dır. IV ve V'te (Van, Bitlis) petrol yoktur. Doğru cevap A şıkkıdır.",
+      "harita_il": "batman",
+      "zorluk": "zor",
+      "gorsel": "madenler-enerji/madenler-enerji-1779575841-H6.svg",
+      "gorsel_veri": {
+        "I": "batman",
+        "II": "adiyaman",
+        "III": "siirt",
+        "IV": "van",
+        "V": "bitlis"
+      }
+    },
+    {
+      "id": "madenler-enerji-1779575841-H7",
+      "soru": "Türkiye'deki termik santraller ve kullanılan yakıtlarla ilgili,\nI. Afşin-Elbistan termik santrali linyit kullanır.\nII. Yatağan termik santrali taşkömürü kullanır.\nIII. İzmir termik santrali doğal gaz kullanır.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve III",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "A) Yalnız I",
+      "aciklama": "I. önerme doğrudur, Afşin-Elbistan termik santrali (Kahramanmaraş) linyit yakıtı kullanır. II. önerme yanlıştır, Yatağan termik santrali (Muğla) linyit kullanır, taşkömürü değil. III. önerme yanlıştır, İzmir'deki termik santraller (eski Aliağa gibi) daha çok linyit ve ithal kömür kullanır; doğal gaz santralleri ayrıdır. Doğru cevap yalnız I'dir.",
+      "harita_il": null,
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575841-H8",
+      "soru": "Türkiye'de rüzgar enerjisi santrallerinin kurulu güç bakımından en yüksek olduğu il aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Çanakkale",
+        "B) Balıkesir",
+        "C) İzmir",
+        "D) Mardin",
+        "E) Samsun"
+      ],
+      "dogru": "B) Balıkesir",
+      "aciklama": "Türkiye'de rüzgar enerjisi santralleri en çok Ege ve Marmara kıyılarında yoğunlaşmıştır. Balıkesir, rüzgar enerjisi kurulu gücü bakımından ilk sıralardadır. Çanakkale ve İzmir de önemli potansiyele sahiptir. Mardin Güneydoğu'da rüzgar potansiyeli düşüktür. Samsun Karadeniz'de belirli bir potansiyel vardır ancak Balıkesir daha yüksektir. Doğru cevap B şıkkıdır.",
+      "harita_il": "balikesir",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575915-E1",
+      "soru": "Türkiye'de taş kömürü yataklarının en yaygın olduğu bölge aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Marmara Bölgesi",
+        "B) Karadeniz Bölgesi",
+        "C) İç Anadolu Bölgesi",
+        "D) Ege Bölgesi",
+        "E) Güneydoğu Anadolu Bölgesi"
+      ],
+      "dogru": "B) Karadeniz Bölgesi",
+      "aciklama": "Doğru cevap B şıkkıdır. Türkiye'de taş kömürü yatakları, özellikle Zonguldak ve Bartın çevresinde olmak üzere Karadeniz Bölgesi'nde yoğunlaşmıştır. A şıkkındaki Marmara Bölgesi'nde taş kömürü yatağı bulunmaz; bu bölgede linyit yatakları daha yaygındır. C şıkkındaki İç Anadolu Bölgesi'nde linyit ve tuz yatakları bulunur. D şıkkındaki Ege Bölgesi'nde linyit ve mermer yatakları öne çıkar. E şıkkındaki Güneydoğu Anadolu Bölgesi'nde ise petrol ve fosfat yatakları bulunur. Taş kömürü, birinci jeolojik zamanda oluşmuş ve yüksek kalorili bir enerji kaynağıdır.",
+      "harita_il": "zonguldak",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575915-E2",
+      "soru": "Türkiye'de bor madeni rezervi bakımından en zengin il aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Kütahya",
+        "B) Eskişehir",
+        "C) Balıkesir",
+        "D) Bursa",
+        "E) Ankara"
+      ],
+      "dogru": "A) Kütahya",
+      "aciklama": "Doğru cevap A şıkkıdır. Türkiye, dünya bor rezervlerinin yaklaşık %73'üne sahiptir ve bu rezervlerin büyük kısmı Kütahya (Emet), Eskişehir (Kırka) ve Balıkesir (Bigadiç) illerinde bulunur. Kütahya, bor rezervi açısından en zengin ildir. B şıkkındaki Eskişehir de önemli bor yataklarına sahiptir ancak Kütahya kadar zengin değildir. C şıkkındaki Balıkesir'de bor yatakları bulunur. D şıkkındaki Bursa'da bor yatağı yoktur; bu ilde mermer ve linyit bulunur. E şıkkındaki Ankara'da ise tuz ve linyit yatakları vardır. Bor, sanayide cam, seramik ve deterjan üretiminde kullanılan stratejik bir madendir.",
+      "harita_il": "kutahya",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575915-1",
+      "soru": "Türkiye'deki önemli linyit yataklarıyla ilgili olarak aşağıdaki illerden hangisi bu yatakların bulunduğu yerlerden biri değildir?",
+      "siklar": [
+        "A) Manisa",
+        "B) Kütahya",
+        "C) Kahramanmaraş",
+        "D) Zonguldak",
+        "E) Muğla"
+      ],
+      "dogru": "D) Zonguldak",
+      "aciklama": "Doğru cevap D şıkkıdır. Zonguldak'ta taşkömürü yatakları bulunur, linyit yatakları ise daha çok Ege Bölgesi'nde (Manisa, Kütahya, Muğla) ve Güneydoğu Anadolu'da (Kahramanmaraş-Afşin-Elbistan) yoğunlaşmıştır. A şıkkı Manisa'daki Soma havzası, B şıkkı Kütahya'daki Tunçbilek havzası, C şıkkı Afşin-Elbistan havzası ve E şıkkı Muğla'daki Yatağan havzası önemli linyit sahalarıdır. Taşkömürü ise Zonguldak'ta bulunduğu için linyit yatakları arasında sayılmaz.",
+      "harita_il": "zonguldak",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575915-2",
+      "soru": "Türkiye'de taşkömürü havzası aşağıdaki illerden hangisinin sınırları içinde yer almaktadır?",
+      "siklar": [
+        "A) Bartın",
+        "B) Kastamonu",
+        "C) Zonguldak",
+        "D) Sinop",
+        "E) Samsun"
+      ],
+      "dogru": "C) Zonguldak",
+      "aciklama": "Doğru cevap C şıkkıdır. Türkiye'deki tek taşkömürü havzası Zonguldak-Ereğli bölgesinde bulunur. Bu havza aynı zamanda taşkömürünün çıkarıldığı ve işletildiği en önemli alandır. A şıkkı Bartın'da önemli bir maden yatağı yoktur. B şıkkı Kastamonu'da kurşun-çinko gibi madenler bulunsa da taşkömürü yoktur. D şıkkı Sinop ve E şıkkı Samsun'da ise taşkömürü yatakları bulunmaz. Bu nedenle doğru cevap Zonguldak'tır.",
+      "harita_il": "zonguldak",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575915-3",
+      "soru": "Aşağıdaki illerden hangisi Türkiye'deki jeotermal enerji santrallerinin yoğun olduğu bir il değildir?",
+      "siklar": [
+        "A) Denizli",
+        "B) Aydın",
+        "C) Manisa",
+        "D) Nevşehir",
+        "E) İzmir"
+      ],
+      "dogru": "D) Nevşehir",
+      "aciklama": "Doğru cevap D şıkkıdır. Jeotermal enerji santralleri özellikle Ege Bölgesi'nde yoğunlaşmıştır. Denizli (Kızıldere), Aydın (Germencik, Salavatlı), Manisa (Alaşehir) ve İzmir (Balçova) bu alanda öne çıkan illerdir. Nevşehir'de ise jeotermal kaynak bulunsa da enerji üretimine yönelik büyük santraller mevcut değildir. Nevşehir daha çok termal turizm (örneğin Kozaklı) ile anılır. Bu nedenle soruda istenen il Nevşehir'dir.",
+      "harita_il": "nevsehir",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575915-4",
+      "soru": "Aşağıdaki barajlardan hangisi Fırat Nehri üzerinde yer almaz?",
+      "siklar": [
+        "A) Keban",
+        "B) Atatürk",
+        "C) Karakaya",
+        "D) Hasan Uğurlu",
+        "E) Hirfanlı"
+      ],
+      "dogru": "E) Hirfanlı",
+      "aciklama": "Doğru cevap E şıkkıdır. Keban Barajı (Elazığ), Atatürk Barajı (Şanlıurfa) ve Karakaya Barajı (Diyarbakır) Fırat Nehri üzerinde bulunan büyük hidroelektrik santralleridir. Hasan Uğurlu Barajı ise Yeşilırmak üzerinde (Samsun) yer alır. Hirfanlı Barajı ise Kızılırmak üzerinde (Kırşehir) kurulmuştur. Dolayısıyla Fırat havzası dışında kalan baraj Hirfanlı'dır.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575915-5",
+      "soru": "Türkiye'de rüzgar enerjisi santrallerinin en yoğun olduğu bölge aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Marmara Bölgesi",
+        "B) Ege Bölgesi",
+        "C) Akdeniz Bölgesi",
+        "D) Karadeniz Bölgesi",
+        "E) İç Anadolu Bölgesi"
+      ],
+      "dogru": "A) Marmara Bölgesi",
+      "aciklama": "Doğru cevap A şıkkıdır. Marmara Bölgesi, özellikle Balıkesir ve Çanakkale illerinde yoğun rüzgar enerjisi santrallerine ev sahipliği yapmaktadır. Ege Bölgesi de yüksek potansiyele sahip olmakla birlikte kurulu güç bakımından Marmara Bölgesi ilk sıradadır. Akdeniz ve Karadeniz bölgelerinde rüzgar santralleri daha azdır. İç Anadolu Bölgesi ise rüzgar hızı düşük olduğu için tercih edilmez. Bu nedenle en yoğun bölge Marmara'dır.",
+      "harita_il": "balikesir",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575915-6",
+      "soru": "Türkiye'de maden ve enerji kaynaklarıyla ilgili,\nI. Zonguldak'ta taşkömürü çıkarılır.\nII. Afşin-Elbistan termik santrali doğalgazla çalışır.\nIII. Murgul bakır yatağı Artvin'dedir.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) I ve III",
+        "E) II ve III"
+      ],
+      "dogru": "D) I ve III",
+      "aciklama": "Doğru cevap D şıkkıdır. I. önerme doğrudur, Zonguldak'ta taşkömürü çıkarılmaktadır. II. önerme yanlıştır; Afşin-Elbistan termik santrali linyit kömürü ile çalışır, doğalgaz değildir. III. önerme doğrudur; Murgul bakır yatağı Artvin il sınırları içinde bulunur. Bu durumda I ve III doğru olduğu için doğru cevap \"I ve III\" olan D şıkkıdır. Yalnız I veya II ve III gibi diğer kombinasyonlar yanlıştır.",
+      "harita_il": null,
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575915-7",
+      "soru": "Türkiye'nin enerji üretimiyle ilgili,\nI. Jeotermal enerji santralleri en çok Denizli'de bulunur.\nII. Rüzgar enerjisi potansiyeli en yüksek bölge Karadeniz'dir.\nIII. Linyit kömürü en çok Ege Bölgesi'nde çıkarılır.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız III",
+        "C) I ve II",
+        "D) I ve III",
+        "E) II ve III"
+      ],
+      "dogru": "D) I ve III",
+      "aciklama": "Doğru cevap D şıkkıdır. I. önerme doğrudur; Denizli (Kızıldere) jeotermal enerji üretiminde öncü illerdendir. II. önerme yanlıştır; rüzgar enerjisi potansiyeli en yüksek bölge Ege ve Marmara'dır, Karadeniz daha düşük potansiyele sahiptir. III. önerme doğrudur; linyit kömürü yatakları Ege Bölgesi'nde (Manisa, Kütahya, Muğla) yoğunlaşmıştır. Doğru olan I ve III olduğu için cevap D şıkkıdır.",
+      "harita_il": null,
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "madenler-enerji-1779575915-8",
+      "soru": "Yukarıdaki Türkiye haritasında I, II, III ve IV numaralı alanlar gösterilmiştir. Bu alanlarla ilgili aşağıdaki bilgilerden hangisi yanlıştır?",
+      "siklar": [
+        "A) I. alan Zonguldak'ta taşkömürü havzasıdır.",
+        "B) II. alan Elazığ'da Keban Barajı'dır.",
+        "C) III. alan Antalya'da jeotermal santral bölgesidir.",
+        "D) IV. alan Manisa'da linyit havzasıdır."
+      ],
+      "dogru": "C) III. alan Antalya'da jeotermal santral bölgesidir.",
+      "aciklama": "Doğru cevap C şıkkıdır. I. alan Zonguldak'ta taşkömürü havzasını gösterdiği doğrudur. II. alan Elazığ'da Keban Barajı'nı göstermektedir, doğrudur. IV. alan Manisa'da (Soma) linyit havzasını göstermektedir, doğrudur. III. alan Antalya'da jeotermal santral olduğunu iddia etmektedir ancak Antalya'da jeotermal enerji üretimi yoktur; jeotermal santraller Denizli, Aydın, Manisa gibi illerde yoğundur. Bu nedenle III. alanla ilgili bilgi yanlıştır.",
+      "harita_il": null,
+      "zorluk": "zor",
+      "gorsel": "madenler-enerji/madenler-enerji-1779575915-8.svg",
+      "gorsel_veri": {
+        "I": "zonguldak",
+        "II": "elazig",
+        "III": "antalya",
+        "IV": "manisa"
+      }
     }
   ]
 }

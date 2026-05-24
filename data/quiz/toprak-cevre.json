@@ -2734,6 +2734,880 @@
       "zorluk": "zor",
       "gorsel": null,
       "gorsel_veri": null
+    },
+    {
+      "id": "toprak-cevre-1779573883-E1",
+      "soru": "Türkiye'deki toprak çeşitleriyle ilgili aşağıdaki bilgilerden hangisi doğrudur?",
+      "siklar": [
+        "A) Çernezyomlar, Akdeniz iklim bölgesinde yaygındır.",
+        "B) Kestane renkli bozkır toprakları, İç Anadolu Bölgesi'nde görülür.",
+        "C) Laterit topraklar, Karadeniz kıyı kuşağında yaygındır.",
+        "D) Podzol topraklar, Ege Bölgesi'nde yaygın olarak bulunur.",
+        "E) Terra-rossa topraklar, Doğu Anadolu Bölgesi'nde yaygındır."
+      ],
+      "dogru": "B) Kestane renkli bozkır toprakları, İç Anadolu Bölgesi'nde görülür.",
+      "aciklama": "B şıkkı doğrudur çünkü kestane renkli bozkır toprakları, yarı kurak iklim koşullarının hüküm sürdüğü İç Anadolu Bölgesi'nde yaygın olarak bulunur. A şıkkı yanlıştır; çernezyomlar, yarı nemli iklim bölgelerinde (örneğin Erzurum-Kars) görülür. C şıkkı yanlıştır; laterit topraklar, sıcak ve nemli iklimlerde (örneğin tropikal kuşak) görülür, Karadeniz'de değil. D şıkkı yanlıştır; podzol topraklar, soğuk ve nemli iklimlerde (örneğin Karadeniz'in yüksek kesimleri) görülür. E şıkkı yanlıştır; terra-rossa topraklar, Akdeniz iklim bölgesinde kalkerli arazilerde yaygındır.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "toprak-cevre-1779573883-E2",
+      "soru": "Türkiye'deki toprak oluşumunda etkili olan faktörler arasında aşağıdakilerden hangisi yer almaz?",
+      "siklar": [
+        "A) İklim",
+        "B) Ana kaya",
+        "C) Topoğrafya",
+        "D) Deniz akıntıları",
+        "E) Canlılar"
+      ],
+      "dogru": "D) Deniz akıntıları",
+      "aciklama": "D şıkkı doğrudur çünkü toprak oluşumunda etkili olan temel faktörler iklim, ana kaya, topoğrafya, canlılar ve zamandır. Deniz akıntıları ise iklim üzerinde dolaylı etkiye sahip olsa da doğrudan toprak oluşum faktörü olarak kabul edilmez. A şıkkı yanlıştır; iklim, toprak oluşumunda en etkili faktördür. B şıkkı yanlıştır; ana kaya, toprağın fiziksel ve kimyasal özelliklerini belirler. C şıkkı yanlıştır; topoğrafya, toprak kalınlığı ve drenajını etkiler. E şıkkı yanlıştır; canlılar (bitki örtüsü ve mikroorganizmalar) organik madde oluşumunu sağlar.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "toprak-cevre-1779573883-H1",
+      "soru": "Türkiye'deki toprak tipleriyle ilgili,\nI. Akdeniz iklim bölgesinde kireçli topraklar yaygındır.\nII. Karadeniz Bölgesi'nde yıkanmanın fazla olması nedeniyle podzol topraklar görülür.\nIII. İç Anadolu'da kızıl-kahverengi step toprakları bulunur.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "E) I, II ve III",
+      "aciklama": "Cevap E şıkkıdır çünkü her üç önerme de doğrudur. I. önermede Akdeniz ikliminde kalkerli ana materyalin ayrışmasıyla kireçli (terra rossa) topraklar oluşur. II. önermede Karadeniz'de yıkanmanın yoğun olması podzol toprakların oluşumuna zemin hazırlar. III. önermede İç Anadolu'nun yarı kurak ikliminde kızıl-kahverengi step toprakları yaygındır. A, B, C, D şıkları bu üçlüden en az birini dışarıda bıraktığı için eksik kalmaktadır. Türkiye'de toprak oluşumunda iklim, anakaya ve topografya temel belirleyicilerdir.",
+      "harita_il": "antalya",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "toprak-cevre-1779573883-H2",
+      "soru": "Türkiye'de erozyonun en şiddetli olduğu bölge aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Marmara",
+        "B) Ege",
+        "C) İç Anadolu",
+        "D) Doğu Anadolu",
+        "E) Karadeniz"
+      ],
+      "dogru": "C) İç Anadolu",
+      "aciklama": "Cevap C şıkkıdır. İç Anadolu Bölgesi'nde bozkır bitki örtüsü, yanlış tarım yöntemleri ve eğimli araziler erozyonu hızlandırmaktadır. A şıkkı Marmara'da bitki örtüsü daha gür olduğu için erozyon daha azdır. B şıkkı Ege'de tarım alanları verimli olmakla birlikte eğim daha düşüktür. D şıkkı Doğu Anadolu'da yüksek dağlık alanlarda erozyon görülse de en şiddetli olduğu bölge İç Anadolu'dur. E şıkkı Karadeniz'de orman örtüsü erozyonu büyük ölçüde engeller. Genel kural olarak step alanları ve eğimli araziler erozyona en açık sahalardır.",
+      "harita_il": "sivas",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "toprak-cevre-1779573883-H3",
+      "soru": "Toprak oluşumunda etkili olan faktörlerle ilgili,\nI. Anakaya, toprağın mineral içeriğini belirler.\nII. İklim, toprağın fiziksel ve kimyasal ayrışmasını etkiler.\nIII. Topografya, toprak kalınlığını doğrudan etkilemez.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "Cevap C şıkkıdır. I. önerme doğrudur, çünkü anakaya toprağın mineral bileşimini belirler. II. önerme doğrudur, iklim sıcaklık ve yağış yoluyla ayrışmayı hızlandırır veya yavaşlatır. III. önerme yanlıştır; topografya (eğim, bakı) toprak kalınlığını, drenajını ve organik madde birikimini doğrudan etkiler. A şıkkı sadece I'i alır, B şıkkı sadece II'yi alır; her ikisi de diğer doğru önermeyi dışarıda bırakır. D ve E şıkları III'ü doğru kabul ettiği için yanlıştır. Toprak oluşumunda beş temel faktör anakaya, iklim, topografya, canlılar ve zamandır.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "toprak-cevre-1779573883-H4",
+      "soru": "Türkiye'nin iç kesimlerinde toprakların tuzlanma oranının kıyı bölgelere göre daha yüksek olmasının temel nedeni aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Yıllık yağış miktarının az olması",
+        "B) Sıcaklık ortalamasının yüksek olması",
+        "C) Bitki örtüsünün gür olması",
+        "D) Tarım ilaçlarının yoğun kullanılması",
+        "E) Sanayi atıklarının toprağa karışması"
+      ],
+      "dogru": "A) Yıllık yağış miktarının az olması",
+      "aciklama": "Cevap A şıkkıdır. İç kesimlerde yağış az olduğu için yıkanma yetersizdir ve tuzlar toprakta birikir. B şıkkı sıcaklık tek başına tuzlanmayı açıklamaz, ancak buharlaşmayı artırarak dolaylı etki yapar. C şıkkı gür bitki örtüsü tuzlanmayı azaltır, artırmaz. D ve E şıkları insan kaynaklı kirlilik belirtse de tuzlanmanın temel nedeni doğal iklim koşullarıdır. Özellikle kapalı havzalarda ve drenajı zayıf alanlarda tuzlanma daha belirgindir. Kurak ve yarı kurak bölgelerde buharlaşma ile tuz birikimi hızlanır.",
+      "harita_il": "konya",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "toprak-cevre-1779573883-H5",
+      "soru": "Türkiye'de çevre sorunlarıyla ilgili,\nI. Aşırı otlatma, step alanlarında çölleşmeyi hızlandırır.\nII. Orman yangınları, biyoçeşitliliğin azalmasına neden olur.\nIII. Sanayi tesislerinin filtre kullanması hava kirliliğini önlemez.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "Cevap C şıkkıdır. I. önerme doğrudur, aşırı otlatma bitki örtüsünü tahrip ederek steplerde çölleşmeyi hızlandırır. II. önerme doğrudur, orman yangınları ekosistemi yok ederek biyoçeşitliliği azaltır. III. önerme yanlıştır, sanayi tesislerinde filtre kullanımı hava kirliliğini önemli ölçüde azaltır. A ve B şıkları yalnızca bir doğru önermeyi içerdiği için eksiktir. D şıkkı yanlış önerme III'ü doğru kabul eder. E şıkkı her üçünü birden doğru sayar. Çevre sorunlarıyla mücadelede filtre kullanımı temel önlemlerden biridir.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "toprak-cevre-1779573883-H6",
+      "soru": "Türkiye'deki tarım toprakları ve kullanımıyla ilgili,\nI. Alüvyal topraklar, akarsu boylarında verimli tarım alanlarını oluşturur.\nII. Taban suyu yüksek olan arazilerde drenaj yapılmazsa tuzlanma artar.\nIII. Lateritik topraklar, Türkiye'de yaygın olarak görülür.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "Cevap C şıkkıdır. I. önerme doğrudur; alüvyal topraklar akarsuların taşıdığı malzemelerle oluşur ve tarım için çok verimlidir. II. önerme doğrudur, taban suyu drenajla uzaklaştırılmazsa buharlaşmayla tuz birikimi olur. III. önerme yanlıştır, lateritik (demirli) topraklar tropikal bölgelerde yaygındır; Türkiye'de ise kireçli, alüvyal, podzol gibi toprak tipleri görülür. A ve B şıkları bir doğruyu atlar; D ve E şıkları III'ü doğru kabul ettiği için yanlıştır. Türkiye'de alüvyal topraklar özellikle Çukurova, Bafra, Çarşamba ovalarında tarımın temel dayanağıdır.",
+      "harita_il": "adana",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "toprak-cevre-1779573883-H7",
+      "soru": "Türkiye'de toprak erozyonu ve mücadele yöntemleriyle ilgili,\nI. Nadas uygulaması, toprağın organik madde içeriğini artırır.\nII. Şeritvari ekim, eğimli arazilerde erozyonu azaltır.\nIII. Teraslama, eğimli arazilerde tarım yapılmasını sağlar.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "D) II ve III",
+      "aciklama": "Cevap D şıkkıdır. II. önerme doğrudur, şeritvari ekim eğim yönüne dik yapıldığında su akışını yavaşlatarak erozyonu azaltır. III. önerme doğrudur, teraslama eğimli yamaçlarda basamaklar oluşturarak tarım yapmayı mümkün kılar. I. önerme yanlıştır, nadas uygulaması toprağın dinlenmesini sağlasa da organik maddeyi artırmaz; aksine sürekli nadas toprak kaybına yol açar. A, B, C şıkları I'i doğru kabul eder, E şıkkı da I'i dahil eder. Erozyonla mücadelede şeritvari ekim, teraslama, örtü bitkileri gibi yöntemler etkilidir.",
+      "harita_il": null,
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "toprak-cevre-1779573883-H8",
+      "soru": "Yukarıdaki Türkiye haritasında I, II, III, IV ve V numaralı alanlar gösterilmiştir.\nBu alanların hangisinde kahverengi orman toprakları yaygın olarak bulunur?",
+      "siklar": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV",
+        "E) V"
+      ],
+      "dogru": "B) II",
+      "aciklama": "Cevap B şıkkıdır. Haritada II numaralı alan (Samsun) Karadeniz Bölgesi'nde yer aldığı için kahverengi orman toprakları yaygındır. I numaralı alan (Konya) step toprakları, III numaralı alan (Antalya) kireçli topraklar, IV numaralı alan (Erzurum) çayır toprakları, V numaralı alan (İzmir) ise Akdeniz ve kireçli topraklar ile karakterize edilir. Kahverengi orman toprakları nemli orman örtüsü altında oluşur ve Karadeniz kıyı kuşağı bu toprakların en tipik görüldüğü yerdir. Diğer şıklar farklı toprak tiplerine sahip bölgeleri işaret eder.",
+      "harita_il": null,
+      "zorluk": "zor",
+      "gorsel": "toprak-cevre/toprak-cevre-H8.svg",
+      "gorsel_veri": {
+        "I": "konya",
+        "II": "samsun",
+        "III": "antalya",
+        "IV": "erzurum",
+        "V": "izmir"
+      }
+    },
+    {
+      "id": "toprak-cevre-1779574037-E1",
+      "soru": "Türkiye'de bitki örtüsünün cılız olduğu, yağış miktarının az olduğu yarı kurak bölgelerde yaygın olarak görülen toprak türü aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Çernezyom",
+        "B) Terra-rossa",
+        "C) Kahverengi orman toprağı",
+        "D) Kestane renkli bozkır toprağı",
+        "E) Laterit"
+      ],
+      "dogru": "D) Kestane renkli bozkır toprağı",
+      "aciklama": "Doğru cevap D şıkkıdır. Kestane renkli bozkır toprakları, yarı kurak iklim koşullarında, bitki örtüsünün cılız olduğu bozkır alanlarında oluşur. Bu topraklar İç Anadolu ve Güneydoğu Anadolu Bölgelerinde yaygındır. A şıkkındaki çernezyom, nemli karasal iklim bölgelerinde görülen verimli bir topraktır. B şıkkındaki terra-rossa, Akdeniz iklim bölgesinde kireçtaşları üzerinde oluşur. C şıkkındaki kahverengi orman toprağı, nemli orman alanlarında görülür. E şıkkındaki laterit ise sıcak ve nemli tropikal iklim toprağıdır ve Türkiye'de bulunmaz. Genel kural olarak, yarı kurak bölgelerde organik madde oranı düşük, kestane renkli bozkır toprakları yaygındır.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "toprak-cevre-1779574037-E2",
+      "soru": "Aşağıdakilerden hangisi, Türkiye'de toprak erozyonuna neden olan doğal faktörlerden biridir?",
+      "siklar": [
+        "A) Nadas uygulaması",
+        "B) Eğimli arazilerde tarım yapılması",
+        "C) Bitki örtüsünün tahrip edilmesi",
+        "D) Şiddetli yağışlar",
+        "E) Anız yakma"
+      ],
+      "dogru": "D) Şiddetli yağışlar",
+      "aciklama": "Doğru cevap D şıkkıdır. Erozyona neden olan doğal faktörler arasında şiddetli yağışlar, eğimli arazi yapısı, bitki örtüsünün doğal olarak cılız olması ve rüzgar yer alır. A, B, C ve E şıklarında verilen nadas uygulaması, eğimli arazilerde tarım, bitki örtüsünün tahribi ve anız yakma ise beşeri (insan kaynaklı) faktörlerdir. Bu nedenle doğal faktörler ile beşeri faktörlerin ayrımı önemlidir. Türkiye'de erozyonla mücadelede doğal faktörlerin yanı sıra beşeri faktörlerin kontrol altına alınması da büyük önem taşımaktadır.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "toprak-cevre-1779574037-H1-001",
+      "soru": "Türkiye'de terra rossa topraklarının yaygın olduğu bölge aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Karadeniz Bölgesi",
+        "B) Akdeniz Bölgesi",
+        "C) İç Anadolu Bölgesi",
+        "D) Ege Bölgesi",
+        "E) Marmara Bölgesi"
+      ],
+      "dogru": "B) Akdeniz Bölgesi",
+      "aciklama": "Terra rossa (kırmızı Akdeniz toprağı), Akdeniz ikliminin hakim olduğu bölgelerde kalkerli anakaya üzerinde oluşan zonal bir toprak türüdür. Kireçli malzemenin yıkanmasıyla demir oksit birikimi sonucu kırmızı renk alır. Türkiye'de en yaygın olarak Akdeniz Bölgesi'nde, özellikle Toros Dağları'nın eteklerinde ve Antalya, Mersin çevresinde görülür. Diğer bölgelerde terra rossa oluşumu için gerekli iklim ve anakaya koşulları tam olarak bulunmaz.",
+      "harita_il": "antalya",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "toprak-cevre-1779574037-H1-002",
+      "soru": "Türkiye'de rüzgar erozyonunun en şiddetli olduğu bölge aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Marmara Bölgesi",
+        "B) Ege Bölgesi",
+        "C) İç Anadolu Bölgesi",
+        "D) Karadeniz Bölgesi",
+        "E) Akdeniz Bölgesi"
+      ],
+      "dogru": "C) İç Anadolu Bölgesi",
+      "aciklama": "Rüzgar erozyonu, bitki örtüsünün seyrek olduğu, kurak ve yarı kurak iklim bölgelerinde etkilidir. İç Anadolu Bölgesi'nde doğal bitki örtüsü bozkır olduğu ve yağış miktarı düşük olduğu için topraklar rüzgarla taşınmaya açıktır. Özellikle Konya, Aksaray ve Ankara çevresinde şiddetli rüzgar erozyonu görülür. Diğer bölgelerde ya bitki örtüsü daha gürdür ya da nem oranı yüksektir, bu da rüzgar erozyonunu azaltır.",
+      "harita_il": "konya",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "toprak-cevre-1779574037-H1-003",
+      "soru": "Aşağıdaki toprak tiplerinden hangisi oluşumu bakımından diğerlerinden farklıdır?",
+      "siklar": [
+        "A) Alüvyal topraklar",
+        "B) Lös topraklar",
+        "C) Kolüvyal topraklar",
+        "D) Podzol topraklar",
+        "E) Moren topraklar"
+      ],
+      "dogru": "D) Podzol topraklar",
+      "aciklama": "Podzol topraklar, soğuk ve nemli iklim koşullarında iğne yapraklı orman örtüsü altında oluşan zonal topraklardır. Yıkanmanın fazla olması nedeniyle üst kısımları kül rengindedir. Alüvyal, lös, kolüvyal ve moren topraklar ise taşınma ve birikme sonucu oluşan azonal topraklardır. Bu nedenle podzol topraklar oluşum kökeni bakımından diğerlerinden ayrılır. Türkiye'de podzol topraklara Doğu Karadeniz'in yüksek kesimlerinde rastlanır.",
+      "harita_il": "rize",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "toprak-cevre-1779574037-H1-004",
+      "soru": "Türkiye'de tarımsal kullanıma en elverişli toprakların yaygın olduğu bölge aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Marmara Bölgesi",
+        "B) Ege Bölgesi",
+        "C) İç Anadolu Bölgesi",
+        "D) Karadeniz Bölgesi",
+        "E) Güneydoğu Anadolu Bölgesi"
+      ],
+      "dogru": "C) İç Anadolu Bölgesi",
+      "aciklama": "İç Anadolu Bölgesi, geniş düzlükleri ve alüvyal topraklarının varlığı sayesinde Türkiye'nin en büyük tarım alanlarına sahip bölgesidir. Konya Ovası, Ankara-Polatlı çevresi gibi yerlerde verimli topraklar bulunur. Ancak bu toprakların verimliliği yağış azlığı nedeniyle sulamaya bağlı olarak değişir. Diğer bölgelerde engebe ve orman örtüsü tarım alanlarını sınırlandırır. Bölge aynı zamanda tahıl üretiminin merkezidir.",
+      "harita_il": "konya",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "toprak-cevre-1779574037-H1-005",
+      "soru": "Aşağıdakilerden hangisi Türkiye'de toprak erozyonunu artıran beşerî faktörlerden biri değildir?",
+      "siklar": [
+        "A) Nadas uygulaması",
+        "B) Aşırı otlatma",
+        "C) Orman yangınları",
+        "D) Eğimli arazilerde tarım",
+        "E) Volkanik faaliyetler"
+      ],
+      "dogru": "E) Volkanik faaliyetler",
+      "aciklama": "Toprak erozyonunu artıran beşerî (insan kaynaklı) faktörler arasında nadas uygulaması, aşırı otlatma, orman yangınları ve eğimli arazilerde bilinçsiz tarım yer alır. Volkanik faaliyetler ise doğal bir süreçtir ve erozyon üzerinde doğrudan artırıcı etkisi yoktur; aksine volkanik küller zamanla verimli topraklar oluşturur. Bu nedenle volkanik faaliyetler beşerî faktörler arasında sayılamaz.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "toprak-cevre-1779574037-H1-006",
+      "soru": "Türkiye'deki toprak tipleriyle ilgili,\nI. Terra rossa toprakları Akdeniz iklim bölgesinde yaygındır.\nII. Çernezyom toprakları Karadeniz'in yüksek kesimlerinde görülür.\nIII. Alüvyal topraklar en çok İç Anadolu'da bulunur.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) I ve III",
+        "E) II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "I. öncül doğrudur: Terra rossa, Akdeniz ikliminin tipik zonal toprağıdır ve Türkiye'de Akdeniz Bölgesi'nde yaygındır. II. öncül doğrudur: Çernezyom (kara toprak) yüksek ot toplulukları altında oluşur ve Karadeniz Bölgesi'nin yüksek platolarında (örneğin Erzurum-Kars) bulunur. III. öncül yanlıştır: Alüvyal topraklar akarsu boylarında ve delta ovalarında oluşur; en yaygın olduğu yerler Çukurova, Bafra, Çarşamba gibi kıyı ovalarıdır, İç Anadolu'da da bulunmakla birlikte en çok bu bölgede denemez.",
+      "harita_il": null,
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "toprak-cevre-1779574037-H1-007",
+      "soru": "Toprak oluşumunu etkileyen faktörlerle ilgili,\nI. İklim, toprağın fiziksel ve kimyasal özelliklerini belirler.\nII. Anakaya, toprağın mineral bileşimini doğrudan etkiler.\nIII. Topografya, toprak kalınlığı ve drenajı üzerinde rol oynar.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "E) I, II ve III",
+      "aciklama": "Toprak oluşumunda iklim, anakaya, topografya, organizmalar ve zaman olmak üzere beş temel faktör vardır. I. öncül doğrudur: İklim (sıcaklık, yağış) ayrışmayı ve organik madde oranını belirler. II. öncül doğrudur: Anakaya, toprağın kum, kil, kireç gibi mineral içeriğini belirler. III. öncül doğrudur: Eğim, bakı ve yükselti gibi topografik özellikler toprağın kalınlığını, su tutma kapasitesini ve erozyon duyarlılığını etkiler. Bu nedenle üç öncül de doğrudur.",
+      "harita_il": null,
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "toprak-cevre-1779574037-H1-008",
+      "soru": "Yukarıdaki Türkiye haritasında I, II, III, IV ve V numaralı alanlar gösterilmiştir. Bu alanların hangisinde tuzlu-alkali topraklar yaygındır?",
+      "siklar": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV",
+        "E) V"
+      ],
+      "dogru": "A) I",
+      "aciklama": "Tuzlu-alkali topraklar, drenajın yetersiz olduğu, buharlaşmanın fazla olduğu kurak ve yarı kurak bölgelerde oluşur. Türkiye'de en tipik örneği İç Anadolu'da Tuz Gölü çevresidir. Haritada I numaralı alan Aksaray ve Konya arasındaki Tuz Gölü havzasını kapsamaktadır. Burada taban suyu yüksek ve tuzludur, buharlaşma ile tuz birikimi olur. II. alan (Doğu Anadolu), III. alan (Karadeniz), IV. alan (Ege) ve V. alan (Güneydoğu) tuzlu-alkali topraklar için uygun koşullara sahip değildir.",
+      "harita_il": "aksaray",
+      "zorluk": "zor",
+      "gorsel": "toprak-cevre/toprak-cevre-1779574037-H1-008.svg",
+      "gorsel_veri": {
+        "I": "aksaray",
+        "II": "erzurum",
+        "III": "trabzon",
+        "IV": "izmir",
+        "V": "sanliurfa"
+      }
+    },
+    {
+      "id": "toprak-cevre-1779574092-E1",
+      "soru": "Türkiye'deki toprak türlerinden biri olan kireçli toprakların yaygın olduğu bölge aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Karadeniz Bölgesi",
+        "B) Marmara Bölgesi",
+        "C) İç Anadolu Bölgesi",
+        "D) Doğu Anadolu Bölgesi",
+        "E) Akdeniz Bölgesi"
+      ],
+      "dogru": "C) İç Anadolu Bölgesi",
+      "aciklama": "Türkiye'de kireçli topraklar, kalkerli ana materyal üzerinde oluşan ve kireç birikimi ile karakterize edilen topraklardır. Bu topraklar en yaygın olarak İç Anadolu Bölgesi'nde görülür. A şıkkındaki Karadeniz Bölgesi'nde ise yıkanmanın fazla olması nedeniyle asidik topraklar daha yaygındır. B şıkkındaki Marmara Bölgesi'nde çeşitli toprak türleri bulunmakla birlikte kireçli topraklar İç Anadolu kadar baskın değildir. D şıkkındaki Doğu Anadolu Bölgesi'nde volkanik ve bazaltik ana materyal üzerinde oluşan topraklar daha yaygındır. E şıkkındaki Akdeniz Bölgesi'nde ise terra-rossa tipi kırmızı Akdeniz toprakları yaygındır. Kireçli topraklar, kurak ve yarı kurak iklim koşullarında kireç birikimi sonucu oluşur.",
+      "harita_il": "ankara",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "toprak-cevre-1779574092-E2",
+      "soru": "Türkiye'de Karadeniz Bölgesi'nde yaygın olarak görülen toprak türü aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Kireçli topraklar",
+        "B) Kahverengi orman toprakları",
+        "C) Kestane renkli bozkır toprakları",
+        "D) Terra-rossa toprakları",
+        "E) Çernezyom toprakları"
+      ],
+      "dogru": "B) Kahverengi orman toprakları",
+      "aciklama": "Karadeniz Bölgesi, bol yağışlı iklimi ve orman örtüsü nedeniyle kahverengi orman topraklarının yaygın olduğu bir bölgedir. Bu topraklar, humus bakımından zengin olup yıkanmanın etkisiyle asidik karakter gösterir. A şıkkındaki kireçli topraklar daha çok kurak bölgelerde (İç Anadolu) görülür. C şıkkındaki kestane renkli bozkır toprakları, yarı kurak iklim bölgelerinde (İç Anadolu, Doğu Anadolu) yaygındır. D şıkkındaki terra-rossa toprakları, Akdeniz ikliminin hakim olduğu alanlarda kalker üzerinde oluşur. E şıkkındaki çernezyom toprakları ise daha çok Erzurum-Kars Platosu gibi yüksek ve nemli çayır alanlarında görülür. Kahverengi orman toprakları, Karadeniz Bölgesi'nin karakteristik toprak türüdür.",
+      "harita_il": "rize",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "toprak-cevre-1779574092-H1",
+      "soru": "Türkiye'de karstik toprakların yaygın olarak görüldüğü bölge aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Marmara Bölgesi",
+        "B) Ege Bölgesi",
+        "C) Akdeniz Bölgesi",
+        "D) İç Anadolu Bölgesi",
+        "E) Doğu Anadolu Bölgesi"
+      ],
+      "dogru": "C) Akdeniz Bölgesi",
+      "aciklama": "Doğru cevap C şıkkıdır. Karstik topraklar (terra rossa) kireçtaşının ayrışmasıyla oluşur ve Türkiye'de en yaygın olarak Akdeniz Bölgesi'nde görülür. A şıkkı Marmara'da daha çok kahverengi orman toprakları yaygındır; B şıkkı Ege'de terra rossa görülmekle birlikte tipik bölge Akdeniz'dir; D şıkkı İç Anadolu'da bozkır toprakları; E şıkkı Doğu Anadolu'da çernezyom ve kestane renkli topraklar yaygındır. Genel kural: karstik topraklar kireçtaşının bulunduğu Akdeniz iklim bölgesinde yoğunlaşır.",
+      "harita_il": "antalya",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "toprak-cevre-1779574092-H2",
+      "soru": "Türkiye'de erozyonla ilgili,\nI. Rüzgâr erozyonu en çok İç Anadolu'da etkilidir.\nII. Su erozyonu en çok Karadeniz'de görülür.\nIII. Erozyon tarım arazilerini olumsuz etkiler.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve III",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "E) I, II ve III",
+      "aciklama": "Doğru cevap E şıkkıdır. Rüzgâr erozyonu İç Anadolu'da step iklimi ve bitki örtüsünün cılız olması nedeniyle etkilidir. Su erozyonu ise Karadeniz'de yağışın fazla olması ve eğimli araziler nedeniyle yaygındır. Erozyon her bölgede tarım arazilerini olumsuz etkiler. I, II ve III önermelerinin tamamı doğrudur. Kolay seviye bir sorudur.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "toprak-cevre-1779574092-H3",
+      "soru": "Türkiye topraklarının oluşumunda ana materyalin etkisiyle ilgili,\nI. Volkanik tüfler üzerinde kumlu topraklar oluşur.\nII. Kireçtaşları üzerinde kireçli topraklar oluşur.\nIII. Granit üzerinde killi topraklar oluşur.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "Doğru cevap C şıkkıdır. Volkanik tüflerin ayrışmasıyla kumlu topraklar (örneğin Nevşehir yöresinde), kireçtaşlarının ayrışmasıyla kireçli topraklar oluşur. III. önerme yanlıştır çünkü granit ana kaya kumlu toprak oluşturur, killi değil. Bu nedenle I ve II doğrudur.",
+      "harita_il": "nevsehir",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "toprak-cevre-1779574092-H4",
+      "soru": "Organik madde bakımından zengin topraklarla ilgili,\nI. Çernezyom, Doğu Anadolu'da yaygındır.\nII. Kahverengi orman toprağı, Karadeniz'de görülür.\nIII. Kestane renkli bozkır toprağı, İç Anadolu'da bulunur.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve III",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "E) I, II ve III",
+      "aciklama": "Doğru cevap E şıkkıdır. Çernezyom topraklar organik maddece zengindir ve Doğu Anadolu Bölgesi'nde yaygındır. Kahverengi orman toprakları Karadeniz Bölgesi'nin nemli orman örtüsü altında oluşur. Kestane renkli bozkır toprakları İç Anadolu Bölgesi'nde görülür. Her üç önerme de doğrudur.",
+      "harita_il": "erzurum",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "toprak-cevre-1779574092-H5",
+      "soru": "Bir bölgede toprakların kireçli olması, bitki örtüsünün cılız olmasına ve yüzeyde beyazımsı bir tabaka oluşmasına neden olmuştur. Bu bölge aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Rize",
+        "B) Antalya",
+        "C) Konya",
+        "D) Samsun",
+        "E) Edirne"
+      ],
+      "dogru": "C) Konya",
+      "aciklama": "Doğru cevap C şıkkıdır. Konya çevresinde kireçli bozkır toprakları yaygındır ve kurak iklim nedeniyle bitki örtüsü cılızdır. Rize'de asitli podzol topraklar, Antalya'da terra rossa, Samsun'da alüvyal topraklar, Edirne'de kahverengi orman toprakları görülür. Konya step iklimiyle uyumludur.",
+      "harita_il": "konya",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "toprak-cevre-1779574092-H6",
+      "soru": "Alüvyal topraklar ile kolüvyal topraklar karşılaştırıldığında, aşağıdakilerden hangisi alüvyal topraklar için söylenir?",
+      "siklar": [
+        "A) Eğimli arazilerde bulunur.",
+        "B) Taşlı ve çakıllıdır.",
+        "C) Tarıma daha elverişlidir.",
+        "D) Oluşumunda yer çekimi etkilidir.",
+        "E) Drenajı iyidir."
+      ],
+      "dogru": "C) Tarıma daha elverişlidir.",
+      "aciklama": "Doğru cevap C şıkkıdır. Alüvyal topraklar akarsular tarafından taşınarak biriktirilen ince taneli, verimli topraklardır ve tarıma çok elverişlidir. Kolüvyal topraklar ise eğimli arazilerde yer çekimi etkisiyle biriken taşlı-çakıllı topraklardır. A, B, D, E şıkları kolüvyal toprakların özellikleridir.",
+      "harita_il": "samsun",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "toprak-cevre-1779574092-H7",
+      "soru": "Türkiye'de toprak kirliliğine neden olan faktörlerle ilgili,\nI. Tarım ilaçları toprağa karışarak kirliliğe yol açar.\nII. Sanayi atıkları toprağın pH dengesini bozar.\nIII. Aşırı gübre kullanımı toprakta tuzlanmaya neden olur.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve III",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "E) I, II ve III",
+      "aciklama": "Doğru cevap E şıkkıdır. Tarım ilaçları toprağa karışarak kimyasal kirliliğe yol açar. Sanayi atıkları ağır metaller ve asitlerle toprağın pH dengesini bozar. Aşırı gübre kullanımı toprakta tuz birikimine neden olur. Her üç önerme de doğrudur ve toprak kirliliğinin başlıca nedenlerindendir.",
+      "harita_il": "kocaeli",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "toprak-cevre-1779574092-H8",
+      "soru": "Toprak oluşumunda iklimin etkisiyle ilgili,\nI. Yağışın fazla olduğu bölgelerde yıkanma fazladır.\nII. Sıcaklığın yüksek olduğu bölgelerde kimyasal ayrışma hızlıdır.\nIII. Kurak bölgelerde fiziksel ayrışma baskındır.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız III",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "E) I, II ve III",
+      "aciklama": "Doğru cevap E şıkkıdır. Yağışın fazla olduğu bölgelerde yıkanma şiddetlidir, çözünebilir mineraller alt katmanlara taşınır. Sıcaklık arttıkça kimyasal reaksiyonlar hızlanır, kimyasal ayrışma artar. Kurak bölgelerde ise sıcaklık farkları fiziksel ayrışmayı (mekanik ufalanma) artırır. Her üç önerme doğrudur.",
+      "harita_il": "rize",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "toprak-cevre-1779574177-E1",
+      "soru": "Türkiye'deki büyük toprak gruplarından biri olan kireçsiz kahverengi orman topraklarının yaygın olarak görüldüğü bölge aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Akdeniz Bölgesi",
+        "B) Karadeniz Bölgesi",
+        "C) İç Anadolu Bölgesi",
+        "D) Doğu Anadolu Bölgesi",
+        "E) Güneydoğu Anadolu Bölgesi"
+      ],
+      "dogru": "B) Karadeniz Bölgesi",
+      "aciklama": "Kireçsiz kahverengi orman toprakları, nemli ve ılıman iklim koşullarında, geniş yapraklı orman örtüsü altında oluşur. Türkiye'de bu topraklar en yaygın şekilde Karadeniz Bölgesi'nde görülür. A şıkkındaki Akdeniz Bölgesi'nde kireçli terra rossa toprakları, C şıkkındaki İç Anadolu'da kestane rengi bozkır toprakları, D ve E şıkkındaki Doğu ve Güneydoğu Anadolu'da ise bazaltik topraklar ve kırmızı Akdeniz toprakları daha yaygındır.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "toprak-cevre-1779574177-E2",
+      "soru": "Aşağıdaki toprak türlerinden hangisi, yıkanmanın fazla olduğu nemli bölgelerde, bitki örtüsünün gür olduğu alanlarda oluşan asidik karakterli bir topraktır?",
+      "siklar": [
+        "A) Çernezyom",
+        "B) Laterit",
+        "C) Podzol",
+        "D) Vertisol",
+        "E) Kestane rengi bozkır toprağı"
+      ],
+      "dogru": "C) Podzol",
+      "aciklama": "Podzol topraklar, soğuk ve nemli iklim bölgelerinde, iğne yapraklı orman örtüsü altında oluşan asidik karakterli topraklardır. Yıkanmanın fazla olması nedeniyle üst katmanları besin maddelerince fakirdir. A şıkkındaki çernezyom, step ikliminde oluşan verimli topraklardır. B şıkkındaki laterit, sıcak ve nemli tropikal bölgelerde görülür. D şıkkındaki vertisol, killi ve şişme-büzülme özelliği olan topraklardır. E şıkkındaki kestane rengi bozkır toprağı ise yarı kurak bölgelerde oluşur.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "toprak-cevre-001",
+      "soru": "Aşağıdaki illerden hangisinde kahverengi orman toprakları yaygındır?",
+      "siklar": [
+        "A) Konya",
+        "B) Trabzon",
+        "C) İzmir",
+        "D) Adana",
+        "E) Ankara"
+      ],
+      "dogru": "B) Trabzon",
+      "aciklama": "Kahverengi orman toprakları, nemli orman örtüsü altında oluşan ve organik maddece zengin topraklardır. Türkiye'de özellikle Karadeniz Bölgesi'nde, bol yağış alan dağlık alanlarda yaygındır. Trabzon ili bu bölgede yer aldığından kahverengi orman topraklarının görüldüğü tipik bir örnektir. Diğer seçeneklerdeki iller farklı toprak tiplerine sahiptir.",
+      "harita_il": "trabzon",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "toprak-cevre-002",
+      "soru": "Aşağıdaki illerden hangisinde çernezyom toprakları yaygındır?",
+      "siklar": [
+        "A) Kars",
+        "B) Antalya",
+        "C) Rize",
+        "D) Manisa",
+        "E) Batman"
+      ],
+      "dogru": "A) Kars",
+      "aciklama": "Çernezyom toprakları, yarı nemli step ikliminde geniş düzlüklerde oluşan koyu renkli, organik maddece zengin topraklardır. Türkiye'de Erzurum-Kars Platosu'nda yaygın olarak bulunur. Kars ili bu plato üzerinde yer aldığı için çernezyom topraklarının tipik görüldüğü bir alandır. Diğer iller farklı iklim ve toprak özelliklerine sahiptir.",
+      "harita_il": "kars",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "toprak-cevre-003",
+      "soru": "Karadeniz Bölgesi'nde yapılan bir arazi çalışmasında toprağın üst katmanlarının asidik ve yıkanmanın şiddetli olduğu gözlemlenmiştir. Buna göre bu alanda aşağıdaki toprak tiplerinden hangisi yaygındır?",
+      "siklar": [
+        "A) Terra rossa",
+        "B) Podzol",
+        "C) Çernezyom",
+        "D) Rendzina",
+        "E) Alüvyal topraklar"
+      ],
+      "dogru": "B) Podzol",
+      "aciklama": "Podzol toprakları, nemli ve soğuk iklimde iğne yapraklı ormanlar altında oluşur. Asidik karakterli ve yıkanmanın fazla olduğu bu topraklar, Karadeniz Bölgesi'nin yüksek kesimlerinde yaygındır. Terra rossa Akdeniz ikliminde, çernezyom step ikliminde, rendzina killi tabakalar üzerinde, alüvyal topraklar ise akarsu boylarında görülür.",
+      "harita_il": "trabzon",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "toprak-cevre-004",
+      "soru": "Türkiye'de İç Anadolu Bölgesi'nde topraklarda kireç birikiminin fazla olması aşağıdakilerden hangisinin bir sonucudur?",
+      "siklar": [
+        "A) Yıkanmanın şiddetli olması",
+        "B) Bitki örtüsünün gür olması",
+        "C) Yağış miktarının az olması",
+        "D) Ana materyalin volkanik olması",
+        "E) Sıcaklık farklarının fazla olması"
+      ],
+      "dogru": "C) Yağış miktarının az olması",
+      "aciklama": "Kireç birikimi, yıkanmanın az olduğu kurak ve yarı kurak bölgelerde görülür. İç Anadolu'da yağış miktarının düşük olması, topraktaki kirecin yıkanmasını engelleyerek birikmesine neden olur. Bu durum kalsimorfik toprakların oluşmasına yol açar. Diğer seçenekler kireç birikimini açıklamaz.",
+      "harita_il": "konya",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "toprak-cevre-005",
+      "soru": "Aşağıda verilen toprak tipleri ile bu toprakların yaygın olduğu bölge eşleştirmelerinden hangisi yanlıştır?",
+      "siklar": [
+        "A) Terra rossa - Akdeniz Bölgesi",
+        "B) Alüvyal topraklar - Çukurova",
+        "C) Çernezyom - Doğu Anadolu Bölgesi",
+        "D) Podzol - Karadeniz Bölgesi",
+        "E) Kahverengi orman toprakları - Ege Bölgesi"
+      ],
+      "dogru": "C) Çernezyom - Doğu Anadolu Bölgesi",
+      "aciklama": "Çernezyom toprakları, yarı nemli step ikliminin karakteristik toprağıdır ve Türkiye'de ağırlıklı olarak İç Anadolu Bölgesi'nde yaygındır. Doğu Anadolu'da ise daha çok yüksek dağ çayırları ve step toprakları görülür. Diğer eşleştirmeler doğrudur: Terra rossa Akdeniz kıyı kuşağında, alüvyal topraklar Çukurova'da, podzol Karadeniz'in yüksek kesimlerinde, kahverengi orman toprakları Ege'deki nemli orman alanlarında bulunur.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "toprak-cevre-006",
+      "soru": "Türkiye'de toprak erozyonunu artıran faktörlerle ilgili;\\n\\nI. Eğimli arazilerde taraçalandırma yapılması\\nII. Meralarda aşırı otlatma yapılması\\nIII. Orman alanlarının tarım arazisine dönüştürülmesi\\n\\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "D) II ve III",
+      "aciklama": "Aşırı otlatma, bitki örtüsünü zayıflatarak toprağı erozyona karşı korumasız bırakır. Ormanların tarıma açılması da toprağın yapısını bozar. Taraçalandırma ise erozyonu önleyici bir yöntemdir. Bu nedenle I numaralı önerme yanlıştır. II ve III numaralı önermeler erozyonu artırıcı faktörlerdir.",
+      "harita_il": null,
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "toprak-cevre-007",
+      "soru": "Yukarıdaki Türkiye haritasında I, II, III, IV ve V numaralı alanlar gösterilmiştir. Bu alanlarda yaygın olan toprak tipleriyle ilgili aşağıdaki eşleştirmelerden hangisi doğrudur?",
+      "siklar": [
+        "A) I-Alüvyal, II-Çernezyom, III-Kireçli kahverengi step, IV-Terra rossa, V-Podzol",
+        "B) I-Kolüvyal, II-Kestane renkli step, III-Vertisol, IV-Kireçsiz kahverengi orman, V-Rendzina",
+        "C) I-Alüvyal, II-Podzol, III-Vertisol, IV-Kireçli kahverengi orman, V-Çernezyom",
+        "D) I-Terra rossa, II-Çernezyom, III-Solonçak, IV-Vertisol, V-Alüvyal",
+        "E) I-Alüvyal, II-Andezitik, III-Kireçli kahverengi, IV-Terra rossa, V-Kahverengi orman"
+      ],
+      "dogru": "A) I-Alüvyal, II-Çernezyom, III-Kireçli kahverengi step, IV-Terra rossa, V-Podzol",
+      "aciklama": "I numaralı alan (Adana/Çukurova) alüvyal toprakların yaygın olduğu bir deltadır. II (Erzurum) çernezyom topraklarının bulunduğu platolardır. III (Konya) kireçli kahverengi step topraklarının tipik alanıdır. IV (Muğla/Menteşe yöresi) terra rossa topraklarının görüldüğü karstik bir bölgedir. V (Kırklareli/Yıldız Dağları) ise podzol topraklarının yaygın olduğu nemli ormanlık alandır. Diğer şıklardaki eşleştirmeler yanlıştır.",
+      "harita_il": null,
+      "zorluk": "zor",
+      "gorsel": "toprak-cevre/toprak-cevre-007.svg",
+      "gorsel_veri": {
+        "I": "adana",
+        "II": "erzurum",
+        "III": "konya",
+        "IV": "mugla",
+        "V": "kirklareli"
+      }
+    },
+    {
+      "id": "toprak-cevre-008",
+      "soru": "Aşağıdakilerden hangisi toprak kirliliğine yol açan faktörlerden biri değildir?",
+      "siklar": [
+        "A) Tarım ilaçlarının bilinçsiz kullanımı",
+        "B) Sanayi kuruluşlarının atıkları",
+        "C) Evsel atıkların toprağa karışması",
+        "D) Orman yangınları",
+        "E) Aşırı gübre kullanımı"
+      ],
+      "dogru": "D) Orman yangınları",
+      "aciklama": "Orman yangınları toprağın fiziksel yapısını bozar ve organik madde kaybına neden olur ancak kimyasal kirlilik oluşturmaz. Tarım ilaçları, sanayi atıkları, evsel atıklar ve aşırı gübre ise toprağa kimyasal maddeler karıştırarak kirliliğe yol açar. Bu nedenle orman yangınları toprak kirliliği faktörü olarak sayılmaz.",
+      "harita_il": null,
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "toprak-cevre-1779574264-E1",
+      "soru": "Türkiye'de kahverengi orman topraklarının yaygın olarak görüldüğü bölge aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Akdeniz Bölgesi",
+        "B) Karadeniz Bölgesi",
+        "C) İç Anadolu Bölgesi",
+        "D) Güneydoğu Anadolu Bölgesi",
+        "E) Marmara Bölgesi"
+      ],
+      "dogru": "B) Karadeniz Bölgesi",
+      "aciklama": "Kahverengi orman toprakları, nemli ve ılıman iklim koşullarında geniş yapraklı orman örtüsü altında oluşan topraklardır. Karadeniz Bölgesi'nde yıl boyunca yağışlı ve nemli iklim koşulları ile zengin bitki örtüsü bu toprak türünün gelişimi için uygun ortam sağlar. A şıkkı yanlıştır çünkü Akdeniz Bölgesi'nde terra rossa toprakları yaygındır. C şıkkı yanlıştır çünkü İç Anadolu Bölgesi'nde bozkır toprakları ve kestane renkli topraklar görülür. D şıkkı yanlıştır çünkü Güneydoğu Anadolu Bölgesi'nde kırmızımsı kahverengi topraklar bulunur. E şıkkı yanlıştır çünkü Marmara Bölgesi'nde farklı toprak türlerinin geçiş özellikleri görülür.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "toprak-cevre-1779574264-E2",
+      "soru": "Türkiye'de erozyonun en şiddetli olduğu bölge aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Marmara Bölgesi",
+        "B) Ege Bölgesi",
+        "C) İç Anadolu Bölgesi",
+        "D) Karadeniz Bölgesi",
+        "E) Akdeniz Bölgesi"
+      ],
+      "dogru": "C) İç Anadolu Bölgesi",
+      "aciklama": "Türkiye'de erozyonun en şiddetli yaşandığı bölge İç Anadolu Bölgesi'dir. Bölgede bitki örtüsünün seyrek olması, eğimli arazilerin varlığı ve yanlış arazi kullanımı erozyonu hızlandırmaktadır. A şıkkı yanlıştır çünkü Marmara Bölgesi'nde bitki örtüsü daha gürdür. B şıkkı yanlıştır çünkü Ege Bölgesi'nde maki ve orman örtüsü erozyonu kısmen engeller. D şıkkı yanlıştır çünkü Karadeniz Bölgesi'nde gür bitki örtüsü erozyonu azaltır. E şıkkı yanlıştır çünkü Akdeniz Bölgesi'nde dağlık alanlarda erozyon görülse de en şiddetli olduğu yer İç Anadolu'dur.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "toprak-cevre-1779574264-H1",
+      "soru": "Türkiye'de Konya Ovası'nda yaygın olarak görülen toprak tipi aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Kahverengi orman toprağı",
+        "B) Kestane rengi topraklar",
+        "C) Terra-rossa",
+        "D) Çernezyom",
+        "E) Podzol"
+      ],
+      "dogru": "B) Kestane rengi topraklar",
+      "aciklama": "Kestane rengi topraklar, yarı kurak ve yarı nemli iklim bölgelerinde, step ve orman örtüsü altında oluşan topraklardır. Konya Ovası'nda yarı kurak iklim koşulları ve doğal step bitki örtüsü nedeniyle bu toprak tipi yaygındır. A şıkkı orman altında görülür, C şıkkı Akdeniz ikliminde görülür, D şıkkı Doğu Anadolu'da yaygındır, E şıkkı ise soğuk ve nemli bölgelerde görülür.",
+      "harita_il": "konya",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "toprak-cevre-1779574264-H2",
+      "soru": "Artvin yöresinde görülen şiddetli erozyonun temel nedeni aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Kireçtaşının yaygın olması",
+        "B) Bitki örtüsünün tahrip edilmesi",
+        "C) Kurak iklim koşulları",
+        "D) Volkanik arazi yapısı",
+        "E) Tarıma elverişli düzlüklerin azlığı"
+      ],
+      "dogru": "B) Bitki örtüsünün tahrip edilmesi",
+      "aciklama": "Artvin, Doğu Karadeniz Bölgesi'nde yer alır ve dik eğimli arazileriyle bilinir. Bitki örtüsünün tahrip edilmesi (orman yangınları, kaçak kesim, mera aşırı otlatması) sonucu toprak erozyonu hızlanır. A şıkkı erozyonla doğrudan ilgili değildir, C şıkkı Artvin'de nemli iklim vardır, D şıkkı volkanik yapı erozyonu artırmaz, E şıkkı erozyonun sonucudur.",
+      "harita_il": "artvin",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "toprak-cevre-1779574264-H3",
+      "soru": "Terra-rossa toprakları ile çernezyom toprakları karşılaştırıldığında, aşağıdakilerden hangisi yalnızca çernezyom toprakları için söylenebilir?",
+      "siklar": [
+        "A) Yıkanmanın fazla olması",
+        "B) Kireç birikimi göstermesi",
+        "C) Humus bakımından zengin olması",
+        "D) Kırmızı renkli olması",
+        "E) Akdeniz ikliminde görülmesi"
+      ],
+      "dogru": "C) Humus bakımından zengin olması",
+      "aciklama": "Çernezyom, soğuk ve nemli iklimde, uzun boylu step örtüsü altında oluşan, üst katmanı humusça zengin koyu renkli topraklardır. Terra-rossa ise Akdeniz ikliminde kireçtaşı üzerinde oluşan, kırmızı renkli ve kireçsiz topraklardır. A seçeneği her iki toprakta da yıkanma düşüktür, B seçeneği terra-rossada kireç birikimi yoktur, D ve E seçenekleri terra-rossaya aittir.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "toprak-cevre-1779574264-H4",
+      "soru": "Bir araştırmacı, Antalya yöresinde tarımsal üretimin yoğun olduğu bir bölgede toprakta organik madde miktarının düşük olduğunu tespit etmiştir. Bu durumun temel sebebi aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Yağışların yetersiz olması",
+        "B) Yüksek sıcaklık nedeniyle organik maddenin hızla ayrışması",
+        "C) Toprağın asit karakterli olması",
+        "D) Bitki örtüsünün gür olması",
+        "E) Tarımda aşırı sulama yapılması"
+      ],
+      "dogru": "B) Yüksek sıcaklık nedeniyle organik maddenin hızla ayrışması",
+      "aciklama": "Akdeniz ikliminde yazlar sıcak ve kurak, kışlar ılık ve yağışlıdır. Yüksek sıcaklık mikroorganizma faaliyetini artırarak organik maddenin hızla ayrışmasına yol açar. Antalya'da bu nedenle toprak organik maddesi düşüktür. A seçeneği bölgeye uymaz, C seçeneği Akdeniz toprakları genelde kireçlidir, D seçeneği organik maddeyi artırır, E seçeneği doğrudan organik maddeyi azaltmaz.",
+      "harita_il": "antalya",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "toprak-cevre-1779574264-H5",
+      "soru": "Aşağıdakilerden hangisi toprak oluşumunda etkili olan faktörlerden biri değildir?",
+      "siklar": [
+        "A) Ana kaya",
+        "B) İklim",
+        "C) Yer altı kaynakları",
+        "D) Canlılar",
+        "E) Zaman"
+      ],
+      "dogru": "C) Yer altı kaynakları",
+      "aciklama": "Toprak oluşumunda ana kaya, iklim, canlılar, topoğrafya ve zaman gibi faktörler etkilidir. Yer altı kaynakları (maden, petrol) toprak oluşum sürecinde doğrudan bir faktör değildir. Diğer seçenekler pedogenezde temel faktörlerdir.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "toprak-cevre-1779574264-H6",
+      "soru": "Türkiye'de toprak kirliliğiyle ilgili,\nI. Sanayi tesislerinin atıkları toprağa karışarak ağır metal kirliliğine yol açar.\nII. Tarımda aşırı gübre ve pestisit kullanımı toprağın fiziksel yapısını bozar.\nIII. Asit yağmurları toprağın pH değerini düşürerek verimliliği azaltır.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve III",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "E) I, II ve III",
+      "aciklama": "Toprak kirliliğinin başlıca nedenleri arasında sanayi atıkları (ağır metal), tarımsal kimyasallar (gübre, pestisit) ve asit yağmurları yer alır. Sanayi atıkları toprağa toksik maddeler bırakır, aşırı kimyasal kullanımı toprak yapısını ve mikrobiyal faaliyeti bozar, asit yağmurları ise pH dengesini değiştirerek bitki besin elementlerinin alımını engeller. Bu nedenle üç önerme de doğrudur.",
+      "harita_il": "istanbul",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "toprak-cevre-1779574264-H7",
+      "soru": "Yukarıdaki Türkiye haritasında I, II, III, IV ve V numaralı alanlar gösterilmiştir.\nBu alanların hangisinde laterit toprakları yaygındır?",
+      "siklar": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV",
+        "E) V"
+      ],
+      "dogru": "B) II",
+      "aciklama": "Laterit topraklar sıcak ve nemli iklim koşullarında, yıkanmanın çok fazla olduğu bölgelerde oluşur. Türkiye'de en fazla Doğu Karadeniz kıyı kuşağında (Rize, Trabzon çevresi) görülür. Haritada II numaralı alan bu bölgeyi temsil etmektedir. I alanı Marmara, III İç Anadolu, IV Güneydoğu Anadolu, V Doğu Anadolu'dur. Lateritler bu bölgelerde yaygın değildir.",
+      "harita_il": "rize",
+      "zorluk": "zor",
+      "gorsel": "toprak-cevre/toprak-cevre-1779574264-H7.svg",
+      "gorsel_veri": {
+        "I": "istanbul",
+        "II": "rize",
+        "III": "konya",
+        "IV": "sanliurfa",
+        "V": "van"
+      }
+    },
+    {
+      "id": "toprak-cevre-1779574264-H8",
+      "soru": "Erzurum-Kars Platosu'nda yaygın olan çayır topraklarının (çernezyom) oluşumunda aşağıdaki iklim özelliklerinden hangisi etkilidir?",
+      "siklar": [
+        "A) Uzun ve soğuk kışlar, kısa serin yazlar",
+        "B) Yaz yağışlarının fazla olması",
+        "C) Yıllık sıcaklık farkının az olması",
+        "D) Kış yağışlarının kar şeklinde düşmesi",
+        "E) Buharlaşmanın çok yüksek olması"
+      ],
+      "dogru": "A) Uzun ve soğuk kışlar, kısa serin yazlar",
+      "aciklama": "Çernezyom (çayır toprağı), soğuk ve nemli iklimde, uzun boylu step örtüsü altında oluşur. Erzurum-Kars Platosu'nda kışlar uzun ve soğuk, yazlar kısa ve serindir; bu durum mikroorganizma faaliyetini yavaşlatarak organik maddenin birikmesini sağlar. B seçeneği yaz yağışları çernezyom için tipik değildir, C seçeneği bölgede sıcaklık farkı yüksektir, D seçeneği kar yağışı her bölgede görülür, E seçeneği bu plato için geçerli değildir.",
+      "harita_il": "erzurum",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
     }
   ]
 }

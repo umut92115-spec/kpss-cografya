@@ -275,23 +275,6 @@
       }
     },
     {
-      "id": "goller-016",
-      "soru": "Aşağıdaki tabloda Türkiye'deki bazı karstik göller ve yer aldıkları yöreler eşleştirilmiştir.\nHangi eşleştirmede hata yapılmıştır?",
-      "siklar": [
-        "A) Kestel Gölü — Çatalca-Kocaeli Yöresi",
-        "B) Salda Gölü — Göller Yöresi",
-        "C) Avlan Gölü — Teke Yöresi",
-        "D) Suğla Gölü — Konya çevresi ve Göller Yöresi geçişi",
-        "E) Kızören Gölü — Konya çevresi"
-      ],
-      "dogru": "A) Kestel Gölü — Çatalca-Kocaeli Yöresi",
-      "aciklama": "A şıkkı doğrudur (hatalı eşleşmedir) çünkü Kestel Gölü, Çatalca-Kocaeli (Marmara) yöresinde değil, Akdeniz Bölgesi'nde Göller Yöresi (Burdur) sınırları içerisinde yer alan karstik bir göldür. B şıkkı yanlıştır zira Salda Gölü Burdur'da yer alan, Göller Yöresi'nin en meşhur karstik göllerinden biridir, eşleşme doğrudur. C şıkkı yanlıştır zira Avlan Gölü, Antalya'nın Elmalı ilçesi sınırlarında, Teke Yöresi'nde karstik erime ile oluşmuş bir göldür. D şıkkı yanlıştır zira Suğla Gölü, Konya'nın Seydişehir ilçesinde karstik polye tabanında yer alır. E şıkkı yanlıştır zira Kızören Gölü, Konya Karapınar'da yer alan obruk (karstik mağara tavanı çökmesi) gölüdür. Karstik formasyonlar Marmara'dan ziyade Güneybatı ve İç Anadolu'da yoğunlaşır.",
-      "harita_il": null,
-      "zorluk": "orta",
-      "gorsel": null,
-      "gorsel_veri": null
-    },
-    {
       "id": "goller-017",
       "soru": "Marmara Bölgesi'nin güney kesimlerinde doğu-batı doğrultusunda uzanan iki büyük çöküntü hendeği (graben) bulunmaktadır. Bu çöküntü alanları, Kuzey Anadolu Fay Hattı'nın (KAF) bölgedeki kolları üzerinde yer alır.\nBuna göre, sadece bu fay zonları üzerindeki çöküntü alanlarında yer alan tektonik göller aşağıdakilerin hangisinde bir arada verilmiştir?",
       "siklar": [

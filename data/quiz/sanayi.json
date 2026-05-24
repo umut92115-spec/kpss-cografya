@@ -2551,6 +2551,1056 @@
       "zorluk": "orta",
       "gorsel": null,
       "gorsel_veri": null
+    },
+    {
+      "id": "sanayi-1779573995-E1",
+      "soru": "Türkiye'de demir-çelik sanayisinin en yoğun olduğu il aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) İstanbul",
+        "B) Karabük",
+        "C) Ankara",
+        "D) İzmir",
+        "E) Bursa"
+      ],
+      "dogru": "B) Karabük",
+      "aciklama": "Karabük, Türkiye'de demir-çelik sanayisinin kurulduğu ilk şehir olup, bu alanda en yoğun üretim yapılan merkezdir. A şıkkı İstanbul, hizmet ve ticaret sektöründe öne çıkar ancak demir-çelik sanayisinde Karabük kadar yoğun değildir. C şıkkı Ankara, başkent olarak yönetim ve hizmet sektörü ağırlıklıdır. D şıkkı İzmir, petrokimya ve gıda sanayisinde gelişmiştir. E şıkkı Bursa, otomotiv ve tekstil sanayisinde öncüdür. Türkiye'de demir-çelik sanayisi Karabük, Ereğli (Zonguldak) ve İskenderun (Hatay) gibi liman kentlerinde yoğunlaşmıştır.",
+      "harita_il": "karabuk",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "sanayi-1779573995-E2",
+      "soru": "Türkiye'de otomotiv sanayisinin en gelişmiş olduğu il aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Bursa",
+        "B) Konya",
+        "C) Antalya",
+        "D) Gaziantep",
+        "E) Samsun"
+      ],
+      "dogru": "A) Bursa",
+      "aciklama": "Bursa, Türkiye'de otomotiv sanayisinin en yoğun olduğu ildir. Tofaş, Renault gibi büyük otomotiv fabrikaları burada bulunmaktadır. B şıkkı Konya, tarım ve gıda sanayisinde öne çıkar. C şıkkı Antalya, turizm sektörüyle bilinir. D şıkkı Gaziantep, tekstil ve gıda sanayisinde gelişmiştir. E şıkkı Samsun, tarım ve ticaret merkezidir. Otomotiv sanayisi Türkiye'de Bursa, Kocaeli, Sakarya ve İzmir gibi illerde yoğunlaşmış olup, Bursa bu alanda lider konumdadır.",
+      "harita_il": "bursa",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "sanayi-1779573995-H2-001",
+      "soru": "Türkiye'de en fazla sanayi kuruluşuna sahip bölge aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Marmara Bölgesi",
+        "B) Ege Bölgesi",
+        "C) İç Anadolu Bölgesi",
+        "D) Akdeniz Bölgesi",
+        "E) Karadeniz Bölgesi"
+      ],
+      "dogru": "A) Marmara Bölgesi",
+      "aciklama": "Marmara Bölgesi, ulaşım ağının gelişmişliği, limanlara ve büyük pazarlara yakınlığı sayesinde Türkiye'nin en yüksek sanayi yoğunluğuna sahip bölgesidir. İstanbul başta olmak üzere Kocaeli, Bursa, Sakarya ve Tekirdağ önemli sanayi merkezleridir. A şıkkı doğrudur. Ege Bölgesi ve İç Anadolu Bölgesi de sanayileşmiştir ancak Marmara'yı geçemez. Karadeniz Bölgesi daha çok madencilik ve orman ürünlerine dayalıdır.",
+      "harita_il": "istanbul",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "sanayi-1779573995-H2-002",
+      "soru": "Karabük'te demir-çelik fabrikasının kurulmasında etkili olan temel faktör aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Linyit yataklarına yakınlık",
+        "B) Taşkömürü yataklarına yakınlık",
+        "C) Demir cevheri yataklarına yakınlık",
+        "D) Deniz ulaşımına elverişlilik",
+        "E) İş gücü fazlalığı"
+      ],
+      "dogru": "B) Taşkömürü yataklarına yakınlık",
+      "aciklama": "Karabük demir-çelik fabrikası, Zonguldak'taki taşkömürü yataklarına yakın olması nedeniyle burada kurulmuştur. Enerji kaynağına yakınlık, üretim maliyetlerini düşürdüğü için tercih sebebidir. A şıkkı yanlıştır; linyit bölgede yaygın değildir. C şıkkı yanlıştır; demir cevheri dışarıdan getirilir. D şıkkı yanlıştır; Karabük denize kıyısı olmayan bir iç kesimdir. E şıkkı yanlıştır; iş gücü faktörü ikincil önemdedir.",
+      "harita_il": "karabuk",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "sanayi-1779573995-H2-003",
+      "soru": "Demir-çelik sanayisiyle ilgili aşağıdaki yargılardan hangileri doğrudur?\n\nI. Ereğli'de taşkömürü kullanılır.\nII. İskenderun'da deniz yoluyla ithal kömür kullanılır.\nIII. Karabük'te linyit kullanılır.",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "Ereğli Demir ve Çelik Fabrikaları (ERDEMİR) taşkömürü kullanır, çünkü Zonguldak havzasına yakındır. İskenderun Demir ve Çelik (İSDEMİR) ise limana sahip olduğu için ithal kömürle çalışır. III. yargı yanlıştır; Karabük demir-çeliği taşkömürü kullanır, linyit değil. Bu nedenle doğru cevap I ve II'dir. A şıkkı yalnız I derse II'yi atladığı için eksik, B yalnız II derse I'i atlar, D II ve III derse III hatalı, E tümünün doğru olduğunu söyler ama III yanlıştır.",
+      "harita_il": "zonguldak",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "sanayi-1779573995-H2-004",
+      "soru": "İskenderun'dan yola çıkan bir yük gemisi kıyı şeridini takip ederek Samsun'a gitmektedir. Bu gemi sırasıyla hangi liman kentlerine uğrar?",
+      "siklar": [
+        "A) Mersin – Antalya – İzmir – İstanbul – Sinop",
+        "B) Adana – Mersin – Antalya – İzmir – Çanakkale – İstanbul – Sinop",
+        "C) Mersin – Alanya – Antalya – İzmir – Çanakkale – İstanbul – Zonguldak – Sinop",
+        "D) Mersin – Antalya – İzmir – İstanbul – Zonguldak – Sinop",
+        "E) Adana – Mersin – Antalya – İzmir – İstanbul – Sinop – Samsun"
+      ],
+      "dogru": "A) Mersin – Antalya – İzmir – İstanbul – Sinop",
+      "aciklama": "İskenderun'dan kalkan bir gemi önce Mersin'e uğrar, ardından Antalya Körfezi'ni geçip İzmir'e ulaşır. Çanakkale Boğazı'ndan geçtikten sonra İstanbul'a varır, Karadeniz'de Sinop'a uğrayarak Samsun'a ulaşır. B seçeneği Adana'yı içerse de Adana kıyı şeridinde değildir (iç kesim). C'de Alanya (Antalya ile aynı) ve Zonguldak var ama doğru rota Akdeniz-Ege-Marmara-Karadeniz şeklindedir. D'de Zonguldak var ancak Sinop'tan önce Zonguldak gelmez. E'de Samsun rota sonunda olmalı ama listede Samsun var, ancak sıralama hatalı.",
+      "harita_il": "hatay",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "sanayi-1779573995-H2-005",
+      "soru": "Aşağıdaki illerden hangisi sanayi açısından diğerlerinden farklı bir özellik gösterir?",
+      "siklar": [
+        "A) İstanbul",
+        "B) Kocaeli",
+        "C) Bursa",
+        "D) İzmir",
+        "E) Antalya"
+      ],
+      "dogru": "E) Antalya",
+      "aciklama": "İstanbul, Kocaeli, Bursa ve İzmir yoğun sanayi kuruluşlarına sahipken Antalya daha çok turizm ve tarıma dayalı bir ekonomiye sahiptir. Antalya'da sanayi kuruluşları daha azdır; özellikle limanı daha çok turizm amaçlı kullanılır. Dolayısıyla Antalya diğerlerinden ayrılır. Diğer seçeneklerin hepsi büyük sanayi merkezleridir. Bu tür bir 'hangi il farklıdır' sorgusu ÖSYM'nin sık kullandığı ayırt etme sorusudur.",
+      "harita_il": "antalya",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "sanayi-1779573995-H2-006",
+      "soru": "Bartın Limanı'ndan yola çıkan bir araştırma gemisi, Karadeniz kıyısını takip ederek doğuya doğru hareket etmektedir. Bu gemi aşağıdaki akarsulardan hangisinin deltasıyla karşılaşma olasılığı en düşüktür?",
+      "siklar": [
+        "A) Kızılırmak Deltası",
+        "B) Yeşilırmak Deltası",
+        "C) Filyos Çayı Deltası",
+        "D) Sakarya Nehri Deltası",
+        "E) Terme Çayı Deltası"
+      ],
+      "dogru": "D) Sakarya Nehri Deltası",
+      "aciklama": "Bartın'dan doğuya giden bir gemi önce Filyos Çayı (Zonguldak) deltasına, ardından Kızılırmak (Samsun) ve Yeşilırmak (Samsun) deltalarına rastlar. Terme Çayı ise Samsun-Ordu arasında küçük bir deltadır. Sakarya Nehri ise Karadeniz'e dökülür ancak Sakarya Nehri Deltası, Bartın'ın batısında (Sakarya ili kıyısında) yer alır. Bu nedenle doğuya giden gemi batıdaki Sakarya Deltası'nı geçmiş olur ve tekrar karşılaşma olasılığı düşüktür. Bu soruda delta oluşumları ve kıyı şeridi bilgisi sorgulanmaktadır.",
+      "harita_il": "bartin",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "sanayi-1779573995-H2-007",
+      "soru": "Türkiye'de organize sanayi bölgeleriyle ilgili aşağıdaki yargılardan hangileri doğrudur?\n\nI. En fazla Marmara Bölgesi'nde bulunur.\nII. Doğu Anadolu Bölgesi'nde sayıca azdır.\nIII. Karadeniz Bölgesi'nde hiç organize sanayi bölgesi yoktur.",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "Organize sanayi bölgeleri (OSB) en yoğun olarak Marmara Bölgesi'ndedir çünkü ulaşım, pazar ve altyapı avantajlıdır. Doğu Anadolu Bölgesi'nde iklim, yükseklik ve altyapı eksikliği nedeniyle OSB sayısı azdır. III. yargı yanlıştır; Karadeniz Bölgesi'nde de OSB'ler mevcuttur (örneğin Samsun, Trabzon, Ordu, Zonguldak). Bu nedenle doğru olan I ve II'dir. A ve B şıkları eksik bilgi içerir, D yanlış III'ü de ekler, E ise tamamen yanlıştır.",
+      "harita_il": "istanbul",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "sanayi-1779573995-H2-008",
+      "soru": "Yukarıdaki Türkiye haritasında I, II, III, IV ve V numaralı alanlar işaretlenmiştir. Bu alanların hangisinde büyük kapasiteli bir petrokimya tesisi bulunmaktadır?",
+      "siklar": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV",
+        "E) V"
+      ],
+      "dogru": "C) III",
+      "aciklama": "Haritada I noktası İzmit Körfezi'ni (TÜPRAŞ İzmit), II noktası Aliağa-İzmir bölgesini (TÜPRAŞ Aliağa), III noktası Mersin civarını (ATAŞ petrokimya), IV noktası Batman'ı (TÜPRAŞ Batman) ve V noktası Kırıkkale'yi (rafineri) göstermektedir. Büyük petrokimya tesisi denildiğinde Mersin'deki ATAŞ, ham petrol işleme ve petrokimya ürünleri üretimiyle öne çıkar. A) I doğrudur ancak İzmit'te rafineri olsa da petrokimya tesisi olarak Mersin daha büyüktür. B) II ve E) V de rafineridir ancak petrokimya tesisi değildir. D) IV Batman rafinerisidir. Doğru cevap III'tür.",
+      "harita_il": "mersin",
+      "zorluk": "zor",
+      "gorsel": "sanayi/sanayi-008.svg",
+      "gorsel_veri": {
+        "I": "kocaeli",
+        "II": "izmir",
+        "III": "mersin",
+        "IV": "batman",
+        "V": "kirikkale"
+      }
+    },
+    {
+      "id": "sanayi-1779574055-E1",
+      "soru": "Türkiye'de sanayi tesislerinin büyük bir bölümü aşağıdaki bölgelerden hangisinde yoğunlaşmıştır?",
+      "siklar": [
+        "A) Marmara Bölgesi",
+        "B) Karadeniz Bölgesi",
+        "C) Doğu Anadolu Bölgesi",
+        "D) Akdeniz Bölgesi",
+        "E) Güneydoğu Anadolu Bölgesi"
+      ],
+      "dogru": "A) Marmara Bölgesi",
+      "aciklama": "Doğru cevap A şıkkıdır. Marmara Bölgesi, Türkiye'nin en gelişmiş sanayi bölgesidir. B şıkkı yanlıştır çünkü Karadeniz Bölgesi'nde sanayi daha çok orman ürünleri ve madenciliğe dayalıdır. C şıkkı yanlıştır çünkü Doğu Anadolu Bölgesi sanayi açısından az gelişmiştir. D şıkkı yanlıştır çünkü Akdeniz Bölgesi'nde sanayi, tarıma dayalı olarak gelişmiştir ancak Marmara kadar yoğun değildir. E şıkkı yanlıştır çünkü Güneydoğu Anadolu Bölgesi'nde sanayi, son yıllarda gelişme gösterse de Marmara Bölgesi'nin gerisindedir. Genel kural olarak, Marmara Bölgesi ulaşım, enerji ve pazar avantajlarıyla Türkiye sanayisinin merkezidir.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "sanayi-1779574055-E2",
+      "soru": "Türkiye'de ilk sanayi tesislerinin kurulduğu şehir aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) İstanbul",
+        "B) Ankara",
+        "C) İzmir",
+        "D) Bursa",
+        "E) Adana"
+      ],
+      "dogru": "A) İstanbul",
+      "aciklama": "Doğru cevap A şıkkıdır. Osmanlı İmparatorluğu döneminde modern anlamda ilk sanayi tesisleri İstanbul'da kurulmuştur. B şıkkı yanlıştır çünkü Ankara, Cumhuriyet döneminde sanayileşmeye başlamıştır. C şıkkı yanlıştır çünkü İzmir'de sanayi gelişimi 19. yüzyılın sonlarında hızlanmıştır ancak İstanbul'dan sonradır. D şıkkı yanlıştır çünkü Bursa, ipek ve tekstil sanayisiyle öne çıksa da ilk sanayi tesisleri İstanbul'da kurulmuştur. E şıkkı yanlıştır çünkü Adana, tarıma dayalı sanayisiyle gelişmiş ancak ilk sanayi tesislerine ev sahipliği yapmamıştır. Tarihsel süreçte İstanbul, hem başkent olması hem de liman kenti olması nedeniyle sanayileşmenin öncüsü olmuştur.",
+      "harita_il": "istanbul",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "sanayi-1779574055-H2-001",
+      "soru": "Türkiye'de demir-çelik sanayisinin en yoğun olduğu bölge aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Marmara Bölgesi",
+        "B) Ege Bölgesi",
+        "C) Karadeniz Bölgesi",
+        "D) Akdeniz Bölgesi",
+        "E) İç Anadolu Bölgesi"
+      ],
+      "dogru": "C) Karadeniz Bölgesi",
+      "aciklama": "Karadeniz Bölgesi, demir-çelik sanayisinde öne çıkar. Bölgede taşkömürü yatakları (Zonguldak) ve demir cevheri (Divriği) bulunur. Karabük ve Ereğli demir-çelik fabrikaları bu bölgede yer alır. Diğer bölgelerde demir-çelik tesisi sayısı daha azdır. Marmara Bölgesi'nde petrokimya ve otomotiv, Ege'de tekstil, Akdeniz'de petrokimya (İskenderun) gelişmiştir. İç Anadolu'da makine ve gıda sanayisi yoğundur.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "sanayi-1779574055-H2-002",
+      "soru": "Erzurum'da bir yünlü dokuma fabrikasının kurulmasında aşağıdaki faktörlerden hangisi daha belirleyicidir?",
+      "siklar": [
+        "A) Enerji kaynaklarına yakınlık",
+        "B) Ham maddeye (yün) yakınlık",
+        "C) Büyük pazar alanı",
+        "D) Ulaşım ağının gelişmiş olması",
+        "E) İklim koşulları"
+      ],
+      "dogru": "B) Ham maddeye (yün) yakınlık",
+      "aciklama": "Erzurum, Doğu Anadolu'da hayvancılığın yoğun olduğu bir merkezdir. Yünlü dokuma sanayisi için ham madde olan yün, çevre illerden temin edilir. Enerji kaynakları mevcut olsa da asıl etken hammaddeye yakınlıktır. Pazar ve ulaşım ikincil öneme sahiptir. Diğer şıklardaki faktörler fabrikanın kuruluşunda daha az etkilidir.",
+      "harita_il": "erzurum",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "sanayi-1779574055-H2-003",
+      "soru": "Mersin limanından yola çıkarak kıyı şeridini takip eden bir gemi, İskenderun Körfezi'ne ulaşana kadar aşağıdaki deltalardan hangisine rastlar?",
+      "siklar": [
+        "A) Seyhan Deltası",
+        "B) Kızılırmak Deltası",
+        "C) Gediz Deltası",
+        "D) Meriç Deltası",
+        "E) Çarşamba Deltası"
+      ],
+      "dogru": "A) Seyhan Deltası",
+      "aciklama": "Mersin'den doğuya gidildiğinde ilk büyük delta Seyhan Nehri'nin oluşturduğu Seyhan Deltası'dır (Adana). Kızılırmak (Samsun), Gediz (İzmir), Meriç (Edirne) ve Çarşamba (Samsun) deltaları farklı kıyı bölgelerinde yer alır. Gemi rotası Akdeniz kıyısı boyunca olduğu için yalnızca Seyhan Deltası görülür.",
+      "harita_il": "adana",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "sanayi-1779574055-H2-004",
+      "soru": "Karabük demir-çelik fabrikası ile Ereğli demir-çelik fabrikası karşılaştırıldığında, aşağıdakilerden hangisi yalnızca Ereğli için söylenebilir?",
+      "siklar": [
+        "A) İç pazara daha yakın olması",
+        "B) Deniz yoluyla hammadde ithal edebilmesi",
+        "C) Yerli demir cevheri kullanması",
+        "D) Taşkömürüne yakın olması",
+        "E) Devlet tarafından kurulması"
+      ],
+      "dogru": "B) Deniz yoluyla hammadde ithal edebilmesi",
+      "aciklama": "Ereğli fabrikası Karadeniz kıyısında yer aldığı için deniz yoluyla hammadde (demir cevheri) ithal etme avantajına sahiptir. Karabük fabrikası iç kesimdedir ve kara yoluyla hammadde taşır. Her iki fabrika da taşkömürüne yakındır (Zonguldak havzası). İç pazara uzaklıkları benzerdir. Devlet tarafından kurulma her ikisi için de geçerlidir.",
+      "harita_il": "zonguldak",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "sanayi-1779574055-H2-005",
+      "soru": "Aşağıdaki illerden hangisi tekstil sanayisinin geliştiği iller arasında yer almaz?",
+      "siklar": [
+        "A) Denizli",
+        "B) Bursa",
+        "C) Kahramanmaraş",
+        "D) Kayseri",
+        "E) Tunceli"
+      ],
+      "dogru": "E) Tunceli",
+      "aciklama": "Denizli (pamuklu tekstil), Bursa (ipekli ve sentetik), Kahramanmaraş (pamuklu) ve Kayseri (halı ve iplik) tekstil sanayisinde önemli merkezlerdir. Tunceli'de ise tekstil fabrikası bulunmamakta, ekonomi daha çok hayvancılık ve tarıma dayanmaktadır. Sanayi altyapısının gelişmemiş olması Tunceli'yi diğerlerinden ayırır.",
+      "harita_il": "tunceli",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "sanayi-1779574055-H2-006",
+      "soru": "Türkiye'deki demir-çelik fabrikalarıyla ilgili,\nI. Karabük fabrikası, Cumhuriyet döneminin ilk büyük sanayi yatırımıdır.\nII. İskenderun fabrikası, deniz kıyısında kurulduğu için hammadde ithalatında avantaj sağlar.\nIII. Ereğli fabrikası, Adana ilinde bulunmaktadır.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) I ve III",
+        "E) II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "Karabük demir-çelik fabrikası 1937'de açılmış olup Cumhuriyet'in ilk ağır sanayi tesislerindendir (I doğru). İskenderun fabrikası (Hatay) kıyıda yer alır ve demir cevherini deniz yoluyla ithal eder (II doğru). Ereğli fabrikası ise Zonguldak iline bağlı Karadeniz Ereğli'sinde bulunur, Adana'da değildir (III yanlış). Bu nedenle doğru yargılar I ve II'dir.",
+      "harita_il": null,
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "sanayi-1779574055-H2-007",
+      "soru": "Yukarıdaki Türkiye haritasında I, II, III, IV ve V numaralı alanlar gösterilmiştir. Bu alanların hangisinde petrol rafinerisi bulunmaktadır?",
+      "siklar": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV",
+        "E) V"
+      ],
+      "dogru": "D) IV",
+      "aciklama": "Haritada numaralandırılmış alanlardan IV. bölge Batman ilini göstermektedir. Batman'da TÜPRAŞ'a ait bir petrol rafinerisi bulunur (Batman Rafinerisi). I. bölge İzmir (Aliağa Rafinerisi), II. bölge Kocaeli (İzmit Rafinerisi) olabilir ancak bu alanlarda rafineri vardır; ancak III (Kırıkkale) ve V (Mersin)'te rafineri yoktur. Görsel veride IV. bölge Batman olarak işaretlenmiştir.",
+      "harita_il": "batman",
+      "zorluk": "zor",
+      "gorsel": "sanayi/sanayi-001.svg",
+      "gorsel_veri": {
+        "I": "izmir",
+        "II": "kocaeli",
+        "III": "kirikkale",
+        "IV": "batman",
+        "V": "mersin"
+      }
+    },
+    {
+      "id": "sanayi-1779574055-H2-008",
+      "soru": "Antalya limanından yola çıkarak doğu yönünde kıyı şeridini takip eden bir gemi, sırasıyla aşağıdaki akarsu ağızlarından hangilerine rastlar?",
+      "siklar": [
+        "A) Aksu - Manavgat - Göksu - Seyhan - Ceyhan",
+        "B) Manavgat - Aksu - Göksu - Seyhan - Ceyhan",
+        "C) Göksu - Seyhan - Ceyhan - Asi - Aksu",
+        "D) Aksu - Göksu - Manavgat - Seyhan - Ceyhan",
+        "E) Manavgat - Göksu - Aksu - Seyhan - Ceyhan"
+      ],
+      "dogru": "A) Aksu - Manavgat - Göksu - Seyhan - Ceyhan",
+      "aciklama": "Antalya'dan doğuya gidildiğinde ilk karşılaşılan akarsu ağzı Aksu (Antalya), ardından Manavgat (Antalya), sonra Göksu (Mersin), daha sonra Seyhan (Adana) ve Ceyhan (Adana/Osmaniye) nehirleridir. Diğer seçeneklerde sıralama hatalıdır. Asi Nehri ise Hatay'da olup daha doğudadır. Gemi bu rotada doğru sıralamayı takip eder.",
+      "harita_il": null,
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "sanayi-1779574137-E1",
+      "soru": "Türkiye’de otomotiv sanayisinin en yoğun olduğu il aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) İstanbul",
+        "B) Kocaeli",
+        "C) Bursa",
+        "D) Ankara",
+        "E) İzmir"
+      ],
+      "dogru": "C) Bursa",
+      "aciklama": "C şıkkı doğrudur çünkü Bursa, Türkiye'nin en büyük otomotiv üretim merkezlerinden biridir ve Tofaş, Oyak-Renault gibi büyük fabrikalara ev sahipliği yapar. A şıkkı yanlıştır zira İstanbul'da otomotiv sanayisi bulunmakla birlikte Bursa kadar yoğun değildir. B şıkkı yanlıştır zira Kocaeli'de Ford Otosan gibi tesisler varsa da otomotiv üretiminde Bursa öndedir. D şıkkı yanlıştır zira Ankara'da otomotiv üretimi sınırlıdır. E şıkkı yanlıştır zira İzmir'de otomotiv sanayisi gelişmemiştir. Genel kural olarak, Bursa otomotiv sektöründe başı çekmektedir.",
+      "harita_il": "bursa",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "sanayi-1779574137-E2",
+      "soru": "Aşağıdakilerden hangisi Türkiye’deki önemli sanayi bölgelerinden biri değildir?",
+      "siklar": [
+        "A) Marmara Bölgesi",
+        "B) Ege Bölgesi",
+        "C) İç Anadolu Bölgesi",
+        "D) Karadeniz Bölgesi",
+        "E) Akdeniz Bölgesi"
+      ],
+      "dogru": "D) Karadeniz Bölgesi",
+      "aciklama": "D şıkkı doğrudur çünkü Karadeniz Bölgesi, sanayi yoğunluğu bakımından diğer bölgelere göre daha az gelişmiştir; bölgede genellikle tarım ve madencilik ön plandadır. A şıkkı yanlıştır zira Marmara Bölgesi, İstanbul ve Kocaeli gibi illerle en yoğun sanayi bölgesidir. B şıkkı yanlıştır zira Ege Bölgesi, İzmir ve Manisa gibi illerle önemli sanayi merkezlerine sahiptir. C şıkkı yanlıştır zira İç Anadolu Bölgesi, Ankara ve Kayseri'de gelişen sanayi tesisleriyle dikkat çeker. E şıkkı yanlıştır zira Akdeniz Bölgesi, Adana ve Mersin'deki sanayi faaliyetleriyle öne çıkar. Genel kural olarak, Karadeniz Bölgesi sanayi açısından en az gelişmiş bölgelerdendir.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "sanayi-1779574137-H2-1",
+      "soru": "Bir gemi İstanbul'dan hareketle Karadeniz kıyısını takip ederek Samsun'a gitmektedir. Bu gemi yolculuğu sırasında aşağıdaki limanlardan hangisine uğrayamaz?",
+      "siklar": [
+        "A) İstanbul Limanı",
+        "B) Zonguldak Limanı",
+        "C) Sinop Limanı",
+        "D) Trabzon Limanı",
+        "E) Samsun Limanı"
+      ],
+      "dogru": "A) İstanbul Limanı",
+      "aciklama": "Doğru cevap A şıkkıdır. Gemi İstanbul'dan hareket ettiği için yolculuk sırasında İstanbul Limanı tekrar uğrak yeri değildir. Zonguldak, Sinop, Trabzon ve Samsun ise Karadeniz kıyısında sırasıyla yer alan limanlardır. Bu soruda ÖSYM sıkça kullandığı kıyı seyahati kurgusunu test etmektedir.",
+      "harita_il": "istanbul",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "sanayi-1779574137-H2-2",
+      "soru": "Aşağıdaki limanlardan hangisi Marmara Bölgesi'nde yer alırken diğerleri Karadeniz Bölgesi'ndedir?",
+      "siklar": [
+        "A) İstanbul Limanı",
+        "B) Samsun Limanı",
+        "C) Trabzon Limanı",
+        "D) Zonguldak Limanı",
+        "E) Sinop Limanı"
+      ],
+      "dogru": "A) İstanbul Limanı",
+      "aciklama": "Doğru cevap A şıkkıdır. İstanbul Limanı, Marmara Denizi kıyısında yer aldığı için Marmara Bölgesi'ndedir. Samsun, Trabzon, Zonguldak ve Sinop limanları Karadeniz Bölgesi'ndedir. Bu soru basit bölgesel sınıflandırma bilgisini ölçmektedir.",
+      "harita_il": "istanbul",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "sanayi-1779574137-H2-3",
+      "soru": "Türkiye'de sanayi gelişimiyle ilgili,\nI. İlk kurulan büyük sanayi tesisleri genellikle liman kentlerine yakın yerlerde kurulmuştur.\nII. GAP Projesi ile Güneydoğu Anadolu'da sanayi yatırımları artmıştır.\nIII. Otomotiv sanayisi en çok Bursa, Kocaeli, Ankara'da yoğunlaşmıştır.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "E) I, II ve III",
+      "aciklama": "Her üç ifade de doğrudur. Sanayi kuruluşları tarihsel olarak limanlara yakın bölgelerde yoğunlaşmıştır. GAP, bölgede sanayiyi canlandırmıştır. Otomotiv sanayisi Bursa, Kocaeli ve Ankara'da gelişmiştir. Bu nedenle cevap E'dir.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "sanayi-1779574137-H2-4",
+      "soru": "Türkiye'deki rafinerilerle ilgili,\nI. Aliağa Rafinerisi İzmir'de bulunur.\nII. Batman Rafinerisi Mardin'de yer alır.\nIII. Kırıkkale Rafinerisi İç Anadolu Bölgesi'ndedir.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve III",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve III",
+      "aciklama": "I ve III doğrudur. Aliağa Rafinerisi İzmir'de, Kırıkkale Rafinerisi İç Anadolu'dadır. Batman Rafinerisi ise Batman ilindedir, Mardin'de değildir. Bu nedenle II yanlıştır. Cevap C'dir.",
+      "harita_il": "batman",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "sanayi-1779574137-H2-5",
+      "soru": "Türkiye'de kıyı ticaretiyle ilgili,\nI. Bir gemi İzmir'den hareketle Mersin'e giderken Muğla kıyılarında yer alan limanlara uğrayabilir.\nII. Antalya Limanı, yük taşımacılığında önemli bir aktarma merkezidir.\nIII. Doğu Karadeniz kıyısında Trabzon, en büyük limandır.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "I ve II doğrudur. İzmir-Mersin güzergahında Muğla kıyılarındaki limanlar uğrak noktasıdır. Antalya Limanı önemli bir aktarma limanıdır. III yanlıştır; Karadeniz'de en büyük liman Samsun'dur. Cevap C'dir.",
+      "harita_il": "izmir",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "sanayi-1779574137-H2-6",
+      "soru": "Yukarıdaki Türkiye haritasında I, II, III, IV ve V numaralı alanlar gösterilmiştir. Bu alanların hangisinde yoğun sanayi faaliyetleri daha azdır?",
+      "siklar": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV",
+        "E) V"
+      ],
+      "dogru": "E) V",
+      "aciklama": "Haritada I Kocaeli, II Bursa, III İzmir, IV İstanbul, V Ağrı'dır. Ağrı, Doğu Anadolu'da sanayinin az geliştiği bir ildir. Diğerleri Marmara, Ege ve Akdeniz bölgelerinde sanayinin yoğun olduğu illerdir. Cevap E'dir.",
+      "harita_il": "agri",
+      "zorluk": "zor",
+      "gorsel": "sanayi/sanayi-1779574137-H2-6.svg",
+      "gorsel_veri": {
+        "I": "kocaeli",
+        "II": "bursa",
+        "III": "izmir",
+        "IV": "istanbul",
+        "V": "agri"
+      }
+    },
+    {
+      "id": "sanayi-1779574137-H2-7",
+      "soru": "Karadeniz kıyısı boyunca yapılan bir gemi yolculuğuyla ilgili,\nI. Samsun'dan Zonguldak'a giderken Kızılırmak deltası görülebilir.\nII. Bu güzergahta Yeşilırmak, Doğu Karadeniz'e dökülür.\nIII. Filyos Çayı, Batı Karadeniz'de denize kavuşur.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız III",
+        "C) I ve III",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve III",
+      "aciklama": "I ve III doğrudur. Samsun-Zonguldak arasında Kızılırmak deltası (Samsun) ve Filyos Çayı (Bartın/Zonguldak) yer alır. II yanlıştır; Yeşilırmak Samsun'da denize dökülür, Doğu Karadeniz'de değil. Cevap C'dir.",
+      "harita_il": "samsun",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "sanayi-1779574137-H2-8",
+      "soru": "Türkiye'de sanayi kollarıyla ilgili,\nI. Demir-çelik sanayisi hammaddeye yakınlık nedeniyle Karabük, İskenderun ve Ereğli'de gelişmiştir.\nII. Şeker sanayisi genellikle şeker pancarı tarımının yapıldığı illerde kuruludur.\nIII. Dokuma sanayisi en çok Gaziantep ve Denizli'de yoğunlaşmıştır.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız III",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "E) I, II ve III",
+      "aciklama": "Her üç ifade de doğrudur. Demir-çelik tesisleri hammadde ve limanlara yakın yerlerde kurulmuştur. Şeker fabrikaları pancar tarım bölgelerindedir. Gaziantep ve Denizli dokuma sanayisinde öne çıkar. Cevap E'dir.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "sanayi-1779574312-E1",
+      "soru": "Türkiye'de ilk kurulan demir-çelik fabrikası aşağıdaki illerin hangisinde yer alır?",
+      "siklar": [
+        "A) İstanbul",
+        "B) Karabük",
+        "C) Zonguldak",
+        "D) Ereğli (Zonguldak)",
+        "E) İzmir"
+      ],
+      "dogru": "B) Karabük",
+      "aciklama": "Doğru cevap B şıkkıdır. Türkiye'nin ilk entegre demir-çelik fabrikası olan Karabük Demir-Çelik Fabrikası, 1939 yılında Karabük'te kurulmuştur. A şıkkı (İstanbul) sanayi tesisleri açısından önemli olsa da ilk demir-çelik fabrikası burada kurulmamıştır. C şıkkı (Zonguldak) kömür üretimiyle öne çıkar ancak demir-çelik tesisi Karabük'tedir. D şıkkı (Ereğli) ise daha sonraki yıllarda (1960'lar) kurulan Ereğli Demir-Çelik Fabrikası'nı ifade eder. E şıkkı (İzmir) demir-çelik sektöründe ilk sırada yer almaz.",
+      "harita_il": "karabuk",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "sanayi-1779574312-E2",
+      "soru": "Aşağıdaki şehirlerden hangisi, Türkiye'de otomotiv sanayisinin en yoğun olduğu illerden biri değildir?",
+      "siklar": [
+        "A) Bursa",
+        "B) Kocaeli",
+        "C) Ankara",
+        "D) İstanbul",
+        "E) Adana"
+      ],
+      "dogru": "C) Ankara",
+      "aciklama": "Doğru cevap C şıkkıdır. Türkiye'de otomotiv sanayisi başta Bursa (Oyak-Renault, Tofaş), Kocaeli (Hyundai Assan, Ford Otosan), İstanbul (Ford Otosan) ve Adana (Temsa) olmak üzere belirli merkezlerde yoğunlaşmıştır. Ankara'da ise büyük ölçekli bir otomotiv üretim tesisi bulunmamaktadır; başkent daha çok savunma ve yan sanayi alanında öne çıkar. A, B, D ve E şıklarında verilen iller otomotiv ana sanayinin önemli üretim merkezleridir.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "sanayi-1779574312-H1",
+      "soru": "Türkiye'de ilk demir-çelik fabrikası hangi ilde kurulmuştur?",
+      "siklar": [
+        "A) Zonguldak",
+        "B) İskenderun",
+        "C) Karabük",
+        "D) Kırıkkale",
+        "E) Ereğli"
+      ],
+      "dogru": "C) Karabük",
+      "aciklama": "Doğru cevap C şıkkı, Karabük'tür. Türkiye'nin ilk demir-çelik fabrikası 1939 yılında Karabük'te kurulmuştur. A şıkkı Zonguldak kömür üretimiyle bilinir, ancak ilk demir-çelik fabrikası burada kurulmamıştır. B şıkkı İskenderun'daki demir-çelik tesisi daha sonra (1970'lerde) açılmıştır. D şıkkı Kırıkkale'de demir-çelik tesisi bulunmaz, mühimmat ve rafineri vardır. E şıkkı Ereğli (Zonguldak) limanı önemlidir ancak ilk demir-çelik fabrikası Karabük'tedir. Sanayi tarihi açısından Karabük, ağır sanayinin başlangıç noktasıdır.",
+      "harita_il": "karabuk",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "sanayi-1779574312-H2",
+      "soru": "Karadeniz kıyısındaki bir limandan yola çıkan yük gemisi, sırasıyla Filyos Çayı, Kızılırmak, Yeşilırmak ve Melet Çayı'nın döküldüğü noktaları geçerek doğuya doğru ilerlemektedir. Buna göre gemi, aşağıda verilen illerin kıyılarından hangi sırayla geçmiştir?",
+      "siklar": [
+        "A) Zonguldak – Samsun – Ordu – Giresun",
+        "B) Samsun – Ordu – Giresun – Trabzon",
+        "C) Zonguldak – Samsun – Ordu – Giresun",
+        "D) Bartın – Samsun – Ordu – Giresun",
+        "E) Zonguldak – Samsun – Giresun – Ordu"
+      ],
+      "dogru": "A) Zonguldak – Samsun – Ordu – Giresun",
+      "aciklama": "Doğru cevap A şıkkıdır. Filyos Çayı Zonguldak il sınırları içinde denize dökülür. Kızılırmak ve Yeşilırmak Samsun ilindedir. Melet Çayı ise Ordu ilinde denize ulaşır. Gemi rotasında Giresun kıyıları da geçilmekle birlikte Melet Çayı Ordu'da olduğundan sıralamada Ordu'dan sonra Giresun gelir. B şıkkı yanlıştır çünkü Filyos Çayı'nı dâhil etmez. D şıkkı Bartın'ı yanlış verir. E şıkkı Ordu ve Giresun sırasını değiştirmiştir. Bu gemi rotası tipik bir Batı-Doğu Karadeniz seyrini yansıtır.",
+      "harita_il": "zonguldak",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "sanayi-1779574312-H3",
+      "soru": "Ege Bölgesi'nde dağların kıyıya dik uzanması, sanayi tesislerinin iç kesimlere kadar yayılmasını kolaylaştırmıştır. Bu durum aşağıdaki illerden hangisinde sanayinin kıyıdan iç bölgelere doğru daha belirgin bir yayılım göstermesine neden olmuştur?",
+      "siklar": [
+        "A) İzmir",
+        "B) Aydın",
+        "C) Manisa",
+        "D) Muğla",
+        "E) Denizli"
+      ],
+      "dogru": "E) Denizli",
+      "aciklama": "Doğru cevap E şıkkıdır. Ege Bölgesi'nde dağların kıyıya dik (kuzey-güney) uzanması, deniz etkisinin iç kesimlere ulaşmasına ve ulaşım yollarının vadi boyunca gelişmesine imkân tanır. Denizli, bu sayede kıyıdan yaklaşık 50 km içeride olmasına rağmen tekstil ve makine sanayisinde güçlenmiştir. İzmir ve Aydın kıyı illeridir ancak Denizli kadar iç kesimde sanayi yoğunluğu oluşmamıştır. Muğla'da sanayi daha az gelişmiştir. Manisa'da sanayi vardır ancak yayılım deseni Denizli kadar belirgin değildir. Bu özellik, Ege'deki horst-graben yapısının sanayiye etkisini gösterir.",
+      "harita_il": "denizli",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "sanayi-1779574312-H4",
+      "soru": "Aşağıdaki illerden hangisi sanayi faaliyetlerinin gelişmişlik düzeyi açısından diğerlerinden farklı bir bölgede yer alır?",
+      "siklar": [
+        "A) İstanbul",
+        "B) Kocaeli",
+        "C) Bursa",
+        "D) Ankara",
+        "E) İzmir"
+      ],
+      "dogru": "D) Ankara",
+      "aciklama": "Doğru cevap D şıkkıdır. İstanbul, Kocaeli, Bursa ve İzmir Marmara ve Ege kıyılarında yoğun sanayi bölgeleridir. Ankara ise İç Anadolu Bölgesi'nde yer alır ve sanayi açısından diğer dört ile göre daha iç kesimde kalmakla birlikte gelişmiştir. Ancak soruda 'farklı bir bölgede yer alır' ifadesi coğrafi bölge anlamında sorulmuştur. Ankara İç Anadolu'dayken diğerleri Marmara veya Ege'dedir. A, B, C ve E şıkları Marmara ve Ege kıyı kuşağındadır. Bu tür karşılaştırma soruları, bölgesel sanayi yoğunluğunu kavramayı ölçer.",
+      "harita_il": "ankara",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "sanayi-1779574312-H5",
+      "soru": "Türkiye'de sanayinin dağılışıyla ilgili olarak aşağıdaki yargılardan hangileri doğrudur?\n\nI. İstanbul, Kocaeli ve Bursa sanayi üretiminde ilk sıralarda yer alır.\nII. Karadeniz Bölgesi'nde sanayi tesisleri daha çok kıyı kesimde toplanmıştır.\nIII. İç Anadolu Bölgesi'ndeki sanayi yatırımları yalnızca Ankara ve Konya'da yoğunlaşmıştır.",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "Doğru cevap C şıkkıdır. I. yargı doğrudur, çünkü İstanbul, Kocaeli ve Bursa Türkiye'nin en büyük sanayi üretim merkezleridir. II. yargı doğrudur; Karadeniz Bölgesi'nde dağların kıyıya paralel uzanması, sanayi tesislerinin dar kıyı şeridinde yoğunlaşmasına neden olmuştur. III. yargı yanlıştır, çünkü İç Anadolu'da Ankara ve Konya'nın yanı sıra Kayseri, Eskişehir ve Kırıkkale de önemli sanayi merkezleridir. Bu soru bölgesel sanayi yoğunluğu ve kısıtlayıcı faktörler bilgisini yoklar.",
+      "harita_il": "bursa",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "sanayi-1779574312-H6",
+      "soru": "Yukarıdaki Türkiye haritasında numaralandırılarak gösterilen illerden hangisi sanayi faaliyetlerinin diğerlerine göre daha az geliştiği bir ildir?",
+      "siklar": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV",
+        "E) V"
+      ],
+      "dogru": "E) V",
+      "aciklama": "Doğru cevap E şıkkıdır. Haritada I numaralı il İstanbul, II Kocaeli, III Bursa, IV İzmir, V ise Ağrı olarak işaretlenmiştir. İstanbul, Kocaeli, Bursa ve İzmir Türkiye'nin en gelişmiş sanayi merkezleridir. Ağrı ise Doğu Anadolu'da yer almakta olup sanayi altyapısı oldukça sınırlıdır; iklim, yükselti ve ulaşım gibi faktörler sanayi gelişimini kısıtlamıştır. Diğer dört il Marmara ve Ege kıyılarında yer alırken Ağrı'nın farklı bölgede olması da sanayi yoğunluğunu etkilemiştir.",
+      "harita_il": "agri",
+      "zorluk": "zor",
+      "gorsel": "sanayi/sanayi-001.svg",
+      "gorsel_veri": {
+        "I": "istanbul",
+        "II": "kocaeli",
+        "III": "bursa",
+        "IV": "izmir",
+        "V": "agri"
+      }
+    },
+    {
+      "id": "sanayi-1779574312-H7",
+      "soru": "Türkiye'deki rafineri sanayisiyle ilgili olarak\n\nI. İzmit Rafinerisi Kocaeli ilinde yer alır.\nII. Batman Rafinerisi Güneydoğu Anadolu Bölgesi'ndedir.\nIII. Kırıkkale Rafinerisi Orta Anadolu'da bulunur.\n\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "E) I, II ve III",
+      "aciklama": "Doğru cevap E şıkkıdır. I. yargı doğrudur; İzmit Rafinerisi (TÜPRAŞ) Kocaeli ilinde yer alır. II. yargı doğrudur; Batman Rafinerisi (TÜPRAŞ) Güneydoğu Anadolu Bölgesi'nde Batman ilinde bulunur. III. yargı doğrudur; Kırıkkale Rafinerisi İç Anadolu Bölgesi'nde (Orta Anadolu) Kırıkkale ilinde hizmet vermektedir. Türkiye'deki rafinerilerin coğrafi dağılımı, ham maddeye (petrol boru hatları) ve rafineri ürünlerinin tüketim merkezlerine yakınlık gözetilerek planlanmıştır. Bu üç rafineri de farklı bölgelerde konumlanarak ülke içi enerji arzını destekler.",
+      "harita_il": "kocaeli",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "sanayi-1779574312-H8",
+      "soru": "Karadeniz’de Sinop limanından hareket eden bir konteyner gemisi doğuya doğru seyrederken sırasıyla hangi illerin kıyılarına paralel olarak ilerler?",
+      "siklar": [
+        "A) Sinop – Samsun – Ordu – Giresun – Trabzon – Rize",
+        "B) Samsun – Ordu – Giresun – Trabzon – Rize – Artvin",
+        "C) Sinop – Samsun – Ordu – Giresun – Trabzon – Rize – Artvin",
+        "D) Kastamonu – Sinop – Samsun – Ordu – Giresun – Trabzon",
+        "E) Sinop – Kastamonu – Samsun – Ordu – Giresun – Trabzon"
+      ],
+      "dogru": "C) Sinop – Samsun – Ordu – Giresun – Trabzon – Rize – Artvin",
+      "aciklama": "Doğru cevap C şıkkıdır. Sinop, Karadeniz'in orta kesiminde yer alır. Doğuya doğru kıyı şeridinde sırasıyla Samsun, Ordu, Giresun, Trabzon, Rize ve en doğuda Artvin illerinin kıyıları uzanır. A şıkkı Artvin’i eksik bırakır. B şıkkı Sinop’u içermez. D ve E şıkları Kastamonu'yu ekler; Kastamonu kıyısı Sinop’un batısındadır, doğu rotasında yer almaz. Bu güzergâh, Karadeniz’in batı-doğu kıyı hattındaki illeri kronolojik olarak sıralar ve gemi taşımacılığında sanayi limanlarına erişim açısından önem taşır.",
+      "harita_il": "sinop",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "sanayi-1779574370-E1",
+      "soru": "Türkiye'de sanayi tesislerinin büyük bir kısmı aşağıdaki bölgelerden hangisinde yoğunlaşmıştır?",
+      "siklar": [
+        "A) Marmara Bölgesi",
+        "B) Karadeniz Bölgesi",
+        "C) Akdeniz Bölgesi",
+        "D) Doğu Anadolu Bölgesi",
+        "E) Güneydoğu Anadolu Bölgesi"
+      ],
+      "dogru": "A) Marmara Bölgesi",
+      "aciklama": "Cevap A şıkkıdır. Marmara Bölgesi, Türkiye'de sanayinin en yoğun olduğu bölgedir. Başta İstanbul, Kocaeli ve Bursa olmak üzere birçok büyük sanayi tesisi bu bölgede yer alır. Diğer şıklar incelendiğinde, Karadeniz Bölgesi sanayisi daha çok orman ürünleri ve madenciliğe dayanırken, Akdeniz Bölgesi'nde tarıma dayalı sanayi öne çıkar. Doğu Anadolu ve Güneydoğu Anadolu bölgelerinde ise sanayi yoğunluğu düşüktür.",
+      "harita_il": "istanbul",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "sanayi-1779574370-E2",
+      "soru": "Türkiye'de demir-çelik sanayisinin temel hammaddesi olan taşkömürü aşağıdaki havzalardan hangisinde çıkarılır?",
+      "siklar": [
+        "A) Zonguldak Havzası",
+        "B) Afşin-Elbistan Havzası",
+        "C) Soma Havzası",
+        "D) Tunçbilek Havzası",
+        "E) Şırnak Havzası"
+      ],
+      "dogru": "A) Zonguldak Havzası",
+      "aciklama": "Cevap A şıkkıdır. Türkiye'de taşkömürü rezervlerinin neredeyse tamamı Zonguldak ve çevresinde bulunur. Bu havzadaki taşkömürü, özellikle Karabük ve Ereğli demir-çelik fabrikalarının ana hammaddesidir. Diğer şıklardaki Afşin-Elbistan Havzası linyit, Soma ve Tunçbilek havzaları da linyit kömürü üretim alanlarıdır. Şırnak Havzası'nda ise asfaltit kömürü çıkarılır.",
+      "harita_il": "zonguldak",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "sanayi-1779574370-H2-001",
+      "soru": "Türkiye'de sanayi tesislerinin en yoğun olduğu bölge aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Ege Bölgesi",
+        "B) Marmara Bölgesi",
+        "C) İç Anadolu Bölgesi",
+        "D) Akdeniz Bölgesi",
+        "E) Karadeniz Bölgesi"
+      ],
+      "dogru": "B) Marmara Bölgesi",
+      "aciklama": "Marmara Bölgesi, ulaşım altyapısının gelişmişliği, büyük pazara yakınlığı ve tarihsel birikimiyle Türkiye sanayisinin merkezi konumundadır. Bölgede İstanbul, Kocaeli, Bursa ve Sakarya gibi iller öne çıkar. Diğer bölgelerde de sanayi bulunmakla birlikte yoğunluk ve çeşitlilik açısından Marmara Bölgesi ilk sıradadır.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "sanayi-1779574370-H2-002",
+      "soru": "Enerji kaynaklarına yakınlık, sanayi tesislerinin kuruluş yerini belirleyen önemli faktörlerden biridir. Aşağıdaki illerin hangisinde kurulacak bir demir-çelik fabrikası, taşkömürü madenine en yakın konumda olur?",
+      "siklar": [
+        "A) Batman",
+        "B) Zonguldak",
+        "C) Samsun",
+        "D) İzmir",
+        "E) Kayseri"
+      ],
+      "dogru": "B) Zonguldak",
+      "aciklama": "Zonguldak, Türkiye'de taşkömürü rezervlerinin bulunduğu başlıca ildir. Ereğli ve Karabük gibi demir-çelik tesislerinin kurulmasında bu kaynak etkili olmuştur. Batman'da petrol, diğer seçeneklerde ise taşkömürü yoktur. Bu nedenle Zonguldak doğru cevaptır.",
+      "harita_il": "zonguldak",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "sanayi-1779574370-H2-003",
+      "soru": "Bir yatırımcı, limanlara ve hammaddeye yakın olması nedeniyle petro-kimya tesisi kurmayı planlamaktadır. Aşağıdaki illerden hangisi bu yatırım için en uygun konumdadır?",
+      "siklar": [
+        "A) Ankara",
+        "B) Kayseri",
+        "C) Hatay",
+        "D) Bolu",
+        "E) Yozgat"
+      ],
+      "dogru": "C) Hatay",
+      "aciklama": "Hatay, İskenderun Limanı sayesinde deniz yoluyla ham petrol ve ürünlerinin taşınmasına elverişlidir. Ayrıca Ortadoğu'ya yakınlığı ve mevcut rafineri altyapısı (ATAŞ) petro-kimya sanayi için avantaj sağlar. Diğer iller ise iç kesimlerde kaldığından ulaşım maliyeti yüksektir.",
+      "harita_il": "hatay",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "sanayi-1779574370-H2-004",
+      "soru": "Aşağıdakilerden hangisi Türkiye'de sanayinin yoğunlaştığı bölgeler arasında yer almaz?",
+      "siklar": [
+        "A) Marmara Bölgesi",
+        "B) Ege Bölgesi",
+        "C) Güneydoğu Anadolu Bölgesi",
+        "D) İç Anadolu Bölgesi",
+        "E) Akdeniz Bölgesi"
+      ],
+      "dogru": "C) Güneydoğu Anadolu Bölgesi",
+      "aciklama": "Türkiye'de sanayi istihdamı ve katma değer en çok Marmara, Ege, İç Anadolu ve Akdeniz bölgelerinde yoğunlaşmıştır. Güneydoğu Anadolu Bölgesi'nde sanayi daha çok tarıma dayalı ve sınırlıdır. Bu nedenle diğer bölgelere göre sanayileşme düzeyi düşüktür.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "sanayi-1779574370-H2-005",
+      "soru": "Türkiye'de organize sanayi bölgelerinin (OSB) sayısı her geçen yıl artmaktadır. Bir OSB'nin kurulması için aşağıdaki koşullardan hangisi en belirleyicidir?",
+      "siklar": [
+        "A) Yer şekillerinin engebeli olması",
+        "B) Ulaşım ağlarına ve enerji hatlarına yakınlık",
+        "C) Tarım arazilerinin geniş olması",
+        "D) Nüfus yoğunluğunun düşük olması",
+        "E) İklimin ılıman olması"
+      ],
+      "dogru": "B) Ulaşım ağlarına ve enerji hatlarına yakınlık",
+      "aciklama": "Organize sanayi bölgeleri, ham madde ve mamul madde taşımacılığı için kara, demir ve hava yollarına; üretim için ise elektrik, doğal gaz gibi enerji altyapısına yakın kurulur. Diğer seçenekler OSB kurulumunda birincil etken değildir.",
+      "harita_il": "kocaeli",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "sanayi-1779574370-H2-006",
+      "soru": "Türkiye'de sanayi tesislerinin dağılışıyla ilgili,\n\nI. Marmara Bölgesi, sanayi üretimi ve istihdamında en büyük paya sahiptir.\nII. Ege Bölgesi'nde tekstil ve gıda sanayisi yaygındır.\nIII. Doğu Anadolu Bölgesi'nde sanayi tesisleri enerji kaynaklarına yakın olarak kurulmuştur.\n\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "I. önerme doğrudur; Marmara Bölgesi sanayi üretiminde liderdir. II. önerme doğrudur; Ege Bölgesi'nde tekstil (İzmir, Denizli) ve gıda sanayisi (zeytinyağı, konserve) yoğundur. III. önerme yanlıştır; Doğu Anadolu'da sanayi oldukça sınırlıdır ve enerji kaynaklarına yakınlık belirleyici değildir.",
+      "harita_il": null,
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "sanayi-1779574370-H2-007",
+      "soru": "İzmir limanından yola çıkan bir kargo gemisi, kıyı şeridini takip ederek İskenderun limanına gitmektedir. Bu yolculuk sırasında aşağıdaki liman veya körfezlerden hangisine rastlanması beklenmez?",
+      "siklar": [
+        "A) Kuşadası",
+        "B) Antalya Körfezi",
+        "C) Mersin Limanı",
+        "D) Sinop Limanı",
+        "E) İçel (Mersin) Limanı"
+      ],
+      "dogru": "D) Sinop Limanı",
+      "aciklama": "İzmir'den İskenderun'a giden bir gemi Ege kıyısından Akdeniz'e doğru ilerler; sırasıyla Kuşadası, Antalya Körfezi, Mersin Limanı ve İskenderun'a ulaşır. Sinop Limanı ise Karadeniz kıyısındadır ve bu rotada bulunmaz. Bu nedenle Sinop Limanı'na rastlamaz.",
+      "harita_il": "izmir",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "sanayi-1779574370-H2-008",
+      "soru": "Türkiye'de sanayinin gelişmesinde etkili olan faktörlerle ilgili,\n\nI. Ham madde kaynaklarına yakınlık, ağır sanayinin kuruluş yerini belirler.\nII. Ulaşım ağlarının yetersiz olduğu bölgelerde sanayi daha çok işlenmiş ürün üretir.\nIII. Enerji maliyetlerinin düşük olduğu bölgelerde enerji yoğun sanayi kolları yaygındır.\n\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve III",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve III",
+      "aciklama": "I. önerme doğrudur; demir-çelik gibi ağır sanayi ham maddeye yakın kurulur (Zonguldak, Karabük gibi). II. önerme yanlıştır; ulaşım yetersizliği sanayinin gelişmesini engeller, işlenmiş ürün üretimi için de ulaşım gerekir. III. önerme doğrudur; enerji bol ve ucuzsa (örneğin hidroelektrik santrallerine yakın bölgelerde) alüminyum gibi enerji yoğun sanayi gelişir.",
+      "harita_il": null,
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "sanayi-1779574410-E1",
+      "soru": "Türkiye'de ilk demir-çelik fabrikası aşağıdaki illerin hangisinde kurulmuştur?",
+      "siklar": [
+        "A) Karabük",
+        "B) Ereğli (Zonguldak)",
+        "C) İskenderun (Hatay)",
+        "D) Sivas",
+        "E) Kırıkkale"
+      ],
+      "dogru": "A) Karabük",
+      "aciklama": "Doğru cevap A şıkkıdır. Türkiye'de ilk demir-çelik fabrikası, 1939 yılında Karabük'te kurulan Karabük Demir ve Çelik Fabrikaları'dır (KARDEMİR). Bu tesis, Cumhuriyet döneminin ilk ağır sanayi yatırımı olup ülkenin sanayileşme hamlesinin başlangıcı kabul edilir. B şıkkındaki Ereğli Demir ve Çelik Fabrikası (ERDEMİR) 1965 yılında, C şıkkındaki İskenderun Demir ve Çelik Fabrikası (İSDEMİR) 1970'li yıllarda faaliyete geçmiştir. D şıkkındaki Sivas'ta demir-çelik fabrikası bulunmamakta olup, E şıkkındaki Kırıkkale'de ise askeri amaçlı metalürji tesisleri yer alır.",
+      "harita_il": "karabuk",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "sanayi-1779574410-E2",
+      "soru": "Aşağıdaki sanayi kollarından hangisi ham madde olarak tarımsal ürünleri kullanır?",
+      "siklar": [
+        "A) Demir-çelik sanayisi",
+        "B) Şeker sanayisi",
+        "C) Petrokimya sanayisi",
+        "D) Çimento sanayisi",
+        "E) Alüminyum sanayisi"
+      ],
+      "dogru": "B) Şeker sanayisi",
+      "aciklama": "Doğru cevap B şıkkıdır. Şeker sanayisi, ham madde olarak şeker pancarı (veya şeker kamışı) gibi tarımsal ürünleri kullanan bir tarıma dayalı sanayi koludur. Türkiye'de şeker fabrikaları genellikle şeker pancarı üretim bölgelerine yakın kurulmuştur. A şıkkındaki demir-çelik sanayisi demir cevheri ve taşkömürü, C şıkkındaki petrokimya sanayisi ham petrol, D şıkkındaki çimento sanayisi kalker ve kil, E şıkkındaki alüminyum sanayisi ise boksit cevherini ham madde olarak kullanır. Bu nedenle yalnızca şeker sanayisi doğrudan tarımsal ürüne dayalıdır.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "sanayi-1779574410-H2-001",
+      "soru": "İstanbul limanından kalkan bir yük gemisi, Karadeniz kıyı şeridini takip ederek Trabzon limanına gitmektedir. Bu gemi yolculuğu sırasında aşağıdaki akarsulardan hangisinin Karadeniz’e döküldüğü deltayı gözlemlemez?",
+      "siklar": [
+        "A) Sakarya",
+        "B) Kızılırmak",
+        "C) Yeşilırmak",
+        "D) Fırat",
+        "E) Çoruh"
+      ],
+      "dogru": "D) Fırat",
+      "aciklama": "D şıkkı doğrudur çünkü Fırat Nehri, Türkiye sınırları içinde Karadeniz’e dökülmez; Dicle ile birleşerek Basra Körfezi’ne ulaşır. A şıkkı Sakarya Nehri Karadeniz’e dökülür, B şıkkı Kızılırmak deltası Samsun’da, C şıkkı Yeşilırmak deltası Samsun’da, E şıkkı Çoruh Nehri ise Artvin’de Karadeniz’e ulaşır. Bir gemi İstanbul’dan Trabzon’a giderken sırasıyla Sakarya, Kızılırmak, Yeşilırmak ve Çoruh deltalarını geçer; Fırat deltasına rastlamaz.",
+      "harita_il": "istanbul",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "sanayi-1779574410-H2-002",
+      "soru": "Türkiye’de demir-çelik sanayisinin kurulmasında etkili olan en önemli ham madde kaynağı aşağıdaki illerden hangisinde bulunur?",
+      "siklar": [
+        "A) Sivas – Divriği",
+        "B) Malatya – Hekimhan",
+        "C) Balıkesir – Ayvalık",
+        "D) Antalya – Elmalı",
+        "E) Kayseri – Yahyalı"
+      ],
+      "dogru": "A) Sivas – Divriği",
+      "aciklama": "A şıkkı doğrudur çünkü Türkiye’nin en büyük demir yatakları Sivas’ın Divriği ilçesinde bulunur ve Karabük, Ereğli gibi demir-çelik tesislerine ham madde sağlar. B şıkkı Hekimhan demir yatakları da önemlidir ancak Divriği daha büyüktür. C, D ve E şıkları demir-çelik sanayisi için birincil ham madde kaynağı değildir. Sivas’ın bu yönü, bölgedeki ağır sanayinin gelişmesinde belirleyici olmuştur.",
+      "harita_il": "sivas",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "sanayi-1779574410-H2-003",
+      "soru": "Aşağıdaki illerden hangisinde petrol rafinerisi bulunmaz?",
+      "siklar": [
+        "A) Kırıkkale",
+        "B) Batman",
+        "C) İzmir",
+        "D) Ankara",
+        "E) Mersin"
+      ],
+      "dogru": "D) Ankara",
+      "aciklama": "D şıkkı doğrudur çünkü Ankara’da petrol rafinerisi bulunmamaktadır. Kırıkkale’de (Kırıkkale Rafinerisi), Batman’da (Batman Rafinerisi), İzmir’de (Aliağa Rafinerisi) ve Mersin’de (Ataş Rafinerisi) aktif rafineriler vardır. Ankara, sanayi ve ticaret merkezi olmasına rağmen rafineri yatırımı yapılmamıştır; ham petrol boru hatları bu şehirlerdeki rafinerilere yönlenmiştir.",
+      "harita_il": "ankara",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "sanayi-1779574410-H2-004",
+      "soru": "Türkiye’de uluslararası ticarette liman kentlerinin önemi büyüktür. Bu kentlerden hangisi, taşıdığı yük hacmi ve bağlantı yolları bakımından diğerlerine göre daha az gelişmiştir?",
+      "siklar": [
+        "A) İstanbul",
+        "B) İzmir",
+        "C) Mersin",
+        "D) Samsun",
+        "E) Sinop"
+      ],
+      "dogru": "E) Sinop",
+      "aciklama": "E şıkkı doğrudur. Sinop, Karadeniz kıyısında yer almasına rağmen liman altyapısı ve geri hizmet alanları sınırlıdır; iç bölgelere demir yolu bağlantısı zayıftır. İstanbul, İzmir, Mersin ve Samsun ise büyük limanlara, organize sanayi bölgelerine ve güçlü ulaşım ağlarına sahiptir. Sinop’un ticari hacmi diğerlerine kıyasla düşüktür.",
+      "harita_il": "sinop",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "sanayi-1779574410-H2-005",
+      "soru": "Mersin limanından yola çıkan bir yük gemisi, Akdeniz kıyı şeridini takip ederek İskenderun limanına ulaşmak istemektedir. Bu gemi yolculuğu sırasında aşağıdaki akarsu deltalarından hangisine rastlamaz?",
+      "siklar": [
+        "A) Seyhan",
+        "B) Ceyhan",
+        "C) Göksu",
+        "D) Dalaman",
+        "E) Asi"
+      ],
+      "dogru": "D) Dalaman",
+      "aciklama": "D şıkkı doğrudur. Dalaman Çayı, Muğla ilinde Ege Denizi’ne dökülür, Akdeniz kıyı şeridinde yer almaz. Mersin-İskenderun rotasında sırasıyla Göksu (Silifke), Seyhan (Adana), Ceyhan (Adana) ve Asi (Hatay) deltaları bulunur. Dalaman deltası Ege’de kaldığı için bu rotada gözlemlenemez.",
+      "harita_il": "mersin",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "sanayi-1779574410-H2-006",
+      "soru": "Türkiye’deki sanayi tesislerinin enerji kaynaklarıyla ilişkisi değerlendirilirken,\nI. Termik santraller çoğunlukla linyit yataklarına yakın kurulmuştur.\nII. Hidroelektrik santraller genellikle akarsu havzalarının yukarı çığırında yer alır.\nIII. Jeotermal enerji santralleri yalnızca Ege Bölgesi’nde bulunur.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) I ve III",
+        "E) II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "C şıkkı doğrudur. I. önerme doğrudur çünkü Türkiye’deki termik santraller (Afşin-Elbistan, Çayırhan, Soma gibi) linyit havzalarına yakın konumlanmıştır. II. önerme doğrudur; hidroelektrik santraller suyun düşüş gücünden yararlanmak için akarsuların yukarı kesimlerinde kurulur. III. önerme yanlıştır çünkü jeotermal santraller Ege dışında Denizli, Van, Şırnak gibi illerde de bulunmaktadır.",
+      "harita_il": "denizli",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "sanayi-1779574410-H2-007",
+      "soru": "Yukarıdaki Türkiye haritasında I, II, III, IV ve V numaralı alanlar gösterilmiştir. Bu alanların hangisi, liman kenti olmaması nedeniyle sanayi tesislerinin deniz yoluyla ham madde ve ürün taşıması açısından diğerlerine göre dezavantajlıdır?",
+      "siklar": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV",
+        "E) V"
+      ],
+      "dogru": "B) II",
+      "aciklama": "B şıkkı doğrudur. Haritada II numaralı alan Karabük’ü göstermektedir; Karabük’ün denize kıyısı yoktur ve iç kesimde yer alır. Ancak demir-çelik tesisleri bulunur, ham madde ve ürün taşımacılığı kara ve demir yoluna bağımlıdır. I (Zonguldak – Ereğli), III (Samsun), IV (Mersin) ve V (İzmir) ise liman kentleridir ve sanayi tesisleri deniz yoluyla düşük maliyetli taşımacılık yapabilir.",
+      "harita_il": "karabuk",
+      "zorluk": "zor",
+      "gorsel": "sanayi/sanayi-1779574410-H2-007.svg",
+      "gorsel_veri": {
+        "I": "zonguldak",
+        "II": "karabuk",
+        "III": "samsun",
+        "IV": "mersin",
+        "V": "izmir"
+      }
+    },
+    {
+      "id": "sanayi-1779574410-H2-008",
+      "soru": "İstanbul’dan deniz yoluyla Samsun’a gitmek isteyen bir gemi, Karadeniz kıyı şeridini izleyerek doğuya doğru ilerlemektedir. Bu gemi aşağıdaki limanlardan hangisine uğramak zorunda değildir?",
+      "siklar": [
+        "A) Zonguldak",
+        "B) Sinop",
+        "C) Bartın",
+        "D) Trabzon",
+        "E) Samsun"
+      ],
+      "dogru": "D) Trabzon",
+      "aciklama": "D şıkkı doğrudur. İstanbul-Samsun arasındaki doğrudan rota Zonguldak, Bartın, Sinop ve Samsun’u kapsar; Trabzon ise daha doğuda (Samsun’un ötesinde) yer aldığından bu güzergâhın dışındadır. Gemi Samsun’a varmak için Trabzon’a sapmaz. Diğer limanlar ise sırasıyla uğranılması muhtemel durak noktalarıdır.",
+      "harita_il": "samsun",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
     }
   ]
 }

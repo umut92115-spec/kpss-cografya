@@ -1791,6 +1791,2288 @@
       "zorluk": "zor",
       "gorsel": null,
       "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574315-E1",
+      "soru": "Türkiye'de nüfusun dağılışını etkileyen faktörlerden biri de yer şekilleridir. Buna göre, aşağıdaki bölgelerden hangisinde nüfus yoğunluğunun daha düşük olmasında engebeli ve dağlık arazi yapısı daha etkilidir?",
+      "siklar": [
+        "A) Marmara Bölgesi",
+        "B) Ege Bölgesi",
+        "C) Doğu Anadolu Bölgesi",
+        "D) İç Anadolu Bölgesi",
+        "E) Güneydoğu Anadolu Bölgesi"
+      ],
+      "dogru": "C) Doğu Anadolu Bölgesi",
+      "aciklama": "Doğu Anadolu Bölgesi, Türkiye'nin en yüksek ve en engebeli arazisine sahip bölgesidir. Bu durum, ulaşımı zorlaştırmakta ve yerleşim alanlarını sınırlandırarak nüfus yoğunluğunun düşük olmasına neden olmaktadır. Marmara Bölgesi'nde nüfus yoğunluğu yüksektir. Ege Bölgesi'nde kıyı kesimleri yoğunken iç kesimlerde nüfus azalır. İç Anadolu Bölgesi'nde nüfus yoğunluğu orta düzeydedir. Güneydoğu Anadolu Bölgesi'nde ise tarım ve sulama projeleriyle nüfus yoğunluğu artmıştır.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574315-E2",
+      "soru": "Aşağıdakilerden hangisi Türkiye'de nüfusun dağılışı üzerinde etkili olan faktörlerden biri değildir?",
+      "siklar": [
+        "A) İklim koşulları",
+        "B) Yer şekilleri",
+        "C) Toprak verimliliği",
+        "D) Dünya'nın Güneş etrafındaki dönüş hızı",
+        "E) Sanayi tesislerinin varlığı"
+      ],
+      "dogru": "D) Dünya'nın Güneş etrafındaki dönüş hızı",
+      "aciklama": "Nüfusun dağılışını etkileyen faktörler fiziki (iklim, yer şekilleri, toprak verimliliği) ve beşeri (sanayi, ulaşım, tarım) olmak üzere ikiye ayrılır. Dünya'nın Güneş etrafındaki dönüş hızı ise nüfus dağılışını doğrudan etkilemez; bu durum mevsimlerin oluşumuyla ilişkilidir. İklim koşulları, yer şekilleri ve toprak verimliliği fiziki faktörler arasında yer alır. Sanayi tesislerinin varlığı ise beşeri faktörlerdendir ve nüfus yoğunluğunu artırır.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574315-H1",
+      "soru": "Türkiye’de nüfus yoğunluğuyla ilgili\nI. Marmara Bölgesi en yüksek nüfus yoğunluğuna sahiptir.\nII. İç Anadolu Bölgesi en düşük nüfus yoğunluğuna sahiptir.\nIII. Doğu Anadolu Bölgesi nüfus yoğunluğu en düşük olan bölgedir.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız III",
+        "C) I ve II",
+        "D) I ve III",
+        "E) II ve III"
+      ],
+      "dogru": "D) I ve III",
+      "aciklama": "Doğru cevap D şıkkıdır. Marmara Bölgesi sanayi, ticaret ve hizmet sektörlerinin yoğunlaşması nedeniyle Türkiye’nin en yüksek nüfus yoğunluğuna sahip bölgesidir (I doğru). Doğu Anadolu Bölgesi ise engebeli arazi, sert iklim ve yaşanan göçler sonucu nüfus yoğunluğu en düşük olan bölgedir (III doğru). İç Anadolu Bölgesi nüfus yoğunluğu bakımından orta seviyededir, en düşük değildir (II yanlış). Bu nedenle yalnız I ve III doğrudur.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574315-H2",
+      "soru": "Türkiye’de iç göçlerle ilgili\nI. En fazla göç alan il İstanbul’dur.\nII. En fazla göç veren il İzmir’dir.\nIII. Mevsimlik göç en çok tarım sektöründe görülür.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız III",
+        "C) I ve II",
+        "D) I ve III",
+        "E) II ve III"
+      ],
+      "dogru": "D) I ve III",
+      "aciklama": "Doğru cevap D şıkkıdır. İstanbul, Türkiye’nin en fazla göç alan ilidir; ekonomik fırsatlar ve istihdam olanakları bu durumun başlıca nedenidir (I doğru). Mevsimlik işçi göçü en yoğun olarak tarım sektöründe, özellikle hasat dönemlerinde yaşanır (III doğru). İzmir ise göç alan bir ildir; en fazla göç veren iller genellikle Doğu ve Güneydoğu Anadolu’daki illerdir (II yanlış). Bu nedenle yalnız I ve III doğrudur.",
+      "harita_il": "istanbul",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574315-H3",
+      "soru": "Yukarıdaki Türkiye haritasında I, II, III, IV ve V numaralı alanlar gösterilmiştir. Bu alanların tamamı için ortak olan özellik aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Turunçgil yetiştiriciliği",
+        "B) Muz üretimi",
+        "C) Zeytin üretimi",
+        "D) Fındık üretimi",
+        "E) Pamuk üretimi"
+      ],
+      "dogru": "A) Turunçgil yetiştiriciliği",
+      "aciklama": "Doğru cevap A şıkkıdır. Haritada işaretlenen iller (Antalya, Mersin, Adana, Hatay, Osmaniye) Akdeniz Bölgesi’nde yer alır. Akdeniz iklimi turunçgil yetiştiriciliği için ideal sıcaklık ve nem koşulları sağlar. Muz üretimi sınırlı, zeytin üretimi Ege Bölgesi, fındık üretimi Karadeniz, pamuk üretimi ise Güneydoğu Anadolu Bölgesi’nde yoğundur. Bu nedenle tüm işaretli alanlar için ortak özellik turunçgil yetiştiriciliğidir.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": "beseri-cografya/beseri-cografya-1779574315-H3.svg",
+      "gorsel_veri": {
+        "I": "antalya",
+        "II": "mersin",
+        "III": "adana",
+        "IV": "hatay",
+        "V": "osmaniye"
+      }
+    },
+    {
+      "id": "beseri-cografya-1779574315-H4",
+      "soru": "Türkiye’de otomotiv sanayisinin en yoğun olduğu il aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) İstanbul",
+        "B) Bursa",
+        "C) Ankara",
+        "D) Kocaeli",
+        "E) İzmir"
+      ],
+      "dogru": "B) Bursa",
+      "aciklama": "Doğru cevap B şıkkıdır. Bursa, Türkiye’nin en önemli otomotiv sanayi merkezi olup Tofaş ve Oyak Renault gibi büyük tesislere ev sahipliği yapar. İstanbul ve Kocaeli de otomotiv sanayinde önemli olmakla birlikte, Bursa üretim adedi ve yan sanayi açısından ilk sıradadır. Ankara’da otomotiv sanayisi sınırlı, İzmir’de ise daha çok yan sanayi faaliyetleri bulunur. Bu nedenle doğru cevap Bursa’dır.",
+      "harita_il": "bursa",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574315-H5",
+      "soru": "Türkiye’de termal turizmle ilgili\nI. Denizli, termal turizmde önde gelen illerdendir.\nII. Afyonkarahisar, jeotermal kaynaklar açısından zengindir.\nIII. Nevşehir, termal turizmde diğerlerine göre daha az gelişmiştir.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız III",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "E) I, II ve III",
+      "aciklama": "Doğru cevap E şıkkıdır. Denizli (Pamukkale) önemli bir termal turizm merkezidir (I doğru). Afyonkarahisar, jeotermal kaynakları sayesinde termal turizmde ileri düzeydedir (II doğru). Nevşehir ise Kapadokya’nın turistik çekiciliğine rağmen termal kaynaklar açısından fakirdir ve bu alanda diğerlerine göre az gelişmiştir (III doğru). Bu nedenle tüm yargılar doğrudur.",
+      "harita_il": "denizli",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574315-H6",
+      "soru": "Türkiye’de demiryolu ulaşımıyla ilgili\nI. Demiryolu ağının en yoğun olduğu bölge Marmara Bölgesi’dir.\nII. TCDD’nin genel müdürlüğü Eskişehir’dedir.\nIII. Yüksek hızlı tren ilk olarak Ankara-İstanbul hattında işletmeye açılmıştır.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) I ve III",
+        "E) II ve III"
+      ],
+      "dogru": "A) Yalnız I",
+      "aciklama": "Doğru cevap A şıkkıdır. Marmara Bölgesi, sanayi ve nüfus yoğunluğuna bağlı olarak demiryolu ağının en yoğun olduğu bölgedir (I doğru). TCDD Genel Müdürlüğü Ankara’da bulunmaktadır, Eskişehir’de değildir (II yanlış). Yüksek hızlı tren ilk olarak Ankara-Eskişehir hattında (2009) işletmeye açılmış, Ankara-İstanbul hattı daha sonra devreye girmiştir (III yanlış). Bu nedenle yalnız I doğrudur.",
+      "harita_il": null,
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574315-H7",
+      "soru": "Türkiye’de enerji kaynaklarıyla ilgili\nI. Jeotermal enerji santrali sayısı en fazla Denizli’dedir.\nII. Hidroelektrik santral sayısı en fazla Karadeniz Bölgesi’ndedir.\nIII. Rüzgar enerjisi santrali en çok Marmara Bölgesi’nde bulunur.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "E) I, II ve III",
+      "aciklama": "Doğru cevap E şıkkıdır. Denizli, Buharkent ve Sarayköy gibi ilçelerindeki jeotermal kaynaklarla bu alanda en fazla santrale sahiptir (I doğru). Karadeniz Bölgesi, Doğu Karadeniz’deki akarsular sayesinde hidroelektrik santral sayısı bakımından ilk sıradadır (II doğru). Rüzgar enerjisi santralleri ise Marmara Bölgesi’nde, özellikle Balıkesir ve Çanakkale’de yoğunlaşmıştır (III doğru). Bu nedenle tüm yargılar doğrudur.",
+      "harita_il": "denizli",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574315-H8",
+      "soru": "Yukarıdaki Türkiye haritasında I, II, III ve IV numaralı alanlar gösterilmiştir. Bu alanlardan hangisinde nüfus artış hızı diğerlerine göre daha düşüktür?",
+      "siklar": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV",
+        "E) I ve II"
+      ],
+      "dogru": "B) II",
+      "aciklama": "Doğru cevap B şıkkıdır. Haritada işaretlenen illerden Ankara (II), nüfus artış hızı en düşük olanıdır. İstanbul (I) yoğun göç alan bir metropol, Bursa (IV) sanayi merkezi olarak hızlı nüfus artışına sahiptir. İzmir (III) de önemli bir çekim merkezidir. Ankara ise başkent olmasına rağmen nüfus artış hızı diğer büyükşehirlere göre daha düşük kalmıştır. I ve II birlikte doğru değildir.",
+      "harita_il": "ankara",
+      "zorluk": "zor",
+      "gorsel": "beseri-cografya/beseri-cografya-1779574315-H8.svg",
+      "gorsel_veri": {
+        "I": "istanbul",
+        "II": "ankara",
+        "III": "izmir",
+        "IV": "bursa"
+      }
+    },
+    {
+      "id": "beseri-cografya-1779574395-E1",
+      "soru": "Türkiye'de nüfusu en fazla olan il hangisidir?",
+      "siklar": [
+        "A) Ankara",
+        "B) İstanbul",
+        "C) İzmir",
+        "D) Bursa",
+        "E) Antalya"
+      ],
+      "dogru": "B) İstanbul",
+      "aciklama": "Doğru cevap B şıkkıdır. 2023 yılı verilerine göre İstanbul, yaklaşık 15,6 milyon nüfusuyla Türkiye'nin en kalabalık ilidir. A şıkkı Ankara yaklaşık 5,8 milyon, C şıkkı İzmir yaklaşık 4,5 milyon, D şıkkı Bursa yaklaşık 3,2 milyon ve E şıkkı Antalya yaklaşık 2,7 milyon nüfusa sahiptir. Bu nedenle İstanbul, diğer tüm illerden belirgin şekilde daha yüksek bir nüfusa sahiptir.",
+      "harita_il": "istanbul",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574395-E2",
+      "soru": "Aşağıdaki illerden hangisi nüfus yoğunluğu en düşük olan ildir?",
+      "siklar": [
+        "A) Tunceli",
+        "B) Yalova",
+        "C) İstanbul",
+        "D) Kocaeli",
+        "E) Ankara"
+      ],
+      "dogru": "A) Tunceli",
+      "aciklama": "Doğru cevap A şıkkıdır. Nüfus yoğunluğu, bir ilin nüfusunun yüzölçümüne bölünmesiyle hesaplanır. Tunceli, yaklaşık 89 bin nüfusu ve 7582 km² yüzölçümüyle km²'ye düşen kişi sayısı en az olan illerimizdendir. B şıkkı Yalova, küçük yüzölçümüne rağmen yüksek nüfusuyla yoğunluğu yüksektir. C şıkkı İstanbul, D şıkkı Kocaeli ve E şıkkı Ankara ise hem nüfusları hem de yüzölçümleri dikkate alındığında Tunceli'den çok daha yüksek nüfus yoğunluğuna sahiptir.",
+      "harita_il": "tunceli",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574395-H1-001",
+      "soru": "Türkiye'de nüfus yoğunluğunun en fazla olduğu bölge aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Ege Bölgesi",
+        "B) Marmara Bölgesi",
+        "C) Akdeniz Bölgesi",
+        "D) İç Anadolu Bölgesi",
+        "E) Karadeniz Bölgesi"
+      ],
+      "dogru": "B) Marmara Bölgesi",
+      "aciklama": "Marmara Bölgesi, Türkiye'nin en yüksek nüfus yoğunluğuna sahip bölgesidir. İstanbul'un metropol etkisi, sanayi ve ticaret faaliyetlerinin yoğunlaşması bu durumun başlıca nedenleridir. Ege Bölgesi ikinci sırada yer alırken, İç Anadolu Bölgesi'nde nüfus yoğunluğu daha düşüktür. Akdeniz ve Karadeniz bölgeleri ise kıyı şeridinde yoğunlaşmış nüfusa sahip olmakla birlikte genel yoğunluk açısından Marmara'nın gerisindedir.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574395-H1-002",
+      "soru": "Türkiye'de kıyı kesimlerinde nüfusun iç kesimlere göre daha fazla olmasının temel nedeni aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Engebeli arazilerin tarıma elverişli olması",
+        "B) İklim koşullarının elverişliliği ve ulaşım imkânlarının gelişmiş olması",
+        "C) Sanayi tesislerinin tamamının kıyılarda yer alması",
+        "D) Kıyı bölgelerde toprakların daha verimli olması",
+        "E) İç kesimlerde nüfus politikalarının daha katı uygulanması"
+      ],
+      "dogru": "B) İklim koşullarının elverişliliği ve ulaşım imkânlarının gelişmiş olması",
+      "aciklama": "Kıyı kesimlerinde ılıman iklim, tarımsal verimlilik ve ulaşım ağlarının gelişmişliği nüfus yoğunluğunu artırmaktadır. A şıkkı yanlıştır çünkü engebeli arazi tarımı zorlaştırır. C şıkkı abartılıdır, sanayi tesisleri iç kesimlerde de bulunur. D şıkkı her kıyı bölge için geçerli değildir. E şıkkı gerçeği yansıtmaz. Bu nedenle B şıkkı en kapsayıcı ve doğru gerekçedir.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574395-H1-003",
+      "soru": "İstanbul ve Ankara karşılaştırıldığında aşağıdakilerden hangisi yalnızca İstanbul için söylenebilir?",
+      "siklar": [
+        "A) Türkiye'nin başkenti olması",
+        "B) İki kıtada toprağı bulunması",
+        "C) Nüfusunun büyük bölümünün sanayide çalışması",
+        "D) En kalabalık il olması",
+        "E) İç Anadolu Bölgesi'nde yer alması"
+      ],
+      "dogru": "B) İki kıtada toprağı bulunması",
+      "aciklama": "İstanbul, Avrupa ve Asya kıtaları üzerinde toprağı olan tek ildir. Ankara başkenttir (A şıkkı), İstanbul'dan sonra en kalabalık ildir ve İç Anadolu'da değildir (E şıkkı). C şıkkı her iki il için de kısmen geçerlidir ancak İstanbul'da hizmet sektörü daha ağırlıklıdır. D şıkkı İstanbul için doğru olsa da 'yalnızca İstanbul' özelliği değildir çünkü en kalabalık il olma unvanı değişebilir. B şıkkı eşsiz bir coğrafi özelliktir.",
+      "harita_il": "istanbul",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574395-H1-004",
+      "soru": "Bir bölgede sanayi tesislerinin yoğunlaşması sonucu bu bölgeye doğru yoğun bir göç yaşanmaktadır. Aşağıdaki illerden hangisi bu duruma en tipik örnektir?",
+      "siklar": [
+        "A) Kastamonu",
+        "B) Kocaeli",
+        "C) Niğde",
+        "D) Şanlıurfa",
+        "E) Bayburt"
+      ],
+      "dogru": "B) Kocaeli",
+      "aciklama": "Kocaeli, İstanbul'a yakınlığı ve gelişmiş sanayi altyapısıyla özellikle 1980 sonrası büyük göç almıştır. Kastamonu ve Niğde daha çok göç veren illerdir. Şanlıurfa tarım ve hizmet ağırlıklıdır. Bayburt ise sürekli göç vermektedir. Sanayi yoğunluğu nedeniyle göç alan tipik iller arasında Kocaeli, Bursa ve İzmir sayılabilir.",
+      "harita_il": "kocaeli",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574395-H1-005",
+      "soru": "Aşağıdaki illerden hangisi nüfus artış hızı bakımından diğerlerinden farklı bir eğilim gösterir?",
+      "siklar": [
+        "A) Bayburt",
+        "B) İstanbul",
+        "C) Ankara",
+        "D) İzmir",
+        "E) Bursa"
+      ],
+      "dogru": "A) Bayburt",
+      "aciklama": "Bayburt, sürekli göç veren ve nüfusu azalan iller arasında yer alırken İstanbul, Ankara, İzmir ve Bursa göç alarak nüfus artış hızını yüksek tutan illerdir. Bu nedenle Bayburt diğerlerinden farklıdır. Nüfus artış hızı, doğum ve ölüm oranlarının yanı sıra göç hareketlerinden de etkilenir.",
+      "harita_il": "bayburt",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574395-H1-006",
+      "soru": "Türkiye'de şehirleşme ile ilgili,\n\nI. Sanayi devrimi sonrası hızlanmıştır.\nII. Kıyı kesimlerde iç kesimlere göre daha yüksektir.\nIII. 1950'den sonra kırdan kente göçle artmıştır.\n\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) I ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "D) I ve III",
+      "aciklama": "Sanayi devrimi, kentlerde iş gücü talebini artırarak şehirleşmeyi hızlandırmıştır (I doğru). 1950'den sonra Türkiye'de kırdan kente göç yoğunlaşmış, şehir nüfusu artmıştır (III doğru). II. önerme genel bir eğilim olmakla birlikte İç Anadolu'daki büyükşehirler (Ankara, Kayseri) de yüksek şehirleşme oranına sahiptir; kıyı-iç kesim ayrımı kesin değildir ve bu haliyle doğru kabul edilmez. Bu nedenle doğru cevap I ve III'dür.",
+      "harita_il": null,
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574395-H1-007",
+      "soru": "Yukarıdaki Türkiye haritasında I, II, III, IV ve V numaralı alanlar gösterilmiştir. Bu alanların hangisinde sanayi tesislerinin yoğunluğu diğerlerine göre daha azdır?",
+      "siklar": [
+        "A) I (İstanbul)",
+        "B) II (Kocaeli)",
+        "C) III (Bursa)",
+        "D) IV (İzmir)",
+        "E) V (Ankara)"
+      ],
+      "dogru": "E) V (Ankara)",
+      "aciklama": "Ankara, başkent olması nedeniyle hizmet sektörü ağırlıklı bir ekonomik yapıya sahiptir. Sanayi tesisleri bakımından İstanbul, Kocaeli, Bursa ve İzmir çok daha yoğundur. Ankara'da savunma ve teknoloji sanayisi bulunmakla birlikte, genel sanayi yoğunluğu bu dört ile kıyaslandığında daha düşüktür. Bu nedenle doğru cevap V numaralı alan olan Ankara'dır.",
+      "harita_il": "ankara",
+      "zorluk": "zor",
+      "gorsel": "beseri-cografya/beseri-cografya-1779574395-H1-007.svg",
+      "gorsel_veri": {
+        "I": "istanbul",
+        "II": "kocaeli",
+        "III": "bursa",
+        "IV": "izmir",
+        "V": "ankara"
+      }
+    },
+    {
+      "id": "beseri-cografya-1779574395-H1-008",
+      "soru": "Türkiye'de göç hareketleriyle ilgili,\n\nI. Doğu Anadolu Bölgesi'nden Batı illerine göç yaşanmaktadır.\nII. Göç alan illerde nüfus yoğunluğu artmaktadır.\nIII. Göç edenlerin büyük kısmı kırsal kesimde yaşamaktadır.\n\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) I ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "Doğu Anadolu Bölgesi'nden iş ve eğitim imkanlarının gelişmiş olduğu batı illerine (İstanbul, İzmir, Bursa) yoğun bir göç vardır (I doğru). Göç alan illerde nüfus miktarı ve yoğunluğu artar (II doğru). III. önerme yanlıştır çünkü göç edenler genellikle kentlere, özellikle büyükşehirlere yerleşir; kırsal kesime göç oldukça sınırlıdır. Bu nedenle doğru cevap I ve II'dir.",
+      "harita_il": null,
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574476-E1",
+      "soru": "Türkiye'de nüfusun en yoğun olduğu bölge aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Marmara Bölgesi",
+        "B) Ege Bölgesi",
+        "C) Akdeniz Bölgesi",
+        "D) İç Anadolu Bölgesi",
+        "E) Karadeniz Bölgesi"
+      ],
+      "dogru": "A) Marmara Bölgesi",
+      "aciklama": "Marmara Bölgesi, Türkiye'nin en yoğun nüfuslu bölgesidir. Bunun başlıca nedenleri arasında sanayinin gelişmiş olması, İstanbul gibi büyük bir metropolü barındırması, ulaşım ağlarının kesişim noktasında yer alması ve tarih boyunca göç alması sayılabilir. B) Ege Bölgesi nüfus yoğunluğu bakımından ikinci sıradadır. C) Akdeniz Bölgesi, D) İç Anadolu Bölgesi ve E) Karadeniz Bölgesi ise Marmara Bölgesi'ne kıyasla daha düşük nüfus yoğunluğuna sahiptir. Türkiye'de nüfus yoğunluğu batıdan doğuya doğru azalma eğilimi gösterir.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574476-E2",
+      "soru": "Aşağıdakilerden hangisi Türkiye'de sanayinin dağılışını etkileyen faktörlerden biri değildir?",
+      "siklar": [
+        "A) Hammadde kaynakları",
+        "B) Enerji kaynakları",
+        "C) İklim çeşitliliği",
+        "D) Ulaşım olanakları",
+        "E) Sermaye birikimi"
+      ],
+      "dogru": "C) İklim çeşitliliği",
+      "aciklama": "Sanayi tesislerinin kurulacağı yerin seçiminde hammaddeye yakınlık, enerji kaynaklarının varlığı, ulaşım ağlarına erişim ve sermaye birikimi gibi faktörler belirleyicidir. İklim çeşitliliği ise tarımsal üretim ve turizm faaliyetleri üzerinde daha etkili olup sanayinin dağılışında doğrudan birincil bir etken değildir. A, B, D ve E şıklarında verilen faktörler sanayi kuruluş yerinin seçiminde temel belirleyiciler arasında yer alır. Sanayi tesisleri genellikle bu faktörlerin bir arada bulunduğu alanlarda yoğunlaşır.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574476-H1",
+      "soru": "Türkiye'de nüfusun dağılışıyla ilgili,\nI. Doğu Anadolu Bölgesi en düşük nüfus yoğunluğuna sahiptir.\nII. Kıyı bölgeleri iç bölgelere göre daha yoğun nüfusludur.\nIII. Sanayi tesislerinin yoğun olduğu iller göç almaktadır.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "E) I, II ve III",
+      "aciklama": "Doğru cevap E şıkkıdır çünkü üç önerme de doğrudur. Doğu Anadolu'nun engebeli ve yüksek yapısı nüfus yoğunluğunu düşürür; kıyı bölgeleri iklim ve ekonomik faaliyetler nedeniyle daha yoğun nüfusludur; sanayi bölgeleri iş imkânı sunduğu için göç çeker. A, B, C ve D şıkları eksik kapsamlıdır.",
+      "harita_il": null,
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574476-H2",
+      "soru": "Türkiye'de iç göç hareketleriyle ilgili,\nI. Köyden kente göç en yaygın türdür.\nII. Mevsimlik göç tarım işçileri tarafından yapılır.\nIII. Beyin göçü yurt dışına yöneliktir.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "E) I, II ve III",
+      "aciklama": "E şıkkı doğrudur: Köyden kente göç, Türkiye'de 1950'lerden beri en yaygın iç göç türüdür. Mevsimlik göç genellikle tarım işçileri tarafından yapılmaktadır. Beyin göçü ise nitelikli işgücünün yurt dışına yönelmesidir. Diğer şıklar bu gerçeklerin birini dışarıda bırakır.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574476-H3",
+      "soru": "Türkiye'de şehirleşme süreciyle ilgili,\nI. 1950'den itibaren hızlanmıştır.\nII. Kıyı bölgelerde şehirleşme oranı daha yüksektir.\nIII. Sanayi Devrimi şehirleşmenin temel nedenidir.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "C şıkkı doğrudur. Türkiye'de şehirleşme 1950 sonrası hızlanmıştır (I). Kıyı bölgeleri iklim ve ekonomik etkinliklerle daha yüksek şehirleşme oranına sahiptir (II). Ancak Sanayi Devrimi (III) Osmanlı döneminde yaşanmış olup Türkiye'deki şehirleşmeyi başlatan temel etken değildir; asıl itici güç tarımda makineleşme ve sanayileşmedir. Bu nedenle III yanlıştır.",
+      "harita_il": "ankara",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574476-H4",
+      "soru": "Türkiye'de sanayi faaliyetleriyle ilgili,\nI. İstanbul en büyük sanayi merkezidir.\nII. Taşkömürü yatakları Zonguldak'ta bulunur.\nIII. Rafineriler İzmir'de yoğunlaşmıştır.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "C şıkkı doğrudur. İstanbul, sanayi tesislerinin sayısı ve çeşitliliğiyle Türkiye'nin en büyük sanayi merkezidir (I). Zonguldak ve çevresi taşkömürü yatakları açısından öne çıkar (II). İzmir'de rafineri bulunmakla birlikte (TÜPRAŞ İzmir Rafinerisi) rafineriler Kırıkkale, İzmit ve Batman'da da bulunduğundan, \"yoğunlaşmıştır\" ifadesi abartılıdır; bu nedenle III yanlıştır.",
+      "harita_il": "zonguldak",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574476-H5",
+      "soru": "Türkiye'de nüfus yapısıyla ilgili,\nI. Genç nüfus oranı zamanla azalmaktadır.\nII. Kadın ve erkek nüfusu birbirine eşittir.\nIII. Doğurganlık hızı son yıllarda düşüş göstermiştir.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve III",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve III",
+      "aciklama": "C şıkkı doğrudur. Türkiye'de doğurganlığın azalması ve beklenen yaşam süresinin artmasıyla genç nüfus oranı düşmektedir (I). Doğurganlık hızı da 2000'lerden itibaren belirgin şekilde azalmıştır (III). Kadın-erkek nüfusu tam olarak eşit değildir; kadın nüfusu erkek nüfustan biraz fazladır (II yanlış).",
+      "harita_il": null,
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574476-H6",
+      "soru": "Türkiye'de tarımsal üretimde sulamanın en yaygın olduğu bölge aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Akdeniz Bölgesi",
+        "B) Güneydoğu Anadolu Bölgesi",
+        "C) Ege Bölgesi",
+        "D) İç Anadolu Bölgesi",
+        "E) Marmara Bölgesi"
+      ],
+      "dogru": "B) Güneydoğu Anadolu Bölgesi",
+      "aciklama": "Doğru cevap B şıkkıdır. Güneydoğu Anadolu Projesi (GAP) kapsamında sulama kanalları ve barajlar sayesinde bölgede sulu tarım yaygındır. Akdeniz'de seracılık, Ege'de zeytin ve pamuk, İç Anadolu'da kuru tarım, Marmara'da sanayi bitkileri ağırlıklıdır. GAP, bölgeyi sulu tarımda öne çıkarmıştır.",
+      "harita_il": "sanliurfa",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574476-H7",
+      "soru": "Antalya ile İzmir turizm potansiyelleri karşılaştırıldığında, aşağıdakilerden hangisi yalnızca Antalya için söylenebilir?",
+      "siklar": [
+        "A) Deniz turizmi gelişmiştir.",
+        "B) Tarihi kalıntılar bulunur.",
+        "C) Kış turizmi yapılabilir.",
+        "D) Yayla turizmi önemlidir.",
+        "E) Kongre turizmi gelişmiştir."
+      ],
+      "dogru": "C) Kış turizmi yapılabilir.",
+      "aciklama": "C şıkkı doğrudur. Antalya'da Toros Dağları'nda (Saklıkent) kış turizmi yapılabilir, İzmir'de ise kayak merkezi bulunmamaktadır. Her iki şehirde de deniz ve tarih turizmi gelişmiştir (A,B). Yayla turizmi Antalya'da daha yaygın olmakla birlikte İzmir'de de vardır (D). Kongre turizmi her iki şehirde de mevcuttur (E).",
+      "harita_il": "antalya",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574476-H8",
+      "soru": "Yukarıdaki Türkiye haritasında I, II, III, IV ve V numaralı alanlar gösterilmiştir.\nBu alanlardan hangileri Türkiye’nin önemli sanayi merkezleri arasında yer alır?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) I ve II",
+        "C) I, II ve III",
+        "D) II, III ve IV",
+        "E) III, IV ve V"
+      ],
+      "dogru": "C) I, II ve III",
+      "aciklama": "Doğru cevap C şıkkıdır. I. İstanbul, II. Kocaeli ve III. Bursa, Türkiye'nin en büyük sanayi merkezleridir. IV. İzmir ve V. Ankara da sanayi tesislerine sahip olmakla birlikte, sanayi yoğunluğu bakımından ilk üçün gerisindedir. Haritada işaretlenen alanlar Marmara Bölgesi'ndeki bu illeri kapsamaktadır.",
+      "harita_il": null,
+      "zorluk": "zor",
+      "gorsel": "beseri-cografya/beseri-cografya-1779574476-H8.svg",
+      "gorsel_veri": {
+        "I": "istanbul",
+        "II": "kocaeli",
+        "III": "bursa",
+        "IV": "izmir",
+        "V": "ankara"
+      }
+    },
+    {
+      "id": "beseri-cografya-1779574599-E1-001",
+      "soru": "Nüfusun dağılışını etkileyen doğal faktörler arasında aşağıdakilerden hangisi yer alır?",
+      "siklar": [
+        "A) Sanayi tesisleri",
+        "B) Yeraltı kaynakları",
+        "C) Ulaşım ağları",
+        "D) Tarihî eserler",
+        "E) Tarım alanları"
+      ],
+      "dogru": "B) Yeraltı kaynakları",
+      "aciklama": "Nüfusun dağılışını etkileyen faktörler doğal ve beşerî olmak üzere ikiye ayrılır. Doğal faktörler; iklim, yer şekilleri, su kaynakları ve yeraltı kaynaklarıdır. Bu nedenle B şıkkı doğrudur. A, C ve E şıkları beşerî faktörlerdir. D şıkkı ise turistik değer taşısa da doğrudan nüfus dağılışını belirleyen temel doğal faktörler arasında sayılmaz.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574599-E1-002",
+      "soru": "Türkiye'de kırsal yerleşmelerde, evlerin bitişik düzende ve bir arada bulunduğu yerleşme tipine ne ad verilir?",
+      "siklar": [
+        "A) Dağınık yerleşme",
+        "B) Toplu yerleşme",
+        "C) Mevsimlik yerleşme",
+        "D) Geçici yerleşme",
+        "E) Yayla yerleşmesi"
+      ],
+      "dogru": "B) Toplu yerleşme",
+      "aciklama": "Kırsal yerleşmeler, dokularına göre toplu ve dağınık olmak üzere ikiye ayrılır. Toplu yerleşmelerde evler birbirine yakın ve bitişik düzendedir. Bu yerleşme tipi genellikle güvenlik, su kaynaklarının kısıtlı olması veya tarım alanlarının sınırlı olması gibi nedenlerle ortaya çıkar. Dağınık yerleşmelerde ise evler birbirinden uzaktır. Diğer şıklardaki yerleşmeler ise sürekliliklerine göre sınıflandırılan yerleşme türleridir.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574599-H1",
+      "soru": "Türkiye'de nüfus yoğunluğunun en yüksek olduğu bölge aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Marmara Bölgesi",
+        "B) Ege Bölgesi",
+        "C) İç Anadolu Bölgesi",
+        "D) Akdeniz Bölgesi",
+        "E) Karadeniz Bölgesi"
+      ],
+      "dogru": "A) Marmara Bölgesi",
+      "aciklama": "Marmara Bölgesi, Türkiye'nin en yüksek nüfus yoğunluğuna sahip bölgesidir. Bu durum, bölgenin sanayi, ticaret ve ulaşım açısından gelişmiş olması, İstanbul gibi büyük bir metropolü barındırması ve tarih boyunca göç almasıyla açıklanabilir. A şıkkı doğrudur çünkü Marmara Bölgesi km² başına düşen kişi sayısı bakımından diğer bölgeleri geride bırakır. B, C, D ve E şıklarındaki bölgelerde nüfus yoğunluğu daha düşüktür. Örneğin İç Anadolu Bölgesi'nde nüfus yoğunluğu Ankara çevresinde yoğunlaşsa da bölge ortalaması Marmara'nın altındadır.",
+      "harita_il": "istanbul",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574599-H2",
+      "soru": "Aşağıda verilen tarım ürünü-bölge eşleştirmelerinden hangisi yanlıştır?",
+      "siklar": [
+        "A) Fındık – Karadeniz",
+        "B) Zeytin – Ege",
+        "C) Pamuk – Akdeniz",
+        "D) Çay – Marmara",
+        "E) Mısır – Karadeniz"
+      ],
+      "dogru": "D) Çay – Marmara",
+      "aciklama": "Çay üretimi Türkiye'de yalnızca Doğu Karadeniz Bölgesi'nde (başta Rize olmak üzere) yapılmaktadır. Marmara Bölgesi iklim ve toprak özellikleri bakımından çay tarımına uygun değildir. A şıkkı doğrudur; fındık Karadeniz Bölgesi'nin en önemli ürünüdür. B şıkkı doğrudur; zeytin Ege Bölgesi'nde yoğun olarak yetiştirilir. C şıkkı doğrudur; pamuk Akdeniz ve Güneydoğu Anadolu'da yaygındır. E şıkkı doğrudur; mısır Karadeniz'de üretimi yapılan bir üründür.",
+      "harita_il": "rize",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574599-H3",
+      "soru": "Demir-çelik sanayisinin Karabük'te kurulmasında etkili olan en önemli faktör aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) İşgücü bolluğu",
+        "B) Enerji kaynaklarına yakınlık",
+        "C) Taşkömürü yataklarına yakınlık",
+        "D) Limana yakın olması",
+        "E) Sermaye birikimi"
+      ],
+      "dogru": "C) Taşkömürü yataklarına yakınlık",
+      "aciklama": "Karabük'te demir-çelik fabrikasının kurulmasında en belirleyici etken, Zonguldak havzasındaki taşkömürü yataklarına yakın olmasıdır. Demir cevheri ise Divriği'den getirilmiş, ancak kömürün varlığı tesisin Karabük'te kurulmasını sağlamıştır. A şıkkı yanlıştır çünkü o dönemde bölgede işgücü fazlası yoktur. B şıkkı kısmen doğru olsa da asıl faktör kömürdür. D şıkkı yanlıştır; Karabük limana uzaktır. E şıkkı yanlıştır; sermaye devlet tarafından sağlanmıştır.",
+      "harita_il": "karabuk",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574599-H4",
+      "soru": "Türkiye'de doğu-batı yönlü kara yolu ulaşımının gelişmesinde aşağıdakilerden hangisi temel belirleyici olmuştur?",
+      "siklar": [
+        "A) Yer şekillerinin kıyıya paralel uzanması",
+        "B) Enlem farkının az olması",
+        "C) Nehirlerin akış yönü",
+        "D) İklim çeşitliliği",
+        "E) Nüfusun eşit dağılması"
+      ],
+      "dogru": "A) Yer şekillerinin kıyıya paralel uzanması",
+      "aciklama": "Türkiye'de dağların büyük ölçüde doğu-batı doğrultusunda uzanması, kara yolu ulaşımının da bu yönde gelişmesine neden olmuştur. Kuzey Anadolu Dağları ve Toros Dağları, kıyıya paralel uzandığı için doğu-batı bağlantıları kolaylaşmış, kuzey-güney yönlü geçişler ise zorlaşmıştır. B şıkkı yanlıştır; enlem farkı ulaşımı etkilemez. C şıkkı yanlıştır; nehirler ulaşımda engel oluşturur. D ve E şıkları da ulaşım yönünde belirleyici değildir.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574599-H5",
+      "soru": "Aşağıdaki şehirlerden hangisi fonksiyonel açıdan diğerlerinden farklıdır?",
+      "siklar": [
+        "A) İstanbul",
+        "B) İzmir",
+        "C) Mersin",
+        "D) Ankara",
+        "E) Trabzon"
+      ],
+      "dogru": "D) Ankara",
+      "aciklama": "İstanbul, İzmir, Mersin ve Trabzon önemli liman kentleri iken Ankara, denize kıyısı olmayan bir iç şehirdir ve liman fonksiyonu yoktur. Ankara, başkent olması nedeniyle idari ve yönetim fonksiyonu ağır basar. Diğer şehirler ise ticaret, sanayi ve liman fonksiyonlarıyla öne çıkar. A, B, C ve E şıkları liman kenti olduğu için benzer fonksiyona sahiptir; D şıkkı bu gruptan ayrılır.",
+      "harita_il": "ankara",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574599-H6",
+      "soru": "Türkiye'de nüfus dağılışıyla ilgili,\n\nI. Doğu Anadolu Bölgesi en düşük nüfus yoğunluğuna sahiptir.\nII. İç Anadolu Bölgesi'nde nüfus yoğunluğu en fazla Ankara çevresindedir.\nIII. Karadeniz Bölgesi'nde nüfus yoğunluğu kıyıdan iç kesimlere doğru artar.\n\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) I ve III",
+        "E) II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "I. önerme doğrudur: Doğu Anadolu Bölgesi, engebeli arazi ve elverişsiz iklim koşulları nedeniyle en düşük nüfus yoğunluğuna sahip bölgedir. II. önerme doğrudur: İç Anadolu Bölgesi'nde nüfus yoğunluğu başkent Ankara ve çevresinde yoğunlaşmıştır. III. önerme yanlıştır: Karadeniz Bölgesi'nde nüfus yoğunluğu kıyı kesimde daha fazladır; iç kesimlere gidildikçe dağlık alanlarda nüfus azalır. Bu nedenle doğru yargılar I ve II'dir.",
+      "harita_il": null,
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574599-H7",
+      "soru": "Yukarıdaki Türkiye haritasında I, II, III ve IV numaralı alanlar gösterilmiştir. Bu alanların hangisinde zeytin üretimi daha yaygındır?",
+      "siklar": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV",
+        "E) V"
+      ],
+      "dogru": "B) II",
+      "aciklama": "Zeytin üretimi Türkiye'de en çok Ege Bölgesi'nde yoğunlaşmıştır. Haritada II numaralı alan Ege Bölgesi'ni (başta İzmir, Aydın, Manisa) temsil etmektedir. I numaralı alan Karadeniz Bölgesi'ni gösterir; burada zeytin üretimi sınırlıdır. III Akdeniz Bölgesi'nde zeytin üretimi yapılsa da Ege kadar yaygın değildir. IV Güneydoğu Anadolu'da zeytin yetişmez. Bu nedenle doğru cevap II numaralı alandır.",
+      "harita_il": "izmir",
+      "zorluk": "zor",
+      "gorsel": "beseri-cografya/beseri-cografya-1779574599-H7.svg",
+      "gorsel_veri": {
+        "I": "samsun",
+        "II": "izmir",
+        "III": "antalya",
+        "IV": "sanliurfa",
+        "V": "ankara"
+      }
+    },
+    {
+      "id": "beseri-cografya-1779574599-H8",
+      "soru": "İstanbul ile Ankara karşılaştırıldığında aşağıdakilerden hangisi yalnızca İstanbul için söylenebilir?",
+      "siklar": [
+        "A) Başkent olması",
+        "B) İç kesimde yer alması",
+        "C) Uluslararası bir limana sahip olması",
+        "D) Sanayi tesislerinin yoğun olması",
+        "E) Nüfusunun sürekli artması"
+      ],
+      "dogru": "C) Uluslararası bir limana sahip olması",
+      "aciklama": "İstanbul, hem doğal bir limana (Haliç, Boğaz) hem de uluslararası ticarette önemli bir liman kenti olma özelliğine sahiptir. Ankara ise denize kıyısı olmayan bir iç şehirdir. A şıkkı yanlıştır çünkü Ankara başkenttir, İstanbul değildir. B şıkkı yanlıştır; İstanbul kıyıda, Ankara iç kesimdedir. D şıkkı her iki şehirde de yoğun sanayi olduğu için ortak özelliktir. E şıkkı da her iki şehir için geçerlidir. Bu nedenle yalnızca İstanbul'a ait özellik uluslararası limana sahip olmasıdır.",
+      "harita_il": "istanbul",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574641-E1",
+      "soru": "Türkiye'de nüfusun dağılışını etkileyen doğal faktörler arasında aşağıdakilerden hangisi yer alır?",
+      "siklar": [
+        "A) Sanayi tesisleri",
+        "B) Yer altı kaynakları",
+        "C) Tarım alanları",
+        "D) İklim özellikleri",
+        "E) Ulaşım ağları"
+      ],
+      "dogru": "D) İklim özellikleri",
+      "aciklama": "Doğru cevap D şıkkıdır. Nüfusun dağılışını etkileyen doğal faktörler; iklim, yer şekilleri, su kaynakları ve toprak özellikleridir. A, B, C ve E şıklarında verilen sanayi tesisleri, yer altı kaynakları, tarım alanları ve ulaşım ağları ise beşerî faktörler arasında yer alır. Bu nedenle doğal faktör sorusunda yalnızca iklim özellikleri doğru cevaptır.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574641-E2",
+      "soru": "Aşağıdakilerden hangisi Türkiye'de şehirlerin kuruluşunda etkili olan beşerî faktörlerden biridir?",
+      "siklar": [
+        "A) Akarsu kenarları",
+        "B) Verimli tarım arazileri",
+        "C) Maden yatakları",
+        "D) İklim koşulları",
+        "E) Yer altı su kaynakları"
+      ],
+      "dogru": "C) Maden yatakları",
+      "aciklama": "Doğru cevap C şıkkıdır. Şehirlerin kuruluşunda etkili olan beşerî faktörler; maden yatakları, sanayi tesisleri, ulaşım yolları ve ticaret merkezleridir. A, B, D ve E şıklarında verilen akarsu kenarları, verimli tarım arazileri, iklim koşulları ve yer altı su kaynakları ise doğal faktörler arasında yer alır. Bu bilgiye göre soruda beşerî faktörü temsil eden maden yatakları doğru seçenektir.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574641-H1",
+      "soru": "Türkiye'de nüfus yoğunluğuyla ilgili,\nI. En fazla nüfusa sahip il İstanbul'dur.\nII. En yoğun nüfuslu bölge Marmara Bölgesi'dir.\nIII. Nüfus yoğunluğu en düşük il Tunceli'dir.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "E) I, II ve III",
+      "aciklama": "Üç öncül de doğrudur. İstanbul, Türkiye'nin en kalabalık ili olup nüfus yoğunluğu en yüksek ildir. Marmara Bölgesi, sanayi ve hizmet sektörünün gelişmesiyle nüfus yoğunluğu en yüksek bölgedir. Tunceli ise nüfus yoğunluğu en düşük ildir; dağlık ve engebeli arazi, sınırlı ekonomik faaliyetler nüfus yoğunluğunu azaltmıştır. Bu nedenle tüm öncüller doğrudur.",
+      "harita_il": "istanbul",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574641-H2",
+      "soru": "Türkiye'de iç göçle ilgili,\nI. En fazla göç alan bölge Marmara Bölgesi'dir.\nII. Göç veren bölgeler arasında Doğu Anadolu ilk sıradadır.\nIII. Kırdan kente göç, 1950'lerden sonra hızlanmıştır.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) Yalnız III",
+        "D) I ve II",
+        "E) I ve III"
+      ],
+      "dogru": "E) I ve III",
+      "aciklama": "I. öncül doğrudur; Marmara Bölgesi, sanayi ve hizmet sektörünün gelişmesiyle en fazla göç alan bölgedir. II. öncül yanlıştır; en fazla göç veren bölge Doğu Anadolu değil, Karadeniz Bölgesi'dir (1980 sonrası Doğu Anadolu da önemli göç vermektedir ancak ilk sırada değildir). III. öncül doğrudur; 1950'lerde başlayan sanayileşme ve tarımda makineleşme kırdan kente göçü hızlandırmıştır. Bu nedenle doğru cevap I ve III'tür.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574641-H3",
+      "soru": "Türkiye'de tarım ürünleriyle ilgili,\nI. Fındık en çok Karadeniz Bölgesi'nde yetiştirilir.\nII. Zeytin Ege Bölgesi'nin kıyı kesimlerinde yaygındır.\nIII. Buğday en çok İç Anadolu Bölgesi'nde üretilir.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "E) I, II ve III",
+      "aciklama": "Üç öncül de doğrudur. Fındık üretiminde Karadeniz Bölgesi başta gelir; özellikle Ordu, Giresun, Trabzon illeri öne çıkar. Zeytin, Ege Bölgesi'nde Ayvalık, Edremit, Aydın yöresinde yoğun olarak yetiştirilir. Buğday ise İç Anadolu Bölgesi'nde Konya, Ankara, Yozgat gibi illerde en fazla üretilen tarım ürünüdür. Bu nedenle tüm öncüller doğrudur.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574641-H4",
+      "soru": "Türkiye'de Akdeniz Bölgesi'nde turunçgil üretiminin yaygın olmasının temel nedeni aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Kış sıcaklıklarının yüksek olması",
+        "B) Yağış miktarının fazla olması",
+        "C) Toprakların verimli olması",
+        "D) Sulama olanaklarının geniş olması",
+        "E) Ulaşım imkânlarının gelişmiş olması"
+      ],
+      "dogru": "A) Kış sıcaklıklarının yüksek olması",
+      "aciklama": "Turunçgiller don olayına karşı hassastır ve kış ılıklığı ister. Akdeniz Bölgesi'nde kış sıcaklıklarının 0°C'nin altına düşmemesi turunçgil üretimini mümkün kılar. Yağış ve toprak verimliliği de önemli olmakla birlikte temel belirleyici faktör kış sıcaklıklarıdır. Sulama ve ulaşım destekleyici unsurlardır. Bu nedenle doğru şık A'dır.",
+      "harita_il": "mersin",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574641-H5",
+      "soru": "İstanbul ile Ankara karşılaştırıldığında aşağıdakilerden hangisi yalnızca İstanbul için söylenebilir?",
+      "siklar": [
+        "A) İç göç alır",
+        "B) Sanayi tesisleri yoğundur",
+        "C) Liman kentidir",
+        "D) Tarımsal üretim düşüktür",
+        "E) Nüfusu 5 milyonun üzerindedir"
+      ],
+      "dogru": "C) Liman kentidir",
+      "aciklama": "İstanbul, Marmara Denizi'ne kıyısı olan ve uluslararası ticarette önemli limanlara sahip bir şehirdir. Ankara ise iç kesimde yer aldığından limanı yoktur. Her iki şehir de iç göç alır, sanayi tesisleri yoğundur, tarımsal üretim düşüktür ve nüfusları 5 milyonun üzerindedir. Bu nedenle liman kenti olma özelliği yalnızca İstanbul'a aittir.",
+      "harita_il": "istanbul",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574641-H6",
+      "soru": "Yukarıdaki Türkiye haritasında I, II ve III numaralı alanlar gösterilmiştir.\nBu alanlarla ilgili,\nI. I numaralı alan ülkemizde kentsel nüfus oranının en yüksek olduğu bölgedir.\nII. II numaralı alan sanayi tesislerinin yoğunlaştığı bir bölgedir.\nIII. III numaralı alan tarımsal nüfus yoğunluğunun fazla olduğu bir alandır.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) I ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "D) I ve III",
+      "aciklama": "I numaralı alan Marmara Bölgesi'ni temsil etmektedir; Marmara, kentsel nüfus oranı en yüksek bölgedir. II numaralı alan Ege Bölgesi'dir; sanayi tesisleri Marmara'ya göre daha az yoğundur, bu nedenle II yanlıştır. III numaralı alan Karadeniz Bölgesi'nin doğusudur; burada tarımsal nüfus yoğunluğu fazladır. Dolayısıyla I ve III doğru, II yanlıştır. Cevap D şıkkıdır.",
+      "harita_il": null,
+      "zorluk": "zor",
+      "gorsel": "beseri-cografya/beseri-006.svg",
+      "gorsel_veri": {
+        "I": "istanbul",
+        "II": "izmir",
+        "III": "trabzon"
+      }
+    },
+    {
+      "id": "beseri-cografya-1779574641-H7",
+      "soru": "Türkiye'de hayvancılık faaliyetleriyle ilgili,\nI. Büyükbaş hayvancılık en çok Doğu Anadolu Bölgesi'nde yapılır.\nII. Mera hayvancılığı İç Anadolu'da yaygındır.\nIII. Küçükbaş hayvancılık Akdeniz Bölgesi'nde yoğundur.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) I ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "I doğrudur: Doğu Anadolu Bölgesi, geniş meraları ve iklim koşulları nedeniyle büyükbaş hayvancılığın en yoğun yapıldığı bölgedir. II doğrudur: İç Anadolu'da bozkır bitki örtüsü mera hayvancılığına uygundur. III yanlıştır: Küçükbaş hayvancılık daha çok İç Anadolu, Güneydoğu Anadolu ve Doğu Anadolu'da yaygındır; Akdeniz'de küçükbaş hayvancılık yoğun değildir. Bu nedenle doğru cevap I ve II'dir.",
+      "harita_il": null,
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574641-H8",
+      "soru": "Aşağıdaki illerden hangisi tarımsal üretim deseni bakımından diğerlerinden farklılık gösterir?",
+      "siklar": [
+        "A) Adana",
+        "B) Mersin",
+        "C) Antalya",
+        "D) İzmir",
+        "E) Rize"
+      ],
+      "dogru": "E) Rize",
+      "aciklama": "Adana, Mersin, Antalya ve İzmir'de turunçgil, pamuk, zeytin gibi Akdeniz iklimi ürünleri yaygınken, Rize'de çay ve fındık gibi Karadeniz iklimi ürünleri yetiştirilir. Rize'nin tarımsal üretim deseni diğerlerinden ayrılır. Ayrıca Rize'de yaz yağışları fazla, kış ılık ve nemlidir; bu durum çay tarımına elverişlidir. Bu nedenle Rize farklıdır.",
+      "harita_il": "rize",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574733-E1",
+      "soru": "Türkiye'de nüfusun dağılışını etkileyen beşerî faktörler arasında aşağıdakilerden hangisi yer alır?",
+      "siklar": [
+        "A) Yer şekilleri",
+        "B) İklim özellikleri",
+        "C) Sanayi tesisleri",
+        "D) Toprak verimliliği",
+        "E) Su kaynakları"
+      ],
+      "dogru": "C) Sanayi tesisleri",
+      "aciklama": "C şıkkı doğrudur çünkü nüfusun dağılışını etkileyen beşerî faktörler arasında sanayi tesisleri, ulaşım ağları, tarım alanları ve turizm gibi insan faaliyetleri yer alır. A, B, D ve E şıkları ise fizikî faktörlerdir; yer şekilleri, iklim, toprak verimliliği ve su kaynakları doğal koşullar olup beşerî faktörler kapsamında değerlendirilmez. Beşerî faktörler, insanın ekonomik ve sosyal faaliyetleri sonucu oluşan etmenlerdir.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574733-E2",
+      "soru": "Aşağıdaki ekonomik faaliyetlerden hangisi birincil (tarım, hayvancılık, madencilik) sektör kapsamında değerlendirilir?",
+      "siklar": [
+        "A) Otomobil üretimi",
+        "B) Bankacılık hizmetleri",
+        "C) Balıkçılık",
+        "D) Yazılım geliştirme",
+        "E) Turizm işletmeciliği"
+      ],
+      "dogru": "C) Balıkçılık",
+      "aciklama": "C şıkkı doğrudur çünkü balıkçılık, doğal kaynaklardan doğrudan yararlanmayı içeren birincil sektör faaliyetidir. A şıkkı otomobil üretimi ikincil sektör (sanayi), B ve D şıkları bankacılık ve yazılım geliştirme üçüncül sektör (hizmet), E şıkkı turizm ise üçüncül sektör kapsamındadır. Birincil sektör, ham madde elde etmeye yönelik tarım, hayvancılık, ormancılık, madencilik ve balıkçılık gibi faaliyetleri kapsar.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574733-H1",
+      "soru": "Türkiye'de nüfus yoğunluğu en yüksek olan il aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Ankara",
+        "B) İzmir",
+        "C) İstanbul",
+        "D) Kocaeli",
+        "E) Bursa"
+      ],
+      "dogru": "C) İstanbul",
+      "aciklama": "Doğru cevap C şıkkıdır. İstanbul, Türkiye'nin en kalabalık ili olup kilometrekareye düşen kişi sayısı 3000'in üzerindedir. Ankara, İzmir, Kocaeli ve Bursa da yoğun nüfuslu iller olmakla birlikte İstanbul'un yoğunluğu diğerlerinden çok daha fazladır. Nüfus yoğunluğu hesaplanırken il nüfusu ve yüz ölçümü dikkate alınır.",
+      "harita_il": "istanbul",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574733-H2",
+      "soru": "Türkiye'de kent nüfusunun kır nüfusunu ilk kez geçtiği dönem aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) 1960-1970",
+        "B) 1970-1980",
+        "C) 1980-1990",
+        "D) 1990-2000",
+        "E) 2000-2010"
+      ],
+      "dogru": "C) 1980-1990",
+      "aciklama": "Doğru cevap C şıkkıdır. 1985 yılı Türkiye nüfus sayımı sonuçlarına göre kent nüfusu kır nüfusunu geçmiştir. Bu dönemde hızlı sanayileşme ve kentlere göçün etkisiyle kentsel nüfus artmıştır. Diğer dönemlerde bu oran dengeli seyretmiş ancak kesin dönüm noktası 1980-1990 arasıdır.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574733-H3",
+      "soru": "Aşağıdaki tarım ürünlerinden hangisinin yetişme alanı Türkiye'de en dar alana sahiptir?",
+      "siklar": [
+        "A) Buğday",
+        "B) Çay",
+        "C) Mısır",
+        "D) Ayçiçeği",
+        "E) Pamuk"
+      ],
+      "dogru": "B) Çay",
+      "aciklama": "Doğru cevap B şıkkıdır. Çay, Doğu Karadeniz Bölgesi'nde Rize, Trabzon gibi illerde sınırlı bir alanda yetiştirilir. Buğday, mısır, ayçiçeği ve pamuk ise daha geniş alanlarda üretilmektedir. Çayın yetişme koşulları (yüksek sıcaklık, bol yağış, asitli topraklar) belirli bir bölgeye özgüdür.",
+      "harita_il": "rize",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574733-H4",
+      "soru": "Türkiye'de ağır sanayi tesislerinin büyük bir kısmı aşağıdaki bölgelerden hangisinde yer alır?",
+      "siklar": [
+        "A) Marmara Bölgesi",
+        "B) Ege Bölgesi",
+        "C) Akdeniz Bölgesi",
+        "D) İç Anadolu Bölgesi",
+        "E) Karadeniz Bölgesi"
+      ],
+      "dogru": "A) Marmara Bölgesi",
+      "aciklama": "Doğru cevap A şıkkıdır. Marmara Bölgesi, sanayi tesislerinin en yoğun olduğu bölgedir. Özellikle İstanbul, Kocaeli, Bursa ve Sakarya illerinde demir-çelik, petrokimya, otomotiv gibi ağır sanayi kolları gelişmiştir. Diğer bölgelerde de sanayi mevcuttur ancak yoğunluk Marmara'ya aittir.",
+      "harita_il": "kocaeli",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574733-H5",
+      "soru": "Türkiye'de ilk demiryolu hattı aşağıdaki şehirlerden hangileri arasında inşa edilmiştir?",
+      "siklar": [
+        "A) İstanbul-İzmit",
+        "B) İzmir-Aydın",
+        "C) Ankara-İstanbul",
+        "D) İstanbul-Edirne",
+        "E) Adana-Mersin"
+      ],
+      "dogru": "B) İzmir-Aydın",
+      "aciklama": "Doğru cevap B şıkkıdır. Osmanlı Dönemi'nde 1866'da İzmir-Aydın arası ilk demiryolu hattı inşa edilmiştir. Bu hat, ticaret amacıyla yapılmıştır. Diğer hatlar daha sonraki dönemlerde yapılmıştır.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574733-H6",
+      "soru": "Türkiye'de uygulanan bölgesel kalkınma projeleriyle ilgili,\nI. GAP, Güneydoğu Anadolu Bölgesi'nde uygulanmaktadır.\nII. DOKAP, Doğu Karadeniz Bölgesi'ni kapsamaktadır.\nIII. KOP, Konya Ovası ve çevresini kapsamaktadır.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "E) I, II ve III",
+      "aciklama": "Doğru cevap E şıkkıdır. GAP (Güneydoğu Anadolu Projesi) dokuz ili kapsayan entegre bir kalkınma projesidir. DOKAP (Doğu Karadeniz Kalkınma Projesi) Doğu Karadeniz illerini kapsar. KOP (Konya Ovası Projesi) Konya, Karaman, Aksaray, Niğde gibi illerde uygulanmaktadır. Bu nedenle üç yargı da doğrudur.",
+      "harita_il": "sanliurfa",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574733-H7",
+      "soru": "Yukarıdaki Türkiye haritasında I, II, III ve IV numaralı alanlar gösterilmiştir. Bu alanların hangisinde liman kenti işlevinin daha az geliştiği söylenebilir?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) Yalnız III",
+        "D) Yalnız IV",
+        "E) I ve III"
+      ],
+      "dogru": "C) Yalnız III",
+      "aciklama": "Doğru cevap C şıkkıdır. Haritada I İstanbul, II İzmir, IV Mersin kıyı şehirleri olup önemli limanlara sahiptir. III numaralı alan Ankara'yı göstermektedir ve Ankara denize kıyısı olmayan bir iç kesim şehridir. Bu nedenle liman kenti işlevi diğerlerine göre gelişmemiştir.",
+      "harita_il": "ankara",
+      "zorluk": "zor",
+      "gorsel": "beseri-cografya/beseri-cografya-1779574733-H7.svg",
+      "gorsel_veri": {
+        "I": "istanbul",
+        "II": "izmir",
+        "III": "ankara",
+        "IV": "mersin"
+      }
+    },
+    {
+      "id": "beseri-cografya-1779574733-H8",
+      "soru": "Aşağıdaki illerden hangisi ekonomik faaliyet kolları bakımından diğerlerinden farklıdır?",
+      "siklar": [
+        "A) Kocaeli",
+        "B) İzmir",
+        "C) Ankara",
+        "D) Zonguldak",
+        "E) Bursa"
+      ],
+      "dogru": "D) Zonguldak",
+      "aciklama": "Doğru cevap D şıkkıdır. Kocaeli, İzmir, Ankara ve Bursa'da sanayi ve hizmet sektörü gelişmiştir. Zonguldak ise taşkömürü madenciliği ile öne çıkan bir şehirdir ve ekonomisi büyük ölçüde madenciliğe dayanır. Bu nedenle diğerlerinden farklıdır.",
+      "harita_il": "zonguldak",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574807-E1",
+      "soru": "Türkiye'de nüfusun dağılışı üzerinde etkili olan faktörlerden biri de iklim koşullarıdır. Buna göre, aşağıdaki illerden hangisinde nüfus yoğunluğunun düşük olmasında iklim koşullarının etkisi diğerlerine göre daha fazladır?",
+      "siklar": [
+        "A) İstanbul",
+        "B) İzmir",
+        "C) Hakkari",
+        "D) Antalya",
+        "E) Ankara"
+      ],
+      "dogru": "C) Hakkari",
+      "aciklama": "C şıkkı doğrudur çünkü Hakkari ili, Doğu Anadolu Bölgesi'nde yer almakta olup sert karasal iklim koşullarına sahiptir. Uzun ve soğuk kışlar, kısa yaz dönemi ve engebeli arazi yapısı, nüfus yoğunluğunun düşük olmasında başlıca etkenlerdir. A şıkkı yanlıştır zira İstanbul, ılıman iklimi ve ekonomik cazibesiyle yüksek nüfus yoğunluğuna sahiptir. B şıkkı yanlıştır çünkü İzmir, Akdeniz ikliminin etkisiyle nüfus yoğunluğu yüksek bir ildir. D şıkkı yanlıştır zira Antalya, turizm ve tarım potansiyeli sayesinde yoğun nüfus barındırır. E şıkkı yanlıştır çünkü Ankara, başkent olması ve gelişmiş hizmet sektörüyle nüfus yoğunluğu yüksektir.",
+      "harita_il": "hakkari",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574807-E2",
+      "soru": "Türkiye'de şehirlerin fonksiyonel özellikleri farklılık göstermektedir. Aşağıdaki şehirlerden hangisi sanayi fonksiyonuyla ön plana çıkan bir yerleşim merkezidir?",
+      "siklar": [
+        "A) Nevşehir",
+        "B) Kocaeli",
+        "C) Muğla",
+        "D) Antalya",
+        "E) Mardin"
+      ],
+      "dogru": "B) Kocaeli",
+      "aciklama": "B şıkkı doğrudur çünkü Kocaeli, İstanbul'a yakınlığı, limanları ve gelişmiş ulaşım ağı sayesinde Türkiye'nin önemli sanayi merkezlerinden biridir. Petrokimya, otomotiv ve metalürji gibi ağır sanayi tesisleri burada yoğunlaşmıştır. A şıkkı yanlıştır zira Nevşehir, turizm (Kapadokya) ve tarım fonksiyonlarıyla bilinir. C şıkkı yanlıştır çünkü Muğla, turizm ve tarım sektörleriyle öne çıkar. D şıkkı yanlıştır zira Antalya, turizm ve tarım şehri olarak tanınır. E şıkkı yanlıştır çünkü Mardin, tarihi ve kültürel turizm potansiyeliyle ön plandadır.",
+      "harita_il": "kocaeli",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574807-H1",
+      "soru": "Türkiye'de nüfus dağılışı ile ilgili aşağıdaki yargılardan hangileri doğrudur?\n\nI. İstanbul'da nüfus yoğunluğu kilometrekareye 2.500 kişinin üzerindedir.\nII. Doğu Anadolu Bölgesi'nde nüfus yoğunluğu en düşük il Tunceli'dir.\nIII. Konya'da tarımsal nüfus yoğunluğu yüksektir.",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "Doğru cevap C şıkkıdır. I. önerme doğrudur: İstanbul, km² başına yaklaşık 2.800 kişiyle Türkiye'nin en yüksek nüfus yoğunluğuna sahiptir. II. önerme doğrudur: Doğu Anadolu Bölgesi'nde en düşük nüfus yoğunluğu Tunceli iline aittir. III. önerme yanlıştır: Konya'nın nüfus yoğunluğu düşüktür; tarım alanları geniş olmasına rağmen tarımsal nüfus yoğunluğu yüksek değildir.",
+      "harita_il": "istanbul",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574807-H2",
+      "soru": "Türkiye'de iç göçlerin nedenleri arasında aşağıdakilerden hangileri gösterilebilir?\n\nI. Kırsal alanlarda tarım arazilerinin miras yoluyla bölünmesi\nII. Sanayi tesislerinin belirli bölgelerde yoğunlaşması\nIII. Deprem, heyelan gibi doğal afetlerin yaşanması",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve III",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "E) I, II ve III",
+      "aciklama": "Doğru cevap E şıkkıdır. I. önerme doğrudur: Miras yoluyla arazilerin küçülmesi kırsal geliri azaltarak göçü tetikler. II. önerme doğrudur: Sanayinin Marmara, İç Anadolu ve Ege'de yoğunlaşması iş gücü talebi yaratır. III. önerme doğrudur: Deprem, heyelan vb. afetler yaşanan bölgelerden zorunlu göçe yol açar. Bu üç faktör Türkiye'de iç göçün başlıca itici ve çekici nedenlerindendir.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574807-H3",
+      "soru": "Yukarıdaki haritada numaralandırılarak gösterilen alanlarla ilgili aşağıdaki yargılardan hangileri doğrudur?\n\nI. I numaralı alan, GAP kapsamında sulama projelerinden yararlanan iller arasındadır.\nII. II numaralı alan, GAP projesiyle tarımsal üretimi artan illerdendir.\nIII. III numaralı alan, GAP illeri arasında yer alır.",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız III",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "Doğru cevap C şıkkıdır. GAP, Güneydoğu Anadolu Bölgesi'ndeki illeri kapsar. I numaralı alan Şanlıurfa'dır, GAP kapsamında sulama projeleriyle tarımı gelişmiştir (doğru). II numaralı alan Mardin'dir, GAP illerindendir (doğru). III numaralı alan Hatay'dır, Akdeniz Bölgesi'nde yer alır ve GAP kapsamı dışındadır. GAP illeri: Adıyaman, Batman, Diyarbakır, Gaziantep, Kilis, Mardin, Siirt, Şanlıurfa, Şırnak'tır.",
+      "harita_il": null,
+      "zorluk": "zor",
+      "gorsel": "beseri-cografya/beseri-cografya-003.svg",
+      "gorsel_veri": {
+        "I": "sanliurfa",
+        "II": "mardin",
+        "III": "hatay"
+      }
+    },
+    {
+      "id": "beseri-cografya-1779574807-H4",
+      "soru": "Türkiye'de maden çıkarımı ile ilgili aşağıdaki yargılardan hangileri doğrudur?\n\nI. Zonguldak'ta çıkarılan taşkömürü Karbonifer dönemine aittir.\nII. Batman'da ham petrolün yanı sıra doğal gaz da çıkarılır.\nIII. Elazığ'da krom yatakları Guleman yöresinde bulunur.",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve III",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve III",
+      "aciklama": "Doğru cevap C şıkkıdır. I. önerme doğrudur: Zonguldak taşkömürü havzası Karbonifer (Birinci Zaman) yaşlıdır. II. önerme yanlıştır: Batman'da yalnızca ham petrol çıkarılır, doğal gaz üretimi bu bölgede yoktur. III. önerme doğrudur: Elazığ'ın Guleman yöresi Türkiye'nin önemli krom yataklarındandır. Madenlerin jeolojik dönemleri ve yerleri KPSS'de sıkça sorgulanan detaylardandır.",
+      "harita_il": "zonguldak",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574807-H5",
+      "soru": "Türkiye'de turizm faaliyetleriyle ilgili aşağıdaki yargılardan hangileri doğrudur?\n\nI. Antalya deniz turizmi açısından önemli bir merkezdir.\nII. Kapadokya bölgesi Nevşehir sınırları içinde yer alır.\nIII. Bursa, kış turizmiyle öne çıkan illerdendir.",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve III",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "E) I, II ve III",
+      "aciklama": "Doğru cevap E şıkkıdır. I. önerme doğrudur: Antalya, uzun kıyı şeridi ve uygun iklimiyle deniz turizminin merkezidir. II. önerme doğrudur: Kapadokya'nın peribacaları ve yer altı şehirleri Nevşehir il sınırları içindedir. III. önerme doğrudur: Bursa Uludağ, kış turizmi ve kayak merkezleriyle ünlüdür. Bu üç il farklı turizm türlerinde Türkiye'nin önde gelen destinasyonlarıdır.",
+      "harita_il": "antalya",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574807-H6",
+      "soru": "Türkiye'de nüfus yoğunluğu en yüksek olan il aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Ankara",
+        "B) İzmir",
+        "C) İstanbul",
+        "D) Bursa",
+        "E) Antalya"
+      ],
+      "dogru": "C) İstanbul",
+      "aciklama": "Doğru cevap C şıkkıdır. İstanbul, 15 milyonu aşan nüfusu ve km² başına yaklaşık 2.800 kişilik yoğunluğuyla Türkiye'nin en yoğun nüfuslu ilidir. Ankara başkent olmasına rağmen nüfus yoğunluğu çok daha düşüktür. İzmir, Bursa ve Antalya da yoğun nüfuslu iller olsa da İstanbul'un seviyesine ulaşamaz. Nüfus yoğunluğu hesaplanırken toplam nüfusun yüz ölçüme bölündüğü unutulmamalıdır.",
+      "harita_il": "istanbul",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574807-H7",
+      "soru": "Karadeniz Bölgesi'nde nüfusun kıyı kesiminde yoğunlaşmasının temel nedeni aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Dağların kıyıya paralel uzanması",
+        "B) İklimin ılıman olması",
+        "C) Sanayi tesislerinin kıyıda toplanması",
+        "D) Tarım alanlarının geniş olması",
+        "E) Ulaşım ağının gelişmiş olması"
+      ],
+      "dogru": "A) Dağların kıyıya paralel uzanması",
+      "aciklama": "Doğru cevap A şıkkıdır. Kuzey Anadolu Dağları'nın kıyıya paralel uzanması iç kesimlerle ulaşımı zorlaştırır ve nüfusun kıyı şeridinde toplanmasına yol açar. İklim ılıman olsa da bu tek başına nüfus yoğunluğunu açıklamaz; sanayi ve ulaşım yoğunlaşmanın sonucudur, nedeni değildir. Tarım alanları dar ve engebelidir. Bu nedenle en güçlü neden dağların uzanış doğrultusudur.",
+      "harita_il": null,
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574807-H8",
+      "soru": "Yer şekilleri engebeli, tarım alanları dar, hayvancılık ve ormancılığın yaygın olduğu il aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Konya",
+        "B) Trabzon",
+        "C) Ankara",
+        "D) Şanlıurfa",
+        "E) İzmir"
+      ],
+      "dogru": "B) Trabzon",
+      "aciklama": "Doğru cevap B şıkkıdır. Trabzon, Doğu Karadeniz Bölgesi'nde engebeli arazi yapısına sahiptir. Bu nedenle tarım alanları sınırlı, hayvancılık (büyükbaş) ve ormancılık yaygındır. Konya düz arazileriyle tahıl tarımına, Ankara bozkırlarıyla tahıl ve küçükbaş hayvancılığa, Şanlıurfa GAP ile sulu tarıma, İzmir ise sanayi ve tarıma dayalı ekonomik yapıya sahiptir.",
+      "harita_il": "trabzon",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574910-E1-001",
+      "soru": "Türkiye'de nüfusun dağılışını etkileyen en önemli faktörlerden biri aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) İklim koşulları",
+        "B) Yer şekilleri",
+        "C) Su kaynakları",
+        "D) Toprak verimliliği",
+        "E) Sanayi tesisleri"
+      ],
+      "dogru": "A) İklim koşulları",
+      "aciklama": "Doğru cevap A şıkkıdır. Türkiye'de nüfusun dağılışını etkileyen en önemli faktör iklim koşullarıdır. Ilıman iklim bölgeleri nüfus yoğunluğunun yüksek olduğu alanlardır. B şıkkı yanlıştır çünkü yer şekilleri iklimden sonra gelir. C şıkkı yanlıştır çünkü su kaynakları önemli olmakla birlikte iklim kadar belirleyici değildir. D şıkkı yanlıştır çünkü toprak verimliliği tarımsal faaliyetleri etkiler ancak genel nüfus dağılışında iklim daha baskındır. E şıkkı yanlıştır çünkü sanayi tesisleri yerel nüfus yoğunluğunu artırsa da ülke genelinde iklim koşulları daha belirleyicidir.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574910-E1-002",
+      "soru": "Aşağıdakilerden hangisi Türkiye'deki iç göçlerin temel nedenlerinden biridir?",
+      "siklar": [
+        "A) Deprem riski",
+        "B) İş imkânlarının yetersizliği",
+        "C) İklim değişikliği",
+        "D) Eğitim seviyesinin düşüklüğü",
+        "E) Nüfus artış hızı"
+      ],
+      "dogru": "B) İş imkânlarının yetersizliği",
+      "aciklama": "Doğru cevap B şıkkıdır. Türkiye'de iç göçlerin temel nedeni ekonomik faktörlerdir, özellikle kırsal alanlarda iş imkânlarının yetersizliği büyük şehirlere göçü tetiklemektedir. A şıkkı yanlıştır çünkü deprem riski göç nedeni olsa da temel neden değildir. C şıkkı yanlıştır çünkü iklim değişikliği henüz Türkiye'de iç göçlerin temel nedeni değildir. D şıkkı yanlıştır çünkü eğitim seviyesinin düşüklüğü göçün sonucu olabilir, nedeni değildir. E şıkkı yanlıştır çünkü nüfus artış hızı göçe neden olabilecek bir faktör olsa da temel neden ekonomik yetersizliktir.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574910-H1",
+      "soru": "Türkiye'de kırsal yerleşmeler, fiziki koşullar ve ekonomik faaliyetlere bağlı olarak farklı dokusal özellikler gösterir. Aşağıdakilerden hangisi Karadeniz Bölgesi'nde yaygın olan kırsal yerleşme tipidir?",
+      "siklar": [
+        "A) Toplu yerleşme",
+        "B) Dağınık yerleşme",
+        "C) Çizgisel yerleşme",
+        "D) Yayla yerleşmesi",
+        "E) Mahalle tipi yerleşme"
+      ],
+      "dogru": "B) Dağınık yerleşme",
+      "aciklama": "Karadeniz Bölgesi'nde engebeli arazi ve su kaynaklarının dağınıklığı nedeniyle dağınık kırsal yerleşmeler yaygındır. A şıkkı (toplu yerleşme) daha çok İç Anadolu ve Güneydoğu'da görülür; C şıkkı (çizgisel yerleşme) akarsu boylarında oluşur; D şıkkı (yayla yerleşmesi) geçici bir yerleşme tipidir; E şıkkı (mahalle tipi) Ege Bölgesi'ne özgüdür. Karadeniz'in dağlık yapısı, tarım alanlarının parçalı olması dağınık yerleşmeyi zorunlu kılar.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574910-H2",
+      "soru": "Türkiye'de nüfus yoğunluğu, doğal koşullar ve ekonomik etkinliklere bağlı olarak bölgelere göre farklılık gösterir. Aşağıdaki illerden hangisi kilometrekareye düşen kişi sayısı bakımından diğerlerinden daha yüksek bir nüfus yoğunluğuna sahiptir?",
+      "siklar": [
+        "A) Tunceli",
+        "B) Ardahan",
+        "C) İstanbul",
+        "D) Konya",
+        "E) Mardin"
+      ],
+      "dogru": "C) İstanbul",
+      "aciklama": "İstanbul, yaklaşık 15,6 milyon nüfusu ve 5.461 km² yüzölçümü ile km² başına 2.800'den fazla kişi düşen en yüksek nüfus yoğunluğuna sahiptir. Tunceli, Ardahan ve Mardin'de yoğunluk oldukça düşüktür; Konya ise yüzölçümü büyük olduğu için yoğunluğu düşüktür. Nüfus yoğunluğu üzerinde sanayi, hizmet sektörü ve göç belirleyici rol oynar.",
+      "harita_il": "istanbul",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574910-H3",
+      "soru": "Türkiye'de tarım ürünleri ile yetişme bölgeleri arasında yakın bir ilişki vardır. Aşağıdaki ürün-bölge eşleştirmelerinden hangisi yanlıştır?",
+      "siklar": [
+        "A) Fındık – Doğu Karadeniz Bölümü",
+        "B) Zeytin – Ege Bölgesi",
+        "C) Turunçgil – Akdeniz Bölgesi",
+        "D) Şeker pancarı – İç Anadolu Bölgesi",
+        "E) Muz – Güneydoğu Anadolu Bölgesi"
+      ],
+      "dogru": "E) Muz – Güneydoğu Anadolu Bölgesi",
+      "aciklama": "Muz, sıcak ve nemli iklim gerektirdiği için Türkiye'de yalnızca Akdeniz Bölgesi'nin kıyı kesimlerinde (özellikle Alanya, Gazipaşa) yetiştirilir. Güneydoğu Anadolu Bölgesi yazları çok sıcak ve kurak olduğundan muz tarımı için uygun değildir. Diğer eşleştirmeler doğrudur: fındık Doğu Karadeniz, zeytin Ege, turunçgil Akdeniz, şeker pancarı İç Anadolu’da yaygındır.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574910-H4",
+      "soru": "Türkiye'de sanayi tesislerinin dağılışında ham madde, enerji, ulaşım ve pazar gibi faktörler etkilidir. Aşağıdaki illerden hangisi otomotiv sanayisinin önemli merkezlerinden biri değildir?",
+      "siklar": [
+        "A) Bursa",
+        "B) Kocaeli",
+        "C) Adana",
+        "D) İstanbul",
+        "E) Şanlıurfa"
+      ],
+      "dogru": "E) Şanlıurfa",
+      "aciklama": "Otomotiv sanayisi Türkiye'de Bursa, Kocaeli, Adana ve İstanbul başta olmak üzere Marmara, Ege ve Akdeniz bölgelerinde yoğunlaşmıştır. Şanlıurfa'da ise otomotiv üretimi bulunmamaktadır; bölgede daha çok tarım ve tekstil yaygındır. Bu soruda Şanlıurfa'yı diğerlerinden ayıran en önemli özellik, büyük ölçekli bir sanayi altyapısının olmamasıdır.",
+      "harita_il": "sanliurfa",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574910-H5",
+      "soru": "Türkiye'de turizm faaliyetleri doğal ve kültürel çekiciliklere bağlı olarak gelişmiştir. Aşağıdaki illerden hangisi termal turizm açısından en önde gelen merkezdir?",
+      "siklar": [
+        "A) Antalya",
+        "B) Muğla",
+        "C) Denizli",
+        "D) İstanbul",
+        "E) Nevşehir"
+      ],
+      "dogru": "C) Denizli",
+      "aciklama": "Denizli, Pamukkale travertenleri ve şifalı sularıyla dünyaca ünlü bir termal turizm merkezidir. Antalya ve Muğla deniz turizmi, İstanbul kültür turizmi, Nevşehir ise peribacaları ve kapadokya turizmi ile öne çıkar. Termal kaynakların en yoğun olduğu iller arasında Denizli, Afyonkarahisar ve Bursa yer alır.",
+      "harita_il": "denizli",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574910-H6",
+      "soru": "Türkiye'de iç göçlerin nedenleri ve sonuçları arasında aşağıdakilerden hangisi en yaygın olarak kabul edilir?",
+      "siklar": [
+        "A) Kırsal kesimde eğitim imkânlarının artması göçü azaltır.",
+        "B) Sanayi tesislerinin kırsala yayılması göçü hızlandırır.",
+        "C) Kentsel alanlarda iş bulma umudu kırdan kente göçe yol açar.",
+        "D) Doğal afetler göçün en önemli nedenidir.",
+        "E) Tarımda makineleşme kırsal nüfusu artırır."
+      ],
+      "dogru": "C) Kentsel alanlarda iş bulma umudu kırdan kente göçe yol açar.",
+      "aciklama": "Türkiye'de iç göçün temel nedeni, kentlerde sanayi ve hizmet sektörlerinde daha iyi iş ve yaşam koşullarına ulaşma umududur. A şıkkı yanlıştır çünkü eğitim artışı genellikle göçü artırır; B şıkkı yanlıştır çünkü sanayinin kırsala yayılması göçü azaltır; D şıkkı doğal afetler göçe neden olsa da en önemli neden değildir; E şıkkı ise makineleşme kırsal iş gücü ihtiyacını azaltarak göçü tetikler.",
+      "harita_il": null,
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574910-H7",
+      "soru": "Türkiye'de şehirlerin fonksiyonel özellikleri ve gelişimleriyle ilgili,\nI. Liman şehirleri genellikle ticaret ve sanayi işlevleriyle öne çıkar.\nII. Tarım şehirlerinde iş gücünün büyük kısmı hizmet sektöründe çalışır.\nIII. Turizm şehirlerinde mevsimlik nüfus hareketleri belirgindir.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) I ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "D) I ve III",
+      "aciklama": "I. öncül doğrudur: liman şehirleri (İstanbul, İzmir, Mersin gibi) ticaret ve sanayinin merkezidir. II. öncül yanlıştır: tarım şehirlerinde iş gücü tarım ve hayvancılıkta yoğunlaşır, hizmet sektöründe değil. III. öncül doğrudur: turizm şehirlerinde (Antalya, Muğla gibi) yaz aylarında nüfus önemli ölçüde artar. Bu nedenle I ve III doğru, II yanlıştır.",
+      "harita_il": null,
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574910-H8",
+      "soru": "Yukarıdaki Türkiye haritasında I, II, III, IV ve V numaralı alanlar gösterilmiştir.\nBu alanların hangisinde nüfus yoğunluğu diğerlerine göre daha yüksektir?",
+      "siklar": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV",
+        "E) V"
+      ],
+      "dogru": "C) III",
+      "aciklama": "Haritada III numaralı alan İstanbul ve çevresini kapsar. Türkiye'nin en yoğun nüfuslu bölgesi olan Marmara Bölgesi'nde yer alan İstanbul, yüksek sanayi ve hizmet sektörü yoğunluğu ile km² başına 2.800'den fazla kişi düşer. I (Doğu Anadolu'nun doğusu), II (Güneydoğu'nun kuzeydoğusu), IV (İç Anadolu'nun güneyi) ve V (Karadeniz'in doğusu) ise düşük nüfus yoğunluğuna sahiptir.",
+      "harita_il": "istanbul",
+      "zorluk": "zor",
+      "gorsel": "beseri-cografya/beseri-cografya-1779574910-H8.svg",
+      "gorsel_veri": {
+        "I": "hakkari",
+        "II": "bitlis",
+        "III": "istanbul",
+        "IV": "karaman",
+        "V": "artvin"
+      }
+    },
+    {
+      "id": "beseri-cografya-1779574946-E1",
+      "soru": "Türkiye'de nüfusun en yoğun olduğu bölge aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) İç Anadolu Bölgesi",
+        "B) Marmara Bölgesi",
+        "C) Ege Bölgesi",
+        "D) Akdeniz Bölgesi",
+        "E) Karadeniz Bölgesi"
+      ],
+      "dogru": "B) Marmara Bölgesi",
+      "aciklama": "Marmara Bölgesi, Türkiye'nin en yoğun nüfuslu bölgesidir. Bunun başlıca nedenleri arasında sanayi, ticaret ve hizmet sektörlerinin gelişmiş olması, İstanbul gibi büyük bir metropolü barındırması ve göç alması yer alır. A şıkkındaki İç Anadolu Bölgesi, başkent Ankara'yı içermesine rağmen nüfus yoğunluğu Marmara'nın gerisindedir. C, D ve E şıklarında verilen Ege, Akdeniz ve Karadeniz bölgeleri ise nüfus yoğunluğu bakımından Marmara Bölgesi'nden daha düşük değerlere sahiptir. Genel kural olarak, Türkiye'de nüfus yoğunluğu batıdan doğuya ve kıyılardan iç kesimlere doğru azalma eğilimi göstermekle birlikte, Marmara Bölgesi bu eğilimin istisnasıdır.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574946-E2",
+      "soru": "Aşağıdakilerden hangisi Türkiye'de nüfusun dağılışını etkileyen beşerî faktörlerden biridir?",
+      "siklar": [
+        "A) Yer şekilleri",
+        "B) İklim özellikleri",
+        "C) Sanayi tesisleri",
+        "D) Bitki örtüsü",
+        "E) Toprak yapısı"
+      ],
+      "dogru": "C) Sanayi tesisleri",
+      "aciklama": "Sanayi tesisleri, insan eliyle oluşturulmuş beşerî bir faktör olup nüfusun dağılışını doğrudan etkiler. Sanayinin geliştiği bölgeler iş imkânları sunduğu için yoğun göç alarak nüfuslanır. A, B, D ve E şıklarında verilen yer şekilleri, iklim özellikleri, bitki örtüsü ve toprak yapısı ise doğal (fiziki) faktörlerdir ve insan müdahalesi olmadan var olan coğrafi unsurlardır. Bu nedenle beşerî faktör kapsamında değerlendirilmezler. Nüfus dağılışını etkileyen diğer beşerî faktörler arasında ulaşım, tarım alanları, turizm ve tarihî yerleşmeler de sayılabilir.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574946-H1-001",
+      "soru": "Aşağıdaki illerin hangisinde nüfus yoğunluğu diğerlerine göre daha yüksektir?",
+      "siklar": [
+        "A) Ankara",
+        "B) Bursa",
+        "C) İstanbul",
+        "D) Antalya",
+        "E) İzmir"
+      ],
+      "dogru": "C) İstanbul",
+      "aciklama": "Doğru cevap C şıkkıdır. İstanbul, hem sanayi hem ticaret hem de hizmet sektörünün yoğunlaştığı bir şehirdir ve nüfus yoğunluğu km² başına 2868 kişi ile Türkiye'de en yüksek değere sahiptir. A şıkkı Ankara'nın nüfus yoğunluğu daha düşük olup yaklaşık 226 kişi/km²'dir. B şıkkı Bursa'da yoğunluk 297, D şıkkı Antalya'da 133, E şıkkı İzmir'de 376 kişi/km² civarındadır. Nüfus yoğunluğu fiziki ve beşeri faktörlere bağlı olarak değişirken İstanbul tarihsel süreçte her zaman en yoğun il olmuştur.",
+      "harita_il": "istanbul",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574946-H1-002",
+      "soru": "Türkiye'de 1950'li yıllardan itibaren kırdan kente göçün hızlanmasında en önemli etken aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Köy yollarının yapılması",
+        "B) Tarımda makineleşmeye başlanması",
+        "C) Şehirlerde konut arzının artması",
+        "D) İklim koşullarının sertleşmesi",
+        "E) Nüfus artış hızının düşmesi"
+      ],
+      "dogru": "B) Tarımda makineleşmeye başlanması",
+      "aciklama": "Doğru cevap B şıkkıdır. 1950 sonrası tarımda traktör ve biçerdöver gibi makinelerin yaygınlaşması kırsalda işgücü fazlası yaratmış ve bu nüfus iş bulmak için kentlere yönelmiştir. A şıkkı köy yolları göçü tetikleyen değil kolaylaştıran bir unsurdur. C şıkkı göç sonrası ortaya çıkan bir durumdur, neden değil. D şıkkı iklim değişiklikleri geniş ölçekli değildir. E şıkkı ise nüfus artış hızı düşmesi göçü azaltıcı bir faktördür. Kır-kent göçü Türkiye'de kentleşme sürecini başlatan temel dinamik olmuştur.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574946-H1-003",
+      "soru": "Aşağıdaki tarım ürünlerinden hangisi Akdeniz Bölgesi'ndeki illerde yaygın olarak yetiştirilmektedir?",
+      "siklar": [
+        "A) Çay",
+        "B) Turunçgil",
+        "C) Ayçiçeği",
+        "D) Fındık",
+        "E) Şeker pancarı"
+      ],
+      "dogru": "B) Turunçgil",
+      "aciklama": "Doğru cevap B şıkkıdır. Akdeniz Bölgesi'nde portakal, limon, mandalina gibi turunçgiller kış ılıklığından faydalanarak geniş alanlarda yetiştirilir. A şıkkı çay, Doğu Karadeniz Bölgesi'nin ürünüdür. C şıkkı ayçiçeği Marmara ve Trakya'da, D şıkkı fındık Karadeniz'de, E şıkkı şeker pancarı ise iç bölgelerde yaygındır. Akdeniz Bölgesi ayrıca muz, yer fıstığı ve seracılıkta da öne çıkar. İklim ve toprak koşulları turunçgil tarımını desteklemektedir.",
+      "harita_il": "antalya",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574946-H1-004",
+      "soru": "Türkiye'de demir-çelik sanayisinin Karabük'te kurulmasında aşağıdaki faktörlerden hangisi daha etkili olmuştur?",
+      "siklar": [
+        "A) Enerji kaynaklarına yakınlık",
+        "B) Liman varlığı",
+        "C) Hammadde kaynağına yakınlık",
+        "D) Nitelikli iş gücü",
+        "E) Sermaye birikimi"
+      ],
+      "dogru": "C) Hammadde kaynağına yakınlık",
+      "aciklama": "Doğru cevap C şıkkıdır. Karabük Demir-Çelik Fabrikası, Zonguldak'taki taşkömürü yataklarına ve Divriği'den gelen demir cevherine yakın olması nedeniyle kurulmuştur. A şıkkı enerji kaynağına (kömür) yakındır ancak bu hammadde kapsamında değerlendirilir. B şıkkı Karabük denize kıyısı olmayan bir ildir. D ve E şıkkı ise kuruluş aşamasında belirleyici olmamıştır. Fabrika 1937'de temeli atılan ağır sanayi yatırımlarının ilk örneğidir ve hammaddeye yakınlık kararında başrol oynamıştır.",
+      "harita_il": "karabuk",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574946-H1-005",
+      "soru": "Türkiye'de yük taşımacılığında ton-kilometre olarak en büyük paya sahip ulaşım türü aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Denizyolu",
+        "B) Boru hattı",
+        "C) Havayolu",
+        "D) Demiryolu",
+        "E) Karayolu"
+      ],
+      "dogru": "E) Karayolu",
+      "aciklama": "Doğru cevap E şıkkıdır. Türkiye'de yük taşımacılığında %80'in üzerinde payla karayolu ilk sırada yer alır. A şıkkı denizyolu uluslararası ticarette önemli olsa da yurt içi yük taşımada karayolunun gerisindedir. B şıkkı boru hattı petrol ve doğalgaz taşımada kullanılır, toplam payı düşüktür. C şıkkı havayolu yük taşımada pahalı ve sınırlıdır. D şıkkı demiryolu ise maden ve ağır sanayi ürünlerinde kullanılsa da payı %5 civarındadır. Karayolu ağının yaygınlığı ve kapıdan kapıya hizmet avantajı bu üstünlüğü sağlamaktadır.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574946-H1-006",
+      "soru": "Türkiye'de nüfus dağılışına ilişkin olarak,\n\nI. Doğu Anadolu Bölgesi'nde nüfus yoğunluğu en düşüktür.\nII. İç Anadolu Bölgesi'nde nüfusun büyük kısmı kırsal kesimde yaşar.\nIII. Kıyı bölgelerinde nüfus yoğunluğu iç bölgelere göre daha fazladır.\n\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve III",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve III",
+      "aciklama": "Doğru cevap C şıkkıdır. I. önerme doğrudur: Doğu Anadolu en düşük nüfus yoğunluğuna sahip bölgedir. III. önerme doğrudur: Kıyı bölgeleri (Marmara, Ege, Akdeniz, Karadeniz) iç bölgelere göre daha yoğundur. II. önerme yanlıştır: İç Anadolu Bölgesi'nde nüfusun yaklaşık %70'i kentlerde yaşar, kırsal nüfus oranı düşüktür. Bu nedenle A, B, D ve E şıkları elenir. Nüfus dağılışında fiziki koşullar kadar ekonomik faaliyetler de belirleyici rol oynar.",
+      "harita_il": null,
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779574946-H1-007",
+      "soru": "Yukarıdaki Türkiye haritasında numaralandırılarak gösterilen alanlardan hangisinde pamuk tarımı yaygın olarak yapılmaktadır?",
+      "siklar": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV",
+        "E) V"
+      ],
+      "dogru": "A) I",
+      "aciklama": "Doğru cevap A şıkkıdır. Haritada I numaralı alan Şanlıurfa'yı göstermektedir. GAP Projesi ile sulamaya açılan bu bölgede pamuk üretimi çok yaygındır. II numaralı alan Rize'dir ve çay tarımı ile bilinir. III Antalya'da seracılık ve meyve, IV Trabzon'da çay ve fındık, V Edirne'de ayçiçeği yetiştirilir. Pamuk, sulama imkânı ve yüksek sıcaklık isteyen bir bitki olduğu için Güneydoğu Anadolu, Adana ve Ege ovalarında yoğunlaşmıştır.",
+      "harita_il": "sanliurfa",
+      "zorluk": "zor",
+      "gorsel": "beseri-cografya/beseri-cografya-1779574946-H1-007.svg",
+      "gorsel_veri": {
+        "I": "sanliurfa",
+        "II": "rize",
+        "III": "antalya",
+        "IV": "trabzon",
+        "V": "edirne"
+      }
+    },
+    {
+      "id": "beseri-cografya-1779574946-H1-008",
+      "soru": "Aşağıdaki sanayi tesislerinden hangisi, kurulduğu bölgenin dışından gelen bir hammaddeye bağımlıdır?",
+      "siklar": [
+        "A) Karabük Demir-Çelik",
+        "B) Murgul Bakır İşletmeleri",
+        "C) İskenderun Demir-Çelik",
+        "D) Seydişehir Alüminyum",
+        "E) Batman Petrol Rafinerisi"
+      ],
+      "dogru": "C) İskenderun Demir-Çelik",
+      "aciklama": "Doğru cevap C şıkkıdır. İskenderun Demir-Çelik Fabrikası (İsdemir), Akdeniz Bölgesi'nde (Hatay) kurulmuştur ancak ana hammaddesi demir cevherini Sivas (Divriği) ve Malatya gibi İç Anadolu ve Doğu Anadolu bölgelerinden getirir. A şıkkı Karabük Demir-Çelik, kömürü Zonguldak'tan, demiri ise Divriği'den alsa da aynı bölge (Karadeniz) içinde kabul edilebilir; kesin bölge dışı değildir. B şıkkı Murgul Bakır, Artvin'deki madeni kullanır (aynı il). D şıkkı Seydişehir Alüminyum, Konya'daki boksit yataklarına dayanır. E şıkkı Batman Rafinerisi, Batman ve Siirt'teki petrolü işler. Bu nedenle en net bölge dışı hammadde kullanımı İskenderun'dadır.",
+      "harita_il": "hatay",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779575003-E1",
+      "soru": "Türkiye'de nüfusun dağılışı üzerinde etkili olan faktörlerden biri de iklim koşullarıdır. Buna göre, aşağıdaki illerin hangisinde nüfus yoğunluğunun diğerlerine göre daha düşük olması beklenir?",
+      "siklar": [
+        "A) İstanbul",
+        "B) İzmir",
+        "C) Ankara",
+        "D) Hakkari",
+        "E) Antalya"
+      ],
+      "dogru": "D) Hakkari",
+      "aciklama": "Doğru cevap D şıkkıdır. Türkiye'de nüfus dağılışını etkileyen faktörler arasında iklim, yer şekilleri, ulaşım ve ekonomik faaliyetler yer alır. Hakkari, engebeli arazi yapısı ve karasal iklimin etkisiyle nüfus yoğunluğu düşük olan iller arasındadır. İstanbul, İzmir ve Antalya iklim ve ekonomik imkanlar nedeniyle yoğun nüfusludur. Ankara ise başkent olması ve hizmet sektörünün gelişmesiyle yoğun nüfus barındırır.",
+      "harita_il": "hakkari",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779575003-E2",
+      "soru": "Aşağıdaki ekonomik faaliyetlerden hangisi Türkiye'de hizmet sektörü kapsamında değerlendirilir?",
+      "siklar": [
+        "A) Buğday tarımı",
+        "B) Demir-çelik üretimi",
+        "C) Turizm",
+        "D) Madencilik",
+        "E) Balıkçılık"
+      ],
+      "dogru": "C) Turizm",
+      "aciklama": "Doğru cevap C şıkkıdır. Ekonomik faaliyetler birincil (tarım, hayvancılık, madencilik), ikincil (sanayi) ve üçüncül (hizmet) sektörler olarak sınıflandırılır. Turizm, konaklama, seyahat ve rehberlik gibi hizmetleri içerdiği için üçüncül sektör kapsamındadır. Buğday tarımı ve balıkçılık birincil, demir-çelik üretimi ikincil, madencilik ise birincil sektöre girer.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779575003-H1",
+      "soru": "Türkiye'de nüfus yoğunluğunun en yüksek olduğu bölge aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Marmara",
+        "B) Ege",
+        "C) İç Anadolu",
+        "D) Karadeniz",
+        "E) Akdeniz"
+      ],
+      "dogru": "A) Marmara",
+      "aciklama": "Marmara Bölgesi, İstanbul metropolünün etkisiyle hem nüfus hem de iş imkanları açısından en yoğun bölgedir. Sanayi, ticaret ve hizmet sektörü bu bölgede toplanmıştır. Ayrıca Bursa, Kocaeli ve Yalova gibi yoğun nüfuslu şehirler de bu bölgede yer alır. Diğer bölgelerde nüfus yoğunluğu daha düşük olup Ege ve Akdeniz kıyıları turizmle nispeten yoğundur ancak Marmara'nın gerisinde kalır. Nüfus yoğunluğu hesaplanırken km²'ye düşen insan sayısı esas alınır ve Marmara Bölgesi bu alanda Türkiye ortalamasının çok üzerindedir.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779575003-H2",
+      "soru": "Köyden kente göçün ortaya çıkmasında aşağıdakilerden hangisi en belirleyici faktördür?",
+      "siklar": [
+        "A) İklim değişikliği",
+        "B) Sanayileşme ve istihdam",
+        "C) Doğal afetler",
+        "D) Eğitim imkânları",
+        "E) Sağlık hizmetleri"
+      ],
+      "dogru": "B) Sanayileşme ve istihdam",
+      "aciklama": "Köyden kente göçün temel belirleyicisi kentlerde sanayi ve hizmet sektörlerinin sunduğu iş imkânlarıdır. Kırsal alanlarda işsizlik ve düşük gelir, insanları şehirlere yönlendirir. İklim değişikliği, doğal afetler gibi faktörler de göçe neden olabilir ancak en sürekli ve yaygın etken ekonomik fırsatlardır. Türkiye'de 1950'lerden itibaren sanayileşme ile birlikte hızlanan iç göç, büyük şehirlerin nüfusunu patlatmıştır. Eğitim ve sağlık ise göç sonrası yaşam kalitesini artıran faktörler olup birincil itici güç değildir.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779575003-H3",
+      "soru": "Türkiye'de toplu yerleşme dokusunun en yaygın olduğu bölge aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Doğu Anadolu",
+        "B) Karadeniz",
+        "C) Akdeniz",
+        "D) İç Anadolu",
+        "E) Marmara"
+      ],
+      "dogru": "D) İç Anadolu",
+      "aciklama": "İç Anadolu Bölgesi'nde su kaynaklarının sınırlı olması ve tarımsal arazi yapısı, köylerin bir merkez etrafında toplanmasını teşvik eder. Bölgede kurak iklim koşulları ve büyük tarım arazileri, dağınık yerleşmeyi sınırlar. Karadeniz'de engebeli arazi dağınık, Doğu Anadolu'da ise hem toplu hem dağınık yerleşme görülür. Örneğin Konya, Ankara, Aksaray gibi illerde toplu köyler yaygındır. Bu durum, suya erişim, güvenlik ve sosyal dayanışma gibi geleneksel faktörlerin bir sonucudur.",
+      "harita_il": "ankara",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779575003-H4",
+      "soru": "Türkiye'de tarım sektörünün gayrisafi yurt içi hasıladaki payı aşağıdaki sektörlerden hangisinden daha düşüktür?",
+      "siklar": [
+        "A) Sanayi",
+        "B) Hizmet",
+        "C) Madencilik",
+        "D) Enerji",
+        "E) Ormancılık"
+      ],
+      "dogru": "B) Hizmet",
+      "aciklama": "Türkiye ekonomisinde hizmet sektörü (turizm, ulaştırma, finans, ticaret) GSYH'nin %50'sinden fazlasını oluştururken tarımın payı %10 civarındadır. Sanayi de %25-30 civarındadır. Dolayısıyla tarım, hizmet sektörünün gerisindedir. Madencilik, enerji ve ormancılık ise tarımdan daha küçük paylara sahiptir. 1980 sonrası liberalleşme ve hizmet sektörünün büyümesi bu oranı belirlemiştir. Tarımın mutlak üretimi artmasına rağmen ekonomideki göreceli payı azalmıştır.",
+      "harita_il": null,
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779575003-H5",
+      "soru": "Aşağıdaki illerden hangisi nüfus artış hızı bakımından diğerlerinden daha yüksektir?",
+      "siklar": [
+        "A) Şanlıurfa",
+        "B) Sinop",
+        "C) Tunceli",
+        "D) Bayburt",
+        "E) Ardahan"
+      ],
+      "dogru": "A) Şanlıurfa",
+      "aciklama": "Şanlıurfa, yüksek doğurganlık oranı ve aldığı iç göçlerle nüfus artış hızı en yüksek iller arasındadır. Sinop, Tunceli, Bayburt ve Ardahan ise sürekli göç veren, nüfus artış hızı düşük hatta negatif olan illerdir. Suriye savaşı sonrası Şanlıurfa'ya yoğun göç de artışı tetiklemiştir. Diğer illerde doğurganlık düşük ve genç nüfus başka şehirlere yönelmektedir. Bu durum Türkiye'nin doğu-batı arasındaki demografik farklılığını yansıtmaktadır.",
+      "harita_il": "sanliurfa",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779575003-H6",
+      "soru": "Türkiye'de nüfusun dağılışıyla ilgili,\nI. Marmara Bölgesi, nüfus yoğunluğu en yüksek olan bölgedir.\nII. Karadeniz Bölgesi'nde nüfus yoğunluğu en fazla olan il Zonguldak'tır.\nIII. Doğu Anadolu Bölgesi'nde nüfus yoğunluğu en az olan il Van'dır.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) I ve III",
+        "E) II ve III"
+      ],
+      "dogru": "A) Yalnız I",
+      "aciklama": "I. yargı doğrudur; Marmara Bölgesi Türkiye'de nüfus yoğunluğu en yüksek bölgedir (İstanbul başta olmak üzere). II. yargı yanlıştır; Karadeniz'de nüfus yoğunluğu en yüksek il Trabzon'dur (Zonguldak değil). III. yargı yanlıştır; Doğu Anadolu'da nüfus yoğunluğu en düşük il Tunceli'dir (Van değil). Tunceli'nin engebeli yapısı ve göç vermesi yoğunluğu çok düşürmüştür. Bu soruda her önerme bağımsız olarak bilgi ölçmektedir.",
+      "harita_il": null,
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779575003-H7",
+      "soru": "Yukarıdaki Türkiye haritasında I, II, III, IV ve V numaralı alanlar gösterilmiştir.\nBu alanların hangisinde nüfus yoğunluğu en düşüktür?",
+      "siklar": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV",
+        "E) V"
+      ],
+      "dogru": "A) I",
+      "aciklama": "Haritada I numaralı alan Tunceli ilini göstermektedir. Tunceli, dağlık ve engebeli bir arazi yapısına sahip olup nüfus yoğunluğu km²'de 11 kişi civarındadır. II numara İstanbul (yoğunluk >2500), III numara Ankara (~80), IV numara İzmir (~350), V numara Adana (~150) düzeyindedir. Tunceli'nin fiziki koşulları ve göç nedeniyle nüfusu seyrektir. Diğer alanlar ise sanayi, ticaret ve tarım açısından daha cazip merkezlerdir.",
+      "harita_il": null,
+      "zorluk": "zor",
+      "gorsel": "beseri-cografya/beseri-cografya-007.svg",
+      "gorsel_veri": {
+        "I": "tunceli",
+        "II": "istanbul",
+        "III": "ankara",
+        "IV": "izmir",
+        "V": "adana"
+      }
+    },
+    {
+      "id": "beseri-cografya-1779575003-H8",
+      "soru": "Türkiye'de nüfus yoğunluğu ile enerji tüketimi arasında doğru orantı olduğu varsayıldığında, aşağıdaki illerden hangisinde kişi başına enerji tüketiminin en yüksek olması beklenir?",
+      "siklar": [
+        "A) Kocaeli",
+        "B) Muğla",
+        "C) Ordu",
+        "D) Kars",
+        "E) Kırşehir"
+      ],
+      "dogru": "A) Kocaeli",
+      "aciklama": "Kocaeli, Türkiye'nin önemli sanayi merkezlerinden biridir (demir-çelik, kimya, otomotiv). Sanayi tesisleri yoğun enerji tüketir. Ayrıca nüfus yoğunluğu da yüksektir. Muğla turizm, Ordu tarım, Kars hayvancılık, Kırşehir ise tarım ve küçük sanayi ağırlıklıdır. Bu illerde sanayi tesisleri ve nüfus yoğunluğu daha düşük olduğu için kişi başı enerji tüketimi Kocaeli'nin gerisinde kalır. Dolayısıyla enerji tüketimi ve nüfus yoğunluğu arasında genel bir paralellik bulunur.",
+      "harita_il": "kocaeli",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779575755-E1",
+      "soru": "Aşağıdakilerden hangisi Türkiye'de nüfusun dağılışını etkileyen doğal faktörlerden biridir?",
+      "siklar": [
+        "A) Sanayi tesislerinin varlığı",
+        "B) İklim özellikleri",
+        "C) Ulaşım ağlarının gelişmişliği",
+        "D) Turizm faaliyetleri",
+        "E) Tarihî eserlerin bulunduğu alanlar"
+      ],
+      "dogru": "B) İklim özellikleri",
+      "aciklama": "Doğru cevap B şıkkıdır çünkü iklim özellikleri, nüfusun dağılışını etkileyen doğal faktörler arasında yer alır. A şıkkı yanlıştır zira sanayi tesislerinin varlığı beşerî bir faktördür. C şıkkı yanlıştır çünkü ulaşım ağlarının gelişmişliği beşerî faktörler arasındadır. D şıkkı yanlıştır zira turizm faaliyetleri beşerî faktörlere örnektir. E şıkkı yanlıştır çünkü tarihî eserlerin bulunduğu alanlar da beşerî faktörler arasında sayılır. Nüfus dağılışını etkileyen doğal faktörler; iklim, yer şekilleri, su kaynakları ve toprak özellikleridir.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779575755-E2",
+      "soru": "Türkiye'de nüfus yoğunluğunun en yüksek olduğu bölge aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Karadeniz Bölgesi",
+        "B) İç Anadolu Bölgesi",
+        "C) Marmara Bölgesi",
+        "D) Ege Bölgesi",
+        "E) Akdeniz Bölgesi"
+      ],
+      "dogru": "C) Marmara Bölgesi",
+      "aciklama": "Doğru cevap C şıkkıdır çünkü Marmara Bölgesi, Türkiye'nin en yüksek nüfus yoğunluğuna sahip bölgesidir. A şıkkı yanlıştır zira Karadeniz Bölgesi'nin nüfus yoğunluğu Marmara Bölgesi'nden düşüktür. B şıkkı yanlıştır çünkü İç Anadolu Bölgesi, yüzölçümü büyük olmasına rağmen nüfus yoğunluğu bakımından Marmara'nın gerisindedir. D şıkkı yanlıştır zira Ege Bölgesi'nin nüfus yoğunluğu Marmara Bölgesi'nden azdır. E şıkkı yanlıştır çünkü Akdeniz Bölgesi'nin nüfus yoğunluğu Marmara Bölgesi'ne göre daha düşüktür. Marmara Bölgesi, sanayi, ticaret ve ulaşım olanaklarının gelişmiş olması nedeniyle en yoğun nüfuslu bölgedir.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779575755-H1",
+      "soru": "İstanbul Limanı'ndan yola çıkan bir yük gemisi, Karadeniz kıyı şeridini takip ederek Trabzon Limanı'na gitmektedir. Gemi rotası üzerinde aşağıdaki liman şehirlerinden hangisine uğramaz?",
+      "siklar": [
+        "A) Zonguldak",
+        "B) Sinop",
+        "C) Samsun",
+        "D) Ordu",
+        "E) Hopa"
+      ],
+      "dogru": "E) Hopa",
+      "aciklama": "Hopa, Trabzon'un doğusunda yer alan bir ilçedir ve Artvin iline bağlıdır. İstanbul'dan Trabzon'a giderken sırasıyla Zonguldak, Sinop, Samsun, Ordu, Giresun ve Trabzon limanlarına uğranır. Hopa ise Trabzon'dan sonra doğuya devam edilirse ulaşılır, bu nedenle gemi Trabzon'a vardığında rota sonlanır. Diğer şıklar Karadeniz kıyısında ve İstanbul-Trabzon rotası üzerindedir.",
+      "harita_il": "istanbul",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779575755-H2",
+      "soru": "Aşağıdaki illerden hangisi Karadeniz kıyısında yer almasına rağmen önemli bir liman kenti değildir?",
+      "siklar": [
+        "A) Samsun",
+        "B) Trabzon",
+        "C) Zonguldak",
+        "D) Bartın",
+        "E) İstanbul"
+      ],
+      "dogru": "D) Bartın",
+      "aciklama": "Bartın Karadeniz kıyısında bir il olmasına karşın, limanı küçük ölçeklidir ve ulusal/uluslararası ticarette diğerleri kadar öne çıkmaz. Samsun, Trabzon ve Zonguldak önemli liman kentleridir. İstanbul ise Marmara Denizi kıyısında olup Karadeniz'e de boğaz yoluyla bağlıdır ve çok büyük bir liman kentidir. Bu nedenle Bartın 'liman kenti' tanımına en az uyan seçenektir.",
+      "harita_il": "bartin",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779575755-H3",
+      "soru": "Mersin Limanı'ndan yola çıkan bir gemi, Akdeniz kıyısını takip ederek Çanakkale Boğazı'na ulaşmak istemektedir. Gemi yolculuğu sırasında aşağıdaki su yollarından hangisini kullanmak zorundadır?",
+      "siklar": [
+        "A) İstanbul Boğazı",
+        "B) Çanakkale Boğazı",
+        "C) Haliç",
+        "D) Bosphorus",
+        "E) Kanal İstanbul"
+      ],
+      "dogru": "B) Çanakkale Boğazı",
+      "aciklama": "Mersin'den Çanakkale'ye gitmek için Akdeniz boyunca batıya ilerlenir, Ege Denizi'ne girilir ve Çanakkale Boğazı'ndan geçilir. İstanbul Boğazı daha kuzeydedir ve Karadeniz'e çıkar. Haliç ve Bosphorus (İstanbul Boğazı'nın İngilizce adı) Çanakkale rotasında kullanılmaz. Kanal İstanbul henüz tamamlanmamıştır. Bu nedenle doğru cevap Çanakkale Boğazı'dır.",
+      "harita_il": "mersin",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779575755-H4",
+      "soru": "Türkiye'de nüfus yoğunluğunun dağılışıyla ilgili olarak aşağıdaki yargılardan hangisi doğrudur?\\n\\nI. Kıyı bölgeleri genellikle iç bölgelere göre daha yoğun nüfusludur.\\nII. Doğu Anadolu Bölgesi, iklim ve yeryüzü şekilleri nedeniyle nüfus yoğunluğu en düşük bölgelerdendir.\\nIII. Marmara Bölgesi, sanayi ve ticaret olanakları sayesinde en yüksek nüfus yoğunluğuna sahiptir.",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve III",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "E) I, II ve III",
+      "aciklama": "I. önerme doğrudur: Kıyı bölgeleri (Marmara, Ege, Akdeniz, Karadeniz) iklim ve ulaşım avantajıyla daha yoğun nüfusludur. II. önerme doğrudur: Doğu Anadolu'da engebeli arazi ve sert iklim nüfus yoğunluğunu düşürür. III. önerme doğrudur: Marmara Bölgesi sanayi, ticaret ve ulaşım ağının merkezi olup Türkiye'nin en yoğun nüfuslu bölgesidir. Bu nedenle her üç önerme de geçerlidir.",
+      "harita_il": "istanbul",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779575755-H5",
+      "soru": "Aşağıdaki limanlardan hangisi Akdeniz kıyısında yer almaktadır?",
+      "siklar": [
+        "A) İzmir Limanı",
+        "B) Samsun Limanı",
+        "C) Mersin Limanı",
+        "D) Trabzon Limanı",
+        "E) İstanbul Limanı"
+      ],
+      "dogru": "C) Mersin Limanı",
+      "aciklama": "Mersin ili Akdeniz kıyısında yer alır ve önemli bir liman kentidir. İzmir Limanı Ege Denizi kıyısında, Samsun ve Trabzon limanları Karadeniz kıyısında, İstanbul Limanı ise Marmara Denizi kıyısındadır. Bu nedenle Akdeniz kıyısındaki liman Mersin'dir.",
+      "harita_il": "mersin",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779575755-H6",
+      "soru": "İzmir Limanı'ndan hareket eden bir yük gemisi, Ege ve Akdeniz kıyılarını izleyerek Antalya Limanı'na ulaşacaktır. Gemi rotası boyunca aşağıdaki körfezlerden hangisiyle karşılaşmaz?",
+      "siklar": [
+        "A) Kuşadası Körfezi",
+        "B) Gökova Körfezi",
+        "C) Fethiye Körfezi",
+        "D) İskenderun Körfezi",
+        "E) Antalya Körfezi"
+      ],
+      "dogru": "D) İskenderun Körfezi",
+      "aciklama": "İzmir'den Antalya'ya giden gemi sırasıyla Kuşadası Körfezi, Gökova Körfezi, Fethiye Körfezi ve nihayet Antalya Körfezi'ni geçer. İskenderun Körfezi ise Akdeniz'in doğusunda, Hatay ve Adana arasında yer alır ve bu rota üzerinde değildir. Diğer körfezler Ege ve Batı Akdeniz kıyısındadır.",
+      "harita_il": "izmir",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779575755-H7",
+      "soru": "Türkiye'de iç göçler ve nüfus artışıyla ilgili olarak aşağıdaki yargılardan hangileri doğrudur?\\n\\nI. 1950'lerden sonra sanayileşmeyle birlikte kırdan kente göç hızlanmıştır.\\nII. Göç alan şehirlerde altyapı sorunları ve çarpık kentleşme yaygındır.\\nIII. İç göçler sonucunda kırsal nüfus oranı sürekli artmıştır.",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve II",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve II",
+      "aciklama": "I. önerme doğrudur: 1950'lerde başlayan sanayileşme kırdan kente göçü hızlandırmıştır. II. önerme doğrudur: Hızlı göç, şehirlerde altyapı yetersizliği ve çarpık kentleşmeye yol açmıştır. III. önerme yanlıştır: Göçler nedeniyle kırsal nüfus oranı azalmış, kentsel nüfus oranı artmıştır. Bu yüzden doğru yargılar I ve II'dir.",
+      "harita_il": "ankara",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779575755-H8",
+      "soru": "Bir araştırma gemisi, Karadeniz kıyısında Sinop'tan yola çıkarak doğuya doğru delta oluşumlarını incelemektedir. Gemi, yolculuğu sırasında aşağıdaki akarsuların denize döküldüğü deltalardan hangisiyle karşılaşmaz?",
+      "siklar": [
+        "A) Kızılırmak Deltası",
+        "B) Yeşilırmak Deltası",
+        "C) Sakarya Deltası",
+        "D) Çoruh Deltası",
+        "E) Filyos Deltası"
+      ],
+      "dogru": "C) Sakarya Deltası",
+      "aciklama": "Sinop'tan doğuya giden gemi sırasıyla Kızılırmak (Samsun), Yeşilırmak (Samsun/Tokat arası), Filyos (Zonguldak/Bartın) ve Çoruh (Artvin) deltalarıyla karşılaşır. Sakarya Deltası ise Sakarya Nehri'nin Karadeniz'e döküldüğü batıdadır ve Sinop'un batısında kalır. Bu nedenle gemi doğuya giderken Sakarya Deltası'na rastlamaz.",
+      "harita_il": "sinop",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779575786-E1",
+      "soru": "Türkiye'de nüfus yoğunluğunun en yüksek olduğu bölge aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) İç Anadolu Bölgesi",
+        "B) Ege Bölgesi",
+        "C) Marmara Bölgesi",
+        "D) Akdeniz Bölgesi",
+        "E) Karadeniz Bölgesi"
+      ],
+      "dogru": "C) Marmara Bölgesi",
+      "aciklama": "C şıkkı doğrudur çünkü Türkiye'de nüfus yoğunluğunun en yüksek olduğu bölge Marmara Bölgesi'dir. Bu bölge, sanayi, ticaret ve hizmet sektörlerinin yoğunlaştığı İstanbul ve Kocaeli gibi büyük şehirleri barındırmaktadır. A şıkkı yanlıştır çünkü İç Anadolu Bölgesi nüfus yoğunluğu bakımından Marmara'dan düşüktür. B şıkkı yanlıştır çünkü Ege Bölgesi yoğunluk sıralamasında ikinci sıradadır. D şıkkı yanlıştır çünkü Akdeniz Bölgesi nüfus yoğunluğu Marmara'nın gerisindedir. E şıkkı yanlıştır çünkü Karadeniz Bölgesi dağlık yapısı nedeniyle daha düşük yoğunluğa sahiptir.",
+      "harita_il": "istanbul",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779575786-E2",
+      "soru": "Türkiye'de sanayi tesislerinin en yoğun olduğu şehir aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Ankara",
+        "B) İzmir",
+        "C) Bursa",
+        "D) İstanbul",
+        "E) Konya"
+      ],
+      "dogru": "D) İstanbul",
+      "aciklama": "D şıkkı doğrudur çünkü İstanbul, Türkiye'nin en büyük sanayi merkezi olup birçok farklı sektörde faaliyet gösteren tesislere ev sahipliği yapmaktadır. A şıkkı yanlıştır çünkü Ankara daha çok hizmet ve kamu sektörüyle öne çıkar. B şıkkı yanlıştır çünkü İzmir sanayide önemli olmasına rağmen İstanbul'un gerisindedir. C şıkkı yanlıştır çünkü Bursa otomotiv ve tekstil sanayisinde gelişmiş olsa da İstanbul kadar yoğun değildir. E şıkkı yanlıştır çünkü Konya tarım ve hayvancılıkla ön plandadır.",
+      "harita_il": "istanbul",
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779575786-H2",
+      "soru": "Türkiye'de nüfus yoğunluğu en yüksek olan il aynı zamanda en işlek limanlardan birine sahiptir. Bu durum, ilin aşağıdaki özelliklerinden hangisiyle doğrudan ilişkilidir?",
+      "siklar": [
+        "A) Tarımsal üretim potansiyeli",
+        "B) Kara ve hava ulaşım ağının gelişmiş olması",
+        "C) Limanının uluslararası ticarette önemli bir kapı olması",
+        "D) Doğal kaynak rezervlerinin zenginliği",
+        "E) Turizm faaliyetlerinin çeşitliliği"
+      ],
+      "dogru": "C) Limanının uluslararası ticarette önemli bir kapı olması",
+      "aciklama": "C şıkkı doğrudur çünkü İstanbul, nüfus yoğunluğunun en yüksek olduğu il olup aynı zamanda İstanbul Limanı ülkenin en işlek limanıdır. Bu liman, uluslararası ticaretin yoğunlaştığı bir merkez olduğu için şehrin ekonomik ve demografik çekim gücünü artırmıştır. A şıkkı yanlıştır zira İstanbul tarımsal üretimde önde gelen bir il değildir. B şıkkı yanlıştır çünkü ulaşım ağının gelişmiş olması nüfus yoğunluğunu etkiler ancak limanla doğrudan ilişkili değildir. D ve E şıkları yanlıştır çünkü doğal kaynak ve turizm potansiyeli İstanbul'un nüfus yoğunluğunun temel nedenleri arasında değildir.",
+      "harita_il": "istanbul",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779575786-H3",
+      "soru": "Bir limanın gerisinde kalan ve bu liman aracılığıyla dış ticarete açılan bölgeye verilen ad aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Hinterlant",
+        "B) Metropol",
+        "C) Kıyı şeridi",
+        "D) Serbest bölge",
+        "E) Rezerv alan"
+      ],
+      "dogru": "A) Hinterlant",
+      "aciklama": "A şıkkı doğrudur çünkü hinterlant, bir limanın iç kesimlerle bağlantısını sağladığı ve ticari faaliyetlerinin yayıldığı alandır. Örneğin İzmir Limanı'nın hinterlandı Ege Bölgesi'ni kapsar. B şıkkı yanlıştır; metropol büyük şehir anlamına gelir, liman-ağ ilişkisini ifade etmez. C şıkkı yanlıştır; kıyı şeridi dar bir coğrafi alandır. D şıkkı yanlıştır; serbest bölge, gümrük ayrıcalıkları tanınan belirli alanlardır. E şıkkı yanlıştır; rezerv alan doğal kaynak terimidir.",
+      "harita_il": "izmir",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779575786-H4",
+      "soru": "Türkiye'de kırdan kente göçün en yoğun yaşandığı il aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Ankara",
+        "B) İzmir",
+        "C) Bursa",
+        "D) İstanbul",
+        "E) Adana"
+      ],
+      "dogru": "D) İstanbul",
+      "aciklama": "D şıkkı doğrudur çünkü İstanbul, sanayi, ticaret ve hizmet sektörlerinin yoğunluğu sayesinde en fazla göç alan ildir. A, B, C ve E şıkları da göç almakla birlikte İstanbul'un aldığı göç miktarı diğer illere göre çok daha yüksektir. Kırdan kente göçte ulaşım, istihdam olanakları ve şehirleşme hızı belirleyici faktörlerdir. İstanbul bu açıdan diğer illerden ayrışmaktadır.",
+      "harita_il": "istanbul",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779575786-H5",
+      "soru": "Türkiye'de sanayi tesislerinin sayıca en fazla olduğu il aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Kocaeli",
+        "B) Bursa",
+        "C) İstanbul",
+        "D) İzmir",
+        "E) Ankara"
+      ],
+      "dogru": "C) İstanbul",
+      "aciklama": "C şıkkı doğrudur çünkü İstanbul, Marmara Bölgesi'nin sanayi merkezi konumunda olup gıdadan tekstile, otomotivden kimyaya birçok sektörde tesis barındırır. A ve B şıkları önemli sanayi illeridir ancak tesis sayısı İstanbul'un gerisindedir. D ve E şıkları da sanayiye sahiptir ancak yoğunluk olarak İstanbul daha öndedir. Sanayi dağılışında ulaşım, liman ve pazar faktörleri etkilidir.",
+      "harita_il": "istanbul",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779575786-H6",
+      "soru": "Türkiye'de deniz turizmi ve mavi bayraklı plaj sayısı bakımından en önde gelen il aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Muğla",
+        "B) Antalya",
+        "C) İzmir",
+        "D) Aydın",
+        "E) Mersin"
+      ],
+      "dogru": "B) Antalya",
+      "aciklama": "B şıkkı doğrudur çünkü Antalya, uzun kumsalları, mavi bayraklı plajları ve turizm altyapısıyla Türkiye'nin en önemli kıyı turizmi merkezidir. A şıkkı da önemlidir ancak Antalya daha fazla turist çeker. C, D ve E şıkları kıyı turizminde gelişmiş iller olmakla birlikte Antalya'nın gerisinde kalır. Kıyı turizminin gelişiminde iklim, doğal güzellikler ve ulaşım etkili faktörlerdir.",
+      "harita_il": "antalya",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779575786-H7",
+      "soru": "Mersin Limanı'ndan yola çıkan bir yük gemisi, Akdeniz kıyılarını takip ederek İskenderun Limanı'na gitmektedir. Bu gemi yolculuğu sırasında aşağıdaki akarsulardan hangisinin deltasına rastlanmaz?",
+      "siklar": [
+        "A) Seyhan Nehri deltası",
+        "B) Ceyhan Nehri deltası",
+        "C) Göksu Nehri deltası",
+        "D) Asi Nehri deltası",
+        "E) Manavgat Nehri deltası"
+      ],
+      "dogru": "E) Manavgat Nehri deltası",
+      "aciklama": "E şıkkı doğrudur çünkü geminin rotası Mersin'den İskenderun'a doğudur; Manavgat Nehri ise Antalya il sınırlarında, batıda kalmaktadır. A, B, C ve D şıklarında verilen deltalar (Seyhan, Ceyhan, Göksu, Asi) Mersin, Adana ve Hatay kıyılarında olduğu için rota üzerindedir. Akdeniz kıyı şeridinde bu nehirler önemli delta ovaları oluşturmuştur. Limanlar arası gemi seyahatlerinde kıyı boyunca delta ve halip gibi jeomorfolojik yapılar görülür.",
+      "harita_il": "mersin",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779575786-H8",
+      "soru": "Türkiye'deki liman şehirleri ve dış ticaret ilişkileriyle ilgili,\nI. İstanbul Limanı, Türkiye'nin en büyük konteyner limanı olup uluslararası ticarette en büyük paya sahiptir.\nII. Mersin Limanı, Doğu Anadolu Bölgesi'nin dış ticaretinde ana kapı konumundadır.\nIII. Trabzon Limanı, Karadeniz'e kıyısı olan ülkelerle yapılan ticarette önemli bir role sahiptir.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve III",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "C) I ve III",
+      "aciklama": "C şıkkı doğrudur. I. öncül doğrudur çünkü İstanbul Limanı (Ambarli vb.) kapasite ve kargo hacmi bakımından Türkiye'nin en büyük limanıdır. II. öncül yanlıştır; Mersin Limanı daha çok İç Anadolu ve Güneydoğu Anadolu bölgelerine hizmet eder, Doğu Anadolu'nun dış ticaret kapısı esas olarak Trabzon ve İskenderun limanlarıdır. III. öncül doğrudur; Trabzon Limanı, Rusya, Ukrayna, Gürcistan gibi Karadeniz ülkeleriyle ticarette stratejik öneme sahiptir. Bu nedenle I ve III doğrudur.",
+      "harita_il": "mersin",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779575786-H9",
+      "soru": "Yukarıdaki Türkiye haritasında I, II, III, IV ve V numaralı alanlar önemli liman kentleri olarak işaretlenmiştir. Bu alanların hangisi Türkiye'nin en büyük konteyner limanına ev sahipliği yapmaktadır?",
+      "siklar": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV",
+        "E) V"
+      ],
+      "dogru": "A) I",
+      "aciklama": "A şıkkı doğrudur. Haritada I numaralı alan İstanbul'u göstermektedir. İstanbul'daki Ambarlı, Haydarpaşa gibi limanlar konteyner taşımacılığında en büyük kapasiteye sahiptir. II numaralı alan İzmir, III Mersin, IV Antalya, V ise Trabzon'dur. Bu limanlar bölgesel öneme sahip olsa da İstanbul'un konteyner hacmi diğerlerine göre çok daha yüksektir. Türkiye'nin deniz ticaretinde İstanbul Limanı'nın payı %30'u aşmaktadır. Bu nedenle doğru cevap I'dir.",
+      "harita_il": null,
+      "zorluk": "zor",
+      "gorsel": "beseri-cografya/beseri-cografya-1779575786-H9.svg",
+      "gorsel_veri": {
+        "I": "istanbul",
+        "II": "izmir",
+        "III": "mersin",
+        "IV": "antalya",
+        "V": "trabzon"
+      }
+    },
+    {
+      "id": "beseri-cografya-1779575844-E1",
+      "soru": "Türkiye'de nüfusun en yoğun olduğu bölge aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) İç Anadolu Bölgesi",
+        "B) Marmara Bölgesi",
+        "C) Ege Bölgesi",
+        "D) Akdeniz Bölgesi",
+        "E) Karadeniz Bölgesi"
+      ],
+      "dogru": "B) Marmara Bölgesi",
+      "aciklama": "Cevap B şıkkıdır. Marmara Bölgesi, Türkiye'nin en yoğun nüfuslu bölgesidir. Bunun başlıca nedenleri arasında sanayi ve hizmet sektörünün gelişmiş olması, İstanbul gibi büyük bir metropolü barındırması ve tarih boyunca önemli bir göç merkezi olması yer alır. A şıkkındaki İç Anadolu Bölgesi nüfus yoğunluğu bakımından ikinci sıradadır. C, D ve E şıklarındaki bölgeler ise nüfus yoğunluğu sıralamasında Marmara ve İç Anadolu'nun gerisinde kalmaktadır.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779575844-E2",
+      "soru": "Türkiye'de sanayi faaliyetlerinin en yoğun olduğu bölge aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Ege Bölgesi",
+        "B) Akdeniz Bölgesi",
+        "C) Marmara Bölgesi",
+        "D) İç Anadolu Bölgesi",
+        "E) Karadeniz Bölgesi"
+      ],
+      "dogru": "C) Marmara Bölgesi",
+      "aciklama": "Doğru cevap C şıkkıdır. Marmara Bölgesi, Türkiye'de sanayi tesislerinin en fazla kümelendiği bölgedir. Özellikle İstanbul, Kocaeli, Bursa ve Sakarya gibi iller; otomotiv, tekstil, kimya ve gıda gibi birçok sektörde önemli üretim merkezleridir. A şıkkındaki Ege Bölgesi sanayide ikinci sırada gelirken, B, D ve E şıklarındaki diğer bölgeler sanayi yoğunluğu bakımından Marmara ve Ege'nin gerisinde kalmaktadır. Bölgenin ulaşım, enerji ve pazar avantajları sanayileşmeyi desteklemiştir.",
+      "harita_il": null,
+      "zorluk": "kolay",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779575844-H2-001",
+      "soru": "Türkiye'nin kuzey kıyı şeridini takip ederek İstanbul'dan Trabzon'a doğru seyreden bir gemi, yol boyunca aşağıdaki liman şehirlerinden hangisine uğramaz?",
+      "siklar": [
+        "A) Zonguldak",
+        "B) Samsun",
+        "C) Ordu",
+        "D) Sinop",
+        "E) Mersin"
+      ],
+      "dogru": "E) Mersin",
+      "aciklama": "Mersin limanı Akdeniz kıyısında yer alırken, İstanbul-Trabzon rotası Karadeniz kıyı şeridini izler. Karadeniz kıyısındaki Zonguldak, Samsun, Ordu ve Sinop limanları bu rota üzerindedir. Mersin ise tamamen farklı bir deniz kıyısında bulunduğu için gemi bu limana uğramaz. Bu nedenle doğru cevap E şıkkıdır.",
+      "harita_il": "mersin",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779575844-H2-002",
+      "soru": "İzmir limanından hareket ederek Ege kıyılarını takip edip Antalya'ya ulaşmak isteyen bir gemi aşağıdaki kıyı tiplerinden hangisinin bulunduğu alandan geçmek zorundadır?",
+      "siklar": [
+        "A) Dalmaçya kıyı tipi",
+        "B) Enine kıyı tipi",
+        "C) Boyuna kıyı tipi",
+        "D) Fiyort kıyı tipi",
+        "E) Hulka kıyı tipi"
+      ],
+      "dogru": "B) Enine kıyı tipi",
+      "aciklama": "Ege Bölgesi'nde dağlar kıyıya dik uzandığı için enine kıyı tipi görülür. İzmir'den Antalya'ya giderken Ege kıyıları enine yapıdadır. Dalmaçya kıyıları Adriyatik'te, boyuna kıyılar Batı Akdeniz'de, fiyortlar Norveç'te, hulka kıyıları ise Balkanlar'da yaygındır. Türkiye'de enine kıyı tipi Ege kıyılarının karakteristik özelliğidir. Bu nedenle doğru cevap B şıkkıdır.",
+      "harita_il": "izmir",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779575844-H2-003",
+      "soru": "Türkiye'deki delta ovaları ile ilgili aşağıdaki eşleştirmelerden hangisi yanlıştır?",
+      "siklar": [
+        "A) Bafra Deltası - Kızılırmak",
+        "B) Çarşamba Deltası - Yeşilırmak",
+        "C) Çukurova - Seyhan ve Ceyhan",
+        "D) Gediz Deltası - Gediz Nehri",
+        "E) Meriç Deltası - Kızılırmak"
+      ],
+      "dogru": "E) Meriç Deltası - Kızılırmak",
+      "aciklama": "Meriç Deltası Edirne ilinde Meriç Nehri tarafından oluşturulur. Kızılırmak ise Samsun'da Bafra Deltası'nı meydana getirir. Bafra Deltası Kızılırmak, Çarşamba Deltası Yeşilırmak, Çukurova Seyhan ve Ceyhan, Gediz Deltası ise Gediz Nehri ile doğru eşleşmiştir. Dolayısıyla Meriç Deltası'nın Kızılırmak ile eşleştirilmesi yanlıştır. Doğru cevap E şıkkıdır.",
+      "harita_il": "samsun",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779575844-H2-004",
+      "soru": "Türkiye'de kıyı turizminin en gelişmiş olduğu bölge aşağıdakilerden hangisidir?",
+      "siklar": [
+        "A) Karadeniz",
+        "B) Ege",
+        "C) Akdeniz",
+        "D) Marmara",
+        "E) İç Anadolu"
+      ],
+      "dogru": "C) Akdeniz",
+      "aciklama": "Akdeniz Bölgesi, özellikle Antalya ve Muğla çevresi, Türkiye'de kıyı turizminin en yoğun olduğu bölgedir. Ege ve Marmara bölgeleri de önemli turizm potansiyeline sahip olmakla birlikte Akdeniz, deniz-kum-güneş turizminde başı çeker. Karadeniz'de turizm daha az gelişmiştir, İç Anadolu ise denize kıyısı olmadığından kıyı turizmi bulunmaz. Doğru cevap C şıkkıdır.",
+      "harita_il": "antalya",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779575844-H2-005",
+      "soru": "Türkiye'nin dış ticaret hacmi en büyük limanı aşağıdaki şehirlerin hangisinde yer alır?",
+      "siklar": [
+        "A) İzmir",
+        "B) Mersin",
+        "C) İstanbul",
+        "D) Kocaeli",
+        "E) Samsun"
+      ],
+      "dogru": "C) İstanbul",
+      "aciklama": "İstanbul Limanı, tarihsel ve stratejik konumuyla Türkiye'nin en büyük dış ticaret limanıdır. Kocaeli limanları da büyük olmakla birlikte İstanbul'un yük hacmi daha fazladır. Mersin ve İzmir Akdeniz ve Ege'de önemli limanlardır, Samsun ise Karadeniz'in en büyük limanıdır. Ancak tüm limanlar arasında İstanbul en yüksek ticaret hacmine sahiptir. Doğru cevap C şıkkıdır.",
+      "harita_il": "istanbul",
+      "zorluk": "orta",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779575844-H2-006",
+      "soru": "Türkiye'deki limanlarla ilgili,\nI. Mersin Limanı Akdeniz kıyısında yer alır.\nII. Samsun Limanı Karadeniz kıyısında bulunur.\nIII. İzmir Limanı Marmara Denizi kıyısındadır.\nyargılarından hangileri doğrudur?",
+      "siklar": [
+        "A) Yalnız I",
+        "B) I ve II",
+        "C) I ve III",
+        "D) II ve III",
+        "E) I, II ve III"
+      ],
+      "dogru": "B) I ve II",
+      "aciklama": "Mersin Limanı Akdeniz'de, Samsun Limanı Karadeniz'de yer alır. İzmir Limanı ise Ege Denizi kıyısındadır, Marmara Denizi'nde değildir. Bu nedenle I ve II doğru, III yanlıştır. A şıkkı sadece I'i, C ve D şıkları III'ü içerdiği için yanlıştır. E şıkkı ise III'ü de doğru kabul eder. Doğru cevap B şıkkıdır.",
+      "harita_il": "mersin",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
+    },
+    {
+      "id": "beseri-cografya-1779575844-H2-007",
+      "soru": "Yukarıdaki Türkiye haritasında I, II, III, IV ve V numaralı alanlar gösterilmiştir. Bu alanlardan hangisi deltaların en yoğun olduğu bölgeyi temsil etmektedir?",
+      "siklar": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV",
+        "E) V"
+      ],
+      "dogru": "B) II",
+      "aciklama": "Haritada II numaralı alan Samsun ilini göstermektedir. Samsun kıyılarında Kızılırmak ile Bafra Deltası, Yeşilırmak ile Çarşamba Deltası yer alır. I numaralı alan Adana (Çukurova), III İzmir (Gediz-Küçük Menderes), IV Antalya (Aksu-Köprüçay), V ise İstanbul'u temsil eder. Samsun, iki büyük delta ovasına sahip olduğu için deltaların en yoğun olduğu bölgedir. Doğru cevap B şıkkıdır.",
+      "harita_il": "samsun",
+      "zorluk": "zor",
+      "gorsel": "beseri-cografya/beseri-cografya-1779575844-H2-007.svg",
+      "gorsel_veri": {
+        "I": "adana",
+        "II": "samsun",
+        "III": "izmir",
+        "IV": "antalya",
+        "V": "istanbul"
+      }
+    },
+    {
+      "id": "beseri-cografya-1779575844-H2-008",
+      "soru": "İskenderun limanından hareket eden bir gemi, doğrudan Akdeniz kıyısını takip ederek Mersin limanına ulaşmak istemektedir. Bu gemi yol boyunca aşağıdaki akarsu ağızlarından hangisinin olduğu yere rastlamaz?",
+      "siklar": [
+        "A) Seyhan",
+        "B) Ceyhan",
+        "C) Asi",
+        "D) Göksu",
+        "E) Manavgat"
+      ],
+      "dogru": "E) Manavgat",
+      "aciklama": "İskenderun-Mersin arasındaki kıyı şeridinde Asi Nehri (Hatay), Seyhan ve Ceyhan (Adana), Göksu (Mersin) akarsuları denize dökülür. Manavgat Nehri ise Antalya ilinde olup bu rotanın batısında kaldığından gemi tarafından görülmez. Diğer dört akarsu ağzı rota üzerindedir. Bu nedenle doğru cevap E şıkkıdır.",
+      "harita_il": "mersin",
+      "zorluk": "zor",
+      "gorsel": null,
+      "gorsel_veri": null
     }
   ]
 }
