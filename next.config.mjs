@@ -2,6 +2,11 @@
 const nextConfig = {
   pageExtensions: ['js', 'jsx', 'mdx', 'ts', 'tsx'],
   trailingSlash: false,
+  experimental: {
+    outputFileTracingIncludes: {
+      '/*': ['./data/**/*', './content/**/*'],
+    },
+  },
   images: {
     remotePatterns: [],
   },
