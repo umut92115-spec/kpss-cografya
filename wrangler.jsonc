@@ -3,6 +3,12 @@
 	"main": ".open-next/worker.js",
 	"name": "kpss-cografya",
 	"compatibility_date": "2026-05-23",
+	"observability": {
+		"logs": {
+			"enabled": false,
+			"invocation_logs": true
+		}
+	},
 	"compatibility_flags": [
 		"nodejs_compat",
 		"global_fetch_strictly_public"
