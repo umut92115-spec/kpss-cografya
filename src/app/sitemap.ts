@@ -1,8 +1,8 @@
 import { MetadataRoute } from "next";
 import { getAllIller, bolgeler } from "@/lib/getIlData";
 import { getAllKonular } from "@/lib/getKonuData";
-import fs from "fs";
-import path from "path";
+import fs from "node:fs";
+import path from "node:path";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://kpsscografya.com.tr";

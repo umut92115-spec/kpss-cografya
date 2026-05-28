@@ -7,6 +7,7 @@ const nextConfig = {
       '/*': ['./data/**/*', './content/**/*'],
     },
   },
+  transpilePackages: ['next-mdx-remote', 'remark-gfm'],
   images: {
     remotePatterns: [],
   },

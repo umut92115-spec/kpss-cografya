@@ -1,6 +1,6 @@
 "use server";
-import fs from "fs/promises";
-import path from "path";
+import fs from "node:fs/promises";
+import path from "node:path";
 import { revalidatePath } from "next/cache";
 
 export async function deleteSoruAction(konuSlug: string, soruId: string) {

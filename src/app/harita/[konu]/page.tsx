@@ -4,8 +4,8 @@ import { getKonuMatris, getAllIller } from "@/lib/getIlData";
 import { notFound } from "next/navigation";
 import HaritaIcerik from "./HaritaIcerik";
 import JsonLd from "@/components/JsonLd";
-import fs from "fs";
-import path from "path";
+import fs from "node:fs";
+import path from "node:path";
 import Link from "next/link";
 import { MapPin, Compass, BookOpen, HelpCircle, ChevronLeft, Table } from "lucide-react";
 

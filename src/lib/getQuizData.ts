@@ -1,5 +1,5 @@
-import fs from "fs";
-import path from "path";
+import fs from "node:fs";
+import path from "node:path";
 import { QuizData } from "@/types/quiz";
 
 const quizDir = path.join(process.cwd(), "data", "quiz");
