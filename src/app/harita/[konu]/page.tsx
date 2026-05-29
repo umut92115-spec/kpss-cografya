@@ -1,3 +1,4 @@
+export const dynamicParams = false;
 import { Metadata } from "next";
 import { getKonu, getAllKonular } from "@/lib/getKonuData";
 import { getKonuMatris, getAllIller } from "@/lib/getIlData";

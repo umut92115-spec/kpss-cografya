@@ -1,3 +1,4 @@
+export const dynamicParams = false;
 import React from "react";
 import { getKonu, getAllKonular, getKonuFaq } from "@/lib/getKonuData";
 import type { FAQ } from "@/types";
