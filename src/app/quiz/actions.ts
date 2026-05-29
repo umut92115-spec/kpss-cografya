@@ -1,6 +1,10 @@
 "use server";
 
-export async function generateDenemeAction() {
+export async function generateDenemeAction(): Promise<{
+  success: boolean;
+  error?: string;
+  sorular?: any[];
+}> {
   return {
     success: false,
     error:
