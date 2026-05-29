@@ -4,31 +4,8 @@ import { getKonuMatris, getAllIller } from "@/lib/getIlData";
 import { notFound } from "next/navigation";
 import HaritaIcerik from "./HaritaIcerik";
 import JsonLd from "@/components/JsonLd";
-import leafletAkarsular from "../../../../data/leaflet/akarsular.json";
-import leafletDaglar from "../../../../data/leaflet/daglar.json";
-import leafletGoller from "../../../../data/leaflet/goller.json";
-import leafletIller from "../../../../data/leaflet/iller.json";
-import leafletKiyiOlusumlar from "../../../../data/leaflet/kiyi_olusumlar.json";
-import leafletLimanlar from "../../../../data/leaflet/limanlar.json";
-import leafletMadenler from "../../../../data/leaflet/madenler.json";
-import leafletOvalar from "../../../../data/leaflet/ovalar.json";
-import leafletSinirKapilari from "../../../../data/leaflet/sinir_kapilari.json";
-import leafletTurizm from "../../../../data/leaflet/turizm.json";
-import leafletTurkiyeCografya from "../../../../data/leaflet/turkiye_cografya.json";
-
-const leafletMap: Record<string, any> = {
-  akarsular: leafletAkarsular,
-  daglar: leafletDaglar,
-  goller: leafletGoller,
-  iller: leafletIller,
-  kiyi_olusumlar: leafletKiyiOlusumlar,
-  limanlar: leafletLimanlar,
-  madenler: leafletMadenler,
-  ovalar: leafletOvalar,
-  sinir_kapilari: leafletSinirKapilari,
-  turizm: leafletTurizm,
-  turkiye_cografya: leafletTurkiyeCografya,
-};
+import fs from "node:fs";
+import path from "node:path";
 import Link from "next/link";
 import { MapPin, Compass, BookOpen, HelpCircle, ChevronLeft, Table } from "lucide-react";
 
@@ -320,10 +297,9 @@ export default function HaritaKonuPage({ params }: { params: { konu: string } })
   // Leaflet detaylı nokta verisini sunucu tarafında okuma (SEO tablosu için)
   let haritaNoktalari: any[] = [];
   try {
-    // Some slugs have hyphens in URL but underscores in JSON files
-    const leafletKey = params.konu.replace(/-/g, "_");
-    const fileContent = leafletMap[leafletKey] || leafletMap[params.konu];
-    if (fileContent) {
+    const filePath = path.join(process.cwd(), "data", "leaflet", `${params.konu}.json`);
+    if (fs.existsSync(filePath)) {
+      const fileContent = JSON.parse(fs.readFileSync(filePath, "utf8"));
       haritaNoktalari = fileContent.noktalar || [];
     }
   } catch (e) {

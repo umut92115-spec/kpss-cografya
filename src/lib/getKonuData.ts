@@ -1,13 +1,19 @@
+import fs from "node:fs";
+import path from "node:path";
 import { Konu, FAQ } from "@/types";
 
-import konularData from "../../data/konular.json";
+const dataDir = path.join(process.cwd(), "data");
 
-import rawFaqData from "../../data/faq-konular.json";
-
-const faqData: Record<string, FAQ[]> = rawFaqData as Record<string, FAQ[]>;
+// ─── In-memory caches (build-time singleton) ────────────────────────────────
+let konularCache: Konu[] | null = null;
+let faqCache: Record<string, FAQ[]> | null = null;
 
 export function getAllKonular(): Konu[] {
-  return konularData as Konu[];
+  if (konularCache) return konularCache;
+  const filePath = path.join(dataDir, "konular.json");
+  const fileContents = fs.readFileSync(filePath, "utf8");
+  konularCache = JSON.parse(fileContents) as Konu[];
+  return konularCache;
 }
 
 export function getKonu(slug: string): Konu | undefined {
@@ -15,5 +21,10 @@ export function getKonu(slug: string): Konu | undefined {
 }
 
 export function getKonuFaq(slug: string): FAQ[] {
-  return faqData[slug] ?? [];
+  if (!faqCache) {
+    const filePath = path.join(dataDir, "faq-konular.json");
+    if (!fs.existsSync(filePath)) return [];
+    faqCache = JSON.parse(fs.readFileSync(filePath, "utf8")) as Record<string, FAQ[]>;
+  }
+  return faqCache[slug] ?? [];
 }

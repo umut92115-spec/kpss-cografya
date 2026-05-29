@@ -1,51 +1,6 @@
+import fs from "node:fs";
+import path from "node:path";
 import { Il, IlKonuData, MatrisData, BolgeVerisi } from "@/types";
-
-import illerData from "../../data/iller.json";
-import bolgeVerileriData from "../../data/bolge-verileri.json";
-import ilOzetlerData from "../../data/il-ozetler.json";
-
-// Matris imports
-import matrisAkarsular from "../../data/matris/akarsular.json";
-import matrisBeseriCografya from "../../data/matris/beseri-cografya.json";
-import matrisBolgeJeopolitik from "../../data/matris/bolge-jeopolitik.json";
-import matrisCografiKonum from "../../data/matris/cografi-konum.json";
-import matrisDaglar from "../../data/matris/daglar.json";
-import matrisGoller from "../../data/matris/goller.json";
-import matrisIklimBitki from "../../data/matris/iklim-bitki.json";
-import matrisJeolojikYapi from "../../data/matris/jeolojik-yapi.json";
-import matrisKalkinmaProjeleri from "../../data/matris/kalkinma-projeleri.json";
-import matrisKiyiTipleri from "../../data/matris/kiyi-tipleri.json";
-import matrisMadenlerEnerji from "../../data/matris/madenler-enerji.json";
-import matrisSanayi from "../../data/matris/sanayi.json";
-import matrisSinirKapilari from "../../data/matris/sinir-kapilari.json";
-import matrisTarim from "../../data/matris/tarim.json";
-import matrisTicaret from "../../data/matris/ticaret.json";
-import matrisToprakCevre from "../../data/matris/toprak-cevre.json";
-import matrisTurizm from "../../data/matris/turizm.json";
-import matrisUlasim from "../../data/matris/ulasim.json";
-import matrisYerSekilleri from "../../data/matris/yer-sekilleri.json";
-
-const matrisMap: Record<string, any> = {
-  akarsular: matrisAkarsular,
-  "beseri-cografya": matrisBeseriCografya,
-  "bolge-jeopolitik": matrisBolgeJeopolitik,
-  "cografi-konum": matrisCografiKonum,
-  daglar: matrisDaglar,
-  goller: matrisGoller,
-  "iklim-bitki": matrisIklimBitki,
-  "jeolojik-yapi": matrisJeolojikYapi,
-  "kalkinma-projeleri": matrisKalkinmaProjeleri,
-  "kiyi-tipleri": matrisKiyiTipleri,
-  "madenler-enerji": matrisMadenlerEnerji,
-  sanayi: matrisSanayi,
-  "sinir-kapilari": matrisSinirKapilari,
-  tarim: matrisTarim,
-  ticaret: matrisTicaret,
-  "toprak-cevre": matrisToprakCevre,
-  turizm: matrisTurizm,
-  ulasim: matrisUlasim,
-  "yer-sekilleri": matrisYerSekilleri,
-};
 
 // Bölge tanımları ve URL slug eşleştirmeleri
 export const bolgeler = [
@@ -58,8 +13,20 @@ export const bolgeler = [
   { slug: "karadeniz", ad: "Karadeniz", url: "karadenizbolgesi" },
 ];
 
+const dataDir = path.join(process.cwd(), "data");
+
+// ─── In-memory caches (build-time singleton) ────────────────────────────────
+let illerCache: Il[] | null = null;
+// Matris cache: her konu için ayrı entry
+const matrisCache = new Map<string, Record<string, IlKonuData> | null>();
+let ilOzetlerCache: Record<string, string[]> | null = null;
+let bolgeVerileriCache: Record<string, BolgeVerisi> | null = null;
+
 export function getAllIller(): Il[] {
-  return illerData as Il[];
+  if (illerCache) return illerCache;
+  const filePath = path.join(dataDir, "iller.json");
+  illerCache = JSON.parse(fs.readFileSync(filePath, "utf8")) as Il[];
+  return illerCache;
 }
 
 export function getIl(slug: string): Il | undefined {
@@ -67,10 +34,21 @@ export function getIl(slug: string): Il | undefined {
 }
 
 export function getKonuMatris(konuSlug: string): Record<string, IlKonuData> | null {
-  const matrisFile = matrisMap[konuSlug];
-  if (!matrisFile) return null;
-  const data = matrisFile as MatrisData;
-  return data.iller ?? null;
+  if (matrisCache.has(konuSlug)) return matrisCache.get(konuSlug)!;
+  try {
+    const filePath = path.join(dataDir, "matris", `${konuSlug}.json`);
+    if (!fs.existsSync(filePath)) {
+      matrisCache.set(konuSlug, null);
+      return null;
+    }
+    const data: MatrisData = JSON.parse(fs.readFileSync(filePath, "utf8"));
+    matrisCache.set(konuSlug, data.iller);
+    return data.iller;
+  } catch (err) {
+    console.error(`Matris verisi okunamadı: ${konuSlug}`, err);
+    matrisCache.set(konuSlug, null);
+    return null;
+  }
 }
 
 export function getIlKonuData(ilSlug: string, konuSlug: string): IlKonuData | null {
@@ -79,8 +57,16 @@ export function getIlKonuData(ilSlug: string, konuSlug: string): IlKonuData | nu
 }
 
 export function getIlOzet(slug: string): string[] | null {
-  const data = ilOzetlerData as Record<string, string[]>;
-  return data[slug] ?? null;
+  try {
+    if (!ilOzetlerCache) {
+      const filePath = path.join(dataDir, "il-ozetler.json");
+      if (!fs.existsSync(filePath)) return null;
+      ilOzetlerCache = JSON.parse(fs.readFileSync(filePath, "utf8"));
+    }
+    return ilOzetlerCache![slug] ?? null;
+  } catch {
+    return null;
+  }
 }
 
 export function getBolgeByUrl(url: string) {
@@ -92,6 +78,14 @@ export function getIllerByBolge(bolgeSlug: string): Il[] {
 }
 
 export function getBolgeVerileri(bolgeSlug: string): BolgeVerisi | null {
-  const data = bolgeVerileriData as Record<string, BolgeVerisi>;
-  return data[bolgeSlug] ?? null;
+  try {
+    if (!bolgeVerileriCache) {
+      const filePath = path.join(dataDir, "bolge-verileri.json");
+      if (!fs.existsSync(filePath)) return null;
+      bolgeVerileriCache = JSON.parse(fs.readFileSync(filePath, "utf8"));
+    }
+    return bolgeVerileriCache![bolgeSlug] ?? null;
+  } catch {
+    return null;
+  }
 }

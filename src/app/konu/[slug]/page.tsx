@@ -8,6 +8,8 @@ import { MDXRemote } from "next-mdx-remote/rsc";
 import KonuOzetKarti from "@/components/KonuOzetKarti";
 import IcindekilerTablosu, { TocItem } from "@/components/IcindekilerTablosu";
 import KpssNotKutusu from "@/components/KpssNotKutusu";
+import fs from "node:fs";
+import path from "node:path";
 import matter from "gray-matter";
 import JsonLd from "@/components/JsonLd";
 import IlgiliBaglantilar from "@/components/IlgiliBaglantilar";
@@ -147,17 +149,11 @@ const mdxComponents = {
 };
 
 async function getMdxContent(slug: string) {
-  try {
-    const fs = await import("node:fs");
-    const path = await import("node:path");
-    const filePath = path.join(process.cwd(), "content", "konu", `${slug}.mdx`);
-    if (!fs.existsSync(filePath)) return null;
-    const raw = fs.readFileSync(filePath, "utf8");
-    const { content, data } = matter(raw);
-    return { content, frontmatter: data };
-  } catch {
-    return null;
-  }
+  const filePath = path.join(process.cwd(), "content", "konu", `${slug}.mdx`);
+  if (!fs.existsSync(filePath)) return null;
+  const raw = fs.readFileSync(filePath, "utf8");
+  const { content, data } = matter(raw);
+  return { content, frontmatter: data };
 }
 
 function parseToc(content: string, faqs: FAQ[]): TocItem[] {

@@ -1,6 +1,8 @@
 import { MetadataRoute } from "next";
 import { getAllIller, bolgeler } from "@/lib/getIlData";
 import { getAllKonular } from "@/lib/getKonuData";
+import fs from "node:fs";
+import path from "node:path";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://kpsscografya.com.tr";
@@ -136,39 +138,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
 
   // Quiz sayfaları dinamik ekleme
-  // Quiz sayfaları dinamik ekleme
-  const quizSlugs = [
-    "akarsular",
-    "beseri-cografya",
-    "bolge-jeopolitik",
-    "cografi-konum",
-    "daglar",
-    "genel-cografya-200",
-    "goller",
-    "iklim-bitki",
-    "jeolojik-yapi",
-    "kalkinma-projeleri",
-    "kiyi-tipleri",
-    "madenler-enerji",
-    "nufus-politikalari",
-    "sanayi",
-    "sinir-kapilari",
-    "tarim",
-    "ticaret",
-    "toprak-cevre",
-    "turizm",
-    "ulasim",
-    "yer-sekilleri",
-  ];
+  const quizDir = path.join(process.cwd(), "data", "quiz");
+  let quizUrls: MetadataRoute.Sitemap = [];
 
-  const quizUrls: MetadataRoute.Sitemap = quizSlugs.map((slug) => {
-    return {
-      url: `${baseUrl}/quiz/${slug}`,
-      lastModified: updateDate,
-      changeFrequency: "weekly" as const,
-      priority: 0.7,
-    };
-  });
+  if (fs.existsSync(quizDir)) {
+    const quizFiles = fs.readdirSync(quizDir).filter((file) => file.endsWith(".json"));
+    quizUrls = quizFiles.map((file) => {
+      const slug = file.replace(".json", "");
+      return {
+        url: `${baseUrl}/quiz/${slug}`,
+        lastModified: updateDate,
+        changeFrequency: "weekly" as const,
+        priority: 0.7,
+      };
+    });
+  }
 
   return [
     {
