@@ -1,7 +1,6 @@
 "use server";
 
-import fs from "node:fs/promises";
-import path from "node:path";
+import { getQuizData } from "@/lib/getQuizData";
 
 // Fisher-Yates shuffle
 function shuffleArray<T>(array: T[]): T[] {
@@ -63,29 +62,13 @@ const CATEGORY_MAP = {
 
 async function loadQuestionsFromSlug(slug: string): Promise<any[]> {
   try {
-    const filePath = path.join(process.cwd(), "data/quiz", `${slug}.json`);
-    const fileContent = await fs.readFile(filePath, "utf-8");
-    const rawData = JSON.parse(fileContent);
-    let sorular: any[] = [];
-    if (Array.isArray(rawData)) {
-      sorular = rawData;
-    } else if (rawData && typeof rawData === "object" && Array.isArray(rawData.sorular)) {
-      sorular = rawData.sorular;
-    }
-    return sorular.map((item, index) => ({
+    const data = getQuizData(slug);
+    if (!data) return [];
+
+    // getQuizData already normalizes the data
+    return data.sorular.map((item, index) => ({
+      ...item,
       id: item.id || `${slug}-q-${index}`,
-      soru: item.soru || item.question || "",
-      siklar: item.siklar || item.options || [],
-      dogru:
-        item.dogru ||
-        (item.options && item.correct_index !== undefined
-          ? item.options[item.correct_index]
-          : "") ||
-        "",
-      aciklama: item.aciklama || item.explanation || "",
-      harita_il: item.harita_il || null,
-      zorluk: item.zorluk || "orta",
-      gorsel: item.gorsel || null,
       konu_slug: slug,
     }));
   } catch (error) {

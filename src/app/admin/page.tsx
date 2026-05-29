@@ -1,7 +1,6 @@
-import fs from "node:fs/promises";
-import path from "node:path";
 import AdminClient from "./AdminClient";
 import { getAllKonular } from "@/lib/getKonuData";
+import { getQuizData } from "@/lib/getQuizData";
 
 interface Soru {
   id: string;
@@ -24,29 +23,39 @@ export const metadata = {
 };
 
 export default async function AdminPage() {
-  const quizDir = path.join(process.cwd(), "data/quiz");
+  const quizSlugs = [
+    "akarsular",
+    "beseri-cografya",
+    "bolge-jeopolitik",
+    "cografi-konum",
+    "daglar",
+    "genel-cografya-200",
+    "goller",
+    "iklim-bitki",
+    "jeolojik-yapi",
+    "kalkinma-projeleri",
+    "kiyi-tipleri",
+    "madenler-enerji",
+    "nufus-politikalari",
+    "sanayi",
+    "sinir-kapilari",
+    "tarim",
+    "ticaret",
+    "toprak-cevre",
+    "turizm",
+    "ulasim",
+    "yer-sekilleri",
+  ];
 
-  // Klasörün varlığını garanti edelim
-  await fs.mkdir(quizDir, { recursive: true });
-
-  const files = await fs.readdir(quizDir);
   const quizzes: QuizData[] = [];
 
-  for (const file of files) {
-    if (file.endsWith(".json")) {
-      const filePath = path.join(quizDir, file);
-      const fileContent = await fs.readFile(filePath, "utf-8");
-      try {
-        const data = JSON.parse(fileContent);
-        if (data.konu) {
-          quizzes.push({
-            konu: data.konu,
-            sorular: data.sorular || [],
-          });
-        }
-      } catch (err) {
-        console.error(`Error parsing ${file}:`, err);
-      }
+  for (const slug of quizSlugs) {
+    const data = getQuizData(slug);
+    if (data) {
+      quizzes.push({
+        konu: data.konu || slug,
+        sorular: data.sorular || [],
+      });
     }
   }
 
