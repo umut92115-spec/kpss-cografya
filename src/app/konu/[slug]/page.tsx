@@ -152,7 +152,7 @@ async function getMdxContent(slug: string) {
   try {
     const fs = require("node:fs");
     const path = require("node:path");
-    const filePath = path.join(process.cwd(), "content", "konu", `${slug}.mdx`);
+    const filePath = path.join(process.cwd(), "public", "content", "konu", `${slug}.mdx`);
     if (!fs.existsSync(filePath)) return null;
     const raw = fs.readFileSync(filePath, "utf8");
     const { content, data } = matter(raw);
