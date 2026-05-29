@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "konu": "Bölge Kavramı ve Jeopolitik",
+    "aciklama": "Türkiye'nin stratejik konumu, boğazlar, sınır kapıları ve enerji koridoru rolü."
+  },
+  "stratejik_noktalar": [
+    { "ad": "İstanbul Boğazı", "ozellik": "Karadeniz'i Akdeniz'e bağlayan tek deniz yolu. Montrö Sözleşmesi ile kontrol edilir.", "lat": 41.08, "lng": 29.04 },
+    { "ad": "Çanakkale Boğazı", "ozellik": "Ege'den Marmara'ya geçiş noktası. Stratejik savunma ve ticaret hattı.", "lat": 40.15, "lng": 26.40 },
+    { "ad": "Habur Sınır Kapısı", "ozellik": "Irak'a açılan en önemli ticaret kapımız.", "lat": 37.15, "lng": 42.56 },
+    { "ad": "Kapıkule Sınır Kapısı", "ozellik": "Avrupa'ya açılan en büyük kara yolu sınır kapısı.", "lat": 41.72, "lng": 26.35 },
+    { "ad": "Sarp Sınır Kapısı", "ozellik": "Kafkasya ve Orta Asya'ya açılan kapımız.", "lat": 41.52, "lng": 41.54 },
+    { "ad": "Gürbulak Sınır Kapısı", "ozellik": "İran ile en büyük ticaret bağlantı noktası.", "lat": 39.42, "lng": 44.40 }
+  ],
+  "enerji_koridoru": [
+    { "ad": "TANAP", "ozellik": "Azerbaycan doğal gazını Türkiye üzerinden Avrupa'ya taşır.", "lat": 39.75, "lng": 34.00 },
+    { "ad": "BTC", "ozellik": "Bakü (Azerbaycan) petrolünü Ceyhan Terminali üzerinden dünyaya ulaştırır.", "lat": 37.00, "lng": 35.80 },
+    { "ad": "TürkAkım", "ozellik": "Rus doğal gazını Karadeniz altından Türkiye ve Avrupa'ya taşır.", "lat": 41.50, "lng": 28.10 },
+    { "ad": "Mavi Akım", "ozellik": "Rus doğal gazını Karadeniz altından doğrudan Samsun'a ulaştırır.", "lat": 41.30, "lng": 36.33 }
+  ],
+  "jeopolitik_unsurlar": {
+    "degismeyen": ["Coğrafi konum", "İklim", "Yer şekilleri", "Su örtüsü"],
+    "degisen": ["Siyasi değerler", "Askeri güç", "Ekonomik değerler", "Bilimsel teknoloji"]
+  }
+}

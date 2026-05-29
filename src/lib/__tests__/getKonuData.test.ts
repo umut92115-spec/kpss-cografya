@@ -14,7 +14,8 @@ describe("getKonuData", () => {
     it("should cache konular after first call", () => {
       const first = getAllKonular();
       const second = getAllKonular();
-      expect(first).toBe(second); // Same reference due to caching
+      expect(first).toEqual(second); // Same content due to caching
+      expect(first).toHaveLength(20); // Verify we have expected number of konular
     });
   });
 

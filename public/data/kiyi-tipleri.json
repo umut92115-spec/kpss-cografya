@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "konu": "Kıyı Tipleri ve Denizler",
+    "aciklama": "Türkiye'nin denizleri ve kıyı oluşum şekilleri."
+  },
+  "kiyi_tipleri": [
+    { "ad": "Boyuna Kıyı Tipi", "ozellik": "Dağların kıyıya paralel uzandığı kıyılar. Falez çok, girinti-çıkıntı az.", "bolge": "Karadeniz ve Akdeniz", "lat": 41.50, "lng": 35.00 },
+    { "ad": "Enine Kıyı Tipi", "ozellik": "Dağların kıyıya dik uzandığı kıyılar. Körfez, koy ve ada çoktur.", "bolge": "Ege (Edremit-Kuşadası)", "lat": 38.50, "lng": 26.80 },
+    { "ad": "Ria Kıyı Tipi", "ozellik": "Akarsu vadilerinin deniz altında kalmasıyla oluşur.", "ornek": "İstanbul Boğazı, Haliç, Gökova Körfezi", "lat": 41.10, "lng": 29.00 },
+    { "ad": "Dalmaçya Kıyı Tipi", "ozellik": "Kıyıya paralel dağların su altında kalmasıyla adalar oluşur.", "ornek": "Finike-Kaş (Antalya)", "lat": 36.20, "lng": 29.60 },
+    { "ad": "Kalanklı Kıyı Tipi", "ozellik": "Kalkerli arazide oluşan kanyonların deniz altında kalması.", "ornek": "Mersin (Silifke-Erdemli)", "lat": 36.45, "lng": 34.05 },
+    { "ad": "Lagünlü (Limanlı) Kıyı", "ozellik": "Kıyı set göllerinin bulunduğu kıyılar.", "ornek": "Büyükçekmece, Küçükçekmece", "lat": 41.00, "lng": 28.60 }
+  ],
+  "denizler": {
+    "akdeniz": "En tuzlu, en sıcak denizimiz. Enlem etkisi.",
+    "ege": "En girintili çıkıntılı kıyılar. Kıta sahanlığı en geniş.",
+    "marmara": "Bir iç denizimiz. Kirlilik oranı en yüksek.",
+    "karadeniz": "En az tuzlu, en serin denizimiz. Yağış ve akarsu beslemesi fazla."
+  }
+}

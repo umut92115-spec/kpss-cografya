@@ -1,0 +1,35 @@
+{
+  "nufus_yogunlugu": {
+    "yogun": [
+      {"ad": "Çatalca - Kocaeli Bölümü", "lat": 41.0, "lng": 29.0, "sebep": "Sanayi, ticaret, ulaşım, iklim."},
+      {"ad": "Kıyı Ege (İzmir çevresi)", "lat": 38.4, "lng": 27.1, "sebep": "Tarım, sanayi, turizm, iklim."},
+      {"ad": "Adana ve Hatay çevresi", "lat": 36.9, "lng": 35.3, "sebep": "Verimli tarım alanları, sanayi."},
+      {"ad": "Doğu Karadeniz Kıyıları", "lat": 41.0, "lng": 39.7, "sebep": "İç kesimler dağlık olduğu için nüfus kıyıya sıkışmıştır."},
+      {"ad": "Ankara ve çevresi", "lat": 39.9, "lng": 32.8, "sebep": "İdari merkez (Başkent), sanayi ve hizmet."}
+    ],
+    "seyrek": [
+      {"ad": "Yıldız Dağları", "lat": 41.7, "lng": 27.6, "sebep": "Dağlık, engebeli ve ulaşım yollarına sapa."},
+      {"ad": "Çanakkale (Biga - Gelibolu)", "lat": 40.1, "lng": 26.4, "sebep": "Ulaşım yollarına sapa ve dağlık (sit alanları var)."},
+      {"ad": "Menteşe Yöresi (Muğla)", "lat": 37.2, "lng": 28.3, "sebep": "Çok engebeli ve dağlık."},
+      {"ad": "Teke Yöresi", "lat": 36.5, "lng": 29.8, "sebep": "Karstik (kalker) arazi ve engebeli."},
+      {"ad": "Taşeli Platosu", "lat": 36.6, "lng": 33.0, "sebep": "Karstik arazi, ulaşım zorluğu."},
+      {"ad": "Tuz Gölü Çevresi", "lat": 38.7, "lng": 33.3, "sebep": "İklim kurak, yağış azlığı."},
+      {"ad": "Hakkari Yöresi", "lat": 37.5, "lng": 43.7, "sebep": "Çok engebeli, iklim sert, ulaşım zor."},
+      {"ad": "Erzurum - Kars", "lat": 40.5, "lng": 42.5, "sebep": "Kışlar çok uzun ve sert (sıcaklık düşük)."}
+    ]
+  },
+  "yerlesmeler": {
+    "surekli": [
+      {"ad": "Mezra", "bolge": "Doğu, G.Doğu, İç Anadolu", "ozellik": "Tarım + Hayvancılık yapılan, birkaç ailelik sürekli yerleşme."},
+      {"ad": "Divan", "bolge": "Batı Karadeniz (Bolu, Sakarya)", "ozellik": "Birkaç mahallenin muhtarlık altında birleşmesi."},
+      {"ad": "Mahalle", "bolge": "Karadeniz, Marmara, Ege", "ozellik": "Köye bağlı en küçük sürekli yerleşme."}
+    ],
+    "gecici": [
+      {"ad": "Yayla", "bolge": "Karadeniz, Toroslar, D.Anadolu", "ozellik": "Yazın hayvancılık veya turizm amaçlı çıkılan yerler."},
+      {"ad": "Kom", "bolge": "Doğu Anadolu", "ozellik": "Küçükbaş hayvancılık için kurulan geçici yerleşme."},
+      {"ad": "Ağıl", "bolge": "İç Anadolu, D.Anadolu", "ozellik": "Etrafı taş veya çitle çevrili hayvan barınağı."},
+      {"ad": "Oba", "bolge": "Toroslar (Göçebeler)", "ozellik": "Çadırlarla kurulan geçici hayvancılık yerleşmesi."},
+      {"ad": "Dalyan", "bolge": "Ege, Akdeniz", "ozellik": "Balıkçılık amaçlı kurulan geçici yerleşmeler."}
+    ]
+  }
+}

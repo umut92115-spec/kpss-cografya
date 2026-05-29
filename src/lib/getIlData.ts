@@ -1,10 +1,6 @@
 /* eslint-disable @typescript-eslint/no-require-imports */
 import { Il, IlKonuData, MatrisData, BolgeVerisi } from "@/types";
-import illerData from "../../data/iller.json";
-import ilOzetlerData from "../../data/il-ozetler.json";
-import bolgeVerileriData from "../../data/bolge-verileri.json";
 
-// Bölge tanımları ve URL slug eşleştirmeleri
 export const bolgeler = [
   { slug: "akdeniz", ad: "Akdeniz", url: "akdenizbolgesi" },
   { slug: "ege", ad: "Ege", url: "egebolgesi" },
@@ -15,11 +11,33 @@ export const bolgeler = [
   { slug: "karadeniz", ad: "Karadeniz", url: "karadenizbolgesi" },
 ];
 
-// Matris cache: her konu için ayrı entry
 const matrisCache = new Map<string, Record<string, IlKonuData> | null>();
+const illerCache = new Map<string, Il[]>();
+const ozetlerCache = new Map<string, string[] | null>();
+const bolgeVerileriCache = new Map<string, BolgeVerisi | null>();
+
+function getData<T>(path: string, cache?: Map<string, T>): T | null {
+  if (cache?.has(path)) return cache.get(path)!;
+
+  try {
+    const fs = require("node:fs");
+    const filePath = require("node:path").join(process.cwd(), "public", path);
+    if (fs.existsSync(filePath)) {
+      const data = JSON.parse(fs.readFileSync(filePath, "utf8"));
+      if (cache) cache.set(path, data);
+      return data;
+    }
+  } catch (err) {
+    console.error(`Data okunamadı: ${path}`, err);
+  }
+  return null;
+}
 
 export function getAllIller(): Il[] {
-  return illerData as Il[];
+  const cached = illerCache.get("iller");
+  if (cached) return cached;
+  const data = getData<Il[]>("data/iller.json", illerCache);
+  return data || [];
 }
 
 export function getIl(slug: string): Il | undefined {
@@ -29,20 +47,22 @@ export function getIl(slug: string): Il | undefined {
 export function getKonuMatris(konuSlug: string): Record<string, IlKonuData> | null {
   if (matrisCache.has(konuSlug)) return matrisCache.get(konuSlug)!;
 
-  // Edge runtime ortamında dosya okuma yapılamadığı için sadece Node runtime'da (derleme/build sırasında) okuyoruz
-  if (typeof process !== "undefined" && process.env.NEXT_RUNTIME !== "edge") {
-    try {
-      const fs = require("node:fs");
-      const path = require("node:path");
-      const filePath = path.join(process.cwd(), "data", "matris", `${konuSlug}.json`);
-      if (fs.existsSync(filePath)) {
-        const data: MatrisData = JSON.parse(fs.readFileSync(filePath, "utf8"));
-        matrisCache.set(konuSlug, data.iller);
-        return data.iller;
-      }
-    } catch (err) {
-      console.error(`Matris verisi okunamadı: ${konuSlug}`, err);
+  try {
+    const fs = require("node:fs");
+    const filePath = require("node:path").join(
+      process.cwd(),
+      "public",
+      "data",
+      "matris",
+      `${konuSlug}.json`
+    );
+    if (fs.existsSync(filePath)) {
+      const data: MatrisData = JSON.parse(fs.readFileSync(filePath, "utf8"));
+      matrisCache.set(konuSlug, data.iller);
+      return data.iller;
     }
+  } catch (err) {
+    console.error(`Matris verisi okunamadı: ${konuSlug}`, err);
   }
 
   matrisCache.set(konuSlug, null);
@@ -55,8 +75,13 @@ export function getIlKonuData(ilSlug: string, konuSlug: string): IlKonuData | nu
 }
 
 export function getIlOzet(slug: string): string[] | null {
-  const ozetler = ilOzetlerData as Record<string, string[]>;
-  return ozetler[slug] ?? null;
+  const cached = ozetlerCache.get(slug);
+  if (cached !== undefined) return cached;
+
+  const ozetler = getData<Record<string, string[]>>("data/il-ozetler.json");
+  const result = ozetler?.[slug] ?? null;
+  ozetlerCache.set(slug, result);
+  return result;
 }
 
 export function getBolgeByUrl(url: string) {
@@ -68,6 +93,11 @@ export function getIllerByBolge(bolgeSlug: string): Il[] {
 }
 
 export function getBolgeVerileri(bolgeSlug: string): BolgeVerisi | null {
-  const veriler = bolgeVerileriData as Record<string, BolgeVerisi>;
-  return veriler[bolgeSlug] ?? null;
+  const cached = bolgeVerileriCache.get(bolgeSlug);
+  if (cached !== undefined) return cached;
+
+  const veriler = getData<Record<string, BolgeVerisi>>("data/bolge-verileri.json");
+  const result = veriler?.[bolgeSlug] ?? null;
+  bolgeVerileriCache.set(bolgeSlug, result);
+  return result;
 }

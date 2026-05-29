@@ -1,0 +1,104 @@
+[
+  {
+    "ulke": "Suriye",
+    "sinir_km": 911,
+    "bolge": "Güney",
+    "sinir_illeri": ["Hatay", "Gaziantep", "Kilis", "Şanlıurfa", "Mardin"],
+    "sinir_kapilari": [
+      { "ad": "Cilvegözü", "il": "Hatay", "tur": "Kara", "lat": 36.23, "lng": 36.68 },
+      { "ad": "Öncüpınar", "il": "Kilis", "tur": "Kara", "lat": 36.64, "lng": 37.09 },
+      { "ad": "Nusaybin", "il": "Mardin", "tur": "Kara/Demiryolu", "demiryolu": true, "lat": 37.07, "lng": 41.21 },
+      { "ad": "İslahiye", "il": "Gaziantep", "tur": "Demiryolu", "demiryolu": true, "lat": 37.02, "lng": 36.63 },
+      { "ad": "Çobanbey", "il": "Kilis", "tur": "Demiryolu", "demiryolu": true, "lat": 36.65, "lng": 37.47 }
+    ],
+    "kpss_notu": "En uzun sınırımız. 1939 Hatay'ın katılımıyla son halini aldı.",
+    "ozellik": "En yeni sınırımızdır. Yapay sınır özelliği taşır."
+  },
+  {
+    "ulke": "Irak",
+    "sinir_km": 384,
+    "bolge": "Güneydoğu",
+    "sinir_illeri": ["Şırnak", "Hakkari"],
+    "sinir_kapilari": [
+      { "ad": "Habur", "il": "Şırnak", "tur": "Kara", "ozellik": "Ticaret hacmi en yüksek kapılardan biri.", "lat": 37.14, "lng": 42.56 },
+      { "ad": "Üzümlü", "il": "Hakkari", "tur": "Kara", "lat": 37.30, "lng": 43.45 }
+    ],
+    "kpss_notu": "Irak ile demiryolu bağlantısı yoktur.",
+    "ozellik": "Dağlık ve sarp bir sınırdır."
+  },
+  {
+    "ulke": "İran",
+    "sinir_km": 560,
+    "bolge": "Doğu",
+    "sinir_illeri": ["Hakkari", "Van", "Ağrı", "Iğdır"],
+    "sinir_kapilari": [
+      { "ad": "Gürbulak", "il": "Ağrı", "tur": "Kara", "ozellik": "Transit taşımacılık merkezi.", "lat": 39.4, "lng": 44.35 },
+      { "ad": "Kapıköy", "il": "Van", "tur": "Kara/Demiryolu", "demiryolu": true, "lat": 38.56, "lng": 44.02 },
+      { "ad": "Esendere", "il": "Hakkari", "tur": "Kara", "lat": 37.72, "lng": 44.62 }
+    ],
+    "kpss_notu": "En eski sınırımız (1639 Kasr-ı Şirin).",
+    "ozellik": "Doğal sınır (dağlar) özelliği taşır."
+  },
+  {
+    "ulke": "Ermenistan",
+    "sinir_km": 311,
+    "bolge": "Doğu",
+    "sinir_illeri": ["Kars", "Iğdır"],
+    "sinir_kapilari": [
+      { "ad": "Akyaka", "il": "Kars", "tur": "Demiryolu", "demiryolu": true, "durum": "Kapalı", "lat": 40.75, "lng": 43.60 },
+      { "ad": "Alican", "il": "Iğdır", "tur": "Kara", "durum": "Kapalı", "lat": 40.05, "lng": 44.35 }
+    ],
+    "kpss_notu": "Siyasi nedenlerle sınır kapıları kapalıdır.",
+    "ozellik": "Arpaçay nehri doğal sınırın bir kısmını oluşturur."
+  },
+  {
+    "ulke": "Gürcistan",
+    "sinir_km": 276,
+    "bolge": "Kuzeydoğu",
+    "sinir_illeri": ["Artvin", "Ardahan"],
+    "sinir_kapilari": [
+      { "ad": "Sarp", "il": "Artvin", "tur": "Kara", "ozellik": "Kimlikle geçiş yapılabilir.", "lat": 41.52, "lng": 41.55 },
+      { "ad": "Türkgözü", "il": "Ardahan", "tur": "Kara", "lat": 41.55, "lng": 42.82 },
+      { "ad": "Canbaz", "il": "Kars", "tur": "Demiryolu", "demiryolu": true, "ozellik": "BTK Hattı bağlantısı.", "lat": 41.22, "lng": 43.18 }
+    ],
+    "kpss_notu": "Kimlikle geçiş yapılan ilk komşumuzdur.",
+    "ozellik": "Doğu Karadeniz ve Kafkasya bağlantısı."
+  },
+  {
+    "ulke": "Bulgaristan",
+    "sinir_km": 269,
+    "bolge": "Marmara",
+    "sinir_illeri": ["Edirne", "Kırklareli"],
+    "sinir_kapilari": [
+      { "ad": "Kapıkule", "il": "Edirne", "tur": "Kara/Demiryolu", "demiryolu": true, "ozellik": "En işlek sınır kapımız.", "lat": 41.71, "lng": 26.35 },
+      { "ad": "Hamzabeyli", "il": "Edirne", "tur": "Kara", "lat": 41.95, "lng": 26.6 },
+      { "ad": "Dereköy", "il": "Kırklareli", "tur": "Kara", "lat": 41.92, "lng": 27.35 }
+    ],
+    "kpss_notu": "Avrupa'ya açılan ana kapıdır.",
+    "ozellik": "En yoğun gümrük trafiğine sahiptir."
+  },
+  {
+    "ulke": "Yunanistan",
+    "sinir_km": 212,
+    "bolge": "Marmara",
+    "sinir_illeri": ["Edirne"],
+    "sinir_kapilari": [
+      { "ad": "İpsala", "il": "Edirne", "tur": "Kara", "lat": 40.92, "lng": 26.32 },
+      { "ad": "Pazarkule", "il": "Edirne", "tur": "Kara", "lat": 41.65, "lng": 26.51 },
+      { "ad": "Uzunköprü", "il": "Edirne", "tur": "Demiryolu", "demiryolu": true, "lat": 41.26, "lng": 26.68 }
+    ],
+    "kpss_notu": "Meriç Nehri doğal sınır oluşturur.",
+    "ozellik": "Avrupa ile ikinci kara yolu bağlantısı."
+  },
+  {
+    "ulke": "Nahçivan (Azerbaycan)",
+    "sinir_km": 18,
+    "bolge": "Doğu",
+    "sinir_illeri": ["Iğdır"],
+    "sinir_kapilari": [
+      { "ad": "Dilucu", "il": "Iğdır", "tur": "Kara", "ozellik": "Kimlikle geçiş yapılabilir.", "lat": 39.82, "lng": 44.82 }
+    ],
+    "kpss_notu": "En kısa kara sınırımızdır.",
+    "ozellik": "Türk Dünyasına açılan kapı."
+  }
+]

@@ -1,13 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  pageExtensions: ['js', 'jsx', 'mdx', 'ts', 'tsx'],
+  pageExtensions: ["js", "jsx", "mdx", "ts", "tsx"],
   trailingSlash: false,
-  experimental: {
-    outputFileTracingIncludes: {
-      '/*': ['./data/**/*', './content/**/*'],
-    },
-  },
-  transpilePackages: ['next-mdx-remote', 'remark-gfm'],
+
+  transpilePackages: ["next-mdx-remote", "remark-gfm"],
   images: {
     remotePatterns: [],
   },
@@ -15,14 +11,14 @@ const nextConfig = {
     return [
       // www → non-www kalıcı yönlendirme
       {
-        source: '/:path*',
+        source: "/:path*",
         has: [
           {
-            type: 'host',
-            value: 'www.kpsscografya.com.tr',
+            type: "host",
+            value: "www.kpsscografya.com.tr",
           },
         ],
-        destination: 'https://kpsscografya.com.tr/:path*',
+        destination: "https://kpsscografya.com.tr/:path*",
         permanent: true,
       },
     ];
@@ -31,4 +27,4 @@ const nextConfig = {
 
 export default nextConfig;
 
-import('@opennextjs/cloudflare').then(m => m.initOpenNextCloudflareForDev());
+import("@opennextjs/cloudflare").then((m) => m.initOpenNextCloudflareForDev());

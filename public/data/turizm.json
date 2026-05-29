@@ -1,0 +1,73 @@
+{
+  "unesco_miras_listesi": [
+    {
+      "ad": "Göbeklitepe",
+      "sehir": "Şanlıurfa",
+      "yil": 2018,
+      "tur": "Kültürel"
+    },
+    {
+      "ad": "Gordion Antik Kenti",
+      "sehir": "Ankara",
+      "yil": 2023,
+      "tur": "Kültürel"
+    },
+    {
+      "ad": "Anadolu'nun Ahşap Hipostil Camileri",
+      "sehir": "Konya, Kastamonu, Afyon vb.",
+      "yil": 2023,
+      "tur": "Kültürel"
+    },
+    {
+      "ad": "Efes Antik Kenti",
+      "sehir": "İzmir",
+      "yil": 2015,
+      "tur": "Kültürel"
+    },
+    {
+      "ad": "Ani Arkeolojik Alanı",
+      "sehir": "Kars",
+      "yil": 2016,
+      "tur": "Kültürel"
+    },
+    {
+      "ad": "Pamukkale-Hierapolis",
+      "sehir": "Denizli",
+      "yil": 1988,
+      "tur": "Karma"
+    },
+    {
+      "ad": "Göreme ve Kapadokya",
+      "sehir": "Nevşehir",
+      "yil": 1985,
+      "tur": "Karma"
+    }
+  ],
+  "cittaslow_sehirleri": [
+    {
+      "ad": "Seferihisar",
+      "sehir": "İzmir",
+      "not": "Türkiye'nin ilk sakin şehri"
+    },
+    {
+      "ad": "Akyaka",
+      "sehir": "Muğla",
+      "not": "Azmak Nehri ile ünlü"
+    },
+    {
+      "ad": "Halfeti",
+      "sehir": "Şanlıurfa",
+      "not": "Sular altında kalan antik kent"
+    },
+    {
+      "ad": "Gökçeada",
+      "sehir": "Çanakkale",
+      "not": "Türkiye'nin en büyük adası"
+    },
+    {
+      "ad": "Taraklı",
+      "sehir": "Sakarya",
+      "not": "Osmanlı mimarisi"
+    }
+  ]
+}

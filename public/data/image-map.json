@@ -1,0 +1,25 @@
+{
+  "yer-sekilleri": {
+    "daglar": ["daglar.png", "kivrim-dag.png", "kirik-dag.png"],
+    "platolar": ["plato-diyagrami.png"],
+    "ovalar": ["delta-ovasi.png"],
+    "vadi": ["vadi-tipleri.png"]
+  },
+  "iklim-bitki": {
+    "bitki": ["maki-bitki.png", "step-bozkir.png"],
+    "iklim": ["iklim-haritasi.png", "iklim-bitki.png"],
+    "toprak": ["terra-rossa.png", "toprak-cevre.png"]
+  },
+  "akarsular": {
+    "genel": ["akarsular.png"],
+    "vadi": ["vadi-tipleri.png"]
+  },
+  "ekonomik-faaliyetler": {
+    "tarim": ["tarim.png", "cay-tarimi.png", "findik-tarimi.png"],
+    "sanayi": ["sanayi.png"],
+    "enerji": ["ges-karapinar.png", "madenler-enerji.png"]
+  },
+  "cografi-konum": {
+    "genel": ["cografi-konum.png"]
+  }
+}

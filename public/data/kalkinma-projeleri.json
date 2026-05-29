@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "konu": "Bölgesel Kalkınma Projeleri",
+    "aciklama": "Türkiye'nin bölgesel dengesizlikleri gidermek amacıyla yürüttüğü büyük kalkınma hamleleri."
+  },
+  "projeler": [
+    {
+      "ad": "GAP (Güneydoğu Anadolu Projesi)",
+      "slug": "gap",
+      "ozellik": "Türkiye'nin en büyük projesi. Sulama ve hidroelektrik odaklıdır. Pamuk üretiminde devrim yaratmıştır.",
+      "iller": ["Şanlıurfa", "Gaziantep", "Diyarbakır", "Mardin", "Batman", "Adıyaman", "Siirt", "Şırnak", "Kilis"],
+      "lat": 37.15,
+      "lng": 38.80
+    },
+    {
+      "ad": "KOP (Konya Ovası Projesi)",
+      "slug": "kop",
+      "ozellik": "Konya Ovası'na Göksu Nehri'nden su taşıyan (Mavi Tünel) sulama odaklı projedir.",
+      "iller": ["Konya", "Karaman", "Niğde", "Aksaray", "Nevşehir", "Kırşehir", "Yozgat", "Kırıkkale"],
+      "lat": 37.87,
+      "lng": 32.48
+    },
+    {
+      "ad": "DAP (Doğu Anadolu Projesi)",
+      "slug": "dap",
+      "ozellik": "Mera hayvancılığını geliştirmek ve bölge ekonomisini canlandırmak için 15 ili kapsayan projedir.",
+      "iller": ["Erzurum", "Erzincan", "Ağrı", "Kars", "Iğdır", "Ardahan", "Malatya", "Elazığ", "Tunceli", "Bingöl", "Muş", "Bitlis", "Van", "Hakkari", "Sivas"],
+      "lat": 39.90,
+      "lng": 41.27
+    },
+    {
+      "ad": "DOKAP (Doğu Karadeniz Projesi)",
+      "slug": "dokap",
+      "ozellik": "Ulaşım, turizm (Yeşil Yol) ve tarım potansiyelini artırmayı hedefler.",
+      "iller": ["Artvin", "Rize", "Trabzon", "Giresun", "Ordu", "Gümüşhane", "Bayburt", "Samsun", "Tokat"],
+      "lat": 41.00,
+      "lng": 39.72
+    },
+    {
+      "ad": "ZBK (Zonguldak Bartın Karabük)",
+      "slug": "zbk",
+      "ozellik": "Madencilik ve demir-çelik sanayiini modernize etmeyi, limancılığı geliştirmeyi hedefler.",
+      "iller": ["Zonguldak", "Bartın", "Karabük"],
+      "lat": 41.45,
+      "lng": 32.10
+    }
+  ],
+  "haric_iller": {
+    "aciklama": "Gelişmişlik seviyesi yüksek olduğu için projeye dahil edilmeyen sanayi şehirleri.",
+    "iller": ["Kayseri", "Kahramanmaraş"]
+  }
+}

@@ -1,0 +1,592 @@
+{
+  "adana": [
+    "Türkiye'nin en büyük alüvyal ovası olan Çukurova üzerindedir.",
+    "Soya fasulyesi üretiminde Türkiye 1.sidir.",
+    "Mısır ve yer fıstığı üretiminde çok önemli paya sahiptir.",
+    "Sanayileşmiş tarımın en iyi örneğidir.",
+    "Feke ve Mansurlu'da önemli demir yatakları bulunur.",
+    "İskenderun Demir-Çelik fabrikasının hammadde tedarikçisidir.",
+    "Pamuk üretimi eskiden 1. iken şu an GAP ile Şanlıurfa'ya geçmiştir."
+  ],
+  "adiyaman": [
+    "Güneydoğu Anadolu Bölgesi'nde, Nemrut Dağı Milli Parkı'na (UNESCO) ev sahipliği yapar.",
+    "Tütün ve badem üretiminde Türkiye'nin en önemli merkezlerinden biridir.",
+    "Atatürk Barajı'nın büyük bir kısmı il sınırları içerisindedir.",
+    "Kommagene Krallığı'na ait dev heykellerle dünya turizminde tanınır.",
+    "Petrol çıkarılan illerimizden biridir."
+  ],
+  "afyonkarahisar": [
+    "Ege Bölgesi'nde yer alır, 'Yolların Kesiştiği Şehir' olarak bilinir.",
+    "Mermer ve traverten üretiminde (Afyon Beyazı) dünya markasıdır.",
+    "Termal turizmin başkentidir, en çok 5 yıldızlı termal otele sahip ilimizdir.",
+    "Haşhaş ve şeker pancarı tarımında Türkiye'de öncüdür.",
+    "Sucuk, lokum ve kaymak gastronomi simgeleridir."
+  ],
+  "agri": [
+    "Türkiye'nin en yüksek noktası olan Ağrı Dağı'na (5137m) ev sahipliği yapar.",
+    "İshak Paşa Sarayı, Osmanlı mimarisinin bölgedeki en görkemli örneğidir.",
+    "Hayvancılık (özellikle büyükbaş) temel geçim kaynağıdır.",
+    "Gürbulak Sınır Kapısı ile İran'a açılan stratejik bir noktadır.",
+    "Meteor Çukuru ve Buz Mağarası doğal turistik değerleridir."
+  ],
+  "amasya": [
+    "Karadeniz Bölgesi'nde 'Şehzadeler Şehri' olarak bilinir.",
+    "Amasya Elması (Misket) coğrafi işaretli en ünlü ürünüdür.",
+    "Yeşilırmak'ın iki yanına kurulu Yalıboyu Evleri ve Kral Kaya Mezarları ile meşhurdur.",
+    "Şeker pancarı ve sebze üretiminde bölgede önemli bir yere sahiptir.",
+    "Ferhat ile Şirin efsanesinin geçtiği şehir olarak kültürel bir kimliğe sahiptir."
+  ],
+  "ankara": [
+    "Türkiye'nin başkenti ve 2. büyük şehridir.",
+    "Trona, linyit ve tuz yatakları bakımından zengindir.",
+    "Savunma sanayisinin (ASELSAN, TAI vb.) merkezidir.",
+    "Aspir, kimyon ve nohut üretiminde Türkiye'de ön sıralardadır.",
+    "Anıtkabir ve Ankara Kalesi en önemli turistik simgeleridir."
+  ],
+  "antalya": [
+    "Turizmin başkentidir, seracılıkta Türkiye 1.sidir.",
+    "Toros Dağları kıyıya paralel uzanır.",
+    "Boksit ve Barit madenleri çıkarılır.",
+    "Aspendos, Perge ve Düden Şelalesi simgeleridir.",
+    "Kış ılıklığı en fazla olan ilimizdir."
+  ],
+  "artvin": [
+    "Türkiye'nin en dik ve engebeli arazisine sahip illerinden biridir.",
+    "Çoruh Nehri üzerinde kurulu Deriner ve Yusufeli barajları ile enerji devidir.",
+    "Kafkasör Yaylası ve boğa güreşleri ile özgün bir kültüre sahiptir.",
+    "Bakır madeni (Murgul) üretimi ve işletmesi ile sanayiye katkı sağlar.",
+    "Karagöl (Borçka ve Şavşat) ile doğa turizminin merkezi konumundadır."
+  ],
+  "aydin": [
+    "Ege Bölgesi'nin Asıl Ege bölümünde yer alır.",
+    "İncir ve kestane üretiminde Türkiye 1.sidir.",
+    "Jeotermal enerji santralleri (Germencik) ile enerji üretiminde öncüdür.",
+    "Kuşadası ve Didim gibi ilçeleriyle deniz turizminde söz sahibidir.",
+    "Büyük Menderes Ovası tarımsal üretimin temelidir."
+  ],
+  "balikesir": [
+    "Hem Marmara hem de Ege Denizi'ne kıyısı olan stratejik illerimizdendir.",
+    "Dünyanın en büyük Bor yataklarından (Bigadiç) birine sahiptir.",
+    "Zeytin, süt ve süt ürünleri üretiminde Türkiye'nin lokomotifidir.",
+    "Tavukçuluk (besi ve kümes hayvancılığı) Bandırma çevresinde çok gelişmiştir.",
+    "Kaz Dağları ile oksijen deposu ve ekoturizm merkezidir."
+  ],
+  "bilecik": [
+    "Türkiye'nin mermer ve seramik üretim merkezidir.",
+    "Şerbetçiotu üretiminde Türkiye'de tek üretim alanıdır.",
+    "Bozüyük ilçesi, kavşak noktası olması nedeniyle sanayide gelişmiştir.",
+    "Marmara, Ege ve İç Anadolu bölgelerinin kesişim noktasında yer alır.",
+    "İpekyolu üzerinde tarihi bir öneme sahiptir."
+  ],
+  "bingol": [
+    "Doğu Anadolu'da dağlık ve engebeli bir yapıya sahiptir.",
+    "Yüzen Adalar (Solhan) doğa harikası olarak bilinir.",
+    "Arıcılık ve kaliteli bal üretimi (Bingöl Balı) ile meşhurdur.",
+    "Hayvancılık (özellikle küçükbaş) temel geçim kaynağıdır.",
+    "Karasal iklimin en sert görüldüğü illerden biridir."
+  ],
+  "bitlis": [
+    "Van Gölü kıyısında, Nemrut Krater Gölü'ne ev sahipliği yapar.",
+    "Bitlis'te Beş Minare türküsü ile özdeşleşmiş tarihi bir kenttir.",
+    "Ceviz ve tütün üretimi tarımsal kimliğinin temelidir.",
+    "Ahlat Selçuklu Mezarlığı (UNESCO) tarihi derinliğiyle dünyaca tanınır.",
+    "Kış turizmi ve kayak potansiyeli yüksektir."
+  ],
+  "bolu": [
+    "Karadeniz Bölgesi'nde, orman varlığı en zengin illerimizden biridir.",
+    "Abant, Gölcük ve Yedigöller ile doğa turizminin merkezidir.",
+    "Kümes hayvancılığı (beyaz et sanayisi) dev tesislerle buradadır.",
+    "Mengen aşçıları ile gastronomi dünyasında marka haline gelmiştir.",
+    "Kartalkaya Kayak Merkezi kış turizminin gözdesidir."
+  ],
+  "burdur": [
+    "Akdeniz Bölgesi'nde Göller Yöresi'nde yer alır.",
+    "Salda Gölü (Türkiye'nin Maldivleri) beyaz kumları ve turkuaz suyuyla ünlüdür.",
+    "Mermer ihracatında (Burdur Beji) Türkiye'nin öncü illerindendir.",
+    "Sagalassos ve Kibyra antik kentleri arkeolojik açıdan çok değerlidir.",
+    "Hayvancılık ve süt ürünleri işleme sanayisi gelişmiştir."
+  ],
+  "bursa": [
+    "Marmara Bölgesi'nin Güney Marmara bölümünde yer alır.",
+    "Türkiye'nin otomotiv ve makine sanayisinin kalbidir.",
+    "Uludağ ile kış turizminin Türkiye'deki en önemli merkezlerinden biridir.",
+    "İpek böcekçiliği ve dokuma (havlu/kumaş) sanayisi tarihsel olarak çok gelişmiştir.",
+    "Verimli ovalarında şeftali, armut ve zeytin üretimi yapılmaktadır.",
+    "Osmanlı'nın ilk başkentlerinden olması nedeniyle UNESCO dünya mirası listesindedir.",
+    "Marmara Denizi'ne kıyısı olması ulaşım ve ticaretini kolaylaştırmıştır."
+  ],
+  "canakkale": [
+    "Hem Avrupa hem Asya topraklarında yer alan stratejik boğaz şehridir.",
+    "Şehitler Abidesi ve Gelibolu Yarımadası tarihi turizmin kalbidir.",
+    "Truva (Troy) Antik Kenti UNESCO dünya mirası listesindedir.",
+    "Çanakkale Boğazı (Dardanel) jeopolitik açıdan hayati öneme sahiptir.",
+    "Seramik ve domates üretimi ekonomisinin direğidir."
+  ],
+  "cankiri": [
+    "İç Anadolu'da yer alır, dünyanın en büyük kaya tuzu mağaralarından birine sahiptir.",
+    "Tuz Mağarası hem turizm hem de sanayi tuzu üretimi için kullanılır.",
+    "Çerkeş ve Orta ilçeleri hayvancılıkta gelişmiştir.",
+    "Ilgaz Dağı kayak merkezi ve milli parkı ile doğa turizmine hitap eder.",
+    "Kavun tarımı ve el sanatları kültürel değerleridir."
+  ],
+  "corum": [
+    "Leblebinin Başkenti olarak dünya çapında tanınır.",
+    "Hattuşaş (Hitit Başkenti) UNESCO Dünya Mirası listesindedir.",
+    "Makine ve döküm sanayisi bölgedeki en gelişmiş illerden biridir.",
+    "Pirinç (Osmancık) ve mercimek üretimi tarımda ön plandadır.",
+    "İç Anadolu ve Karadeniz iklimleri arasında geçiş bölgesidir."
+  ],
+  "denizli": [
+    "Ege Bölgesi'nin İç Batı Anadolu bölümünde yer alan sanayi ve turizm merkezidir.",
+    "Pamukkale Travertenleri ve Hierapolis ile UNESCO Dünya Mirası listesinde yer alır.",
+    "Sarayköy'de Türkiye'nin ilk jeotermal enerji santrali bulunur (KPSS'de çok kritiktir).",
+    "Tekstil ve havlu ihracatında Türkiye'nin dünya çapındaki en önemli üretim üssüdür.",
+    "Mermer ve traverten yatakları ile bu madenlerin işlenmesinde lider konumdadır.",
+    "Karakutu ve Buldan dokumaları gibi geleneksel el sanatlarını sanayiye taşımıştır.",
+    "Horozu ile meşhur olan il, tarım ve hayvancılıkta da oldukça gelişmiştir."
+  ],
+  "diyarbakir": [
+    "Güneydoğu Anadolu Bölgesi'nin Dicle bölümünde yer alır.",
+    "Karacadağ bazalt platosu üzerinde kurulmuştur.",
+    "UNESCO miras listesindeki Diyarbakır Surları ve Hevsel Bahçeleri ile meşhurdur.",
+    "GAP sonrası tarımsal çeşitliliği artmış, bölgenin ticaret üssü haline gelmiştir.",
+    "Bakır ve petrol yatakları (Ergani) sanayisi için önemlidir."
+  ],
+  "edirne": [
+    "Marmara Bölgesi'nin Ergene bölümünde yer alır, Yunanistan ve Bulgaristan sınırındadır.",
+    "Çeltik (pirinç) üretiminde Türkiye'nin yaklaşık yarısını tek başına karşılar.",
+    "Mimar Sinan'ın 'ustalık eserim' dediği Selimiye Camii ile dünya mirasıdır.",
+    "Kapıkule Sınır Kapısı, Avrupa'ya açılan en büyük ve en işlek kara kapımızdır.",
+    "Meriç Nehri ve Kırkpınar yağlı güreşleri kültürel simgeleridir."
+  ],
+  "elazig": [
+    "Maden çeşitliliği bakımından Türkiye'nin en zengin illerindendir.",
+    "Bakır, krom ve simli kurşun yatakları ile sanayiye yön verir.",
+    "Keban Barajı, Türkiye'nin ilk devasa hidroelektrik projelerinden biridir.",
+    "Hazar Gölü ve Harput antik kenti turistik değerleridir.",
+    "Üzüm (Öküzgözü) ve orcik (cevizli sucuk) üretimi meşhurdur."
+  ],
+  "erzincan": [
+    "Kuzey Anadolu Fay Hattı üzerinde yer alır, tarihi büyük depremlerle doludur.",
+    "Tulum peyniri ve bakır işlemeciliği marka ürünleridir.",
+    "Girlevik Şelalesi ve Ergan Dağı doğa turizmi noktalarıdır.",
+    "Şeker pancarı ve hayvancılık ekonominin temelidir.",
+    "Cimin üzümü coğrafi işaretli özgün bir ürünüdür."
+  ],
+  "erzurum": [
+    "Erzurum-Kars platosunda yer alır, sert karasal iklim hakimdir.",
+    "Büyükbaş mera hayvancılığında liderdir.",
+    "Palandöken Kayak Merkezi kış turizminin kalbidir.",
+    "Oltu taşı madenciliği ile meşhurdur.",
+    "Tortum Şelalesi ve Narman Peribacaları görülmesi gereken yerlerdir."
+  ],
+  "eskisehir": [
+    "İç Anadolu Bölgesi'nin Yukarı Sakarya bölümünde yer alan önemli bir eğitim ve sanayi kentidir.",
+    "Türkiye'nin ve dünyanın en önemli Lületaşı yatakları buradadır.",
+    "Kırka'da bulunan Bor madeni yatakları ve işletmeleri stratejik öneme sahiptir.",
+    "Havacılık sanayisi ve raylı sistemler (TÜLOMSAŞ) üretiminde Türkiye'nin öncüsüdür.",
+    "Şeker pancarı, buğday ve arpa üretiminde İç Anadolu'nun verimli alanlarındandır.",
+    "YHT (Yüksek Hızlı Tren) hatlarının kavşak noktası olması ulaşımını çok geliştirmiştir.",
+    "Porsuk Çayı ve modern şehircilik anlayışıyla iç turizmde büyük ilgi görmektedir."
+  ],
+  "gaziantep": [
+    "Güneydoğu Anadolu Bölgesi'nin Orta Fırat bölümünde yer alır.",
+    "Bölgenin en gelişmiş sanayi, ticaret ve gastronomi merkezidir.",
+    "Antep fıstığı üretiminde Şanlıurfa ile birlikte Türkiye'nin lideridir.",
+    "Zeugma Mozaik Müzesi ve tarihi kalesiyle turizmde ön plandadır.",
+    "Dokuma (halı) ve gıda sanayisinde Türkiye'nin lokomotif şehirlerinden biridir.",
+    "Karasal iklim hakimdir ancak batısında Akdeniz iklimi etkileri görülür.",
+    "Ulaşım ağlarının kavşak noktasında yer alması ticaretini geliştirmiştir."
+  ],
+  "giresun": [
+    "Fındık üretiminde Ordu ile birlikte dünya lideri konumundadır.",
+    "Türkiye'nin ilk ve tek fındık kırma/işleme tesislerine ev sahipliği yapar.",
+    "Giresun Adası, Karadeniz'in iki yaşanabilir adasından biridir.",
+    "Kümbet ve Bektaş yaylaları ile yayla turizminin merkezidir.",
+    "Kirazın ana vatanı olarak kabul edilen bir tarihsel kökene sahiptir."
+  ],
+  "gumushane": [
+    "Adını zengin gümüş madenlerinden almıştır.",
+    "Karaca Mağarası ve Tomara Şelalesi meşhurdur.",
+    "Pestil ve Köme coğrafi işaretli ürünleridir.",
+    "Zigana Geçidi ulaşımda kritiktir.",
+    "Maden çeşitliliği fazladır."
+  ],
+  "hakkari": [
+    "Türkiye'nin en güney doğusunda, en dağlık ve yüksek illerinden biridir.",
+    "Cilo (Buzul) Dağları ve Türkiye'nin en büyük buzulları buradadır.",
+    "Ters Lale (Ağlayan Gelin) bölgeye özgü endemik bir bitkidir.",
+    "Arıcılık ve hayvancılık halkın temel geçim kaynağıdır.",
+    "Zap Suyu üzerinde rafting ve kış sporları potansiyeli yüksektir."
+  ],
+  "hatay": [
+    "Akdeniz Bölgesi'nin en güneyinde yer alır.",
+    "Amik Ovası, Türkiye'nin en verimli alüvyal ovalarından biridir.",
+    "İskenderun Demir-Çelik Fabrikası (İSDEMİR) ile ağır sanayinin merkezidir.",
+    "Gastronomi şehri (UNESCO) kimliğiyle dünya mutfak literatüründedir.",
+    "Jeopolitik olarak Ortadoğu'ya açılan önemli bir kapıdır."
+  ],
+  "isparta": [
+    "Akdeniz Bölgesi'nin Göller Yöresi'nde yer alır.",
+    "'Güller Diyarı' olarak bilinir, gül yağı ve kozmetik üretiminde dünya lideridir.",
+    "Elma üretiminde Türkiye'nin en büyük kapasitesine sahiptir.",
+    "Eğirdir Gölü, tatlı su balıkçılığı ve doğa turizmi için kritiktir.",
+    "Halıcılık ve dokuma sanayisi köklü bir geçmişe sahiptir."
+  ],
+  "mersin": [
+    "Akdeniz Bölgesi'nin Adana bölümünde yer alır.",
+    "Türkiye'nin en büyük serbest bölgesi ve konteyner limanlarından birine sahiptir.",
+    "Akkuyu Nükleer Güç Santrali ile enerji gündemindedir.",
+    "Muz, narenciye ve çilek üretiminde Türkiye'de söz sahibidir.",
+    "Taşucu ve Anamur limanları ile KKTC bağlantısında stratejik öneme sahiptir."
+  ],
+  "istanbul": [
+    "Marmara Bölgesi'nin Çatalca-Kocaeli bölümünde yer alır.",
+    "Türkiye'nin en kalabalık ve nüfus yoğunluğu en fazla olan ilidir.",
+    "Sanayi, ticaret, finans ve turizm faaliyetlerinin tartışmasız merkezidir.",
+    "Karma iklim tipi görülür (Akdeniz ve Karadeniz iklimleri arasında geçiş).",
+    "Tüketici nüfusun fazlalığı nedeniyle kümes hayvancılığı ve besi hayvancılığı gelişmiştir.",
+    "Jeopolitik önemi en yüksek ilimizdir (İstanbul Boğazı).",
+    "Ayasofya, Sultanahmet ve Topkapı Sarayı gibi paha biçilemez turistik değerlere sahiptir.",
+    "Türkiye ekonomisine (GSYH) en büyük katkıyı sağlayan ilimizdir."
+  ],
+  "izmir": [
+    "Ege Bölgesi'nin en büyük, Türkiye'nin 3. büyük şehridir.",
+    "Aliağa Petrol Rafinerisi ve Türkiye'nin en büyük dış ticaret limanlarından birine sahiptir.",
+    "İncir, üzüm (çekirdeksiz) ve tütün üretiminde Türkiye liderleri arasındadır.",
+    "Efes ve Meryem Ana Evi gibi dünya mirası turistik değerlere ev sahipliği yapar.",
+    "Kıta sahanlığının geniş olması nedeniyle kıyıları oldukça girintili ve çıkıntılıdır.",
+    "Jeotermal enerji potansiyeli yüksektir (Balçova).",
+    "Gıda, kimya ve otomotiv yan sanayisi oldukça gelişmiştir."
+  ],
+  "kars": [
+    "Erzurum-Kars platosunda yer alır, Türkiye'nin en yüksek il merkezlerinden biridir.",
+    "Kaşar peyniri ve gravyeri ile mandıracılığın kalbidir.",
+    "Ani Harabeleri (UNESCO) tarihi derinliğiyle büyüleyicidir.",
+    "Doğu Ekspresi'nin son durağı olmasıyla turizmde büyük ilgi görür.",
+    "Sarıkamış Kayak Merkezi kristal kar özelliğiyle dünyaca ünlüdür."
+  ],
+  "kastamonu": [
+    "Karadeniz'in en geniş orman alanlarına sahip illerindendir.",
+    "Bakır madeni (Küre) Türkiye'nin en önemli yataklarından biridir.",
+    "Sarımsak (Taşköprü) üretiminde Türkiye'de kalitesiyle birincidir.",
+    "Valla Kanyonu ve Ilgarini Mağarası doğa sporcularının gözdesidir.",
+    "Şapka İnkılabı'nın başladığı şehir olarak tarihi öneme sahiptir."
+  ],
+  "kayseri": [
+    "İç Anadolu Bölgesi'nin Orta Kızılırmak bölümünde yer alan ticaret ve sanayi devidir.",
+    "Mobilya sanayisi ve gıda (pastırma, sucuk, mantı) üretiminde Türkiye'nin lideridir.",
+    "Erciyes Dağı ile Türkiye'nin en modern kış turizmi merkezlerinden birine sahiptir.",
+    "Kültepe Kaniş/Karum höyüğü ile Anadolu'daki ilk ticaret merkezlerine ev sahipliği yapar.",
+    "Volkanik arazi yapısı sayesinde çinko, kurşun ve demir yatakları bakımından zengindir.",
+    "Kayseri Serbest Bölgesi ile dış ticarette çok önemli bir hacme sahiptir.",
+    "Kapuzbaşı Şelaleleri, dünyanın en yüksekten dökülen şelalelerinden biri olarak buradadır."
+  ],
+  "kirklareli": [
+    "Marmara Bölgesi'nin Istranca (Yıldız) Dağları bölümünde yer alır.",
+    "İğneada Longoz Ormanları (Subasar) Avrupa'nın en büyüklerindendir.",
+    "Bağcılık ve süt ürünleri (Peynir) üretimi çok gelişmiştir.",
+    "Ayçiçeği ve buğday tarımı Ergene ovasında yoğundur.",
+    "Dereköy Sınır Kapısı ile Bulgaristan'a bağlanır."
+  ],
+  "kirsehir": [
+    "İç Anadolu'da, Ahilik Teşkilatı'nın kurulduğu tarihsel merkezdir.",
+    "Ahi Evran ve Neşet Ertaş ile kültürel bir marka kenttir.",
+    "Petlas Lastik Fabrikası ile sanayide önemli bir paya sahiptir.",
+    "Termal kaynaklar ve şifalı sular turizmde değerlendirilmektedir.",
+    "Ceviz üretimi son yıllarda markalaşmıştır."
+  ],
+  "kocaeli": [
+    "Marmara Bölgesi'nin Çatalca-Kocaeli bölümünde yer alır.",
+    "Türkiye'nin en büyük sanayi kapasitesine sahip illerinden biridir (TÜPRAŞ Rafinerisi).",
+    "Kimya, otomotiv ve kağıt sanayisinde merkez konumdadır.",
+    "İstanbul ile Anadolu arasındaki ana ulaşım koridoru üzerindedir.",
+    "Kandıra yoğurdu ve pişmaniyesi coğrafi işaretli ürünleridir."
+  ],
+  "konya": [
+    "Türkiye'nin yüzölçümü en büyük ilidir, tahıl ambarıdır.",
+    "Buğday, şeker pancarı ve fasulye üretiminde 1.dir.",
+    "Tuz Gölü'nün büyük kısmı buradadır.",
+    "Mevlana Müzesi ve Çatalhöyük en önemli turistik değerleridir.",
+    "Mavi Tünel projesi ile tarımda sulama devrimi yapılmıştır."
+  ],
+  "kutahya": [
+    "Ege Bölgesi'nin İç Batı Anadolu bölümünde yer alır.",
+    "Çini ve porselen üretiminde Türkiye'nin tarihsel ve modern merkezidir.",
+    "Linyit yatakları (Seyitömer, Tunçbilek) ile elektrik üretiminde kritiktir.",
+    "Bor madeni (Emet) tesisleri ile stratejik madencilikte ön plandadır.",
+    "Frig Vadisi ile kültürel turizm potansiyeline sahiptir."
+  ],
+  "malatya": [
+    "Doğu Anadolu Bölgesi'nin Yukarı Fırat bölümünde yer alır.",
+    "Dünya kuru kayısı üretiminin büyük kısmını karşılayan kayısı başkentidir.",
+    "Sanayileşmiş bir tarım kenti olup, tekstil ve gıda sanayisi gelişmiştir.",
+    "Fırat Nehri üzerindeki Karakaya Barajı bölgenin enerji kaynağıdır.",
+    "Arslantepe Höyüğü (UNESCO) ile insanlık tarihine ışık tutar."
+  ],
+  "manisa": [
+    "Ege Bölgesi'nin Asıl Ege bölümünde yer alır.",
+    "Çekirdeksiz kuru üzüm üretiminde dünya lideridir.",
+    "Sanayi bölgesi (Manisa OSB) beyaz eşya ve elektronik üretiminde devleşmiştir.",
+    "Spil Dağı Milli Parkı ve Mesir Macunu festivali kültürel simgeleridir.",
+    "Jeotermal enerji kaynakları (Salihli, Alaşehir) seracılıkta kullanılır."
+  ],
+  "kahramanmaras": [
+    "Akdeniz Bölgesi'nde yer alır, Doğu ve İç Anadolu ile geçiş noktasındadır.",
+    "Dövme dondurma ve biber üretimiyle Türkiye markasıdır.",
+    "Tekstil sanayisinde özellikle iplik ve dokuma üretiminde devasa kapasiteye sahiptir.",
+    "Afşin-Elbistan Linyit yatakları Türkiye'nin en büyük termik santral kömür sahasıdır.",
+    "Barajlar şehri olarak bilinir (Menzelet, Sır, Kılavuzlu)."
+  ],
+  "mardin": [
+    "Güneydoğu Anadolu Bölgesi'nin Dicle bölümünde yer alır.",
+    "Mezopotamya ovasına hakim konumuyla kadim bir yerleşim merkezidir.",
+    "Mazıdağı'nda Türkiye'nin en önemli fosfat yatakları bulunur (KPSS'de sıkça sorulur).",
+    "Eşsiz taş mimarisi, Deyrulzafaran Manastırı ve Kasımiye Medresesi ile turizmde markadır.",
+    "İpek Yolu üzerinde yer alması tarih boyunca ticari önemini korumasını sağlamıştır.",
+    "Sert karasal iklim görülür, yazları oldukça sıcak ve kuraktır.",
+    "GAP kapsamında sulama projeleriyle tarımsal potansiyeli yükselmektedir."
+  ],
+  "mugla": [
+    "Ege Bölgesi'nin Menteşe yöresinde yer alır.",
+    "Dağların kıyıya paralel uzandığı tek Ege ilidir (bol yağış alır).",
+    "Çam balı ve mermer ihracatında Türkiye ve dünya liderleri arasındadır.",
+    "Bodrum, Marmaris, Fethiye gibi ilçeleriyle turizmin kalbidir.",
+    "Linyit yatakları (Yatağan, Milas) termal enerji üretimi için kritiktir."
+  ],
+  "mus": [
+    "Doğu Anadolu'un en büyük ovalarından biri olan Muş Ovası'na sahiptir.",
+    "Lale tarımı (Muş Lalesi) endemik ve kültürel bir değerdir.",
+    "Hayvancılık ve yem bitkileri üretimi ekonominin temelidir.",
+    "Malazgirt Ovası ve kalesi, Anadolu'nun kapılarının açıldığı yerdir.",
+    "Şeker pancarı üretimi bölge ekonomisi için kritiktir."
+  ],
+  "nevsehir": [
+    "Kapadokya bölgesinin kalbidir, peri bacalarıyla dünya mirasıdır (UNESCO).",
+    "Yer altı şehirleri (Derinkuyu, Kaymaklı) ve sıcak hava balonculuğu merkezidir.",
+    "Volkanik tüfler üzerinde gelişen bağcılık ve patates tarımı meşhurdur.",
+    "Şarap üretimi ve butik otelcilikte Türkiye'nin zirvesindedir.",
+    "Hacı Bektaş-ı Veli Türbesi inanç turizminin önemli duraklarındandır."
+  ],
+  "nigde": [
+    "İç Anadolu'da elma ve patates üretiminde Türkiye'nin devlerindendir.",
+    "Aladağlar Milli Parkı, tırmanış ve trekking için dünya çapında bir merkezdir.",
+    "Gümüşler Manastırı yer altı kiliseleri arasında özel bir yere sahiptir.",
+    "Kalsit madeni (mikronize) üretiminde Türkiye lideridir.",
+    "Termal turizm (Çiftehan) bölgenin önemli gelir kaynaklarındandır."
+  ],
+  "ordu": [
+    "Doğu Karadeniz bölümünde yer alır, fındık üretiminde dünya 1.sidir.",
+    "Arıcılık faaliyetlerinde ve bal üretiminde Türkiye zirvesindedir.",
+    "Ordu-Giresun Havalimanı denize dolgu yapılarak inşa edilen ilk havalimanıdır.",
+    "Boztepe ve yaylalarıyla (Perşembe Yaylası) doğa turizmi merkezidir.",
+    "Kivi tarımı son yıllarda hızla yaygınlaşmıştır."
+  ],
+  "rize": [
+    "Türkiye'de çay tarımının yapıldığı tek bölgedir.",
+    "Mikroklima alanı olması sebebiyle turunçgil ve kivi yetişebilir.",
+    "Kaçkar Dağları ve Ayder Yaylası ile doğa turizminin zirvesidir.",
+    "Türkiye'nin en çok yağış alan ilidir (Rize-Pazar).",
+    "Havalimanı denize dolgu yapılarak inşa edilmiştir."
+  ],
+  "sakarya": [
+    "Marmara Bölgesi'nin Doğu Marmara bölümünde yer alır.",
+    "Otomotiv sanayisi ve vagon üretimiyle tanınır.",
+    "Fındık, mısır ve süs bitkiciliği tarımında Türkiye'de ön sıralardadır.",
+    "Sakarya Nehri ve Sapanca Gölü bölgenin en önemli su kaynaklarıdır.",
+    "Kuzey Anadolu Fay Hattı üzerinde yer alması nedeniyle deprem riski yüksektir."
+  ],
+  "samsun": [
+    "Orta Karadeniz bölümünde yer alan, Karadeniz'in en gelişmiş sanayi, ticaret ve ulaşım merkezidir.",
+    "Canik Dağları'nın yükseltisinin az olması sayesinde hinterlandı çok geniş bir limana sahiptir.",
+    "Kızılırmak ve Yeşilırmak'ın oluşturduğu Bafra ve Çarşamba deltaları Türkiye'nin tarım ambarlarındandır.",
+    "Limanı ve demiryolu bağlantısı sayesinde bakır işletmelerine (ulaşım faktörüyle) ev sahipliği yapar.",
+    "Tütün, pirinç ve mısır üretiminde Türkiye'de çok önemli bir paya sahiptir.",
+    "Kurtuluş Savaşı'nın başlangıç noktası olmasıyla büyük bir tarihi ve simgesel öneme sahiptir.",
+    "Bölgenin tek demiryolu hattına sahip liman kenti olması ticaretini domine etmesini sağlar."
+  ],
+  "siirt": [
+    "Güneydoğu Anadolu'da, fıstık (Siirt fıstığı) ve nar üretimiyle tanınır.",
+    "Bıttım sabunu ve battaniye dokumacılığı geleneksel el sanatlarıdır.",
+    "Tillo (Aydınlar) ilçesi inanç turizminin önemli bir merkezidir.",
+    "Botan Çayı üzerinde kurulan barajlar enerji üretimine katkı sağlar.",
+    "Cas evi mimarisi şehre özgü bir yapı kültürüdür."
+  ],
+  "sinop": [
+    "Türkiye'nin en kuzey noktası olan İnceburun'a ev sahipliği yapar.",
+    "Hamsilos Koyu, Türkiye'nin tek fiyord benzeri oluşumudur.",
+    "Tarihi Sinop Cezaevi 'Anadolu'nun Alkatraz'ı' olarak müzeleşmiştir.",
+    "Gemi maketçiliği (Kotracılık) kendine özgü bir sanattır.",
+    "Türkiye'nin en mutlu şehri olarak istatistiklerde sıkça yer alır."
+  ],
+  "sivas": [
+    "Türkiye'nin yüzölçümü bakımından 2. büyük ilidir.",
+    "Divriği Ulu Camii ve Darüşşifası (UNESCO) mimari bir şaheserdir.",
+    "Demir madeni (Divriği) Türkiye'nin en büyük rezervine sahiptir.",
+    "Kangal Köpeği ve Balıklı Kaplıca (doktor balıklar) dünya markasıdır.",
+    "Cumhuriyet'in temellerinin atıldığı Sivas Kongresi binası tarihi simgesidir."
+  ],
+  "tekirdag": [
+    "Marmara Bölgesi'nin Ergene bölümünde yer alır.",
+    "Ayçiçeği ve kanola üretiminde Türkiye lideridir.",
+    "Asyaport Limanı ile Türkiye'nin en büyük transit konteyner limanlarından birine sahiptir.",
+    "Rakı ve köfte üretimiyle gastronomi turizminde bilinir.",
+    "İstanbul'a yakınlığı nedeniyle sanayi ve nüfus hızla artmaktadır."
+  ],
+  "tokat": [
+    "Karadeniz Bölgesi'nde yer alır, Karadeniz ve İç Anadolu arasında geçiş noktasıdır.",
+    "Niksar ve Erbaa ovaları tarımsal verimliliğiyle meşhurdur (Tokat Yaprağı).",
+    "Ballıca Mağarası (Dünya Mirası) doğa turizminin incisidir.",
+    "Şeker pancarı ve sebze üretiminde bölgenin lokomotifidir.",
+    "Bakırcılık ve yazmacılık gibi geleneksel el sanatları sanayiye dönüşmüştür."
+  ],
+  "trabzon": [
+    "Doğu Karadeniz bölümünün en gelişmiş sanayi, ticaret ve liman kentidir.",
+    "Fındık ve mısır tarımı ile çay üretiminde (mikroklima alanlarında) önemli paya sahiptir.",
+    "Sümela Manastırı ve Uzungöl gibi doğa ve inanç turizmi merkezlerine ev sahipliği yapar.",
+    "Balıkçılık faaliyetlerinin Türkiye'deki en önemli merkezlerinden biridir.",
+    "Zigana Geçidi ve yeni açılan tünellerle iç bölgelere (İpek Yolu) bağlantısı güçlüdür.",
+    "Engebeli arazi yapısı nedeniyle dağınık yerleşme tipinin en yaygın olduğu illerimizdendir.",
+    "Havalimanı ve üniversiteleriyle bölgenin eğitim ve ulaşım üssüdür."
+  ],
+  "tunceli": [
+    "Doğu Anadolu'da, Munzur Çayı ve Munzur Dağları Milli Parkı ile korunmuş bir doğaya sahiptir.",
+    "Organik bal (Pülümür) ve tulum peyniri üretiminde öne çıkar.",
+    "Rafting ve su sporları Munzur Çayı üzerinde uluslararası düzeyde yapılır.",
+    "İnanç turizmi (Ziyaretler) halkın kültürel dokusunda derin yer tutar.",
+    "Ceviz ve badem üretimi dağlık arazide temel tarım faaliyetidir."
+  ],
+  "sanliurfa": [
+    "GAP (Güneydoğu Anadolu Projesi) ile birlikte pamuk üretiminde Türkiye 1.si olmuştur.",
+    "Göbeklitepe (Dünyanın ilk tapınağı) ile inanç turizminin küresel merkezidir.",
+    "Yaz sıcaklığı karasallıktan dolayı en yüksek ilimizdir.",
+    "Mercimek ve Antep fıstığı üretiminde en üst sıralardadır.",
+    "Türkiye'nin en büyük barajı olan Atatürk Barajı'na ev sahipliği yapar."
+  ],
+  "usak": [
+    "Ege Bölgesi'nde, Türkiye'nin ilk şeker fabrikasının kurulduğu ildir.",
+    "Battaniye ve tekstil geri dönüşüm sanayisinde Türkiye lideridir.",
+    "Blaundus Antik Kenti ve Ulubey Kanyonu (dünyanın en büyük 2. kanyonu) turist çeker.",
+    "Tarhana üretimi ve kültürüyle gastronomi mirasına sahiptir.",
+    "Madencilik ve deri işleme sanayisi köklüdür."
+  ],
+  "van": [
+    "Doğu Anadolu Bölgesi'nin en büyük ve en gelişmiş ilidir.",
+    "Van Gölü (sodalı su) ve inci kefali ile doğa harikasıdır.",
+    "Küçükbaş hayvancılıkta Türkiye'nin en büyük sürüsüne sahip illerinden biridir.",
+    "Güneş enerjisi potansiyeli yükseltiden dolayı Türkiye'nin zirvesindedir.",
+    "Akdamar Kilisesi ile inanç ve kültür turizminde önemli bir duraktır."
+  ],
+  "yozgat": [
+    "İç Anadolu'da, Türkiye'nin ilk milli parkı olan Yozgat Çamlığı'na sahiptir.",
+    "Nohut ve mercimek üretiminde Türkiye'de ilk sıralardadır.",
+    "Çayıralan ve Akdağmadeni ormanları İç Anadolu için nadir yeşil alanlardır.",
+    "Jeotermal kaynaklar (Sorgun, Sarıkaya) şifalı sularıyla bilinir.",
+    "'Bozok Yaylası' olarak anılan geniş platolar üzerine kuruludur."
+  ],
+  "zonguldak": [
+    "Türkiye'nin tek taş kömürü havzasıdır.",
+    "Ağır sanayinin (Demir-Çelik) enerji kaynağı buradadır.",
+    "Limanı ve demiryolu bağlantısı kömür sevkiyatı için kritiktir.",
+    "Engebeli arazi yapısı nedeniyle yerleşme dağınıktır.",
+    "Mağara turizmi (Gökgöl Mağarası) gelişmektedir."
+  ],
+  "aksaray": [
+    "İç Anadolu'da, Ihlara Vadisi (dünyanın en büyük kanyon vadilerinden biri) buradadır.",
+    "Tuz Gölü'nün bir kısmına ev sahipliği yapar ve tuz üretimi önemlidir.",
+    "Mercedes-Benz Kamyon Fabrikası ile otomotiv sanayisinde merkezdir.",
+    "Hasan Dağı (volkanik) tırmanış ve kayak için potansiyel taşır.",
+    "Sultanhanı Kervansarayı İpek Yolu'nun en büyük duraklarındandır."
+  ],
+  "bayburt": [
+    "Karadeniz'in iç kısmında, Türkiye'nin nüfusu en az illerinden biridir.",
+    "Baksı Müzesi (Avrupa Konseyi Müze Ödülü) modern sanatın temsilcisidir.",
+    "Bayburt Kalesi (Çinimaçin) şehrin en önemli tarihi simgesidir.",
+    "Hayvancılık ve arıcılık temel ekonomidir.",
+    "Kop Geçidi ulaşımda kritik bir eşiktir."
+  ],
+  "karaman": [
+    "İç Anadolu'nun güneyinde, 'Türk Dilinin Başkenti' olarak bilinir.",
+    "Bisküvi ve bulgur sanayisinde Türkiye'nin üretim devidir.",
+    "Elma üretiminde (Niğde ve Isparta ile birlikte) Türkiye'de zirvededir.",
+    "Karadağ (volkanik) ve Binbir Kilise inanç turizmi noktalarıdır.",
+    "Mermer ocakları ekonomiye katkı sağlar."
+  ],
+  "kirikkale": [
+    "İç Anadolu'da, MKE (Makine Kimya Endüstrisi) fabrikalarıyla kurulmuş bir 'sanayi şehri'dir.",
+    "Türkiye'nin en büyük petrol rafinerilerinden biri (TÜPRAŞ Kırıkkale) buradadır.",
+    "Kızılırmak nehri şehrin içinden geçer.",
+    "Demir-Çelik ve savunma sanayisi istihdamın temelidir.",
+    "Ankara'ya yakınlığı nedeniyle lojistik bir öneme sahiptir."
+  ],
+  "batman": [
+    "Güneydoğu Anadolu'da, Türkiye'de petrolün ilk bulunduğu ve rafine edildiği (Raman) ildir.",
+    "Batman Petrol Rafinerisi şehrin ekonomik can damarıdır.",
+    "Hasankeyf (tarihi 12 bin yıl öncesine dayanır) antik kentiyle dünya mirasıdır.",
+    "GAP ile sulu tarıma geçiş (mısır, pamuk) hızlanmıştır.",
+    "Sanayileşmiş bir şehir yapısına sahiptir."
+  ],
+  "sirnak": [
+    "Türkiye'nin en güney doğusunda, Irak ve Suriye sınırında (Habur) yer alır.",
+    "Habur Sınır Kapısı, Türkiye'nin Ortadoğu'ya açılan en işlek ticaret kapısıdır.",
+    "Cudi Dağı (Hz. Nuh'un gemisinin indiği yer kabul edilir) inanç merkezi konumundadır.",
+    "Kömür (Asfaltit) yatakları enerji üretimi için önemlidir.",
+    "Hayvancılık ve sınır ticareti ekonomiyi domine eder."
+  ],
+  "bartin": [
+    "Karadeniz'de, üzerinde gemilerin yüzebildiği tek akarsu olan Bartın Çayı üzerindedir.",
+    "Amasra ilçesi, tarihi ve balık restoranlarıyla bölgenin turizm incisidir.",
+    "Orman ürünleri ve mobilya sanayisi gelişmiştir.",
+    "İnkumu plajı bölgenin en uzun kumsallarından biridir.",
+    "Madencilik kültürü Zonguldak ile ortaktır."
+  ],
+  "ardahan": [
+    "Türkiye'nin en soğuk illerinden biridir, Çıldır Gölü (kışın buz tutar) ile meşhurdur.",
+    "Çıldır Gölü üzerinde atlı kızaklarla gezinti yapılması turizm klasiğidir.",
+    "Arıcılık (Kafkas Arısı) ve çiçek balı üretimi dünya standartlarındadır.",
+    "Hayvancılık (özellikle kaz eti) mutfak kültürünün temelidir.",
+    "Posof ilçesi mikroklima özelliğiyle elma yetiştiriciliğine uygundur."
+  ],
+  "igdir": [
+    "Doğu'nun Çukurova'sı olarak bilinir, mikroklima sayesinde pamuk ve kayısı yetişir.",
+    "Üç ülkeye (Ermenistan, Nahçıvan, İran) sınırı olan tek ilimizdir.",
+    "Dilucu Sınır Kapısı ile Türk dünyasına açılan stratejik bir koridordur.",
+    "Ağrı Dağı'nın büyük bir kısmı bu il sınırları içindedir.",
+    "Tuzluca'daki dev kaya tuzu yatakları ekonomiye katkı sağlar."
+  ],
+  "yalova": [
+    "Marmara Bölgesi'nde, Türkiye'nin yüzölçümü en küçük ilidir.",
+    "Termal turizm (Yalova Termal) Atatürk'ün de favori dinlenme yeridir.",
+    "Süs bitkiciliği ve çiçek üretiminde Türkiye'nin en büyük merkezidir.",
+    "Karaca Arboretumu (canlı ağaç müzesi) eşsiz bir doğa koleksiyonudur.",
+    "İstanbul ve Kocaeli arasındaki stratejik konumuyla lojistik üssüdür."
+  ],
+  "karabuk": [
+    "Türkiye'nin ilk ağır sanayi fabrikası olan Kardemir'e (Demir-Çelik) ev sahipliği yapar.",
+    "Safranbolu Evleri (UNESCO Dünya Mirası) tarihi mimarinin zirvesidir.",
+    "İsmini bölgeye özgü 'Safran' bitkisinden alır.",
+    "Yenice Ormanları biyolojik çeşitlilik ve doğa turizmi merkezidir.",
+    "Eğitim ve sanayi şehri kimliğiyle ön plandadır."
+  ],
+  "kilis": [
+    "Güneydoğu Anadolu'da, zeytin ve bağcılık (Kilis Karası) ile tanınır.",
+    "Öncüpınar Sınır Kapısı ile Suriye ticaretinde kritik roldedir.",
+    "Kilis Tava gastronomideki en önemli markasıdır.",
+    "Zeytinyağı üretimi modern tesislerle sanayiye dönüşmüştür.",
+    "Tarihi Kastelleri (su dağıtım sistemleri) mimari mirasıdır."
+  ],
+  "osmaniye": [
+    "Akdeniz Bölgesi'nde 'Yer fıstığının Başkenti' olarak bilinir.",
+    "Türkiye yer fıstığı üretiminin ve işlemesinin merkezidir.",
+    "Karatepe-Aslantaş Açık Hava Müzesi (Hitit) arkeolojik hazinesidir.",
+    "Demir-Çelik sanayisi son yıllarda bölge ekonomisini devleştirmiştir.",
+    "Yayla turizmi (Zorkun) halkın yazın vazgeçilmezidir."
+  ],
+  "duzce": [
+    "Karadeniz ve Marmara arasında geçiş noktasında, fındık ve kereste merkezidir.",
+    "Samandere Şelalesi ve Efteni Gölü doğa turizmi duraklarıdır.",
+    "Otomotiv yan sanayisi ve tekstil gelişmiştir.",
+    "Akçakoca ilçesi denizi ve fındığıyla bölgenin turizm yüzüdür.",
+    "Rafting (Melen Çayı) macera tutkunlarının favorisidir."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "gecitler_ve_tuneller": [
+    { "ad": "Cankurtaran Geçidi", "lat": 41.38, "lng": 41.52, "baglanti": "Artvin - Erzurum", "not": "Doğu Karadeniz'i iç kesimlere bağlar." },
+    { "ad": "Pirinkayalar Tüneli", "lat": 40.54, "lng": 41.65, "baglanti": "Erzurum - Artvin", "not": "Uzunluğu ile dikkat çeken modern tünel." },
+    { "ad": "Ovit Tüneli", "lat": 40.63, "lng": 40.75, "baglanti": "Rize - Erzurum", "not": "Türkiye'nin en uzun çift tüplü tünellerinden biri." },
+    { "ad": "Zigana Geçidi", "lat": 40.63, "lng": 39.42, "baglanti": "Trabzon - Gümüşhane", "not": "Tarihi İpek Yolu güzergahı." },
+    { "ad": "Kop Geçidi", "lat": 40.03, "lng": 40.51, "baglanti": "Bayburt - Erzurum", "not": "Yüksek rakımlı zorlu geçit." },
+    { "ad": "Ecevit Geçidi", "lat": 41.76, "lng": 33.78, "baglanti": "Kastamonu - İnebolu", "not": "İstiklal Yolu güzergahı." },
+    { "ad": "Ilgaz Geçidi", "lat": 41.05, "lng": 33.75, "baglanti": "Kastamonu - Çankırı", "not": "İç Anadolu'yu Batı Karadeniz'e bağlar." },
+    { "ad": "Gülek Geçidi", "lat": 37.31, "lng": 34.78, "baglanti": "Adana - İç Anadolu", "not": "Toroslar'daki en önemli geçitlerden biri." },
+    { "ad": "Belen Geçidi", "lat": 36.49, "lng": 36.19, "baglanti": "Hatay - İskenderun", "not": "Amanos Dağları üzerindeki stratejik geçit." },
+    { "ad": "Sertavul Geçidi", "lat": 36.91, "lng": 33.26, "baglanti": "Mersin - İç Anadolu", "not": "İç Anadolu'yu Akdeniz'e bağlayan bir diğer geçit." },
+    { "ad": "Çubuk Geçidi", "lat": 37.33, "lng": 30.55, "baglanti": "Antalya - İç Anadolu", "not": "Göller Yöresi bağlantısı." }
+  ],
+  "turizm_merkezleri": [
+    { "ad": "Gordiyon Antik Kenti", "lat": 39.65, "lng": 32.28, "il": "Ankara", "tur": "Antik Kent / UNESCO", "ozellik": "Frigya'nın başkenti." },
+    { "ad": "Milet Antik Kenti", "lat": 37.53, "lng": 27.27, "il": "Aydın", "tur": "Antik Kent", "ozellik": "Filozofların kenti." },
+    { "ad": "Afrodisias Antik Kenti", "lat": 37.71, "lng": 28.72, "il": "Aydın", "tur": "Antik Kent / UNESCO", "ozellik": "Heykeltıraşlık merkezi." },
+    { "ad": "Efes Antik Kenti", "lat": 37.94, "lng": 27.34, "il": "İzmir", "tur": "Antik Kent / UNESCO", "ozellik": "Dünyanın yedi harikasından biri." },
+    { "ad": "Zeugma Antik Kenti", "lat": 37.06, "lng": 37.87, "il": "Gaziantep", "tur": "Antik Kent", "ozellik": "Mozaik müzesi ile ünlü." },
+    { "ad": "Bafa Gölü", "lat": 37.50, "lng": 27.42, "il": "Aydın/Muğla", "tur": "Doğal Güzellik", "ozellik": "Antik Latmos Dağları eteklerinde." },
+    { "ad": "Ihlara Vadisi", "lat": 38.25, "lng": 34.30, "il": "Aksaray", "tur": "Doğal/Tarihi", "ozellik": "Kapadokya bölgesinin dev kanyonu." }
+  ]
+}

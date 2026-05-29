@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "konu": "Türkiye'nin Ovaları",
+    "aciklama": "Çevresine göre alçakta bulunan düzlüklerdir. Oluşumuna göre 3 gruba ayrılır: delta, tektonik, karstik."
+  },
+  "delta": {
+    "aciklama": "Akarsuların denize yakın yerlerde taşıdıkları alüvyonları biriktirmesiyle oluşan ovalardır.",
+    "olusum_sartlari": [
+      "Kıta sahanlığı geniş olmalı",
+      "Bol alüvyon taşınmalı",
+      "Gel-git az olmalı",
+      "Kıyı akıntısı olmamalı",
+      "Karstik arazi olmamalı"
+    ],
+    "kpss_notu": "Kuzey kıyılarında (Karadeniz) delta oluşumu güçtür çünkü kıta sahanlığı dardır. Ege'de ise kıyıya dik uzanan dağlar sayesinde kıta sahanlığı geniştir, delta oluşumu kolaydır.",
+    "ovalar": [
+      { "ad": "Çukurova", "nehir": "Seyhan - Ceyhan", "il": "Adana", "ozellik": "Türkiye'nin en büyük ve en verimli delta ovası; pamuk başta olmak üzere yoğun tarım" },
+      { "ad": "Bafra Ovası", "nehir": "Kızılırmak", "il": "Samsun", "ozellik": "Karadeniz'in en büyük delta ovası" },
+      { "ad": "Çarşamba Ovası", "nehir": "Yeşilırmak", "il": "Samsun", "ozellik": "Karadeniz delta ovası" },
+      { "ad": "Silifke Ovası", "nehir": "Göksu", "il": "Mersin", "ozellik": "Akdeniz delta ovası" },
+      { "ad": "Balat Ovası", "nehir": "Büyük Menderes", "il": "Aydın - İzmir", "ozellik": "Ege delta ovası" },
+      { "ad": "Selçuk Ovası", "nehir": "Küçük Menderes", "il": "İzmir", "ozellik": "Ege delta ovası, Efes antik kenti yakını" },
+      { "ad": "Menemen Ovası", "nehir": "Gediz", "il": "İzmir", "ozellik": "Gediz'in yönü İzmir limanının dolmasını önlemek için değiştirilmiştir" },
+      { "ad": "Dikili Ovası", "nehir": "Bakırçay", "il": "İzmir", "ozellik": "Ege delta ovası" },
+      { "ad": "Karasu Ovası", "nehir": "Sakarya (Karasu kolu)", "il": "Sakarya", "ozellik": "" }
+    ]
+  },
+  "tektonik": {
+    "aciklama": "Fay hattına bağlı çöküntü alanlarının (graben) alüvyonlarla dolmasıyla oluşan ovalardır.",
+    "kpss_notu": "İç Anadolu ve Doğu Anadolu'da yaygındır. Ergene Ovası da tektoniktir.",
+    "ovalar": [
+      { "ad": "Konya Ovası", "il": "Konya", "ozellik": "İç Anadolu'nun ve Türkiye'nin en büyük tektonik ovası; buğday, şeker pancarı" },
+      { "ad": "Ergene Ovası", "il": "Edirne - Tekirdağ - Kırklareli", "ozellik": "Trakya'nın en büyük ovası; buğday, ayçiçeği, pirinç" },
+      { "ad": "Harran Ovası", "il": "Şanlıurfa", "ozellik": "GAP sulama projesinin en önemli ovası; pamuk" },
+      { "ad": "Muş Ovası", "il": "Muş", "ozellik": "Doğu Anadolu'nun en büyük ovası" },
+      { "ad": "Iğdır Ovası", "il": "Iğdır", "ozellik": "Türkiye'nin en alçak ovası; Aras Havzası" },
+      { "ad": "Malatya Ovası", "il": "Malatya", "ozellik": "Kayısı üretiminin merkezi" },
+      { "ad": "Balıkesir Ovası", "il": "Balıkesir", "ozellik": "" },
+      { "ad": "Suluova", "il": "Amasya", "ozellik": "" },
+      { "ad": "Erbaa Ovası", "il": "Tokat", "ozellik": "" },
+      { "ad": "Niksar Ovası", "il": "Tokat", "ozellik": "" },
+      { "ad": "Tokat Ovası", "il": "Tokat", "ozellik": "" },
+      { "ad": "Merzifon Ovası", "il": "Amasya", "ozellik": "" },
+      { "ad": "Pasinler Ovası", "il": "Erzurum", "ozellik": "" },
+      { "ad": "Tercan Ovası", "il": "Erzincan", "ozellik": "" },
+      { "ad": "Amik Ovası", "il": "Hatay", "ozellik": "Türkiye'nin en güneydeki ovası; Asi nehri" },
+      { "ad": "Suruç Ovası", "il": "Şanlıurfa", "ozellik": "" },
+      { "ad": "Ceylanpınar Ovası", "il": "Şanlıurfa", "ozellik": "" },
+      { "ad": "Adapazarı Ovası", "il": "Sakarya", "ozellik": "" }
+    ]
+  },
+  "karstik": {
+    "aciklama": "Eriyebilen kayaçların (kireçtaşı, jips) bulunduğu alanlarda suyun eritmesiyle oluşan çukurların (polye) alüvyonlarla dolmasıyla oluşur.",
+    "kpss_notu": "Akdeniz Bölgesi (Antalya çevresi) ve Göller Yöresi'nde yaygındır. Suları genellikle derinden kaybolur (obruk).",
+    "ovalar": [
+      { "ad": "Kestel Ovası", "il": "Antalya", "ozellik": "" },
+      { "ad": "Elmalı Ovası", "il": "Antalya", "ozellik": "" },
+      { "ad": "Korkuteli Ovası", "il": "Antalya", "ozellik": "" },
+      { "ad": "Tefenni Ovası", "il": "Burdur", "ozellik": "" },
+      { "ad": "Acıpayam Ovası", "il": "Denizli", "ozellik": "" },
+      { "ad": "Tavas Ovası", "il": "Denizli", "ozellik": "" },
+      { "ad": "Muğla Ovası", "il": "Muğla", "ozellik": "" }
+    ]
+  }
+}

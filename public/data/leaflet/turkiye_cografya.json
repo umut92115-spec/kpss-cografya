@@ -1,0 +1,4465 @@
+{
+  "daglar": [
+    {
+      "isim": "Ağrı Dağı",
+      "lat": 39.7022,
+      "lng": 44.2983,
+      "yukseklik_m": 5137,
+      "sira_dag": "Doğu Anadolu Dağları",
+      "notlar": "Türkiye'nin en yüksek noktası"
+    },
+    {
+      "isim": "Kaçkar Dağı",
+      "lat": 40.8344,
+      "lng": 41.1264,
+      "yukseklik_m": 3937,
+      "sira_dag": "Doğu Karadeniz Dağları",
+      "notlar": "Karadeniz bölgesinin en yüksek noktası"
+    },
+    {
+      "isim": "Küçük Ağrı Dağı",
+      "lat": 39.6453,
+      "lng": 44.3844,
+      "yukseklik_m": 3896,
+      "sira_dag": "Doğu Anadolu Dağları",
+      "notlar": "İran sınırına yakın"
+    },
+    {
+      "isim": "Erciyes Dağı",
+      "lat": 38.5314,
+      "lng": 35.4498,
+      "yukseklik_m": 3917,
+      "sira_dag": "İç Anadolu Dağları",
+      "notlar": "Kayseri'nin yanındaki stratovulkan"
+    },
+    {
+      "isim": "Süphan Dağı",
+      "lat": 38.9269,
+      "lng": 42.8239,
+      "yukseklik_m": 4058,
+      "sira_dag": "Doğu Anadolu Dağları",
+      "notlar": "Van Gölü kuzeyindeki sönmüş volkan"
+    },
+    {
+      "isim": "Uludağ",
+      "lat": 40.1228,
+      "lng": 29.2258,
+      "yukseklik_m": 2543,
+      "sira_dag": "Marmara-Bithynia Dağları",
+      "notlar": "Bursa'nın güneyi, önemli kayak merkezi"
+    },
+    {
+      "isim": "Aladağlar (Demirkazık)",
+      "lat": 37.8225,
+      "lng": 35.1492,
+      "yukseklik_m": 3756,
+      "sira_dag": "Orta Toros Dağları",
+      "notlar": "Torosların en yüksek kütlesi"
+    },
+    {
+      "isim": "Bolkar Dağları (Medetsiz Tepe)",
+      "lat": 37.4611,
+      "lng": 34.5833,
+      "yukseklik_m": 3524,
+      "sira_dag": "Orta Toros Dağları",
+      "notlar": "Niğde-Mersin sınırı"
+    },
+    {
+      "isim": "Tahtalı Dağı",
+      "lat": 36.5292,
+      "lng": 30.4831,
+      "yukseklik_m": 2366,
+      "sira_dag": "Batı Toros Dağları",
+      "notlar": "Kemer'in hemen yanında, teleferik ile çıkılabilen zirve"
+    },
+    {
+      "isim": "Munzur Dağları (Akbaba)",
+      "lat": 39.3833,
+      "lng": 39.5667,
+      "yukseklik_m": 3462,
+      "sira_dag": "Doğu Anadolu Dağları",
+      "notlar": "Tunceli-Erzincan sınırı"
+    },
+    {
+      "isim": "Tendürek Dağı",
+      "lat": 39.3633,
+      "lng": 43.8611,
+      "yukseklik_m": 3542,
+      "sira_dag": "Doğu Anadolu Dağları",
+      "notlar": "Ağrı-Van sınırındaki sönmüş volkan"
+    },
+    {
+      "isim": "Palandöken Dağları",
+      "lat": 39.8522,
+      "lng": 41.2544,
+      "yukseklik_m": 3176,
+      "sira_dag": "Doğu Anadolu Dağları",
+      "notlar": "Erzurum yakını, kış sporları merkezi"
+    },
+    {
+      "isim": "Bingöl Dağları",
+      "lat": 39.0833,
+      "lng": 41.0833,
+      "yukseklik_m": 3250,
+      "sira_dag": "Doğu Anadolu Dağları",
+      "notlar": "Fırat ve Murat nehirlerinin kaynağına yakın"
+    },
+    {
+      "isim": "Yıldız Dağları",
+      "lat": 41.7667,
+      "lng": 27.7667,
+      "yukseklik_m": 1031,
+      "sira_dag": "Trakya-Istranca Dağları",
+      "notlar": "İstanbul'un kuzeybatısı, Istranca dağları olarak da bilinir"
+    },
+    {
+      "isim": "Köroğlu Dağları",
+      "lat": 40.6833,
+      "lng": 32.5,
+      "yukseklik_m": 2399,
+      "sira_dag": "Kuzey Anadolu Dağları (Pontik)",
+      "notlar": "Bolu-Ankara sınırı"
+    },
+    {
+      "isim": "Ilgaz Dağları",
+      "lat": 41.0744,
+      "lng": 33.6278,
+      "yukseklik_m": 2587,
+      "sira_dag": "Kuzey Anadolu Dağları (Pontik)",
+      "notlar": "Kastamonu, önemli kayak merkezi"
+    },
+    {
+      "isim": "Küre Dağları",
+      "lat": 41.8667,
+      "lng": 33.5,
+      "yukseklik_m": 1800,
+      "sira_dag": "Kuzey Anadolu Dağları (Pontik)",
+      "notlar": "Kastamonu-Bartın, milli park"
+    },
+    {
+      "isim": "Giresun Dağları (Kümbet)",
+      "lat": 40.35,
+      "lng": 38.75,
+      "yukseklik_m": 3107,
+      "sira_dag": "Doğu Karadeniz Dağları",
+      "notlar": "Giresun iç kesimleri"
+    },
+    {
+      "isim": "Rize Dağları (Verçenik)",
+      "lat": 40.9167,
+      "lng": 41.0167,
+      "yukseklik_m": 3711,
+      "sira_dag": "Doğu Karadeniz Dağları",
+      "notlar": "Rize-Artvin sınırı"
+    },
+    {
+      "isim": "Gavur Dağları",
+      "lat": 37.3,
+      "lng": 36.5,
+      "yukseklik_m": 2000,
+      "sira_dag": "Güneydoğu Toros Dağları",
+      "notlar": "Kahramanmaraş güneyi"
+    },
+    {
+      "isim": "Binboğa Dağları",
+      "lat": 37.9167,
+      "lng": 37.8333,
+      "yukseklik_m": 2259,
+      "sira_dag": "Güneydoğu Toros Dağları",
+      "notlar": "Kahramanmaraş-Adıyaman sınırı"
+    },
+    {
+      "isim": "Amanos Dağları (Mağara Dağı)",
+      "lat": 36.9833,
+      "lng": 36.2833,
+      "yukseklik_m": 2240,
+      "sira_dag": "Güneydoğu Toros Dağları",
+      "notlar": "Hatay-Gaziantep sınırı"
+    },
+    {
+      "isim": "Nur Dağları",
+      "lat": 37.2167,
+      "lng": 36.5167,
+      "yukseklik_m": 2240,
+      "sira_dag": "Güneydoğu Toros Dağları",
+      "notlar": "Hatay-Adana arasındaki geçit dağı"
+    },
+    {
+      "isim": "Bey Dağları (Tahtalı bölgesi)",
+      "lat": 36.6,
+      "lng": 30.25,
+      "yukseklik_m": 3070,
+      "sira_dag": "Batı Toros Dağları",
+      "notlar": "Antalya milli parkı"
+    },
+    {
+      "isim": "Akdağlar (Konya-Antalya)",
+      "lat": 37.1,
+      "lng": 31.9,
+      "yukseklik_m": 2905,
+      "sira_dag": "Orta Toros Dağları",
+      "notlar": "Konya-Antalya sınırı üzerinde"
+    },
+    {
+      "isim": "Sandıras Dağı",
+      "lat": 37.0833,
+      "lng": 28.7167,
+      "yukseklik_m": 1966,
+      "sira_dag": "Batı Anadolu Dağları",
+      "notlar": "Muğla-Fethiye yakını"
+    },
+    {
+      "isim": "Honaz Dağı",
+      "lat": 37.7,
+      "lng": 29.1833,
+      "yukseklik_m": 2528,
+      "sira_dag": "Batı Anadolu Dağları",
+      "notlar": "Denizli yakını, milli park"
+    },
+    {
+      "isim": "Bozdağlar",
+      "lat": 38.3333,
+      "lng": 28.1667,
+      "yukseklik_m": 2159,
+      "sira_dag": "Batı Anadolu Dağları",
+      "notlar": "İzmir-Manisa-Uşak sınırı"
+    },
+    {
+      "isim": "Madra Dağı",
+      "lat": 39.3667,
+      "lng": 27.3667,
+      "yukseklik_m": 1339,
+      "sira_dag": "Batı Anadolu Dağları",
+      "notlar": "Balıkesir-İzmir sınırı"
+    },
+    {
+      "isim": "Kazdağı (İda Dağı)",
+      "lat": 39.7056,
+      "lng": 26.8208,
+      "yukseklik_m": 1774,
+      "sira_dag": "Kuzeybatı Anadolu Dağları",
+      "notlar": "Çanakkale-Balıkesir, milli park, Homeros'un İda Dağı"
+    },
+    {
+      "isim": "Uludağ (Ulu Dağ)",
+      "lat": 40.0969,
+      "lng": 29.2217,
+      "yukseklik_m": 2543,
+      "sira_dag": "Kuzeybatı Anadolu Dağları",
+      "notlar": "Bursa'nın güneyi, kayak merkezi"
+    },
+    {
+      "isim": "Samanlı Dağları",
+      "lat": 40.5833,
+      "lng": 30,
+      "yukseklik_m": 1601,
+      "sira_dag": "Kuzeybatı Anadolu Dağları",
+      "notlar": "Sakarya-Kocaeli-Bursa sınırı"
+    },
+    {
+      "isim": "Aydos Dağı",
+      "lat": 40.9667,
+      "lng": 29.3333,
+      "yukseklik_m": 537,
+      "sira_dag": "Marmara Dağları",
+      "notlar": "İstanbul Anadolu yakası"
+    },
+    {
+      "isim": "Keltepe (Ararat bölgesi)",
+      "lat": 39.9,
+      "lng": 43.5,
+      "yukseklik_m": 3600,
+      "sira_dag": "Doğu Anadolu Dağları",
+      "notlar": "Ağrı bölgesi"
+    },
+    {
+      "isim": "Murat Dağı",
+      "lat": 39.1167,
+      "lng": 29.6667,
+      "yukseklik_m": 2309,
+      "sira_dag": "Batı Anadolu Dağları",
+      "notlar": "Kütahya-Uşak sınırı"
+    },
+    {
+      "isim": "Şaphane Dağı",
+      "lat": 39.0833,
+      "lng": 29.6,
+      "yukseklik_m": 2121,
+      "sira_dag": "Batı Anadolu Dağları",
+      "notlar": "Kütahya yakını"
+    },
+    {
+      "isim": "Eğrigöz Dağı",
+      "lat": 39.3,
+      "lng": 29.0833,
+      "yukseklik_m": 1889,
+      "sira_dag": "Batı Anadolu Dağları",
+      "notlar": "Kütahya yakını"
+    },
+    {
+      "isim": "Türkmen Dağı",
+      "lat": 39.4833,
+      "lng": 30.6667,
+      "yukseklik_m": 1829,
+      "sira_dag": "İç Anadolu Dağları",
+      "notlar": "Eskişehir-Kütahya sınırı"
+    },
+    {
+      "isim": "Sivrihisar Dağları",
+      "lat": 39.45,
+      "lng": 31.35,
+      "yukseklik_m": 1750,
+      "sira_dag": "İç Anadolu Dağları",
+      "notlar": "Eskişehir yakını"
+    },
+    {
+      "isim": "Emirdağ",
+      "lat": 38.85,
+      "lng": 31.15,
+      "yukseklik_m": 1956,
+      "sira_dag": "İç Anadolu Dağları",
+      "notlar": "Afyonkarahisar yakını"
+    },
+    {
+      "isim": "Sultan Dağları",
+      "lat": 38.2167,
+      "lng": 31.5667,
+      "yukseklik_m": 2581,
+      "sira_dag": "İç Anadolu Dağları",
+      "notlar": "Konya-Afyon sınırı"
+    },
+    {
+      "isim": "Karadağ (Konya)",
+      "lat": 37.45,
+      "lng": 32.9,
+      "yukseklik_m": 2271,
+      "sira_dag": "İç Anadolu Dağları",
+      "notlar": "Konya'nın güneyinde volkanik kökenli"
+    },
+    {
+      "isim": "Hasan Dağı",
+      "lat": 38.1414,
+      "lng": 34.1733,
+      "yukseklik_m": 3268,
+      "sira_dag": "İç Anadolu Dağları",
+      "notlar": "Aksaray yakınında sönmüş volkan, Kapadokya bölgesi"
+    },
+    {
+      "isim": "Melendiz Dağları",
+      "lat": 38.1,
+      "lng": 34.55,
+      "yukseklik_m": 2963,
+      "sira_dag": "İç Anadolu Dağları",
+      "notlar": "Niğde yakını"
+    },
+    {
+      "isim": "Dumanlı Dağ",
+      "lat": 40.6667,
+      "lng": 38.1667,
+      "yukseklik_m": 3082,
+      "sira_dag": "Doğu Karadeniz Dağları",
+      "notlar": "Erzincan-Giresun sınırı"
+    },
+    {
+      "isim": "Yalnızçam Dağları",
+      "lat": 41.2667,
+      "lng": 42.5,
+      "yukseklik_m": 2979,
+      "sira_dag": "Doğu Anadolu-Karadeniz Dağları",
+      "notlar": "Ardahan yakını"
+    },
+    {
+      "isim": "Kop Dağı",
+      "lat": 40.0167,
+      "lng": 40.3833,
+      "yukseklik_m": 2392,
+      "sira_dag": "Doğu Anadolu Dağları",
+      "notlar": "Bayburt yakını, önemli geçit"
+    },
+    {
+      "isim": "Zigana Dağı",
+      "lat": 40.5167,
+      "lng": 39.4333,
+      "yukseklik_m": 2030,
+      "sira_dag": "Doğu Karadeniz Dağları",
+      "notlar": "Trabzon-Gümüşhane sınırı, Zigana Tüneli"
+    },
+    {
+      "isim": "Çimen Dağı",
+      "lat": 40.0833,
+      "lng": 40.8,
+      "yukseklik_m": 2800,
+      "sira_dag": "Doğu Anadolu Dağları",
+      "notlar": "Erzurum yakını"
+    },
+    {
+      "isim": "Allahuekber Dağları",
+      "lat": 40.2833,
+      "lng": 42.4,
+      "yukseklik_m": 2948,
+      "sira_dag": "Doğu Anadolu Dağları",
+      "notlar": "Kars-Erzurum sınırı, Sarıkamış civarı"
+    },
+    {
+      "isim": "Göller Dağı (Beyşehir)",
+      "lat": 37.5167,
+      "lng": 31.55,
+      "yukseklik_m": 2271,
+      "sira_dag": "Batı Toros Dağları",
+      "notlar": "Konya-Isparta sınırı"
+    },
+    {
+      "isim": "Katrancık Dağı",
+      "lat": 40.9,
+      "lng": 32,
+      "yukseklik_m": 1780,
+      "sira_dag": "Kuzey Anadolu Dağları",
+      "notlar": "Bolu yakını"
+    },
+    {
+      "isim": "Işık Dağı",
+      "lat": 40.25,
+      "lng": 38.55,
+      "yukseklik_m": 2550,
+      "sira_dag": "Doğu Karadeniz Dağları",
+      "notlar": "Gümüşhane yakını"
+    },
+    {
+      "isim": "Keldağ (Hatay)",
+      "lat": 36.2,
+      "lng": 36.2167,
+      "yukseklik_m": 1739,
+      "sira_dag": "Amanos Dağları",
+      "notlar": "Hatay güneyi"
+    },
+    {
+      "isim": "Nemrut Dağı (Volkanik)",
+      "lat": 38.6167,
+      "lng": 42.2167,
+      "yukseklik_m": 2948,
+      "sira_dag": "Doğu Anadolu Dağları",
+      "notlar": "Bitlis, geniş krater gölü, Van Gölü'nü oluşturan lav set"
+    },
+    {
+      "isim": "Nemrut Dağı (Kommagene)",
+      "lat": 37.9811,
+      "lng": 38.7458,
+      "yukseklik_m": 2150,
+      "sira_dag": "Güneydoğu Toros Dağları",
+      "notlar": "Adıyaman, UNESCO Dünya Mirası heykel anıtları"
+    },
+    {
+      "isim": "Cilo Dağları (Uludoruk)",
+      "lat": 37.5167,
+      "lng": 44.2833,
+      "yukseklik_m": 4168,
+      "sira_dag": "Güneydoğu Anadolu Dağları",
+      "notlar": "Hakkari, Türkiye'nin 2. en yüksek dağ kütlesi"
+    },
+    {
+      "isim": "Sat Dağları",
+      "lat": 37.5833,
+      "lng": 44.0167,
+      "yukseklik_m": 3800,
+      "sira_dag": "Güneydoğu Anadolu Dağları",
+      "notlar": "Hakkari"
+    },
+    {
+      "isim": "Tanin Dağı (Gabar)",
+      "lat": 37.4833,
+      "lng": 42.1833,
+      "yukseklik_m": 2089,
+      "sira_dag": "Güneydoğu Anadolu Dağları",
+      "notlar": "Şırnak yakını"
+    },
+    {
+      "isim": "Maraş (Ahır) Dağı",
+      "lat": 37.7667,
+      "lng": 36.8833,
+      "yukseklik_m": 2024,
+      "sira_dag": "Güneydoğu Toros Dağları",
+      "notlar": "Kahramanmaraş yakını"
+    },
+    {
+      "isim": "Sündiken Dağları",
+      "lat": 39.7,
+      "lng": 31.15,
+      "yukseklik_m": 1839,
+      "sira_dag": "İç Anadolu Dağları",
+      "notlar": "Eskişehir yakını"
+    },
+    {
+      "isim": "Bolu Dağı",
+      "lat": 40.75,
+      "lng": 31.5833,
+      "yukseklik_m": 1880,
+      "sira_dag": "Kuzey Anadolu Dağları",
+      "notlar": "Bolu, TEM otoyolu geçit noktası"
+    },
+    {
+      "isim": "Akdağ (Tokat)",
+      "lat": 40.25,
+      "lng": 36.8333,
+      "yukseklik_m": 2093,
+      "sira_dag": "Kuzey Anadolu Dağları",
+      "notlar": "Tokat-Sivas sınırı"
+    },
+    {
+      "isim": "Kısır Dağı",
+      "lat": 41.0833,
+      "lng": 42.9167,
+      "yukseklik_m": 3032,
+      "sira_dag": "Doğu Karadeniz Dağları",
+      "notlar": "Artvin yakını"
+    }
+  ],
+  "akarsular": [
+    {
+      "isim": "Fırat Nehri",
+      "lat": 39.7,
+      "lng": 38.3,
+      "tip": "kaynak",
+      "dokulduğu_yer": "Basra Körfezi (Irak)",
+      "gectiği_iller": [
+        "Erzincan",
+        "Elazığ",
+        "Malatya",
+        "Adıyaman",
+        "Gaziantep",
+        "Şanlıurfa"
+      ],
+      "uzunluk_km": 2800
+    },
+    {
+      "isim": "Fırat Nehri",
+      "lat": 37,
+      "lng": 39,
+      "tip": "agiz",
+      "dokulduğu_yer": "Basra Körfezi (Irak)",
+      "gectiği_iller": [
+        "Erzincan",
+        "Elazığ",
+        "Malatya",
+        "Adıyaman",
+        "Gaziantep",
+        "Şanlıurfa"
+      ],
+      "uzunluk_km": 2800
+    },
+    {
+      "isim": "Dicle Nehri",
+      "lat": 38.4833,
+      "lng": 39.7167,
+      "tip": "kaynak",
+      "dokulduğu_yer": "Basra Körfezi (Irak)",
+      "gectiği_iller": [
+        "Elazığ",
+        "Diyarbakır",
+        "Mardin",
+        "Şırnak"
+      ],
+      "uzunluk_km": 1900
+    },
+    {
+      "isim": "Dicle Nehri",
+      "lat": 37.25,
+      "lng": 42,
+      "tip": "agiz",
+      "dokulduğu_yer": "Basra Körfezi (Irak)",
+      "gectiği_iller": [
+        "Elazığ",
+        "Diyarbakır",
+        "Mardin",
+        "Şırnak"
+      ],
+      "uzunluk_km": 1900
+    },
+    {
+      "isim": "Kızılırmak Nehri",
+      "lat": 39.8333,
+      "lng": 38.75,
+      "tip": "kaynak",
+      "dokulduğu_yer": "Karadeniz (Bafra Burnu)",
+      "gectiği_iller": [
+        "Sivas",
+        "Kayseri",
+        "Ankara",
+        "Kırıkkale",
+        "Kırşehir",
+        "Çorum",
+        "Samsun"
+      ],
+      "uzunluk_km": 1355
+    },
+    {
+      "isim": "Kızılırmak Nehri",
+      "lat": 41.6,
+      "lng": 35.95,
+      "tip": "agiz",
+      "dokulduğu_yer": "Karadeniz (Bafra Burnu)",
+      "gectiği_iller": [
+        "Sivas",
+        "Kayseri",
+        "Ankara",
+        "Kırıkkale",
+        "Kırşehir",
+        "Çorum",
+        "Samsun"
+      ],
+      "uzunluk_km": 1355
+    },
+    {
+      "isim": "Yeşilırmak Nehri",
+      "lat": 40.35,
+      "lng": 38.3167,
+      "tip": "kaynak",
+      "dokulduğu_yer": "Karadeniz (Çarşamba ovası)",
+      "gectiği_iller": [
+        "Sivas",
+        "Tokat",
+        "Amasya",
+        "Samsun"
+      ],
+      "uzunluk_km": 519
+    },
+    {
+      "isim": "Yeşilırmak Nehri",
+      "lat": 41.5667,
+      "lng": 36.3,
+      "tip": "agiz",
+      "dokulduğu_yer": "Karadeniz (Çarşamba ovası)",
+      "gectiği_iller": [
+        "Sivas",
+        "Tokat",
+        "Amasya",
+        "Samsun"
+      ],
+      "uzunluk_km": 519
+    },
+    {
+      "isim": "Sakarya Nehri",
+      "lat": 39.4167,
+      "lng": 30.6167,
+      "tip": "kaynak",
+      "dokulduğu_yer": "Karadeniz (Karasu yakını)",
+      "gectiği_iller": [
+        "Afyon",
+        "Eskişehir",
+        "Ankara",
+        "Bolu",
+        "Kocaeli",
+        "Sakarya"
+      ],
+      "uzunluk_km": 824
+    },
+    {
+      "isim": "Sakarya Nehri",
+      "lat": 41.0167,
+      "lng": 30.5333,
+      "tip": "agiz",
+      "dokulduğu_yer": "Karadeniz (Karasu yakını)",
+      "gectiği_iller": [
+        "Afyon",
+        "Eskişehir",
+        "Ankara",
+        "Bolu",
+        "Kocaeli",
+        "Sakarya"
+      ],
+      "uzunluk_km": 824
+    },
+    {
+      "isim": "Seyhan Nehri",
+      "lat": 38.1833,
+      "lng": 35.55,
+      "tip": "kaynak",
+      "dokulduğu_yer": "Akdeniz (Adana ovası)",
+      "gectiği_iller": [
+        "Kayseri",
+        "Adana"
+      ],
+      "uzunluk_km": 560
+    },
+    {
+      "isim": "Seyhan Nehri",
+      "lat": 36.8667,
+      "lng": 35.3667,
+      "tip": "agiz",
+      "dokulduğu_yer": "Akdeniz (Adana ovası)",
+      "gectiği_iller": [
+        "Kayseri",
+        "Adana"
+      ],
+      "uzunluk_km": 560
+    },
+    {
+      "isim": "Ceyhan Nehri",
+      "lat": 38.05,
+      "lng": 36.9167,
+      "tip": "kaynak",
+      "dokulduğu_yer": "Akdeniz (Çukurova)",
+      "gectiği_iller": [
+        "Kahramanmaraş",
+        "Osmaniye",
+        "Adana"
+      ],
+      "uzunluk_km": 509
+    },
+    {
+      "isim": "Ceyhan Nehri",
+      "lat": 36.85,
+      "lng": 35.7167,
+      "tip": "agiz",
+      "dokulduğu_yer": "Akdeniz (Çukurova)",
+      "gectiği_iller": [
+        "Kahramanmaraş",
+        "Osmaniye",
+        "Adana"
+      ],
+      "uzunluk_km": 509
+    },
+    {
+      "isim": "Gediz Nehri",
+      "lat": 38.9833,
+      "lng": 29.5167,
+      "tip": "kaynak",
+      "dokulduğu_yer": "Ege Denizi (İzmir Körfezi)",
+      "gectiği_iller": [
+        "Kütahya",
+        "Manisa",
+        "İzmir"
+      ],
+      "uzunluk_km": 401
+    },
+    {
+      "isim": "Gediz Nehri",
+      "lat": 38.6833,
+      "lng": 26.9333,
+      "tip": "agiz",
+      "dokulduğu_yer": "Ege Denizi (İzmir Körfezi)",
+      "gectiği_iller": [
+        "Kütahya",
+        "Manisa",
+        "İzmir"
+      ],
+      "uzunluk_km": 401
+    },
+    {
+      "isim": "Büyük Menderes Nehri",
+      "lat": 38.3667,
+      "lng": 29.95,
+      "tip": "kaynak",
+      "dokulduğu_yer": "Ege Denizi (Söke)",
+      "gectiği_iller": [
+        "Afyon",
+        "Denizli",
+        "Aydın"
+      ],
+      "uzunluk_km": 584
+    },
+    {
+      "isim": "Büyük Menderes Nehri",
+      "lat": 37.5333,
+      "lng": 27.25,
+      "tip": "agiz",
+      "dokulduğu_yer": "Ege Denizi (Söke)",
+      "gectiği_iller": [
+        "Afyon",
+        "Denizli",
+        "Aydın"
+      ],
+      "uzunluk_km": 584
+    },
+    {
+      "isim": "Küçük Menderes Nehri",
+      "lat": 38.4,
+      "lng": 28.1167,
+      "tip": "kaynak",
+      "dokulduğu_yer": "Ege Denizi (Selçuk)",
+      "gectiği_iller": [
+        "İzmir"
+      ],
+      "uzunluk_km": 175
+    },
+    {
+      "isim": "Küçük Menderes Nehri",
+      "lat": 37.8833,
+      "lng": 27.2833,
+      "tip": "agiz",
+      "dokulduğu_yer": "Ege Denizi (Selçuk)",
+      "gectiği_iller": [
+        "İzmir"
+      ],
+      "uzunluk_km": 175
+    },
+    {
+      "isim": "Meriç Nehri",
+      "lat": 41.7,
+      "lng": 26.5,
+      "tip": "kaynak",
+      "dokulduğu_yer": "Ege Denizi (Enez)",
+      "gectiği_iller": [
+        "Edirne"
+      ],
+      "uzunluk_km": 480
+    },
+    {
+      "isim": "Meriç Nehri",
+      "lat": 40.7,
+      "lng": 26.1167,
+      "tip": "agiz",
+      "dokulduğu_yer": "Ege Denizi (Enez)",
+      "gectiği_iller": [
+        "Edirne"
+      ],
+      "uzunluk_km": 480
+    },
+    {
+      "isim": "Aras Nehri",
+      "lat": 39.9667,
+      "lng": 42.7167,
+      "tip": "kaynak",
+      "dokulduğu_yer": "Hazar Denizi (Azerbaycan)",
+      "gectiği_iller": [
+        "Erzurum",
+        "Ağrı",
+        "Iğdır",
+        "Kars"
+      ],
+      "uzunluk_km": 1072
+    },
+    {
+      "isim": "Aras Nehri",
+      "lat": 39.9333,
+      "lng": 45,
+      "tip": "agiz",
+      "dokulduğu_yer": "Hazar Denizi (Azerbaycan)",
+      "gectiği_iller": [
+        "Erzurum",
+        "Ağrı",
+        "Iğdır",
+        "Kars"
+      ],
+      "uzunluk_km": 1072
+    },
+    {
+      "isim": "Çoruh Nehri",
+      "lat": 40.5,
+      "lng": 41.7,
+      "tip": "kaynak",
+      "dokulduğu_yer": "Karadeniz (Gürcistan - Batum)",
+      "gectiği_iller": [
+        "Erzurum",
+        "Bayburt",
+        "Artvin"
+      ],
+      "uzunluk_km": 431
+    },
+    {
+      "isim": "Çoruh Nehri",
+      "lat": 41.6333,
+      "lng": 41.6333,
+      "tip": "agiz",
+      "dokulduğu_yer": "Karadeniz (Gürcistan - Batum)",
+      "gectiği_iller": [
+        "Erzurum",
+        "Bayburt",
+        "Artvin"
+      ],
+      "uzunluk_km": 431
+    },
+    {
+      "isim": "Kelkit Çayı",
+      "lat": 40.25,
+      "lng": 40.2,
+      "tip": "kaynak",
+      "dokulduğu_yer": "Yeşilırmak'a karışır",
+      "gectiği_iller": [
+        "Erzincan",
+        "Gümüşhane",
+        "Tokat"
+      ],
+      "uzunluk_km": 316
+    },
+    {
+      "isim": "Kelkit Çayı",
+      "lat": 40.5667,
+      "lng": 36.7333,
+      "tip": "agiz",
+      "dokulduğu_yer": "Yeşilırmak'a karışır",
+      "gectiği_iller": [
+        "Erzincan",
+        "Gümüşhane",
+        "Tokat"
+      ],
+      "uzunluk_km": 316
+    },
+    {
+      "isim": "Murat Nehri",
+      "lat": 39,
+      "lng": 41,
+      "tip": "kaynak",
+      "dokulduğu_yer": "Fırat'a karışır (Keban)",
+      "gectiği_iller": [
+        "Bingöl",
+        "Muş",
+        "Elazığ"
+      ],
+      "uzunluk_km": 722
+    },
+    {
+      "isim": "Murat Nehri",
+      "lat": 38.8,
+      "lng": 38.7,
+      "tip": "agiz",
+      "dokulduğu_yer": "Fırat'a karışır (Keban)",
+      "gectiği_iller": [
+        "Bingöl",
+        "Muş",
+        "Elazığ"
+      ],
+      "uzunluk_km": 722
+    },
+    {
+      "isim": "Susurluk Çayı",
+      "lat": 40,
+      "lng": 29.5,
+      "tip": "kaynak",
+      "dokulduğu_yer": "Marmara Denizi (Bandırma körfezi)",
+      "gectiği_iller": [
+        "Kütahya",
+        "Balıkesir",
+        "Bursa"
+      ],
+      "uzunluk_km": 321
+    },
+    {
+      "isim": "Susurluk Çayı",
+      "lat": 40.2167,
+      "lng": 27.9667,
+      "tip": "agiz",
+      "dokulduğu_yer": "Marmara Denizi (Bandırma körfezi)",
+      "gectiği_iller": [
+        "Kütahya",
+        "Balıkesir",
+        "Bursa"
+      ],
+      "uzunluk_km": 321
+    },
+    {
+      "isim": "Asi Nehri (Orontes)",
+      "lat": 37.1,
+      "lng": 36.5833,
+      "tip": "kaynak",
+      "dokulduğu_yer": "Akdeniz (Samandağ)",
+      "gectiği_iller": [
+        "Hatay"
+      ],
+      "uzunluk_km": 571
+    },
+    {
+      "isim": "Asi Nehri (Orontes)",
+      "lat": 36.0167,
+      "lng": 35.9167,
+      "tip": "agiz",
+      "dokulduğu_yer": "Akdeniz (Samandağ)",
+      "gectiği_iller": [
+        "Hatay"
+      ],
+      "uzunluk_km": 571
+    },
+    {
+      "isim": "Göksü Nehri",
+      "lat": 37.6667,
+      "lng": 33.4167,
+      "tip": "kaynak",
+      "dokulduğu_yer": "Akdeniz (Silifke yakını)",
+      "gectiği_iller": [
+        "Konya",
+        "Mersin"
+      ],
+      "uzunluk_km": 259
+    },
+    {
+      "isim": "Göksü Nehri",
+      "lat": 36.4167,
+      "lng": 34,
+      "tip": "agiz",
+      "dokulduğu_yer": "Akdeniz (Silifke yakını)",
+      "gectiği_iller": [
+        "Konya",
+        "Mersin"
+      ],
+      "uzunluk_km": 259
+    },
+    {
+      "isim": "Manavgat Nehri",
+      "lat": 37.5333,
+      "lng": 31.5333,
+      "tip": "kaynak",
+      "dokulduğu_yer": "Akdeniz (Manavgat/Antalya)",
+      "gectiği_iller": [
+        "Antalya"
+      ],
+      "uzunluk_km": 91
+    },
+    {
+      "isim": "Manavgat Nehri",
+      "lat": 36.7833,
+      "lng": 31.5167,
+      "tip": "agiz",
+      "dokulduğu_yer": "Akdeniz (Manavgat/Antalya)",
+      "gectiği_iller": [
+        "Antalya"
+      ],
+      "uzunluk_km": 91
+    },
+    {
+      "isim": "Dalaman Çayı",
+      "lat": 37.25,
+      "lng": 29.6167,
+      "tip": "kaynak",
+      "dokulduğu_yer": "Akdeniz (Dalaman)",
+      "gectiği_iller": [
+        "Muğla",
+        "Denizli"
+      ],
+      "uzunluk_km": 200
+    },
+    {
+      "isim": "Dalaman Çayı",
+      "lat": 36.7667,
+      "lng": 28.8,
+      "tip": "agiz",
+      "dokulduğu_yer": "Akdeniz (Dalaman)",
+      "gectiği_iller": [
+        "Muğla",
+        "Denizli"
+      ],
+      "uzunluk_km": 200
+    },
+    {
+      "isim": "Batman Çayı",
+      "lat": 37.8833,
+      "lng": 41.1667,
+      "tip": "kaynak",
+      "dokulduğu_yer": "Dicle'ye karışır",
+      "gectiği_iller": [
+        "Batman",
+        "Siirt"
+      ],
+      "uzunluk_km": 333
+    },
+    {
+      "isim": "Batman Çayı",
+      "lat": 37.7,
+      "lng": 41.1667,
+      "tip": "agiz",
+      "dokulduğu_yer": "Dicle'ye karışır",
+      "gectiği_iller": [
+        "Batman",
+        "Siirt"
+      ],
+      "uzunluk_km": 333
+    },
+    {
+      "isim": "Filyos Çayı (Bartın)",
+      "lat": 41.3,
+      "lng": 32.55,
+      "tip": "kaynak",
+      "dokulduğu_yer": "Karadeniz (Filyos)",
+      "gectiği_iller": [
+        "Zonguldak",
+        "Karabük",
+        "Bartın"
+      ],
+      "uzunluk_km": 226
+    },
+    {
+      "isim": "Filyos Çayı (Bartın)",
+      "lat": 41.5667,
+      "lng": 32,
+      "tip": "agiz",
+      "dokulduğu_yer": "Karadeniz (Filyos)",
+      "gectiği_iller": [
+        "Zonguldak",
+        "Karabük",
+        "Bartın"
+      ],
+      "uzunluk_km": 226
+    },
+    {
+      "isim": "Porsuk Çayı",
+      "lat": 39.35,
+      "lng": 30.8,
+      "tip": "kaynak",
+      "dokulduğu_yer": "Sakarya'ya karışır",
+      "gectiği_iller": [
+        "Kütahya",
+        "Eskişehir"
+      ],
+      "uzunluk_km": 368
+    },
+    {
+      "isim": "Porsuk Çayı",
+      "lat": 39.75,
+      "lng": 31.35,
+      "tip": "agiz",
+      "dokulduğu_yer": "Sakarya'ya karışır",
+      "gectiği_iller": [
+        "Kütahya",
+        "Eskişehir"
+      ],
+      "uzunluk_km": 368
+    }
+  ],
+  "goller": [
+    {
+      "isim": "Van Gölü",
+      "lat": 38.6,
+      "lng": 42.9,
+      "yuzolcumu_km2": 3713,
+      "olusum_tipi": "tektonik",
+      "su_tipi": "tuzlu",
+      "il": "Van/Bitlis",
+      "notlar": "Türkiye'nin en büyük gölü; sodalı ve acı su"
+    },
+    {
+      "isim": "Tuz Gölü",
+      "lat": 38.75,
+      "lng": 33.35,
+      "yuzolcumu_km2": 1500,
+      "olusum_tipi": "tektonik",
+      "su_tipi": "tuzlu",
+      "il": "Konya/Ankara/Aksaray",
+      "notlar": "Türkiye'nin en büyük ikinci gölü, tuz üretiminde 1. sıra"
+    },
+    {
+      "isim": "Beyşehir Gölü",
+      "lat": 37.75,
+      "lng": 31.5833,
+      "yuzolcumu_km2": 656,
+      "olusum_tipi": "tektonik",
+      "su_tipi": "tatlı",
+      "il": "Konya/Isparta",
+      "notlar": "Türkiye'nin en büyük tatlı su gölü"
+    },
+    {
+      "isim": "Eğirdir Gölü",
+      "lat": 37.9167,
+      "lng": 30.8333,
+      "yuzolcumu_km2": 482,
+      "olusum_tipi": "tektonik",
+      "su_tipi": "tatlı",
+      "il": "Isparta",
+      "notlar": "Göl adası Yeşilada ile ünlü"
+    },
+    {
+      "isim": "İznik Gölü",
+      "lat": 40.4333,
+      "lng": 29.5167,
+      "yuzolcumu_km2": 298,
+      "olusum_tipi": "tektonik",
+      "su_tipi": "tatlı",
+      "il": "Bursa",
+      "notlar": "Marmara bölgesinin en büyük gölü"
+    },
+    {
+      "isim": "Sapanca Gölü",
+      "lat": 40.7,
+      "lng": 30.25,
+      "yuzolcumu_km2": 45,
+      "olusum_tipi": "tektonik",
+      "su_tipi": "tatlı",
+      "il": "Sakarya/Kocaeli",
+      "notlar": "İstanbul'un önemli içme suyu kaynağı"
+    },
+    {
+      "isim": "Manyas Gölü (Kuş Gölü)",
+      "lat": 40.1833,
+      "lng": 27.9667,
+      "yuzolcumu_km2": 166,
+      "olusum_tipi": "tektonik",
+      "su_tipi": "tatlı",
+      "il": "Balıkesir",
+      "notlar": "Kuş Cenneti Milli Parkı"
+    },
+    {
+      "isim": "Ulubat Gölü",
+      "lat": 40.1667,
+      "lng": 28.5833,
+      "yuzolcumu_km2": 135,
+      "olusum_tipi": "tektonik",
+      "su_tipi": "tatlı",
+      "il": "Bursa",
+      "notlar": "Su ortamında nilüfer çiçeği yetişir"
+    },
+    {
+      "isim": "Burdur Gölü",
+      "lat": 37.75,
+      "lng": 30.1833,
+      "yuzolcumu_km2": 200,
+      "olusum_tipi": "tektonik",
+      "su_tipi": "acı",
+      "il": "Burdur",
+      "notlar": "Acı su; dik fay kaynaklı; didi balığı yaşar"
+    },
+    {
+      "isim": "Acıgöl (Afyon)",
+      "lat": 38.5333,
+      "lng": 29.9,
+      "yuzolcumu_km2": 59,
+      "olusum_tipi": "tektonik",
+      "su_tipi": "tuzlu",
+      "il": "Afyonkarahisar/Denizli",
+      "notlar": "Trona (soda) üretimi yapılır"
+    },
+    {
+      "isim": "Eber Gölü",
+      "lat": 38.5833,
+      "lng": 31.1,
+      "yuzolcumu_km2": 101,
+      "olusum_tipi": "tektonik",
+      "su_tipi": "tatlı",
+      "il": "Afyonkarahisar",
+      "notlar": ""
+    },
+    {
+      "isim": "Akşehir Gölü",
+      "lat": 38.5,
+      "lng": 31.4167,
+      "yuzolcumu_km2": 350,
+      "olusum_tipi": "tektonik",
+      "su_tipi": "tatlı",
+      "il": "Konya/Afyonkarahisar",
+      "notlar": "Nasreddin Hoca ile ünlü şehir"
+    },
+    {
+      "isim": "Kovada Gölü",
+      "lat": 37.6667,
+      "lng": 30.8833,
+      "yuzolcumu_km2": 28,
+      "olusum_tipi": "tektonik",
+      "su_tipi": "tatlı",
+      "il": "Isparta",
+      "notlar": "Kovada Gölü Milli Parkı"
+    },
+    {
+      "isim": "Salda Gölü",
+      "lat": 37.5333,
+      "lng": 29.6833,
+      "yuzolcumu_km2": 45,
+      "olusum_tipi": "krater",
+      "su_tipi": "tatlı",
+      "il": "Burdur",
+      "notlar": "Türkiye'nin Maldivleri; beyaz kumlu; Mars araştırmalarında referans alındı"
+    },
+    {
+      "isim": "Abant Gölü",
+      "lat": 40.6,
+      "lng": 31.2833,
+      "yuzolcumu_km2": 1.3,
+      "olusum_tipi": "karstik",
+      "su_tipi": "tatlı",
+      "il": "Bolu",
+      "notlar": "Doğal güzelliğiyle ünlü, milli park"
+    },
+    {
+      "isim": "Hazar Gölü",
+      "lat": 38.5,
+      "lng": 39.4167,
+      "yuzolcumu_km2": 80,
+      "olusum_tipi": "tektonik",
+      "su_tipi": "tatlı",
+      "il": "Elazığ",
+      "notlar": "Dicle nehrinin kaynağına yakın"
+    },
+    {
+      "isim": "Tortum Gölü",
+      "lat": 40.5667,
+      "lng": 41.55,
+      "yuzolcumu_km2": 3.5,
+      "olusum_tipi": "karstik",
+      "su_tipi": "tatlı",
+      "il": "Erzurum",
+      "notlar": "Heyelan set gölü; Tortum Şelalesi"
+    },
+    {
+      "isim": "Sera Gölü",
+      "lat": 40.9833,
+      "lng": 39.8167,
+      "yuzolcumu_km2": 0.15,
+      "olusum_tipi": "karstik",
+      "su_tipi": "tatlı",
+      "il": "Trabzon",
+      "notlar": "Heyelan set gölü"
+    },
+    {
+      "isim": "Yedigöller",
+      "lat": 40.9333,
+      "lng": 31.8,
+      "yuzolcumu_km2": 0.05,
+      "olusum_tipi": "karstik",
+      "su_tipi": "tatlı",
+      "il": "Bolu",
+      "notlar": "7 küçük gölden oluşur, milli park"
+    },
+    {
+      "isim": "Mogan Gölü",
+      "lat": 39.8,
+      "lng": 32.7167,
+      "yuzolcumu_km2": 5.6,
+      "olusum_tipi": "tektonik",
+      "su_tipi": "tatlı",
+      "il": "Ankara",
+      "notlar": "Ankara yakını; rekreasyon alanı"
+    },
+    {
+      "isim": "Eymir Gölü",
+      "lat": 39.8833,
+      "lng": 32.7833,
+      "yuzolcumu_km2": 1.3,
+      "olusum_tipi": "tektonik",
+      "su_tipi": "tatlı",
+      "il": "Ankara",
+      "notlar": "ODTÜ Ormanı içinde"
+    },
+    {
+      "isim": "Seyfe Gölü",
+      "lat": 39.25,
+      "lng": 34.65,
+      "yuzolcumu_km2": 62,
+      "olusum_tipi": "tektonik",
+      "su_tipi": "tuzlu",
+      "il": "Kırşehir",
+      "notlar": "Ramsar alanı; flamingo üreme yeri"
+    },
+    {
+      "isim": "Yarışlı Gölü",
+      "lat": 37.6667,
+      "lng": 30.0167,
+      "yuzolcumu_km2": 9,
+      "olusum_tipi": "tektonik",
+      "su_tipi": "tuzlu",
+      "il": "Burdur",
+      "notlar": ""
+    },
+    {
+      "isim": "Çavuşçu Gölü",
+      "lat": 38.4667,
+      "lng": 31.7667,
+      "yuzolcumu_km2": 10,
+      "olusum_tipi": "tektonik",
+      "su_tipi": "tuzlu",
+      "il": "Konya",
+      "notlar": ""
+    },
+    {
+      "isim": "Atatürk Barajı",
+      "lat": 37.5833,
+      "lng": 38.5167,
+      "yuzolcumu_km2": 817,
+      "olusum_tipi": "baraj",
+      "su_tipi": "tatlı",
+      "il": "Şanlıurfa/Adıyaman",
+      "notlar": "Türkiye'nin en büyük barajı; Fırat üzerinde"
+    },
+    {
+      "isim": "Keban Barajı",
+      "lat": 38.8,
+      "lng": 38.75,
+      "yuzolcumu_km2": 675,
+      "olusum_tipi": "baraj",
+      "su_tipi": "tatlı",
+      "il": "Elazığ",
+      "notlar": "Fırat-Murat birleşim noktasında"
+    },
+    {
+      "isim": "Karakaya Barajı",
+      "lat": 38.25,
+      "lng": 38.6,
+      "yuzolcumu_km2": 298,
+      "olusum_tipi": "baraj",
+      "su_tipi": "tatlı",
+      "il": "Malatya/Elazığ",
+      "notlar": "Fırat üzerinde"
+    },
+    {
+      "isim": "Hirfanlı Barajı",
+      "lat": 39.1833,
+      "lng": 33.5833,
+      "yuzolcumu_km2": 263,
+      "olusum_tipi": "baraj",
+      "su_tipi": "tatlı",
+      "il": "Kırşehir",
+      "notlar": "Kızılırmak üzerinde"
+    },
+    {
+      "isim": "Altınkaya Barajı",
+      "lat": 41.4,
+      "lng": 35.35,
+      "yuzolcumu_km2": 118,
+      "olusum_tipi": "baraj",
+      "su_tipi": "tatlı",
+      "il": "Samsun",
+      "notlar": "Kızılırmak üzerinde"
+    },
+    {
+      "isim": "Balık Gölü (Balıklı Göl)",
+      "lat": 37.165,
+      "lng": 38.7453,
+      "yuzolcumu_km2": 0.1,
+      "olusum_tipi": "karstik",
+      "su_tipi": "tatlı",
+      "il": "Şanlıurfa",
+      "notlar": "Hz. İbrahim'in ateşe atıldığı yere göre kutsal kabul edilir"
+    },
+    {
+      "isim": "Nemrut Krater Gölü",
+      "lat": 38.65,
+      "lng": 42.2167,
+      "yuzolcumu_km2": 12,
+      "olusum_tipi": "krater",
+      "su_tipi": "tatlı",
+      "il": "Bitlis",
+      "notlar": "Nemrut Dağı'nın krater içindeki göl"
+    },
+    {
+      "isim": "Apolyon (Apollonia) Gölü",
+      "lat": 40.1333,
+      "lng": 28.65,
+      "yuzolcumu_km2": 118,
+      "olusum_tipi": "tektonik",
+      "su_tipi": "tatlı",
+      "il": "Bursa/Balıkesir",
+      "notlar": "Manyas ve İznik arasında"
+    },
+    {
+      "isim": "Köyceğiz Gölü",
+      "lat": 36.9667,
+      "lng": 28.6833,
+      "yuzolcumu_km2": 52,
+      "olusum_tipi": "lagün",
+      "su_tipi": "acı",
+      "il": "Muğla",
+      "notlar": "Denizle bağlantılı lagün"
+    },
+    {
+      "isim": "Bafa Gölü",
+      "lat": 37.5,
+      "lng": 27.4667,
+      "yuzolcumu_km2": 67,
+      "olusum_tipi": "lagün",
+      "su_tipi": "acı",
+      "il": "Muğla/Aydın",
+      "notlar": "Büyük Menderes deltasının oluşturduğu lagün"
+    }
+  ],
+  "ovalar": [
+    {
+      "isim": "Çukurova",
+      "lat": 36.95,
+      "lng": 35.35,
+      "olusum_tipi": "delta",
+      "bagli_akarsu": "Seyhan ve Ceyhan",
+      "ekonomik_onemi": "Türkiye'nin en verimli pamuk ve tahıl üretim alanı",
+      "il": "Adana/Mersin",
+      "alan_km2": 8000
+    },
+    {
+      "isim": "Konya Ovası",
+      "lat": 37.85,
+      "lng": 32.5,
+      "olusum_tipi": "tektonik",
+      "bagli_akarsu": "Çarşamba Çayı ve Beyşehir Gölü",
+      "ekonomik_onemi": "Türkiye'nin en büyük tahıl ovası, buğday ambarı",
+      "il": "Konya",
+      "alan_km2": 4500
+    },
+    {
+      "isim": "Harran Ovası",
+      "lat": 36.85,
+      "lng": 39,
+      "olusum_tipi": "alüvyal",
+      "bagli_akarsu": "Fırat",
+      "ekonomik_onemi": "GAP kapsamında sulama ile pamuk ve sebze üretimi",
+      "il": "Şanlıurfa",
+      "alan_km2": 2000
+    },
+    {
+      "isim": "Gediz Ovası (Alaşehir-Salihli)",
+      "lat": 38.5,
+      "lng": 28.3,
+      "olusum_tipi": "alüvyal",
+      "bagli_akarsu": "Gediz Nehri",
+      "ekonomik_onemi": "Bağcılık, üzüm kurusu (çekirdeksiz), tütün",
+      "il": "Manisa",
+      "alan_km2": 850
+    },
+    {
+      "isim": "Büyük Menderes Ovası",
+      "lat": 37.9,
+      "lng": 28,
+      "olusum_tipi": "alüvyal",
+      "bagli_akarsu": "Büyük Menderes Nehri",
+      "ekonomik_onemi": "Pamuk, incir, zeytinyağı, turizm",
+      "il": "Aydın/Denizli",
+      "alan_km2": 1000
+    },
+    {
+      "isim": "Erzurum-Pasinler Ovası",
+      "lat": 39.9,
+      "lng": 41.2,
+      "olusum_tipi": "tektonik",
+      "bagli_akarsu": "Aras Nehri",
+      "ekonomik_onemi": "Doğu Anadolu'nun en büyük tahıl ovası",
+      "il": "Erzurum",
+      "alan_km2": 1500
+    },
+    {
+      "isim": "Muş Ovası",
+      "lat": 38.75,
+      "lng": 41.5,
+      "olusum_tipi": "tektonik",
+      "bagli_akarsu": "Murat Nehri",
+      "ekonomik_onemi": "Şeker pancarı, tahıl",
+      "il": "Muş",
+      "alan_km2": 1500
+    },
+    {
+      "isim": "Iğdır Ovası",
+      "lat": 39.92,
+      "lng": 44.05,
+      "olusum_tipi": "tektonik",
+      "bagli_akarsu": "Aras Nehri",
+      "ekonomik_onemi": "Pamuk, meyve, tahıl; ülkemizin en sıcak ovası",
+      "il": "Iğdır",
+      "alan_km2": 750
+    },
+    {
+      "isim": "Erzincan Ovası",
+      "lat": 39.75,
+      "lng": 39.5,
+      "olusum_tipi": "tektonik",
+      "bagli_akarsu": "Fırat (Karasu)",
+      "ekonomik_onemi": "Meyve (elma, kayısı), tahıl",
+      "il": "Erzincan",
+      "alan_km2": 600
+    },
+    {
+      "isim": "Elazığ Ovası (Uluova)",
+      "lat": 38.7,
+      "lng": 39.25,
+      "olusum_tipi": "tektonik",
+      "bagli_akarsu": "Fırat ve Murat",
+      "ekonomik_onemi": "Üzüm, tahıl",
+      "il": "Elazığ",
+      "alan_km2": 900
+    },
+    {
+      "isim": "Malatya Ovası",
+      "lat": 38.35,
+      "lng": 38.3,
+      "olusum_tipi": "tektonik",
+      "bagli_akarsu": "Fırat (Tohma)",
+      "ekonomik_onemi": "Türkiye'nin kayısı başkenti",
+      "il": "Malatya",
+      "alan_km2": 700
+    },
+    {
+      "isim": "Sakarya (Adapazarı) Ovası",
+      "lat": 40.78,
+      "lng": 30.4,
+      "olusum_tipi": "alüvyal",
+      "bagli_akarsu": "Sakarya Nehri",
+      "ekonomik_onemi": "Fındık, meyve, sanayi",
+      "il": "Sakarya",
+      "alan_km2": 500
+    },
+    {
+      "isim": "Bursa Ovası",
+      "lat": 40.2,
+      "lng": 29,
+      "olusum_tipi": "tektonik",
+      "bagli_akarsu": "Nilüfer Çayı, Göksu",
+      "ekonomik_onemi": "Tekstil, ipek, sebze, meyve",
+      "il": "Bursa",
+      "alan_km2": 500
+    },
+    {
+      "isim": "İnegöl Ovası",
+      "lat": 40.07,
+      "lng": 29.5,
+      "olusum_tipi": "tektonik",
+      "bagli_akarsu": "Göksu Çayı",
+      "ekonomik_onemi": "Sebze, köftecilik, mobilyacılık",
+      "il": "Bursa",
+      "alan_km2": 200
+    },
+    {
+      "isim": "Bolu Ovası",
+      "lat": 40.73,
+      "lng": 31.6,
+      "olusum_tipi": "tektonik",
+      "bagli_akarsu": "Gerede Çayı",
+      "ekonomik_onemi": "Tarım, hayvancılık",
+      "il": "Bolu",
+      "alan_km2": 300
+    },
+    {
+      "isim": "Düzce Ovası",
+      "lat": 40.83,
+      "lng": 31.15,
+      "olusum_tipi": "tektonik",
+      "bagli_akarsu": "Aksu ve Melen Çayı",
+      "ekonomik_onemi": "Fındık, tarım",
+      "il": "Düzce",
+      "alan_km2": 250
+    },
+    {
+      "isim": "Soma Ovası",
+      "lat": 39.18,
+      "lng": 27.6,
+      "olusum_tipi": "tektonik",
+      "bagli_akarsu": "Simav Çayı",
+      "ekonomik_onemi": "Linyit madenciliği, zeytin, tahıl",
+      "il": "Manisa",
+      "alan_km2": 300
+    },
+    {
+      "isim": "Akhisar Ovası",
+      "lat": 38.92,
+      "lng": 27.83,
+      "olusum_tipi": "alüvyal",
+      "bagli_akarsu": "Gediz Nehri kolu",
+      "ekonomik_onemi": "Çekirdeksiz üzüm, zeytin, tütün",
+      "il": "Manisa",
+      "alan_km2": 400
+    },
+    {
+      "isim": "Antalya Ovası",
+      "lat": 36.93,
+      "lng": 30.75,
+      "olusum_tipi": "delta",
+      "bagli_akarsu": "Köprüçay ve Aksu",
+      "ekonomik_onemi": "Seracılık, turizm, narenciye",
+      "il": "Antalya",
+      "alan_km2": 500
+    },
+    {
+      "isim": "Silifke (Göksu) Ovası",
+      "lat": 36.4,
+      "lng": 33.95,
+      "olusum_tipi": "delta",
+      "bagli_akarsu": "Göksü Nehri",
+      "ekonomik_onemi": "Narenciye, meyve, seracılık",
+      "il": "Mersin",
+      "alan_km2": 250
+    },
+    {
+      "isim": "Amik Ovası",
+      "lat": 36.4,
+      "lng": 36.3,
+      "olusum_tipi": "tektonik",
+      "bagli_akarsu": "Asi Nehri",
+      "ekonomik_onemi": "Pamuk, buğday; kurutulmuş göl alanı",
+      "il": "Hatay",
+      "alan_km2": 850
+    },
+    {
+      "isim": "İskenderun Ovası",
+      "lat": 36.58,
+      "lng": 36.17,
+      "olusum_tipi": "delta",
+      "bagli_akarsu": "Küçük çaylar",
+      "ekonomik_onemi": "Demir-çelik sanayi, limanlar",
+      "il": "Hatay",
+      "alan_km2": 200
+    },
+    {
+      "isim": "Karapınar Ovası",
+      "lat": 37.7,
+      "lng": 33.55,
+      "olusum_tipi": "karstik",
+      "bagli_akarsu": "Yok (kuru ova)",
+      "ekonomik_onemi": "Tahıl, çukur oluşumları ile ünlü",
+      "il": "Konya",
+      "alan_km2": 500
+    },
+    {
+      "isim": "Karaman Ovası",
+      "lat": 37.18,
+      "lng": 33.22,
+      "olusum_tipi": "tektonik",
+      "bagli_akarsu": "Göksu kolu",
+      "ekonomik_onemi": "Tahıl, şeker pancarı",
+      "il": "Karaman",
+      "alan_km2": 450
+    },
+    {
+      "isim": "Niğde Ovası (Bor)",
+      "lat": 37.87,
+      "lng": 34.55,
+      "olusum_tipi": "tektonik",
+      "bagli_akarsu": "Melendiz Suyu",
+      "ekonomik_onemi": "Tahıl, patates, elma",
+      "il": "Niğde",
+      "alan_km2": 400
+    },
+    {
+      "isim": "Ankara Ovası (Çubuk)",
+      "lat": 39.95,
+      "lng": 32.85,
+      "olusum_tipi": "tektonik",
+      "bagli_akarsu": "Çubuk Çayı",
+      "ekonomik_onemi": "Tarım, sebze",
+      "il": "Ankara",
+      "alan_km2": 350
+    },
+    {
+      "isim": "Polatlı Ovası",
+      "lat": 39.58,
+      "lng": 32.15,
+      "olusum_tipi": "alüvyal",
+      "bagli_akarsu": "Sakarya kolu",
+      "ekonomik_onemi": "Tahıl (buğday başkenti)",
+      "il": "Ankara",
+      "alan_km2": 600
+    },
+    {
+      "isim": "Torbalı-Selçuk Ovası",
+      "lat": 37.88,
+      "lng": 27.4,
+      "olusum_tipi": "alüvyal",
+      "bagli_akarsu": "Küçük Menderes",
+      "ekonomik_onemi": "İncir, üzüm, turizm (Efes)",
+      "il": "İzmir",
+      "alan_km2": 350
+    },
+    {
+      "isim": "Bergama (Bakırçay) Ovası",
+      "lat": 39.12,
+      "lng": 27.17,
+      "olusum_tipi": "alüvyal",
+      "bagli_akarsu": "Bakırçay",
+      "ekonomik_onemi": "Zeytin, tütün",
+      "il": "İzmir",
+      "alan_km2": 300
+    },
+    {
+      "isim": "Kula Ovası",
+      "lat": 38.53,
+      "lng": 28.65,
+      "olusum_tipi": "tektonik",
+      "bagli_akarsu": "Gediz kolu",
+      "ekonomik_onemi": "Bağcılık, kuru üzüm",
+      "il": "Manisa",
+      "alan_km2": 200
+    },
+    {
+      "isim": "Nazilli-Aydın Ovası",
+      "lat": 37.85,
+      "lng": 28.3,
+      "olusum_tipi": "alüvyal",
+      "bagli_akarsu": "Büyük Menderes",
+      "ekonomik_onemi": "Pamuk, incir, zeytin",
+      "il": "Aydın",
+      "alan_km2": 600
+    },
+    {
+      "isim": "Denizli Ovası (Çürüksu)",
+      "lat": 37.77,
+      "lng": 29.08,
+      "olusum_tipi": "tektonik",
+      "bagli_akarsu": "Büyük Menderes (Çürüksu)",
+      "ekonomik_onemi": "Tekstil (Denim), üzüm, tahıl",
+      "il": "Denizli",
+      "alan_km2": 400
+    },
+    {
+      "isim": "Edirne Ovası (Ergene)",
+      "lat": 41.5,
+      "lng": 26.8,
+      "olusum_tipi": "alüvyal",
+      "bagli_akarsu": "Ergene Nehri (Meriç kolu)",
+      "ekonomik_onemi": "Ayçiçeği, pirinç, tahıl",
+      "il": "Edirne/Tekirdağ",
+      "alan_km2": 6000
+    },
+    {
+      "isim": "Çarşamba Ovası",
+      "lat": 41.6,
+      "lng": 36.5,
+      "olusum_tipi": "delta",
+      "bagli_akarsu": "Yeşilırmak",
+      "ekonomik_onemi": "Pirinç, tütün, fındık",
+      "il": "Samsun",
+      "alan_km2": 800
+    },
+    {
+      "isim": "Bafra Ovası",
+      "lat": 41.55,
+      "lng": 35.9,
+      "olusum_tipi": "delta",
+      "bagli_akarsu": "Kızılırmak",
+      "ekonomik_onemi": "Pirinç, tütün",
+      "il": "Samsun",
+      "alan_km2": 600
+    },
+    {
+      "isim": "Diyarbakır Ovası (Ergani)",
+      "lat": 38.08,
+      "lng": 39.62,
+      "olusum_tipi": "tektonik",
+      "bagli_akarsu": "Dicle Nehri",
+      "ekonomik_onemi": "Karpuz, pamuk, tahıl",
+      "il": "Diyarbakır",
+      "alan_km2": 1000
+    }
+  ],
+  "kiyi_olusumlar": [
+    {
+      "isim": "İstanbul Boğazı (Karadeniz girişi)",
+      "lat": 41.225,
+      "lng": 29.125,
+      "tip": "boğaz",
+      "deniz": "Karadeniz",
+      "kiyi_tipi": "boğaz",
+      "notlar": "Karadeniz'i Marmara'ya bağlar; 31 km uzunluk"
+    },
+    {
+      "isim": "İstanbul Boğazı (Marmara girişi)",
+      "lat": 41,
+      "lng": 28.975,
+      "tip": "boğaz",
+      "deniz": "Marmara",
+      "kiyi_tipi": "boğaz",
+      "notlar": "Marmara tarafındaki boğaz çıkışı"
+    },
+    {
+      "isim": "Çanakkale Boğazı (Karadeniz/Ege girişi)",
+      "lat": 40.1725,
+      "lng": 26.405,
+      "tip": "boğaz",
+      "deniz": "Ege",
+      "kiyi_tipi": "boğaz",
+      "notlar": "Marmara ile Ege'yi bağlar; Gelibolu Yarımadası"
+    },
+    {
+      "isim": "İzmit Körfezi",
+      "lat": 40.7667,
+      "lng": 29.9333,
+      "tip": "körfez",
+      "deniz": "Marmara",
+      "kiyi_tipi": "haliç",
+      "notlar": "Türkiye'nin en önemli sanayi bölgelerinden biri"
+    },
+    {
+      "isim": "İzmir Körfezi",
+      "lat": 38.45,
+      "lng": 26.95,
+      "tip": "körfez",
+      "deniz": "Ege",
+      "kiyi_tipi": "haliç",
+      "notlar": "Türkiye'nin 3. büyük kenti İzmir'in limanı"
+    },
+    {
+      "isim": "Edremit Körfezi",
+      "lat": 39.5,
+      "lng": 26.7,
+      "tip": "körfez",
+      "deniz": "Ege",
+      "kiyi_tipi": "enine",
+      "notlar": "Zeytinlikleriyle ünlü; Ayvalık, Edremit"
+    },
+    {
+      "isim": "Antalya Körfezi",
+      "lat": 36.55,
+      "lng": 31,
+      "tip": "körfez",
+      "deniz": "Akdeniz",
+      "kiyi_tipi": "boyuna",
+      "notlar": "Türkiye turizm kıyısı; Alanya, Side, Kemer"
+    },
+    {
+      "isim": "Mersin Körfezi",
+      "lat": 36.62,
+      "lng": 34.2,
+      "tip": "körfez",
+      "deniz": "Akdeniz",
+      "kiyi_tipi": "boyuna",
+      "notlar": "Mersin limanı ve Çukurova kıyısı"
+    },
+    {
+      "isim": "İskenderun Körfezi",
+      "lat": 36.58,
+      "lng": 36.18,
+      "tip": "körfez",
+      "deniz": "Akdeniz",
+      "kiyi_tipi": "boyuna",
+      "notlar": "En doğu Akdeniz körfezi; demir-çelik sanayi"
+    },
+    {
+      "isim": "Saros Körfezi",
+      "lat": 40.55,
+      "lng": 26.6,
+      "tip": "körfez",
+      "deniz": "Ege",
+      "kiyi_tipi": "enine",
+      "notlar": "Gelibolu yarımadasının güneyinde"
+    },
+    {
+      "isim": "Güllük Körfezi",
+      "lat": 37.28,
+      "lng": 27.63,
+      "tip": "körfez",
+      "deniz": "Ege",
+      "kiyi_tipi": "dalmaçya",
+      "notlar": "Bodrum ve Milas arasında; Güllük limanı"
+    },
+    {
+      "isim": "Marmaris Körfezi",
+      "lat": 36.85,
+      "lng": 28.27,
+      "tip": "körfez",
+      "deniz": "Ege",
+      "kiyi_tipi": "dalmaçya",
+      "notlar": "Türkiye'nin en önemli yat limanlarından biri"
+    },
+    {
+      "isim": "Fethiye Körfezi",
+      "lat": 36.62,
+      "lng": 29,
+      "tip": "körfez",
+      "deniz": "Akdeniz",
+      "kiyi_tipi": "dalmaçya",
+      "notlar": "Ölüdeniz, Göcek adaları"
+    },
+    {
+      "isim": "Biga Yarımadası",
+      "lat": 40.15,
+      "lng": 27.1,
+      "tip": "yarımada",
+      "deniz": "Marmara",
+      "kiyi_tipi": "enine",
+      "notlar": "Çanakkale; Kaz Dağları, Gelibolu"
+    },
+    {
+      "isim": "Karaburun Yarımadası",
+      "lat": 38.65,
+      "lng": 26.5,
+      "tip": "yarımada",
+      "deniz": "Ege",
+      "kiyi_tipi": "boyuna",
+      "notlar": "İzmir kuzeybatısı; sarp kayalıklar"
+    },
+    {
+      "isim": "Çeşme Yarımadası",
+      "lat": 38.3,
+      "lng": 26.35,
+      "tip": "yarımada",
+      "deniz": "Ege",
+      "kiyi_tipi": "boyuna",
+      "notlar": "Rüzgar ve dalga sporları; feribot bağlantısı Sakız"
+    },
+    {
+      "isim": "Bodrum Yarımadası",
+      "lat": 37.07,
+      "lng": 27.43,
+      "tip": "yarımada",
+      "deniz": "Ege",
+      "kiyi_tipi": "dalmaçya",
+      "notlar": "Yat turizmi başkenti; Halikarnas"
+    },
+    {
+      "isim": "Datça Yarımadası",
+      "lat": 36.73,
+      "lng": 27.7,
+      "tip": "yarımada",
+      "deniz": "Ege",
+      "kiyi_tipi": "dalmaçya",
+      "notlar": "Türkiye'nin en uzun yarımadası; Knidos antik kenti"
+    },
+    {
+      "isim": "Teke Yarımadası",
+      "lat": 36.5,
+      "lng": 30,
+      "tip": "yarımada",
+      "deniz": "Akdeniz",
+      "kiyi_tipi": "boyuna",
+      "notlar": "Antalya batısı; Kaş, Kalkan, Olimpos"
+    },
+    {
+      "isim": "Sinop Yarımadası",
+      "lat": 42.02,
+      "lng": 35.15,
+      "tip": "yarımada",
+      "deniz": "Karadeniz",
+      "kiyi_tipi": "boyuna",
+      "notlar": "Türkiye'nin Karadeniz'e en çok uzanan noktası"
+    },
+    {
+      "isim": "Bozburun Yarımadası",
+      "lat": 36.67,
+      "lng": 28.05,
+      "tip": "yarımada",
+      "deniz": "Ege",
+      "kiyi_tipi": "dalmaçya",
+      "notlar": "Marmaris yakını; koy ve koylarda yelkencilik"
+    },
+    {
+      "isim": "Yıldız (İğneada) Burnu",
+      "lat": 41.87,
+      "lng": 28,
+      "tip": "burun",
+      "deniz": "Karadeniz",
+      "kiyi_tipi": "boyuna",
+      "notlar": "Türkiye'nin Karadeniz'deki en kuzey-batı noktası"
+    },
+    {
+      "isim": "Kerempe Burnu",
+      "lat": 42.03,
+      "lng": 33.38,
+      "tip": "burun",
+      "deniz": "Karadeniz",
+      "kiyi_tipi": "boyuna",
+      "notlar": "Kastamonu; Türkiye'nin en kuzey kara noktası"
+    },
+    {
+      "isim": "Bafra Burnu",
+      "lat": 41.73,
+      "lng": 35.95,
+      "tip": "burun",
+      "deniz": "Karadeniz",
+      "kiyi_tipi": "boyuna",
+      "notlar": "Samsun; Kızılırmak deltasında"
+    },
+    {
+      "isim": "Kargı Burnu",
+      "lat": 42.1,
+      "lng": 34.9,
+      "tip": "burun",
+      "deniz": "Karadeniz",
+      "kiyi_tipi": "boyuna",
+      "notlar": "Sinop yakını"
+    },
+    {
+      "isim": "Köyceğiz Lagünü",
+      "lat": 36.85,
+      "lng": 28.65,
+      "tip": "lagün",
+      "deniz": "Akdeniz",
+      "kiyi_tipi": "haliç",
+      "notlar": "Dalyan kanalıyla bağlı; İztuzu Plajı"
+    },
+    {
+      "isim": "Ölüdeniz Lagünü",
+      "lat": 36.55,
+      "lng": 29.12,
+      "tip": "lagün",
+      "deniz": "Akdeniz",
+      "kiyi_tipi": "haliç",
+      "notlar": "Türkiye'nin en ünlü koy/lagünü; Fethiye"
+    },
+    {
+      "isim": "Büyük Menderes Deltası",
+      "lat": 37.55,
+      "lng": 27.1,
+      "tip": "delta",
+      "deniz": "Ege",
+      "kiyi_tipi": "delta",
+      "notlar": "Söke; Bafa Gölü bu deltanın ürünü"
+    },
+    {
+      "isim": "Kızılırmak Deltası (Bafra)",
+      "lat": 41.62,
+      "lng": 35.92,
+      "tip": "delta",
+      "deniz": "Karadeniz",
+      "kiyi_tipi": "delta",
+      "notlar": "Samsun; en geniş Karadeniz deltası"
+    },
+    {
+      "isim": "Çarşamba Deltası (Yeşilırmak)",
+      "lat": 41.6,
+      "lng": 36.4,
+      "tip": "delta",
+      "deniz": "Karadeniz",
+      "kiyi_tipi": "delta",
+      "notlar": "Samsun; Çarşamba ilçesi"
+    },
+    {
+      "isim": "Gelibolu Yarımadası",
+      "lat": 40.42,
+      "lng": 26.65,
+      "tip": "yarımada",
+      "deniz": "Marmara",
+      "kiyi_tipi": "enine",
+      "notlar": "Çanakkale; Birinci Dünya Savaşı savaş alanları"
+    },
+    {
+      "isim": "İzmir Körfezi İç Haliç",
+      "lat": 38.42,
+      "lng": 27.13,
+      "tip": "haliç",
+      "deniz": "Ege",
+      "kiyi_tipi": "haliç",
+      "notlar": "Alsancak limanı önü"
+    },
+    {
+      "isim": "Ege Kıyısı - Dalmaçya Tipi",
+      "lat": 37.5,
+      "lng": 27,
+      "tip": "koy",
+      "deniz": "Ege",
+      "kiyi_tipi": "dalmaçya",
+      "notlar": "Muğla; Türkiye kıyısının karakteristik ria/dalmaçya yapısı"
+    },
+    {
+      "isim": "Karadeniz - Boyuna Kıyı",
+      "lat": 41.5,
+      "lng": 37,
+      "tip": "koy",
+      "deniz": "Karadeniz",
+      "kiyi_tipi": "boyuna",
+      "notlar": "Trabzon-Giresun; dağ-deniz paralel kıyı yapısı"
+    }
+  ],
+  "madenler": [
+    {
+      "isim": "Bigadiç Bor Madeni",
+      "lat": 39.6,
+      "lng": 28.12,
+      "maden_turu": "bor",
+      "il": "Balıkesir",
+      "dunya_siralamasi": "Dünya bor rezervlerinin %73'ü Türkiye'de",
+      "notlar": "Kolemanit ve üleksit rezervleri"
+    },
+    {
+      "isim": "Emet Bor Madeni",
+      "lat": 39.33,
+      "lng": 29.27,
+      "maden_turu": "bor",
+      "il": "Kütahya",
+      "dunya_siralamasi": "Dünya bor üretiminde 1. sıra",
+      "notlar": "Kütahya Emet; dev kolemanit yatağı"
+    },
+    {
+      "isim": "Hisarcık Bor Madeni",
+      "lat": 39.25,
+      "lng": 29.23,
+      "maden_turu": "bor",
+      "il": "Kütahya",
+      "dunya_siralamasi": "Dünya bor rezervlerinde 1. sıra",
+      "notlar": "Üleksit ve kolemanit"
+    },
+    {
+      "isim": "Kırka Bor Madeni (Eti Maden)",
+      "lat": 39.27,
+      "lng": 30.55,
+      "maden_turu": "bor",
+      "il": "Eskişehir",
+      "dunya_siralamasi": "Dünyanın en büyük boraks yatağı",
+      "notlar": "Tincal (boraks) rezervi"
+    },
+    {
+      "isim": "Zonguldak Taşkömürü Havzası",
+      "lat": 41.45,
+      "lng": 31.8,
+      "maden_turu": "taşkömürü",
+      "il": "Zonguldak",
+      "dunya_siralamasi": "Türkiye'nin tek taşkömürü havzası",
+      "notlar": "Armutçuk, Kozlu, Karadon ocakları"
+    },
+    {
+      "isim": "Amasra Kömür Madeni",
+      "lat": 41.75,
+      "lng": 32.38,
+      "maden_turu": "taşkömürü",
+      "il": "Bartın",
+      "dunya_siralamasi": "",
+      "notlar": "Zonguldak havzası kapsamında"
+    },
+    {
+      "isim": "Soma Linyit Madeni",
+      "lat": 39.18,
+      "lng": 27.62,
+      "maden_turu": "linyit",
+      "il": "Manisa",
+      "dunya_siralamasi": "Türkiye'nin en büyük linyit üretim merkezi",
+      "notlar": "Termik santral besler; 2014 iş kazası"
+    },
+    {
+      "isim": "Tunçbilek Linyit Madeni",
+      "lat": 39.52,
+      "lng": 29.48,
+      "maden_turu": "linyit",
+      "il": "Kütahya",
+      "dunya_siralamasi": "",
+      "notlar": "Gediz ilçesi yakını; termik santral"
+    },
+    {
+      "isim": "Seyitömer Linyit Madeni",
+      "lat": 39.47,
+      "lng": 29.98,
+      "maden_turu": "linyit",
+      "il": "Kütahya",
+      "dunya_siralamasi": "",
+      "notlar": "Kütahya Seyitömer termik santrali"
+    },
+    {
+      "isim": "Çayırhan Linyit Madeni",
+      "lat": 40.22,
+      "lng": 31.9,
+      "maden_turu": "linyit",
+      "il": "Ankara",
+      "dunya_siralamasi": "",
+      "notlar": "Beypazarı yakını; termik santral"
+    },
+    {
+      "isim": "Kangal Linyit Madeni",
+      "lat": 39.23,
+      "lng": 37.38,
+      "maden_turu": "linyit",
+      "il": "Sivas",
+      "dunya_siralamasi": "",
+      "notlar": "Balıklı Kaplıca yakını"
+    },
+    {
+      "isim": "Afşin-Elbistan Linyit Havzası",
+      "lat": 38.23,
+      "lng": 36.92,
+      "maden_turu": "linyit",
+      "il": "Kahramanmaraş",
+      "dunya_siralamasi": "Türkiye'nin en büyük linyit rezervleri",
+      "notlar": "Düşük kaliteli linyit, büyük rezerv"
+    },
+    {
+      "isim": "Divriği Demir Madeni",
+      "lat": 39.37,
+      "lng": 38.11,
+      "maden_turu": "demir",
+      "il": "Sivas",
+      "dunya_siralamasi": "Türkiye'nin en büyük demir yatağı",
+      "notlar": "Türkiye'nin demir-çelik sanayisinin ana hammadde kaynağı"
+    },
+    {
+      "isim": "Hekimhan Demir Madeni",
+      "lat": 38.82,
+      "lng": 37.93,
+      "maden_turu": "demir",
+      "il": "Malatya",
+      "dunya_siralamasi": "",
+      "notlar": "Divriği ile birlikte Türkiye demir yataklarının önemli bölümü"
+    },
+    {
+      "isim": "Murgul Bakır Madeni",
+      "lat": 41.27,
+      "lng": 41.47,
+      "maden_turu": "bakır",
+      "il": "Artvin",
+      "dunya_siralamasi": "",
+      "notlar": "Türkiye'nin en büyük bakır işletmesi"
+    },
+    {
+      "isim": "Küre Bakır Madeni",
+      "lat": 41.8,
+      "lng": 33.72,
+      "maden_turu": "bakır",
+      "il": "Kastamonu",
+      "dunya_siralamasi": "",
+      "notlar": "Tarihi bakır madeni; bugün bakır konsantrat"
+    },
+    {
+      "isim": "Ergani Bakır Madeni",
+      "lat": 38.27,
+      "lng": 39.77,
+      "maden_turu": "bakır",
+      "il": "Diyarbakır",
+      "dunya_siralamasi": "",
+      "notlar": "Ergani ilçesi; tarihten bu yana işlenen maden"
+    },
+    {
+      "isim": "Harmandalı Krom Madeni",
+      "lat": 40.1,
+      "lng": 29.25,
+      "maden_turu": "krom",
+      "il": "Bursa",
+      "dunya_siralamasi": "",
+      "notlar": "Bursa Harmandalı bölgesi"
+    },
+    {
+      "isim": "Elazığ Krom Madeni",
+      "lat": 38.65,
+      "lng": 39.22,
+      "maden_turu": "krom",
+      "il": "Elazığ",
+      "dunya_siralamasi": "Türkiye krom üretiminde önemli merkez",
+      "notlar": ""
+    },
+    {
+      "isim": "Kahramanmaraş Krom Madeni",
+      "lat": 37.57,
+      "lng": 36.92,
+      "maden_turu": "krom",
+      "il": "Kahramanmaraş",
+      "dunya_siralamasi": "",
+      "notlar": "Elbistan yakını krom yatakları"
+    },
+    {
+      "isim": "Tuz Gölü Tuz İşletmesi",
+      "lat": 38.75,
+      "lng": 33.35,
+      "maden_turu": "tuz",
+      "il": "Konya/Ankara/Aksaray",
+      "dunya_siralamasi": "Türkiye tuz üretiminin %60'ı",
+      "notlar": "Yıllık 2 million ton tuz üretimi"
+    },
+    {
+      "isim": "Çankırı Tuz Madeni",
+      "lat": 40.6,
+      "lng": 33.62,
+      "maden_turu": "tuz",
+      "il": "Çankırı",
+      "dunya_siralamasi": "",
+      "notlar": "Kaya tuzu yatakları"
+    },
+    {
+      "isim": "Kars-Iğdır Tuz Kaynakları",
+      "lat": 39.97,
+      "lng": 43.58,
+      "maden_turu": "tuz",
+      "il": "Iğdır/Kars",
+      "dunya_siralamasi": "",
+      "notlar": "Doğu Anadolu tuz kaynakları"
+    },
+    {
+      "isim": "Batman Petrol Sahası",
+      "lat": 37.88,
+      "lng": 41.13,
+      "maden_turu": "petrol",
+      "il": "Batman",
+      "dunya_siralamasi": "Türkiye'nin en büyük petrol üretim merkezi",
+      "notlar": "Türkiye petrolünün büyük bölümü"
+    },
+    {
+      "isim": "Adıyaman Petrol Sahası",
+      "lat": 37.75,
+      "lng": 38.28,
+      "maden_turu": "petrol",
+      "il": "Adıyaman",
+      "dunya_siralamasi": "",
+      "notlar": "Güneydoğu Anadolu petrol havzası"
+    },
+    {
+      "isim": "Diyarbakır Petrol Sahası",
+      "lat": 37.9,
+      "lng": 40.22,
+      "maden_turu": "petrol",
+      "il": "Diyarbakır",
+      "dunya_siralamasi": "",
+      "notlar": "GAP bölgesi petrol yatakları"
+    },
+    {
+      "isim": "Şırnak (Gabar Dağı) Petrol Sahası",
+      "lat": 37.52,
+      "lng": 42.46,
+      "maden_turu": "petrol",
+      "il": "Şırnak",
+      "dunya_siralamasi": "Son yıllarda keşfedilen büyük rezerv",
+      "notlar": "Gabar sahasında yeni keşifler; 100.000 varil/gün potansiyel"
+    },
+    {
+      "isim": "Afyon Mermer Ocakları",
+      "lat": 38.75,
+      "lng": 30.55,
+      "maden_turu": "mermer",
+      "il": "Afyonkarahisar",
+      "dunya_siralamasi": "Türkiye mermer ihracatında 1. il",
+      "notlar": "Beyaz mermer; dünya pazarına ihracat"
+    },
+    {
+      "isim": "Milas Mermer Ocakları",
+      "lat": 37.32,
+      "lng": 27.78,
+      "maden_turu": "mermer",
+      "il": "Muğla",
+      "dunya_siralamasi": "",
+      "notlar": "Milas Beige mermeri dünyaca ünlü"
+    },
+    {
+      "isim": "Denizli Travertenler",
+      "lat": 37.78,
+      "lng": 29.1,
+      "maden_turu": "mermer",
+      "il": "Denizli",
+      "dunya_siralamasi": "",
+      "notlar": "Pamukkale traverteni ve dekoratif taş"
+    },
+    {
+      "isim": "Seydişehir Alüminyum Tesisi",
+      "lat": 37.42,
+      "lng": 31.85,
+      "maden_turu": "alüminyum",
+      "il": "Konya",
+      "dunya_siralamasi": "",
+      "notlar": "Boksit kaynaklı; Türkiye'nin tek alümin tesisisi"
+    },
+    {
+      "isim": "Manganez Madeni (Denizli-Sarayköy)",
+      "lat": 37.93,
+      "lng": 28.92,
+      "maden_turu": "manganez",
+      "il": "Denizli",
+      "dunya_siralamasi": "",
+      "notlar": ""
+    },
+    {
+      "isim": "Bor İlçesi Nişadır Tuzları",
+      "lat": 37.87,
+      "lng": 34.55,
+      "maden_turu": "kimyasal mineral",
+      "il": "Niğde",
+      "dunya_siralamasi": "",
+      "notlar": "Bor ilçesi; özel mineraller"
+    },
+    {
+      "isim": "Simav Feldspat Yatakları",
+      "lat": 39.08,
+      "lng": 28.98,
+      "maden_turu": "feldspat",
+      "il": "Kütahya",
+      "dunya_siralamasi": "Türkiye feldspat ihracatında önemli kaynak",
+      "notlar": "Seramik sanayii hammaddesi"
+    },
+    {
+      "isim": "Nevşehir Perlit Yatakları",
+      "lat": 38.62,
+      "lng": 34.72,
+      "maden_turu": "perlit",
+      "il": "Nevşehir",
+      "dunya_siralamasi": "Dünya perlit üretiminde 2. sıra",
+      "notlar": "Volkanik kökenli; inşaat ve tarımda kullanım"
+    },
+    {
+      "isim": "Balıkesir Zeolit Madeni",
+      "lat": 39.65,
+      "lng": 27.88,
+      "maden_turu": "zeolit",
+      "il": "Balıkesir",
+      "dunya_siralamasi": "",
+      "notlar": "Klinoptilolit türü; tarım ve endüstride kullanım"
+    },
+    {
+      "isim": "Kütahya Zeolit Madeni",
+      "lat": 39.37,
+      "lng": 29.67,
+      "maden_turu": "zeolit",
+      "il": "Kütahya",
+      "dunya_siralamasi": "",
+      "notlar": ""
+    },
+    {
+      "isim": "İzmir Trona Yatakları (Beypazarı)",
+      "lat": 40.17,
+      "lng": 31.92,
+      "maden_turu": "trona/soda",
+      "il": "Ankara",
+      "dunya_siralamasi": "Dünya trona rezervlerinde 3. sıra",
+      "notlar": "Beypazarı; soda külü üretimi"
+    },
+    {
+      "isim": "Emirdağ Çinko-Kurşun Madeni",
+      "lat": 38.95,
+      "lng": 31.15,
+      "maden_turu": "çinko-kurşun",
+      "il": "Afyonkarahisar",
+      "dunya_siralamasi": "",
+      "notlar": ""
+    },
+    {
+      "isim": "Balya Kurşun-Çinko Madeni",
+      "lat": 39.75,
+      "lng": 27.58,
+      "maden_turu": "kurşun-çinko",
+      "il": "Balıkesir",
+      "dunya_siralamasi": "",
+      "notlar": "Tarihi kurşun ocağı"
+    },
+    {
+      "isim": "Artvin-Rize Altın Yatakları",
+      "lat": 40.82,
+      "lng": 41.2,
+      "maden_turu": "altın",
+      "il": "Artvin",
+      "dunya_siralamasi": "",
+      "notlar": "Çamlıhemşin; Türkiye'nin en büyük altın yataklarından"
+    },
+    {
+      "isim": "Gümüşhane Gümüş Madeni",
+      "lat": 40.46,
+      "lng": 39.48,
+      "maden_turu": "gümüş",
+      "il": "Gümüşhane",
+      "dunya_siralamasi": "",
+      "notlar": "Tarihi gümüş madeni (Osmanlı dönemi)"
+    },
+    {
+      "isim": "Çanakkale Kaolin Yatakları",
+      "lat": 40.05,
+      "lng": 26.42,
+      "maden_turu": "kaolin",
+      "il": "Çanakkale",
+      "dunya_siralamasi": "Türkiye kaolin ihracatında önemli kaynak",
+      "notlar": "Çan ilçesi; seramik sanayii"
+    },
+    {
+      "isim": "Doğalgaz Thrace Havzası",
+      "lat": 41.5,
+      "lng": 27.5,
+      "maden_turu": "doğalgaz",
+      "il": "Tekirdağ/Edirne",
+      "dunya_siralamasi": "",
+      "notlar": "Trakya'da doğal gaz üretimi"
+    },
+    {
+      "isim": "Karadeniz Doğalgazı (Sakarya Sahası)",
+      "lat": 41.75,
+      "lng": 32.5,
+      "maden_turu": "doğalgaz",
+      "il": "Zonguldak (açık deniz)",
+      "dunya_siralamasi": "Karadeniz'in en büyük doğalgaz keşfi",
+      "notlar": "Türkiye tarihinin en büyük doğalgaz keşfi; 710 milyar m³"
+    },
+    {
+      "isim": "Orhaneli Linyit Madeni",
+      "lat": 39.9,
+      "lng": 28.98,
+      "maden_turu": "linyit",
+      "il": "Bursa",
+      "dunya_siralamasi": "",
+      "notlar": "Bursa Orhaneli termik santrali"
+    },
+    {
+      "isim": "Garp Linyitleri (Tavşanlı)",
+      "lat": 39.55,
+      "lng": 29.5,
+      "maden_turu": "linyit",
+      "il": "Kütahya",
+      "dunya_siralamasi": "",
+      "notlar": "Tavşanlı, Türkiye'nin önemli linyit merkezi"
+    },
+    {
+      "isim": "Elbistan Flurit (Florit) Madeni",
+      "lat": 38.2,
+      "lng": 36.98,
+      "maden_turu": "flüorit",
+      "il": "Kahramanmaraş",
+      "dunya_siralamasi": "",
+      "notlar": "Çelik ve kimya sanayiinde kullanım"
+    },
+    {
+      "isim": "Yozgat Demiri (Akdağmadeni)",
+      "lat": 39.67,
+      "lng": 35.88,
+      "maden_turu": "demir",
+      "il": "Yozgat",
+      "dunya_siralamasi": "",
+      "notlar": "Akdağmadeni ilçesi; demir yatakları"
+    },
+    {
+      "isim": "Muğla Yatağan Linyit Madeni",
+      "lat": 37.33,
+      "lng": 28.14,
+      "maden_turu": "linyit",
+      "il": "Muğla",
+      "dunya_siralamasi": "",
+      "notlar": "Yatağan termik santralini besler"
+    },
+    {
+      "isim": "Elazığ Maden Bakır İşletmesi",
+      "lat": 38.38,
+      "lng": 39.66,
+      "maden_turu": "bakır",
+      "il": "Elazığ",
+      "dunya_siralamasi": "",
+      "notlar": "Tarihi bakır ocağı ve işletmesi"
+    }
+  ],
+  "limanlar": [
+    {
+      "isim": "Mersin Limanı",
+      "lat": 36.79,
+      "lng": 34.63,
+      "liman_tipi": "konteyner",
+      "il": "Mersin",
+      "deniz": "Akdeniz",
+      "yillik_kapasite": "2.5 milyon TEU",
+      "notlar": "Türkiye'nin en büyük ticaret limanı"
+    },
+    {
+      "isim": "Ambarlı Liman Kompleksi",
+      "lat": 40.98,
+      "lng": 28.69,
+      "liman_tipi": "konteyner",
+      "il": "İstanbul",
+      "deniz": "Marmara",
+      "yillik_kapasite": "3.5 milyon TEU",
+      "notlar": "Türkiye'nin en yüksek kapasiteli konteyner limanı"
+    },
+    {
+      "isim": "Haydarpaşa Limanı",
+      "lat": 40.9963,
+      "lng": 29.021,
+      "liman_tipi": "karma",
+      "il": "İstanbul",
+      "deniz": "Marmara",
+      "yillik_kapasite": "Yenileme sürecinde",
+      "notlar": "Tarihi liman; yeniden yapılandırılıyor"
+    },
+    {
+      "isim": "Karaköy (Galata) Limanı",
+      "lat": 41.022,
+      "lng": 28.975,
+      "liman_tipi": "yolcu",
+      "il": "İstanbul",
+      "deniz": "Marmara",
+      "yillik_kapasite": "2 milyon yolcu/yıl",
+      "notlar": "Kruvaziyer liman; tarihi yarımada önü"
+    },
+    {
+      "isim": "Derince Limanı (İzmit)",
+      "lat": 40.76,
+      "lng": 29.82,
+      "liman_tipi": "karma",
+      "il": "Kocaeli",
+      "deniz": "Marmara",
+      "yillik_kapasite": "1.5 milyon TEU",
+      "notlar": "TCDD işletmesi; ro-ro ve konteyner"
+    },
+    {
+      "isim": "Körfez Limanı (İzmit)",
+      "lat": 40.75,
+      "lng": 29.78,
+      "liman_tipi": "petrol",
+      "il": "Kocaeli",
+      "deniz": "Marmara",
+      "yillik_kapasite": "30 milyon ton",
+      "notlar": "TÜPRAŞ rafinerisi; ham petrol"
+    },
+    {
+      "isim": "Gemlik Limanı",
+      "lat": 40.43,
+      "lng": 29.16,
+      "liman_tipi": "konteyner",
+      "il": "Bursa",
+      "deniz": "Marmara",
+      "yillik_kapasite": "1.2 milyon TEU",
+      "notlar": "Bursa'nın ihracat kapısı; otomotiv"
+    },
+    {
+      "isim": "Mudanya Limanı",
+      "lat": 40.37,
+      "lng": 28.88,
+      "liman_tipi": "karma",
+      "il": "Bursa",
+      "deniz": "Marmara",
+      "yillik_kapasite": "",
+      "notlar": "Bursa-İstanbul feribot bağlantısı"
+    },
+    {
+      "isim": "Bandırma Limanı",
+      "lat": 40.35,
+      "lng": 27.97,
+      "liman_tipi": "karma",
+      "il": "Balıkesir",
+      "deniz": "Marmara",
+      "yillik_kapasite": "5 milyon ton",
+      "notlar": "Gübre ve kimyasal hammadde; İstanbul ferisi"
+    },
+    {
+      "isim": "Tekirdağ Limanı",
+      "lat": 40.98,
+      "lng": 27.52,
+      "liman_tipi": "ro-ro",
+      "il": "Tekirdağ",
+      "deniz": "Marmara",
+      "yillik_kapasite": "1 milyon ton",
+      "notlar": "Trakya tarım ürünleri ihracatı"
+    },
+    {
+      "isim": "Çanakkale Limanı",
+      "lat": 40.15,
+      "lng": 26.41,
+      "liman_tipi": "karma",
+      "il": "Çanakkale",
+      "deniz": "Ege",
+      "yillik_kapasite": "",
+      "notlar": "Boğaz güzergahında; feribot ve yolcu"
+    },
+    {
+      "isim": "Alsancak Limanı (İzmir)",
+      "lat": 38.45,
+      "lng": 27.15,
+      "liman_tipi": "konteyner",
+      "il": "İzmir",
+      "deniz": "Ege",
+      "yillik_kapasite": "1.5 milyon TEU",
+      "notlar": "Türkiye'nin 3. büyük limanı"
+    },
+    {
+      "isim": "Dikili Limanı",
+      "lat": 39.07,
+      "lng": 26.89,
+      "liman_tipi": "balıkçı",
+      "il": "İzmir",
+      "deniz": "Ege",
+      "yillik_kapasite": "",
+      "notlar": "Ege kıyısı balıkçı limanı"
+    },
+    {
+      "isim": "Kuşadası Limanı",
+      "lat": 37.86,
+      "lng": 27.26,
+      "liman_tipi": "yolcu",
+      "il": "Aydın",
+      "deniz": "Ege",
+      "yillik_kapasite": "1.5 milyon yolcu/yıl",
+      "notlar": "Türkiye'nin en yoğun kruvaziyer limanı"
+    },
+    {
+      "isim": "Bodrum Limanı",
+      "lat": 37.03,
+      "lng": 27.43,
+      "liman_tipi": "yolcu",
+      "il": "Muğla",
+      "deniz": "Ege",
+      "yillik_kapasite": "500.000 yolcu/yıl",
+      "notlar": "Yat turizmi başkenti; kruvaziyer"
+    },
+    {
+      "isim": "Marmaris Limanı",
+      "lat": 36.85,
+      "lng": 28.27,
+      "liman_tipi": "yolcu",
+      "il": "Muğla",
+      "deniz": "Ege",
+      "yillik_kapasite": "",
+      "notlar": "Yat marinası ve yolcu terminali"
+    },
+    {
+      "isim": "Fethiye Limanı",
+      "lat": 36.65,
+      "lng": 29.12,
+      "liman_tipi": "karma",
+      "il": "Muğla",
+      "deniz": "Akdeniz",
+      "yillik_kapasite": "",
+      "notlar": "Yat marinası; Göcek derinliği"
+    },
+    {
+      "isim": "Antalya Limanı",
+      "lat": 36.88,
+      "lng": 30.7,
+      "liman_tipi": "karma",
+      "il": "Antalya",
+      "deniz": "Akdeniz",
+      "yillik_kapasite": "5 milyon ton",
+      "notlar": "Turizm ve ticaret; kruvaziyer"
+    },
+    {
+      "isim": "Taşucu Limanı",
+      "lat": 36.32,
+      "lng": 33.88,
+      "liman_tipi": "karma",
+      "il": "Mersin",
+      "deniz": "Akdeniz",
+      "yillik_kapasite": "",
+      "notlar": "Kuzey Kıbrıs feribot bağlantısı"
+    },
+    {
+      "isim": "İskenderun Limanı",
+      "lat": 36.58,
+      "lng": 36.17,
+      "liman_tipi": "karma",
+      "il": "Hatay",
+      "deniz": "Akdeniz",
+      "yillik_kapasite": "10 milyon ton",
+      "notlar": "Demir-çelik ihracatı; İSDEMİR"
+    },
+    {
+      "isim": "Samsun Limanı",
+      "lat": 41.3,
+      "lng": 36.33,
+      "liman_tipi": "karma",
+      "il": "Samsun",
+      "deniz": "Karadeniz",
+      "yillik_kapasite": "8 milyon ton",
+      "notlar": "Karadeniz'in en büyük Türk limanı"
+    },
+    {
+      "isim": "Trabzon Limanı",
+      "lat": 41,
+      "lng": 39.72,
+      "liman_tipi": "karma",
+      "il": "Trabzon",
+      "deniz": "Karadeniz",
+      "yillik_kapasite": "5 milyon ton",
+      "notlar": "İran ve Kafkasya transit yolu"
+    },
+    {
+      "isim": "Sinop Limanı",
+      "lat": 42.02,
+      "lng": 35.15,
+      "liman_tipi": "karma",
+      "il": "Sinop",
+      "deniz": "Karadeniz",
+      "yillik_kapasite": "",
+      "notlar": "Karadeniz'in en korunaklı limanı"
+    },
+    {
+      "isim": "Zonguldak Limanı (Ereğli)",
+      "lat": 41.28,
+      "lng": 31.42,
+      "liman_tipi": "karma",
+      "il": "Zonguldak",
+      "deniz": "Karadeniz",
+      "yillik_kapasite": "10 milyon ton",
+      "notlar": "ERDEMİR demir-çelik"
+    },
+    {
+      "isim": "Filyos Limanı (Yeni)",
+      "lat": 41.52,
+      "lng": 32.03,
+      "liman_tipi": "karma",
+      "il": "Zonguldak",
+      "deniz": "Karadeniz",
+      "yillik_kapasite": "Yapım aşaması - 80 milyon ton hedef",
+      "notlar": "Karadeniz doğalgazı için yapılan yeni büyük liman"
+    },
+    {
+      "isim": "Giresun Limanı",
+      "lat": 40.92,
+      "lng": 38.39,
+      "liman_tipi": "karma",
+      "il": "Giresun",
+      "deniz": "Karadeniz",
+      "yillik_kapasite": "",
+      "notlar": "Fındık ihracatı"
+    },
+    {
+      "isim": "Rize Limanı",
+      "lat": 41.02,
+      "lng": 40.52,
+      "liman_tipi": "karma",
+      "il": "Rize",
+      "deniz": "Karadeniz",
+      "yillik_kapasite": "",
+      "notlar": "Çay ihracatı"
+    },
+    {
+      "isim": "Hopa Limanı",
+      "lat": 41.41,
+      "lng": 41.42,
+      "liman_tipi": "karma",
+      "il": "Artvin",
+      "deniz": "Karadeniz",
+      "yillik_kapasite": "3 milyon ton",
+      "notlar": "Gürcistan kapısı; transit yük"
+    },
+    {
+      "isim": "Çeşme Limanı",
+      "lat": 38.32,
+      "lng": 26.3,
+      "liman_tipi": "yolcu",
+      "il": "İzmir",
+      "deniz": "Ege",
+      "yillik_kapasite": "1 milyon yolcu/yıl",
+      "notlar": "Yunanistan feribot bağlantısı; kruvaziyer"
+    }
+  ],
+  "sinir_kapilari": [
+    {
+      "isim": "Kapıkule Sınır Kapısı",
+      "lat": 41.7167,
+      "lng": 26.35,
+      "ulke": "Bulgaristan",
+      "kapi_tipi": "kara",
+      "il": "Edirne",
+      "aktif": true,
+      "notlar": "En işlek kara sınır kapısı, demiryolu bağlantısı da vardır"
+    },
+    {
+      "isim": "Kapıkule Demiryolu Sınır Kapısı",
+      "lat": 41.717,
+      "lng": 26.351,
+      "ulke": "Bulgaristan",
+      "kapi_tipi": "demiryolu",
+      "il": "Edirne",
+      "aktif": true,
+      "notlar": "Avrupa'ya demiryolu geçişi"
+    },
+    {
+      "isim": "Hamzabeyli Sınır Kapısı",
+      "lat": 41.95,
+      "lng": 26.6333,
+      "ulke": "Bulgaristan",
+      "kapi_tipi": "kara",
+      "il": "Edirne",
+      "aktif": true,
+      "notlar": "Tır trafiği için önemli alternatif kapı"
+    },
+    {
+      "isim": "Dereköy Sınır Kapısı",
+      "lat": 41.9333,
+      "lng": 27.4667,
+      "ulke": "Bulgaristan",
+      "kapi_tipi": "kara",
+      "il": "Kırklareli",
+      "aktif": true,
+      "notlar": "Istranca dağları üzerinden Trakya bağlantısı"
+    },
+    {
+      "isim": "İpsala Sınır Kapısı",
+      "lat": 40.7667,
+      "lng": 26.2833,
+      "ulke": "Yunanistan",
+      "kapi_tipi": "kara",
+      "il": "Edirne",
+      "aktif": true,
+      "notlar": "Yunanistan ve Güney Avrupa'ya açılan ana kapı"
+    },
+    {
+      "isim": "Pazarkule Sınır Kapısı",
+      "lat": 41.65,
+      "lng": 26.4833,
+      "ulke": "Yunanistan",
+      "kapi_tipi": "kara",
+      "il": "Edirne",
+      "aktif": true,
+      "notlar": "Edirne şehir merkezine çok yakındır"
+    },
+    {
+      "isim": "Uzunköprü Demiryolu Sınır Kapısı",
+      "lat": 41.2667,
+      "lng": 26.6833,
+      "ulke": "Yunanistan",
+      "kapi_tipi": "demiryolu",
+      "il": "Edirne",
+      "aktif": true,
+      "notlar": "Yunanistan ile demiryolu bağlantısı"
+    },
+    {
+      "isim": "Sarp Sınır Kapısı",
+      "lat": 41.5167,
+      "lng": 41.55,
+      "ulke": "Gürcistan",
+      "kapi_tipi": "kara",
+      "il": "Artvin",
+      "aktif": true,
+      "notlar": "Kafkasya ve Rusya'ya açılan en önemli kapımız"
+    },
+    {
+      "isim": "Türkgözü Sınır Kapısı",
+      "lat": 41.5,
+      "lng": 42.75,
+      "ulke": "Gürcistan",
+      "kapi_tipi": "kara",
+      "il": "Ardahan",
+      "aktif": true,
+      "notlar": "Posof ilçesinde yer alır"
+    },
+    {
+      "isim": "Çıldır-Aktaş Sınır Kapısı",
+      "lat": 41.2167,
+      "lng": 43.2167,
+      "ulke": "Gürcistan",
+      "kapi_tipi": "kara",
+      "il": "Ardahan",
+      "aktif": true,
+      "notlar": "Aktaş Gölü kıyısında, Gürcistan bağlantısı"
+    },
+    {
+      "isim": "Akyaka Sınır Kapısı",
+      "lat": 40.7333,
+      "lng": 43.6833,
+      "ulke": "Ermenistan",
+      "kapi_tipi": "demiryolu",
+      "il": "Kars",
+      "aktif": false,
+      "notlar": "Siyasi nedenlerle kapalı sınır kapısı"
+    },
+    {
+      "isim": "Alican Sınır Kapısı",
+      "lat": 40.0167,
+      "lng": 44.4167,
+      "ulke": "Ermenistan",
+      "kapi_tipi": "kara",
+      "il": "Iğdır",
+      "aktif": false,
+      "notlar": "Siyasi nedenlerle kapalı sınır kapısı"
+    },
+    {
+      "isim": "Dilucu Sınır Kapısı",
+      "lat": 39.6667,
+      "lng": 44.8,
+      "ulke": "Azerbaycan (Nahçıvan)",
+      "kapi_tipi": "kara",
+      "il": "Iğdır",
+      "aktif": true,
+      "notlar": "Türk dünyası ile tek doğrudan fiziki bağlantımız (Hasret Köprüsü)"
+    },
+    {
+      "isim": "Gürbulak Sınır Kapısı",
+      "lat": 39.4167,
+      "lng": 44.25,
+      "ulke": "İran",
+      "kapi_tipi": "kara",
+      "il": "Ağrı",
+      "aktif": true,
+      "notlar": "Tarihi İpek Yolu üzerinde, İran ile en büyük kapımız"
+    },
+    {
+      "isim": "Esendere Sınır Kapısı",
+      "lat": 37.4167,
+      "lng": 44.5833,
+      "ulke": "İran",
+      "kapi_tipi": "kara",
+      "il": "Hakkari",
+      "aktif": true,
+      "notlar": "Yüksekova ilçesinde, İran bağlantısı"
+    },
+    {
+      "isim": "Kapıköy Sınır Kapısı",
+      "lat": 38.5,
+      "lng": 44.2,
+      "ulke": "İran",
+      "kapi_tipi": "kara",
+      "il": "Van",
+      "aktif": true,
+      "notlar": "Saray ilçesinde yer alır, transit demiryolu da geçer"
+    },
+    {
+      "isim": "Kapıköy Demiryolu Sınır Kapısı",
+      "lat": 38.5,
+      "lng": 44.21,
+      "ulke": "İran",
+      "kapi_tipi": "demiryolu",
+      "il": "Van",
+      "aktif": true,
+      "notlar": "Van-Tebriz demiryolu bağlantısı"
+    },
+    {
+      "isim": "Borualan Sınır Kapısı",
+      "lat": 39.7,
+      "lng": 44.6,
+      "ulke": "İran",
+      "kapi_tipi": "kara",
+      "il": "Iğdır",
+      "aktif": false,
+      "notlar": "Pasif durumda olan sınır kapısı"
+    },
+    {
+      "isim": "Habur Sınır Kapısı",
+      "lat": 37.15,
+      "lng": 42.5667,
+      "ulke": "Irak",
+      "kapi_tipi": "kara",
+      "il": "Şırnak",
+      "aktif": true,
+      "notlar": "Orta Doğu ticaretinin can damarı, en yüksek tır hacmi"
+    },
+    {
+      "isim": "Derecik Sınır Kapısı",
+      "lat": 37.0333,
+      "lng": 44.25,
+      "ulke": "Irak",
+      "kapi_tipi": "kara",
+      "il": "Hakkari",
+      "aktif": true,
+      "notlar": "Kuzey Irak ile yeni aktif kapılardan"
+    },
+    {
+      "isim": "Üzümlü Sınır Kapısı",
+      "lat": 37.2833,
+      "lng": 43.6833,
+      "ulke": "Irak",
+      "kapi_tipi": "kara",
+      "il": "Hakkari",
+      "aktif": true,
+      "notlar": "Çukurca ilçesinde yer alır"
+    },
+    {
+      "isim": "Cilvegözü Sınır Kapısı",
+      "lat": 36.2333,
+      "lng": 36.7,
+      "ulke": "Suriye",
+      "kapi_tipi": "kara",
+      "il": "Hatay",
+      "aktif": true,
+      "notlar": "Suriye ile en işlek sınır kapımız (Reyhanlı)"
+    },
+    {
+      "isim": "Yayladağı Sınır Kapısı",
+      "lat": 35.9,
+      "lng": 36.0333,
+      "ulke": "Suriye",
+      "kapi_tipi": "kara",
+      "il": "Hatay",
+      "aktif": true,
+      "notlar": "Hatay'ın en güneyindeki kapı"
+    },
+    {
+      "isim": "Öncüpınar Sınır Kapısı",
+      "lat": 36.6833,
+      "lng": 37.1333,
+      "ulke": "Suriye",
+      "kapi_tipi": "kara",
+      "il": "Kilis",
+      "aktif": true,
+      "notlar": "Kilis şehir merkezine çok yakın"
+    },
+    {
+      "isim": "Çobanbey Sınır Kapısı",
+      "lat": 36.65,
+      "lng": 37.5,
+      "ulke": "Suriye",
+      "kapi_tipi": "kara",
+      "il": "Kilis",
+      "aktif": true,
+      "notlar": "Demiryolu bağlantısı da olan kapı"
+    },
+    {
+      "isim": "Karkamış Sınır Kapısı",
+      "lat": 36.8333,
+      "lng": 38,
+      "ulke": "Suriye",
+      "kapi_tipi": "kara",
+      "il": "Gaziantep",
+      "aktif": true,
+      "notlar": "Karkamış antik kenti yakınlarında"
+    },
+    {
+      "isim": "Akçakale Sınır Kapısı",
+      "lat": 36.7,
+      "lng": 38.95,
+      "ulke": "Suriye",
+      "kapi_tipi": "kara",
+      "il": "Şanlıurfa",
+      "aktif": true,
+      "notlar": "Harran ovasının güney ucunda"
+    },
+    {
+      "isim": "Ceylanpınar Sınır Kapısı",
+      "lat": 36.8333,
+      "lng": 40.0667,
+      "ulke": "Suriye",
+      "kapi_tipi": "kara",
+      "il": "Şanlıurfa",
+      "aktif": true,
+      "notlar": "Tarım İşletmeleri Genel Müdürlüğü arazilerine yakın"
+    },
+    {
+      "isim": "Mürşitpınar Sınır Kapısı",
+      "lat": 36.8833,
+      "lng": 38.35,
+      "ulke": "Suriye",
+      "kapi_tipi": "kara",
+      "il": "Şanlıurfa",
+      "aktif": false,
+      "notlar": "Askeri ve insani geçişler dışında pasif"
+    },
+    {
+      "isim": "Şenyurt Sınır Kapısı",
+      "lat": 37.0667,
+      "lng": 40.6333,
+      "ulke": "Suriye",
+      "kapi_tipi": "kara",
+      "il": "Mardin",
+      "aktif": false,
+      "notlar": "Kızıltepe ilçesinde yer alır"
+    },
+    {
+      "isim": "Nusaybin Sınır Kapısı",
+      "lat": 37.0667,
+      "lng": 41.2167,
+      "ulke": "Suriye",
+      "kapi_tipi": "kara",
+      "il": "Mardin",
+      "aktif": true,
+      "notlar": "Mardin'in Suriye bağlantısı, demiryolu hattı mevcuttur"
+    },
+    {
+      "isim": "Cizre-Karhudut Sınır Kapısı",
+      "lat": 37.3167,
+      "lng": 42.1833,
+      "ulke": "Suriye",
+      "kapi_tipi": "kara",
+      "il": "Şırnak",
+      "aktif": false,
+      "notlar": "Pasif sınır kapısı"
+    },
+    {
+      "isim": "Gaziantep Havalimanı Sınır Kapısı",
+      "lat": 36.9472,
+      "lng": 37.4789,
+      "ulke": "Uluslararası",
+      "kapi_tipi": "hava",
+      "il": "Gaziantep",
+      "aktif": true,
+      "notlar": "Uluslararası uçuşlar için gümrük kapısı"
+    },
+    {
+      "isim": "İstanbul Sabiha Gökçen Havalimanı",
+      "lat": 40.8986,
+      "lng": 29.3092,
+      "ulke": "Uluslararası",
+      "kapi_tipi": "hava",
+      "il": "İstanbul",
+      "aktif": true,
+      "notlar": "Uluslararası hava hudut kapısı"
+    },
+    {
+      "isim": "İstanbul Havalimanı",
+      "lat": 41.2753,
+      "lng": 28.7519,
+      "ulke": "Uluslararası",
+      "kapi_tipi": "hava",
+      "il": "İstanbul",
+      "aktif": true,
+      "notlar": "Türkiye'nin ve Avrupa'nın en büyük uluslararası hava gümrük kapısı"
+    },
+    {
+      "isim": "Ankara Esenboğa Havalimanı",
+      "lat": 40.1281,
+      "lng": 32.995,
+      "ulke": "Uluslararası",
+      "kapi_tipi": "hava",
+      "il": "Ankara",
+      "aktif": true,
+      "notlar": "Başkentin uluslararası hava kapısı"
+    },
+    {
+      "isim": "İzmir Adnan Menderes Havalimanı",
+      "lat": 38.2925,
+      "lng": 27.157,
+      "ulke": "Uluslararası",
+      "kapi_tipi": "hava",
+      "il": "İzmir",
+      "aktif": true,
+      "notlar": "Ege Bölgesi'nin en büyük hava gümrük kapısı"
+    },
+    {
+      "isim": "Antalya Havalimanı",
+      "lat": 36.8986,
+      "lng": 30.8005,
+      "ulke": "Uluslararası",
+      "kapi_tipi": "hava",
+      "il": "Antalya",
+      "aktif": true,
+      "notlar": "En yoğun turistik hava hudut kapısı"
+    }
+  ],
+  "turizm": [
+    {
+      "isim": "Göbeklitepe Tapınak Alanı",
+      "lat": 37.2233,
+      "lng": 38.9224,
+      "turizm_tipi": "kültür",
+      "il": "Şanlıurfa",
+      "unesco": true,
+      "notlar": "Tarihin sıfır noktası, dünyanın en eski tapınak kompleksi"
+    },
+    {
+      "isim": "Efes Antik Kenti",
+      "lat": 37.9409,
+      "lng": 27.3415,
+      "turizm_tipi": "kültür",
+      "il": "İzmir",
+      "unesco": true,
+      "notlar": "Celsus Kütüphanesi ve antik tiyatrosu ile ünlü İyon kenti"
+    },
+    {
+      "isim": "Pamukkale Travertenleri ve Hierapolis",
+      "lat": 37.9255,
+      "lng": 29.1245,
+      "turizm_tipi": "doğa",
+      "il": "Denizli",
+      "unesco": true,
+      "notlar": "Kalsiyum oksitli suların oluşturduğu travertenler ve antik termal kent"
+    },
+    {
+      "isim": "Kapadokya ve Göreme Milli Parkı",
+      "lat": 38.6431,
+      "lng": 34.8289,
+      "turizm_tipi": "doğa",
+      "il": "Nevşehir",
+      "unesco": true,
+      "notlar": "Peri bacaları, yeraltı şehirleri ve sıcak hava balonu turları"
+    },
+    {
+      "isim": "Nemrut Dağı Tümülüsü",
+      "lat": 37.9797,
+      "lng": 38.7416,
+      "turizm_tipi": "kültür",
+      "il": "Adıyaman",
+      "unesco": true,
+      "notlar": "Kommagene Kralı I. Antiochos'un mezarı ve devasa tanrı heykelleri"
+    },
+    {
+      "isim": "Troya Antik Kenti",
+      "lat": 39.9575,
+      "lng": 26.2386,
+      "turizm_tipi": "kültür",
+      "il": "Çanakkale",
+      "unesco": true,
+      "notlar": "Homeros'un İlyada destanına konu olan Truva Savaşı'nın geçtiği yer"
+    },
+    {
+      "isim": "Safranbolu Tarihi Evleri",
+      "lat": 41.2464,
+      "lng": 32.6917,
+      "turizm_tipi": "kültür",
+      "il": "Karabük",
+      "unesco": true,
+      "notlar": "Klasik Osmanlı kent mimarisini yansıtan tarihi konaklar"
+    },
+    {
+      "isim": "Hattuşa (Boğazköy)",
+      "lat": 40.0197,
+      "lng": 34.6153,
+      "turizm_tipi": "kültür",
+      "il": "Çorum",
+      "unesco": true,
+      "notlar": "Hitit İmparatorluğu'nun başkenti, Yazılıkaya açık hava tapınağı"
+    },
+    {
+      "isim": "Selimiye Camii ve Külliyesi",
+      "lat": 41.6783,
+      "lng": 26.5594,
+      "turizm_tipi": "inanç",
+      "il": "Edirne",
+      "unesco": true,
+      "notlar": "Mimar Sinan'ın 'ustalık eserim' dediği eşsiz Osmanlı yapısı"
+    },
+    {
+      "isim": "Xanthos-Letoon Antik Kenti",
+      "lat": 36.3567,
+      "lng": 29.3186,
+      "turizm_tipi": "kültür",
+      "il": "Antalya/Muğla",
+      "unesco": true,
+      "notlar": "Likya medeniyetinin idari ve dini merkezi"
+    },
+    {
+      "isim": "Çatalhöyük Neolitik Kenti",
+      "lat": 37.6675,
+      "lng": 32.8283,
+      "turizm_tipi": "kültür",
+      "il": "Konya",
+      "unesco": true,
+      "notlar": "İnsanlığın ilk yerleşik hayata geçiş ve tarım toplumuna geçiş izleri"
+    },
+    {
+      "isim": "Bergama Çok Katmanlı Kültürel Alanı",
+      "lat": 39.1311,
+      "lng": 27.1842,
+      "turizm_tipi": "kültür",
+      "il": "İzmir",
+      "unesco": true,
+      "notlar": "Akropol, kütüphane ve ilk tıp merkezi olan Asklepion"
+    },
+    {
+      "isim": "Diyarbakır Kalesi ve Hevsel Bahçeleri",
+      "lat": 37.9139,
+      "lng": 40.2394,
+      "turizm_tipi": "kültür",
+      "il": "Diyarbakır",
+      "unesco": true,
+      "notlar": "Tarihi surlar ve Dicle nehri kıyısındaki verimli bahçeler"
+    },
+    {
+      "isim": "Ani Arkeolojik Alanı",
+      "lat": 40.5106,
+      "lng": 43.5728,
+      "turizm_tipi": "kültür",
+      "il": "Kars",
+      "unesco": true,
+      "notlar": "İpek Yolu üzerinde 1001 Kilise Şehri olarak bilinen tarihi Ermeni/Türk şehri"
+    },
+    {
+      "isim": "Aphrodisias Antik Kenti",
+      "lat": 37.7125,
+      "lng": 28.7264,
+      "turizm_tipi": "kültür",
+      "il": "Aydın",
+      "unesco": true,
+      "notlar": "Aşk ve güzellik tanrıçası Afrodit'e adanmış tapınak ve heykel okulu"
+    },
+    {
+      "isim": "Arslantepe Höyüğü",
+      "lat": 38.3814,
+      "lng": 38.3614,
+      "turizm_tipi": "kültür",
+      "il": "Malatya",
+      "unesco": true,
+      "notlar": "İlk devlet şeklinin ortaya çıktığı saray yapısı ve metal objeler"
+    },
+    {
+      "isim": "Sumela Manastırı",
+      "lat": 40.6903,
+      "lng": 39.6583,
+      "turizm_tipi": "inanç",
+      "il": "Trabzon",
+      "unesco": false,
+      "notlar": "Karadağ'ın sarp yamaçlarına oyulmuş tarihi Rum Ortodoks manastırı"
+    },
+    {
+      "isim": "Mevlana Müzesi",
+      "lat": 37.8719,
+      "lng": 32.505,
+      "turizm_tipi": "inanç",
+      "il": "Konya",
+      "unesco": false,
+      "notlar": "Mevlana Celaleddin Rumi'nin türbesi ve yeşil kubbe (Kubbe-i Hadra)"
+    },
+    {
+      "isim": "Hacı Bektaş Veli Türbesi",
+      "lat": 38.9419,
+      "lng": 34.5622,
+      "turizm_tipi": "inanç",
+      "il": "Nevşehir",
+      "unesco": false,
+      "notlar": "Alevi-Bektaşi inancının kurucusu Hacı Bektaş Veli'nin dergahı"
+    },
+    {
+      "isim": "St. Pierre Kilisesi",
+      "lat": 36.2094,
+      "lng": 36.1772,
+      "turizm_tipi": "inanç",
+      "il": "Hatay",
+      "unesco": false,
+      "notlar": "Hristiyanlık tarihinin en eski mağara kilisesi ve ilk kez 'Hristiyan' adının kullanıldığı yer"
+    },
+    {
+      "isim": "Sardes Antik Kenti",
+      "lat": 38.4811,
+      "lng": 28.1308,
+      "turizm_tipi": "kültür",
+      "il": "Manisa",
+      "unesco": false,
+      "notlar": "Lidya Krallığı'nın başkenti, paranın ilk basıldığı yer ve Kral Yolu başlangıcı"
+    },
+    {
+      "isim": "Milet Antik Kenti ve Tiyatrosu",
+      "lat": 37.5311,
+      "lng": 27.2783,
+      "turizm_tipi": "kültür",
+      "il": "Aydın",
+      "unesco": false,
+      "notlar": "Felsefenin doğduğu şehir (Thales, Anaksimandros)"
+    },
+    {
+      "isim": "Priene Antik Kenti",
+      "lat": 37.6594,
+      "lng": 27.2975,
+      "turizm_tipi": "kültür",
+      "il": "Aydın",
+      "unesco": false,
+      "notlar": "Helenistik dönemin en planlı ızgara sistemli şehri"
+    },
+    {
+      "isim": "Knidos Antik Kenti",
+      "lat": 36.6856,
+      "lng": 27.3756,
+      "turizm_tipi": "kültür",
+      "il": "Muğla",
+      "unesco": false,
+      "notlar": "Datça yarımadasının ucunda, Ege ve Akdeniz'in birleştiği yerde bilim ve sanat merkezi"
+    },
+    {
+      "isim": "Aspendos Antik Tiyatrosu",
+      "lat": 36.9392,
+      "lng": 31.1719,
+      "turizm_tipi": "kültür",
+      "il": "Antalya",
+      "unesco": false,
+      "notlar": "Romalılardan kalan, akustiği en iyi korunmuş antik tiyatro"
+    },
+    {
+      "isim": "Perge Antik Kenti",
+      "lat": 36.9608,
+      "lng": 30.8528,
+      "turizm_tipi": "kültür",
+      "il": "Antalya",
+      "unesco": false,
+      "notlar": "Görkemli sütunlu caddesi, stadyumu ve anıtsal çeşmeleri ile ünlü Likya/Pamfilya kenti"
+    },
+    {
+      "isim": "Olimpos ve Çıralı Yanartaş",
+      "lat": 36.4386,
+      "lng": 30.4722,
+      "turizm_tipi": "doğa",
+      "il": "Antalya",
+      "unesco": false,
+      "notlar": "Ağaç evleri, antik limanı ve hiç sönmeyen mitolojik ateşi (Khimaira)"
+    },
+    {
+      "isim": "Ölüdeniz ve Kelebekler Vadisi",
+      "lat": 36.5028,
+      "lng": 29.1256,
+      "turizm_tipi": "deniz",
+      "il": "Muğla",
+      "unesco": false,
+      "notlar": "Eşsiz lagün yapısı ve yüzlerce kelebek türüne ev sahipliği yapan sarp vadi"
+    },
+    {
+      "isim": "Saklıkent Kanyonu",
+      "lat": 36.4739,
+      "lng": 29.2514,
+      "turizm_tipi": "doğa",
+      "il": "Muğla/Antalya",
+      "unesco": false,
+      "notlar": "18 km uzunluğunda, sarp kayalıklar arasından akan buz gibi sular"
+    },
+    {
+      "isim": "Manavgat Şelalesi",
+      "lat": 36.8136,
+      "lng": 31.4533,
+      "turizm_tipi": "doğa",
+      "il": "Antalya",
+      "unesco": false,
+      "notlar": "Geniş bir alandan akan debisi yüksek şelale"
+    },
+    {
+      "isim": "Düden Şelalesi",
+      "lat": 36.9644,
+      "lng": 30.7264,
+      "turizm_tipi": "doğa",
+      "il": "Antalya",
+      "unesco": false,
+      "notlar": "Şehir merkezinde, falezlerden denize dökülen koluyla ünlü doğa harikası"
+    },
+    {
+      "isim": "Kurşunlu Şelalesi",
+      "lat": 36.9928,
+      "lng": 30.8167,
+      "turizm_tipi": "doğa",
+      "il": "Antalya",
+      "unesco": false,
+      "notlar": "Çam ormanları içinde zengin bitki örtülü şelale ve göletler"
+    },
+    {
+      "isim": "Ihlara Vadisi",
+      "lat": 38.2514,
+      "lng": 34.3017,
+      "turizm_tipi": "doğa",
+      "il": "Aksaray",
+      "unesco": false,
+      "notlar": "Melendiz çayının aşındırdığı, kaya kiliseleriyle bezeli 14 km'lik vadi"
+    },
+    {
+      "isim": "Ulubey Kanyonu",
+      "lat": 38.4114,
+      "lng": 29.2831,
+      "turizm_tipi": "doğa",
+      "il": "Uşak",
+      "unesco": false,
+      "notlar": "Grand Canyon'dan sonra dünyanın en uzun ikinci kanyonu"
+    },
+    {
+      "isim": "Yazılıkaya Midas Anıtı",
+      "lat": 39.2014,
+      "lng": 30.7125,
+      "turizm_tipi": "kültür",
+      "il": "Eskişehir",
+      "unesco": false,
+      "notlar": "Frig vadisinin kalbi, kaya anıt mezarı"
+    },
+    {
+      "isim": "Aizanoi Antik Kenti",
+      "lat": 39.2019,
+      "lng": 29.6106,
+      "turizm_tipi": "kültür",
+      "il": "Kütahya",
+      "unesco": false,
+      "notlar": "Dünyanın ilk borsası ve en iyi korunmuş Zeus Tapınağı"
+    },
+    {
+      "isim": "Assos Antik Kenti",
+      "lat": 39.4906,
+      "lng": 26.3364,
+      "turizm_tipi": "kültür",
+      "il": "Çanakkale",
+      "unesco": false,
+      "notlar": "Aristo'nun felsefe akademisi kurduğu, Athena Tapınağı manzaralı liman"
+    },
+    {
+      "isim": "İshak Paşa Sarayı",
+      "lat": 39.5208,
+      "lng": 44.1308,
+      "turizm_tipi": "kültür",
+      "il": "Ağrı",
+      "unesco": false,
+      "notlar": "Osmanlı, Selçuklu ve Fars mimarisinin sentezi, kalorifer tesisatlı ilk saray"
+    },
+    {
+      "isim": "Akdamar Kilisesi ve Adası",
+      "lat": 38.3428,
+      "lng": 43.0369,
+      "turizm_tipi": "inanç",
+      "il": "Van",
+      "unesco": false,
+      "notlar": "Van Gölü üzerindeki adada bulunan tarihi Ermeni katedrali ve taş kabartmaları"
+    },
+    {
+      "isim": "Hasankeyf Tarihi Kenti",
+      "lat": 37.7128,
+      "lng": 41.4128,
+      "turizm_tipi": "kültür",
+      "il": "Batman",
+      "unesco": false,
+      "notlar": "Dicle nehri kenarında, Ilısu Barajı altında kalan mağaralar ve köprü kalıntısı"
+    },
+    {
+      "isim": "Dara Antik Kenti",
+      "lat": 37.1814,
+      "lng": 40.9517,
+      "turizm_tipi": "kültür",
+      "il": "Mardin",
+      "unesco": false,
+      "notlar": "Doğu Roma İmparatorluğu'nun Mezopotamya'daki askeri garnizon şehri ve su sarnıçları"
+    },
+    {
+      "isim": "Mardin Tarihi Konakları ve Kasımiye Medresesi",
+      "lat": 37.3128,
+      "lng": 40.7328,
+      "turizm_tipi": "kültür",
+      "il": "Mardin",
+      "unesco": false,
+      "notlar": "Taş işçiliği ile ünlü tarihi evler ve Mezopotamya manzaralı medrese"
+    },
+    {
+      "isim": "Uludağ Kış Sporları Merkezi",
+      "lat": 40.1064,
+      "lng": 29.2131,
+      "turizm_tipi": "kış",
+      "il": "Bursa",
+      "unesco": false,
+      "notlar": "Türkiye'nin en eski ve popüler kayak merkezi"
+    },
+    {
+      "isim": "Palandöken Kayak Merkezi",
+      "lat": 39.8522,
+      "lng": 41.2589,
+      "turizm_tipi": "kış",
+      "il": "Erzurum",
+      "unesco": false,
+      "notlar": "En uzun pistlere sahip, toz kar kalitesiyle ünlü kış sporları alanı"
+    },
+    {
+      "isim": "Erciyes Kayak Merkezi",
+      "lat": 38.5392,
+      "lng": 35.4514,
+      "turizm_tipi": "kış",
+      "il": "Kayseri",
+      "unesco": false,
+      "notlar": "Sönmüş volkanik dağda kurulu modern kayak altyapısı"
+    },
+    {
+      "isim": "Kartalkaya Kayak Merkezi",
+      "lat": 40.6019,
+      "lng": 31.7917,
+      "turizm_tipi": "kış",
+      "il": "Bolu",
+      "unesco": false,
+      "notlar": "Köroğlu dağları üzerinde kış turizmi"
+    },
+    {
+      "isim": "Sarıkamış Kayak Merkezi",
+      "lat": 40.3167,
+      "lng": 42.5833,
+      "turizm_tipi": "kış",
+      "il": "Kars",
+      "unesco": false,
+      "notlar": "Sarıçam ormanları içinde, sadece Alpler'de görülen kristal kar kalitesi"
+    },
+    {
+      "isim": "Afyonkarahisar Kaplıcaları (Oruçoğlu)",
+      "lat": 38.7514,
+      "lng": 30.5514,
+      "turizm_tipi": "termal",
+      "il": "Afyonkarahisar",
+      "unesco": false,
+      "notlar": "Türkiye'nin termal turizm başkenti"
+    },
+    {
+      "isim": "Kızılcahamam Kaplıcaları",
+      "lat": 40.4686,
+      "lng": 32.6514,
+      "turizm_tipi": "termal",
+      "il": "Ankara",
+      "unesco": false,
+      "notlar": "Çam ormanları içinde şifalı kaplıca suları"
+    },
+    {
+      "isim": "Yalova Termal Kaplıcaları",
+      "lat": 40.6014,
+      "lng": 29.1714,
+      "turizm_tipi": "termal",
+      "il": "Yalova",
+      "unesco": false,
+      "notlar": "Atatürk'ün dinlendiği tarihi termal tesisler"
+    },
+    {
+      "isim": "Kangal Balıklı Kaplıcası",
+      "lat": 39.2314,
+      "lng": 37.3814,
+      "turizm_tipi": "termal",
+      "il": "Sivas",
+      "unesco": false,
+      "notlar": "Sedef hastalığına iyi gelen şifalı küçük balıklar"
+    },
+    {
+      "isim": "Gönen Kaplıcaları",
+      "lat": 40.1067,
+      "lng": 27.6533,
+      "turizm_tipi": "termal",
+      "il": "Balıkesir",
+      "unesco": false,
+      "notlar": "Romalılardan bu yana kullanılan şifalı sular"
+    },
+    {
+      "isim": "Kızkalesi (Deniz Kalesi)",
+      "lat": 36.4631,
+      "lng": 34.1481,
+      "turizm_tipi": "deniz",
+      "il": "Mersin",
+      "unesco": false,
+      "notlar": "Kıyıya 200 m mesafede, ada üzerinde kurulu tarihi kale"
+    },
+    {
+      "isim": "Cunda (Alibey) Adası",
+      "lat": 39.3333,
+      "lng": 26.6333,
+      "turizm_tipi": "deniz",
+      "il": "Balıkesir",
+      "unesco": false,
+      "notlar": "Taş evleri, tarihi kiliseleri ve zeytinyağlı yemekleri ile ünlü ada"
+    },
+    {
+      "isim": "Alaçatı Rüzgar Sörfü Merkezi",
+      "lat": 38.2814,
+      "lng": 26.3814,
+      "turizm_tipi": "deniz",
+      "il": "İzmir",
+      "unesco": false,
+      "notlar": "Taş evleri ve dünya çapındaki rüzgar sörfü koyu"
+    },
+    {
+      "isim": "Bodrum Kalesi ve Sualtı Arkeoloji Müzesi",
+      "lat": 37.0314,
+      "lng": 27.4294,
+      "turizm_tipi": "kültür",
+      "il": "Muğla",
+      "unesco": false,
+      "notlar": "St. Jean şövalyelerinin kalesi ve dünyanın en büyük sualtı arkeoloji müzesi"
+    },
+    {
+      "isim": "Şirince Tarihi Köyü",
+      "lat": 37.9436,
+      "lng": 27.3639,
+      "turizm_tipi": "kültür",
+      "il": "İzmir",
+      "unesco": false,
+      "notlar": "Rum mimarisi evleri ve meyve şarapları ile ünlü"
+    },
+    {
+      "isim": "Salda Gölü ve Beyaz Adalar",
+      "lat": 37.5514,
+      "lng": 29.6814,
+      "turizm_tipi": "doğa",
+      "il": "Burdur",
+      "unesco": false,
+      "notlar": "Turkuaz suyu ve hidromanyezit beyaz kumsalı"
+    },
+    {
+      "isim": "Abant Gölü Tabiat Parkı",
+      "lat": 40.6017,
+      "lng": 31.2814,
+      "turizm_tipi": "doğa",
+      "il": "Bolu",
+      "unesco": false,
+      "notlar": "Heyelan set gölü, yılın her mevsimi ayrı doğa güzelliği"
+    },
+    {
+      "isim": "Yedigöller Tabiat Parkı",
+      "lat": 40.9389,
+      "lng": 31.7981,
+      "turizm_tipi": "doğa",
+      "il": "Bolu",
+      "unesco": false,
+      "notlar": "Kayın, gürgen ve meşe ormanları arasında 7 küçük gölet"
+    },
+    {
+      "isim": "Tortum Şelalesi",
+      "lat": 40.6014,
+      "lng": 41.6214,
+      "turizm_tipi": "doğa",
+      "il": "Erzurum",
+      "unesco": false,
+      "notlar": "Heyelan set barajından dökülen 48 m yüksekliğindeki şelale"
+    }
+  ],
+  "iller": [
+    {
+      "isim": "Adana",
+      "plaka_kodu": 1,
+      "lat": 36.9989,
+      "lng": 35.3289,
+      "cografya_bolgesi": "Akdeniz",
+      "nufus_yaklasik": 2274000
+    },
+    {
+      "isim": "Adıyaman",
+      "plaka_kodu": 2,
+      "lat": 37.7636,
+      "lng": 38.2778,
+      "cografya_bolgesi": "Güneydoğu Anadolu",
+      "nufus_yaklasik": 635000
+    },
+    {
+      "isim": "Afyonkarahisar",
+      "plaka_kodu": 3,
+      "lat": 38.7507,
+      "lng": 30.5567,
+      "cografya_bolgesi": "Ege",
+      "nufus_yaklasik": 747000
+    },
+    {
+      "isim": "Ağrı",
+      "plaka_kodu": 4,
+      "lat": 39.7192,
+      "lng": 43.0503,
+      "cografya_bolgesi": "Doğu Anadolu",
+      "nufus_yaklasik": 510000
+    },
+    {
+      "isim": "Amasya",
+      "plaka_kodu": 5,
+      "lat": 40.6499,
+      "lng": 35.8353,
+      "cografya_bolgesi": "Karadeniz",
+      "nufus_yaklasik": 339000
+    },
+    {
+      "isim": "Ankara",
+      "plaka_kodu": 6,
+      "lat": 39.9208,
+      "lng": 32.8541,
+      "cografya_bolgesi": "İç Anadolu",
+      "nufus_yaklasik": 5782000,
+      "notlar": "Başkent"
+    },
+    {
+      "isim": "Antalya",
+      "plaka_kodu": 7,
+      "lat": 36.8848,
+      "lng": 30.704,
+      "cografya_bolgesi": "Akdeniz",
+      "nufus_yaklasik": 2688000
+    },
+    {
+      "isim": "Artvin",
+      "plaka_kodu": 8,
+      "lat": 41.1828,
+      "lng": 41.8183,
+      "cografya_bolgesi": "Karadeniz",
+      "nufus_yaklasik": 169000
+    },
+    {
+      "isim": "Aydın",
+      "plaka_kodu": 9,
+      "lat": 37.856,
+      "lng": 27.8416,
+      "cografya_bolgesi": "Ege",
+      "nufus_yaklasik": 1148000
+    },
+    {
+      "isim": "Balıkesir",
+      "plaka_kodu": 10,
+      "lat": 39.6484,
+      "lng": 27.8826,
+      "cografya_bolgesi": "Ege",
+      "nufus_yaklasik": 1257000
+    },
+    {
+      "isim": "Bilecik",
+      "plaka_kodu": 11,
+      "lat": 40.1426,
+      "lng": 29.9795,
+      "cografya_bolgesi": "Marmara",
+      "nufus_yaklasik": 228000
+    },
+    {
+      "isim": "Bingöl",
+      "plaka_kodu": 12,
+      "lat": 38.8847,
+      "lng": 40.4939,
+      "cografya_bolgesi": "Doğu Anadolu",
+      "nufus_yaklasik": 282000
+    },
+    {
+      "isim": "Bitlis",
+      "plaka_kodu": 13,
+      "lat": 38.4006,
+      "lng": 42.1095,
+      "cografya_bolgesi": "Doğu Anadolu",
+      "nufus_yaklasik": 353000
+    },
+    {
+      "isim": "Bolu",
+      "plaka_kodu": 14,
+      "lat": 40.735,
+      "lng": 31.6078,
+      "cografya_bolgesi": "Karadeniz",
+      "nufus_yaklasik": 320000
+    },
+    {
+      "isim": "Burdur",
+      "plaka_kodu": 15,
+      "lat": 37.7203,
+      "lng": 30.2908,
+      "cografya_bolgesi": "Akdeniz",
+      "nufus_yaklasik": 273000
+    },
+    {
+      "isim": "Bursa",
+      "plaka_kodu": 16,
+      "lat": 40.1885,
+      "lng": 29.061,
+      "cografya_bolgesi": "Marmara",
+      "nufus_yaklasik": 3194000
+    },
+    {
+      "isim": "Çanakkale",
+      "plaka_kodu": 17,
+      "lat": 40.1553,
+      "lng": 26.4142,
+      "cografya_bolgesi": "Marmara",
+      "nufus_yaklasik": 559000
+    },
+    {
+      "isim": "Çankırı",
+      "plaka_kodu": 18,
+      "lat": 40.6013,
+      "lng": 33.6134,
+      "cografya_bolgesi": "İç Anadolu",
+      "nufus_yaklasik": 195000
+    },
+    {
+      "isim": "Çorum",
+      "plaka_kodu": 19,
+      "lat": 40.5489,
+      "lng": 34.9533,
+      "cografya_bolgesi": "Karadeniz",
+      "nufus_yaklasik": 524000
+    },
+    {
+      "isim": "Denizli",
+      "plaka_kodu": 20,
+      "lat": 37.7765,
+      "lng": 29.0864,
+      "cografya_bolgesi": "Ege",
+      "nufus_yaklasik": 1056000
+    },
+    {
+      "isim": "Diyarbakır",
+      "plaka_kodu": 21,
+      "lat": 37.9144,
+      "lng": 40.2306,
+      "cografya_bolgesi": "Güneydoğu Anadolu",
+      "nufus_yaklasik": 1807000
+    },
+    {
+      "isim": "Edirne",
+      "plaka_kodu": 22,
+      "lat": 41.6768,
+      "lng": 26.5557,
+      "cografya_bolgesi": "Marmara",
+      "nufus_yaklasik": 414000
+    },
+    {
+      "isim": "Elazığ",
+      "plaka_kodu": 23,
+      "lat": 38.681,
+      "lng": 39.223,
+      "cografya_bolgesi": "Doğu Anadolu",
+      "nufus_yaklasik": 591000
+    },
+    {
+      "isim": "Erzincan",
+      "plaka_kodu": 24,
+      "lat": 39.75,
+      "lng": 39.5,
+      "cografya_bolgesi": "Doğu Anadolu",
+      "nufus_yaklasik": 239000
+    },
+    {
+      "isim": "Erzurum",
+      "plaka_kodu": 25,
+      "lat": 39.9056,
+      "lng": 41.2658,
+      "cografya_bolgesi": "Doğu Anadolu",
+      "nufus_yaklasik": 749000
+    },
+    {
+      "isim": "Eskişehir",
+      "plaka_kodu": 26,
+      "lat": 39.7767,
+      "lng": 30.5206,
+      "cografya_bolgesi": "İç Anadolu",
+      "nufus_yaklasik": 906000
+    },
+    {
+      "isim": "Gaziantep",
+      "plaka_kodu": 27,
+      "lat": 37.0662,
+      "lng": 37.3833,
+      "cografya_bolgesi": "Güneydoğu Anadolu",
+      "nufus_yaklasik": 2154000
+    },
+    {
+      "isim": "Giresun",
+      "plaka_kodu": 28,
+      "lat": 40.9128,
+      "lng": 38.3895,
+      "cografya_bolgesi": "Karadeniz",
+      "nufus_yaklasik": 450000
+    },
+    {
+      "isim": "Gümüşhane",
+      "plaka_kodu": 29,
+      "lat": 40.4608,
+      "lng": 39.4814,
+      "cografya_bolgesi": "Karadeniz",
+      "nufus_yaklasik": 144000
+    },
+    {
+      "isim": "Hakkari",
+      "plaka_kodu": 30,
+      "lat": 37.5833,
+      "lng": 43.7333,
+      "cografya_bolgesi": "Doğu Anadolu",
+      "nufus_yaklasik": 275000
+    },
+    {
+      "isim": "Hatay",
+      "plaka_kodu": 31,
+      "lat": 36.2025,
+      "lng": 36.1606,
+      "cografya_bolgesi": "Akdeniz",
+      "nufus_yaklasik": 1686000
+    },
+    {
+      "isim": "Isparta",
+      "plaka_kodu": 32,
+      "lat": 37.7648,
+      "lng": 30.5566,
+      "cografya_bolgesi": "Akdeniz",
+      "nufus_yaklasik": 445000
+    },
+    {
+      "isim": "Mersin",
+      "plaka_kodu": 33,
+      "lat": 36.8121,
+      "lng": 34.6415,
+      "cografya_bolgesi": "Akdeniz",
+      "nufus_yaklasik": 1916000
+    },
+    {
+      "isim": "İstanbul",
+      "plaka_kodu": 34,
+      "lat": 41.0082,
+      "lng": 28.9784,
+      "cografya_bolgesi": "Marmara",
+      "nufus_yaklasik": 15908000
+    },
+    {
+      "isim": "İzmir",
+      "plaka_kodu": 35,
+      "lat": 38.4189,
+      "lng": 27.1287,
+      "cografya_bolgesi": "Ege",
+      "nufus_yaklasik": 4462000
+    },
+    {
+      "isim": "Kars",
+      "plaka_kodu": 36,
+      "lat": 40.6013,
+      "lng": 43.0975,
+      "cografya_bolgesi": "Doğu Anadolu",
+      "nufus_yaklasik": 274000
+    },
+    {
+      "isim": "Kastamonu",
+      "plaka_kodu": 37,
+      "lat": 41.3787,
+      "lng": 33.7753,
+      "cografya_bolgesi": "Karadeniz",
+      "nufus_yaklasik": 378000
+    },
+    {
+      "isim": "Kayseri",
+      "plaka_kodu": 38,
+      "lat": 38.7205,
+      "lng": 35.4826,
+      "cografya_bolgesi": "İç Anadolu",
+      "nufus_yaklasik": 1441000
+    },
+    {
+      "isim": "Kırklareli",
+      "plaka_kodu": 39,
+      "lat": 41.7351,
+      "lng": 27.2252,
+      "cografya_bolgesi": "Marmara",
+      "nufus_yaklasik": 369000
+    },
+    {
+      "isim": "Kırşehir",
+      "plaka_kodu": 40,
+      "lat": 39.1458,
+      "lng": 34.1639,
+      "cografya_bolgesi": "İç Anadolu",
+      "nufus_yaklasik": 244000
+    },
+    {
+      "isim": "Kocaeli",
+      "plaka_kodu": 41,
+      "lat": 40.7654,
+      "lng": 29.9408,
+      "cografya_bolgesi": "Marmara",
+      "nufus_yaklasik": 2079000
+    },
+    {
+      "isim": "Konya",
+      "plaka_kodu": 42,
+      "lat": 37.8714,
+      "lng": 32.4847,
+      "cografya_bolgesi": "İç Anadolu",
+      "nufus_yaklasik": 2296000
+    },
+    {
+      "isim": "Kütahya",
+      "plaka_kodu": 43,
+      "lat": 39.42,
+      "lng": 29.9833,
+      "cografya_bolgesi": "Ege",
+      "nufus_yaklasik": 580000
+    },
+    {
+      "isim": "Malatya",
+      "plaka_kodu": 44,
+      "lat": 38.3552,
+      "lng": 38.3095,
+      "cografya_bolgesi": "Doğu Anadolu",
+      "nufus_yaklasik": 812000
+    },
+    {
+      "isim": "Manisa",
+      "plaka_kodu": 45,
+      "lat": 38.6191,
+      "lng": 27.4289,
+      "cografya_bolgesi": "Ege",
+      "nufus_yaklasik": 1468000
+    },
+    {
+      "isim": "Kahramanmaraş",
+      "plaka_kodu": 46,
+      "lat": 37.5753,
+      "lng": 36.9228,
+      "cografya_bolgesi": "Akdeniz",
+      "nufus_yaklasik": 1177000
+    },
+    {
+      "isim": "Mardin",
+      "plaka_kodu": 47,
+      "lat": 37.3122,
+      "lng": 40.735,
+      "cografya_bolgesi": "Güneydoğu Anadolu",
+      "nufus_yaklasik": 862000
+    },
+    {
+      "isim": "Muğla",
+      "plaka_kodu": 48,
+      "lat": 37.2181,
+      "lng": 28.3665,
+      "cografya_bolgesi": "Ege",
+      "nufus_yaklasik": 1048000
+    },
+    {
+      "isim": "Muş",
+      "plaka_kodu": 49,
+      "lat": 38.7346,
+      "lng": 41.491,
+      "cografya_bolgesi": "Doğu Anadolu",
+      "nufus_yaklasik": 405000
+    },
+    {
+      "isim": "Nevşehir",
+      "plaka_kodu": 50,
+      "lat": 38.6244,
+      "lng": 34.7144,
+      "cografya_bolgesi": "İç Anadolu",
+      "nufus_yaklasik": 310000
+    },
+    {
+      "isim": "Niğde",
+      "plaka_kodu": 51,
+      "lat": 37.9697,
+      "lng": 34.6756,
+      "cografya_bolgesi": "İç Anadolu",
+      "nufus_yaklasik": 365000
+    },
+    {
+      "isim": "Ordu",
+      "plaka_kodu": 52,
+      "lat": 40.9862,
+      "lng": 37.8797,
+      "cografya_bolgesi": "Karadeniz",
+      "nufus_yaklasik": 763000
+    },
+    {
+      "isim": "Rize",
+      "plaka_kodu": 53,
+      "lat": 41.0201,
+      "lng": 40.5234,
+      "cografya_bolgesi": "Karadeniz",
+      "nufus_yaklasik": 344000
+    },
+    {
+      "isim": "Sakarya",
+      "plaka_kodu": 54,
+      "lat": 40.7569,
+      "lng": 30.3789,
+      "cografya_bolgesi": "Marmara",
+      "nufus_yaklasik": 1080000
+    },
+    {
+      "isim": "Samsun",
+      "plaka_kodu": 55,
+      "lat": 41.2867,
+      "lng": 36.33,
+      "cografya_bolgesi": "Karadeniz",
+      "nufus_yaklasik": 1368000
+    },
+    {
+      "isim": "Siirt",
+      "plaka_kodu": 56,
+      "lat": 37.9274,
+      "lng": 41.942,
+      "cografya_bolgesi": "Güneydoğu Anadolu",
+      "nufus_yaklasik": 331000
+    },
+    {
+      "isim": "Sinop",
+      "plaka_kodu": 57,
+      "lat": 42.0268,
+      "lng": 35.1622,
+      "cografya_bolgesi": "Karadeniz",
+      "nufus_yaklasik": 218000
+    },
+    {
+      "isim": "Sivas",
+      "plaka_kodu": 58,
+      "lat": 39.7505,
+      "lng": 37.015,
+      "cografya_bolgesi": "İç Anadolu",
+      "nufus_yaklasik": 636000
+    },
+    {
+      "isim": "Tekirdağ",
+      "plaka_kodu": 59,
+      "lat": 40.978,
+      "lng": 27.511,
+      "cografya_bolgesi": "Marmara",
+      "nufus_yaklasik": 1142000
+    },
+    {
+      "isim": "Tokat",
+      "plaka_kodu": 60,
+      "lat": 40.316,
+      "lng": 36.55,
+      "cografya_bolgesi": "Karadeniz",
+      "nufus_yaklasik": 596000
+    },
+    {
+      "isim": "Trabzon",
+      "plaka_kodu": 61,
+      "lat": 41.0027,
+      "lng": 39.7168,
+      "cografya_bolgesi": "Karadeniz",
+      "nufus_yaklasik": 818000
+    },
+    {
+      "isim": "Tunceli",
+      "plaka_kodu": 62,
+      "lat": 39.1083,
+      "lng": 39.5472,
+      "cografya_bolgesi": "Doğu Anadolu",
+      "nufus_yaklasik": 84000
+    },
+    {
+      "isim": "Şanlıurfa",
+      "plaka_kodu": 63,
+      "lat": 37.1583,
+      "lng": 38.7917,
+      "cografya_bolgesi": "Güneydoğu Anadolu",
+      "nufus_yaklasik": 2170000
+    },
+    {
+      "isim": "Uşak",
+      "plaka_kodu": 64,
+      "lat": 38.6742,
+      "lng": 29.4058,
+      "cografya_bolgesi": "Ege",
+      "nufus_yaklasik": 373000
+    },
+    {
+      "isim": "Van",
+      "plaka_kodu": 65,
+      "lat": 38.4893,
+      "lng": 43.4011,
+      "cografya_bolgesi": "Doğu Anadolu",
+      "nufus_yaklasik": 1128000
+    },
+    {
+      "isim": "Yozgat",
+      "plaka_kodu": 66,
+      "lat": 39.8181,
+      "lng": 34.8147,
+      "cografya_bolgesi": "İç Anadolu",
+      "nufus_yaklasik": 418000
+    },
+    {
+      "isim": "Zonguldak",
+      "plaka_kodu": 67,
+      "lat": 41.4564,
+      "lng": 31.7981,
+      "cografya_bolgesi": "Karadeniz",
+      "nufus_yaklasik": 589000
+    },
+    {
+      "isim": "Aksaray",
+      "plaka_kodu": 68,
+      "lat": 38.3687,
+      "lng": 34.037,
+      "cografya_bolgesi": "İç Anadolu",
+      "nufus_yaklasik": 433000
+    },
+    {
+      "isim": "Bayburt",
+      "plaka_kodu": 69,
+      "lat": 40.2552,
+      "lng": 40.2249,
+      "cografya_bolgesi": "Karadeniz",
+      "nufus_yaklasik": 84000
+    },
+    {
+      "isim": "Karaman",
+      "plaka_kodu": 70,
+      "lat": 37.1759,
+      "lng": 33.2214,
+      "cografya_bolgesi": "İç Anadolu",
+      "nufus_yaklasik": 260000
+    },
+    {
+      "isim": "Kırıkkale",
+      "plaka_kodu": 71,
+      "lat": 39.8453,
+      "lng": 33.5153,
+      "cografya_bolgesi": "İç Anadolu",
+      "nufus_yaklasik": 277000
+    },
+    {
+      "isim": "Batman",
+      "plaka_kodu": 72,
+      "lat": 37.8812,
+      "lng": 41.1351,
+      "cografya_bolgesi": "Güneydoğu Anadolu",
+      "nufus_yaklasik": 626000
+    },
+    {
+      "isim": "Şırnak",
+      "plaka_kodu": 73,
+      "lat": 37.5164,
+      "lng": 42.4611,
+      "cografya_bolgesi": "Güneydoğu Anadolu",
+      "nufus_yaklasik": 557000
+    },
+    {
+      "isim": "Bartın",
+      "plaka_kodu": 74,
+      "lat": 41.6376,
+      "lng": 32.3375,
+      "cografya_bolgesi": "Karadeniz",
+      "nufus_yaklasik": 203000
+    },
+    {
+      "isim": "Ardahan",
+      "plaka_kodu": 75,
+      "lat": 41.1105,
+      "lng": 42.7022,
+      "cografya_bolgesi": "Doğu Anadolu",
+      "nufus_yaklasik": 94000
+    },
+    {
+      "isim": "Iğdır",
+      "plaka_kodu": 76,
+      "lat": 39.92,
+      "lng": 44.05,
+      "cografya_bolgesi": "Doğu Anadolu",
+      "nufus_yaklasik": 203000
+    },
+    {
+      "isim": "Yalova",
+      "plaka_kodu": 77,
+      "lat": 40.6551,
+      "lng": 29.2769,
+      "cografya_bolgesi": "Marmara",
+      "nufus_yaklasik": 296000
+    },
+    {
+      "isim": "Karabük",
+      "plaka_kodu": 78,
+      "lat": 41.2061,
+      "lng": 32.6204,
+      "cografya_bolgesi": "Karadeniz",
+      "nufus_yaklasik": 252000
+    },
+    {
+      "isim": "Kilis",
+      "plaka_kodu": 79,
+      "lat": 36.7165,
+      "lng": 37.115,
+      "cografya_bolgesi": "Güneydoğu Anadolu",
+      "nufus_yaklasik": 147000
+    },
+    {
+      "isim": "Osmaniye",
+      "plaka_kodu": 80,
+      "lat": 37.0742,
+      "lng": 36.2467,
+      "cografya_bolgesi": "Akdeniz",
+      "nufus_yaklasik": 559000
+    },
+    {
+      "isim": "Düzce",
+      "plaka_kodu": 81,
+      "lat": 40.8438,
+      "lng": 31.1565,
+      "cografya_bolgesi": "Karadeniz",
+      "nufus_yaklasik": 405000
+    }
+  ]
+}

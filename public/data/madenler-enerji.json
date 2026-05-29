@@ -1,0 +1,139 @@
+{
+  "Madenler": [
+    {
+      "ad": "Zonguldak Taş Kömürü",
+      "lat": 41.45,
+      "lng": 31.79,
+      "tur": "Taş Kömürü",
+      "ozellik": "Türkiye'nin tek taş kömürü havzası."
+    },
+    {
+      "ad": "Sivas Divriği Demir",
+      "lat": 39.37,
+      "lng": 38.11,
+      "tur": "Demir",
+      "ozellik": "Türkiye'nin en büyük demir rezervi."
+    },
+    {
+      "ad": "Elazığ Guleman Krom",
+      "lat": 38.45,
+      "lng": 39.73,
+      "tur": "Krom",
+      "ozellik": "Türkiye'nin en önemli krom yatağı."
+    },
+    {
+      "ad": "Artvin Murgul Bakır",
+      "lat": 41.26,
+      "lng": 41.56,
+      "tur": "Bakır",
+      "ozellik": "En büyük bakır işletmesi."
+    },
+    {
+      "ad": "Kastamonu Küre Bakır",
+      "lat": 41.8,
+      "lng": 33.72,
+      "tur": "Bakır",
+      "ozellik": "Önemli bakır madeni."
+    },
+    {
+      "ad": "Elazığ Maden Bakır",
+      "lat": 38.39,
+      "lng": 39.66,
+      "tur": "Bakır",
+      "ozellik": "Önemli bakır madeni."
+    },
+    {
+      "ad": "Eskişehir Kırka Bor",
+      "lat": 39.28,
+      "lng": 30.33,
+      "tur": "Bor",
+      "ozellik": "Dünyanın en büyük bor yataklarından biri."
+    },
+    {
+      "ad": "Balıkesir Bigadiç Bor",
+      "lat": 39.39,
+      "lng": 28.14,
+      "tur": "Bor",
+      "ozellik": "Önemli bor madeni."
+    },
+    {
+      "ad": "Konya Seydişehir Boksit",
+      "lat": 37.41,
+      "lng": 31.84,
+      "tur": "Boksit (Alüminyum)",
+      "ozellik": "Türkiye'nin alüminyum üretim tesisi."
+    },
+    {
+      "ad": "Batman Petrol",
+      "lat": 37.89,
+      "lng": 41.12,
+      "tur": "Petrol",
+      "ozellik": "Türkiye'nin ilk ve en önemli petrol çıkarma alanı."
+    },
+    {
+      "ad": "Afyon Mermer",
+      "lat": 38.75,
+      "lng": 30.54,
+      "tur": "Mermer",
+      "ozellik": "Türkiye'nin en önemli ihraç madeni."
+    }
+  ],
+  "Enerji Santralleri": [
+    {
+      "ad": "Atatürk Barajı (HES)",
+      "lat": 37.48,
+      "lng": 38.31,
+      "tur": "Hidroelektrik",
+      "ozellik": "Türkiye'nin kapasite olarak en büyük barajı (Fırat nehri)."
+    },
+    {
+      "ad": "Keban Barajı (HES)",
+      "lat": 38.79,
+      "lng": 38.74,
+      "tur": "Hidroelektrik",
+      "ozellik": "Fırat üzerindeki ilk büyük baraj."
+    },
+    {
+      "ad": "Afşin-Elbistan Termik Santrali",
+      "lat": 38.31,
+      "lng": 37.03,
+      "tur": "Termik (Linyit)",
+      "ozellik": "Türkiye'nin en büyük linyit rezervine sahip termik santrali."
+    },
+    {
+      "ad": "Soma Termik Santrali",
+      "lat": 39.2,
+      "lng": 27.6,
+      "tur": "Termik (Linyit)",
+      "ozellik": "Ege Bölgesi'nin önemli santrali."
+    },
+    {
+      "ad": "Akkuyu Nükleer Santrali",
+      "lat": 36.14,
+      "lng": 33.53,
+      "tur": "Nükleer",
+      "ozellik": "Türkiye'nin inşa halindeki ilk nükleer santrali."
+    },
+    {
+      "ad": "Kızıldere Jeotermal Santrali",
+      "lat": 37.95,
+      "lng": 28.84,
+      "tur": "Jeotermal",
+      "ozellik": "Denizli Sarayköy. Türkiye'nin ilk jeotermal santrali."
+    },
+    {
+      "ad": "Alaçatı Rüzgar Santrali",
+      "lat": 38.27,
+      "lng": 26.39,
+      "tur": "Rüzgar",
+      "ozellik": "İzmir. İlk rüzgar enerji santrallerinden."
+    },
+    {
+      "ad": "Karapınar GES",
+      "lat": 37.71,
+      "lng": 33.55,
+      "tur": "Güneş",
+      "ozellik": "Türkiye'nin en büyük güneş enerji santrali."
+    }
+  ]
+}

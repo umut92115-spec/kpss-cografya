@@ -1,0 +1,54 @@
+{
+  "sanayi_merkezleri": [
+    {
+      "sehir": "İstanbul",
+      "sektorler": ["Tekstil", "Gıda", "Kimya", "Elektronik", "İlaç"],
+      "faktor": "Pazar, Sermaye, Ulaşım"
+    },
+    {
+      "sehir": "Bursa",
+      "sektorler": ["Otomotiv", "Tekstil", "Gıda", "Mobilya"],
+      "faktor": "Ulaşım, Hammadde, Pazar"
+    },
+    {
+      "sehir": "Kocaeli",
+      "sektorler": ["Petrol Rafinerisi", "Otomotiv", "Kimya", "Kağıt"],
+      "faktor": "Ulaşım (Liman), Pazar"
+    },
+    {
+      "sehir": "İzmir",
+      "sektorler": ["Otomotiv", "Gıda", "Petrol Rafinerisi", "Tekstil"],
+      "faktor": "Ulaşım (Liman), Hammadde"
+    },
+    {
+      "sehir": "Ankara",
+      "sektorler": ["Savunma Sanayi", "Gıda", "Mobilya", "Uçak"],
+      "faktor": "Siyasi Merkez, Güvenlik, Ulaşım"
+    },
+    {
+      "sehir": "Kayseri",
+      "sektorler": ["Mobilya", "Gıda", "Elektrikli Ev Aletleri"],
+      "faktor": "Ulaşım, Ticaret Kültürü"
+    },
+    {
+      "sehir": "Gaziantep",
+      "sektorler": ["Dokuma", "Gıda (Fıstık, Makarna)", "Kimya"],
+      "faktor": "Hammadde, Ticaret"
+    },
+    {
+      "sehir": "Karabük",
+      "sektorler": ["Demir-Çelik"],
+      "faktor": "Enerji Kaynağı (Taş Kömürü)"
+    },
+    {
+      "sehir": "İskenderun",
+      "sektorler": ["Demir-Çelik", "Gübre"],
+      "faktor": "Ulaşım (Liman)"
+    },
+    {
+      "sehir": "Denizli",
+      "sektorler": ["Tekstil (Havlu, Bornoz)", "Kablo"],
+      "faktor": "Hammadde, İhracat"
+    }
+  ]
+}

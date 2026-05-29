@@ -1,0 +1,311 @@
+{
+  "meta": {
+    "konu": "Türkiye'nin Gölleri",
+    "aciklama": "Türkiye göl sayısı bakımından zengin bir ülkedir. Göller oluşumlarına ve su tuzluluğuna göre sınıflandırılır.",
+    "kpss_notu": "Kapalı havza göllerinin suyu tuzlu/acıdır. Gideğeni olan göllerin suyu tatlıdır."
+  },
+  "siniflandirma": {
+    "tatli": {
+      "aciklama": "Sularını bir gideğenle dışarıya boşaltan göllerdir. Sulama ve enerji üretimine uygundur.",
+      "ornekler": ["Beyşehir", "Eğirdir", "Akşehir", "İznik", "Manyas", "Eber", "Çıldır", "Erçek", "Sapanca", "Hazar", "Tortum"]
+    },
+    "tuzlu_acı": {
+      "aciklama": "Kapalı havzalarda yer alan, gideğeni olmayan göllerdir. Suları buharlaşmayla konsantre olduğundan tuzlu ya da acıdır.",
+      "ornekler": ["Van Gölü", "Tuz Gölü", "Burdur Gölü", "Acıgöl"]
+    }
+  },
+  "olusumTurleri": {
+    "tektonik": {
+      "aciklama": "Tektonizma sonucu oluşan çanaklarda suların birikmesiyle oluşan göllerdir. Türkiye göllerinin büyük çoğunluğu tektoniktir.",
+      "ornekler": ["Van", "Beyşehir", "Eğirdir", "Burdur", "İznik", "Manyas", "Hazar", "Çıldır", "Erçek", "Nazik"]
+    },
+    "karstik": {
+      "aciklama": "Kireçtaşı ve jips gibi eriyebilen kayaçların bulunduğu yerlerde oluşan göllerdir. Suları genellikle acıdır.",
+      "ornekler": ["Acıgöl", "Meke", "Kestel", "Kızören", "Timraş"]
+    },
+    "buzul": {
+      "aciklama": "Buzul aşındırmasıyla oluşan sirk adı verilen çanaklarda oluşan göllerdir. Yüksek dağ zirvelerinde bulunur.",
+      "ornekler": ["Cilo-Sat dağlarındaki sirk gölleri", "Kaçkar dağlarındaki sirk gölleri"]
+    },
+    "volkanik": {
+      "aciklama": "Volkanik patlamayla oluşan krater çukurlarında ya da lav setleriyle oluşan göllerdir.",
+      "ornekler": ["Nemrut Krater Gölü (Bitlis)", "Gölcük", "Meke"]
+    },
+    "heyelan_set": {
+      "aciklama": "Bir akarsuyun önünün heyelan sonucu kapanmasıyla oluşan göllerdir.",
+      "ezber": "Uzungöl — Sera — Tortum — Borabay — Zinav — Yedigöller — Abant",
+      "ornekler": ["Uzungöl (Trabzon)", "Sera Gölü (Trabzon)", "Tortum Gölü (Erzurum)", "Borabay Gölü (Amasya)", "Zinav Gölü (Giresun)", "Yedigöller (Bolu)", "Abant Gölü (Bolu)"]
+    },
+    "kiyi_set": {
+      "aciklama": "Deniz akıntılarının oluşturduğu kıyı kordonlarının koyların önünü kapatmasıyla oluşur. Suları tatlıdır (gideğenleri var).",
+      "ezber": "Durusu (Terkos) — Büyükçekmece — Küçükçekmece — Akyatan — Balık Gölü — Samsun",
+      "ornekler": ["Durusu (Terkos) Gölü (İstanbul)", "Büyükçekmece Gölü (İstanbul)", "Küçükçekmece Gölü (İstanbul)", "Akyatan Gölü (Adana)", "Balık Gölü (Samsun)"]
+    },
+    "aluvyal_set": {
+      "aciklama": "Alüvyonların akarsuyun önünü kapatması sonucu oluşan göllerdir.",
+      "ornekler": ["Bafa Gölü (Muğla-Aydın)", "Köyceğiz Gölü (Muğla)"]
+    }
+  },
+  "gol_yöreleri": [
+    { "ad": "Göller Yöresi", "iller": ["Isparta", "Burdur", "Afyon"], "goller": ["Eğirdir", "Beyşehir", "Acıgöl", "Burdur", "Eber", "Akşehir"] },
+    { "ad": "Marmara Çevresi", "iller": ["İstanbul", "Bursa"], "goller": ["Ulubat", "Terkos", "Büyükçekmece", "Küçükçekmece", "İznik", "Manyas", "Sapanca"] },
+    { "ad": "Tuz Gölü Çevresi", "iller": ["Ankara", "Konya", "Aksaray"], "goller": ["Tuz", "Eber", "Akşehir", "Mogan", "Eymir"] },
+    { "ad": "Van Gölü Çevresi", "iller": ["Van", "Bitlis"], "goller": ["Van", "Erçek", "Nazik", "Haçlı", "Nemrut Krater"] }
+  ],
+  "goller": [
+    {
+      "id": "van",
+      "ad": "Van Gölü",
+      "il": ["Van", "Bitlis"],
+      "bolge": "Doğu Anadolu",
+      "lat": 38.65,
+      "lng": 42.80,
+      "alan_km2": 3713,
+      "maksimum_derinlik_m": 451,
+      "su_turu": "tuzlu",
+      "olusum": "tektonik",
+      "ozellik": "Türkiye'nin en büyük gölü. Kapalı havza. Soda gölü (sodalı su). Dünyanın en büyük sodalı göllerinden biri. İnci kefalinin yaşadığı tek göl.",
+      "kpss_notu": "En büyük göl, kapalı havza, sodalı"
+    },
+    {
+      "id": "tuz",
+      "ad": "Tuz Gölü",
+      "il": ["Ankara", "Konya", "Aksaray"],
+      "bolge": "İç Anadolu",
+      "lat": 38.75,
+      "lng": 33.40,
+      "alan_km2": 1500,
+      "maksimum_derinlik_m": 2,
+      "su_turu": "tuzlu",
+      "olusum": "tektonik",
+      "ozellik": "Türkiye'nin 2. büyük gölü. En sığ gölümüz (max 2m). Tuz üretiminin %70'i buradan karşılanır. Yaz aylarında kurur.",
+      "kpss_notu": "En sığ göl, tuz üretimi merkezi"
+    },
+    {
+      "id": "beysehir",
+      "ad": "Beyşehir Gölü",
+      "il": ["Konya", "Isparta"],
+      "bolge": "İç Anadolu",
+      "lat": 37.70,
+      "lng": 31.60,
+      "alan_km2": 650,
+      "su_turu": "tatli",
+      "olusum": "tektonik",
+      "ozellik": "Türkiye'nin 3. büyük gölü. En büyük tatlı su gölümüz. Sulama ve içme suyu amaçlı kullanılır. Gideğeni var.",
+      "kpss_notu": "En büyük tatlı su gölü"
+    },
+    {
+      "id": "egirdir",
+      "ad": "Eğirdir Gölü",
+      "il": ["Isparta"],
+      "bolge": "Akdeniz",
+      "lat": 37.88,
+      "lng": 30.87,
+      "alan_km2": 468,
+      "su_turu": "tatli",
+      "olusum": "tektonik",
+      "ozellik": "Göller Yöresi'nde. Tatil ve balıkçılık. Isparta'nın içme suyu kaynağı.",
+      "kpss_notu": ""
+    },
+    {
+      "id": "burdur",
+      "ad": "Burdur Gölü",
+      "il": ["Burdur"],
+      "bolge": "Akdeniz",
+      "lat": 37.72,
+      "lng": 30.17,
+      "alan_km2": 200,
+      "su_turu": "acı",
+      "olusum": "tektonik",
+      "ozellik": "Kapalı havza, acı su. Dik Kuyruklu Ördek'in Türkiye'deki tek üreme alanı (koruma altında).",
+      "kpss_notu": "Kapalı havza, acı, fauna açısından önemli"
+    },
+    {
+      "id": "iznik",
+      "ad": "İznik Gölü",
+      "il": ["Bursa"],
+      "bolge": "Marmara",
+      "lat": 40.43,
+      "lng": 29.57,
+      "alan_km2": 298,
+      "su_turu": "tatli",
+      "olusum": "tektonik",
+      "ozellik": "Marmara Bölgesi'nin en büyük gölü. Balıkçılık ve sulama.",
+      "kpss_notu": ""
+    },
+    {
+      "id": "manyas",
+      "ad": "Manyas Gölü (Kuş Cenneti)",
+      "il": ["Balıkesir"],
+      "bolge": "Marmara",
+      "lat": 40.20,
+      "lng": 28.02,
+      "alan_km2": 166,
+      "su_turu": "tatli",
+      "olusum": "tektonik",
+      "ozellik": "Türkiye'nin en önemli kuş barınağı. Milli Park. Göçmen kuşların konaklama noktası.",
+      "kpss_notu": "Kuş Cenneti Milli Parkı"
+    },
+    {
+      "id": "sapanca",
+      "ad": "Sapanca Gölü",
+      "il": ["Sakarya", "Kocaeli"],
+      "bolge": "Marmara",
+      "lat": 40.69,
+      "lng": 30.26,
+      "alan_km2": 45,
+      "su_turu": "tatli",
+      "olusum": "tektonik",
+      "ozellik": "İstanbul ve Kocaeli'nin içme suyu kaynağı. Kirliliğe karşı koruma altında.",
+      "kpss_notu": "İçme suyu kaynağı"
+    },
+    {
+      "id": "aksehir",
+      "ad": "Akşehir Gölü",
+      "il": ["Konya"],
+      "bolge": "İç Anadolu",
+      "lat": 38.37,
+      "lng": 31.40,
+      "alan_km2": 350,
+      "su_turu": "tatli",
+      "olusum": "tektonik",
+      "ozellik": "Göller Yöresi. Nasreddin Hoca'nın mekânı.",
+      "kpss_notu": ""
+    },
+    {
+      "id": "hazar",
+      "ad": "Hazar Gölü",
+      "il": ["Elazığ"],
+      "bolge": "Doğu Anadolu",
+      "lat": 38.48,
+      "lng": 39.40,
+      "alan_km2": 80,
+      "su_turu": "tatli",
+      "olusum": "tektonik",
+      "ozellik": "Dicle nehrinin kaynağı. Elazığ'ın simgesi.",
+      "kpss_notu": "Dicle'nin kaynağı"
+    },
+    {
+      "id": "cildir",
+      "ad": "Çıldır Gölü",
+      "il": ["Ardahan"],
+      "bolge": "Doğu Anadolu",
+      "lat": 41.07,
+      "lng": 43.14,
+      "alan_km2": 123,
+      "su_turu": "tatli",
+      "olusum": "tektonik",
+      "ozellik": "Türkiye'nin en büyük yüksek dağ gölü. Kışın tamamen donar; atlı kızak festivali.",
+      "kpss_notu": "Kışın donan göl"
+    },
+    {
+      "id": "ercek",
+      "ad": "Erçek Gölü",
+      "il": ["Van"],
+      "bolge": "Doğu Anadolu",
+      "lat": 38.63,
+      "lng": 43.50,
+      "alan_km2": 100,
+      "su_turu": "tuzlu",
+      "olusum": "tektonik",
+      "ozellik": "Van Gölü'nün doğusunda. Kapalı havza.",
+      "kpss_notu": ""
+    },
+    {
+      "id": "nemrut_krater",
+      "ad": "Nemrut Krater Gölü",
+      "il": ["Bitlis"],
+      "bolge": "Doğu Anadolu",
+      "lat": 38.65,
+      "lng": 42.22,
+      "su_turu": "tatli",
+      "olusum": "volkanik",
+      "ozellik": "Nemrut Dağı'nın (Van yakını) zirvesindeki krater gölü. Adıyaman Nemrut ile karıştırılmamalı.",
+      "kpss_notu": "Volkanik krater gölü — iki Nemrut karıştırma!"
+    },
+    {
+      "id": "tortum",
+      "ad": "Tortum Gölü",
+      "il": ["Erzurum"],
+      "bolge": "Doğu Anadolu",
+      "lat": 40.56,
+      "lng": 41.57,
+      "su_turu": "tatli",
+      "olusum": "heyelan_set",
+      "ozellik": "Doğu Türkiye'nin en büyük heyelan set gölü. Tortum Şelalesi bu gölün taşmasıyla oluşur.",
+      "kpss_notu": ""
+    },
+    {
+      "id": "abant",
+      "ad": "Abant Gölü",
+      "il": ["Bolu"],
+      "bolge": "Karadeniz",
+      "lat": 40.61,
+      "lng": 31.27,
+      "su_turu": "tatli",
+      "olusum": "heyelan_set",
+      "ozellik": "Milli Park. Turizm merkezi.",
+      "kpss_notu": ""
+    },
+    {
+      "id": "uzungol",
+      "ad": "Uzungöl",
+      "il": ["Trabzon"],
+      "bolge": "Karadeniz",
+      "lat": 40.62,
+      "lng": 40.28,
+      "su_turu": "tatli",
+      "olusum": "heyelan_set",
+      "ozellik": "Türkiye'nin en çok ziyaret edilen doğal güzelliklerinden. Trabzon'un simgesi.",
+      "kpss_notu": "Heyelan set gölü"
+    },
+    {
+      "id": "durusu",
+      "ad": "Durusu (Terkos) Gölü",
+      "il": ["İstanbul"],
+      "bolge": "Marmara",
+      "lat": 41.35,
+      "lng": 28.58,
+      "su_turu": "tatli",
+      "olusum": "kiyi_set",
+      "ozellik": "İstanbul'un içme suyu barajı olarak kullanılır. Kıyı set gölü.",
+      "kpss_notu": "Kıyı set gölü"
+    },
+    {
+      "id": "koyceğiz",
+      "ad": "Köyceğiz Gölü",
+      "il": ["Muğla"],
+      "bolge": "Ege",
+      "lat": 36.95,
+      "lng": 28.68,
+      "su_turu": "tatli",
+      "olusum": "aluvyal_set",
+      "ozellik": "Dalaman Çayı deltasuyla Akdeniz'e bağlanır. Caretta caretta (deniz kaplumbağası) üreme alanı.",
+      "kpss_notu": ""
+    },
+    {
+      "id": "bafa",
+      "ad": "Bafa Gölü",
+      "il": ["Muğla", "Aydın"],
+      "bolge": "Ege",
+      "lat": 37.52,
+      "lng": 27.45,
+      "su_turu": "acı",
+      "olusum": "aluvyal_set",
+      "ozellik": "Büyük Menderes'in önünü kapatmasıyla oluşmuş. Herakleia antik kenti yakını. Doğal sit.",
+      "kpss_notu": ""
+    },
+    {
+      "id": "mogan",
+      "ad": "Mogan Gölü",
+      "il": ["Ankara"],
+      "bolge": "İç Anadolu",
+      "lat": 39.75,
+      "lng": 32.78,
+      "su_turu": "tatli",
+      "olusum": "tektonik",
+      "ozellik": "Ankara'nın güneyinde. Rekreasyon alanı.",
+      "kpss_notu": ""
+    }
+  ]
+}
