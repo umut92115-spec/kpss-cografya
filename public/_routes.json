@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "include": ["/*"],
+  "exclude": [
+    "/_next/static/*",
+    "/_next/image/*",
+    "/favicon.ico",
+    "/icon-*.png",
+    "/apple-touch-icon.png",
+    "/manifest.json",
+    "/og-default.jpg",
+    "/grid.svg",
+    "/images/*",
+    "/haritalar/*",
+    "/maps/*",
+    "/data/*",
+    "*.txt",
+    "*.xml"
+  ]
+}
