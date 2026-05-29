@@ -1,6 +1,8 @@
-import fs from "node:fs";
-import path from "node:path";
+/* eslint-disable @typescript-eslint/no-require-imports */
 import { Il, IlKonuData, MatrisData, BolgeVerisi } from "@/types";
+import illerData from "../../data/iller.json";
+import ilOzetlerData from "../../data/il-ozetler.json";
+import bolgeVerileriData from "../../data/bolge-verileri.json";
 
 // Bölge tanımları ve URL slug eşleştirmeleri
 export const bolgeler = [
@@ -13,20 +15,11 @@ export const bolgeler = [
   { slug: "karadeniz", ad: "Karadeniz", url: "karadenizbolgesi" },
 ];
 
-const dataDir = path.join(process.cwd(), "data");
-
-// ─── In-memory caches (build-time singleton) ────────────────────────────────
-let illerCache: Il[] | null = null;
 // Matris cache: her konu için ayrı entry
 const matrisCache = new Map<string, Record<string, IlKonuData> | null>();
-let ilOzetlerCache: Record<string, string[]> | null = null;
-let bolgeVerileriCache: Record<string, BolgeVerisi> | null = null;
 
 export function getAllIller(): Il[] {
-  if (illerCache) return illerCache;
-  const filePath = path.join(dataDir, "iller.json");
-  illerCache = JSON.parse(fs.readFileSync(filePath, "utf8")) as Il[];
-  return illerCache;
+  return illerData as Il[];
 }
 
 export function getIl(slug: string): Il | undefined {
@@ -35,20 +28,25 @@ export function getIl(slug: string): Il | undefined {
 
 export function getKonuMatris(konuSlug: string): Record<string, IlKonuData> | null {
   if (matrisCache.has(konuSlug)) return matrisCache.get(konuSlug)!;
-  try {
-    const filePath = path.join(dataDir, "matris", `${konuSlug}.json`);
-    if (!fs.existsSync(filePath)) {
-      matrisCache.set(konuSlug, null);
-      return null;
+
+  // Edge runtime ortamında dosya okuma yapılamadığı için sadece Node runtime'da (derleme/build sırasında) okuyoruz
+  if (typeof process !== "undefined" && process.env.NEXT_RUNTIME !== "edge") {
+    try {
+      const fs = require("node:fs");
+      const path = require("node:path");
+      const filePath = path.join(process.cwd(), "data", "matris", `${konuSlug}.json`);
+      if (fs.existsSync(filePath)) {
+        const data: MatrisData = JSON.parse(fs.readFileSync(filePath, "utf8"));
+        matrisCache.set(konuSlug, data.iller);
+        return data.iller;
+      }
+    } catch (err) {
+      console.error(`Matris verisi okunamadı: ${konuSlug}`, err);
     }
-    const data: MatrisData = JSON.parse(fs.readFileSync(filePath, "utf8"));
-    matrisCache.set(konuSlug, data.iller);
-    return data.iller;
-  } catch (err) {
-    console.error(`Matris verisi okunamadı: ${konuSlug}`, err);
-    matrisCache.set(konuSlug, null);
-    return null;
   }
+
+  matrisCache.set(konuSlug, null);
+  return null;
 }
 
 export function getIlKonuData(ilSlug: string, konuSlug: string): IlKonuData | null {
@@ -57,16 +55,8 @@ export function getIlKonuData(ilSlug: string, konuSlug: string): IlKonuData | nu
 }
 
 export function getIlOzet(slug: string): string[] | null {
-  try {
-    if (!ilOzetlerCache) {
-      const filePath = path.join(dataDir, "il-ozetler.json");
-      if (!fs.existsSync(filePath)) return null;
-      ilOzetlerCache = JSON.parse(fs.readFileSync(filePath, "utf8"));
-    }
-    return ilOzetlerCache![slug] ?? null;
-  } catch {
-    return null;
-  }
+  const ozetler = ilOzetlerData as Record<string, string[]>;
+  return ozetler[slug] ?? null;
 }
 
 export function getBolgeByUrl(url: string) {
@@ -78,14 +68,6 @@ export function getIllerByBolge(bolgeSlug: string): Il[] {
 }
 
 export function getBolgeVerileri(bolgeSlug: string): BolgeVerisi | null {
-  try {
-    if (!bolgeVerileriCache) {
-      const filePath = path.join(dataDir, "bolge-verileri.json");
-      if (!fs.existsSync(filePath)) return null;
-      bolgeVerileriCache = JSON.parse(fs.readFileSync(filePath, "utf8"));
-    }
-    return bolgeVerileriCache![bolgeSlug] ?? null;
-  } catch {
-    return null;
-  }
+  const veriler = bolgeVerileriData as Record<string, BolgeVerisi>;
+  return veriler[bolgeSlug] ?? null;
 }

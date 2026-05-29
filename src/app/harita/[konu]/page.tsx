@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-require-imports */
 export const dynamicParams = false;
 import { Metadata } from "next";
 import { getKonu, getAllKonular } from "@/lib/getKonuData";
@@ -5,8 +6,6 @@ import { getKonuMatris, getAllIller } from "@/lib/getIlData";
 import { notFound } from "next/navigation";
 import HaritaIcerik from "./HaritaIcerik";
 import JsonLd from "@/components/JsonLd";
-import fs from "node:fs";
-import path from "node:path";
 import Link from "next/link";
 import { MapPin, Compass, BookOpen, HelpCircle, ChevronLeft, Table } from "lucide-react";
 
@@ -297,14 +296,18 @@ export default function HaritaKonuPage({ params }: { params: { konu: string } })
 
   // Leaflet detaylı nokta verisini sunucu tarafında okuma (SEO tablosu için)
   let haritaNoktalari: any[] = [];
-  try {
-    const filePath = path.join(process.cwd(), "data", "leaflet", `${params.konu}.json`);
-    if (fs.existsSync(filePath)) {
-      const fileContent = JSON.parse(fs.readFileSync(filePath, "utf8"));
-      haritaNoktalari = fileContent.noktalar || [];
+  if (typeof process !== "undefined" && process.env.NEXT_RUNTIME !== "edge") {
+    try {
+      const fs = require("node:fs");
+      const path = require("node:path");
+      const filePath = path.join(process.cwd(), "data", "leaflet", `${params.konu}.json`);
+      if (fs.existsSync(filePath)) {
+        const fileContent = JSON.parse(fs.readFileSync(filePath, "utf8"));
+        haritaNoktalari = fileContent.noktalar || [];
+      }
+    } catch (e) {
+      console.error("Leaflet data read error in server side:", e);
     }
-  } catch (e) {
-    console.error("Leaflet data read error in server side:", e);
   }
 
   const sssListesi = getFaqsByTopic(params.konu, konuMeta.baslik);

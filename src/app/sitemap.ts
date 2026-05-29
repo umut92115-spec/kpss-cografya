@@ -1,8 +1,7 @@
+/* eslint-disable @typescript-eslint/no-require-imports */
 import { MetadataRoute } from "next";
 import { getAllIller, bolgeler } from "@/lib/getIlData";
 import { getAllKonular } from "@/lib/getKonuData";
-import fs from "node:fs";
-import path from "node:path";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://kpsscografya.com.tr";
@@ -138,20 +137,27 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
 
   // Quiz sayfaları dinamik ekleme
-  const quizDir = path.join(process.cwd(), "data", "quiz");
   let quizUrls: MetadataRoute.Sitemap = [];
-
-  if (fs.existsSync(quizDir)) {
-    const quizFiles = fs.readdirSync(quizDir).filter((file) => file.endsWith(".json"));
-    quizUrls = quizFiles.map((file) => {
-      const slug = file.replace(".json", "");
-      return {
-        url: `${baseUrl}/quiz/${slug}`,
-        lastModified: updateDate,
-        changeFrequency: "weekly" as const,
-        priority: 0.7,
-      };
-    });
+  if (typeof process !== "undefined" && process.env.NEXT_RUNTIME !== "edge") {
+    try {
+      const fs = require("node:fs");
+      const path = require("node:path");
+      const quizDir = path.join(process.cwd(), "data", "quiz");
+      if (fs.existsSync(quizDir)) {
+        const quizFiles = fs.readdirSync(quizDir).filter((file: string) => file.endsWith(".json"));
+        quizUrls = quizFiles.map((file: string) => {
+          const slug = file.replace(".json", "");
+          return {
+            url: `${baseUrl}/quiz/${slug}`,
+            lastModified: updateDate,
+            changeFrequency: "weekly" as const,
+            priority: 0.7,
+          };
+        });
+      }
+    } catch (e) {
+      console.error("Sitemap quiz read error:", e);
+    }
   }
 
   return [
