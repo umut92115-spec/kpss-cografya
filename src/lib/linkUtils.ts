@@ -1,4 +1,4 @@
-import { getAllKonular } from "./getKonuData";
+import { Konu } from "@/types";
 
 const TOPIC_ALIASES: Record<string, string[]> = {
   "cografi-konum": [
@@ -118,7 +118,7 @@ const GLOSSARY_TERMS = [
   { term: "Kaya tuzu", slug: "sozluk#kaya-tuzu" },
 ];
 
-export function linkKeywords(content: string, currentSlug: string): string {
+export function linkKeywords(content: string, currentSlug: string, konular: Konu[]): string {
   if (!content) return "";
 
   const placeholders: string[] = [];
@@ -151,7 +151,6 @@ export function linkKeywords(content: string, currentSlug: string): string {
   let result = protectedContent;
 
   // Konu başlıklarını linkle
-  const konular = getAllKonular();
   const sortedKonular = [...konular]
     .filter((k) => k.slug !== currentSlug)
     .sort((a, b) => b.baslik.length - a.baslik.length);
@@ -241,8 +240,7 @@ export function linkKeywords(content: string, currentSlug: string): string {
   return result;
 }
 
-export function getNextPrevKonu(currentSlug: string) {
-  const konular = getAllKonular();
+export function getNextPrevKonu(currentSlug: string, konular: Konu[]) {
   const currentIndex = konular.findIndex((k) => k.slug === currentSlug);
 
   return {

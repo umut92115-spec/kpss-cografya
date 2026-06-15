@@ -9,7 +9,7 @@ import JsonLd from "@/components/JsonLd";
 import IlgiliBaglantilar from "@/components/IlgiliBaglantilar";
 
 export async function generateStaticParams() {
-  const konular = getAllKonular();
+  const konular = await getAllKonular();
   return konular.map((k) => ({ slug: k.slug }));
 }
 
@@ -18,7 +18,7 @@ export async function generateMetadata({
 }: {
   params: { slug: string };
 }): Promise<Metadata> {
-  const konu = getKonu(params.slug);
+  const konu = await getKonu(params.slug);
   if (!konu) return {};
 
   const title = `KPSS ${konu.baslik} Quiz — Çıkmış Sorular & Hızlı Test (2024-2025)`;
@@ -48,12 +48,12 @@ export async function generateMetadata({
   };
 }
 
-export default function QuizPage({ params }: { params: { slug: string } }) {
-  const konu = getKonu(params.slug);
+export default async function QuizPage({ params }: { params: { slug: string } }) {
+  const konu = await getKonu(params.slug);
   if (!konu) notFound();
 
-  const quizData = getQuizData(params.slug);
-  const tumKonular = getAllKonular();
+  const quizData = await getQuizData(params.slug);
+  const tumKonular = await getAllKonular();
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -109,8 +109,6 @@ export default function QuizPage({ params }: { params: { slug: string } }) {
           <div className="flex flex-wrap justify-center gap-2">
             {tumKonular
               .filter((k) => {
-                // Gerçekte mevcut quiz'leri kontrol etmek için server-side check yapılabilir
-                // Burada basit bir önizleme gösteriyoruz
                 return k.slug === "madenler-enerji";
               })
               .map((k) => (

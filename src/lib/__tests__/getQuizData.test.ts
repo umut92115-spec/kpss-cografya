@@ -6,13 +6,13 @@ vi.mock("fs");
 
 describe("getQuizData", () => {
   describe("getQuizData", () => {
-    it("should return null for non-existent quiz", () => {
-      const data = getQuizData("non-existent-konu");
+    it("should return null for non-existent quiz", async () => {
+      const data = await getQuizData("non-existent-konu");
       expect(data).toBeNull();
     });
 
-    it("should return QuizData structure when exists", () => {
-      const data = getQuizData("daglar");
+    it("should return QuizData structure when exists", async () => {
+      const data = await getQuizData("daglar");
       if (data) {
         expect(data).toHaveProperty("konu");
         expect(data).toHaveProperty("sorular");
@@ -20,9 +20,9 @@ describe("getQuizData", () => {
       }
     });
 
-    it("should handle legacy quiz format", () => {
+    it("should handle legacy quiz format", async () => {
       // This tests the legacy format conversion logic
-      const data = getQuizData("test-konu");
+      const data = await getQuizData("test-konu");
       if (data && data.sorular.length > 0) {
         const soru = data.sorular[0];
         expect(soru).toHaveProperty("id");
@@ -35,8 +35,8 @@ describe("getQuizData", () => {
   });
 
   describe("quizMevcut", () => {
-    it("should return boolean", () => {
-      const exists = quizMevcut("daglar");
+    it("should return boolean", async () => {
+      const exists = await quizMevcut("daglar");
       expect(typeof exists).toBe("boolean");
     });
   });

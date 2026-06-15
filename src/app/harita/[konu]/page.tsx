@@ -1,4 +1,4 @@
-/* eslint-disable @typescript-eslint/no-require-imports */
+/* eslint-disable @typescript-eslint/no-explicit-any */
 export const dynamicParams = false;
 import { Metadata } from "next";
 import { getKonu, getAllKonular } from "@/lib/getKonuData";
@@ -8,9 +8,10 @@ import HaritaIcerik from "./HaritaIcerik";
 import JsonLd from "@/components/JsonLd";
 import Link from "next/link";
 import { MapPin, Compass, BookOpen, HelpCircle, ChevronLeft, Table } from "lucide-react";
+import { fetchPublicData } from "@/lib/fetchData";
 
 export async function generateStaticParams() {
-  const konular = getAllKonular();
+  const konular = await getAllKonular();
   return konular.map((konu) => ({
     konu: topicSlugCorrection(konu.slug),
   }));
@@ -253,7 +254,7 @@ export async function generateMetadata({
 }: {
   params: { konu: string };
 }): Promise<Metadata> {
-  const konu = getKonu(params.konu);
+  const konu = await getKonu(params.konu);
   if (!konu) return {};
 
   const dynamicKeywords = [
@@ -286,29 +287,29 @@ export async function generateMetadata({
   };
 }
 
-export default function HaritaKonuPage({ params }: { params: { konu: string } }) {
-  const konuMeta = getKonu(params.konu);
+export default async function HaritaKonuPage({ params }: { params: { konu: string } }) {
+  const konuMeta = await getKonu(params.konu);
   if (!konuMeta) notFound();
 
-  const matrisData = getKonuMatris(params.konu);
-  const tumKonular = getAllKonular();
-  const iller = getAllIller();
+  const matrisData = await getKonuMatris(params.konu);
+  const tumKonular = await getAllKonular();
+  const iller = await getAllIller();
 
   // Leaflet detaylı nokta verisini sunucu tarafında okuma (SEO tablosu için)
-  let haritaNoktalari: any[] = [];
-  if (typeof process !== "undefined" && process.env.NEXT_RUNTIME !== "edge") {
-    try {
-      const fs = require("node:fs");
-      const path = require("node:path");
-      const filePath = path.join(process.cwd(), "data", "leaflet", `${params.konu}.json`);
-      if (fs.existsSync(filePath)) {
-        const fileContent = JSON.parse(fs.readFileSync(filePath, "utf8"));
-        haritaNoktalari = fileContent.noktalar || [];
-      }
-    } catch (e) {
-      console.error("Leaflet data read error in server side:", e);
-    }
+  interface LeafletNokta {
+    isim?: string;
+    sira_dag?: string;
+    dokulduğu_yer?: string;
+    kategori?: string;
+    yukseklik_m?: number;
+    uzunluk_km?: number;
+    notlar?: string;
   }
+  interface LeafletData {
+    noktalar?: LeafletNokta[];
+  }
+  const leafletData = await fetchPublicData<LeafletData>(`data/leaflet/${params.konu}.json`);
+  const haritaNoktalari: LeafletNokta[] = leafletData?.noktalar || [];
 
   const sssListesi = getFaqsByTopic(params.konu, konuMeta.baslik);
 

@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-require-imports */
 export const dynamicParams = false;
 import React from "react";
 import { getKonu, getAllKonular, getKonuFaq } from "@/lib/getKonuData";
@@ -19,6 +18,7 @@ import StatCards from "@/components/StatCards";
 
 import { linkKeywords, getNextPrevKonu } from "@/lib/linkUtils";
 import remarkGfm from "remark-gfm";
+import { fetchPublicText } from "@/lib/fetchData";
 
 const mdxComponents = {
   KpssNot: KpssNotKutusu,
@@ -150,19 +150,8 @@ const mdxComponents = {
 
 async function getMdxContent(slug: string) {
   try {
-    const fs = require("node:fs");
-    const path = require("node:path");
-
-    // Önce public/content dene (local dev)
-    let filePath = path.join(process.cwd(), "public", "content", "konu", `${slug}.mdx`);
-    if (!fs.existsSync(filePath)) {
-      // Sonra content dene (production build)
-      filePath = path.join(process.cwd(), "content", "konu", `${slug}.mdx`);
-    }
-    if (!fs.existsSync(filePath)) {
-      return null;
-    }
-    const raw = fs.readFileSync(filePath, "utf8");
+    const raw = await fetchPublicText(`content/konu/${slug}.mdx`);
+    if (!raw) return null;
     const { content, data } = matter(raw);
     return { content, frontmatter: data };
   } catch {
@@ -208,7 +197,7 @@ function parseToc(content: string, faqs: FAQ[]): TocItem[] {
 }
 
 export async function generateStaticParams() {
-  const konular = getAllKonular();
+  const konular = await getAllKonular();
   return konular.map((k) => ({ slug: k.slug }));
 }
 
@@ -217,7 +206,7 @@ export async function generateMetadata({
 }: {
   params: { slug: string };
 }): Promise<Metadata> {
-  const konu = getKonu(params.slug);
+  const konu = await getKonu(params.slug);
   const mdx = await getMdxContent(params.slug);
   if (!konu) return {};
   const title = mdx?.frontmatter?.title || `${konu.baslik}`;
@@ -268,17 +257,17 @@ export async function generateMetadata({
 }
 
 export default async function KonuPage({ params }: { params: { slug: string } }) {
-  const konu = getKonu(params.slug);
+  const konu = await getKonu(params.slug);
   const mdx = await getMdxContent(params.slug);
-  const faqs = getKonuFaq(params.slug);
+  const faqs = await getKonuFaq(params.slug);
 
   if (!konu) notFound();
 
-  const tumKonular = getAllKonular();
-  const { prev, next } = getNextPrevKonu(params.slug);
+  const tumKonular = await getAllKonular();
+  const { prev, next } = getNextPrevKonu(params.slug, tumKonular);
   const tocItems = mdx ? parseToc(mdx.content, faqs) : [];
 
-  const linkedContent = mdx ? linkKeywords(mdx.content, params.slug) : "";
+  const linkedContent = mdx ? linkKeywords(mdx.content, params.slug, tumKonular) : "";
   const metaDesc = mdx?.frontmatter?.description || konu.aciklama;
 
   return (

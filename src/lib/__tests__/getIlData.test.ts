@@ -44,36 +44,36 @@ describe("getIlData", () => {
   });
 
   describe("getAllIller", () => {
-    it("should return array of iller", () => {
-      const iller = getAllIller();
+    it("should return array of iller", async () => {
+      const iller = await getAllIller();
       expect(Array.isArray(iller)).toBe(true);
     });
   });
 
   describe("getIl", () => {
-    it("should return undefined for non-existent il", () => {
-      const il = getIl("non-existent-slug");
+    it("should return undefined for non-existent il", async () => {
+      const il = await getIl("non-existent-slug");
       expect(il).toBeUndefined();
     });
   });
 
   describe("getIllerByBolge", () => {
-    it("should return array", () => {
-      const iller = getIllerByBolge("akdeniz");
+    it("should return array", async () => {
+      const iller = await getIllerByBolge("akdeniz");
       expect(Array.isArray(iller)).toBe(true);
     });
   });
 
   describe("getKonuMatris", () => {
-    it("should handle non-existent matris gracefully", () => {
-      const matris = getKonuMatris("non-existent-konu");
+    it("should handle non-existent matris gracefully", async () => {
+      const matris = await getKonuMatris("non-existent-konu");
       expect(matris).toBeNull();
     });
   });
 
   describe("getIlKonuData", () => {
-    it("should return null for non-existent data", () => {
-      const data = getIlKonuData("invalid-il", "invalid-konu");
+    it("should return null for non-existent data", async () => {
+      const data = await getIlKonuData("invalid-il", "invalid-konu");
       expect(data).toBeNull();
     });
   });

@@ -60,12 +60,12 @@ export async function generateMetadata({
   };
 }
 
-export default function BolgePage({ params }: { params: { bolge: string } }) {
+export default async function BolgePage({ params }: { params: { bolge: string } }) {
   const bolge = getBolgeByUrl(params.bolge);
   if (!bolge) notFound();
 
-  const iller = getIllerByBolge(bolge.slug);
-  const veriler = getBolgeVerileri(bolge.slug);
+  const iller = await getIllerByBolge(bolge.slug);
+  const veriler = await getBolgeVerileri(bolge.slug);
 
   const toplamNufus = iller.reduce((acc, curr) => acc + curr.nufus_2023, 0);
   const toplamAlan = iller.reduce((acc, curr) => acc + curr.yuzolcumu_km2, 0);

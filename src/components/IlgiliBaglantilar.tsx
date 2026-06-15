@@ -7,9 +7,8 @@ interface IlgiliBaglantilarProps {
   slug: string;
 }
 
-export default function IlgiliBaglantilar({ tip, slug }: IlgiliBaglantilarProps) {
-  const konular = getAllKonular();
-  const iller = getAllIller();
+export default async function IlgiliBaglantilar({ tip, slug }: IlgiliBaglantilarProps) {
+  const [konular, iller] = await Promise.all([getAllKonular(), getAllIller()]);
 
   if (tip === "il") {
     const il = iller.find((i) => i.slug === slug);

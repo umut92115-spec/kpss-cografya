@@ -12,7 +12,7 @@ import { getIlJsonLd } from "@/lib/geoMeta";
 import MiniIlHaritasi from "@/components/MiniIlHaritasi";
 
 export async function generateStaticParams() {
-  const iller = getAllIller();
+  const iller = await getAllIller();
   return iller.map((il) => ({
     bolge: `${il.bolge_slug}bolgesi`,
     slug: il.slug,
@@ -24,9 +24,9 @@ export async function generateMetadata({
 }: {
   params: { bolge: string; slug: string };
 }): Promise<Metadata> {
-  const il = getIl(params.slug);
+  const il = await getIl(params.slug);
   if (!il) return {};
-  const ilOzet = getIlOzet(params.slug);
+  const ilOzet = await getIlOzet(params.slug);
   const description = `${il.ad} ili KPSS coğrafya özeti: ${ilOzet?.[0] || `${il.ad} ilinin fiziki, beşeri ve ekonomik coğrafya özellikleri.`}`;
   return {
     title: `${il.ad} Coğrafyası — KPSS Hazırlık Ansiklopedisi`,
@@ -66,21 +66,37 @@ export async function generateMetadata({
   };
 }
 
-export default function IlPage({ params }: { params: { bolge: string; slug: string } }) {
-  const il = getIl(params.slug);
+export default async function IlPage({ params }: { params: { bolge: string; slug: string } }) {
+  const il = await getIl(params.slug);
   if (!il) notFound();
 
-  const tumKonular = getAllKonular();
-  const ilOzet = getIlOzet(params.slug);
-  const tumKonularFiltreli = tumKonular.filter((k) => k.slug !== "sozluk");
-  const konuVerileri = Object.fromEntries(
-    tumKonularFiltreli.map((konu) => [konu.slug, getIlKonuData(il.slug, konu.slug)])
-  );
+  const tumKonular = await getAllKonular();
+  const ilOzet = await getIlOzet(params.slug);
+  const tumIller = await getAllIller();
 
-  const ilFaqs = tumKonularFiltreli
-    .flatMap((k) => getKonuFaq(k.slug).slice(0, 2))
+  const tumKonularFiltreli = tumKonular.filter((k) => k.slug !== "sozluk");
+
+  // Tüm konu verilerini paralel olarak çek
+  const konuVerileriEntries = await Promise.all(
+    tumKonularFiltreli.map(async (konu) => [konu.slug, await getIlKonuData(il.slug, konu.slug)])
+  );
+  const konuVerileri = Object.fromEntries(konuVerileriEntries);
+
+  // FAQ verilerini paralel olarak çek
+  const faqEntries = await Promise.all(
+    tumKonularFiltreli.map(async (k) => {
+      const faqs = await getKonuFaq(k.slug);
+      return faqs.slice(0, 2);
+    })
+  );
+  const ilFaqs = faqEntries
+    .flat()
     .filter((f) => f?.q && f?.a)
     .slice(0, 10);
+
+  const bolgeIlleriSlugs = tumIller
+    .filter((i) => i.bolge_slug === il.bolge_slug)
+    .map((i) => i.slug);
 
   const nufusFormatli = new Intl.NumberFormat("tr-TR").format(il.nufus_2023);
   const alanFormatli = new Intl.NumberFormat("tr-TR").format(il.yuzolcumu_km2);
@@ -201,9 +217,7 @@ export default function IlPage({ params }: { params: { bolge: string; slug: stri
               <div className="bg-ink-50 rounded-xl border border-ink-100 overflow-hidden h-[320px] lg:h-full min-h-[320px]">
                 <MiniIlHaritasi
                   secilenIlSlug={il.slug}
-                  bolgeIlleri={getAllIller()
-                    .filter((i) => i.bolge_slug === il.bolge_slug)
-                    .map((i) => i.slug)}
+                  bolgeIlleri={bolgeIlleriSlugs}
                   ilAdi={il.ad}
                   bolgeAdi={il.bolge}
                 />
@@ -234,7 +248,7 @@ export default function IlPage({ params }: { params: { bolge: string; slug: stri
               Aynı Bölgedeki İller
             </h2>
             <div className="flex flex-wrap gap-2">
-              {getAllIller()
+              {tumIller
                 .filter((i) => i.bolge === il.bolge && i.slug !== il.slug)
                 .map((komsu) => (
                   <Link

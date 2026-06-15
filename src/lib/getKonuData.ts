@@ -1,36 +1,17 @@
-/* eslint-disable @typescript-eslint/no-require-imports */
 import { Konu, FAQ } from "@/types";
+import { fetchPublicData } from "./fetchData";
 
-const konularCache: Konu[] | null = null;
-const faqCache = new Map<string, FAQ[]>();
-
-function getData<T>(path: string): T | null {
-  try {
-    const fs = require("node:fs");
-    const filePath = require("node:path").join(process.cwd(), "public", path);
-    if (fs.existsSync(filePath)) {
-      return JSON.parse(fs.readFileSync(filePath, "utf8"));
-    }
-  } catch (err) {
-    console.error(`Data okunamadı: ${path}`, err);
-  }
-  return null;
+export async function getAllKonular(): Promise<Konu[]> {
+  const data = await fetchPublicData<Konu[]>("data/konular.json");
+  return data || [];
 }
 
-export function getAllKonular(): Konu[] {
-  if (konularCache) return konularCache;
-  return getData<Konu[]>("data/konular.json") || [];
+export async function getKonu(slug: string): Promise<Konu | undefined> {
+  const konular = await getAllKonular();
+  return konular.find((konu) => konu.slug === slug);
 }
 
-export function getKonu(slug: string): Konu | undefined {
-  return getAllKonular().find((konu) => konu.slug === slug);
-}
-
-export function getKonuFaq(slug: string): FAQ[] {
-  if (faqCache.has(slug)) return faqCache.get(slug)!;
-
-  const faqData = getData<Record<string, FAQ[]>>("data/faq-konular.json");
-  const result = faqData?.[slug] ?? [];
-  faqCache.set(slug, result);
-  return result;
+export async function getKonuFaq(slug: string): Promise<FAQ[]> {
+  const faqData = await fetchPublicData<Record<string, FAQ[]>>("data/faq-konular.json");
+  return faqData?.[slug] ?? [];
 }

@@ -1,14 +1,14 @@
-/* eslint-disable @typescript-eslint/no-require-imports */
 import { MetadataRoute } from "next";
 import { getAllIller, bolgeler } from "@/lib/getIlData";
 import { getAllKonular } from "@/lib/getKonuData";
+import { fetchPublicData } from "@/lib/fetchData";
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = "https://kpsscografya.com.tr";
   const updateDate = new Date("2026-05-17");
 
-  const iller = getAllIller();
-  const konular = getAllKonular();
+  const iller = await getAllIller();
+  const konular = await getAllKonular();
 
   const ilUrls = iller.flatMap((il) => [
     {
@@ -136,29 +136,27 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
-  // Quiz sayfaları dinamik ekleme
-  let quizUrls: MetadataRoute.Sitemap = [];
-  if (typeof process !== "undefined" && process.env.NEXT_RUNTIME !== "edge") {
-    try {
-      const fs = require("node:fs");
-      const path = require("node:path");
-      const quizDir = path.join(process.cwd(), "data", "quiz");
-      if (fs.existsSync(quizDir)) {
-        const quizFiles = fs.readdirSync(quizDir).filter((file: string) => file.endsWith(".json"));
-        quizUrls = quizFiles.map((file: string) => {
-          const slug = file.replace(".json", "");
-          return {
-            url: `${baseUrl}/quiz/${slug}`,
-            lastModified: updateDate,
-            changeFrequency: "weekly" as const,
-            priority: 0.7,
-          };
-        });
-      }
-    } catch (e) {
-      console.error("Sitemap quiz read error:", e);
-    }
+  // Quiz sayfaları — konular listesinden üret (fs kullanmadan)
+  const quizUrls: MetadataRoute.Sitemap = konular.map((konu) => ({
+    url: `${baseUrl}/quiz/${konu.slug}`,
+    lastModified: updateDate,
+    changeFrequency: "weekly" as const,
+    priority: 0.7,
+  }));
+
+  // Ek quiz JSON'ları varsa kontrol et (opsiyonel, fetch ile)
+  interface QuizIndex {
+    slugs?: string[];
   }
+  const quizIndex = await fetchPublicData<QuizIndex>("data/quiz-index.json").catch(() => null);
+  const extraQuizUrls: MetadataRoute.Sitemap = (quizIndex?.slugs || [])
+    .filter((slug) => !konular.find((k) => k.slug === slug))
+    .map((slug) => ({
+      url: `${baseUrl}/quiz/${slug}`,
+      lastModified: updateDate,
+      changeFrequency: "weekly" as const,
+      priority: 0.7,
+    }));
 
   return [
     {
@@ -175,5 +173,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...hazirlikUrls,
     ...makaleUrls,
     ...quizUrls,
+    ...extraQuizUrls,
   ];
 }

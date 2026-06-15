@@ -6,22 +6,22 @@ vi.mock("fs");
 
 describe("getKonuData", () => {
   describe("getAllKonular", () => {
-    it("should return array of konular", () => {
-      const konular = getAllKonular();
+    it("should return array of konular", async () => {
+      const konular = await getAllKonular();
       expect(Array.isArray(konular)).toBe(true);
     });
 
-    it("should cache konular after first call", () => {
-      const first = getAllKonular();
-      const second = getAllKonular();
+    it("should cache konular after first call", async () => {
+      const first = await getAllKonular();
+      const second = await getAllKonular();
       expect(first).toEqual(second); // Same content due to caching
       expect(first).toHaveLength(20); // Verify we have expected number of konular
     });
   });
 
   describe("getKonu", () => {
-    it("should return konu by slug", () => {
-      const konu = getKonu("daglar");
+    it("should return konu by slug", async () => {
+      const konu = await getKonu("daglar");
       if (konu) {
         expect(konu).toHaveProperty("slug");
         expect(konu).toHaveProperty("baslik");
@@ -29,26 +29,26 @@ describe("getKonuData", () => {
       }
     });
 
-    it("should return undefined for non-existent konu", () => {
-      const konu = getKonu("non-existent-konu");
+    it("should return undefined for non-existent konu", async () => {
+      const konu = await getKonu("non-existent-konu");
       expect(konu).toBeUndefined();
     });
   });
 
   describe("getKonuFaq", () => {
-    it("should return array of FAQs", () => {
-      const faqs = getKonuFaq("daglar");
+    it("should return array of FAQs", async () => {
+      const faqs = await getKonuFaq("daglar");
       expect(Array.isArray(faqs)).toBe(true);
     });
 
-    it("should return empty array for non-existent konu", () => {
-      const faqs = getKonuFaq("non-existent-konu");
+    it("should return empty array for non-existent konu", async () => {
+      const faqs = await getKonuFaq("non-existent-konu");
       expect(Array.isArray(faqs)).toBe(true);
       expect(faqs).toHaveLength(0);
     });
 
-    it("should validate FAQ structure if exists", () => {
-      const faqs = getKonuFaq("daglar");
+    it("should validate FAQ structure if exists", async () => {
+      const faqs = await getKonuFaq("daglar");
       if (faqs.length > 0) {
         const faq = faqs[0];
         expect(faq).toHaveProperty("q");

@@ -40,12 +40,12 @@ export const metadata: Metadata = {
   },
 };
 
-export default function HaritaPage() {
-  const tumKonular = getAllKonular();
+export default async function HaritaPage() {
+  const tumKonular = await getAllKonular();
   const varsayilanKonu = tumKonular[0];
-  const konuMeta = getKonu(varsayilanKonu.slug)!;
-  const matrisData = getKonuMatris(varsayilanKonu.slug);
-  const iller = getAllIller();
+  const konuMeta = (await getKonu(varsayilanKonu.slug))!;
+  const matrisData = await getKonuMatris(varsayilanKonu.slug);
+  const iller = await getAllIller();
 
   // SSS listesi
   const sssListesi = [

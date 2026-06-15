@@ -15,6 +15,21 @@ interface SuperDetayRenderProps {
   temaRenk?: string;
 }
 
+async function IlHaritaSection({ ilSlug }: { ilSlug: string }) {
+  const il = await getIl(ilSlug);
+  if (!il) return null;
+  const tumIller = await getAllIller();
+  const bolgeIlleri = tumIller.filter((i) => i.bolge_slug === il.bolge_slug).map((i) => i.slug);
+  return (
+    <MiniIlHaritasi
+      secilenIlSlug={ilSlug}
+      bolgeIlleri={bolgeIlleri}
+      ilAdi={il.ad}
+      bolgeAdi={il.bolge}
+    />
+  );
+}
+
 export default function SuperDetayRender({
   data,
   ilAd,
@@ -109,6 +124,7 @@ export default function SuperDetayRender({
                       </tr>
                     </thead>
                     <tbody>
+                      {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
                       {(Array.isArray(section.data[0]) ? section.data.slice(1) : section.data).map(
                         (row: any, i: number) => (
                           <tr
@@ -124,7 +140,8 @@ export default function SuperDetayRender({
                                     {val}
                                   </td>
                                 ))
-                              : Object.values(row || {}).map((val: any, j: number) => (
+                              : /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
+                                Object.values(row || {}).map((val: any, j: number) => (
                                   <td
                                     key={j}
                                     className="px-4 py-3 border-r border-ink-200 dark:border-ink-700 last:border-r-0 font-medium text-ink-900 dark:text-ink-100"
@@ -148,22 +165,7 @@ export default function SuperDetayRender({
 
             {section.type === "map" && ilSlug && (
               <div className="w-full h-[400px] md:h-[500px] relative mt-6 rounded-2xl overflow-hidden shadow-sm border border-ink-150 dark:border-ink-700 bg-white dark:bg-ink-800">
-                {(() => {
-                  const il = getIl(ilSlug);
-                  const bolgeIlleri = il
-                    ? getAllIller()
-                        .filter((i) => i.bolge_slug === il.bolge_slug)
-                        .map((i) => i.slug)
-                    : [];
-                  return il ? (
-                    <MiniIlHaritasi
-                      secilenIlSlug={ilSlug}
-                      bolgeIlleri={bolgeIlleri}
-                      ilAdi={il.ad}
-                      bolgeAdi={il.bolge}
-                    />
-                  ) : null;
-                })()}
+                <IlHaritaSection ilSlug={ilSlug} />
               </div>
             )}
             {section.type === "map" && (!konuSlug || !ilSlug) && (

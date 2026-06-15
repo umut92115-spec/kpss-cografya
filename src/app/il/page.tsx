@@ -22,8 +22,8 @@ const bolgeStil: Record<string, { accent: string; bg: string; icon: string }> = 
   "Güneydoğu Anadolu": { accent: "text-red-600", bg: "bg-red-50 border-red-100", icon: "🏜️" },
 };
 
-export default function IllerPage() {
-  const iller = getAllIller();
+export default async function IllerPage() {
+  const iller = await getAllIller();
 
   const bolgeMap: Record<string, Il[]> = {};
   for (const il of iller) {

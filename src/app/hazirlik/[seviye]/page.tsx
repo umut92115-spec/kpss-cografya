@@ -58,11 +58,11 @@ const oncelikRenk: Record<string, string> = {
   Normal: "bg-green-100 text-green-700",
 };
 
-export default function SeviyePage({ params }: { params: { seviye: string } }) {
+export default async function SeviyePage({ params }: { params: { seviye: string } }) {
   const s = getSeviye(params.seviye);
   if (!s) notFound();
 
-  const konular = getAllKonular();
+  const konular = await getAllKonular();
 
   return (
     <div className="min-h-screen bg-white">

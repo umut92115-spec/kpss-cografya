@@ -7,8 +7,8 @@ const hizliLinkler = [
   { href: "/gizlilik", label: "Gizlilik Politikası" },
 ];
 
-export default function Footer() {
-  const konular = getAllKonular();
+export default async function Footer() {
+  const konular = await getAllKonular();
 
   return (
     <footer className="bg-ink-900 text-ink-300">

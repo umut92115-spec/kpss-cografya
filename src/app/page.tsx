@@ -61,8 +61,8 @@ const araclar = [
   },
 ];
 
-export default function Home() {
-  const konular = getAllKonular();
+export default async function Home() {
+  const konular = await getAllKonular();
 
   return (
     <div className="min-h-screen">

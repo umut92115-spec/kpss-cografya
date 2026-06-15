@@ -9,8 +9,7 @@ import FaqAccordion from "@/components/FaqAccordion";
 import JsonLd from "@/components/JsonLd";
 
 export async function generateStaticParams() {
-  const iller = getAllIller();
-  const konular = getAllKonular();
+  const [iller, konular] = await Promise.all([getAllIller(), getAllKonular()]);
 
   const params = [];
   for (const il of iller) {
@@ -31,11 +30,10 @@ export async function generateMetadata({
 }: {
   params: { bolge: string; slug: string; konu: string };
 }): Promise<Metadata> {
-  const il = getIl(params.slug);
-  const konu = getKonu(params.konu);
+  const [il, konu] = await Promise.all([getIl(params.slug), getKonu(params.konu)]);
   if (!il || !konu || konu.slug === "sozluk") return {};
 
-  const data = getIlKonuData(il.slug, konu.slug);
+  const data = await getIlKonuData(il.slug, konu.slug);
   const superDetay = data?.super_detay;
 
   const title = superDetay?.title || `${il.ad} ${konu.baslik} Akademik Analizi (2026 KPSS)`;
@@ -78,25 +76,32 @@ export async function generateMetadata({
   };
 }
 
-export default function IlKonuDetayPage({
+export default async function IlKonuDetayPage({
   params,
 }: {
   params: { bolge: string; slug: string; konu: string };
 }) {
-  const il = getIl(params.slug);
-  const konu = getKonu(params.konu);
+  const [il, konu, iller, tumKonular] = await Promise.all([
+    getIl(params.slug),
+    getKonu(params.konu),
+    getAllIller(),
+    getAllKonular(),
+  ]);
+
   if (!il || !konu || konu.slug === "sozluk") notFound();
 
-  const data = getIlKonuData(il.slug, konu.slug);
+  const data = await getIlKonuData(il.slug, konu.slug);
 
-  const iller = getAllIller();
-  const matrisData = iller.reduce(
-    (acc, curr) => {
-      const d = getIlKonuData(curr.slug, konu.slug);
-      if (d) acc[curr.slug] = d;
-      return acc;
-    },
-    {} as Record<string, any>
+  // Tüm iller için matris verisi
+  const matrisEntries = await Promise.all(
+    iller.map(async (curr) => {
+      const d = await getIlKonuData(curr.slug, konu.slug);
+      return [curr.slug, d] as const;
+    })
+  );
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const matrisData: Record<string, any> = Object.fromEntries(
+    matrisEntries.filter(([, d]) => d !== null)
   );
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -106,12 +111,16 @@ export default function IlKonuDetayPage({
   const superDetayFaqs: { q: string; a: string }[] = (data?.super_detay?.faqs ?? []).filter(
     (f) => f.q && f.a
   );
-  const effectiveFaqs =
-    matrisFaqs.length > 0
-      ? matrisFaqs
-      : superDetayFaqs.length > 0
-        ? superDetayFaqs
-        : getKonuFaq(konu.slug).filter((f) => f.q && f.a);
+
+  let effectiveFaqs: { q: string; a: string }[];
+  if (matrisFaqs.length > 0) {
+    effectiveFaqs = matrisFaqs;
+  } else if (superDetayFaqs.length > 0) {
+    effectiveFaqs = superDetayFaqs;
+  } else {
+    const konuFaqs = await getKonuFaq(konu.slug);
+    effectiveFaqs = konuFaqs.filter((f) => f.q && f.a);
+  }
 
   if (!data?.super_detay) {
     return (
@@ -318,7 +327,7 @@ export default function IlKonuDetayPage({
         <div className="mt-12 pt-8 border-t border-ink-100">
           <h3 className="text-lg font-bold text-ink-900 mb-4">{il.ad} — Diğer Konular</h3>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-            {getAllKonular()
+            {tumKonular
               .filter((k) => k.slug !== konu.slug && k.slug !== "sozluk")
               .slice(0, 4)
               .map((k) => (

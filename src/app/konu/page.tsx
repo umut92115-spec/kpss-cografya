@@ -11,8 +11,8 @@ export const metadata: Metadata = {
   },
 };
 
-export default function KonularPage() {
-  const konular = getAllKonular();
+export default async function KonularPage() {
+  const konular = await getAllKonular();
 
   return (
     <div className="min-h-screen bg-[var(--background)] py-14 md:py-20">
