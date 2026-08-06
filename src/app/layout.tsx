@@ -1,5 +1,5 @@
+/* eslint-disable @next/next/next-script-for-ga */
 import type { Metadata } from "next";
-import Script from "next/script";
 import { Inter, Outfit } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
@@ -138,6 +138,18 @@ export default function RootLayout({
             },
           }}
         />
+        {/* Google Analytics */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-SGTYB5MD7V"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-SGTYB5MD7V');
+            `,
+          }}
+        />
       </head>
       <body
         className={`${inter.variable} ${outfit.variable} font-sans antialiased bg-[var(--background)] text-ink-800 dark:text-ink-200 selection:bg-focus-100 selection:text-focus-800`}
@@ -150,23 +162,6 @@ export default function RootLayout({
         </ThemeProvider>
         <Analytics />
         <SpeedInsights />
-        {/* Google Analytics */}
-        {process.env.NEXT_PUBLIC_GA_ID && (
-          <>
-            <Script
-              src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_ID}`}
-              strategy="afterInteractive"
-            />
-            <Script id="google-analytics" strategy="afterInteractive">
-              {`
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', '${process.env.NEXT_PUBLIC_GA_ID}');
-              `}
-            </Script>
-          </>
-        )}
       </body>
     </html>
   );

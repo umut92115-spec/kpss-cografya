@@ -1,27 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  pageExtensions: ["js", "jsx", "mdx", "ts", "tsx"],
-  trailingSlash: false,
-
-  transpilePackages: ["next-mdx-remote", "remark-gfm"],
+  output: 'export',
+  pageExtensions: ['js', 'jsx', 'mdx', 'ts', 'tsx'],
+  trailingSlash: true,
   images: {
-    remotePatterns: [],
-  },
-  async redirects() {
-    return [
-      // www → non-www kalıcı yönlendirme
-      {
-        source: "/:path*",
-        has: [
-          {
-            type: "host",
-            value: "www.kpsscografya.com.tr",
-          },
-        ],
-        destination: "https://kpsscografya.com.tr/:path*",
-        permanent: true,
-      },
-    ];
+    unoptimized: true,
   },
 };
 

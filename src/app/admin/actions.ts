@@ -1,4 +1,4 @@
-"use server";
+// Client/static compatible stub action
 
 export async function deleteSoruAction(konuSlug: string, soruId: string) {
   // Cloudflare Workers ortamında dosya yazma yetkisi olmadığı için bu işlem devre dışı bırakılmıştır.

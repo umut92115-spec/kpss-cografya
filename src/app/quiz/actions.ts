@@ -1,4 +1,4 @@
-"use server";
+// Client/static compatible stub action
 
 export async function generateDenemeAction(): Promise<{
   success: boolean;

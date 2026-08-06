@@ -43,7 +43,7 @@ const araclar = [
     aciklama:
       "Çıkmış KPSS soruları ile kendini test et. Detaylı analiz ve skor takibi ile ilerlemeni gör.",
     href: "/quiz",
-    etiket: "200+ Soru",
+    etiket: "3800+ Soru",
     gradient: "from-focus-50 to-focus-100/50",
     iconBg: "bg-focus-100",
     badge: "text-focus-700 bg-focus-50 border-focus-200",
@@ -230,7 +230,7 @@ export default async function Home() {
             {[
               { val: "10", lab: "Temel Konu", icon: "📖" },
               { val: "81", lab: "İnteraktif İl", icon: "🗺️" },
-              { val: "200+", lab: "Özgün Soru", icon: "✍️" },
+              { val: "3800+", lab: "Özgün Soru", icon: "✍️" },
               { val: "100%", lab: "Ücretsiz", icon: "🎁" },
             ].map((stat, i) => (
               <div

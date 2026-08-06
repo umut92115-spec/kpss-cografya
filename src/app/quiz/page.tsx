@@ -3,7 +3,7 @@ import { Metadata } from "next";
 import QuizClient from "./QuizClient";
 
 export const metadata: Metadata = {
-  title: "KPSS Coğrafya Soru Bankası — 2000+ Soru & Güncel Deneme Sınavları",
+  title: "KPSS Coğrafya Soru Bankası — 3800+ Soru & Güncel Deneme Sınavları",
   description:
     "KPSS coğrafya konularına göre hazırlanmış interaktif testler. Çıkmış sorular, süreli sınavlar, doğru-yanlış analizleri ve skor tablosu. Hemen kendini test et!",
   alternates: {
