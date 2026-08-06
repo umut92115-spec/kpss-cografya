@@ -130,11 +130,20 @@ export default function RootLayout({
             name: "KPSS Coğrafya",
             url: "https://kpsscografya.com.tr",
             logo: "https://kpsscografya.com.tr/icon-512.png",
-            sameAs: [],
+            publishingPrinciples: "https://kpsscografya.com.tr/editoryal-politika",
+            ethicsPolicy: "https://kpsscografya.com.tr/editoryal-politika#hata-bildirimi",
+            knowsAbout: [
+              "KPSS Coğrafya",
+              "Türkiye Fiziki ve Beşeri Coğrafyası",
+              "TÜİK Veri Analizi",
+              "İnteraktif Harita Analizleri",
+            ],
+            sameAs: ["https://www.tuik.gov.tr", "https://www.mta.gov.tr"],
             contactPoint: {
               "@type": "ContactPoint",
               contactType: "customer support",
               availableLanguage: "Turkish",
+              url: "https://kpsscografya.com.tr/iletisim",
             },
           }}
         />
