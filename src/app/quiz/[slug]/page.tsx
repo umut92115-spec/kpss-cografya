@@ -7,11 +7,12 @@ import QuizModu from "@/components/QuizModu";
 import JsonLd from "@/components/JsonLd";
 import IlgiliBaglantilar from "@/components/IlgiliBaglantilar";
 
+import konularData from "../../../../data/konular.json";
+
 export const dynamicParams = false;
 
-export async function generateStaticParams() {
-  const konular = await getAllKonular();
-  return konular.map((k) => ({ slug: k.slug }));
+export function generateStaticParams() {
+  return konularData.map((k) => ({ slug: k.slug }));
 }
 
 export async function generateMetadata({

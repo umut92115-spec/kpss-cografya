@@ -196,9 +196,10 @@ function parseToc(content: string, faqs: FAQ[]): TocItem[] {
   return items;
 }
 
-export async function generateStaticParams() {
-  const konular = await getAllKonular();
-  return konular.map((k) => ({ slug: k.slug }));
+import konularData from "../../../../data/konular.json";
+
+export function generateStaticParams() {
+  return konularData.map((k) => ({ slug: k.slug }));
 }
 
 export async function generateMetadata({
