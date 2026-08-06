@@ -1,4 +1,3 @@
-export const dynamicParams = false;
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
@@ -7,6 +6,8 @@ import { getQuizData } from "@/lib/getQuizData";
 import QuizModu from "@/components/QuizModu";
 import JsonLd from "@/components/JsonLd";
 import IlgiliBaglantilar from "@/components/IlgiliBaglantilar";
+
+export const dynamicParams = false;
 
 export async function generateStaticParams() {
   const konular = await getAllKonular();

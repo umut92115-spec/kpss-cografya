@@ -1,9 +1,9 @@
 import { Konu, FAQ } from "@/types";
+import konularData from "../../data/konular.json";
 import { fetchPublicData } from "./fetchData";
 
 export async function getAllKonular(): Promise<Konu[]> {
-  const data = await fetchPublicData<Konu[]>("data/konular.json");
-  return data || [];
+  return (konularData as Konu[]) || [];
 }
 
 export async function getKonu(slug: string): Promise<Konu | undefined> {
