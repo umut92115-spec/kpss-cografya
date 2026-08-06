@@ -15,6 +15,7 @@ import IlgiliBaglantilar from "@/components/IlgiliBaglantilar";
 import GorselHafizaKarti from "@/components/GorselHafizaKarti";
 import SmartFAQ from "@/components/SmartFAQ";
 import StatCards from "@/components/StatCards";
+import EEATKutusu from "@/components/EEATKutusu";
 
 import { linkKeywords, getNextPrevKonu } from "@/lib/linkUtils";
 import remarkGfm from "remark-gfm";
@@ -196,10 +197,9 @@ function parseToc(content: string, faqs: FAQ[]): TocItem[] {
   return items;
 }
 
-import konularData from "../../../../data/konular.json";
-
-export function generateStaticParams() {
-  return konularData.map((k) => ({ slug: k.slug }));
+export async function generateStaticParams() {
+  const konular = await getAllKonular();
+  return konular.map((k) => ({ slug: k.slug }));
 }
 
 export async function generateMetadata({
@@ -282,6 +282,18 @@ export default async function KonuPage({ params }: { params: { slug: string } })
           teaches: konu.baslik,
           inLanguage: "tr",
           isAccessibleForFree: true,
+          author: {
+            "@type": "Organization",
+            name: "KPSS Coğrafya Akademik İçerik Kurulu",
+            url: "https://kpsscografya.com.tr/uzmanlarimiz",
+          },
+          reviewedBy: {
+            "@type": "Person",
+            name: "Uzman Coğrafya Eğitmen Kadrosu",
+            url: "https://kpsscografya.com.tr/uzmanlarimiz",
+          },
+          citation: ["https://www.tuik.gov.tr", "https://www.mta.gov.tr", "https://www.mgm.gov.tr"],
+          publishingPrinciples: "https://kpsscografya.com.tr/editoryal-politika",
           provider: {
             "@type": "EducationalOrganization",
             name: "kpsscografya.com.tr",
@@ -424,6 +436,8 @@ export default async function KonuPage({ params }: { params: { slug: string } })
             )}
 
             <IlgiliBaglantilar tip="konu" slug={konu.slug} />
+
+            <EEATKutusu />
 
             {/* Navigasyon */}
             <div className="mt-12 flex flex-col sm:flex-row gap-3 border-t border-ink-100 pt-8">
