@@ -9,6 +9,7 @@ import DailyRewardHandler from "@/components/DailyRewardHandler";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import JsonLd from "@/components/JsonLd";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"], display: "swap", variable: "--font-inter" });
 const outfit = Outfit({ subsets: ["latin"], display: "swap", variable: "--font-outfit" });
@@ -148,8 +149,13 @@ export default function RootLayout({
           }}
         />
         {/* Google Analytics */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-SGTYB5MD7V"></script>
-        <script
+        <Script
+          strategy="afterInteractive"
+          src="https://www.googletagmanager.com/gtag/js?id=G-SGTYB5MD7V"
+        />
+        <Script
+          id="google-analytics"
+          strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: `
               window.dataLayer = window.dataLayer || [];
@@ -158,6 +164,13 @@ export default function RootLayout({
               gtag('config', 'G-SGTYB5MD7V');
             `,
           }}
+        />
+        {/* Google AdSense */}
+        <Script
+          async
+          strategy="afterInteractive"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8803001562686161"
+          crossOrigin="anonymous"
         />
       </head>
       <body
